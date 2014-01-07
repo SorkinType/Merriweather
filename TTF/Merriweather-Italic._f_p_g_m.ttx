@@ -1,0 +1,2687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ttFont ttLibVersion="2.4">
+
+  <fpgm>
+    <assembly>
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      FDEF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      NEQ[ ]
+      IF[ ]
+      RCVT[ ]
+      EIF[ ]
+      DUP[ ]
+      DUP[ ]
+      MPPEM[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      24
+      LTEQ[ ]
+      MPPEM[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      GTEQ[ ]
+      AND[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      52
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      40
+      EIF[ ]
+      ADD[ ]
+      FLOOR[ ]
+      DUP[ ]
+      ROLL[ ]
+      NEQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      RCVT[ ]
+      MUL[ ]
+      SWAP[ ]
+      DIV[ ]
+      ELSE[ ]
+      POP[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      RS[ ]
+      SWAP[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 0
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      32
+      ADD[ ]
+      FLOOR[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      FDEF[ ]
+      DUP[ ]
+      ABS[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      192
+      LT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      MINDEX[ ]
+      AND[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      40 9
+      RS[ ]
+      RCVT[ ]
+      RCVT[ ]
+      GT[ ]
+      OR[ ]
+      IF[ ]
+      POP[ ]
+      SWAP[ ]
+      POP[ ]
+      ELSE[ ]
+      ROLL[ ]
+      IF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      80
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      EIF[ ]
+      ELSE[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      56
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      56
+      EIF[ ]
+      EIF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      RS[ ]
+      RCVT[ ]
+      RCVT[ ]
+      SUB[ ]
+      ABS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      40
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      RS[ ]
+      RCVT[ ]
+      RCVT[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      48
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      48
+      EIF[ ]
+      ELSE[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      192
+      LT[ ]
+      IF[ ]
+      DUP[ ]
+      FLOOR[ ]
+      DUP[ ]
+      ROLL[ ]
+      ROLL[ ]
+      SUB[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      LT[ ]
+      IF[ ]
+      ADD[ ]
+      ELSE[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      32
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      ADD[ ]
+      ELSE[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      54
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      54
+      ADD[ ]
+      ELSE[ ]
+      ADD[ ]
+      EIF[ ]
+      EIF[ ]
+      EIF[ ]
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      EIF[ ]
+      EIF[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      NEG[ ]
+      EIF[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      FDEF[ ]
+      DUP[ ]
+      RCVT[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      SUB[ ]
+      ABS[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      RS[ ]
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      SWAP[ ]
+      WS[ ]
+      ELSE[ ]
+      POP[ ]
+      POP[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      FDEF[ ]
+      SWAP[ ]
+      POP[ ]
+      SWAP[ ]
+      POP[ ]
+      DUP[ ]
+      ABS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      5 98
+      WS[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      RS[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RCVT[ ]
+      ADD[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      LOOPCALL[ ]
+      POP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      RS[ ]
+      DUP[ ]
+      ROLL[ ]
+      DUP[ ]
+      ROLL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      48 5
+      CINDEX[ ]
+      ROLL[ ]
+      LTEQ[ ]
+      IF[ ]
+      ADD[ ]
+      LT[ ]
+      ELSE[ ]
+      SUB[ ]
+      GT[ ]
+      EIF[ ]
+      IF[ ]
+      SWAP[ ]
+      EIF[ ]
+      POP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      GTEQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      ELSE[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      EIF[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      NEG[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      RS[ ]
+      CALL[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 2 0
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      SWAP[ ]
+      WS[ ]
+      SWAP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SWAP[ ]
+      WS[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      FDEF[ ]
+      DUP[ ]
+      DUP[ ]
+      RCVT[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      7 10 0
+      RS[ ]
+      RCVT[ ]
+      WS[ ]
+      LOOPCALL[ ]
+      POP[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 0
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      RS[ ]
+      SWAP[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 0
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      FDEF[ ]
+      DUP[ ]
+      DUP[ ]
+      RCVT[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      ADD[ ]
+      DUP[ ]
+      RCVT[ ]
+      ROLL[ ]
+      SWAP[ ]
+      SUB[ ]
+      DUP[ ]
+      ABS[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      32
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      48
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      32
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      EIF[ ]
+      EIF[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      NEG[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CINDEX[ ]
+      SWAP[ ]
+      SUB[ ]
+      WCVTP[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      11
+      FDEF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      LOOPCALL[ ]
+      POP[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      3 3
+      RCVT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SUB[ ]
+      WCVTP[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      13
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      DUP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      11
+      RS[ ]
+      MD[1]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      11
+      SWAP[ ]
+      WS[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      RS[ ]
+      MD[1]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      GT[ ]
+      IF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      SWAP[ ]
+      WS[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      14
+      FDEF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      16
+      DIV[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      DUP[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      MUL[ ]
+      ROLL[ ]
+      SWAP[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      13
+      RS[ ]
+      ADD[ ]
+      DUP[ ]
+      ROLL[ ]
+      ADD[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      13
+      SWAP[ ]
+      WS[ ]
+      SWAP[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      15
+      FDEF[ ]
+      MPPEM[ ]
+      EQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      6 1
+      WCVTP[ ]
+      EIF[ ]
+      DEPTH[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      13
+      NEG[ ]
+      SWAP[ ]
+      JROT[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      16
+      FDEF[ ]
+      MPPEM[ ]
+      LTEQ[ ]
+      IF[ ]
+      MPPEM[ ]
+      GTEQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      6 1
+      WCVTP[ ]
+      EIF[ ]
+      ELSE[ ]
+      POP[ ]
+      EIF[ ]
+      DEPTH[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      19
+      NEG[ ]
+      SWAP[ ]
+      JROT[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      17
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 14
+      RS[ ]
+      NEQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      14 14
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SUB[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      14
+      CALL[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      11 2
+      CINDEX[ ]
+      WS[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      12 2
+      CINDEX[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SZPS[ ]
+      SWAP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CINDEX[ ]
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      1 0
+      RS[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      WS[ ]
+      ROLL[ ]
+      ROLL[ ]
+      DUP[ ]
+      ROLL[ ]
+      SWAP[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      13
+      LOOPCALL[ ]
+      POP[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SUB[ ]
+      DUP[ ]
+      ROLL[ ]
+      SWAP[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      13
+      LOOPCALL[ ]
+      POP[ ]
+      ELSE[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      1 0
+      RS[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      13
+      LOOPCALL[ ]
+      POP[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      11
+      RS[ ]
+      GC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      RS[ ]
+      GC[1]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 0
+      SZP0[ ]
+      SWAP[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      MIAP[0]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 1
+      RS[ ]
+      ADD[ ]
+      WS[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      18
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 3
+      RCVT[ ]
+      EQ[ ]
+      IF[ ]
+      SVTCA[0]
+      PUSHB[ ]  /* 1 value pushed */
+      14
+      SWAP[ ]
+      WS[ ]
+      DUP[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RCVT[ ]
+      ADD[ ]
+      WS[ ]
+      DUP[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SUB[ ]
+      PUSHB[ ]  /* 6 values pushed */
+      15 15 1 0 13 0
+      WS[ ]
+      WS[ ]
+      ROLL[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      17 6
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      113
+      CALL[ ]
+      ELSE[ ]
+      CLEAR[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      19
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      1 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      21
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      2 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      22
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      3 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      23
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      4 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      24
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      5 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      25
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      6 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      26
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      7 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      27
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      8 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      28
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      9 18
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      29
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      CALL[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 3
+      RCVT[ ]
+      EQ[ ]
+      IF[ ]
+      SVTCA[0]
+      PUSHB[ ]  /* 1 value pushed */
+      14
+      SWAP[ ]
+      WS[ ]
+      DUP[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RCVT[ ]
+      ADD[ ]
+      WS[ ]
+      DUP[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SUB[ ]
+      PUSHB[ ]  /* 6 values pushed */
+      15 15 1 0 13 0
+      WS[ ]
+      WS[ ]
+      ROLL[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      17 6
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      113
+      CALL[ ]
+      ELSE[ ]
+      CLEAR[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      30
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      31
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      1 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      32
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      2 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      33
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      3 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      34
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      4 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      35
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      5 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      36
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      6 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      37
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      7 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      38
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      8 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      39
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      9 29
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      40
+      FDEF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      41
+      FDEF[ ]
+      DUP[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      15
+      ADD[ ]
+      DUP[ ]
+      RS[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      40
+      LOOPCALL[ ]
+      POP[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      42
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      41
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      41
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      43
+      FDEF[ ]
+      DUP[ ]
+      DUP[ ]
+      GC[1]
+      DUP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      SWAP[ ]
+      SUB[ ]
+      SHPIX[ ]
+      SWAP[ ]
+      DUP[ ]
+      ROLL[ ]
+      NEQ[ ]
+      IF[ ]
+      DUP[ ]
+      GC[1]
+      DUP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      SWAP[ ]
+      SUB[ ]
+      SHPIX[ ]
+      ELSE[ ]
+      POP[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      44
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 3
+      RCVT[ ]
+      EQ[ ]
+      IF[ ]
+      SVTCA[0]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      43
+      LOOPCALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SZP2[ ]
+      IUP[0]
+      ELSE[ ]
+      CLEAR[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      45
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      12
+      CALL[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 3
+      RCVT[ ]
+      EQ[ ]
+      IF[ ]
+      SVTCA[0]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      43
+      LOOPCALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SZP2[ ]
+      IUP[0]
+      ELSE[ ]
+      CLEAR[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      46
+      FDEF[ ]
+      DUP[ ]
+      SHC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      ADD[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      47
+      FDEF[ ]
+      SVTCA[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      RCVT[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      PUSHB[ ]  /* 5 values pushed */
+      0 0 0 0 0
+      WCVTP[ ]
+      MIAP[0]
+      SWAP[ ]
+      SHPIX[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      46 1
+      SZP2[ ]
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      48
+      FDEF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      DUP[ ]
+      GC[1]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      RS[ ]
+      SUB[ ]
+      SHPIX[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      49
+      FDEF[ ]
+      MDAP[0]
+      SLOOP[ ]
+      ALIGNRP[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      50
+      FDEF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      DUP[ ]
+      GC[1]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      10
+      RS[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      RS[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      RS[ ]
+      MUL[ ]
+      SHPIX[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      51
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      2 0
+      SZPS[ ]
+      CINDEX[ ]
+      DUP[ ]
+      MDAP[0]
+      DUP[ ]
+      GC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      MD[0]
+      ROLL[ ]
+      ROLL[ ]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      DUP[ ]
+      IF[ ]
+      DIV[ ]
+      ELSE[ ]
+      POP[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      50 1 1
+      SZP2[ ]
+      SZP1[ ]
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      52
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      RCVT[ ]
+      CALL[ ]
+      NEG[ ]
+      ROLL[ ]
+      MDAP[0]
+      SWAP[ ]
+      DUP[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      ROLL[ ]
+      SHPIX[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      53
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      RCVT[ ]
+      CALL[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      96
+      LT[ ]
+      IF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      LTEQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      2 32 3 32
+      ELSE[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      2 38 3 26
+      EIF[ ]
+      WS[ ]
+      WS[ ]
+      SWAP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      RS[ ]
+      DUP[ ]
+      ROLL[ ]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      SWAP[ ]
+      GC[0]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      DUP[ ]
+      ROLL[ ]
+      ROLL[ ]
+      SUB[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      RS[ ]
+      ADD[ ]
+      ABS[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      RS[ ]
+      SUB[ ]
+      ABS[ ]
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      RS[ ]
+      SUB[ ]
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      RS[ ]
+      ADD[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      SUB[ ]
+      SWAP[ ]
+      DUP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      MINDEX[ ]
+      SWAP[ ]
+      GC[0]
+      SUB[ ]
+      SHPIX[ ]
+      ELSE[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      RS[ ]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      RS[ ]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      ADD[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      SWAP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      CINDEX[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      MINDEX[ ]
+      SUB[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      ADD[ ]
+      ABS[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CINDEX[ ]
+      ADD[ ]
+      ABS[ ]
+      LT[ ]
+      IF[ ]
+      POP[ ]
+      ELSE[ ]
+      SWAP[ ]
+      POP[ ]
+      EIF[ ]
+      SWAP[ ]
+      DUP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      MINDEX[ ]
+      SWAP[ ]
+      GC[0]
+      SUB[ ]
+      SHPIX[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      54
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      DUP[ ]
+      DUP[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      MINDEX[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      SWAP[ ]
+      ALIGNRP[ ]
+      SHPIX[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      55
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      SWAP[ ]
+      WS[ ]
+      DUP[ ]
+      DUP[ ]
+      DUP[ ]
+      GC[0]
+      SWAP[ ]
+      GC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      SWAP[ ]
+      SUB[ ]
+      SHPIX[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      56
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      EQ[ ]
+      IF[ ]
+      MDAP[0]
+      DUP[ ]
+      ALIGNRP[ ]
+      SWAP[ ]
+      POP[ ]
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      CINDEX[ ]
+      MD[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      RCVT[ ]
+      MUL[ ]
+      SWAP[ ]
+      DUP[ ]
+      IF[ ]
+      DIV[ ]
+      ELSE[ ]
+      POP[ ]
+      EIF[ ]
+      MUL[ ]
+      PUSHW[ ]  /* 1 value pushed */
+      1024
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      SWAP[ ]
+      MDAP[0]
+      SWAP[ ]
+      DUP[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      ROLL[ ]
+      SHPIX[ ]
+      SWAP[ ]
+      POP[ ]
+      EIF[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      57
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      RS[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      DUP[ ]
+      ADD[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      32
+      ADD[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      SWAP[ ]
+      DUP[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      ROLL[ ]
+      SHPIX[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      58
+      FDEF[ ]
+      SWAP[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[0]
+      GT[ ]
+      IF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      EIF[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      59
+      FDEF[ ]
+      SWAP[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[0]
+      LT[ ]
+      IF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      EIF[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      60
+      FDEF[ ]
+      SWAP[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[0]
+      GT[ ]
+      IF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      EIF[ ]
+      SWAP[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[0]
+      LT[ ]
+      IF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      EIF[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      61
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      52
+      CALL[ ]
+      SWAP[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[0]
+      GT[ ]
+      IF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      EIF[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      62
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      53
+      CALL[ ]
+      ROLL[ ]
+      DUP[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      SWAP[ ]
+      WS[ ]
+      ROLL[ ]
+      SHPIX[ ]
+      SWAP[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[0]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[0]
+      GT[ ]
+      IF[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      EIF[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 1 value pushed */
+      42
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      63
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      MINDEX[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      RCVT[ ]
+      CALL[ ]
+      SWAP[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      DUP[ ]
+      MDAP[0]
+      SWAP[ ]
+      SHPIX[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      8 4
+      CINDEX[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      CINDEX[ ]
+      DUP[ ]
+      MDAP[0]
+      GC[1]
+      SWAP[ ]
+      GC[1]
+      SWAP[ ]
+      SUB[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      RCVT[ ]
+      CALL[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      96
+      LT[ ]
+      IF[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      LTEQ[ ]
+      IF[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      2 32 3 32
+      ELSE[ ]
+      PUSHB[ ]  /* 4 values pushed */
+      2 38 3 26
+      EIF[ ]
+      WS[ ]
+      WS[ ]
+      SWAP[ ]
+      DUP[ ]
+      GC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      ADD[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      DUP[ ]
+      ROLL[ ]
+      ROLL[ ]
+      SUB[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      RS[ ]
+      ADD[ ]
+      ABS[ ]
+      SWAP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      RS[ ]
+      SUB[ ]
+      ABS[ ]
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      RS[ ]
+      SUB[ ]
+      ELSE[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      RS[ ]
+      ADD[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CINDEX[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      DIV[ ]
+      DUP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      64
+      ADD[ ]
+      EIF[ ]
+      FLOOR[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      MUL[ ]
+      SUB[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      2
+      CINDEX[ ]
+      GC[0]
+      SUB[ ]
+      SHPIX[ ]
+      SWAP[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      SWAP[ ]
+      SHPIX[ ]
+      ELSE[ ]
+      POP[ ]
+      DUP[ ]
+      DUP[ ]
+      GC[0]
+      SWAP[ ]
+      GC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      CALL[ ]
+      SWAP[ ]
+      SUB[ ]
+      SHPIX[ ]
+      POP[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      65
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      52
+      CALL[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      66
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      53
+      CALL[ ]
+      POP[ ]
+      SWAP[ ]
+      DUP[ ]
+      DUP[ ]
+      ALIGNRP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      SWAP[ ]
+      WS[ ]
+      SWAP[ ]
+      SHPIX[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      RS[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 1 value pushed */
+      42
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      67
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZP2[ ]
+      DUP[ ]
+      GC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 1
+      SZP2[ ]
+      SZP1[ ]
+      SZP0[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 1 value pushed */
+      48
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      68
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZP2[ ]
+      DUP[ ]
+      GC[1]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 1
+      SZP2[ ]
+      SZP1[ ]
+      SZP0[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 1 value pushed */
+      48
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      69
+      FDEF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      0 1
+      SZP1[ ]
+      SZP0[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      49
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      70
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      51
+      LOOPCALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      71
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      RCVT[ ]
+      SWAP[ ]
+      DUP[ ]
+      MDAP[0]
+      DUP[ ]
+      GC[0]
+      ROLL[ ]
+      SWAP[ ]
+      SUB[ ]
+      SHPIX[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      72
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      SWAP[ ]
+      WS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      71
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      73
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 0 64
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      74
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 64
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      75
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 0 64
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      76
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 64
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      77
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 0 65
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      78
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 65
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      79
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 0 65
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      80
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 65
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      81
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 0 61
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      82
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 61
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      83
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 0 61
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      84
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 61
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      85
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 0 63
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      86
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 63
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      87
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 0 63
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      88
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 63
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      89
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 0 66
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      90
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 66
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      91
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 0 66
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      92
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 66
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      93
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 0 62
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      94
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      0 1 62
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      95
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 0 62
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      96
+      FDEF[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      1 1 62
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      97
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      54
+      CALL[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      98
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      54
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      58
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      99
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      54
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      59
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      100
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      0
+      SZPS[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      54
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      60
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      101
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      55
+      CALL[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      102
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      55
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      58
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      103
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      55
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      59
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      104
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      55
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      60
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      105
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      56
+      CALL[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      106
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      56
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      58
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      107
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      56
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      59
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      108
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      56
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      60
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      109
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      57
+      CALL[ ]
+      MDAP[0]
+      PUSHB[ ]  /* 2 values pushed */
+      42 1
+      SZP1[ ]
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      110
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      57
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      58
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      111
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      57
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      59
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      112
+      FDEF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      57
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      60
+      CALL[ ]
+      ENDF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      113
+      FDEF[ ]
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      NEG[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      DEPTH[ ]
+      LT[ ]
+      JROT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SZP2[ ]
+      IUP[0]
+      ENDF[ ]
+    </assembly>
+  </fpgm>
+
+</ttFont>

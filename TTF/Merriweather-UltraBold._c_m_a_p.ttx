@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ttFont ttLibVersion="2.4">
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x9" name="HT"/><!-- &lt;control> -->
+      <map code="0xa" name="LF"/><!-- &lt;control> -->
+      <map code="0xd" name="nonmarkingreturn#1"/><!-- &lt;control> -->
+      <map code="0x10" name="DLE"/><!-- &lt;control> -->
+      <map code="0x11" name="DC1"/><!-- &lt;control> -->
+      <map code="0x12" name="DC2"/><!-- &lt;control> -->
+      <map code="0x13" name="DC3"/><!-- &lt;control> -->
+      <map code="0x14" name="DC4"/><!-- &lt;control> -->
+      <map code="0x1e" name="RS"/><!-- &lt;control> -->
+      <map code="0x1f" name="US"/><!-- &lt;control> -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
+      <map code="0x22" name="quotedbl"/><!-- QUOTATION MARK -->
+      <map code="0x23" name="numbersign"/><!-- NUMBER SIGN -->
+      <map code="0x24" name="dollar"/><!-- DOLLAR SIGN -->
+      <map code="0x25" name="percent"/><!-- PERCENT SIGN -->
+      <map code="0x26" name="ampersand"/><!-- AMPERSAND -->
+      <map code="0x27" name="quotesingle"/><!-- APOSTROPHE -->
+      <map code="0x28" name="parenleft"/><!-- LEFT PARENTHESIS -->
+      <map code="0x29" name="parenright"/><!-- RIGHT PARENTHESIS -->
+      <map code="0x2a" name="asterisk"/><!-- ASTERISK -->
+      <map code="0x2b" name="plus"/><!-- PLUS SIGN -->
+      <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
+      <map code="0x2e" name="period"/><!-- FULL STOP -->
+      <map code="0x2f" name="slash"/><!-- SOLIDUS -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
+      <map code="0x3a" name="colon"/><!-- COLON -->
+      <map code="0x3b" name="semicolon"/><!-- SEMICOLON -->
+      <map code="0x3c" name="less"/><!-- LESS-THAN SIGN -->
+      <map code="0x3d" name="equal"/><!-- EQUALS SIGN -->
+      <map code="0x3e" name="greater"/><!-- GREATER-THAN SIGN -->
+      <map code="0x3f" name="question"/><!-- QUESTION MARK -->
+      <map code="0x40" name="at"/><!-- COMMERCIAL AT -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x5b" name="bracketleft"/><!-- LEFT SQUARE BRACKET -->
+      <map code="0x5c" name="backslash"/><!-- REVERSE SOLIDUS -->
+      <map code="0x5d" name="bracketright"/><!-- RIGHT SQUARE BRACKET -->
+      <map code="0x5e" name="asciicircum"/><!-- CIRCUMFLEX ACCENT -->
+      <map code="0x5f" name="underscore"/><!-- LOW LINE -->
+      <map code="0x60" name="grave"/><!-- GRAVE ACCENT -->
+      <map code="0x61" name="a"/><!-- LATIN SMALL LETTER A -->
+      <map code="0x62" name="b"/><!-- LATIN SMALL LETTER B -->
+      <map code="0x63" name="c"/><!-- LATIN SMALL LETTER C -->
+      <map code="0x64" name="d"/><!-- LATIN SMALL LETTER D -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x66" name="f"/><!-- LATIN SMALL LETTER F -->
+      <map code="0x67" name="g"/><!-- LATIN SMALL LETTER G -->
+      <map code="0x68" name="h"/><!-- LATIN SMALL LETTER H -->
+      <map code="0x69" name="i"/><!-- LATIN SMALL LETTER I -->
+      <map code="0x6a" name="j"/><!-- LATIN SMALL LETTER J -->
+      <map code="0x6b" name="k"/><!-- LATIN SMALL LETTER K -->
+      <map code="0x6c" name="l"/><!-- LATIN SMALL LETTER L -->
+      <map code="0x6d" name="m"/><!-- LATIN SMALL LETTER M -->
+      <map code="0x6e" name="n"/><!-- LATIN SMALL LETTER N -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0x70" name="p"/><!-- LATIN SMALL LETTER P -->
+      <map code="0x71" name="q"/><!-- LATIN SMALL LETTER Q -->
+      <map code="0x72" name="r"/><!-- LATIN SMALL LETTER R -->
+      <map code="0x73" name="s"/><!-- LATIN SMALL LETTER S -->
+      <map code="0x74" name="t"/><!-- LATIN SMALL LETTER T -->
+      <map code="0x75" name="u"/><!-- LATIN SMALL LETTER U -->
+      <map code="0x76" name="v"/><!-- LATIN SMALL LETTER V -->
+      <map code="0x77" name="w"/><!-- LATIN SMALL LETTER W -->
+      <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
+      <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
+      <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+      <map code="0x7b" name="braceleft"/><!-- LEFT CURLY BRACKET -->
+      <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
+      <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
+      <map code="0x7e" name="asciitilde"/><!-- TILDE -->
+      <map code="0x7f" name="DEL"/><!-- &lt;control> -->
+      <map code="0xa0" name="nonbreakingspace"/><!-- NO-BREAK SPACE -->
+      <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
+      <map code="0xa2" name="cent"/><!-- CENT SIGN -->
+      <map code="0xa3" name="sterling"/><!-- POUND SIGN -->
+      <map code="0xa4" name="currency"/><!-- CURRENCY SIGN -->
+      <map code="0xa5" name="yen"/><!-- YEN SIGN -->
+      <map code="0xa6" name="brokenbar"/><!-- BROKEN BAR -->
+      <map code="0xa7" name="section"/><!-- SECTION SIGN -->
+      <map code="0xa8" name="dieresis"/><!-- DIAERESIS -->
+      <map code="0xa9" name="copyright"/><!-- COPYRIGHT SIGN -->
+      <map code="0xaa" name="ordfeminine"/><!-- FEMININE ORDINAL INDICATOR -->
+      <map code="0xab" name="guillemotleft"/><!-- LEFT-POINTING DOUBLE ANGLE QUOTATION MARK -->
+      <map code="0xac" name="logicalnot"/><!-- NOT SIGN -->
+      <map code="0xad" name="uni00AD"/><!-- SOFT HYPHEN -->
+      <map code="0xae" name="registered"/><!-- REGISTERED SIGN -->
+      <map code="0xaf" name="macron"/><!-- MACRON -->
+      <map code="0xb0" name="degree"/><!-- DEGREE SIGN -->
+      <map code="0xb1" name="plusminus"/><!-- PLUS-MINUS SIGN -->
+      <map code="0xb2" name="two.superior"/><!-- SUPERSCRIPT TWO -->
+      <map code="0xb3" name="three.superior"/><!-- SUPERSCRIPT THREE -->
+      <map code="0xb4" name="acute"/><!-- ACUTE ACCENT -->
+      <map code="0xb5" name="mu"/><!-- MICRO SIGN -->
+      <map code="0xb6" name="paragraph"/><!-- PILCROW SIGN -->
+      <map code="0xb7" name="periodcentered"/><!-- MIDDLE DOT -->
+      <map code="0xb8" name="cedilla"/><!-- CEDILLA -->
+      <map code="0xb9" name="one.superior"/><!-- SUPERSCRIPT ONE -->
+      <map code="0xba" name="ordmasculine"/><!-- MASCULINE ORDINAL INDICATOR -->
+      <map code="0xbb" name="guillemotright"/><!-- RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK -->
+      <map code="0xbc" name="onequarter"/><!-- VULGAR FRACTION ONE QUARTER -->
+      <map code="0xbd" name="onehalf"/><!-- VULGAR FRACTION ONE HALF -->
+      <map code="0xbe" name="threequarters"/><!-- VULGAR FRACTION THREE QUARTERS -->
+      <map code="0xbf" name="questiondown"/><!-- INVERTED QUESTION MARK -->
+      <map code="0xc0" name="Agrave"/><!-- LATIN CAPITAL LETTER A WITH GRAVE -->
+      <map code="0xc1" name="Aacute"/><!-- LATIN CAPITAL LETTER A WITH ACUTE -->
+      <map code="0xc2" name="Acircumflex"/><!-- LATIN CAPITAL LETTER A WITH CIRCUMFLEX -->
+      <map code="0xc3" name="Atilde"/><!-- LATIN CAPITAL LETTER A WITH TILDE -->
+      <map code="0xc4" name="Adieresis"/><!-- LATIN CAPITAL LETTER A WITH DIAERESIS -->
+      <map code="0xc5" name="Aring"/><!-- LATIN CAPITAL LETTER A WITH RING ABOVE -->
+      <map code="0xc6" name="AE"/><!-- LATIN CAPITAL LETTER AE -->
+      <map code="0xc7" name="Ccedilla"/><!-- LATIN CAPITAL LETTER C WITH CEDILLA -->
+      <map code="0xc8" name="Egrave"/><!-- LATIN CAPITAL LETTER E WITH GRAVE -->
+      <map code="0xc9" name="Eacute"/><!-- LATIN CAPITAL LETTER E WITH ACUTE -->
+      <map code="0xca" name="Ecircumflex"/><!-- LATIN CAPITAL LETTER E WITH CIRCUMFLEX -->
+      <map code="0xcb" name="Edieresis"/><!-- LATIN CAPITAL LETTER E WITH DIAERESIS -->
+      <map code="0xcc" name="Igrave"/><!-- LATIN CAPITAL LETTER I WITH GRAVE -->
+      <map code="0xcd" name="Iacute"/><!-- LATIN CAPITAL LETTER I WITH ACUTE -->
+      <map code="0xce" name="Icircumflex"/><!-- LATIN CAPITAL LETTER I WITH CIRCUMFLEX -->
+      <map code="0xcf" name="Idieresis"/><!-- LATIN CAPITAL LETTER I WITH DIAERESIS -->
+      <map code="0xd0" name="Eth"/><!-- LATIN CAPITAL LETTER ETH -->
+      <map code="0xd1" name="Ntilde"/><!-- LATIN CAPITAL LETTER N WITH TILDE -->
+      <map code="0xd2" name="Ograve"/><!-- LATIN CAPITAL LETTER O WITH GRAVE -->
+      <map code="0xd3" name="Oacute"/><!-- LATIN CAPITAL LETTER O WITH ACUTE -->
+      <map code="0xd4" name="Ocircumflex"/><!-- LATIN CAPITAL LETTER O WITH CIRCUMFLEX -->
+      <map code="0xd5" name="Otilde"/><!-- LATIN CAPITAL LETTER O WITH TILDE -->
+      <map code="0xd6" name="Odieresis"/><!-- LATIN CAPITAL LETTER O WITH DIAERESIS -->
+      <map code="0xd7" name="multiply"/><!-- MULTIPLICATION SIGN -->
+      <map code="0xd8" name="Oslash"/><!-- LATIN CAPITAL LETTER O WITH STROKE -->
+      <map code="0xd9" name="Ugrave"/><!-- LATIN CAPITAL LETTER U WITH GRAVE -->
+      <map code="0xda" name="Uacute"/><!-- LATIN CAPITAL LETTER U WITH ACUTE -->
+      <map code="0xdb" name="Ucircumflex"/><!-- LATIN CAPITAL LETTER U WITH CIRCUMFLEX -->
+      <map code="0xdc" name="Udieresis"/><!-- LATIN CAPITAL LETTER U WITH DIAERESIS -->
+      <map code="0xdd" name="Yacute"/><!-- LATIN CAPITAL LETTER Y WITH ACUTE -->
+      <map code="0xde" name="Thorn"/><!-- LATIN CAPITAL LETTER THORN -->
+      <map code="0xdf" name="germandbls"/><!-- LATIN SMALL LETTER SHARP S -->
+      <map code="0xe0" name="agrave"/><!-- LATIN SMALL LETTER A WITH GRAVE -->
+      <map code="0xe1" name="aacute"/><!-- LATIN SMALL LETTER A WITH ACUTE -->
+      <map code="0xe2" name="acircumflex"/><!-- LATIN SMALL LETTER A WITH CIRCUMFLEX -->
+      <map code="0xe3" name="atilde"/><!-- LATIN SMALL LETTER A WITH TILDE -->
+      <map code="0xe4" name="adieresis"/><!-- LATIN SMALL LETTER A WITH DIAERESIS -->
+      <map code="0xe5" name="aring"/><!-- LATIN SMALL LETTER A WITH RING ABOVE -->
+      <map code="0xe6" name="ae"/><!-- LATIN SMALL LETTER AE -->
+      <map code="0xe7" name="ccedilla"/><!-- LATIN SMALL LETTER C WITH CEDILLA -->
+      <map code="0xe8" name="egrave"/><!-- LATIN SMALL LETTER E WITH GRAVE -->
+      <map code="0xe9" name="eacute"/><!-- LATIN SMALL LETTER E WITH ACUTE -->
+      <map code="0xea" name="ecircumflex"/><!-- LATIN SMALL LETTER E WITH CIRCUMFLEX -->
+      <map code="0xeb" name="edieresis"/><!-- LATIN SMALL LETTER E WITH DIAERESIS -->
+      <map code="0xec" name="igrave"/><!-- LATIN SMALL LETTER I WITH GRAVE -->
+      <map code="0xed" name="iacute"/><!-- LATIN SMALL LETTER I WITH ACUTE -->
+      <map code="0xee" name="icircumflex"/><!-- LATIN SMALL LETTER I WITH CIRCUMFLEX -->
+      <map code="0xef" name="idieresis"/><!-- LATIN SMALL LETTER I WITH DIAERESIS -->
+      <map code="0xf0" name="eth"/><!-- LATIN SMALL LETTER ETH -->
+      <map code="0xf1" name="ntilde"/><!-- LATIN SMALL LETTER N WITH TILDE -->
+      <map code="0xf2" name="ograve"/><!-- LATIN SMALL LETTER O WITH GRAVE -->
+      <map code="0xf3" name="oacute"/><!-- LATIN SMALL LETTER O WITH ACUTE -->
+      <map code="0xf4" name="ocircumflex"/><!-- LATIN SMALL LETTER O WITH CIRCUMFLEX -->
+      <map code="0xf5" name="otilde"/><!-- LATIN SMALL LETTER O WITH TILDE -->
+      <map code="0xf6" name="odieresis"/><!-- LATIN SMALL LETTER O WITH DIAERESIS -->
+      <map code="0xf7" name="divide"/><!-- DIVISION SIGN -->
+      <map code="0xf8" name="oslash"/><!-- LATIN SMALL LETTER O WITH STROKE -->
+      <map code="0xf9" name="ugrave"/><!-- LATIN SMALL LETTER U WITH GRAVE -->
+      <map code="0xfa" name="uacute"/><!-- LATIN SMALL LETTER U WITH ACUTE -->
+      <map code="0xfb" name="ucircumflex"/><!-- LATIN SMALL LETTER U WITH CIRCUMFLEX -->
+      <map code="0xfc" name="udieresis"/><!-- LATIN SMALL LETTER U WITH DIAERESIS -->
+      <map code="0xfd" name="yacute"/><!-- LATIN SMALL LETTER Y WITH ACUTE -->
+      <map code="0xfe" name="thorn"/><!-- LATIN SMALL LETTER THORN -->
+      <map code="0xff" name="ydieresis"/><!-- LATIN SMALL LETTER Y WITH DIAERESIS -->
+      <map code="0x100" name="Amacron"/><!-- LATIN CAPITAL LETTER A WITH MACRON -->
+      <map code="0x101" name="amacron"/><!-- LATIN SMALL LETTER A WITH MACRON -->
+      <map code="0x102" name="Abreve"/><!-- LATIN CAPITAL LETTER A WITH BREVE -->
+      <map code="0x103" name="abreve"/><!-- LATIN SMALL LETTER A WITH BREVE -->
+      <map code="0x104" name="Aogonek"/><!-- LATIN CAPITAL LETTER A WITH OGONEK -->
+      <map code="0x105" name="aogonek"/><!-- LATIN SMALL LETTER A WITH OGONEK -->
+      <map code="0x106" name="Cacute"/><!-- LATIN CAPITAL LETTER C WITH ACUTE -->
+      <map code="0x107" name="cacute"/><!-- LATIN SMALL LETTER C WITH ACUTE -->
+      <map code="0x108" name="Ccircumflex"/><!-- LATIN CAPITAL LETTER C WITH CIRCUMFLEX -->
+      <map code="0x109" name="ccircumflex"/><!-- LATIN SMALL LETTER C WITH CIRCUMFLEX -->
+      <map code="0x10a" name="Cdotaccent"/><!-- LATIN CAPITAL LETTER C WITH DOT ABOVE -->
+      <map code="0x10b" name="cdotaccent"/><!-- LATIN SMALL LETTER C WITH DOT ABOVE -->
+      <map code="0x10c" name="Ccaron"/><!-- LATIN CAPITAL LETTER C WITH CARON -->
+      <map code="0x10d" name="ccaron"/><!-- LATIN SMALL LETTER C WITH CARON -->
+      <map code="0x10e" name="Dcaron"/><!-- LATIN CAPITAL LETTER D WITH CARON -->
+      <map code="0x10f" name="dcaron"/><!-- LATIN SMALL LETTER D WITH CARON -->
+      <map code="0x110" name="Dcroat"/><!-- LATIN CAPITAL LETTER D WITH STROKE -->
+      <map code="0x111" name="dcroat"/><!-- LATIN SMALL LETTER D WITH STROKE -->
+      <map code="0x112" name="Emacron"/><!-- LATIN CAPITAL LETTER E WITH MACRON -->
+      <map code="0x113" name="emacron"/><!-- LATIN SMALL LETTER E WITH MACRON -->
+      <map code="0x114" name="Ebreve"/><!-- LATIN CAPITAL LETTER E WITH BREVE -->
+      <map code="0x115" name="ebreve"/><!-- LATIN SMALL LETTER E WITH BREVE -->
+      <map code="0x116" name="Edotaccent"/><!-- LATIN CAPITAL LETTER E WITH DOT ABOVE -->
+      <map code="0x117" name="edotaccent"/><!-- LATIN SMALL LETTER E WITH DOT ABOVE -->
+      <map code="0x118" name="Eogonek"/><!-- LATIN CAPITAL LETTER E WITH OGONEK -->
+      <map code="0x119" name="eogonek"/><!-- LATIN SMALL LETTER E WITH OGONEK -->
+      <map code="0x11a" name="Ecaron"/><!-- LATIN CAPITAL LETTER E WITH CARON -->
+      <map code="0x11b" name="ecaron"/><!-- LATIN SMALL LETTER E WITH CARON -->
+      <map code="0x11c" name="Gcircumflex"/><!-- LATIN CAPITAL LETTER G WITH CIRCUMFLEX -->
+      <map code="0x11d" name="gcircumflex"/><!-- LATIN SMALL LETTER G WITH CIRCUMFLEX -->
+      <map code="0x11e" name="Gbreve"/><!-- LATIN CAPITAL LETTER G WITH BREVE -->
+      <map code="0x11f" name="gbreve"/><!-- LATIN SMALL LETTER G WITH BREVE -->
+      <map code="0x120" name="Gdotaccent"/><!-- LATIN CAPITAL LETTER G WITH DOT ABOVE -->
+      <map code="0x121" name="gdotaccent"/><!-- LATIN SMALL LETTER G WITH DOT ABOVE -->
+      <map code="0x122" name="Gcommaaccent"/><!-- LATIN CAPITAL LETTER G WITH CEDILLA -->
+      <map code="0x123" name="gcommaaccent"/><!-- LATIN SMALL LETTER G WITH CEDILLA -->
+      <map code="0x124" name="Hcircumflex"/><!-- LATIN CAPITAL LETTER H WITH CIRCUMFLEX -->
+      <map code="0x125" name="hcircumflex"/><!-- LATIN SMALL LETTER H WITH CIRCUMFLEX -->
+      <map code="0x126" name="Hbar"/><!-- LATIN CAPITAL LETTER H WITH STROKE -->
+      <map code="0x127" name="hbar"/><!-- LATIN SMALL LETTER H WITH STROKE -->
+      <map code="0x128" name="Itilde"/><!-- LATIN CAPITAL LETTER I WITH TILDE -->
+      <map code="0x129" name="itilde"/><!-- LATIN SMALL LETTER I WITH TILDE -->
+      <map code="0x12a" name="Imacron"/><!-- LATIN CAPITAL LETTER I WITH MACRON -->
+      <map code="0x12b" name="imacron"/><!-- LATIN SMALL LETTER I WITH MACRON -->
+      <map code="0x12c" name="Ibreve"/><!-- LATIN CAPITAL LETTER I WITH BREVE -->
+      <map code="0x12d" name="ibreve"/><!-- LATIN SMALL LETTER I WITH BREVE -->
+      <map code="0x12e" name="Iogonek"/><!-- LATIN CAPITAL LETTER I WITH OGONEK -->
+      <map code="0x12f" name="iogonek"/><!-- LATIN SMALL LETTER I WITH OGONEK -->
+      <map code="0x130" name="Idotaccent"/><!-- LATIN CAPITAL LETTER I WITH DOT ABOVE -->
+      <map code="0x131" name="dotlessi"/><!-- LATIN SMALL LETTER DOTLESS I -->
+      <map code="0x132" name="IJ"/><!-- LATIN CAPITAL LIGATURE IJ -->
+      <map code="0x133" name="ij"/><!-- LATIN SMALL LIGATURE IJ -->
+      <map code="0x134" name="Jcircumflex"/><!-- LATIN CAPITAL LETTER J WITH CIRCUMFLEX -->
+      <map code="0x135" name="jcircumflex"/><!-- LATIN SMALL LETTER J WITH CIRCUMFLEX -->
+      <map code="0x136" name="Kcommaaccent"/><!-- LATIN CAPITAL LETTER K WITH CEDILLA -->
+      <map code="0x137" name="kcommaaccent"/><!-- LATIN SMALL LETTER K WITH CEDILLA -->
+      <map code="0x138" name="kgreenlandic"/><!-- LATIN SMALL LETTER KRA -->
+      <map code="0x139" name="Lacute"/><!-- LATIN CAPITAL LETTER L WITH ACUTE -->
+      <map code="0x13a" name="lacute"/><!-- LATIN SMALL LETTER L WITH ACUTE -->
+      <map code="0x13b" name="Lcommaaccent"/><!-- LATIN CAPITAL LETTER L WITH CEDILLA -->
+      <map code="0x13c" name="lcommaaccent"/><!-- LATIN SMALL LETTER L WITH CEDILLA -->
+      <map code="0x13d" name="Lcaron"/><!-- LATIN CAPITAL LETTER L WITH CARON -->
+      <map code="0x13e" name="lcaron"/><!-- LATIN SMALL LETTER L WITH CARON -->
+      <map code="0x13f" name="Ldot"/><!-- LATIN CAPITAL LETTER L WITH MIDDLE DOT -->
+      <map code="0x140" name="ldot"/><!-- LATIN SMALL LETTER L WITH MIDDLE DOT -->
+      <map code="0x141" name="Lslash"/><!-- LATIN CAPITAL LETTER L WITH STROKE -->
+      <map code="0x142" name="lslash"/><!-- LATIN SMALL LETTER L WITH STROKE -->
+      <map code="0x143" name="Nacute"/><!-- LATIN CAPITAL LETTER N WITH ACUTE -->
+      <map code="0x144" name="nacute"/><!-- LATIN SMALL LETTER N WITH ACUTE -->
+      <map code="0x145" name="Ncommaaccent"/><!-- LATIN CAPITAL LETTER N WITH CEDILLA -->
+      <map code="0x146" name="ncommaaccent"/><!-- LATIN SMALL LETTER N WITH CEDILLA -->
+      <map code="0x147" name="Ncaron"/><!-- LATIN CAPITAL LETTER N WITH CARON -->
+      <map code="0x148" name="ncaron"/><!-- LATIN SMALL LETTER N WITH CARON -->
+      <map code="0x149" name="napostrophe"/><!-- LATIN SMALL LETTER N PRECEDED BY APOSTROPHE -->
+      <map code="0x14a" name="Eng"/><!-- LATIN CAPITAL LETTER ENG -->
+      <map code="0x14b" name="eng"/><!-- LATIN SMALL LETTER ENG -->
+      <map code="0x14c" name="Omacron"/><!-- LATIN CAPITAL LETTER O WITH MACRON -->
+      <map code="0x14d" name="omacron"/><!-- LATIN SMALL LETTER O WITH MACRON -->
+      <map code="0x14e" name="Obreve"/><!-- LATIN CAPITAL LETTER O WITH BREVE -->
+      <map code="0x14f" name="obreve"/><!-- LATIN SMALL LETTER O WITH BREVE -->
+      <map code="0x150" name="Ohungarumlaut"/><!-- LATIN CAPITAL LETTER O WITH DOUBLE ACUTE -->
+      <map code="0x151" name="ohungarumlaut"/><!-- LATIN SMALL LETTER O WITH DOUBLE ACUTE -->
+      <map code="0x152" name="OE"/><!-- LATIN CAPITAL LIGATURE OE -->
+      <map code="0x153" name="oe"/><!-- LATIN SMALL LIGATURE OE -->
+      <map code="0x154" name="Racute"/><!-- LATIN CAPITAL LETTER R WITH ACUTE -->
+      <map code="0x155" name="racute"/><!-- LATIN SMALL LETTER R WITH ACUTE -->
+      <map code="0x156" name="Rcommaaccent"/><!-- LATIN CAPITAL LETTER R WITH CEDILLA -->
+      <map code="0x157" name="rcommaaccent"/><!-- LATIN SMALL LETTER R WITH CEDILLA -->
+      <map code="0x158" name="Rcaron"/><!-- LATIN CAPITAL LETTER R WITH CARON -->
+      <map code="0x159" name="rcaron"/><!-- LATIN SMALL LETTER R WITH CARON -->
+      <map code="0x15a" name="Sacute"/><!-- LATIN CAPITAL LETTER S WITH ACUTE -->
+      <map code="0x15b" name="sacute"/><!-- LATIN SMALL LETTER S WITH ACUTE -->
+      <map code="0x15c" name="Scircumflex"/><!-- LATIN CAPITAL LETTER S WITH CIRCUMFLEX -->
+      <map code="0x15d" name="scircumflex"/><!-- LATIN SMALL LETTER S WITH CIRCUMFLEX -->
+      <map code="0x15e" name="Scedilla"/><!-- LATIN CAPITAL LETTER S WITH CEDILLA -->
+      <map code="0x15f" name="scedilla"/><!-- LATIN SMALL LETTER S WITH CEDILLA -->
+      <map code="0x160" name="Scaron"/><!-- LATIN CAPITAL LETTER S WITH CARON -->
+      <map code="0x161" name="scaron"/><!-- LATIN SMALL LETTER S WITH CARON -->
+      <map code="0x162" name="uni0162"/><!-- LATIN CAPITAL LETTER T WITH CEDILLA -->
+      <map code="0x163" name="uni0163"/><!-- LATIN SMALL LETTER T WITH CEDILLA -->
+      <map code="0x164" name="Tcaron"/><!-- LATIN CAPITAL LETTER T WITH CARON -->
+      <map code="0x165" name="tcaron"/><!-- LATIN SMALL LETTER T WITH CARON -->
+      <map code="0x166" name="Tbar"/><!-- LATIN CAPITAL LETTER T WITH STROKE -->
+      <map code="0x167" name="tbar"/><!-- LATIN SMALL LETTER T WITH STROKE -->
+      <map code="0x168" name="Utilde"/><!-- LATIN CAPITAL LETTER U WITH TILDE -->
+      <map code="0x169" name="utilde"/><!-- LATIN SMALL LETTER U WITH TILDE -->
+      <map code="0x16a" name="Umacron"/><!-- LATIN CAPITAL LETTER U WITH MACRON -->
+      <map code="0x16b" name="umacron"/><!-- LATIN SMALL LETTER U WITH MACRON -->
+      <map code="0x16c" name="Ubreve"/><!-- LATIN CAPITAL LETTER U WITH BREVE -->
+      <map code="0x16d" name="ubreve"/><!-- LATIN SMALL LETTER U WITH BREVE -->
+      <map code="0x16e" name="Uring"/><!-- LATIN CAPITAL LETTER U WITH RING ABOVE -->
+      <map code="0x16f" name="uring"/><!-- LATIN SMALL LETTER U WITH RING ABOVE -->
+      <map code="0x170" name="Uhungarumlaut"/><!-- LATIN CAPITAL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x171" name="uhungarumlaut"/><!-- LATIN SMALL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x172" name="Uogonek"/><!-- LATIN CAPITAL LETTER U WITH OGONEK -->
+      <map code="0x173" name="uogonek"/><!-- LATIN SMALL LETTER U WITH OGONEK -->
+      <map code="0x174" name="Wcircumflex"/><!-- LATIN CAPITAL LETTER W WITH CIRCUMFLEX -->
+      <map code="0x175" name="wcircumflex"/><!-- LATIN SMALL LETTER W WITH CIRCUMFLEX -->
+      <map code="0x176" name="Ycircumflex"/><!-- LATIN CAPITAL LETTER Y WITH CIRCUMFLEX -->
+      <map code="0x177" name="ycircumflex"/><!-- LATIN SMALL LETTER Y WITH CIRCUMFLEX -->
+      <map code="0x178" name="Ydieresis"/><!-- LATIN CAPITAL LETTER Y WITH DIAERESIS -->
+      <map code="0x179" name="Zacute"/><!-- LATIN CAPITAL LETTER Z WITH ACUTE -->
+      <map code="0x17a" name="zacute"/><!-- LATIN SMALL LETTER Z WITH ACUTE -->
+      <map code="0x17b" name="Zdotaccent"/><!-- LATIN CAPITAL LETTER Z WITH DOT ABOVE -->
+      <map code="0x17c" name="zdotaccent"/><!-- LATIN SMALL LETTER Z WITH DOT ABOVE -->
+      <map code="0x17d" name="Zcaron"/><!-- LATIN CAPITAL LETTER Z WITH CARON -->
+      <map code="0x17e" name="zcaron"/><!-- LATIN SMALL LETTER Z WITH CARON -->
+      <map code="0x18f" name="uni018F"/><!-- LATIN CAPITAL LETTER SCHWA -->
+      <map code="0x192" name="florin"/><!-- LATIN SMALL LETTER F WITH HOOK -->
+      <map code="0x1c4" name="uni01C4"/><!-- LATIN CAPITAL LETTER DZ WITH CARON -->
+      <map code="0x1c5" name="uni01C5"/><!-- LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON -->
+      <map code="0x1c6" name="uni01C6"/><!-- LATIN SMALL LETTER DZ WITH CARON -->
+      <map code="0x1c7" name="uni01C7"/><!-- LATIN CAPITAL LETTER LJ -->
+      <map code="0x1c8" name="uni01C8"/><!-- LATIN CAPITAL LETTER L WITH SMALL LETTER J -->
+      <map code="0x1c9" name="uni01C9"/><!-- LATIN SMALL LETTER LJ -->
+      <map code="0x1ca" name="uni01CA"/><!-- LATIN CAPITAL LETTER NJ -->
+      <map code="0x1cb" name="uni01CB"/><!-- LATIN CAPITAL LETTER N WITH SMALL LETTER J -->
+      <map code="0x1cc" name="uni01CC"/><!-- LATIN SMALL LETTER NJ -->
+      <map code="0x1f1" name="uni01F1"/><!-- LATIN CAPITAL LETTER DZ -->
+      <map code="0x1f2" name="uni01F2"/><!-- LATIN CAPITAL LETTER D WITH SMALL LETTER Z -->
+      <map code="0x1f3" name="uni01F3"/><!-- LATIN SMALL LETTER DZ -->
+      <map code="0x1fc" name="AEacute"/><!-- LATIN CAPITAL LETTER AE WITH ACUTE -->
+      <map code="0x1fd" name="aeacute"/><!-- LATIN SMALL LETTER AE WITH ACUTE -->
+      <map code="0x218" name="uni0218"/><!-- LATIN CAPITAL LETTER S WITH COMMA BELOW -->
+      <map code="0x219" name="uni0219"/><!-- LATIN SMALL LETTER S WITH COMMA BELOW -->
+      <map code="0x21a" name="uni021A"/><!-- LATIN CAPITAL LETTER T WITH COMMA BELOW -->
+      <map code="0x21b" name="uni021B"/><!-- LATIN SMALL LETTER T WITH COMMA BELOW -->
+      <map code="0x237" name="dotlessj"/><!-- LATIN SMALL LETTER DOTLESS J -->
+      <map code="0x259" name="uni0259"/><!-- LATIN SMALL LETTER SCHWA -->
+      <map code="0x2c6" name="circumflex"/><!-- MODIFIER LETTER CIRCUMFLEX ACCENT -->
+      <map code="0x2c7" name="caron"/><!-- CARON -->
+      <map code="0x2c9" name="uni02C9"/><!-- MODIFIER LETTER MACRON -->
+      <map code="0x2d8" name="breve"/><!-- BREVE -->
+      <map code="0x2d9" name="dotaccent"/><!-- DOT ABOVE -->
+      <map code="0x2da" name="ring"/><!-- RING ABOVE -->
+      <map code="0x2db" name="ogonek"/><!-- OGONEK -->
+      <map code="0x2dc" name="tilde"/><!-- SMALL TILDE -->
+      <map code="0x2dd" name="hungarumlaut"/><!-- DOUBLE ACUTE ACCENT -->
+      <map code="0x394" name="Deltagreek"/><!-- GREEK CAPITAL LETTER DELTA -->
+      <map code="0x3a9" name="Omegagreek"/><!-- GREEK CAPITAL LETTER OMEGA -->
+      <map code="0x3bc" name="uni03BC"/><!-- GREEK SMALL LETTER MU -->
+      <map code="0x3c0" name="pi"/><!-- GREEK SMALL LETTER PI -->
+      <map code="0x400" name="uni0400"/><!-- CYRILLIC CAPITAL LETTER IE WITH GRAVE -->
+      <map code="0x401" name="afii10023"/><!-- CYRILLIC CAPITAL LETTER IO -->
+      <map code="0x402" name="afii10051"/><!-- CYRILLIC CAPITAL LETTER DJE -->
+      <map code="0x403" name="afii10052"/><!-- CYRILLIC CAPITAL LETTER GJE -->
+      <map code="0x404" name="afii10053"/><!-- CYRILLIC CAPITAL LETTER UKRAINIAN IE -->
+      <map code="0x405" name="afii10054"/><!-- CYRILLIC CAPITAL LETTER DZE -->
+      <map code="0x406" name="afii10055"/><!-- CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I -->
+      <map code="0x407" name="uni0407"/><!-- CYRILLIC CAPITAL LETTER YI -->
+      <map code="0x408" name="afii10057"/><!-- CYRILLIC CAPITAL LETTER JE -->
+      <map code="0x409" name="afii10058"/><!-- CYRILLIC CAPITAL LETTER LJE -->
+      <map code="0x40a" name="afii10059"/><!-- CYRILLIC CAPITAL LETTER NJE -->
+      <map code="0x40b" name="afii10060"/><!-- CYRILLIC CAPITAL LETTER TSHE -->
+      <map code="0x40c" name="afii10061"/><!-- CYRILLIC CAPITAL LETTER KJE -->
+      <map code="0x40d" name="uni040D"/><!-- CYRILLIC CAPITAL LETTER I WITH GRAVE -->
+      <map code="0x40e" name="afii10062"/><!-- CYRILLIC CAPITAL LETTER SHORT U -->
+      <map code="0x40f" name="afii10145"/><!-- CYRILLIC CAPITAL LETTER DZHE -->
+      <map code="0x410" name="afii10017"/><!-- CYRILLIC CAPITAL LETTER A -->
+      <map code="0x411" name="afii10018"/><!-- CYRILLIC CAPITAL LETTER BE -->
+      <map code="0x412" name="afii10019"/><!-- CYRILLIC CAPITAL LETTER VE -->
+      <map code="0x413" name="afii10020"/><!-- CYRILLIC CAPITAL LETTER GHE -->
+      <map code="0x414" name="afii10021"/><!-- CYRILLIC CAPITAL LETTER DE -->
+      <map code="0x415" name="afii10022"/><!-- CYRILLIC CAPITAL LETTER IE -->
+      <map code="0x416" name="afii10024"/><!-- CYRILLIC CAPITAL LETTER ZHE -->
+      <map code="0x417" name="afii10025"/><!-- CYRILLIC CAPITAL LETTER ZE -->
+      <map code="0x418" name="afii10026"/><!-- CYRILLIC CAPITAL LETTER I -->
+      <map code="0x419" name="afii10027"/><!-- CYRILLIC CAPITAL LETTER SHORT I -->
+      <map code="0x41a" name="afii10028"/><!-- CYRILLIC CAPITAL LETTER KA -->
+      <map code="0x41b" name="afii10029"/><!-- CYRILLIC CAPITAL LETTER EL -->
+      <map code="0x41c" name="afii10030"/><!-- CYRILLIC CAPITAL LETTER EM -->
+      <map code="0x41d" name="afii10031"/><!-- CYRILLIC CAPITAL LETTER EN -->
+      <map code="0x41e" name="afii10032"/><!-- CYRILLIC CAPITAL LETTER O -->
+      <map code="0x41f" name="afii10033"/><!-- CYRILLIC CAPITAL LETTER PE -->
+      <map code="0x420" name="afii10034"/><!-- CYRILLIC CAPITAL LETTER ER -->
+      <map code="0x421" name="afii10035"/><!-- CYRILLIC CAPITAL LETTER ES -->
+      <map code="0x422" name="afii10036"/><!-- CYRILLIC CAPITAL LETTER TE -->
+      <map code="0x423" name="afii10037"/><!-- CYRILLIC CAPITAL LETTER U -->
+      <map code="0x424" name="afii10038"/><!-- CYRILLIC CAPITAL LETTER EF -->
+      <map code="0x425" name="afii10039"/><!-- CYRILLIC CAPITAL LETTER HA -->
+      <map code="0x426" name="afii10040"/><!-- CYRILLIC CAPITAL LETTER TSE -->
+      <map code="0x427" name="afii10041"/><!-- CYRILLIC CAPITAL LETTER CHE -->
+      <map code="0x428" name="afii10042"/><!-- CYRILLIC CAPITAL LETTER SHA -->
+      <map code="0x429" name="afii10043"/><!-- CYRILLIC CAPITAL LETTER SHCHA -->
+      <map code="0x42a" name="afii10044"/><!-- CYRILLIC CAPITAL LETTER HARD SIGN -->
+      <map code="0x42b" name="afii10045"/><!-- CYRILLIC CAPITAL LETTER YERU -->
+      <map code="0x42c" name="afii10046"/><!-- CYRILLIC CAPITAL LETTER SOFT SIGN -->
+      <map code="0x42d" name="afii10047"/><!-- CYRILLIC CAPITAL LETTER E -->
+      <map code="0x42e" name="afii10048"/><!-- CYRILLIC CAPITAL LETTER YU -->
+      <map code="0x42f" name="afii10049"/><!-- CYRILLIC CAPITAL LETTER YA -->
+      <map code="0x430" name="afii10065"/><!-- CYRILLIC SMALL LETTER A -->
+      <map code="0x431" name="afii10066"/><!-- CYRILLIC SMALL LETTER BE -->
+      <map code="0x432" name="afii10067"/><!-- CYRILLIC SMALL LETTER VE -->
+      <map code="0x433" name="afii10068"/><!-- CYRILLIC SMALL LETTER GHE -->
+      <map code="0x434" name="afii10069"/><!-- CYRILLIC SMALL LETTER DE -->
+      <map code="0x435" name="afii10070"/><!-- CYRILLIC SMALL LETTER IE -->
+      <map code="0x436" name="afii10072"/><!-- CYRILLIC SMALL LETTER ZHE -->
+      <map code="0x437" name="afii10073"/><!-- CYRILLIC SMALL LETTER ZE -->
+      <map code="0x438" name="afii10074"/><!-- CYRILLIC SMALL LETTER I -->
+      <map code="0x439" name="afii10075"/><!-- CYRILLIC SMALL LETTER SHORT I -->
+      <map code="0x43a" name="afii10076"/><!-- CYRILLIC SMALL LETTER KA -->
+      <map code="0x43b" name="afii10077"/><!-- CYRILLIC SMALL LETTER EL -->
+      <map code="0x43c" name="afii10078"/><!-- CYRILLIC SMALL LETTER EM -->
+      <map code="0x43d" name="afii10079"/><!-- CYRILLIC SMALL LETTER EN -->
+      <map code="0x43e" name="afii10080"/><!-- CYRILLIC SMALL LETTER O -->
+      <map code="0x43f" name="afii10081"/><!-- CYRILLIC SMALL LETTER PE -->
+      <map code="0x440" name="afii10082"/><!-- CYRILLIC SMALL LETTER ER -->
+      <map code="0x441" name="afii10083"/><!-- CYRILLIC SMALL LETTER ES -->
+      <map code="0x442" name="afii10084"/><!-- CYRILLIC SMALL LETTER TE -->
+      <map code="0x443" name="afii10085"/><!-- CYRILLIC SMALL LETTER U -->
+      <map code="0x444" name="afii10086"/><!-- CYRILLIC SMALL LETTER EF -->
+      <map code="0x445" name="afii10087"/><!-- CYRILLIC SMALL LETTER HA -->
+      <map code="0x446" name="afii10088"/><!-- CYRILLIC SMALL LETTER TSE -->
+      <map code="0x447" name="afii10089"/><!-- CYRILLIC SMALL LETTER CHE -->
+      <map code="0x448" name="afii10090"/><!-- CYRILLIC SMALL LETTER SHA -->
+      <map code="0x449" name="afii10091"/><!-- CYRILLIC SMALL LETTER SHCHA -->
+      <map code="0x44a" name="afii10092"/><!-- CYRILLIC SMALL LETTER HARD SIGN -->
+      <map code="0x44b" name="afii10093"/><!-- CYRILLIC SMALL LETTER YERU -->
+      <map code="0x44c" name="afii10094"/><!-- CYRILLIC SMALL LETTER SOFT SIGN -->
+      <map code="0x44d" name="afii10095"/><!-- CYRILLIC SMALL LETTER E -->
+      <map code="0x44e" name="afii10096"/><!-- CYRILLIC SMALL LETTER YU -->
+      <map code="0x44f" name="afii10097"/><!-- CYRILLIC SMALL LETTER YA -->
+      <map code="0x450" name="uni0450"/><!-- CYRILLIC SMALL LETTER IE WITH GRAVE -->
+      <map code="0x451" name="afii10071"/><!-- CYRILLIC SMALL LETTER IO -->
+      <map code="0x452" name="afii10099"/><!-- CYRILLIC SMALL LETTER DJE -->
+      <map code="0x453" name="afii10100"/><!-- CYRILLIC SMALL LETTER GJE -->
+      <map code="0x454" name="afii10101"/><!-- CYRILLIC SMALL LETTER UKRAINIAN IE -->
+      <map code="0x455" name="afii10102"/><!-- CYRILLIC SMALL LETTER DZE -->
+      <map code="0x456" name="afii10103"/><!-- CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I -->
+      <map code="0x457" name="afii10104"/><!-- CYRILLIC SMALL LETTER YI -->
+      <map code="0x458" name="afii10105"/><!-- CYRILLIC SMALL LETTER JE -->
+      <map code="0x459" name="afii10106"/><!-- CYRILLIC SMALL LETTER LJE -->
+      <map code="0x45a" name="afii10107"/><!-- CYRILLIC SMALL LETTER NJE -->
+      <map code="0x45b" name="afii10108"/><!-- CYRILLIC SMALL LETTER TSHE -->
+      <map code="0x45c" name="afii10109"/><!-- CYRILLIC SMALL LETTER KJE -->
+      <map code="0x45d" name="uni045D"/><!-- CYRILLIC SMALL LETTER I WITH GRAVE -->
+      <map code="0x45e" name="afii10110"/><!-- CYRILLIC SMALL LETTER SHORT U -->
+      <map code="0x45f" name="afii10193"/><!-- CYRILLIC SMALL LETTER DZHE -->
+      <map code="0x462" name="afii10146"/><!-- CYRILLIC CAPITAL LETTER YAT -->
+      <map code="0x463" name="afii10194"/><!-- CYRILLIC SMALL LETTER YAT -->
+      <map code="0x472" name="afii10147"/><!-- CYRILLIC CAPITAL LETTER FITA -->
+      <map code="0x473" name="afii10195"/><!-- CYRILLIC SMALL LETTER FITA -->
+      <map code="0x474" name="afii10148"/><!-- CYRILLIC CAPITAL LETTER IZHITSA -->
+      <map code="0x475" name="afii10196"/><!-- CYRILLIC SMALL LETTER IZHITSA -->
+      <map code="0x48a" name="uni048A"/><!-- CYRILLIC CAPITAL LETTER SHORT I WITH TAIL -->
+      <map code="0x48b" name="uni048B"/><!-- CYRILLIC SMALL LETTER SHORT I WITH TAIL -->
+      <map code="0x48c" name="uni048C"/><!-- CYRILLIC CAPITAL LETTER SEMISOFT SIGN -->
+      <map code="0x48d" name="uni048D"/><!-- CYRILLIC SMALL LETTER SEMISOFT SIGN -->
+      <map code="0x48e" name="uni048E"/><!-- CYRILLIC CAPITAL LETTER ER WITH TICK -->
+      <map code="0x48f" name="uni048F"/><!-- CYRILLIC SMALL LETTER ER WITH TICK -->
+      <map code="0x490" name="afii10050"/><!-- CYRILLIC CAPITAL LETTER GHE WITH UPTURN -->
+      <map code="0x491" name="afii10098"/><!-- CYRILLIC SMALL LETTER GHE WITH UPTURN -->
+      <map code="0x492" name="uni0492"/><!-- CYRILLIC CAPITAL LETTER GHE WITH STROKE -->
+      <map code="0x493" name="uni0493"/><!-- CYRILLIC SMALL LETTER GHE WITH STROKE -->
+      <map code="0x494" name="uni0494"/><!-- CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK -->
+      <map code="0x495" name="uni0495"/><!-- CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK -->
+      <map code="0x496" name="uni0496"/><!-- CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER -->
+      <map code="0x497" name="uni0497"/><!-- CYRILLIC SMALL LETTER ZHE WITH DESCENDER -->
+      <map code="0x498" name="uni0498"/><!-- CYRILLIC CAPITAL LETTER ZE WITH DESCENDER -->
+      <map code="0x499" name="uni0499"/><!-- CYRILLIC SMALL LETTER ZE WITH DESCENDER -->
+      <map code="0x49a" name="uni049A"/><!-- CYRILLIC CAPITAL LETTER KA WITH DESCENDER -->
+      <map code="0x49b" name="uni049B"/><!-- CYRILLIC SMALL LETTER KA WITH DESCENDER -->
+      <map code="0x49c" name="uni049C"/><!-- CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE -->
+      <map code="0x49d" name="uni049D"/><!-- CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE -->
+      <map code="0x49e" name="uni049E"/><!-- CYRILLIC CAPITAL LETTER KA WITH STROKE -->
+      <map code="0x49f" name="uni049F"/><!-- CYRILLIC SMALL LETTER KA WITH STROKE -->
+      <map code="0x4a0" name="uni04A0"/><!-- CYRILLIC CAPITAL LETTER BASHKIR KA -->
+      <map code="0x4a1" name="uni04A1"/><!-- CYRILLIC SMALL LETTER BASHKIR KA -->
+      <map code="0x4a2" name="uni04A2"/><!-- CYRILLIC CAPITAL LETTER EN WITH DESCENDER -->
+      <map code="0x4a3" name="uni04A3"/><!-- CYRILLIC SMALL LETTER EN WITH DESCENDER -->
+      <map code="0x4a4" name="uni04A4"/><!-- CYRILLIC CAPITAL LIGATURE EN GHE -->
+      <map code="0x4a5" name="uni04A5"/><!-- CYRILLIC SMALL LIGATURE EN GHE -->
+      <map code="0x4a6" name="uni04A6"/><!-- CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK -->
+      <map code="0x4a7" name="uni04A7"/><!-- CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK -->
+      <map code="0x4a8" name="uni04A8"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN HA -->
+      <map code="0x4a9" name="uni04A9"/><!-- CYRILLIC SMALL LETTER ABKHASIAN HA -->
+      <map code="0x4aa" name="uni04AA"/><!-- CYRILLIC CAPITAL LETTER ES WITH DESCENDER -->
+      <map code="0x4ab" name="uni04AB"/><!-- CYRILLIC SMALL LETTER ES WITH DESCENDER -->
+      <map code="0x4ac" name="uni04AC"/><!-- CYRILLIC CAPITAL LETTER TE WITH DESCENDER -->
+      <map code="0x4ad" name="uni04AD"/><!-- CYRILLIC SMALL LETTER TE WITH DESCENDER -->
+      <map code="0x4ae" name="uni04AE"/><!-- CYRILLIC CAPITAL LETTER STRAIGHT U -->
+      <map code="0x4af" name="uni04AF"/><!-- CYRILLIC SMALL LETTER STRAIGHT U -->
+      <map code="0x4b0" name="uni04B0"/><!-- CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE -->
+      <map code="0x4b1" name="uni04B1"/><!-- CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE -->
+      <map code="0x4b2" name="uni04B2"/><!-- CYRILLIC CAPITAL LETTER HA WITH DESCENDER -->
+      <map code="0x4b3" name="uni04B3"/><!-- CYRILLIC SMALL LETTER HA WITH DESCENDER -->
+      <map code="0x4b4" name="uni04B4"/><!-- CYRILLIC CAPITAL LIGATURE TE TSE -->
+      <map code="0x4b5" name="uni04B5"/><!-- CYRILLIC SMALL LIGATURE TE TSE -->
+      <map code="0x4b6" name="uni04B6"/><!-- CYRILLIC CAPITAL LETTER CHE WITH DESCENDER -->
+      <map code="0x4b7" name="uni04B7"/><!-- CYRILLIC SMALL LETTER CHE WITH DESCENDER -->
+      <map code="0x4b8" name="uni04B8"/><!-- CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE -->
+      <map code="0x4b9" name="uni04B9"/><!-- CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE -->
+      <map code="0x4ba" name="uni04BA"/><!-- CYRILLIC CAPITAL LETTER SHHA -->
+      <map code="0x4bb" name="uni04BB"/><!-- CYRILLIC SMALL LETTER SHHA -->
+      <map code="0x4bc" name="uni04BC"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN CHE -->
+      <map code="0x4bd" name="uni04BD"/><!-- CYRILLIC SMALL LETTER ABKHASIAN CHE -->
+      <map code="0x4be" name="uni04BE"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER -->
+      <map code="0x4bf" name="uni04BF"/><!-- CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER -->
+      <map code="0x4c0" name="uni04C0"/><!-- CYRILLIC LETTER PALOCHKA -->
+      <map code="0x4c1" name="uni04C1"/><!-- CYRILLIC CAPITAL LETTER ZHE WITH BREVE -->
+      <map code="0x4c2" name="uni04C2"/><!-- CYRILLIC SMALL LETTER ZHE WITH BREVE -->
+      <map code="0x4c3" name="uni04C3"/><!-- CYRILLIC CAPITAL LETTER KA WITH HOOK -->
+      <map code="0x4c4" name="uni04C4"/><!-- CYRILLIC SMALL LETTER KA WITH HOOK -->
+      <map code="0x4c5" name="uni04C5"/><!-- CYRILLIC CAPITAL LETTER EL WITH TAIL -->
+      <map code="0x4c6" name="uni04C6"/><!-- CYRILLIC SMALL LETTER EL WITH TAIL -->
+      <map code="0x4c7" name="uni04C7"/><!-- CYRILLIC CAPITAL LETTER EN WITH HOOK -->
+      <map code="0x4c8" name="uni04C8"/><!-- CYRILLIC SMALL LETTER EN WITH HOOK -->
+      <map code="0x4c9" name="uni04C9"/><!-- CYRILLIC CAPITAL LETTER EN WITH TAIL -->
+      <map code="0x4ca" name="uni04CA"/><!-- CYRILLIC SMALL LETTER EN WITH TAIL -->
+      <map code="0x4cb" name="uni04CB"/><!-- CYRILLIC CAPITAL LETTER KHAKASSIAN CHE -->
+      <map code="0x4cc" name="uni04CC"/><!-- CYRILLIC SMALL LETTER KHAKASSIAN CHE -->
+      <map code="0x4cd" name="uni04CD"/><!-- CYRILLIC CAPITAL LETTER EM WITH TAIL -->
+      <map code="0x4ce" name="uni04CE"/><!-- CYRILLIC SMALL LETTER EM WITH TAIL -->
+      <map code="0x4cf" name="uni04CF"/><!-- CYRILLIC SMALL LETTER PALOCHKA -->
+      <map code="0x4d0" name="uni04D0"/><!-- CYRILLIC CAPITAL LETTER A WITH BREVE -->
+      <map code="0x4d1" name="uni04D1"/><!-- CYRILLIC SMALL LETTER A WITH BREVE -->
+      <map code="0x4d2" name="uni04D2"/><!-- CYRILLIC CAPITAL LETTER A WITH DIAERESIS -->
+      <map code="0x4d3" name="uni04D3"/><!-- CYRILLIC SMALL LETTER A WITH DIAERESIS -->
+      <map code="0x4d4" name="uni04D4"/><!-- CYRILLIC CAPITAL LIGATURE A IE -->
+      <map code="0x4d5" name="uni04D5"/><!-- CYRILLIC SMALL LIGATURE A IE -->
+      <map code="0x4d6" name="uni04D6"/><!-- CYRILLIC CAPITAL LETTER IE WITH BREVE -->
+      <map code="0x4d7" name="uni04D7"/><!-- CYRILLIC SMALL LETTER IE WITH BREVE -->
+      <map code="0x4d8" name="uni04D8"/><!-- CYRILLIC CAPITAL LETTER SCHWA -->
+      <map code="0x4d9" name="afii10846"/><!-- CYRILLIC SMALL LETTER SCHWA -->
+      <map code="0x4da" name="uni04DA"/><!-- CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS -->
+      <map code="0x4db" name="uni04DB"/><!-- CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS -->
+      <map code="0x4dc" name="uni04DC"/><!-- CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS -->
+      <map code="0x4dd" name="uni04DD"/><!-- CYRILLIC SMALL LETTER ZHE WITH DIAERESIS -->
+      <map code="0x4de" name="uni04DE"/><!-- CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS -->
+      <map code="0x4df" name="uni04DF"/><!-- CYRILLIC SMALL LETTER ZE WITH DIAERESIS -->
+      <map code="0x4e0" name="uni04E0"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN DZE -->
+      <map code="0x4e1" name="uni04E1"/><!-- CYRILLIC SMALL LETTER ABKHASIAN DZE -->
+      <map code="0x4e2" name="uni04E2"/><!-- CYRILLIC CAPITAL LETTER I WITH MACRON -->
+      <map code="0x4e3" name="uni04E3"/><!-- CYRILLIC SMALL LETTER I WITH MACRON -->
+      <map code="0x4e4" name="uni04E4"/><!-- CYRILLIC CAPITAL LETTER I WITH DIAERESIS -->
+      <map code="0x4e5" name="uni04E5"/><!-- CYRILLIC SMALL LETTER I WITH DIAERESIS -->
+      <map code="0x4e6" name="uni04E6"/><!-- CYRILLIC CAPITAL LETTER O WITH DIAERESIS -->
+      <map code="0x4e7" name="uni04E7"/><!-- CYRILLIC SMALL LETTER O WITH DIAERESIS -->
+      <map code="0x4e8" name="uni04E8"/><!-- CYRILLIC CAPITAL LETTER BARRED O -->
+      <map code="0x4e9" name="uni04E9"/><!-- CYRILLIC SMALL LETTER BARRED O -->
+      <map code="0x4ea" name="uni04EA"/><!-- CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS -->
+      <map code="0x4eb" name="uni04EB"/><!-- CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS -->
+      <map code="0x4ec" name="uni04EC"/><!-- CYRILLIC CAPITAL LETTER E WITH DIAERESIS -->
+      <map code="0x4ed" name="uni04ED"/><!-- CYRILLIC SMALL LETTER E WITH DIAERESIS -->
+      <map code="0x4ee" name="uni04EE"/><!-- CYRILLIC CAPITAL LETTER U WITH MACRON -->
+      <map code="0x4ef" name="uni04EF"/><!-- CYRILLIC SMALL LETTER U WITH MACRON -->
+      <map code="0x4f0" name="uni04F0"/><!-- CYRILLIC CAPITAL LETTER U WITH DIAERESIS -->
+      <map code="0x4f1" name="uni04F1"/><!-- CYRILLIC SMALL LETTER U WITH DIAERESIS -->
+      <map code="0x4f2" name="uni04F2"/><!-- CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x4f3" name="uni04F3"/><!-- CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x4f4" name="uni04F4"/><!-- CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS -->
+      <map code="0x4f5" name="uni04F5"/><!-- CYRILLIC SMALL LETTER CHE WITH DIAERESIS -->
+      <map code="0x4f6" name="uni04F6"/><!-- CYRILLIC CAPITAL LETTER GHE WITH DESCENDER -->
+      <map code="0x4f7" name="uni04F7"/><!-- CYRILLIC SMALL LETTER GHE WITH DESCENDER -->
+      <map code="0x4f8" name="uni04F8"/><!-- CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS -->
+      <map code="0x4f9" name="uni04F9"/><!-- CYRILLIC SMALL LETTER YERU WITH DIAERESIS -->
+      <map code="0x500" name="uni0500"/><!-- CYRILLIC CAPITAL LETTER KOMI DE -->
+      <map code="0x501" name="uni0501"/><!-- CYRILLIC SMALL LETTER KOMI DE -->
+      <map code="0x506" name="uni0506"/><!-- CYRILLIC CAPITAL LETTER KOMI DZJE -->
+      <map code="0x507" name="uni0507"/><!-- CYRILLIC SMALL LETTER KOMI DZJE -->
+      <map code="0x508" name="uni0508"/><!-- CYRILLIC CAPITAL LETTER KOMI LJE -->
+      <map code="0x509" name="uni0509"/><!-- CYRILLIC SMALL LETTER KOMI LJE -->
+      <map code="0x50a" name="uni050A"/><!-- CYRILLIC CAPITAL LETTER KOMI NJE -->
+      <map code="0x50b" name="uni050B"/><!-- CYRILLIC SMALL LETTER KOMI NJE -->
+      <map code="0x50c" name="uni050C"/><!-- CYRILLIC CAPITAL LETTER KOMI SJE -->
+      <map code="0x50d" name="uni050D"/><!-- CYRILLIC SMALL LETTER KOMI SJE -->
+      <map code="0x50e" name="uni050E"/><!-- CYRILLIC CAPITAL LETTER KOMI TJE -->
+      <map code="0x50f" name="uni050F"/><!-- CYRILLIC SMALL LETTER KOMI TJE -->
+      <map code="0x1e02" name="uni1E02"/><!-- LATIN CAPITAL LETTER B WITH DOT ABOVE -->
+      <map code="0x1e03" name="uni1E03"/><!-- LATIN SMALL LETTER B WITH DOT ABOVE -->
+      <map code="0x1e0a" name="uni1E0A"/><!-- LATIN CAPITAL LETTER D WITH DOT ABOVE -->
+      <map code="0x1e0b" name="uni1E0B"/><!-- LATIN SMALL LETTER D WITH DOT ABOVE -->
+      <map code="0x1e1e" name="uni1E1E"/><!-- LATIN CAPITAL LETTER F WITH DOT ABOVE -->
+      <map code="0x1e1f" name="uni1E1F"/><!-- LATIN SMALL LETTER F WITH DOT ABOVE -->
+      <map code="0x1e40" name="uni1E40"/><!-- LATIN CAPITAL LETTER M WITH DOT ABOVE -->
+      <map code="0x1e41" name="uni1E41"/><!-- LATIN SMALL LETTER M WITH DOT ABOVE -->
+      <map code="0x1e56" name="uni1E56"/><!-- LATIN CAPITAL LETTER P WITH DOT ABOVE -->
+      <map code="0x1e57" name="uni1E57"/><!-- LATIN SMALL LETTER P WITH DOT ABOVE -->
+      <map code="0x1e60" name="uni1E60"/><!-- LATIN CAPITAL LETTER S WITH DOT ABOVE -->
+      <map code="0x1e61" name="uni1E61"/><!-- LATIN SMALL LETTER S WITH DOT ABOVE -->
+      <map code="0x1e6a" name="uni1E6A"/><!-- LATIN CAPITAL LETTER T WITH DOT ABOVE -->
+      <map code="0x1e6b" name="uni1E6B"/><!-- LATIN SMALL LETTER T WITH DOT ABOVE -->
+      <map code="0x1e80" name="Wgrave"/><!-- LATIN CAPITAL LETTER W WITH GRAVE -->
+      <map code="0x1e81" name="wgrave"/><!-- LATIN SMALL LETTER W WITH GRAVE -->
+      <map code="0x1e82" name="Wacute"/><!-- LATIN CAPITAL LETTER W WITH ACUTE -->
+      <map code="0x1e83" name="wacute"/><!-- LATIN SMALL LETTER W WITH ACUTE -->
+      <map code="0x1e84" name="Wdieresis"/><!-- LATIN CAPITAL LETTER W WITH DIAERESIS -->
+      <map code="0x1e85" name="wdieresis"/><!-- LATIN SMALL LETTER W WITH DIAERESIS -->
+      <map code="0x1e9e" name="uni1E9E"/><!-- LATIN CAPITAL LETTER SHARP S -->
+      <map code="0x1ef2" name="Ygrave"/><!-- LATIN CAPITAL LETTER Y WITH GRAVE -->
+      <map code="0x1ef3" name="ygrave"/><!-- LATIN SMALL LETTER Y WITH GRAVE -->
+      <map code="0x2002" name="enspace"/><!-- EN SPACE -->
+      <map code="0x2009" name="thinspace"/><!-- THIN SPACE -->
+      <map code="0x200b" name="zerowidthspace"/><!-- ZERO WIDTH SPACE -->
+      <map code="0x200c" name="zerowidthnonjoiner"/><!-- ZERO WIDTH NON-JOINER -->
+      <map code="0x2013" name="endash"/><!-- EN DASH -->
+      <map code="0x2014" name="emdash"/><!-- EM DASH -->
+      <map code="0x2018" name="quoteleft"/><!-- LEFT SINGLE QUOTATION MARK -->
+      <map code="0x2019" name="quoteright"/><!-- RIGHT SINGLE QUOTATION MARK -->
+      <map code="0x201a" name="quotesinglbase"/><!-- SINGLE LOW-9 QUOTATION MARK -->
+      <map code="0x201b" name="quotereversed"/><!-- SINGLE HIGH-REVERSED-9 QUOTATION MARK -->
+      <map code="0x201c" name="quotedblleft"/><!-- LEFT DOUBLE QUOTATION MARK -->
+      <map code="0x201d" name="quotedblright"/><!-- RIGHT DOUBLE QUOTATION MARK -->
+      <map code="0x201e" name="quotedblbase"/><!-- DOUBLE LOW-9 QUOTATION MARK -->
+      <map code="0x2020" name="dagger"/><!-- DAGGER -->
+      <map code="0x2021" name="daggerdbl"/><!-- DOUBLE DAGGER -->
+      <map code="0x2022" name="bullet"/><!-- BULLET -->
+      <map code="0x2026" name="ellipsis"/><!-- HORIZONTAL ELLIPSIS -->
+      <map code="0x2030" name="perthousand"/><!-- PER MILLE SIGN -->
+      <map code="0x2032" name="minute"/><!-- PRIME -->
+      <map code="0x2033" name="second"/><!-- DOUBLE PRIME -->
+      <map code="0x2039" name="guilsinglleft"/><!-- SINGLE LEFT-POINTING ANGLE QUOTATION MARK -->
+      <map code="0x203a" name="guilsinglright"/><!-- SINGLE RIGHT-POINTING ANGLE QUOTATION MARK -->
+      <map code="0x203c" name="exclamdbl"/><!-- DOUBLE EXCLAMATION MARK -->
+      <map code="0x2044" name="fraction"/><!-- FRACTION SLASH -->
+      <map code="0x2074" name="four.superior"/><!-- SUPERSCRIPT FOUR -->
+      <map code="0x20a1" name="colonmonetary"/><!-- COLON SIGN -->
+      <map code="0x20a3" name="franc"/><!-- FRENCH FRANC SIGN -->
+      <map code="0x20a4" name="lira"/><!-- LIRA SIGN -->
+      <map code="0x20a6" name="uni20A6"/><!-- NAIRA SIGN -->
+      <map code="0x20a7" name="peseta"/><!-- PESETA SIGN -->
+      <map code="0x20a9" name="won"/><!-- WON SIGN -->
+      <map code="0x20ab" name="dong"/><!-- DONG SIGN -->
+      <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
+      <map code="0x20b1" name="uni20B1"/><!-- PESO SIGN -->
+      <map code="0x20b2" name="uni20B2"/><!-- GUARANI SIGN -->
+      <map code="0x20b5" name="uni20B5"/><!-- CEDI SIGN -->
+      <map code="0x20b9" name="uni20B9"/><!-- ???? -->
+      <map code="0x20ba" name="uni20BA"/><!-- ???? -->
+      <map code="0x2105" name="afii61248"/><!-- CARE OF -->
+      <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
+      <map code="0x2116" name="afii61352"/><!-- NUMERO SIGN -->
+      <map code="0x2120" name="uni2120"/><!-- SERVICE MARK -->
+      <map code="0x2122" name="trademark"/><!-- TRADE MARK SIGN -->
+      <map code="0x2126" name="Omega"/><!-- OHM SIGN -->
+      <map code="0x212e" name="estimated"/><!-- ESTIMATED SYMBOL -->
+      <map code="0x2190" name="arrowleft"/><!-- LEFTWARDS ARROW -->
+      <map code="0x2191" name="arrowup"/><!-- UPWARDS ARROW -->
+      <map code="0x2192" name="arrowright"/><!-- RIGHTWARDS ARROW -->
+      <map code="0x2193" name="arrowdown"/><!-- DOWNWARDS ARROW -->
+      <map code="0x2202" name="partialdiff"/><!-- PARTIAL DIFFERENTIAL -->
+      <map code="0x2206" name="Delta"/><!-- INCREMENT -->
+      <map code="0x220f" name="product"/><!-- N-ARY PRODUCT -->
+      <map code="0x2211" name="summation"/><!-- N-ARY SUMMATION -->
+      <map code="0x2212" name="minus"/><!-- MINUS SIGN -->
+      <map code="0x2215" name="uni2215"/><!-- DIVISION SLASH -->
+      <map code="0x2219" name="uni2219"/><!-- BULLET OPERATOR -->
+      <map code="0x221a" name="radical"/><!-- SQUARE ROOT -->
+      <map code="0x221e" name="infinity"/><!-- INFINITY -->
+      <map code="0x222b" name="integral"/><!-- INTEGRAL -->
+      <map code="0x2248" name="approxequal"/><!-- ALMOST EQUAL TO -->
+      <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+      <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+      <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
+      <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->
+      <map code="0xe000" name=".null"/><!-- Private Use -->
+      <map code="0xe001" name="nonmarkingreturn"/><!-- Private Use -->
+      <map code="0xe0ff" name="uniE0FF"/><!-- Private Use -->
+      <map code="0xeffd" name="uniEFFD"/><!-- Private Use -->
+      <map code="0xf000" name="uniF000"/><!-- Private Use -->
+      <map code="0xf6c3" name="commaaccent"/><!-- Private Use -->
+      <map code="0xfb00" name="f_f"/><!-- LATIN SMALL LIGATURE FF -->
+      <map code="0xfb01" name="f_i"/><!-- LATIN SMALL LIGATURE FI -->
+      <map code="0xfb02" name="f_l"/><!-- LATIN SMALL LIGATURE FL -->
+      <map code="0xfb03" name="f_f_i"/><!-- LATIN SMALL LIGATURE FFI -->
+      <map code="0xfb04" name="f_f_l"/><!-- LATIN SMALL LIGATURE FFL -->
+      <map code="0xfeff" name="zerowidthjoiner"/><!-- ZERO WIDTH NO-BREAK SPACE -->
+    </cmap_format_4>
+    <cmap_format_6 platformID="1" platEncID="0" language="0">
+      <map code="0x9" name="HT"/>
+      <map code="0xa" name="LF"/>
+      <map code="0xb" name=".notdef"/>
+      <map code="0xc" name=".notdef"/>
+      <map code="0xd" name="nonmarkingreturn#1"/>
+      <map code="0xe" name=".notdef"/>
+      <map code="0xf" name=".notdef"/>
+      <map code="0x10" name="DLE"/>
+      <map code="0x11" name="DC1"/>
+      <map code="0x12" name="DC2"/>
+      <map code="0x13" name="DC3"/>
+      <map code="0x14" name="DC4"/>
+      <map code="0x15" name=".notdef"/>
+      <map code="0x16" name=".notdef"/>
+      <map code="0x17" name=".notdef"/>
+      <map code="0x18" name=".notdef"/>
+      <map code="0x19" name=".notdef"/>
+      <map code="0x1a" name=".notdef"/>
+      <map code="0x1b" name=".notdef"/>
+      <map code="0x1c" name=".notdef"/>
+      <map code="0x1d" name=".notdef"/>
+      <map code="0x1e" name="RS"/>
+      <map code="0x1f" name="US"/>
+      <map code="0x20" name="space"/>
+      <map code="0x21" name="exclam"/>
+      <map code="0x22" name="quotedbl"/>
+      <map code="0x23" name="numbersign"/>
+      <map code="0x24" name="dollar"/>
+      <map code="0x25" name="percent"/>
+      <map code="0x26" name="ampersand"/>
+      <map code="0x27" name="quotesingle"/>
+      <map code="0x28" name="parenleft"/>
+      <map code="0x29" name="parenright"/>
+      <map code="0x2a" name="asterisk"/>
+      <map code="0x2b" name="plus"/>
+      <map code="0x2c" name="comma"/>
+      <map code="0x2d" name="hyphen"/>
+      <map code="0x2e" name="period"/>
+      <map code="0x2f" name="slash"/>
+      <map code="0x30" name="zero"/>
+      <map code="0x31" name="one"/>
+      <map code="0x32" name="two"/>
+      <map code="0x33" name="three"/>
+      <map code="0x34" name="four"/>
+      <map code="0x35" name="five"/>
+      <map code="0x36" name="six"/>
+      <map code="0x37" name="seven"/>
+      <map code="0x38" name="eight"/>
+      <map code="0x39" name="nine"/>
+      <map code="0x3a" name="colon"/>
+      <map code="0x3b" name="semicolon"/>
+      <map code="0x3c" name="less"/>
+      <map code="0x3d" name="equal"/>
+      <map code="0x3e" name="greater"/>
+      <map code="0x3f" name="question"/>
+      <map code="0x40" name="at"/>
+      <map code="0x41" name="A"/>
+      <map code="0x42" name="B"/>
+      <map code="0x43" name="C"/>
+      <map code="0x44" name="D"/>
+      <map code="0x45" name="E"/>
+      <map code="0x46" name="F"/>
+      <map code="0x47" name="G"/>
+      <map code="0x48" name="H"/>
+      <map code="0x49" name="I"/>
+      <map code="0x4a" name="J"/>
+      <map code="0x4b" name="K"/>
+      <map code="0x4c" name="L"/>
+      <map code="0x4d" name="M"/>
+      <map code="0x4e" name="N"/>
+      <map code="0x4f" name="O"/>
+      <map code="0x50" name="P"/>
+      <map code="0x51" name="Q"/>
+      <map code="0x52" name="R"/>
+      <map code="0x53" name="S"/>
+      <map code="0x54" name="T"/>
+      <map code="0x55" name="U"/>
+      <map code="0x56" name="V"/>
+      <map code="0x57" name="W"/>
+      <map code="0x58" name="X"/>
+      <map code="0x59" name="Y"/>
+      <map code="0x5a" name="Z"/>
+      <map code="0x5b" name="bracketleft"/>
+      <map code="0x5c" name="backslash"/>
+      <map code="0x5d" name="bracketright"/>
+      <map code="0x5e" name="asciicircum"/>
+      <map code="0x5f" name="underscore"/>
+      <map code="0x60" name="grave"/>
+      <map code="0x61" name="a"/>
+      <map code="0x62" name="b"/>
+      <map code="0x63" name="c"/>
+      <map code="0x64" name="d"/>
+      <map code="0x65" name="e"/>
+      <map code="0x66" name="f"/>
+      <map code="0x67" name="g"/>
+      <map code="0x68" name="h"/>
+      <map code="0x69" name="i"/>
+      <map code="0x6a" name="j"/>
+      <map code="0x6b" name="k"/>
+      <map code="0x6c" name="l"/>
+      <map code="0x6d" name="m"/>
+      <map code="0x6e" name="n"/>
+      <map code="0x6f" name="o"/>
+      <map code="0x70" name="p"/>
+      <map code="0x71" name="q"/>
+      <map code="0x72" name="r"/>
+      <map code="0x73" name="s"/>
+      <map code="0x74" name="t"/>
+      <map code="0x75" name="u"/>
+      <map code="0x76" name="v"/>
+      <map code="0x77" name="w"/>
+      <map code="0x78" name="x"/>
+      <map code="0x79" name="y"/>
+      <map code="0x7a" name="z"/>
+      <map code="0x7b" name="braceleft"/>
+      <map code="0x7c" name="bar"/>
+      <map code="0x7d" name="braceright"/>
+      <map code="0x7e" name="asciitilde"/>
+      <map code="0x7f" name=".notdef"/>
+      <map code="0x80" name="Adieresis"/>
+      <map code="0x81" name="Aring"/>
+      <map code="0x82" name="Ccedilla"/>
+      <map code="0x83" name="Eacute"/>
+      <map code="0x84" name="Ntilde"/>
+      <map code="0x85" name="Odieresis"/>
+      <map code="0x86" name="Udieresis"/>
+      <map code="0x87" name="aacute"/>
+      <map code="0x88" name="agrave"/>
+      <map code="0x89" name="acircumflex"/>
+      <map code="0x8a" name="adieresis"/>
+      <map code="0x8b" name="atilde"/>
+      <map code="0x8c" name="aring"/>
+      <map code="0x8d" name="ccedilla"/>
+      <map code="0x8e" name="eacute"/>
+      <map code="0x8f" name="egrave"/>
+      <map code="0x90" name="ecircumflex"/>
+      <map code="0x91" name="edieresis"/>
+      <map code="0x92" name="iacute"/>
+      <map code="0x93" name="igrave"/>
+      <map code="0x94" name="icircumflex"/>
+      <map code="0x95" name="idieresis"/>
+      <map code="0x96" name="ntilde"/>
+      <map code="0x97" name="oacute"/>
+      <map code="0x98" name="ograve"/>
+      <map code="0x99" name="ocircumflex"/>
+      <map code="0x9a" name="odieresis"/>
+      <map code="0x9b" name="otilde"/>
+      <map code="0x9c" name="uacute"/>
+      <map code="0x9d" name="ugrave"/>
+      <map code="0x9e" name="ucircumflex"/>
+      <map code="0x9f" name="udieresis"/>
+      <map code="0xa0" name="dagger"/>
+      <map code="0xa1" name="degree"/>
+      <map code="0xa2" name="cent"/>
+      <map code="0xa3" name="sterling"/>
+      <map code="0xa4" name="section"/>
+      <map code="0xa5" name="bullet"/>
+      <map code="0xa6" name="paragraph"/>
+      <map code="0xa7" name="germandbls"/>
+      <map code="0xa8" name="registered"/>
+      <map code="0xa9" name="copyright"/>
+      <map code="0xaa" name="trademark"/>
+      <map code="0xab" name="acute"/>
+      <map code="0xac" name="dieresis"/>
+      <map code="0xad" name="notequal"/>
+      <map code="0xae" name="AE"/>
+      <map code="0xaf" name="Oslash"/>
+      <map code="0xb0" name="infinity"/>
+      <map code="0xb1" name="plusminus"/>
+      <map code="0xb2" name="lessequal"/>
+      <map code="0xb3" name="greaterequal"/>
+      <map code="0xb4" name="yen"/>
+      <map code="0xb5" name="mu"/>
+      <map code="0xb6" name="partialdiff"/>
+      <map code="0xb7" name="summation"/>
+      <map code="0xb8" name="product"/>
+      <map code="0xb9" name="pi"/>
+      <map code="0xba" name="integral"/>
+      <map code="0xbb" name="ordfeminine"/>
+      <map code="0xbc" name="ordmasculine"/>
+      <map code="0xbd" name="Omega"/>
+      <map code="0xbe" name="ae"/>
+      <map code="0xbf" name="oslash"/>
+      <map code="0xc0" name="questiondown"/>
+      <map code="0xc1" name="exclamdown"/>
+      <map code="0xc2" name="logicalnot"/>
+      <map code="0xc3" name="radical"/>
+      <map code="0xc4" name="florin"/>
+      <map code="0xc5" name="approxequal"/>
+      <map code="0xc6" name="Delta"/>
+      <map code="0xc7" name="guillemotleft"/>
+      <map code="0xc8" name="guillemotright"/>
+      <map code="0xc9" name="ellipsis"/>
+      <map code="0xca" name="nonbreakingspace"/>
+      <map code="0xcb" name="Agrave"/>
+      <map code="0xcc" name="Atilde"/>
+      <map code="0xcd" name="Otilde"/>
+      <map code="0xce" name="OE"/>
+      <map code="0xcf" name="oe"/>
+      <map code="0xd0" name="endash"/>
+      <map code="0xd1" name="emdash"/>
+      <map code="0xd2" name="quotedblleft"/>
+      <map code="0xd3" name="quotedblright"/>
+      <map code="0xd4" name="quoteleft"/>
+      <map code="0xd5" name="quoteright"/>
+      <map code="0xd6" name="divide"/>
+      <map code="0xd7" name="lozenge"/>
+      <map code="0xd8" name="ydieresis"/>
+      <map code="0xd9" name="Ydieresis"/>
+      <map code="0xda" name="fraction"/>
+      <map code="0xdb" name="Euro"/>
+      <map code="0xdc" name="guilsinglleft"/>
+      <map code="0xdd" name="guilsinglright"/>
+      <map code="0xde" name="f_i"/>
+      <map code="0xdf" name="f_l"/>
+      <map code="0xe0" name="daggerdbl"/>
+      <map code="0xe1" name="periodcentered"/>
+      <map code="0xe2" name="quotesinglbase"/>
+      <map code="0xe3" name="quotedblbase"/>
+      <map code="0xe4" name="perthousand"/>
+      <map code="0xe5" name="Acircumflex"/>
+      <map code="0xe6" name="Ecircumflex"/>
+      <map code="0xe7" name="Aacute"/>
+      <map code="0xe8" name="Edieresis"/>
+      <map code="0xe9" name="Egrave"/>
+      <map code="0xea" name="Iacute"/>
+      <map code="0xeb" name="Icircumflex"/>
+      <map code="0xec" name="Idieresis"/>
+      <map code="0xed" name="Igrave"/>
+      <map code="0xee" name="Oacute"/>
+      <map code="0xef" name="Ocircumflex"/>
+      <map code="0xf0" name=".notdef"/>
+      <map code="0xf1" name="Ograve"/>
+      <map code="0xf2" name="Uacute"/>
+      <map code="0xf3" name="Ucircumflex"/>
+      <map code="0xf4" name="Ugrave"/>
+      <map code="0xf5" name="dotlessi"/>
+      <map code="0xf6" name="circumflex"/>
+      <map code="0xf7" name="tilde"/>
+      <map code="0xf8" name="macron"/>
+      <map code="0xf9" name="breve"/>
+      <map code="0xfa" name="dotaccent"/>
+      <map code="0xfb" name="ring"/>
+      <map code="0xfc" name="cedilla"/>
+      <map code="0xfd" name="hungarumlaut"/>
+      <map code="0xfe" name="ogonek"/>
+      <map code="0xff" name="caron"/>
+    </cmap_format_6>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x9" name="HT"/><!-- &lt;control> -->
+      <map code="0xa" name="LF"/><!-- &lt;control> -->
+      <map code="0xd" name="nonmarkingreturn#1"/><!-- &lt;control> -->
+      <map code="0x10" name="DLE"/><!-- &lt;control> -->
+      <map code="0x11" name="DC1"/><!-- &lt;control> -->
+      <map code="0x12" name="DC2"/><!-- &lt;control> -->
+      <map code="0x13" name="DC3"/><!-- &lt;control> -->
+      <map code="0x14" name="DC4"/><!-- &lt;control> -->
+      <map code="0x1e" name="RS"/><!-- &lt;control> -->
+      <map code="0x1f" name="US"/><!-- &lt;control> -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
+      <map code="0x22" name="quotedbl"/><!-- QUOTATION MARK -->
+      <map code="0x23" name="numbersign"/><!-- NUMBER SIGN -->
+      <map code="0x24" name="dollar"/><!-- DOLLAR SIGN -->
+      <map code="0x25" name="percent"/><!-- PERCENT SIGN -->
+      <map code="0x26" name="ampersand"/><!-- AMPERSAND -->
+      <map code="0x27" name="quotesingle"/><!-- APOSTROPHE -->
+      <map code="0x28" name="parenleft"/><!-- LEFT PARENTHESIS -->
+      <map code="0x29" name="parenright"/><!-- RIGHT PARENTHESIS -->
+      <map code="0x2a" name="asterisk"/><!-- ASTERISK -->
+      <map code="0x2b" name="plus"/><!-- PLUS SIGN -->
+      <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
+      <map code="0x2e" name="period"/><!-- FULL STOP -->
+      <map code="0x2f" name="slash"/><!-- SOLIDUS -->
+      <map code="0x30" name="zero"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="one"/><!-- DIGIT ONE -->
+      <map code="0x32" name="two"/><!-- DIGIT TWO -->
+      <map code="0x33" name="three"/><!-- DIGIT THREE -->
+      <map code="0x34" name="four"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="five"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="six"/><!-- DIGIT SIX -->
+      <map code="0x37" name="seven"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="eight"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="nine"/><!-- DIGIT NINE -->
+      <map code="0x3a" name="colon"/><!-- COLON -->
+      <map code="0x3b" name="semicolon"/><!-- SEMICOLON -->
+      <map code="0x3c" name="less"/><!-- LESS-THAN SIGN -->
+      <map code="0x3d" name="equal"/><!-- EQUALS SIGN -->
+      <map code="0x3e" name="greater"/><!-- GREATER-THAN SIGN -->
+      <map code="0x3f" name="question"/><!-- QUESTION MARK -->
+      <map code="0x40" name="at"/><!-- COMMERCIAL AT -->
+      <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
+      <map code="0x42" name="B"/><!-- LATIN CAPITAL LETTER B -->
+      <map code="0x43" name="C"/><!-- LATIN CAPITAL LETTER C -->
+      <map code="0x44" name="D"/><!-- LATIN CAPITAL LETTER D -->
+      <map code="0x45" name="E"/><!-- LATIN CAPITAL LETTER E -->
+      <map code="0x46" name="F"/><!-- LATIN CAPITAL LETTER F -->
+      <map code="0x47" name="G"/><!-- LATIN CAPITAL LETTER G -->
+      <map code="0x48" name="H"/><!-- LATIN CAPITAL LETTER H -->
+      <map code="0x49" name="I"/><!-- LATIN CAPITAL LETTER I -->
+      <map code="0x4a" name="J"/><!-- LATIN CAPITAL LETTER J -->
+      <map code="0x4b" name="K"/><!-- LATIN CAPITAL LETTER K -->
+      <map code="0x4c" name="L"/><!-- LATIN CAPITAL LETTER L -->
+      <map code="0x4d" name="M"/><!-- LATIN CAPITAL LETTER M -->
+      <map code="0x4e" name="N"/><!-- LATIN CAPITAL LETTER N -->
+      <map code="0x4f" name="O"/><!-- LATIN CAPITAL LETTER O -->
+      <map code="0x50" name="P"/><!-- LATIN CAPITAL LETTER P -->
+      <map code="0x51" name="Q"/><!-- LATIN CAPITAL LETTER Q -->
+      <map code="0x52" name="R"/><!-- LATIN CAPITAL LETTER R -->
+      <map code="0x53" name="S"/><!-- LATIN CAPITAL LETTER S -->
+      <map code="0x54" name="T"/><!-- LATIN CAPITAL LETTER T -->
+      <map code="0x55" name="U"/><!-- LATIN CAPITAL LETTER U -->
+      <map code="0x56" name="V"/><!-- LATIN CAPITAL LETTER V -->
+      <map code="0x57" name="W"/><!-- LATIN CAPITAL LETTER W -->
+      <map code="0x58" name="X"/><!-- LATIN CAPITAL LETTER X -->
+      <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
+      <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
+      <map code="0x5b" name="bracketleft"/><!-- LEFT SQUARE BRACKET -->
+      <map code="0x5c" name="backslash"/><!-- REVERSE SOLIDUS -->
+      <map code="0x5d" name="bracketright"/><!-- RIGHT SQUARE BRACKET -->
+      <map code="0x5e" name="asciicircum"/><!-- CIRCUMFLEX ACCENT -->
+      <map code="0x5f" name="underscore"/><!-- LOW LINE -->
+      <map code="0x60" name="grave"/><!-- GRAVE ACCENT -->
+      <map code="0x61" name="a"/><!-- LATIN SMALL LETTER A -->
+      <map code="0x62" name="b"/><!-- LATIN SMALL LETTER B -->
+      <map code="0x63" name="c"/><!-- LATIN SMALL LETTER C -->
+      <map code="0x64" name="d"/><!-- LATIN SMALL LETTER D -->
+      <map code="0x65" name="e"/><!-- LATIN SMALL LETTER E -->
+      <map code="0x66" name="f"/><!-- LATIN SMALL LETTER F -->
+      <map code="0x67" name="g"/><!-- LATIN SMALL LETTER G -->
+      <map code="0x68" name="h"/><!-- LATIN SMALL LETTER H -->
+      <map code="0x69" name="i"/><!-- LATIN SMALL LETTER I -->
+      <map code="0x6a" name="j"/><!-- LATIN SMALL LETTER J -->
+      <map code="0x6b" name="k"/><!-- LATIN SMALL LETTER K -->
+      <map code="0x6c" name="l"/><!-- LATIN SMALL LETTER L -->
+      <map code="0x6d" name="m"/><!-- LATIN SMALL LETTER M -->
+      <map code="0x6e" name="n"/><!-- LATIN SMALL LETTER N -->
+      <map code="0x6f" name="o"/><!-- LATIN SMALL LETTER O -->
+      <map code="0x70" name="p"/><!-- LATIN SMALL LETTER P -->
+      <map code="0x71" name="q"/><!-- LATIN SMALL LETTER Q -->
+      <map code="0x72" name="r"/><!-- LATIN SMALL LETTER R -->
+      <map code="0x73" name="s"/><!-- LATIN SMALL LETTER S -->
+      <map code="0x74" name="t"/><!-- LATIN SMALL LETTER T -->
+      <map code="0x75" name="u"/><!-- LATIN SMALL LETTER U -->
+      <map code="0x76" name="v"/><!-- LATIN SMALL LETTER V -->
+      <map code="0x77" name="w"/><!-- LATIN SMALL LETTER W -->
+      <map code="0x78" name="x"/><!-- LATIN SMALL LETTER X -->
+      <map code="0x79" name="y"/><!-- LATIN SMALL LETTER Y -->
+      <map code="0x7a" name="z"/><!-- LATIN SMALL LETTER Z -->
+      <map code="0x7b" name="braceleft"/><!-- LEFT CURLY BRACKET -->
+      <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
+      <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
+      <map code="0x7e" name="asciitilde"/><!-- TILDE -->
+      <map code="0x7f" name="DEL"/><!-- &lt;control> -->
+      <map code="0xa0" name="nonbreakingspace"/><!-- NO-BREAK SPACE -->
+      <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
+      <map code="0xa2" name="cent"/><!-- CENT SIGN -->
+      <map code="0xa3" name="sterling"/><!-- POUND SIGN -->
+      <map code="0xa4" name="currency"/><!-- CURRENCY SIGN -->
+      <map code="0xa5" name="yen"/><!-- YEN SIGN -->
+      <map code="0xa6" name="brokenbar"/><!-- BROKEN BAR -->
+      <map code="0xa7" name="section"/><!-- SECTION SIGN -->
+      <map code="0xa8" name="dieresis"/><!-- DIAERESIS -->
+      <map code="0xa9" name="copyright"/><!-- COPYRIGHT SIGN -->
+      <map code="0xaa" name="ordfeminine"/><!-- FEMININE ORDINAL INDICATOR -->
+      <map code="0xab" name="guillemotleft"/><!-- LEFT-POINTING DOUBLE ANGLE QUOTATION MARK -->
+      <map code="0xac" name="logicalnot"/><!-- NOT SIGN -->
+      <map code="0xad" name="uni00AD"/><!-- SOFT HYPHEN -->
+      <map code="0xae" name="registered"/><!-- REGISTERED SIGN -->
+      <map code="0xaf" name="macron"/><!-- MACRON -->
+      <map code="0xb0" name="degree"/><!-- DEGREE SIGN -->
+      <map code="0xb1" name="plusminus"/><!-- PLUS-MINUS SIGN -->
+      <map code="0xb2" name="two.superior"/><!-- SUPERSCRIPT TWO -->
+      <map code="0xb3" name="three.superior"/><!-- SUPERSCRIPT THREE -->
+      <map code="0xb4" name="acute"/><!-- ACUTE ACCENT -->
+      <map code="0xb5" name="mu"/><!-- MICRO SIGN -->
+      <map code="0xb6" name="paragraph"/><!-- PILCROW SIGN -->
+      <map code="0xb7" name="periodcentered"/><!-- MIDDLE DOT -->
+      <map code="0xb8" name="cedilla"/><!-- CEDILLA -->
+      <map code="0xb9" name="one.superior"/><!-- SUPERSCRIPT ONE -->
+      <map code="0xba" name="ordmasculine"/><!-- MASCULINE ORDINAL INDICATOR -->
+      <map code="0xbb" name="guillemotright"/><!-- RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK -->
+      <map code="0xbc" name="onequarter"/><!-- VULGAR FRACTION ONE QUARTER -->
+      <map code="0xbd" name="onehalf"/><!-- VULGAR FRACTION ONE HALF -->
+      <map code="0xbe" name="threequarters"/><!-- VULGAR FRACTION THREE QUARTERS -->
+      <map code="0xbf" name="questiondown"/><!-- INVERTED QUESTION MARK -->
+      <map code="0xc0" name="Agrave"/><!-- LATIN CAPITAL LETTER A WITH GRAVE -->
+      <map code="0xc1" name="Aacute"/><!-- LATIN CAPITAL LETTER A WITH ACUTE -->
+      <map code="0xc2" name="Acircumflex"/><!-- LATIN CAPITAL LETTER A WITH CIRCUMFLEX -->
+      <map code="0xc3" name="Atilde"/><!-- LATIN CAPITAL LETTER A WITH TILDE -->
+      <map code="0xc4" name="Adieresis"/><!-- LATIN CAPITAL LETTER A WITH DIAERESIS -->
+      <map code="0xc5" name="Aring"/><!-- LATIN CAPITAL LETTER A WITH RING ABOVE -->
+      <map code="0xc6" name="AE"/><!-- LATIN CAPITAL LETTER AE -->
+      <map code="0xc7" name="Ccedilla"/><!-- LATIN CAPITAL LETTER C WITH CEDILLA -->
+      <map code="0xc8" name="Egrave"/><!-- LATIN CAPITAL LETTER E WITH GRAVE -->
+      <map code="0xc9" name="Eacute"/><!-- LATIN CAPITAL LETTER E WITH ACUTE -->
+      <map code="0xca" name="Ecircumflex"/><!-- LATIN CAPITAL LETTER E WITH CIRCUMFLEX -->
+      <map code="0xcb" name="Edieresis"/><!-- LATIN CAPITAL LETTER E WITH DIAERESIS -->
+      <map code="0xcc" name="Igrave"/><!-- LATIN CAPITAL LETTER I WITH GRAVE -->
+      <map code="0xcd" name="Iacute"/><!-- LATIN CAPITAL LETTER I WITH ACUTE -->
+      <map code="0xce" name="Icircumflex"/><!-- LATIN CAPITAL LETTER I WITH CIRCUMFLEX -->
+      <map code="0xcf" name="Idieresis"/><!-- LATIN CAPITAL LETTER I WITH DIAERESIS -->
+      <map code="0xd0" name="Eth"/><!-- LATIN CAPITAL LETTER ETH -->
+      <map code="0xd1" name="Ntilde"/><!-- LATIN CAPITAL LETTER N WITH TILDE -->
+      <map code="0xd2" name="Ograve"/><!-- LATIN CAPITAL LETTER O WITH GRAVE -->
+      <map code="0xd3" name="Oacute"/><!-- LATIN CAPITAL LETTER O WITH ACUTE -->
+      <map code="0xd4" name="Ocircumflex"/><!-- LATIN CAPITAL LETTER O WITH CIRCUMFLEX -->
+      <map code="0xd5" name="Otilde"/><!-- LATIN CAPITAL LETTER O WITH TILDE -->
+      <map code="0xd6" name="Odieresis"/><!-- LATIN CAPITAL LETTER O WITH DIAERESIS -->
+      <map code="0xd7" name="multiply"/><!-- MULTIPLICATION SIGN -->
+      <map code="0xd8" name="Oslash"/><!-- LATIN CAPITAL LETTER O WITH STROKE -->
+      <map code="0xd9" name="Ugrave"/><!-- LATIN CAPITAL LETTER U WITH GRAVE -->
+      <map code="0xda" name="Uacute"/><!-- LATIN CAPITAL LETTER U WITH ACUTE -->
+      <map code="0xdb" name="Ucircumflex"/><!-- LATIN CAPITAL LETTER U WITH CIRCUMFLEX -->
+      <map code="0xdc" name="Udieresis"/><!-- LATIN CAPITAL LETTER U WITH DIAERESIS -->
+      <map code="0xdd" name="Yacute"/><!-- LATIN CAPITAL LETTER Y WITH ACUTE -->
+      <map code="0xde" name="Thorn"/><!-- LATIN CAPITAL LETTER THORN -->
+      <map code="0xdf" name="germandbls"/><!-- LATIN SMALL LETTER SHARP S -->
+      <map code="0xe0" name="agrave"/><!-- LATIN SMALL LETTER A WITH GRAVE -->
+      <map code="0xe1" name="aacute"/><!-- LATIN SMALL LETTER A WITH ACUTE -->
+      <map code="0xe2" name="acircumflex"/><!-- LATIN SMALL LETTER A WITH CIRCUMFLEX -->
+      <map code="0xe3" name="atilde"/><!-- LATIN SMALL LETTER A WITH TILDE -->
+      <map code="0xe4" name="adieresis"/><!-- LATIN SMALL LETTER A WITH DIAERESIS -->
+      <map code="0xe5" name="aring"/><!-- LATIN SMALL LETTER A WITH RING ABOVE -->
+      <map code="0xe6" name="ae"/><!-- LATIN SMALL LETTER AE -->
+      <map code="0xe7" name="ccedilla"/><!-- LATIN SMALL LETTER C WITH CEDILLA -->
+      <map code="0xe8" name="egrave"/><!-- LATIN SMALL LETTER E WITH GRAVE -->
+      <map code="0xe9" name="eacute"/><!-- LATIN SMALL LETTER E WITH ACUTE -->
+      <map code="0xea" name="ecircumflex"/><!-- LATIN SMALL LETTER E WITH CIRCUMFLEX -->
+      <map code="0xeb" name="edieresis"/><!-- LATIN SMALL LETTER E WITH DIAERESIS -->
+      <map code="0xec" name="igrave"/><!-- LATIN SMALL LETTER I WITH GRAVE -->
+      <map code="0xed" name="iacute"/><!-- LATIN SMALL LETTER I WITH ACUTE -->
+      <map code="0xee" name="icircumflex"/><!-- LATIN SMALL LETTER I WITH CIRCUMFLEX -->
+      <map code="0xef" name="idieresis"/><!-- LATIN SMALL LETTER I WITH DIAERESIS -->
+      <map code="0xf0" name="eth"/><!-- LATIN SMALL LETTER ETH -->
+      <map code="0xf1" name="ntilde"/><!-- LATIN SMALL LETTER N WITH TILDE -->
+      <map code="0xf2" name="ograve"/><!-- LATIN SMALL LETTER O WITH GRAVE -->
+      <map code="0xf3" name="oacute"/><!-- LATIN SMALL LETTER O WITH ACUTE -->
+      <map code="0xf4" name="ocircumflex"/><!-- LATIN SMALL LETTER O WITH CIRCUMFLEX -->
+      <map code="0xf5" name="otilde"/><!-- LATIN SMALL LETTER O WITH TILDE -->
+      <map code="0xf6" name="odieresis"/><!-- LATIN SMALL LETTER O WITH DIAERESIS -->
+      <map code="0xf7" name="divide"/><!-- DIVISION SIGN -->
+      <map code="0xf8" name="oslash"/><!-- LATIN SMALL LETTER O WITH STROKE -->
+      <map code="0xf9" name="ugrave"/><!-- LATIN SMALL LETTER U WITH GRAVE -->
+      <map code="0xfa" name="uacute"/><!-- LATIN SMALL LETTER U WITH ACUTE -->
+      <map code="0xfb" name="ucircumflex"/><!-- LATIN SMALL LETTER U WITH CIRCUMFLEX -->
+      <map code="0xfc" name="udieresis"/><!-- LATIN SMALL LETTER U WITH DIAERESIS -->
+      <map code="0xfd" name="yacute"/><!-- LATIN SMALL LETTER Y WITH ACUTE -->
+      <map code="0xfe" name="thorn"/><!-- LATIN SMALL LETTER THORN -->
+      <map code="0xff" name="ydieresis"/><!-- LATIN SMALL LETTER Y WITH DIAERESIS -->
+      <map code="0x100" name="Amacron"/><!-- LATIN CAPITAL LETTER A WITH MACRON -->
+      <map code="0x101" name="amacron"/><!-- LATIN SMALL LETTER A WITH MACRON -->
+      <map code="0x102" name="Abreve"/><!-- LATIN CAPITAL LETTER A WITH BREVE -->
+      <map code="0x103" name="abreve"/><!-- LATIN SMALL LETTER A WITH BREVE -->
+      <map code="0x104" name="Aogonek"/><!-- LATIN CAPITAL LETTER A WITH OGONEK -->
+      <map code="0x105" name="aogonek"/><!-- LATIN SMALL LETTER A WITH OGONEK -->
+      <map code="0x106" name="Cacute"/><!-- LATIN CAPITAL LETTER C WITH ACUTE -->
+      <map code="0x107" name="cacute"/><!-- LATIN SMALL LETTER C WITH ACUTE -->
+      <map code="0x108" name="Ccircumflex"/><!-- LATIN CAPITAL LETTER C WITH CIRCUMFLEX -->
+      <map code="0x109" name="ccircumflex"/><!-- LATIN SMALL LETTER C WITH CIRCUMFLEX -->
+      <map code="0x10a" name="Cdotaccent"/><!-- LATIN CAPITAL LETTER C WITH DOT ABOVE -->
+      <map code="0x10b" name="cdotaccent"/><!-- LATIN SMALL LETTER C WITH DOT ABOVE -->
+      <map code="0x10c" name="Ccaron"/><!-- LATIN CAPITAL LETTER C WITH CARON -->
+      <map code="0x10d" name="ccaron"/><!-- LATIN SMALL LETTER C WITH CARON -->
+      <map code="0x10e" name="Dcaron"/><!-- LATIN CAPITAL LETTER D WITH CARON -->
+      <map code="0x10f" name="dcaron"/><!-- LATIN SMALL LETTER D WITH CARON -->
+      <map code="0x110" name="Dcroat"/><!-- LATIN CAPITAL LETTER D WITH STROKE -->
+      <map code="0x111" name="dcroat"/><!-- LATIN SMALL LETTER D WITH STROKE -->
+      <map code="0x112" name="Emacron"/><!-- LATIN CAPITAL LETTER E WITH MACRON -->
+      <map code="0x113" name="emacron"/><!-- LATIN SMALL LETTER E WITH MACRON -->
+      <map code="0x114" name="Ebreve"/><!-- LATIN CAPITAL LETTER E WITH BREVE -->
+      <map code="0x115" name="ebreve"/><!-- LATIN SMALL LETTER E WITH BREVE -->
+      <map code="0x116" name="Edotaccent"/><!-- LATIN CAPITAL LETTER E WITH DOT ABOVE -->
+      <map code="0x117" name="edotaccent"/><!-- LATIN SMALL LETTER E WITH DOT ABOVE -->
+      <map code="0x118" name="Eogonek"/><!-- LATIN CAPITAL LETTER E WITH OGONEK -->
+      <map code="0x119" name="eogonek"/><!-- LATIN SMALL LETTER E WITH OGONEK -->
+      <map code="0x11a" name="Ecaron"/><!-- LATIN CAPITAL LETTER E WITH CARON -->
+      <map code="0x11b" name="ecaron"/><!-- LATIN SMALL LETTER E WITH CARON -->
+      <map code="0x11c" name="Gcircumflex"/><!-- LATIN CAPITAL LETTER G WITH CIRCUMFLEX -->
+      <map code="0x11d" name="gcircumflex"/><!-- LATIN SMALL LETTER G WITH CIRCUMFLEX -->
+      <map code="0x11e" name="Gbreve"/><!-- LATIN CAPITAL LETTER G WITH BREVE -->
+      <map code="0x11f" name="gbreve"/><!-- LATIN SMALL LETTER G WITH BREVE -->
+      <map code="0x120" name="Gdotaccent"/><!-- LATIN CAPITAL LETTER G WITH DOT ABOVE -->
+      <map code="0x121" name="gdotaccent"/><!-- LATIN SMALL LETTER G WITH DOT ABOVE -->
+      <map code="0x122" name="Gcommaaccent"/><!-- LATIN CAPITAL LETTER G WITH CEDILLA -->
+      <map code="0x123" name="gcommaaccent"/><!-- LATIN SMALL LETTER G WITH CEDILLA -->
+      <map code="0x124" name="Hcircumflex"/><!-- LATIN CAPITAL LETTER H WITH CIRCUMFLEX -->
+      <map code="0x125" name="hcircumflex"/><!-- LATIN SMALL LETTER H WITH CIRCUMFLEX -->
+      <map code="0x126" name="Hbar"/><!-- LATIN CAPITAL LETTER H WITH STROKE -->
+      <map code="0x127" name="hbar"/><!-- LATIN SMALL LETTER H WITH STROKE -->
+      <map code="0x128" name="Itilde"/><!-- LATIN CAPITAL LETTER I WITH TILDE -->
+      <map code="0x129" name="itilde"/><!-- LATIN SMALL LETTER I WITH TILDE -->
+      <map code="0x12a" name="Imacron"/><!-- LATIN CAPITAL LETTER I WITH MACRON -->
+      <map code="0x12b" name="imacron"/><!-- LATIN SMALL LETTER I WITH MACRON -->
+      <map code="0x12c" name="Ibreve"/><!-- LATIN CAPITAL LETTER I WITH BREVE -->
+      <map code="0x12d" name="ibreve"/><!-- LATIN SMALL LETTER I WITH BREVE -->
+      <map code="0x12e" name="Iogonek"/><!-- LATIN CAPITAL LETTER I WITH OGONEK -->
+      <map code="0x12f" name="iogonek"/><!-- LATIN SMALL LETTER I WITH OGONEK -->
+      <map code="0x130" name="Idotaccent"/><!-- LATIN CAPITAL LETTER I WITH DOT ABOVE -->
+      <map code="0x131" name="dotlessi"/><!-- LATIN SMALL LETTER DOTLESS I -->
+      <map code="0x132" name="IJ"/><!-- LATIN CAPITAL LIGATURE IJ -->
+      <map code="0x133" name="ij"/><!-- LATIN SMALL LIGATURE IJ -->
+      <map code="0x134" name="Jcircumflex"/><!-- LATIN CAPITAL LETTER J WITH CIRCUMFLEX -->
+      <map code="0x135" name="jcircumflex"/><!-- LATIN SMALL LETTER J WITH CIRCUMFLEX -->
+      <map code="0x136" name="Kcommaaccent"/><!-- LATIN CAPITAL LETTER K WITH CEDILLA -->
+      <map code="0x137" name="kcommaaccent"/><!-- LATIN SMALL LETTER K WITH CEDILLA -->
+      <map code="0x138" name="kgreenlandic"/><!-- LATIN SMALL LETTER KRA -->
+      <map code="0x139" name="Lacute"/><!-- LATIN CAPITAL LETTER L WITH ACUTE -->
+      <map code="0x13a" name="lacute"/><!-- LATIN SMALL LETTER L WITH ACUTE -->
+      <map code="0x13b" name="Lcommaaccent"/><!-- LATIN CAPITAL LETTER L WITH CEDILLA -->
+      <map code="0x13c" name="lcommaaccent"/><!-- LATIN SMALL LETTER L WITH CEDILLA -->
+      <map code="0x13d" name="Lcaron"/><!-- LATIN CAPITAL LETTER L WITH CARON -->
+      <map code="0x13e" name="lcaron"/><!-- LATIN SMALL LETTER L WITH CARON -->
+      <map code="0x13f" name="Ldot"/><!-- LATIN CAPITAL LETTER L WITH MIDDLE DOT -->
+      <map code="0x140" name="ldot"/><!-- LATIN SMALL LETTER L WITH MIDDLE DOT -->
+      <map code="0x141" name="Lslash"/><!-- LATIN CAPITAL LETTER L WITH STROKE -->
+      <map code="0x142" name="lslash"/><!-- LATIN SMALL LETTER L WITH STROKE -->
+      <map code="0x143" name="Nacute"/><!-- LATIN CAPITAL LETTER N WITH ACUTE -->
+      <map code="0x144" name="nacute"/><!-- LATIN SMALL LETTER N WITH ACUTE -->
+      <map code="0x145" name="Ncommaaccent"/><!-- LATIN CAPITAL LETTER N WITH CEDILLA -->
+      <map code="0x146" name="ncommaaccent"/><!-- LATIN SMALL LETTER N WITH CEDILLA -->
+      <map code="0x147" name="Ncaron"/><!-- LATIN CAPITAL LETTER N WITH CARON -->
+      <map code="0x148" name="ncaron"/><!-- LATIN SMALL LETTER N WITH CARON -->
+      <map code="0x149" name="napostrophe"/><!-- LATIN SMALL LETTER N PRECEDED BY APOSTROPHE -->
+      <map code="0x14a" name="Eng"/><!-- LATIN CAPITAL LETTER ENG -->
+      <map code="0x14b" name="eng"/><!-- LATIN SMALL LETTER ENG -->
+      <map code="0x14c" name="Omacron"/><!-- LATIN CAPITAL LETTER O WITH MACRON -->
+      <map code="0x14d" name="omacron"/><!-- LATIN SMALL LETTER O WITH MACRON -->
+      <map code="0x14e" name="Obreve"/><!-- LATIN CAPITAL LETTER O WITH BREVE -->
+      <map code="0x14f" name="obreve"/><!-- LATIN SMALL LETTER O WITH BREVE -->
+      <map code="0x150" name="Ohungarumlaut"/><!-- LATIN CAPITAL LETTER O WITH DOUBLE ACUTE -->
+      <map code="0x151" name="ohungarumlaut"/><!-- LATIN SMALL LETTER O WITH DOUBLE ACUTE -->
+      <map code="0x152" name="OE"/><!-- LATIN CAPITAL LIGATURE OE -->
+      <map code="0x153" name="oe"/><!-- LATIN SMALL LIGATURE OE -->
+      <map code="0x154" name="Racute"/><!-- LATIN CAPITAL LETTER R WITH ACUTE -->
+      <map code="0x155" name="racute"/><!-- LATIN SMALL LETTER R WITH ACUTE -->
+      <map code="0x156" name="Rcommaaccent"/><!-- LATIN CAPITAL LETTER R WITH CEDILLA -->
+      <map code="0x157" name="rcommaaccent"/><!-- LATIN SMALL LETTER R WITH CEDILLA -->
+      <map code="0x158" name="Rcaron"/><!-- LATIN CAPITAL LETTER R WITH CARON -->
+      <map code="0x159" name="rcaron"/><!-- LATIN SMALL LETTER R WITH CARON -->
+      <map code="0x15a" name="Sacute"/><!-- LATIN CAPITAL LETTER S WITH ACUTE -->
+      <map code="0x15b" name="sacute"/><!-- LATIN SMALL LETTER S WITH ACUTE -->
+      <map code="0x15c" name="Scircumflex"/><!-- LATIN CAPITAL LETTER S WITH CIRCUMFLEX -->
+      <map code="0x15d" name="scircumflex"/><!-- LATIN SMALL LETTER S WITH CIRCUMFLEX -->
+      <map code="0x15e" name="Scedilla"/><!-- LATIN CAPITAL LETTER S WITH CEDILLA -->
+      <map code="0x15f" name="scedilla"/><!-- LATIN SMALL LETTER S WITH CEDILLA -->
+      <map code="0x160" name="Scaron"/><!-- LATIN CAPITAL LETTER S WITH CARON -->
+      <map code="0x161" name="scaron"/><!-- LATIN SMALL LETTER S WITH CARON -->
+      <map code="0x162" name="uni0162"/><!-- LATIN CAPITAL LETTER T WITH CEDILLA -->
+      <map code="0x163" name="uni0163"/><!-- LATIN SMALL LETTER T WITH CEDILLA -->
+      <map code="0x164" name="Tcaron"/><!-- LATIN CAPITAL LETTER T WITH CARON -->
+      <map code="0x165" name="tcaron"/><!-- LATIN SMALL LETTER T WITH CARON -->
+      <map code="0x166" name="Tbar"/><!-- LATIN CAPITAL LETTER T WITH STROKE -->
+      <map code="0x167" name="tbar"/><!-- LATIN SMALL LETTER T WITH STROKE -->
+      <map code="0x168" name="Utilde"/><!-- LATIN CAPITAL LETTER U WITH TILDE -->
+      <map code="0x169" name="utilde"/><!-- LATIN SMALL LETTER U WITH TILDE -->
+      <map code="0x16a" name="Umacron"/><!-- LATIN CAPITAL LETTER U WITH MACRON -->
+      <map code="0x16b" name="umacron"/><!-- LATIN SMALL LETTER U WITH MACRON -->
+      <map code="0x16c" name="Ubreve"/><!-- LATIN CAPITAL LETTER U WITH BREVE -->
+      <map code="0x16d" name="ubreve"/><!-- LATIN SMALL LETTER U WITH BREVE -->
+      <map code="0x16e" name="Uring"/><!-- LATIN CAPITAL LETTER U WITH RING ABOVE -->
+      <map code="0x16f" name="uring"/><!-- LATIN SMALL LETTER U WITH RING ABOVE -->
+      <map code="0x170" name="Uhungarumlaut"/><!-- LATIN CAPITAL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x171" name="uhungarumlaut"/><!-- LATIN SMALL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x172" name="Uogonek"/><!-- LATIN CAPITAL LETTER U WITH OGONEK -->
+      <map code="0x173" name="uogonek"/><!-- LATIN SMALL LETTER U WITH OGONEK -->
+      <map code="0x174" name="Wcircumflex"/><!-- LATIN CAPITAL LETTER W WITH CIRCUMFLEX -->
+      <map code="0x175" name="wcircumflex"/><!-- LATIN SMALL LETTER W WITH CIRCUMFLEX -->
+      <map code="0x176" name="Ycircumflex"/><!-- LATIN CAPITAL LETTER Y WITH CIRCUMFLEX -->
+      <map code="0x177" name="ycircumflex"/><!-- LATIN SMALL LETTER Y WITH CIRCUMFLEX -->
+      <map code="0x178" name="Ydieresis"/><!-- LATIN CAPITAL LETTER Y WITH DIAERESIS -->
+      <map code="0x179" name="Zacute"/><!-- LATIN CAPITAL LETTER Z WITH ACUTE -->
+      <map code="0x17a" name="zacute"/><!-- LATIN SMALL LETTER Z WITH ACUTE -->
+      <map code="0x17b" name="Zdotaccent"/><!-- LATIN CAPITAL LETTER Z WITH DOT ABOVE -->
+      <map code="0x17c" name="zdotaccent"/><!-- LATIN SMALL LETTER Z WITH DOT ABOVE -->
+      <map code="0x17d" name="Zcaron"/><!-- LATIN CAPITAL LETTER Z WITH CARON -->
+      <map code="0x17e" name="zcaron"/><!-- LATIN SMALL LETTER Z WITH CARON -->
+      <map code="0x18f" name="uni018F"/><!-- LATIN CAPITAL LETTER SCHWA -->
+      <map code="0x192" name="florin"/><!-- LATIN SMALL LETTER F WITH HOOK -->
+      <map code="0x1c4" name="uni01C4"/><!-- LATIN CAPITAL LETTER DZ WITH CARON -->
+      <map code="0x1c5" name="uni01C5"/><!-- LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON -->
+      <map code="0x1c6" name="uni01C6"/><!-- LATIN SMALL LETTER DZ WITH CARON -->
+      <map code="0x1c7" name="uni01C7"/><!-- LATIN CAPITAL LETTER LJ -->
+      <map code="0x1c8" name="uni01C8"/><!-- LATIN CAPITAL LETTER L WITH SMALL LETTER J -->
+      <map code="0x1c9" name="uni01C9"/><!-- LATIN SMALL LETTER LJ -->
+      <map code="0x1ca" name="uni01CA"/><!-- LATIN CAPITAL LETTER NJ -->
+      <map code="0x1cb" name="uni01CB"/><!-- LATIN CAPITAL LETTER N WITH SMALL LETTER J -->
+      <map code="0x1cc" name="uni01CC"/><!-- LATIN SMALL LETTER NJ -->
+      <map code="0x1f1" name="uni01F1"/><!-- LATIN CAPITAL LETTER DZ -->
+      <map code="0x1f2" name="uni01F2"/><!-- LATIN CAPITAL LETTER D WITH SMALL LETTER Z -->
+      <map code="0x1f3" name="uni01F3"/><!-- LATIN SMALL LETTER DZ -->
+      <map code="0x1fc" name="AEacute"/><!-- LATIN CAPITAL LETTER AE WITH ACUTE -->
+      <map code="0x1fd" name="aeacute"/><!-- LATIN SMALL LETTER AE WITH ACUTE -->
+      <map code="0x218" name="uni0218"/><!-- LATIN CAPITAL LETTER S WITH COMMA BELOW -->
+      <map code="0x219" name="uni0219"/><!-- LATIN SMALL LETTER S WITH COMMA BELOW -->
+      <map code="0x21a" name="uni021A"/><!-- LATIN CAPITAL LETTER T WITH COMMA BELOW -->
+      <map code="0x21b" name="uni021B"/><!-- LATIN SMALL LETTER T WITH COMMA BELOW -->
+      <map code="0x237" name="dotlessj"/><!-- LATIN SMALL LETTER DOTLESS J -->
+      <map code="0x259" name="uni0259"/><!-- LATIN SMALL LETTER SCHWA -->
+      <map code="0x2c6" name="circumflex"/><!-- MODIFIER LETTER CIRCUMFLEX ACCENT -->
+      <map code="0x2c7" name="caron"/><!-- CARON -->
+      <map code="0x2c9" name="uni02C9"/><!-- MODIFIER LETTER MACRON -->
+      <map code="0x2d8" name="breve"/><!-- BREVE -->
+      <map code="0x2d9" name="dotaccent"/><!-- DOT ABOVE -->
+      <map code="0x2da" name="ring"/><!-- RING ABOVE -->
+      <map code="0x2db" name="ogonek"/><!-- OGONEK -->
+      <map code="0x2dc" name="tilde"/><!-- SMALL TILDE -->
+      <map code="0x2dd" name="hungarumlaut"/><!-- DOUBLE ACUTE ACCENT -->
+      <map code="0x394" name="Deltagreek"/><!-- GREEK CAPITAL LETTER DELTA -->
+      <map code="0x3a9" name="Omegagreek"/><!-- GREEK CAPITAL LETTER OMEGA -->
+      <map code="0x3bc" name="uni03BC"/><!-- GREEK SMALL LETTER MU -->
+      <map code="0x3c0" name="pi"/><!-- GREEK SMALL LETTER PI -->
+      <map code="0x400" name="uni0400"/><!-- CYRILLIC CAPITAL LETTER IE WITH GRAVE -->
+      <map code="0x401" name="afii10023"/><!-- CYRILLIC CAPITAL LETTER IO -->
+      <map code="0x402" name="afii10051"/><!-- CYRILLIC CAPITAL LETTER DJE -->
+      <map code="0x403" name="afii10052"/><!-- CYRILLIC CAPITAL LETTER GJE -->
+      <map code="0x404" name="afii10053"/><!-- CYRILLIC CAPITAL LETTER UKRAINIAN IE -->
+      <map code="0x405" name="afii10054"/><!-- CYRILLIC CAPITAL LETTER DZE -->
+      <map code="0x406" name="afii10055"/><!-- CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I -->
+      <map code="0x407" name="uni0407"/><!-- CYRILLIC CAPITAL LETTER YI -->
+      <map code="0x408" name="afii10057"/><!-- CYRILLIC CAPITAL LETTER JE -->
+      <map code="0x409" name="afii10058"/><!-- CYRILLIC CAPITAL LETTER LJE -->
+      <map code="0x40a" name="afii10059"/><!-- CYRILLIC CAPITAL LETTER NJE -->
+      <map code="0x40b" name="afii10060"/><!-- CYRILLIC CAPITAL LETTER TSHE -->
+      <map code="0x40c" name="afii10061"/><!-- CYRILLIC CAPITAL LETTER KJE -->
+      <map code="0x40d" name="uni040D"/><!-- CYRILLIC CAPITAL LETTER I WITH GRAVE -->
+      <map code="0x40e" name="afii10062"/><!-- CYRILLIC CAPITAL LETTER SHORT U -->
+      <map code="0x40f" name="afii10145"/><!-- CYRILLIC CAPITAL LETTER DZHE -->
+      <map code="0x410" name="afii10017"/><!-- CYRILLIC CAPITAL LETTER A -->
+      <map code="0x411" name="afii10018"/><!-- CYRILLIC CAPITAL LETTER BE -->
+      <map code="0x412" name="afii10019"/><!-- CYRILLIC CAPITAL LETTER VE -->
+      <map code="0x413" name="afii10020"/><!-- CYRILLIC CAPITAL LETTER GHE -->
+      <map code="0x414" name="afii10021"/><!-- CYRILLIC CAPITAL LETTER DE -->
+      <map code="0x415" name="afii10022"/><!-- CYRILLIC CAPITAL LETTER IE -->
+      <map code="0x416" name="afii10024"/><!-- CYRILLIC CAPITAL LETTER ZHE -->
+      <map code="0x417" name="afii10025"/><!-- CYRILLIC CAPITAL LETTER ZE -->
+      <map code="0x418" name="afii10026"/><!-- CYRILLIC CAPITAL LETTER I -->
+      <map code="0x419" name="afii10027"/><!-- CYRILLIC CAPITAL LETTER SHORT I -->
+      <map code="0x41a" name="afii10028"/><!-- CYRILLIC CAPITAL LETTER KA -->
+      <map code="0x41b" name="afii10029"/><!-- CYRILLIC CAPITAL LETTER EL -->
+      <map code="0x41c" name="afii10030"/><!-- CYRILLIC CAPITAL LETTER EM -->
+      <map code="0x41d" name="afii10031"/><!-- CYRILLIC CAPITAL LETTER EN -->
+      <map code="0x41e" name="afii10032"/><!-- CYRILLIC CAPITAL LETTER O -->
+      <map code="0x41f" name="afii10033"/><!-- CYRILLIC CAPITAL LETTER PE -->
+      <map code="0x420" name="afii10034"/><!-- CYRILLIC CAPITAL LETTER ER -->
+      <map code="0x421" name="afii10035"/><!-- CYRILLIC CAPITAL LETTER ES -->
+      <map code="0x422" name="afii10036"/><!-- CYRILLIC CAPITAL LETTER TE -->
+      <map code="0x423" name="afii10037"/><!-- CYRILLIC CAPITAL LETTER U -->
+      <map code="0x424" name="afii10038"/><!-- CYRILLIC CAPITAL LETTER EF -->
+      <map code="0x425" name="afii10039"/><!-- CYRILLIC CAPITAL LETTER HA -->
+      <map code="0x426" name="afii10040"/><!-- CYRILLIC CAPITAL LETTER TSE -->
+      <map code="0x427" name="afii10041"/><!-- CYRILLIC CAPITAL LETTER CHE -->
+      <map code="0x428" name="afii10042"/><!-- CYRILLIC CAPITAL LETTER SHA -->
+      <map code="0x429" name="afii10043"/><!-- CYRILLIC CAPITAL LETTER SHCHA -->
+      <map code="0x42a" name="afii10044"/><!-- CYRILLIC CAPITAL LETTER HARD SIGN -->
+      <map code="0x42b" name="afii10045"/><!-- CYRILLIC CAPITAL LETTER YERU -->
+      <map code="0x42c" name="afii10046"/><!-- CYRILLIC CAPITAL LETTER SOFT SIGN -->
+      <map code="0x42d" name="afii10047"/><!-- CYRILLIC CAPITAL LETTER E -->
+      <map code="0x42e" name="afii10048"/><!-- CYRILLIC CAPITAL LETTER YU -->
+      <map code="0x42f" name="afii10049"/><!-- CYRILLIC CAPITAL LETTER YA -->
+      <map code="0x430" name="afii10065"/><!-- CYRILLIC SMALL LETTER A -->
+      <map code="0x431" name="afii10066"/><!-- CYRILLIC SMALL LETTER BE -->
+      <map code="0x432" name="afii10067"/><!-- CYRILLIC SMALL LETTER VE -->
+      <map code="0x433" name="afii10068"/><!-- CYRILLIC SMALL LETTER GHE -->
+      <map code="0x434" name="afii10069"/><!-- CYRILLIC SMALL LETTER DE -->
+      <map code="0x435" name="afii10070"/><!-- CYRILLIC SMALL LETTER IE -->
+      <map code="0x436" name="afii10072"/><!-- CYRILLIC SMALL LETTER ZHE -->
+      <map code="0x437" name="afii10073"/><!-- CYRILLIC SMALL LETTER ZE -->
+      <map code="0x438" name="afii10074"/><!-- CYRILLIC SMALL LETTER I -->
+      <map code="0x439" name="afii10075"/><!-- CYRILLIC SMALL LETTER SHORT I -->
+      <map code="0x43a" name="afii10076"/><!-- CYRILLIC SMALL LETTER KA -->
+      <map code="0x43b" name="afii10077"/><!-- CYRILLIC SMALL LETTER EL -->
+      <map code="0x43c" name="afii10078"/><!-- CYRILLIC SMALL LETTER EM -->
+      <map code="0x43d" name="afii10079"/><!-- CYRILLIC SMALL LETTER EN -->
+      <map code="0x43e" name="afii10080"/><!-- CYRILLIC SMALL LETTER O -->
+      <map code="0x43f" name="afii10081"/><!-- CYRILLIC SMALL LETTER PE -->
+      <map code="0x440" name="afii10082"/><!-- CYRILLIC SMALL LETTER ER -->
+      <map code="0x441" name="afii10083"/><!-- CYRILLIC SMALL LETTER ES -->
+      <map code="0x442" name="afii10084"/><!-- CYRILLIC SMALL LETTER TE -->
+      <map code="0x443" name="afii10085"/><!-- CYRILLIC SMALL LETTER U -->
+      <map code="0x444" name="afii10086"/><!-- CYRILLIC SMALL LETTER EF -->
+      <map code="0x445" name="afii10087"/><!-- CYRILLIC SMALL LETTER HA -->
+      <map code="0x446" name="afii10088"/><!-- CYRILLIC SMALL LETTER TSE -->
+      <map code="0x447" name="afii10089"/><!-- CYRILLIC SMALL LETTER CHE -->
+      <map code="0x448" name="afii10090"/><!-- CYRILLIC SMALL LETTER SHA -->
+      <map code="0x449" name="afii10091"/><!-- CYRILLIC SMALL LETTER SHCHA -->
+      <map code="0x44a" name="afii10092"/><!-- CYRILLIC SMALL LETTER HARD SIGN -->
+      <map code="0x44b" name="afii10093"/><!-- CYRILLIC SMALL LETTER YERU -->
+      <map code="0x44c" name="afii10094"/><!-- CYRILLIC SMALL LETTER SOFT SIGN -->
+      <map code="0x44d" name="afii10095"/><!-- CYRILLIC SMALL LETTER E -->
+      <map code="0x44e" name="afii10096"/><!-- CYRILLIC SMALL LETTER YU -->
+      <map code="0x44f" name="afii10097"/><!-- CYRILLIC SMALL LETTER YA -->
+      <map code="0x450" name="uni0450"/><!-- CYRILLIC SMALL LETTER IE WITH GRAVE -->
+      <map code="0x451" name="afii10071"/><!-- CYRILLIC SMALL LETTER IO -->
+      <map code="0x452" name="afii10099"/><!-- CYRILLIC SMALL LETTER DJE -->
+      <map code="0x453" name="afii10100"/><!-- CYRILLIC SMALL LETTER GJE -->
+      <map code="0x454" name="afii10101"/><!-- CYRILLIC SMALL LETTER UKRAINIAN IE -->
+      <map code="0x455" name="afii10102"/><!-- CYRILLIC SMALL LETTER DZE -->
+      <map code="0x456" name="afii10103"/><!-- CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I -->
+      <map code="0x457" name="afii10104"/><!-- CYRILLIC SMALL LETTER YI -->
+      <map code="0x458" name="afii10105"/><!-- CYRILLIC SMALL LETTER JE -->
+      <map code="0x459" name="afii10106"/><!-- CYRILLIC SMALL LETTER LJE -->
+      <map code="0x45a" name="afii10107"/><!-- CYRILLIC SMALL LETTER NJE -->
+      <map code="0x45b" name="afii10108"/><!-- CYRILLIC SMALL LETTER TSHE -->
+      <map code="0x45c" name="afii10109"/><!-- CYRILLIC SMALL LETTER KJE -->
+      <map code="0x45d" name="uni045D"/><!-- CYRILLIC SMALL LETTER I WITH GRAVE -->
+      <map code="0x45e" name="afii10110"/><!-- CYRILLIC SMALL LETTER SHORT U -->
+      <map code="0x45f" name="afii10193"/><!-- CYRILLIC SMALL LETTER DZHE -->
+      <map code="0x462" name="afii10146"/><!-- CYRILLIC CAPITAL LETTER YAT -->
+      <map code="0x463" name="afii10194"/><!-- CYRILLIC SMALL LETTER YAT -->
+      <map code="0x472" name="afii10147"/><!-- CYRILLIC CAPITAL LETTER FITA -->
+      <map code="0x473" name="afii10195"/><!-- CYRILLIC SMALL LETTER FITA -->
+      <map code="0x474" name="afii10148"/><!-- CYRILLIC CAPITAL LETTER IZHITSA -->
+      <map code="0x475" name="afii10196"/><!-- CYRILLIC SMALL LETTER IZHITSA -->
+      <map code="0x48a" name="uni048A"/><!-- CYRILLIC CAPITAL LETTER SHORT I WITH TAIL -->
+      <map code="0x48b" name="uni048B"/><!-- CYRILLIC SMALL LETTER SHORT I WITH TAIL -->
+      <map code="0x48c" name="uni048C"/><!-- CYRILLIC CAPITAL LETTER SEMISOFT SIGN -->
+      <map code="0x48d" name="uni048D"/><!-- CYRILLIC SMALL LETTER SEMISOFT SIGN -->
+      <map code="0x48e" name="uni048E"/><!-- CYRILLIC CAPITAL LETTER ER WITH TICK -->
+      <map code="0x48f" name="uni048F"/><!-- CYRILLIC SMALL LETTER ER WITH TICK -->
+      <map code="0x490" name="afii10050"/><!-- CYRILLIC CAPITAL LETTER GHE WITH UPTURN -->
+      <map code="0x491" name="afii10098"/><!-- CYRILLIC SMALL LETTER GHE WITH UPTURN -->
+      <map code="0x492" name="uni0492"/><!-- CYRILLIC CAPITAL LETTER GHE WITH STROKE -->
+      <map code="0x493" name="uni0493"/><!-- CYRILLIC SMALL LETTER GHE WITH STROKE -->
+      <map code="0x494" name="uni0494"/><!-- CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK -->
+      <map code="0x495" name="uni0495"/><!-- CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK -->
+      <map code="0x496" name="uni0496"/><!-- CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER -->
+      <map code="0x497" name="uni0497"/><!-- CYRILLIC SMALL LETTER ZHE WITH DESCENDER -->
+      <map code="0x498" name="uni0498"/><!-- CYRILLIC CAPITAL LETTER ZE WITH DESCENDER -->
+      <map code="0x499" name="uni0499"/><!-- CYRILLIC SMALL LETTER ZE WITH DESCENDER -->
+      <map code="0x49a" name="uni049A"/><!-- CYRILLIC CAPITAL LETTER KA WITH DESCENDER -->
+      <map code="0x49b" name="uni049B"/><!-- CYRILLIC SMALL LETTER KA WITH DESCENDER -->
+      <map code="0x49c" name="uni049C"/><!-- CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE -->
+      <map code="0x49d" name="uni049D"/><!-- CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE -->
+      <map code="0x49e" name="uni049E"/><!-- CYRILLIC CAPITAL LETTER KA WITH STROKE -->
+      <map code="0x49f" name="uni049F"/><!-- CYRILLIC SMALL LETTER KA WITH STROKE -->
+      <map code="0x4a0" name="uni04A0"/><!-- CYRILLIC CAPITAL LETTER BASHKIR KA -->
+      <map code="0x4a1" name="uni04A1"/><!-- CYRILLIC SMALL LETTER BASHKIR KA -->
+      <map code="0x4a2" name="uni04A2"/><!-- CYRILLIC CAPITAL LETTER EN WITH DESCENDER -->
+      <map code="0x4a3" name="uni04A3"/><!-- CYRILLIC SMALL LETTER EN WITH DESCENDER -->
+      <map code="0x4a4" name="uni04A4"/><!-- CYRILLIC CAPITAL LIGATURE EN GHE -->
+      <map code="0x4a5" name="uni04A5"/><!-- CYRILLIC SMALL LIGATURE EN GHE -->
+      <map code="0x4a6" name="uni04A6"/><!-- CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK -->
+      <map code="0x4a7" name="uni04A7"/><!-- CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK -->
+      <map code="0x4a8" name="uni04A8"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN HA -->
+      <map code="0x4a9" name="uni04A9"/><!-- CYRILLIC SMALL LETTER ABKHASIAN HA -->
+      <map code="0x4aa" name="uni04AA"/><!-- CYRILLIC CAPITAL LETTER ES WITH DESCENDER -->
+      <map code="0x4ab" name="uni04AB"/><!-- CYRILLIC SMALL LETTER ES WITH DESCENDER -->
+      <map code="0x4ac" name="uni04AC"/><!-- CYRILLIC CAPITAL LETTER TE WITH DESCENDER -->
+      <map code="0x4ad" name="uni04AD"/><!-- CYRILLIC SMALL LETTER TE WITH DESCENDER -->
+      <map code="0x4ae" name="uni04AE"/><!-- CYRILLIC CAPITAL LETTER STRAIGHT U -->
+      <map code="0x4af" name="uni04AF"/><!-- CYRILLIC SMALL LETTER STRAIGHT U -->
+      <map code="0x4b0" name="uni04B0"/><!-- CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE -->
+      <map code="0x4b1" name="uni04B1"/><!-- CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE -->
+      <map code="0x4b2" name="uni04B2"/><!-- CYRILLIC CAPITAL LETTER HA WITH DESCENDER -->
+      <map code="0x4b3" name="uni04B3"/><!-- CYRILLIC SMALL LETTER HA WITH DESCENDER -->
+      <map code="0x4b4" name="uni04B4"/><!-- CYRILLIC CAPITAL LIGATURE TE TSE -->
+      <map code="0x4b5" name="uni04B5"/><!-- CYRILLIC SMALL LIGATURE TE TSE -->
+      <map code="0x4b6" name="uni04B6"/><!-- CYRILLIC CAPITAL LETTER CHE WITH DESCENDER -->
+      <map code="0x4b7" name="uni04B7"/><!-- CYRILLIC SMALL LETTER CHE WITH DESCENDER -->
+      <map code="0x4b8" name="uni04B8"/><!-- CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE -->
+      <map code="0x4b9" name="uni04B9"/><!-- CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE -->
+      <map code="0x4ba" name="uni04BA"/><!-- CYRILLIC CAPITAL LETTER SHHA -->
+      <map code="0x4bb" name="uni04BB"/><!-- CYRILLIC SMALL LETTER SHHA -->
+      <map code="0x4bc" name="uni04BC"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN CHE -->
+      <map code="0x4bd" name="uni04BD"/><!-- CYRILLIC SMALL LETTER ABKHASIAN CHE -->
+      <map code="0x4be" name="uni04BE"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER -->
+      <map code="0x4bf" name="uni04BF"/><!-- CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER -->
+      <map code="0x4c0" name="uni04C0"/><!-- CYRILLIC LETTER PALOCHKA -->
+      <map code="0x4c1" name="uni04C1"/><!-- CYRILLIC CAPITAL LETTER ZHE WITH BREVE -->
+      <map code="0x4c2" name="uni04C2"/><!-- CYRILLIC SMALL LETTER ZHE WITH BREVE -->
+      <map code="0x4c3" name="uni04C3"/><!-- CYRILLIC CAPITAL LETTER KA WITH HOOK -->
+      <map code="0x4c4" name="uni04C4"/><!-- CYRILLIC SMALL LETTER KA WITH HOOK -->
+      <map code="0x4c5" name="uni04C5"/><!-- CYRILLIC CAPITAL LETTER EL WITH TAIL -->
+      <map code="0x4c6" name="uni04C6"/><!-- CYRILLIC SMALL LETTER EL WITH TAIL -->
+      <map code="0x4c7" name="uni04C7"/><!-- CYRILLIC CAPITAL LETTER EN WITH HOOK -->
+      <map code="0x4c8" name="uni04C8"/><!-- CYRILLIC SMALL LETTER EN WITH HOOK -->
+      <map code="0x4c9" name="uni04C9"/><!-- CYRILLIC CAPITAL LETTER EN WITH TAIL -->
+      <map code="0x4ca" name="uni04CA"/><!-- CYRILLIC SMALL LETTER EN WITH TAIL -->
+      <map code="0x4cb" name="uni04CB"/><!-- CYRILLIC CAPITAL LETTER KHAKASSIAN CHE -->
+      <map code="0x4cc" name="uni04CC"/><!-- CYRILLIC SMALL LETTER KHAKASSIAN CHE -->
+      <map code="0x4cd" name="uni04CD"/><!-- CYRILLIC CAPITAL LETTER EM WITH TAIL -->
+      <map code="0x4ce" name="uni04CE"/><!-- CYRILLIC SMALL LETTER EM WITH TAIL -->
+      <map code="0x4cf" name="uni04CF"/><!-- CYRILLIC SMALL LETTER PALOCHKA -->
+      <map code="0x4d0" name="uni04D0"/><!-- CYRILLIC CAPITAL LETTER A WITH BREVE -->
+      <map code="0x4d1" name="uni04D1"/><!-- CYRILLIC SMALL LETTER A WITH BREVE -->
+      <map code="0x4d2" name="uni04D2"/><!-- CYRILLIC CAPITAL LETTER A WITH DIAERESIS -->
+      <map code="0x4d3" name="uni04D3"/><!-- CYRILLIC SMALL LETTER A WITH DIAERESIS -->
+      <map code="0x4d4" name="uni04D4"/><!-- CYRILLIC CAPITAL LIGATURE A IE -->
+      <map code="0x4d5" name="uni04D5"/><!-- CYRILLIC SMALL LIGATURE A IE -->
+      <map code="0x4d6" name="uni04D6"/><!-- CYRILLIC CAPITAL LETTER IE WITH BREVE -->
+      <map code="0x4d7" name="uni04D7"/><!-- CYRILLIC SMALL LETTER IE WITH BREVE -->
+      <map code="0x4d8" name="uni04D8"/><!-- CYRILLIC CAPITAL LETTER SCHWA -->
+      <map code="0x4d9" name="afii10846"/><!-- CYRILLIC SMALL LETTER SCHWA -->
+      <map code="0x4da" name="uni04DA"/><!-- CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS -->
+      <map code="0x4db" name="uni04DB"/><!-- CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS -->
+      <map code="0x4dc" name="uni04DC"/><!-- CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS -->
+      <map code="0x4dd" name="uni04DD"/><!-- CYRILLIC SMALL LETTER ZHE WITH DIAERESIS -->
+      <map code="0x4de" name="uni04DE"/><!-- CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS -->
+      <map code="0x4df" name="uni04DF"/><!-- CYRILLIC SMALL LETTER ZE WITH DIAERESIS -->
+      <map code="0x4e0" name="uni04E0"/><!-- CYRILLIC CAPITAL LETTER ABKHASIAN DZE -->
+      <map code="0x4e1" name="uni04E1"/><!-- CYRILLIC SMALL LETTER ABKHASIAN DZE -->
+      <map code="0x4e2" name="uni04E2"/><!-- CYRILLIC CAPITAL LETTER I WITH MACRON -->
+      <map code="0x4e3" name="uni04E3"/><!-- CYRILLIC SMALL LETTER I WITH MACRON -->
+      <map code="0x4e4" name="uni04E4"/><!-- CYRILLIC CAPITAL LETTER I WITH DIAERESIS -->
+      <map code="0x4e5" name="uni04E5"/><!-- CYRILLIC SMALL LETTER I WITH DIAERESIS -->
+      <map code="0x4e6" name="uni04E6"/><!-- CYRILLIC CAPITAL LETTER O WITH DIAERESIS -->
+      <map code="0x4e7" name="uni04E7"/><!-- CYRILLIC SMALL LETTER O WITH DIAERESIS -->
+      <map code="0x4e8" name="uni04E8"/><!-- CYRILLIC CAPITAL LETTER BARRED O -->
+      <map code="0x4e9" name="uni04E9"/><!-- CYRILLIC SMALL LETTER BARRED O -->
+      <map code="0x4ea" name="uni04EA"/><!-- CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS -->
+      <map code="0x4eb" name="uni04EB"/><!-- CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS -->
+      <map code="0x4ec" name="uni04EC"/><!-- CYRILLIC CAPITAL LETTER E WITH DIAERESIS -->
+      <map code="0x4ed" name="uni04ED"/><!-- CYRILLIC SMALL LETTER E WITH DIAERESIS -->
+      <map code="0x4ee" name="uni04EE"/><!-- CYRILLIC CAPITAL LETTER U WITH MACRON -->
+      <map code="0x4ef" name="uni04EF"/><!-- CYRILLIC SMALL LETTER U WITH MACRON -->
+      <map code="0x4f0" name="uni04F0"/><!-- CYRILLIC CAPITAL LETTER U WITH DIAERESIS -->
+      <map code="0x4f1" name="uni04F1"/><!-- CYRILLIC SMALL LETTER U WITH DIAERESIS -->
+      <map code="0x4f2" name="uni04F2"/><!-- CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x4f3" name="uni04F3"/><!-- CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE -->
+      <map code="0x4f4" name="uni04F4"/><!-- CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS -->
+      <map code="0x4f5" name="uni04F5"/><!-- CYRILLIC SMALL LETTER CHE WITH DIAERESIS -->
+      <map code="0x4f6" name="uni04F6"/><!-- CYRILLIC CAPITAL LETTER GHE WITH DESCENDER -->
+      <map code="0x4f7" name="uni04F7"/><!-- CYRILLIC SMALL LETTER GHE WITH DESCENDER -->
+      <map code="0x4f8" name="uni04F8"/><!-- CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS -->
+      <map code="0x4f9" name="uni04F9"/><!-- CYRILLIC SMALL LETTER YERU WITH DIAERESIS -->
+      <map code="0x500" name="uni0500"/><!-- CYRILLIC CAPITAL LETTER KOMI DE -->
+      <map code="0x501" name="uni0501"/><!-- CYRILLIC SMALL LETTER KOMI DE -->
+      <map code="0x506" name="uni0506"/><!-- CYRILLIC CAPITAL LETTER KOMI DZJE -->
+      <map code="0x507" name="uni0507"/><!-- CYRILLIC SMALL LETTER KOMI DZJE -->
+      <map code="0x508" name="uni0508"/><!-- CYRILLIC CAPITAL LETTER KOMI LJE -->
+      <map code="0x509" name="uni0509"/><!-- CYRILLIC SMALL LETTER KOMI LJE -->
+      <map code="0x50a" name="uni050A"/><!-- CYRILLIC CAPITAL LETTER KOMI NJE -->
+      <map code="0x50b" name="uni050B"/><!-- CYRILLIC SMALL LETTER KOMI NJE -->
+      <map code="0x50c" name="uni050C"/><!-- CYRILLIC CAPITAL LETTER KOMI SJE -->
+      <map code="0x50d" name="uni050D"/><!-- CYRILLIC SMALL LETTER KOMI SJE -->
+      <map code="0x50e" name="uni050E"/><!-- CYRILLIC CAPITAL LETTER KOMI TJE -->
+      <map code="0x50f" name="uni050F"/><!-- CYRILLIC SMALL LETTER KOMI TJE -->
+      <map code="0x1e02" name="uni1E02"/><!-- LATIN CAPITAL LETTER B WITH DOT ABOVE -->
+      <map code="0x1e03" name="uni1E03"/><!-- LATIN SMALL LETTER B WITH DOT ABOVE -->
+      <map code="0x1e0a" name="uni1E0A"/><!-- LATIN CAPITAL LETTER D WITH DOT ABOVE -->
+      <map code="0x1e0b" name="uni1E0B"/><!-- LATIN SMALL LETTER D WITH DOT ABOVE -->
+      <map code="0x1e1e" name="uni1E1E"/><!-- LATIN CAPITAL LETTER F WITH DOT ABOVE -->
+      <map code="0x1e1f" name="uni1E1F"/><!-- LATIN SMALL LETTER F WITH DOT ABOVE -->
+      <map code="0x1e40" name="uni1E40"/><!-- LATIN CAPITAL LETTER M WITH DOT ABOVE -->
+      <map code="0x1e41" name="uni1E41"/><!-- LATIN SMALL LETTER M WITH DOT ABOVE -->
+      <map code="0x1e56" name="uni1E56"/><!-- LATIN CAPITAL LETTER P WITH DOT ABOVE -->
+      <map code="0x1e57" name="uni1E57"/><!-- LATIN SMALL LETTER P WITH DOT ABOVE -->
+      <map code="0x1e60" name="uni1E60"/><!-- LATIN CAPITAL LETTER S WITH DOT ABOVE -->
+      <map code="0x1e61" name="uni1E61"/><!-- LATIN SMALL LETTER S WITH DOT ABOVE -->
+      <map code="0x1e6a" name="uni1E6A"/><!-- LATIN CAPITAL LETTER T WITH DOT ABOVE -->
+      <map code="0x1e6b" name="uni1E6B"/><!-- LATIN SMALL LETTER T WITH DOT ABOVE -->
+      <map code="0x1e80" name="Wgrave"/><!-- LATIN CAPITAL LETTER W WITH GRAVE -->
+      <map code="0x1e81" name="wgrave"/><!-- LATIN SMALL LETTER W WITH GRAVE -->
+      <map code="0x1e82" name="Wacute"/><!-- LATIN CAPITAL LETTER W WITH ACUTE -->
+      <map code="0x1e83" name="wacute"/><!-- LATIN SMALL LETTER W WITH ACUTE -->
+      <map code="0x1e84" name="Wdieresis"/><!-- LATIN CAPITAL LETTER W WITH DIAERESIS -->
+      <map code="0x1e85" name="wdieresis"/><!-- LATIN SMALL LETTER W WITH DIAERESIS -->
+      <map code="0x1e9e" name="uni1E9E"/><!-- LATIN CAPITAL LETTER SHARP S -->
+      <map code="0x1ef2" name="Ygrave"/><!-- LATIN CAPITAL LETTER Y WITH GRAVE -->
+      <map code="0x1ef3" name="ygrave"/><!-- LATIN SMALL LETTER Y WITH GRAVE -->
+      <map code="0x2002" name="enspace"/><!-- EN SPACE -->
+      <map code="0x2009" name="thinspace"/><!-- THIN SPACE -->
+      <map code="0x200b" name="zerowidthspace"/><!-- ZERO WIDTH SPACE -->
+      <map code="0x200c" name="zerowidthnonjoiner"/><!-- ZERO WIDTH NON-JOINER -->
+      <map code="0x2013" name="endash"/><!-- EN DASH -->
+      <map code="0x2014" name="emdash"/><!-- EM DASH -->
+      <map code="0x2018" name="quoteleft"/><!-- LEFT SINGLE QUOTATION MARK -->
+      <map code="0x2019" name="quoteright"/><!-- RIGHT SINGLE QUOTATION MARK -->
+      <map code="0x201a" name="quotesinglbase"/><!-- SINGLE LOW-9 QUOTATION MARK -->
+      <map code="0x201b" name="quotereversed"/><!-- SINGLE HIGH-REVERSED-9 QUOTATION MARK -->
+      <map code="0x201c" name="quotedblleft"/><!-- LEFT DOUBLE QUOTATION MARK -->
+      <map code="0x201d" name="quotedblright"/><!-- RIGHT DOUBLE QUOTATION MARK -->
+      <map code="0x201e" name="quotedblbase"/><!-- DOUBLE LOW-9 QUOTATION MARK -->
+      <map code="0x2020" name="dagger"/><!-- DAGGER -->
+      <map code="0x2021" name="daggerdbl"/><!-- DOUBLE DAGGER -->
+      <map code="0x2022" name="bullet"/><!-- BULLET -->
+      <map code="0x2026" name="ellipsis"/><!-- HORIZONTAL ELLIPSIS -->
+      <map code="0x2030" name="perthousand"/><!-- PER MILLE SIGN -->
+      <map code="0x2032" name="minute"/><!-- PRIME -->
+      <map code="0x2033" name="second"/><!-- DOUBLE PRIME -->
+      <map code="0x2039" name="guilsinglleft"/><!-- SINGLE LEFT-POINTING ANGLE QUOTATION MARK -->
+      <map code="0x203a" name="guilsinglright"/><!-- SINGLE RIGHT-POINTING ANGLE QUOTATION MARK -->
+      <map code="0x203c" name="exclamdbl"/><!-- DOUBLE EXCLAMATION MARK -->
+      <map code="0x2044" name="fraction"/><!-- FRACTION SLASH -->
+      <map code="0x2074" name="four.superior"/><!-- SUPERSCRIPT FOUR -->
+      <map code="0x20a1" name="colonmonetary"/><!-- COLON SIGN -->
+      <map code="0x20a3" name="franc"/><!-- FRENCH FRANC SIGN -->
+      <map code="0x20a4" name="lira"/><!-- LIRA SIGN -->
+      <map code="0x20a6" name="uni20A6"/><!-- NAIRA SIGN -->
+      <map code="0x20a7" name="peseta"/><!-- PESETA SIGN -->
+      <map code="0x20a9" name="won"/><!-- WON SIGN -->
+      <map code="0x20ab" name="dong"/><!-- DONG SIGN -->
+      <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
+      <map code="0x20b1" name="uni20B1"/><!-- PESO SIGN -->
+      <map code="0x20b2" name="uni20B2"/><!-- GUARANI SIGN -->
+      <map code="0x20b5" name="uni20B5"/><!-- CEDI SIGN -->
+      <map code="0x20b9" name="uni20B9"/><!-- ???? -->
+      <map code="0x20ba" name="uni20BA"/><!-- ???? -->
+      <map code="0x2105" name="afii61248"/><!-- CARE OF -->
+      <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
+      <map code="0x2116" name="afii61352"/><!-- NUMERO SIGN -->
+      <map code="0x2120" name="uni2120"/><!-- SERVICE MARK -->
+      <map code="0x2122" name="trademark"/><!-- TRADE MARK SIGN -->
+      <map code="0x2126" name="Omega"/><!-- OHM SIGN -->
+      <map code="0x212e" name="estimated"/><!-- ESTIMATED SYMBOL -->
+      <map code="0x2190" name="arrowleft"/><!-- LEFTWARDS ARROW -->
+      <map code="0x2191" name="arrowup"/><!-- UPWARDS ARROW -->
+      <map code="0x2192" name="arrowright"/><!-- RIGHTWARDS ARROW -->
+      <map code="0x2193" name="arrowdown"/><!-- DOWNWARDS ARROW -->
+      <map code="0x2202" name="partialdiff"/><!-- PARTIAL DIFFERENTIAL -->
+      <map code="0x2206" name="Delta"/><!-- INCREMENT -->
+      <map code="0x220f" name="product"/><!-- N-ARY PRODUCT -->
+      <map code="0x2211" name="summation"/><!-- N-ARY SUMMATION -->
+      <map code="0x2212" name="minus"/><!-- MINUS SIGN -->
+      <map code="0x2215" name="uni2215"/><!-- DIVISION SLASH -->
+      <map code="0x2219" name="uni2219"/><!-- BULLET OPERATOR -->
+      <map code="0x221a" name="radical"/><!-- SQUARE ROOT -->
+      <map code="0x221e" name="infinity"/><!-- INFINITY -->
+      <map code="0x222b" name="integral"/><!-- INTEGRAL -->
+      <map code="0x2248" name="approxequal"/><!-- ALMOST EQUAL TO -->
+      <map code="0x2260" name="notequal"/><!-- NOT EQUAL TO -->
+      <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
+      <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
+      <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->
+      <map code="0xe000" name=".null"/><!-- Private Use -->
+      <map code="0xe001" name="nonmarkingreturn"/><!-- Private Use -->
+      <map code="0xe0ff" name="uniE0FF"/><!-- Private Use -->
+      <map code="0xeffd" name="uniEFFD"/><!-- Private Use -->
+      <map code="0xf000" name="uniF000"/><!-- Private Use -->
+      <map code="0xf6c3" name="commaaccent"/><!-- Private Use -->
+      <map code="0xfb00" name="f_f"/><!-- LATIN SMALL LIGATURE FF -->
+      <map code="0xfb01" name="f_i"/><!-- LATIN SMALL LIGATURE FI -->
+      <map code="0xfb02" name="f_l"/><!-- LATIN SMALL LIGATURE FL -->
+      <map code="0xfb03" name="f_f_i"/><!-- LATIN SMALL LIGATURE FFI -->
+      <map code="0xfb04" name="f_f_l"/><!-- LATIN SMALL LIGATURE FFL -->
+      <map code="0xfeff" name="zerowidthjoiner"/><!-- ZERO WIDTH NO-BREAK SPACE -->
+    </cmap_format_4>
+  </cmap>
+
+</ttFont>
