@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04BF" format="1">
+  <advance width="1342"/>
+  <unicode hex="04BF"/>
+  <outline>
+    <contour>
+      <point x="821" y="-170" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="785" y="1700" type="move" name="top"/>
+    </contour>
+    <component base="uni04BD"/>
+    <component base="cedilla" xOffset="554"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

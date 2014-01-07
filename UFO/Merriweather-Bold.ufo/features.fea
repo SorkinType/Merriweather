@@ -1,0 +1,35 @@
+languagesystem latn dflt;
+languagesystem latn AZE ;
+languagesystem latn TRK ;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+languagesystem latn CRT ;
+
+
+feature aalt{
+  feature locl;
+} aalt;
+feature locl { # Localized Forms
+ # DEFAULT
+ language AZE  exclude_dflt; # Azeri
+    sub i by i.cy;
+ language TRK  exclude_dflt; # Turkish
+lookup locl4 {
+    sub [i f_i Idotaccent] by [i.dot f_i_trk i.uc];
+} locl4;
+lookup locl5 {
+    sub f i.dot by f_i_trk;
+} locl5;
+lookup locl6 {
+    sub f_i by f_i_trk;
+} locl6;
+ language MOL  exclude_dflt; # Moldavian
+    sub [Scedilla scedilla] by [uni0218 uni0219];
+ language ROM  exclude_dflt; # Romanian
+    sub [Scedilla scedilla uni0162 uni0163] by [uni0218 uni0219 uni021A uni021B];
+ language CRT  exclude_dflt; # Crimean Tatar
+    sub i by i.dot;
+} locl;
+
+
+

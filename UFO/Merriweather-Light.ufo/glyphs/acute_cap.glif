@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.cap" format="1">
+  <advance width="1062"/>
+  <outline>
+    <contour>
+      <point x="691" y="1700" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="606" y="1645" type="line"/>
+      <point x="607" y="1645" type="line"/>
+      <point x="701" y="1673"/>
+      <point x="931" y="1799"/>
+      <point x="1002" y="1889" type="curve"/>
+      <point x="900" y="2013" type="line"/>
+      <point x="899" y="2013" type="line"/>
+      <point x="558" y="1704" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

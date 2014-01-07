@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aogonek" format="1">
+  <advance width="1472"/>
+  <unicode hex="0104"/>
+  <outline>
+    <contour>
+      <point x="906" y="-304" type="curve" smooth="yes"/>
+      <point x="906" y="-451"/>
+      <point x="1059" y="-516"/>
+      <point x="1187" y="-516" type="curve" smooth="yes"/>
+      <point x="1271" y="-516"/>
+      <point x="1388" y="-492"/>
+      <point x="1445" y="-449" type="curve"/>
+      <point x="1445" y="-279" type="line"/>
+      <point x="1400" y="-297"/>
+      <point x="1383" y="-299"/>
+      <point x="1336" y="-299" type="curve" smooth="yes"/>
+      <point x="1254" y="-299"/>
+      <point x="1211" y="-255"/>
+      <point x="1211" y="-201" type="curve" smooth="yes"/>
+      <point x="1211" y="-137"/>
+      <point x="1259" y="-57"/>
+      <point x="1404" y="2" type="curve"/>
+      <point x="1194" y="2" type="line"/>
+      <point x="992" y="-69"/>
+      <point x="906" y="-195"/>
+    </contour>
+    <component base="A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

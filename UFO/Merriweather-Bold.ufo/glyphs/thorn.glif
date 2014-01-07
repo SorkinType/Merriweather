@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thorn" format="1">
+  <advance width="1271"/>
+  <unicode hex="00FE"/>
+  <outline>
+    <contour>
+      <point x="156" y="63" type="line"/>
+      <point x="156" y="-379" type="line"/>
+      <point x="187" y="-341" type="line"/>
+      <point x="8" y="-370" type="line"/>
+      <point x="8" y="-496" type="line"/>
+      <point x="656" y="-496" type="line"/>
+      <point x="656" y="-370" type="line"/>
+      <point x="430" y="-341" type="line"/>
+      <point x="461" y="-381" type="line"/>
+      <point x="461" y="-170" type="line"/>
+      <point x="453" y="9" type="line"/>
+      <point x="248" y="117" type="line"/>
+    </contour>
+    <component base="b" xOffset="5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

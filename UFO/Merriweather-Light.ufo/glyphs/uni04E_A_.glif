@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04EA" format="1">
+  <advance width="1470"/>
+  <unicode hex="04EA"/>
+  <outline>
+    <contour>
+      <point x="726" y="-170" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="740" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="735" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="214" y="714" type="line"/>
+      <point x="1250" y="714" type="line"/>
+      <point x="1250" y="818" type="line"/>
+      <point x="214" y="818" type="line"/>
+    </contour>
+    <component base="dieresis.cap" xOffset="250"/>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

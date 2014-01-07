@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni048B" format="1">
+  <advance width="1202"/>
+  <unicode hex="048B"/>
+  <outline>
+    <contour>
+      <point x="731" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="967" y="58" type="line"/>
+      <point x="916" y="49"/>
+      <point x="743" y="-23"/>
+      <point x="743" y="-149" type="curve" smooth="yes"/>
+      <point x="743" y="-216"/>
+      <point x="769" y="-238"/>
+      <point x="769" y="-289" type="curve" smooth="yes"/>
+      <point x="769" y="-357"/>
+      <point x="694" y="-413"/>
+      <point x="634" y="-433" type="curve"/>
+      <point x="677" y="-484" type="line"/>
+      <point x="788" y="-458"/>
+      <point x="912" y="-364"/>
+      <point x="912" y="-263" type="curve" smooth="yes"/>
+      <point x="912" y="-199"/>
+      <point x="874" y="-144"/>
+      <point x="874" y="-103" type="curve" smooth="yes"/>
+      <point x="874" y="-32"/>
+      <point x="951" y="-9"/>
+      <point x="990" y="17" type="curve"/>
+    </contour>
+    <component base="u"/>
+    <component base="breve.r" xOffset="2" yOffset="5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

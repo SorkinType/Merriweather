@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04F4" format="1">
+  <advance width="1283"/>
+  <unicode hex="04F4"/>
+  <outline>
+    <contour>
+      <point x="647" y="-170" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="647" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="619" y="1700" type="move" name="top"/>
+    </contour>
+    <component base="dieresis.cap" xOffset="346" yOffset="-62"/>
+    <component base="afii10041"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

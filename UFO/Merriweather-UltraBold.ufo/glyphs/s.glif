@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s" format="1">
+  <advance width="1106"/>
+  <unicode hex="0073"/>
+  <outline>
+    <contour>
+      <point x="510" y="-170" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="551" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="93" y="64" type="line"/>
+      <point x="170" y="62"/>
+      <point x="312" y="-23"/>
+      <point x="559" y="-23" type="curve" smooth="yes"/>
+      <point x="882" y="-23"/>
+      <point x="1051" y="120"/>
+      <point x="1051" y="346" type="curve" smooth="yes"/>
+      <point x="1051" y="524"/>
+      <point x="906" y="628"/>
+      <point x="740" y="697" type="curve" smooth="yes"/>
+      <point x="639" y="739"/>
+      <point x="450" y="803"/>
+      <point x="450" y="910" type="curve" smooth="yes"/>
+      <point x="450" y="952"/>
+      <point x="476" y="999"/>
+      <point x="577" y="999" type="curve" smooth="yes"/>
+      <point x="646" y="999"/>
+      <point x="689" y="963"/>
+      <point x="708" y="936" type="curve"/>
+      <point x="759" y="800" type="line"/>
+      <point x="976" y="795" type="line"/>
+      <point x="976" y="1098" type="line"/>
+      <point x="889" y="1106"/>
+      <point x="779" y="1166"/>
+      <point x="595" y="1166" type="curve" smooth="yes"/>
+      <point x="263" y="1166"/>
+      <point x="85" y="1022"/>
+      <point x="85" y="828" type="curve" smooth="yes"/>
+      <point x="85" y="659"/>
+      <point x="201" y="527"/>
+      <point x="345" y="467" type="curve" smooth="yes"/>
+      <point x="500" y="403"/>
+      <point x="663" y="337"/>
+      <point x="663" y="251" type="curve" smooth="yes"/>
+      <point x="663" y="194"/>
+      <point x="645" y="144"/>
+      <point x="510" y="144" type="curve" smooth="yes"/>
+      <point x="458" y="144"/>
+      <point x="406" y="173"/>
+      <point x="383" y="200" type="curve"/>
+      <point x="319" y="365" type="line"/>
+      <point x="93" y="365" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="perthousand" format="1">
+  <advance width="2968"/>
+  <unicode hex="2030"/>
+  <outline>
+    <contour>
+      <point x="2295" y="470" type="curve" smooth="yes"/>
+      <point x="2295" y="646"/>
+      <point x="2359" y="771"/>
+      <point x="2479" y="771" type="curve" smooth="yes"/>
+      <point x="2594" y="771"/>
+      <point x="2660" y="640"/>
+      <point x="2660" y="461" type="curve" smooth="yes"/>
+      <point x="2660" y="285"/>
+      <point x="2594" y="163"/>
+      <point x="2473" y="163" type="curve" smooth="yes"/>
+      <point x="2359" y="163"/>
+      <point x="2295" y="303"/>
+    </contour>
+    <contour>
+      <point x="2106" y="459" type="curve" smooth="yes"/>
+      <point x="2106" y="236"/>
+      <point x="2242" y="47"/>
+      <point x="2459" y="47" type="curve" smooth="yes"/>
+      <point x="2659" y="47"/>
+      <point x="2848" y="197"/>
+      <point x="2848" y="471" type="curve" smooth="yes"/>
+      <point x="2848" y="703"/>
+      <point x="2739" y="887"/>
+      <point x="2494" y="887" type="curve" smooth="yes"/>
+      <point x="2290" y="887"/>
+      <point x="2106" y="733"/>
+    </contour>
+    <component base="percent"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

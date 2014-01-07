@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tbar" format="1">
+  <advance width="1234"/>
+  <unicode hex="0166"/>
+  <outline>
+    <contour>
+      <point x="546" y="-170" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="757" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="282" y="720" type="line"/>
+      <point x="1024" y="720" type="line"/>
+      <point x="1040" y="851" type="line"/>
+      <point x="298" y="851" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10053" format="1">
+  <advance width="1225"/>
+  <unicode hex="0404"/>
+  <outline>
+    <contour>
+      <point x="813" y="0" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="683" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="677" y="1700" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="266" y="741" type="line"/>
+      <point x="464" y="707"/>
+      <point x="780" y="699"/>
+      <point x="898" y="692" type="curve"/>
+      <point x="932" y="863" type="line"/>
+      <point x="282" y="843" type="line"/>
+    </contour>
+    <component base="C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

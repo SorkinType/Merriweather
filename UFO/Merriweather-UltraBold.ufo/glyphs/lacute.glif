@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute" format="1">
+  <advance width="728"/>
+  <unicode hex="013A"/>
+  <outline>
+    <contour>
+      <point x="42" y="0" type="line"/>
+      <point x="690" y="0" type="line"/>
+      <point x="690" y="160" type="line"/>
+      <point x="551" y="185" type="line"/>
+      <point x="562" y="169" type="line"/>
+      <point x="562" y="1463" type="line"/>
+      <point x="486" y="1522" type="line"/>
+      <point x="481" y="1522" type="line"/>
+      <point x="32" y="1468" type="line"/>
+      <point x="32" y="1328" type="line"/>
+      <point x="166" y="1296" type="line"/>
+      <point x="166" y="177" type="line"/>
+      <point x="171" y="184" type="line"/>
+      <point x="42" y="160" type="line"/>
+    </contour>
+    <component base="acute.cap" xOffset="-203"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caronvertical" format="1">
+  <advance width="342"/>
+  <outline>
+    <contour>
+      <point x="170" y="1700" type="move" name="car"/>
+    </contour>
+    <contour>
+      <point x="154" y="1045" type="line"/>
+      <point x="217" y="1101"/>
+      <point x="270" y="1288"/>
+      <point x="270" y="1449" type="curve" smooth="yes"/>
+      <point x="270" y="1545"/>
+      <point x="246" y="1642"/>
+      <point x="210" y="1679" type="curve"/>
+      <point x="94" y="1645" type="line"/>
+      <point x="82" y="1604" type="line"/>
+      <point x="108" y="1573"/>
+      <point x="133" y="1464"/>
+      <point x="133" y="1343" type="curve" smooth="yes"/>
+      <point x="133" y="1274"/>
+      <point x="117" y="1184"/>
+      <point x="90" y="1104" type="curve"/>
+      <point x="93" y="1079" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
