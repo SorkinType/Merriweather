@@ -4,7 +4,7 @@
   <prep>
     <assembly>
       MPPEM[ ]
-      PUSHB[ ]  /* 1 value pushed */
+      PUSHW[ ]  /* 1 value pushed */
       200
       GT[ ]
       IF[ ]
