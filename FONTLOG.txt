@@ -1,6 +1,6 @@
-FONTLOG for the Merriweather font
+FONTLOG for Merriweather
 
-This file provides detailed information on the Merriweather font Software.
+This file provides detailed information on Merriweather font Software.
 
 This information should be distributed along with the Merriweather fonts and any derivative works.
 
@@ -24,8 +24,6 @@ There is also Merriweather Sans, a sans-serif version which closely harmonizes w
 
 http://www.google.com/webfonts/specimen/Merriweather+Sans
 
-Merriweather is a work in progress and will be improved upon periodically. 
-
 For more information and to stay updated see Eben 
 Sorkin's blog and Flickr and follow the Merriweather 
 Twitter microblog:
@@ -43,21 +41,22 @@ could be expanded to support other scripts.
 More specifically, this release supports the following Unicode 
 ranges: Latin-1, Latin-2, Cyrillic, Turkish, Windows Baltic, Macintosh Character Set
 
-There is are 3 source files for each style:
+There is are 2 kinds of source files for each style:
 
-1. Merriweather-Style.ufo Original Source Files with 
-   contour overlaps
-2. A VBF file with contour overlaps
-3. An OTF file 
-
-
+1. A VBF file with contour overlaps
+3. A UFO file 
 
 To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+12 Jan 2016 (Eben Sorkin) Merriweather v1.058 
+-Version numbering is unified to 1.058 across the roman and italic
+- The whole family is now hinted with TTFA 1.4.1
+- Slight increase in glyphs
+- Open Type code is corrected.
 
-3 Janr 2014 (Eben Sorkin) Merriweather v1.057 (new numbering scheme)
+3 Jan 2014 (Eben Sorkin) Merriweather v1.057 (new numbering scheme)
 - Roman is now Hinted with TTFA 1.3
 - Refined the weights - the new roman weights are changed slightly
 - Improved the upright or roman design with special attention to punctuation
