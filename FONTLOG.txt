@@ -43,11 +43,14 @@ could be expanded to support other scripts.
 More specifically, this release supports the following Unicode 
 ranges: Latin-1, Latin-2, Cyrillic, Turkish, Windows Baltic, Macintosh Character Set
 
-There is are 2 source files for each style:
+There is are 3 source files for each style:
 
 1. Merriweather-Style.ufo Original Source Files with 
    contour overlaps
-2. A TTF file with overlaps removed and very limited manual hinting to be used with ttfautohint (v0.97) using the following settings  -l 13 -r 13 -G 200 -x 24 -f dflt -w "" -W -p
+2. A VBF file with contour overlaps
+3. An OTF file 
+
+
 
 To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
