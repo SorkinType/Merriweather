@@ -21,8 +21,10 @@ feature aalt {
 } aalt;
 
 feature locl {
- # Localized Forms
+# Localized Forms
+script DFLT;
 # Latin
+script latn;
 language AZE  exclude_dflt; # Azeri
     sub i by i.cy;
  language CAT;
@@ -43,7 +45,9 @@ lookup locl_ROM;
 } locl;
 
 feature ordn {
- script latn;
+script DFLT;
+# Latin
+script latn;
   sub @ordn1 a' by ordfeminine;
   sub @ordn1 o' by ordmasculine;
  language AZE ; # Azeri
@@ -54,8 +58,10 @@ feature ordn {
 } ordn;
 
 feature frac {
- # Fractions
- script latn; # Latin
+# Fractions
+script DFLT;
+# Latin
+script latn;
     sub one slash four by onequarter;
     sub one slash two by onehalf;
     sub three slash four by threequarters;
@@ -69,8 +75,10 @@ feature frac {
 } frac;
 
 feature sups {
- # Superscript
- script latn; # Latin
+# Superscript
+script DFLT;
+# Latin
+script latn;
     sub @sups1 by @sups2;  
  language AZE ; # Azeri
  language TRK ; # Turkish
@@ -80,7 +88,9 @@ feature sups {
 } sups;
 
 feature liga {
- script latn;
+script DFLT;
+# Latin
+script latn;
   sub f f i by f_f_i;
   sub f f l by f_f_l;
   sub f f by f_f;
