@@ -1,4 +1,4 @@
-
+# Prefix: Prefix
 # Script and language coverage
 languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -9,30 +9,19 @@ languagesystem latn TRK ;
 languagesystem latn MOL ;
 languagesystem latn ROM ;
 
+@sups2 = [ one.numr two.numr three.numr ];
 
+@sups1 = [ one two three ];
 
+@ordn1 = [ zero one two three four five six seven eight nine ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-feature aalt{
+feature aalt {
   feature locl;
   feature ordn;
-} aalt; 
+} aalt;
 
-feature locl { # Localized Forms
+feature locl {
+ # Localized Forms
 # Latin
 language AZE  exclude_dflt; # Azeri
     sub i by i.cy;
@@ -46,12 +35,12 @@ language TRK  exclude_dflt; # Turkish
     sub i by i.cy;
 language ROM exclude_dflt; # Romanian
 lookup locl_ROM { 
-  sub [uni015E uni015F] by [uni0218 uni0219];
-  sub [uni0162 uni0163] by [uni021A uni021B]; 
+  sub [uni015E uni015F] by [Scommaaccent scommaaccent];
+  sub [Tcedilla tcedilla] by [Tcommaaccent tcommaaccent]; 
 } locl_ROM;
 language MOL exclude_dflt; # Moldavian
 lookup locl_ROM;
-} locl;
+} locl;
 
 feature ordn {
  script latn;
@@ -61,9 +50,11 @@ feature ordn {
  language TRK ; # Turkish
  language MOL ; # Moldavian
  language ROM ; # Romanian
- } ordn; 
+ 
+} ordn;
 
-feature frac { # Fractions
+feature frac {
+ # Fractions
  script latn; # Latin
     sub one slash four by onequarter;
     sub one slash two by onehalf;
@@ -74,16 +65,19 @@ feature frac { # Fractions
  language TRK ; # Turkish
  language MOL ; # Moldavian
  language ROM ; # Romanian
- } frac;
+ 
+} frac;
 
-feature sups { # Superscript
+feature sups {
+ # Superscript
  script latn; # Latin
     sub @sups1 by @sups2;  
  language AZE ; # Azeri
  language TRK ; # Turkish
  language MOL ; # Moldavian
  language ROM ; # Romanian
- } sups;
+ 
+} sups;
 
 feature liga {
  script latn;
@@ -101,34 +95,5 @@ feature liga {
     sub f f by f_f;
  language MOL ; # Moldavian
  language ROM ; # Romanian
-} liga; 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} liga;
 
