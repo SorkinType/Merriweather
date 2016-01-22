@@ -6,27 +6,27 @@ This information should be distributed along with the Merriweather fonts and any
 
 Basic Font Information
 
-Merriweather offers a Renaissance warmth while using proportions which are space-saving. 
-It is suitable for editorial design, news and other kinds of space sensitive typography.
+Merriweather offers a Renaissance warmth while using proportions which are space-saving. It is suitable for editorial design, news and other kinds of space sensitive typography.
 
 Merriweather is an evolving project and will be updated. As of now there are 8 styles: 
 
-Light
 Regular
+Light
 Bold
-Black
-Light Italic
+UltraBold 
+
 Italic
+Light Italic
 Bold Italic
-Black Italic
+UltraBold Italic
 
 There is also Merriweather Sans, a sans-serif version which closely harmonizes with the weights and styles of this serif family.
 
 http://www.google.com/webfonts/specimen/Merriweather+Sans
 
-For more information and to stay updated see Eben 
-Sorkin's blog and Flickr and follow the Merriweather 
-Twitter microblog:
+Merriweather is a work in progress and will be improved upon periodically. 
+
+For more information and to stay updated see Eben Sorkin's blog and Flickr and follow the Merriweather Twitter microblog:
 
 http://ebensorkin.wordpress.com
 
@@ -40,23 +40,18 @@ More specifically, this release supports the following Unicode ranges: Latin-1, 
 
 There is are 2 kinds of source files for each style:
 
-1. A VBF file with contour overlaps (for v1.058 and earlier)
-3. A UFO file with contour overlaps (for v1.582 and later)
+1. A VBF file with contour overlaps
+3. A UFO file 
 
 To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
-22 Jan 2016 (Dave Crossland) Merriweather v1.582
-- Version numbering is unified to 1.582 across the roman and italic
-- Corrected NAME table
-- Further OpenType code corrections
-
 12 Jan 2016 (Eben Sorkin) Merriweather v1.058 
-- Version numbering is unified to 1.058 across the roman and italic
+-Version numbering is unified to 1.058 across the roman and italic
 - The whole family is now hinted with TTFA 1.4.1
 - Slight increase in glyphs
-- OpenType code is corrected.
+- Open Type code is corrected.
 
 3 Jan 2014 (Eben Sorkin) Merriweather v1.057 (new numbering scheme)
 - Roman is now Hinted with TTFA 1.3
@@ -92,12 +87,10 @@ ChangeLog
 26 Feb 2012 (Eben Sorkin) Merriweather Sans v1.001
 - Hinted font Using TTFAutohint version 0.93.8-669f
 - Mastered VBF to TTF and other formats.
-- Added glyphs to cover the entire Adobe Latin 3 
-character set. ( VBF format )
+- Added glyphs to cover the entire Adobe Latin 3 character set. ( VBF format )
 
 10 Feb 2012 (Eben Sorkin) Merriweather Sans v1.000
-- Completed first complete version of Merriweather Italic 
-in Fontlab ( VBF format )
+- Completed first complete version of Merriweather Italic in Fontlab ( VBF format )
 
 29 July 2011 (Eben Sorkin) Merriweather v1.3
 
@@ -105,9 +98,7 @@ in Fontlab ( VBF format )
 - Added glyphs to support texts originating from Windows
   ANSI and Mac Roman encodings. 
 - Adjusted diacritics further
-- This may be the last update to shapes before work 
-  begins on the Sans. This means that VTT hinting 
-  should be next.
+- This may be the last update to shapes before work begins on the Sans. This means that VTT hinting should be next.
 
 22 July 2011 (Eben Sorkin) Merriweather v1.287
 - Adusted glyph diacritics to make them work with MS Word.
@@ -115,9 +106,7 @@ in Fontlab ( VBF format )
 
 Acknowledgements
 
-If you make modifications be sure to add your name (N), 
-email (E), web-address (if you have one) (W) and description (D). 
-This list is in alphabetical order.
+If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.
 
 N: Eben Sorkin
 E: sorkineben@gmail.com
