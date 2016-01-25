@@ -96,14 +96,5 @@ script latn;
   sub f f by f_f;
   sub f i by fi;
   sub f l by fl;
- language AZE ; # Azeri
- language TRK ; # Turkish
-    sub f f i by f_f_i_trk;
-    sub f f l by f_f_l;
-    sub f i by f_i_trk;
-    sub f l by fl;
-    sub f f by f_f;
- language MOL ; # Moldavian
- language ROM ; # Romanian
 } liga;
 
