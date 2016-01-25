@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij" format="1">
-  <advance width="1309"/>
+  <advance width="1308"/>
   <unicode hex="0133"/>
   <outline>
-    <component base="jdotless"/>
-    <component base="idotless" xOffset="651"/>
-    <component base="dotaccent" xOffset="908"/>
-    <component base="dotaccent" xOffset="908"/>
+    <component base="i"/>
+    <component base="j" xOffset="658"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-01-25 03:07:17 +0000</string>
+    </dict>
+  </lib>
 </glyph>
