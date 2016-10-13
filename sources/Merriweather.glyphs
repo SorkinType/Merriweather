@@ -318,7 +318,7 @@ id = UUID0;
 verticalStems = (
 79
 );
-weightValue = 0;
+weightValue = 169;
 xHeight = 555;
 },
 {
@@ -377,6 +377,7 @@ verticalStems = (
 202
 );
 weight = Bold;
+weightValue = 414;
 xHeight = 556;
 }
 );
@@ -95954,19 +95955,38 @@ rightMetricsKey = G;
 );
 instances = (
 {
-interpolationWeight = 0;
+interpolationWeight = 169;
 instanceInterpolations = {
 UUID0 = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+interpolationWeight = 235;
+instanceInterpolations = {
+UUID0 = 0.730612;
+"D0FF1146-32FF-444C-BC95-9626761FC64D" = 0.269388;
 };
 name = Regular;
 },
 {
+interpolationWeight = 337;
 instanceInterpolations = {
-"D0FF1146-32FF-444C-BC95-9626761FC64D" = 1;
+UUID0 = 0.314286;
+"D0FF1146-32FF-444C-BC95-9626761FC64D" = 0.685714;
 };
 isBold = 1;
 name = Bold;
 weightClass = Bold;
+},
+{
+interpolationWeight = 414;
+instanceInterpolations = {
+"D0FF1146-32FF-444C-BC95-9626761FC64D" = 1;
+};
+name = Black;
+weightClass = Black;
 }
 );
 keyboardIncrement = 0;

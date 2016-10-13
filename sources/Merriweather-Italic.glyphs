@@ -1,11 +1,5 @@
 {
 .appVersion = "926";
-DisplayStrings = (
-"\U00BD",
-/onethird,
-"",
-"\U00BE"
-);
 classes = (
 {
 automatic = 1;
@@ -300,7 +294,8 @@ italicAngle = 7.8;
 verticalStems = (
 77
 );
-weightValue = 0;
+weight = Light;
+weightValue = 150;
 xHeight = 554;
 },
 {
@@ -367,6 +362,7 @@ verticalStems = (
 167
 );
 weight = Bold;
+weightValue = 352;
 xHeight = 564;
 }
 );
@@ -66550,20 +66546,40 @@ width = 691;
 );
 instances = (
 {
-interpolationWeight = 0;
+interpolationWeight = 150;
 instanceInterpolations = {
 UUID0 = 1;
+};
+isItalic = 1;
+name = "Light Italic";
+},
+{
+interpolationWeight = 205;
+instanceInterpolations = {
+UUID0 = 0.727723;
+"809C3DC2-6073-4494-AA7C-C910FAB1DD5E" = 0.272277;
 };
 isItalic = 1;
 name = Italic;
 },
 {
+interpolationWeight = 284;
+instanceInterpolations = {
+UUID0 = 0.336634;
+"809C3DC2-6073-4494-AA7C-C910FAB1DD5E" = 0.663366;
+};
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
+},
+{
+interpolationWeight = 352;
 instanceInterpolations = {
 "809C3DC2-6073-4494-AA7C-C910FAB1DD5E" = 1;
 };
 isBold = 1;
 isItalic = 1;
-name = "Bold Italic";
+name = "Black Italic";
 weightClass = Bold;
 }
 );
