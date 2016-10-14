@@ -267,7 +267,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1238;
+value = 1265;
 },
 {
 name = winDescent;
@@ -327,7 +327,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1238;
+value = 1265;
 },
 {
 name = winDescent;
@@ -65273,7 +65273,9 @@ instanceInterpolations = {
 UUID0 = 1;
 };
 isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
+weightClass = Light;
 },
 {
 interpolationWeight = 205;
@@ -65293,16 +65295,17 @@ UUID0 = 0.336634;
 isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
+weightClass = Bold;
 },
 {
 interpolationWeight = 352;
 instanceInterpolations = {
 "809C3DC2-6073-4494-AA7C-C910FAB1DD5E" = 1;
 };
-isBold = 1;
 isItalic = 1;
+linkStyle = Black;
 name = "Black Italic";
-weightClass = Bold;
+weightClass = Black;
 }
 );
 kerning = {
