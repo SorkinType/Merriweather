@@ -1209,6 +1209,12 @@ unicode = 0104;
 glyphname = Aring;
 layers = (
 {
+anchors = (
+{
+name = mark0;
+position = "{289, -83}";
+}
+);
 background = {
 components = (
 {
@@ -1283,6 +1289,12 @@ nodes = (
 width = 655;
 },
 {
+anchors = (
+{
+name = mark0;
+position = "{280, -83}";
+}
+);
 background = {
 components = (
 {
@@ -5665,7 +5677,7 @@ position = "{351, 372}";
 },
 {
 name = ogonek;
-position = "{569, 10}";
+position = "{388, 10}";
 },
 {
 name = top;
@@ -5773,7 +5785,7 @@ position = "{369, 372}";
 },
 {
 name = ogonek;
-position = "{604, 10}";
+position = "{426, 10}";
 },
 {
 name = top;
@@ -6590,21 +6602,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"505 564 LINE",
-"512 527 OFFCURVE",
-"515 482 OFFCURVE",
-"515 431 CURVE SMOOTH",
-"515 221 OFFCURVE",
-"456 51 OFFCURVE",
-"329 51 CURVE SMOOTH",
-"284 51 OFFCURVE",
-"256 83 OFFCURVE",
-"240 130 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
 "226 189 LINE",
 "220 229 OFFCURVE",
 "218 274 OFFCURVE",
@@ -6615,6 +6612,21 @@ nodes = (
 "445 693 OFFCURVE",
 "474 667 OFFCURVE",
 "491 620 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"505 564 LINE",
+"512 527 OFFCURVE",
+"515 482 OFFCURVE",
+"515 431 CURVE SMOOTH",
+"515 221 OFFCURVE",
+"456 51 OFFCURVE",
+"329 51 CURVE SMOOTH",
+"284 51 OFFCURVE",
+"256 83 OFFCURVE",
+"240 130 CURVE"
 );
 }
 );
@@ -16762,21 +16774,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"382 383 LINE",
-"383 373 OFFCURVE",
-"383 361 OFFCURVE",
-"384 348 CURVE SMOOTH",
-"387 217 OFFCURVE",
-"359 50 OFFCURVE",
-"270 50 CURVE SMOOTH",
-"240 50 OFFCURVE",
-"221 68 OFFCURVE",
-"210 110 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
 "201 186 LINE",
 "200 194 OFFCURVE",
 "200 202 OFFCURVE",
@@ -16787,6 +16784,21 @@ nodes = (
 "342 500 OFFCURVE",
 "359 488 OFFCURVE",
 "370 457 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"382 383 LINE",
+"383 373 OFFCURVE",
+"383 361 OFFCURVE",
+"384 348 CURVE SMOOTH",
+"387 217 OFFCURVE",
+"359 50 OFFCURVE",
+"270 50 CURVE SMOOTH",
+"240 50 OFFCURVE",
+"221 68 OFFCURVE",
+"210 110 CURVE"
 );
 }
 );
