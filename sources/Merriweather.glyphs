@@ -1,5 +1,5 @@
 {
-.appVersion = "935";
+.appVersion = "964";
 classes = (
 {
 automatic = 1;
@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2010-2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'";
+copyright = "Copyright 2016 The Merriweather Project Authors (sorkintype@gmail.com), with Reserved Font Name \"Merriweather\".";
 customParameters = (
 {
 name = trademark;
@@ -44,7 +44,7 @@ value = 1;
 }
 );
 date = "2016-09-13 15:59:01 +0000";
-designer = "Eben Sorkin ( sorkintype@gmail.com )";
+designer = "Eben Sorkin";
 designerURL = "http://sorkintype.com";
 familyName = Merriweather;
 featurePrefixes = (
@@ -269,36 +269,36 @@ ascender = 983;
 capHeight = 743;
 customParameters = (
 {
-name = typoAscender;
-value = 1238;
+name = hheaAscender;
+value = 983;
 },
 {
-name = typoDescender;
-value = -291;
-},
-{
-name = typoLineGap;
-value = 0;
+name = hheaDescender;
+value = -273;
 },
 {
 name = hheaLineGap;
 value = 0;
 },
 {
+name = typoAscender;
+value = 983;
+},
+{
+name = typoDescender;
+value = -273;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
 name = winAscent;
-value = 1265;
-},
-{
-name = winDescent;
-value = 291;
-},
-{
-name = hheaAscender;
 value = 1238;
 },
 {
-name = hheaDescender;
-value = -291;
+name = winDescent;
+value = 274;
 }
 );
 descender = -273;
@@ -329,11 +329,11 @@ capHeight = 743;
 customParameters = (
 {
 name = typoAscender;
-value = 1238;
+value = 983;
 },
 {
 name = typoDescender;
-value = -291;
+value = -273;
 },
 {
 name = typoLineGap;
@@ -345,19 +345,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1265;
-},
-{
-name = winDescent;
-value = 291;
-},
-{
-name = hheaAscender;
 value = 1238;
 },
 {
+name = winDescent;
+value = 274;
+},
+{
+name = hheaAscender;
+value = 983;
+},
+{
 name = hheaDescender;
-value = -291;
+value = -273;
 }
 );
 descender = -273;
