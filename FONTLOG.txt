@@ -47,6 +47,44 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+30 Oct 2017 (Eben Sorkin) Merriweather v2.002
+* Made first Variable font version with the Roman. Italic is not generating yet.
+	general 
+* Fixed interpolation issues in Both Roman and italic. 
+*  Quotes ‘“”’ made clearer. 
+* ‹›«» made less wide and more typical
+* All dashes and math symbols: heights corrected.
+* ¿ ? adjusted to be somewhat less distinctive 
+* all 10 arrows → now included 
+* Diacritic anchor positions made common across family
+* Combining Diacritics centered on zero widths
+* Diacritic design generally improved and Vietnamese diacritics made so they are not made from composites (properly designed) and so they won’t be clipped.
+* File efficiency gained from forcing all glyphs that should made only from composites to do so. 
+* Clunky spacing and design for in some Currency glyphs corrected
+* Lining Figures Added
+* Zero slash added
+* Non standard use of composites (flipped shapes) corrected
+* Missing Latin glyphs added
+* Total Glyph count in Roman and Italic made to match.
+* Open Type code added: aalt, ccmp, locl, sups, numr, dnom, frac, ordn, lnum, onum, case, liga, zero, cpsp
+* Added the Published (circle P) symbol
+* OpenType Features: Update code for more languages
+* Fractions: Improved and added limited support for inferior or subscript numbers
+* Weight Scale: Altered instance weights across roman and italic so nominal weights appear more even; italics are still slightly lighter, but less contrast with roman
+* Symbols: Made all styles share reference glyphs for copyright, registered and published symbols
+* Added Gawker/Elizabeth Style curling quotes, dollar and question mark and mediumBlackSquare (uni25FC) to a Stylistic set (ss01) 
+	Language
+* Latin: Found and upgraded all non-combining diacritics to combining, and all combining now have zero width
+* Cyrillic: Found and fixed many side-bearing problems
+* Vietnamese: Fixed diacritics and the glyphs they are used for, as well as the o and u horns
+	Technology
+* OTF: Improved blue zones for PS OTFs
+	Italic specific fixes
+* Missing Cyrillic glyphs in Italic added
+* Fixed denominator and fraction glyphs
+* Corrected weight inconsistency in Currency Glyphs
+
+
 2 Feb 2017 (Marc Foley) Merriweather v2.001
 * Fixed interpolation issues in Italic
 
@@ -132,6 +170,14 @@ N: Eben Sorkin
 E: sorkineben@gmail.com
 W: www.sorkintype.com
 D: Designer and Mastering
+
+N:Alexei Vanyashin 
+E: a@cyreal.org
+D: Design support
+
+N: CrystalType 
+E: stellarmaris.novachrystalia@gmail.com
+D: Design support
 
 N: Marc Foley
 E: m.foley.88@gmail.com
