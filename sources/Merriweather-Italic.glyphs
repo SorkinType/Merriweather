@@ -1,9 +1,5 @@
 {
-.appVersion = "1059";
-DisplayStrings = (
-$,
-/dollar.ss01
-);
+.appVersion = "1075";
 classes = (
 {
 automatic = 1;
@@ -11,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2016 The Merriweather Project Authors (sorkintype@gmail.com), with Reserved Font Name \"Merriweather\".";
+copyright = "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\".";
 customParameters = (
 {
 name = trademark;
@@ -412,7 +408,7 @@ capHeight = 743;
 customParameters = (
 {
 name = hheaAscender;
-value = 983;
+value = 984;
 },
 {
 name = hheaDescender;
@@ -424,7 +420,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 983;
+value = 984;
 },
 {
 name = typoDescender;
@@ -436,11 +432,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1238;
+value = 1065;
 },
 {
 name = winDescent;
-value = 274;
+value = 273;
 }
 );
 descender = -273;
@@ -473,7 +469,7 @@ capHeight = 743;
 customParameters = (
 {
 name = hheaAscender;
-value = 983;
+value = 984;
 },
 {
 name = hheaDescender;
@@ -485,7 +481,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 983;
+value = 984;
 },
 {
 name = typoDescender;
@@ -497,11 +493,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1238;
+value = 1065;
 },
 {
 name = winDescent;
-value = 274;
+value = 273;
 }
 );
 descender = -273;
@@ -190306,7 +190302,7 @@ nodes = (
 );
 }
 );
-width = 547;
+width = 0;
 },
 {
 anchors = (
@@ -190418,7 +190414,7 @@ nodes = (
 );
 }
 );
-width = 600;
+width = 0;
 }
 );
 },
@@ -190489,38 +190485,38 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-107 796 LINE",
-"-81 759 LINE",
-"78 829 LINE",
-"212 760 LINE",
-"253 796 LINE",
-"126 888 LINE",
-"48 888 LINE"
+"-106 806 LINE",
+"-80 769 LINE",
+"79 839 LINE",
+"213 770 LINE",
+"254 806 LINE",
+"127 898 LINE",
+"49 898 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-47 878 LINE",
-"-29 898 OFFCURVE",
-"-8 919 OFFCURVE",
-"18 919 CURVE SMOOTH",
-"60 919 OFFCURVE",
-"92 861 OFFCURVE",
-"141 861 CURVE SMOOTH",
-"189 861 OFFCURVE",
-"236 891 OFFCURVE",
-"251 935 CURVE",
-"221 959 LINE",
-"201 937 OFFCURVE",
-"188 921 OFFCURVE",
-"154 921 CURVE SMOOTH",
+"-26 938 LINE",
+"-8 958 OFFCURVE",
+"13 979 OFFCURVE",
+"39 979 CURVE SMOOTH",
+"81 979 OFFCURVE",
 "113 921 OFFCURVE",
-"89 983 OFFCURVE",
-"31 983 CURVE SMOOTH",
-"-28 983 OFFCURVE",
-"-70 935 OFFCURVE",
-"-76 901 CURVE"
+"162 921 CURVE SMOOTH",
+"210 921 OFFCURVE",
+"257 951 OFFCURVE",
+"272 995 CURVE",
+"242 1019 LINE",
+"222 997 OFFCURVE",
+"209 981 OFFCURVE",
+"175 981 CURVE SMOOTH",
+"134 981 OFFCURVE",
+"110 1043 OFFCURVE",
+"52 1043 CURVE SMOOTH",
+"-7 1043 OFFCURVE",
+"-49 995 OFFCURVE",
+"-55 961 CURVE"
 );
 }
 );
@@ -190589,38 +190585,38 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-107 796 LINE",
-"-82 750 LINE",
-"75 809 LINE",
-"211 751 LINE",
-"253 796 LINE",
-"138 888 LINE",
-"38 888 LINE"
+"-104 812 LINE",
+"-79 766 LINE",
+"78 825 LINE",
+"214 767 LINE",
+"256 812 LINE",
+"141 904 LINE",
+"41 904 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-48 871 LINE",
-"-30 891 OFFCURVE",
-"-11 910 OFFCURVE",
-"11 910 CURVE SMOOTH",
-"53 910 OFFCURVE",
-"75 854 OFFCURVE",
-"134 854 CURVE SMOOTH",
-"197 854 OFFCURVE",
-"237 896 OFFCURVE",
-"252 940 CURVE",
-"222 964 LINE",
-"202 942 OFFCURVE",
-"193 929 OFFCURVE",
-"159 929 CURVE SMOOTH",
-"118 929 OFFCURVE",
-"89 983 OFFCURVE",
-"31 983 CURVE SMOOTH",
-"-28 983 OFFCURVE",
-"-71 928 OFFCURVE",
-"-77 894 CURVE"
+"-30 947 LINE",
+"-12 967 OFFCURVE",
+"7 986 OFFCURVE",
+"29 986 CURVE SMOOTH",
+"71 986 OFFCURVE",
+"93 930 OFFCURVE",
+"152 930 CURVE SMOOTH",
+"215 930 OFFCURVE",
+"255 972 OFFCURVE",
+"270 1016 CURVE",
+"240 1040 LINE",
+"220 1018 OFFCURVE",
+"211 1005 OFFCURVE",
+"177 1005 CURVE SMOOTH",
+"136 1005 OFFCURVE",
+"107 1059 OFFCURVE",
+"49 1059 CURVE SMOOTH",
+"-10 1059 OFFCURVE",
+"-53 1004 OFFCURVE",
+"-59 970 CURVE"
 );
 }
 );
@@ -190633,11 +190629,11 @@ glyphname = NULL;
 layers = (
 {
 layerId = UUID0;
-width = 600;
+width = 0;
 },
 {
 layerId = "809C3DC2-6073-4494-AA7C-C910FAB1DD5E";
-width = 600;
+width = 0;
 }
 );
 unicode = 0000;
