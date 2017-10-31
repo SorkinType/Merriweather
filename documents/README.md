@@ -1,4 +1,4 @@
-### Source Files
+# Source Files
 
 There are 2 source files, one for Romans and one of Italics, in the [GlyphsApp](https://www.glyphsapp.com/) format:
 
