@@ -1,8 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-/tilde
-);
 classes = (
 {
 automatic = 1;
@@ -10,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2016 The Merriweather Project Authors (sorkintype@gmail.com), with Reserved Font Name \"Merriweather\".";
+copyright = "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\".";
 customParameters = (
 {
 name = trademark;
@@ -411,7 +408,7 @@ capHeight = 743;
 customParameters = (
 {
 name = hheaAscender;
-value = 983;
+value = 984;
 },
 {
 name = hheaDescender;
@@ -423,7 +420,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 983;
+value = 984;
 },
 {
 name = typoDescender;
@@ -435,11 +432,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1238;
+value = 1065;
 },
 {
 name = winDescent;
-value = 274;
+value = 273;
 }
 );
 descender = -273;
@@ -472,7 +469,7 @@ capHeight = 743;
 customParameters = (
 {
 name = hheaAscender;
-value = 983;
+value = 984;
 },
 {
 name = hheaDescender;
@@ -484,7 +481,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 983;
+value = 984;
 },
 {
 name = typoDescender;
@@ -496,11 +493,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1238;
+value = 1065;
 },
 {
 name = winDescent;
-value = 274;
+value = 273;
 }
 );
 descender = -273;
@@ -190632,11 +190629,11 @@ glyphname = NULL;
 layers = (
 {
 layerId = UUID0;
-width = 600;
+width = 0;
 },
 {
 layerId = "809C3DC2-6073-4494-AA7C-C910FAB1DD5E";
-width = 600;
+width = 0;
 }
 );
 unicode = 0000;

@@ -1,8 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-/tilde/circumflex
-);
 classes = (
 {
 automatic = 1;
@@ -10,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2016 The Merriweather Project Authors (sorkintype@gmail.com), with Reserved Font Name \"Merriweather\".";
+copyright = "Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name \"Merriweather\".";
 customParameters = (
 {
 name = trademark;
@@ -55,7 +52,7 @@ Tag = wght;
 );
 }
 );
-date = "2017-10-27 05:01:52 +0000";
+date = "2017-10-27 05:01:50 +0000";
 designer = "Eben Sorkin";
 designerURL = "http://sorkintype.com";
 familyName = Merriweather;
@@ -411,7 +408,7 @@ capHeight = 743;
 customParameters = (
 {
 name = hheaAscender;
-value = 983;
+value = 984;
 },
 {
 name = hheaDescender;
@@ -423,7 +420,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 983;
+value = 984;
 },
 {
 name = typoDescender;
@@ -435,11 +432,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1238;
+value = 1065;
 },
 {
 name = winDescent;
-value = 274;
+value = 273;
 }
 );
 descender = -273;
@@ -469,8 +466,20 @@ ascender = 983;
 capHeight = 743;
 customParameters = (
 {
+name = hheaAscender;
+value = 984;
+},
+{
+name = hheaDescender;
+value = -273;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = typoAscender;
-value = 983;
+value = 984;
 },
 {
 name = typoDescender;
@@ -481,24 +490,12 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = hheaLineGap;
-value = 0;
-},
-{
 name = winAscent;
-value = 1238;
+value = 1065;
 },
 {
 name = winDescent;
-value = 274;
-},
-{
-name = hheaAscender;
-value = 983;
-},
-{
-name = hheaDescender;
-value = -273;
+value = 273;
 }
 );
 descender = -273;
@@ -63307,11 +63304,11 @@ glyphname = nbspace;
 layers = (
 {
 layerId = UUID0;
-width = 288;
+width = 237;
 },
 {
 layerId = "D0FF1146-32FF-444C-BC95-9626761FC64D";
-width = 246;
+width = 237;
 }
 );
 unicode = 00A0;
@@ -63377,11 +63374,11 @@ glyphname = CR;
 layers = (
 {
 layerId = UUID0;
-width = 288;
+width = 237;
 },
 {
 layerId = "D0FF1146-32FF-444C-BC95-9626761FC64D";
-width = 246;
+width = 237;
 }
 );
 unicode = 000D;
