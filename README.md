@@ -33,6 +33,31 @@ To contribute to the project, file issues at <https://github.com/EbenSorkin/Merr
 
 ## ChangeLog
 
+
+### 18 April 2018 (Eben Sorkin) Merriweather v2.003
+
+*  Tabular Lining figures and Tabular Old Style figures added
+*  4 kinds of small numbers for fractions, superiors for foot notes and inferiors for scientific notation.
+*  Quotes ‘“”’ scaled to work better with high rez screens.
+*  Tal Lemming OT code for fractions
+*  Many adjustment to diacritics. 
+ 	- Improvements for consistency in approach between roman and Italic. 
+ 	- Especially improved capital diacritics which are larger and clearer now. 
+ 	- Vietnamese diacritics also especially improved
+ 	- Many minor improvements to placement
+    - Ring and ring acute are new.
+*  Added support for Hungarian (leftanglebracket-math uni27E8, rightanglebracket-math uni27E9) and Uzbek and Hawaiian (uni02bb)
+*  Improved symbols: radical, infinity, Ohm, literSign
+*  Improved currency symbols
+*  Improved eth
+*  Added many precomposed fractions.
+*  Added bitcoin currency symbol
+*  Added back hyphen which some how went missing. (uni2010)
+*  Added support for Skolt Sami - Gstroke gstroke Ezh ezh Kcaron kcaron
+*  Fixed interpolation error in quotedblright.ss01
+*  Made the included space glyphs match from Roman to Italic
+* Spaces added: - Enquad (U+2000) - Emspace (U+2003) - narrow nbspace (U+202F). Also fourperemspace, punctuationspace, sixperemspace, threeperemspace
+
 ### 30 Oct 2017 (Eben Sorkin) Merriweather v2.002
 
 * Made first Variable font version with the Roman. Italic is not generating yet.
