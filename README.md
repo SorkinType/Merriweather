@@ -14,6 +14,8 @@ As of now there are 8 styles (Light, Regular, Bold, Black, Light Italic, Italic,
 
 There is also [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans), a sans-serif version which closely harmonizes with the weights and styles of this serif family.
 
+Variable Font versions of this family are now in beta ( being tested ).
+
 Merriweather is actively developed and is improved upon periodically. 
 For more information and to stay updated, see Eben Sorkin's blog and Flickr, and follow the Merriweather Twitter microblog:
 
