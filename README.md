@@ -35,7 +35,45 @@ To contribute to the project, file issues at <https://github.com/EbenSorkin/Merr
 
 ## ChangeLog
 
+### 2 Feb 2019 (Eben Sorkin) Merriweather v2.004
 
+*  Primary respacing of Latin in both Roman and Italic from n, and o and H and O outward. The color in text is much improved.
+*  Changed the space glyph width ( yes really! ) for better color and more consistency in apparent approach across weights
+*  Adding a significant amout of kerning to both Roman and Italic.
+*  Changes to some glyph shapes for increased eveness in color and design consistency. Glyphs include : J,K,M,N,R,T,V,W,X,Y,Ezh
+*  Changes to diacritics so that standard 'comb' and 'combcase' diacritics are used.
+*  Improved diacritic placement and design especially tilde, caron, acute, grave
+*  Addition of support for stacking diacritics to support new langauge support for example 'emacronacute' ( Unicode 1E17 )
+*  Addition of new diacritics including commaturnedmod, doubleprimemod, firsttonechinese, fourthtonechinese, primemod, ringhalfleft, ringhalfright, secondtonechinese, verticallinelowmod, verticallinemod, dblgravecomb, brevebelowcomb, macronbelowcomb, strokeshortcomb, strokelongcomb
+*  Changed the aproach to Aringacute to be consistent with the more permissive verical metrics. Thanks Vietnamese and other stacking glyphs!
+*  Added support for scandinavian symbols accountof, addressedtothesubject, ( Unicodes 2100 and 2101)
+*  Added Currency symbols hryvnia, kip, manat, tenge, tugrik
+* Added Arrow symbols to Italic
+* Added Greek letters ( Delta, Omega, mu ) and rationalized their names and unicodes vs Ohm, increment, product, summation
+*  Tabular Lining figures and Tabular Old Style figures added to Italic.
+*  Improved premade fractions with kerning of their components
+*  Improved verical placement of inferior and superior small numbers.
+*  4 kinds of small numbers for fractions, superiors for foot notes and inferiors for scientific notation to Italic.
+*  Corrected design mistake in Cyrillic glyph "Komizje-cy" ( Unicode 0504 )
+*  Created initial version of small caps for Roman and Italic in the sources. However they don't currently export because they are a) not done and b) have no kerning. Small caps are made for Latin, Cyrillic, Greek Symbols and Figures. Small caps are using comb diacritics. Small cap punctuation and currency could be added - I am not sure if I think this make sense or not yet.
+        Notes:
+        - I also don't yet understand what the best design approach to small caps for digraphs including DZ, DZcaron, Dz, Dzcaron, NJ, Nj, is.
+        - The final remix RMX Scaller settings used to make the small caps were Width 96, Height 87 Weight 2 and 1 and adjust spacing 2.
+*  Improved number or figure design for both Roman and Italic
+*  Made many under the hood changes in Glyphs to make the files more effcient to work in in glyphs by linking sidebearings, widths and updating kern groups. This was especially touchy for cyrillic because many of the italic forms can't be linked in a parallel to their roman or upright opposites.
+*  Improved Ldot but I don't feel this solution is final.
+*  Cyrillic kerning is still not really complete.
+* Support for Serbian added ( be-cy.loclSRB ) but not yet Serbian Italic.
+* Full pinyin support still requires 8 more glyphs.
+*  Discovered that changing the name NULL to uni0000 permits Glyphs to export a Variable Font from sources
+*  Support for the following Google glyph sets is complete
+     - Core
+     - Plus Optional
+     - Plus Unique
+     - Pro Unique
+     - Pro Optional
+* Support for Google glyph sets "expert_unique-glyphs" which contains small caps is next 
+ 
 ### 18 April 2018 (Eben Sorkin) Merriweather v2.003
 
 *  Tabular Lining figures and Tabular Old Style figures added
