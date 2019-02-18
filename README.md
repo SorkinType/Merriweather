@@ -33,6 +33,58 @@ There are 2 source files, one for Romans and one of Italics, in the [GlyphsApp](
 
 To contribute to the project, file issues at <https://github.com/EbenSorkin/Merriweather> or contact Eben Sorkin directly at <sorkineben@gmail.com>
 
+## Build Process
+
+The sources can be built with FontMake, but I've put together some specific build scripts to pass the fonts through some steps that fix metadata issues.
+
+The build process requires you to open up a terminal and navigate to this project's directory.
+
+### Step 1: Install Requirements
+
+I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, [read more virtualenv in this guide](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
+
+First, set up a Python 3 virtual environment with:
+
+```
+virtualenv -p python3 venv
+```
+
+Here, `venv` will be the name of the virtual environment and of the folder holding its dependencies. Before you install dependencies or run the build, you need to activate it with:
+
+```
+source venv/bin/activate
+```
+
+To operate the scripts within this repo, install requirements by pointing pip to the `requirements.txt` file:
+
+```
+pip install -r requirements.txt
+```
+
+To exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back).
+
+### Step 2: Give permissions to build scripts
+
+The first time you run the build, you will need to give run permissions to the build scripts.
+
+On the command line, navigate to the project folder (`cd Encode-Sans`), and then give permissions to the shell scripts with:
+
+```
+chmod +x sources/build.sh
+```
+
+Using `chmod +x` gives shell scripts execute permissions. In general, before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything you don't want them to do. The ones in this repo simply build from the GlyphsApp sources and apply various fixes to the results.
+
+### Step 3: Run the build scripts!
+
+Now, run the build script by entering its relative path in your terminal:
+
+```
+sources/build.sh
+```
+
+If you've set up your dependencies correctly, it should build and place fonts into the `/fonts` sub-directory of the project.
+
 ## ChangeLog
 
 ### 2 Feb 2019 (Eben Sorkin) Merriweather v2.004
