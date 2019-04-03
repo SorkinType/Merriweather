@@ -2,7 +2,9 @@
 
 This repo is where updates to this project will be found
 
-The previous repo here https://github.com/EbenSorkin/Merriweather Will be left intact but is now depreciated.
+The previous repo here https://github.com/EbenSorkin/Merriweather will be left intact but is now inactive.
+
+Issues from the previous repo will be ported over when I can figure out how to do it.
 
 # Merriweather FONTLOG
 
