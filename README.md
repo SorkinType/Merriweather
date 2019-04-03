@@ -1,3 +1,9 @@
+# OFFICIAL Merriweather Repo
+
+This repo is where updates to this project will be found
+
+The previous repo here https://github.com/EbenSorkin/Merriweather Will be left intact but is now depreciated.
+
 # Merriweather FONTLOG
 
 This file provides detailed information on Merriweather font Software.
