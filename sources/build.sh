@@ -1,19 +1,20 @@
 #!/bin/sh
+source venv/bin/activate
 set -e
 
 cd sources
 
 echo "Generating Static fonts"
 mkdir -p ../fonts/ttfs
-fontmake -g "Merriweather Roman for VF.glyphs" -i -o ttf --output-dir ../fonts/ttfs/
-fontmake -g "Merriweather Italic for VF.glyphs" -i -o ttf --output-dir ../fonts/ttfs/
+fontmake -g "Merriweather for VF.glyphs" -i -o ttf --output-dir ../fonts/ttfs/
+fontmake -g "Merriweather-Italic for VF.glyphs" -i -o ttf --output-dir ../fonts/ttfs/
 
 echo "Generating VFs"
 mkdir -p ../fonts/variable
-fontmake -g "Merriweather Roman for VF.glyphs" -o variable --output-path ../fonts/variable/Merriweather-Roman-VF.ttf
-fontmake -g "Merriweather Italic for VF.glyphs" -o variable --output-path ../fonts/variable/Merriweather-Italic-VF.ttf
+fontmake -g "Merriweather for VF.glyphs" -o variable --output-path ../fonts/variable/MerriweatherSans-Roman-VF.ttf
+fontmake -g "Merriweather-Italic for VF.glyphs" -o variable --output-path ../fonts/variable/MerriweatherSans-Italic-VF.ttf
 
-rm -rf master_ufo/ instance_ufo/
+# rm -rf master_ufo/ instance_ufo/
 echo "Post processing"
 
 
