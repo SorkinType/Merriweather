@@ -11,8 +11,8 @@ fontmake -g "Merriweather-Italic for VF.glyphs" -i -o ttf --output-dir ../fonts/
 
 echo "Generating VFs"
 mkdir -p ../fonts/variable
-fontmake -g "Merriweather for VF.glyphs" -o variable --output-path ../fonts/variable/MerriweatherSans-Roman-VF.ttf
-fontmake -g "Merriweather-Italic for VF.glyphs" -o variable --output-path ../fonts/variable/MerriweatherSans-Italic-VF.ttf
+fontmake -g "Merriweather Roman for VF.glyphs" -o variable --output-path ../fonts/variable/Merriweather-Roman-VF.ttf
+fontmake -g "Merriweather-Italic for VF.glyphs" -o variable --output-path ../fonts/variable/Merriweather-Italic-VF.ttf
 
 # rm -rf master_ufo/ instance_ufo/
 echo "Post processing"
