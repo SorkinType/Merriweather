@@ -8,8 +8,9 @@ Fontbakery version: 0.7.0
 <summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* ℹ **INFO** fontbakery (0.7.0)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.0 (latest)
+* ℹ **INFO** fontbakery (0.7.1)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.0
+  LATEST:    0.7.1
 
 * 🍞 **PASS** Font Bakery is up-to-date
 
@@ -32,7 +33,7 @@ Fontbakery version: 0.7.0
 <summary>🍞 <b>PASS:</b> Check font has a license.</summary>
 
 * [com.google.fonts/check/family/has_license](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/has_license)
-* 🍞 **PASS** Found license at '/Users/ebensorkin/Documents/GitHub/Merriweather-Sans/OFL.txt'
+* 🍞 **PASS** Found license at '/Users/ebensorkin/Documents/GitHub/Merriweather @ SorkinType/Merriweather/OFL.txt'
 
 </details>
 <details>
@@ -227,26 +228,69 @@ Fontbakery version: 0.7.0
 <br>
 </details>
 <details>
-<summary><b>[119] MerriweatherSans-Italic-VF.ttf</b></summary>
+<summary><b>[119] Merriweather-Italic-VF.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts</summary>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
-* [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2019 Merriweather Eben Sorkin https://github.com/SorkinType/Merriweather-Sans with Reserved Font Name 'Merriweather''
+* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
+* 🔥 **FAIL** OS/2 usWeightClass expected value for 'Regular' is 400 but this font has 300.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking with ots-sanitize.</summary>
+<summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
 
-* [com.google.fonts/check/ots](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ots)
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
+* [com.google.fonts/check/name/familyname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/familyname)
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Merriweather' but got 'Merriweather Light'.
 
-ERROR: GDEF: bad caret value format: 3
-ERROR: GDEF: Invalid ligature caret list
-ERROR: GDEF: Failed to parse table
-Failed to sanitize file!
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
+* [com.google.fonts/check/name/fullfontname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/fullfontname)
+* 🔥 **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Merriweather Italic' but got 'Merriweather Light Italic'.
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
+
+* [com.google.fonts/check/name/postscriptname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/postscriptname)
+* 🔥 **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'Merriweather-Italic' but got 'Merriweather-LightItalic'.
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/name/typographicfamilyname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/typographicfamilyname)
+* 🔥 **FAIL** Font style is 'Italic' and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/name/typographicsubfamilyname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/typographicsubfamilyname)
+* 🔥 **FAIL** Font style is 'Italic' and, for that reason, it is not expected to have a [TYPOGRAPHIC_SUBFAMILY_NAME(17):WINDOWS(3)] entry! [code: ribbi]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1276, but got 1150 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 302, but got 300 instead [code: descent]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Whitespace and non-breaking space have the same width?</summary>
+
+* [com.google.fonts/check/whitespace_widths](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/whitespace_widths)
+* 🔥 **FAIL** Whitespace and non-breaking space have differing width: Whitespace (space) is 190 font units wide, non-breaking space (uni00A0) is 237 font units wide. Both should be positive and the same.
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
+
+* [com.google.fonts/check/vendor_id](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/vendor_id)
+* ⚠ **WARN** OS/2 VendorID value 'STC ' is not a known registered id. You should set it to your own 4 character code, and register that code with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx [code: unknown]
 
 </details>
 <details>
@@ -260,14 +304,14 @@ Failed to sanitize file!
 <summary>⚠ <b>WARN:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
 
 * [com.google.fonts/check/name/rfn](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/rfn)
-* ⚠ **WARN** Name table entry ("Copyright 2019 Merriweather Eben Sorkin https://github.com/SorkinType/Merriweather-Sans with Reserved Font Name 'Merriweather'") contains "Reserved Font Name". This is an error except in a few specific rare cases.
+* ⚠ **WARN** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 
 </details>
 <details>
 <summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/name/family_and_style_max_length](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/family_and_style_max_length)
-* ⚠ **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Merriweather Sans' / SUBFAMILY_NAME = 'Italic'
+* ⚠ **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Merriweather Light' / SUBFAMILY_NAME = 'Italic'
 
 </details>
 <details>
@@ -283,6 +327,22 @@ Failed to sanitize file!
 	- i + l
 
    [code: lacks-kern-info]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check for points out of bounds.</summary>
+
+* [com.google.fonts/check/points_out_of_bounds](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/points_out_of_bounds)
+* ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
+[('quotesinglbase', 142.2567, 137.46988), ('quotedblbase', 146.2567, 137.46988), ('quotedblbase', 368.2567, 137.46988), ('quotedblleft', 418.7433, 456.53012), ('quotedblleft', 195.7433, 456.53012), ('quotedblright', 455.2567, 840.46988), ('quotedblright', 231.2567, 840.46988), ('quoteright', 226.2567, 840.46988)]
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
 
 </details>
 <details>
@@ -578,12 +638,12 @@ Failed to sanitize file!
 * [com.google.fonts/check/hinting_impact](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/hinting_impact)
 * ℹ **INFO** Hinting filesize impact:
 
-|  | fonts/variable/MerriweatherSans-Italic-VF.ttf |
+|  | fonts/variable/Merriweather-Italic-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 235.7kb |
-| Hinted Size | 235.1kb |
-| Increase | -592 bytes |
-| Change   | -0.2 % |
+| Dehinted Size | 347.3kb |
+| Hinted Size | 346.4kb |
+| Increase | -936 bytes |
+| Change   | -0.3 % |
 
 
 </details>
@@ -591,7 +651,7 @@ Failed to sanitize file!
 <summary>ℹ <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/old_ttfautohint](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/old_ttfautohint)
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.007']
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.004']
 
 </details>
 <details>
@@ -618,10 +678,18 @@ PPM <= 65535:
 
 </details>
 <details>
+<summary>ℹ <b>INFO:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontdata_namecheck)
+* ℹ **INFO** The family name 'Merriweather' seem to be already in use.
+Please visit http://namecheck.fontdata.com/?q=Merriweather for more info.
+
+</details>
+<details>
 <summary>ℹ <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/fontv](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontv)
-* ℹ **INFO** Version string is: "Version 1.007"
+* ℹ **INFO** Version string is: "Version 2.004"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -630,7 +698,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GSUB, prep, loca, gasp, GPOS, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GSUB, GPOS, prep, DSIG, gasp, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -638,7 +706,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Checking file is named canonically.</summary>
 
 * [com.google.fonts/check/canonical_filename](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/canonical_filename)
-* 🍞 **PASS** fonts/variable/MerriweatherSans-Italic-VF.ttf is named canonically.
+* 🍞 **PASS** fonts/variable/Merriweather-Italic-VF.ttf is named canonically.
 
 </details>
 <details>
@@ -649,24 +717,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Checking OS/2 achVendID.</summary>
-
-* [com.google.fonts/check/vendor_id](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/vendor_id)
-* 🍞 **PASS** OS/2 VendorID 'STC ' looks good!
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries.</summary>
 
 * [com.google.fonts/check/name/unwanted_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/unwanted_chars)
 * 🍞 **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
-* 🍞 **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -719,6 +773,14 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Copyright notices match canonical pattern in fonts</summary>
+
+* [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
+* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".' matches canonical pattern.
+* 🍞 **PASS** Name table copyright entries are good
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Checking OS/2 fsSelection value.</summary>
 
 * [com.google.fonts/check/fsselection](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fsselection)
@@ -731,7 +793,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Checking post.italicAngle value.</summary>
 
 * [com.google.fonts/check/italic_angle](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/italic_angle)
-* 🍞 **PASS** Value of post.italicAngle is -7.5 with style='Italic'.
+* 🍞 **PASS** Value of post.italicAngle is -8.0 with style='Italic'.
 
 </details>
 <details>
@@ -750,13 +812,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/name/familyname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/familyname)
-* 🍞 **PASS** FONT_FAMILY_NAME entries are all good.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/name/subfamilyname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/subfamilyname)
@@ -764,45 +819,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check name table: FULL_FONT_NAME entries. </summary>
-
-* [com.google.fonts/check/name/fullfontname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/fullfontname)
-* 🍞 **PASS** FULL_FONT_NAME entries are all good.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
-
-* [com.google.fonts/check/name/postscriptname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/postscriptname)
-* 🍞 **PASS** POSTCRIPT_NAME entries are all good.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/name/typographicfamilyname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/typographicfamilyname)
-* 🍞 **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/name/typographicsubfamilyname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/typographicsubfamilyname)
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters. </summary>
 
 * [com.google.fonts/check/name/copyright_length](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/copyright_length)
 * 🍞 **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontdata_namecheck)
-* 🍞 **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -817,13 +837,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/varfont/has_HVAR](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont/has_HVAR)
 * 🍞 **PASS** This variable font contains an HVAR table.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
-* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 
 </details>
 <details>
@@ -873,6 +886,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_weight_instances)
 * 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking with ots-sanitize.</summary>
+
+* [com.google.fonts/check/ots](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ots)
+* 🍞 **PASS** ots-sanitize passed this file
 
 </details>
 <details>
@@ -1044,24 +1064,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Whitespace and non-breaking space have the same width?</summary>
-
-* [com.google.fonts/check/whitespace_widths](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/whitespace_widths)
-* 🍞 **PASS** Whitespace and non-breaking space have the same width.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Does GPOS table have kerning information?</summary>
 
 * [com.google.fonts/check/gpos_kerning_info](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/gpos_kerning_info)
 * 🍞 **PASS** GPOS table has got kerning information.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
-* 🍞 **PASS** Looks good!
 
 </details>
 <details>
@@ -1076,13 +1082,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/glyf_unused_data](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/glyf_unused_data)
 * 🍞 **PASS** There is no unused data at the end of the glyf table.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check for points out of bounds.</summary>
-
-* [com.google.fonts/check/points_out_of_bounds](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/points_out_of_bounds)
-* 🍞 **PASS** All glyph paths have coordinates within bounds!
 
 </details>
 <details>
@@ -1106,5 +1105,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 5 | 57 | 7 | 79 |
-| 0% | 1% | 3% | 38% | 5% | 53% |
+| 0 | 8 | 8 | 57 | 8 | 69 |
+| 0% | 5% | 5% | 38% | 5% | 46% |
