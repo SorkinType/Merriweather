@@ -6,7 +6,7 @@ cd sources
 
 echo "Generating Static fonts"
 mkdir -p ../fonts/ttfs
-fontmake -g "Merriweather for VF.glyphs" -i -o ttf --output-dir ../fonts/ttfs/
+fontmake -g "Merriweather Roman for VF.glyphs" -i -o ttf --output-dir ../fonts/ttfs/
 fontmake -g "Merriweather-Italic for VF.glyphs" -i -o ttf --output-dir ../fonts/ttfs/
 
 echo "Generating VFs"
