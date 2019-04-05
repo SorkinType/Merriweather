@@ -643,8 +643,8 @@ Fontbakery version: 0.7.1
 
 |  | fonts/variable/Merriweather-Roman-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 487.6kb |
-| Hinted Size | 486.6kb |
+| Dehinted Size | 487.4kb |
+| Hinted Size | 486.4kb |
 | Increase | -1020 bytes |
 | Change   | -0.2 % |
 
@@ -654,7 +654,7 @@ Fontbakery version: 0.7.1
 <summary>ℹ <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/old_ttfautohint](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/old_ttfautohint)
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.005']
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.006']
 
 </details>
 <details>
@@ -692,7 +692,7 @@ Please visit http://namecheck.fontdata.com/?q=Merriweather for more info.
 <summary>ℹ <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/fontv](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontv)
-* ℹ **INFO** Version string is: "Version 2.005"
+* ℹ **INFO** Version string is: "Version 2.006"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -701,7 +701,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GSUB, DSIG, prep, gasp, loca, GPOS]
+* ℹ **INFO** This font contains the following optional tables [prep, GPOS, gasp, GSUB, loca, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>

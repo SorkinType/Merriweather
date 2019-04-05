@@ -286,13 +286,6 @@ Fontbakery version: 0.7.1
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
 
 * [com.google.fonts/check/kerning_for_non_ligated_sequences](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/kerning_for_non_ligated_sequences)
@@ -318,7 +311,7 @@ Fontbakery version: 0.7.1
 <summary>⚠ <b>WARN:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
 
 * [com.google.fonts/check/name/rfn](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/rfn)
-* ⚠ **WARN** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases.
+* ⚠ **WARN** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 
 </details>
 <details>
@@ -630,8 +623,8 @@ Fontbakery version: 0.7.1
 
 |  | fonts/variable/Merriweather-Italic-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 375.2kb |
-| Hinted Size | 374.3kb |
+| Dehinted Size | 375.3kb |
+| Hinted Size | 374.4kb |
 | Increase | -924 bytes |
 | Change   | -0.2 % |
 
@@ -641,7 +634,7 @@ Fontbakery version: 0.7.1
 <summary>ℹ <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/old_ttfautohint](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/old_ttfautohint)
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.005']
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.006']
 
 </details>
 <details>
@@ -679,7 +672,7 @@ Please visit http://namecheck.fontdata.com/?q=Merriweather for more info.
 <summary>ℹ <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/fontv](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontv)
-* ℹ **INFO** Version string is: "Version 2.005"
+* ℹ **INFO** Version string is: "Version 2.006"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -688,7 +681,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [DSIG, prep, GSUB, loca, gasp, GPOS]
+* ℹ **INFO** This font contains the following optional tables [GPOS, prep, DSIG, loca, gasp, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -766,7 +759,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Copyright notices match canonical pattern in fonts</summary>
 
 * [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
-* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".' matches canonical pattern.
+* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name "Merriweather".' matches canonical pattern.
 * 🍞 **PASS** Name table copyright entries are good
 
 </details>
@@ -876,6 +869,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_weight_instances)
 * 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
+* 🍞 **PASS** Looks good!
 
 </details>
 <details>
@@ -1123,5 +1123,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 6 | 59 | 8 | 73 |
-| 0% | 5% | 4% | 39% | 5% | 48% |
+| 0 | 7 | 5 | 59 | 8 | 74 |
+| 0% | 5% | 3% | 39% | 5% | 48% |
