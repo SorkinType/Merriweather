@@ -97,6 +97,7 @@ If you've set up your dependencies correctly, it should build and place fonts in
 
 ### 5 April 2019 (Eben Sorkin) Merriweather v2.005 - OK to test with but not ready to use 
 
+* changed UPM to 2000
 * Small caps are added
 * Kerning is added for nboth Latin and Cyrillic
 * Some respacing (losening ) of the Cyrillic, especially the italic.
