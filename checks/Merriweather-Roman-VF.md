@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.0
+Fontbakery version: 0.7.1
 
 <details>
 <summary><b>[31] Family checks</b></summary>
@@ -9,8 +9,7 @@ Fontbakery version: 0.7.0
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
 * ℹ **INFO** fontbakery (0.7.1)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.0
-  LATEST:    0.7.1
+  INSTALLED: 0.7.1 (latest)
 
 * 🍞 **PASS** Font Bakery is up-to-date
 
@@ -33,7 +32,7 @@ Fontbakery version: 0.7.0
 <summary>🍞 <b>PASS:</b> Check font has a license.</summary>
 
 * [com.google.fonts/check/family/has_license](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/has_license)
-* 🍞 **PASS** Found license at '/Users/ebensorkin/Documents/GitHub/Merriweather @ SorkinType/Merriweather/OFL.txt'
+* 🍞 **PASS** Found license at '/Users/ebensorkin/Documents/GitHub/Merriweather-ST/Merriweather/OFL.txt'
 
 </details>
 <details>
@@ -44,10 +43,10 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Fonts have consistent Units Per Em?</summary>
+<summary>🍞 <b>PASS:</b> Does font file include unacceptable control character glyphs?</summary>
 
-* [com.adobe.fonts/check/family/consistent_upm](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/family/consistent_upm)
-* 🍞 **PASS** Fonts have consistent units per em.
+* [com.google.fonts/check/family/control_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/control_chars)
+* 🍞 **PASS** Unacceptable control characters were not identified.
 
 </details>
 <details>
@@ -228,12 +227,19 @@ Fontbakery version: 0.7.0
 <br>
 </details>
 <details>
-<summary><b>[119] Merriweather-Roman-VF.ttf</b></summary>
+<summary><b>[122] Merriweather-Roman-VF.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
 
 * [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1188, but got 1150 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1228, but got 1150 instead [code: ascent]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Whitespace and non-breaking space have the same width?</summary>
+
+* [com.google.fonts/check/whitespace_widths](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/whitespace_widths)
+* 🔥 **FAIL** Whitespace and non-breaking space have differing width: Whitespace (space) is 234 font units wide, non-breaking space (uni00A0) is 237 font units wide. Both should be positive and the same.
 
 </details>
 <details>
@@ -248,20 +254,6 @@ Fontbakery version: 0.7.0
 
 * [com.google.fonts/check/unitsperem_strict](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/unitsperem_strict)
 * ⚠ **WARN** Even though unitsPerEm (1000) in this font is reasonable. It is strongly advised to consider changing it to 2000, since it will likely improve the quality of Variable Fonts by avoiding excessive rounding of coordinates on interpolations.
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
-
-* [com.google.fonts/check/name/rfn](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/rfn)
-* ⚠ **WARN** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases.
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/family_and_style_max_length)
-* ⚠ **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Merriweather Light' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -280,10 +272,17 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
+<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
-* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+* [com.google.fonts/check/name/family_and_style_max_length](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/family_and_style_max_length)
+* ⚠ **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Merriweather Light' / SUBFAMILY_NAME = 'Regular'
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
+
+* [com.google.fonts/check/name/rfn](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/rfn)
+* ⚠ **WARN** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 
 </details>
 <details>
@@ -595,6 +594,20 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10?</summary>
+
+* [com.adobe.fonts/check/cff_call_depth](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/cff_call_depth)
+* 💤 **SKIP** Unfulfilled Conditions: is_cff
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Is the CFF2 subr/gsubr call depth > 10?</summary>
+
+* [com.adobe.fonts/check/cff2_call_depth](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/cff2_call_depth)
+* 💤 **SKIP** Unfulfilled Conditions: is_cff2
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> CFF table FontName must match name table ID 6 (PostScript name).</summary>
 
 * [com.adobe.fonts/check/name/postscript_vs_cff](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/name/postscript_vs_cff)
@@ -644,10 +657,10 @@ Fontbakery version: 0.7.0
 
 |  | fonts/variable/Merriweather-Roman-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 344.3kb |
-| Hinted Size | 343.4kb |
-| Increase | -996 bytes |
-| Change   | -0.3 % |
+| Dehinted Size | 458.8kb |
+| Hinted Size | 457.8kb |
+| Increase | -988 bytes |
+| Change   | -0.2 % |
 
 
 </details>
@@ -655,7 +668,7 @@ Fontbakery version: 0.7.0
 <summary>ℹ <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/old_ttfautohint](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/old_ttfautohint)
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.004']
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.005']
 
 </details>
 <details>
@@ -693,7 +706,7 @@ Please visit http://namecheck.fontdata.com/?q=Merriweather for more info.
 <summary>ℹ <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/fontv](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontv)
-* ℹ **INFO** Version string is: "Version 2.004"
+* ℹ **INFO** Version string is: "Version 2.005"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -702,7 +715,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [loca, prep, DSIG, GSUB, GPOS, gasp]
+* ℹ **INFO** This font contains the following optional tables [GPOS, prep, GSUB, gasp, DSIG, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -806,13 +819,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
-
-* [com.google.fonts/check/os2_metrics_match_hhea](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/os2_metrics_match_hhea)
-* 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
 
 * [com.google.fonts/check/smart_dropout](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/smart_dropout)
@@ -852,6 +858,27 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_weight_instances)
 * 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
+* 🍞 **PASS** Looks good!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
+
+* [com.google.fonts/check/name/trailing_spaces](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/trailing_spaces)
+* 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
+
+* [com.google.fonts/check/os2_metrics_match_hhea](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/os2_metrics_match_hhea)
+* 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
 
 </details>
 <details>
@@ -1009,6 +1036,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
+
+* [com.google.fonts/check/loca/maxp_num_glyphs](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/loca/maxp_num_glyphs)
+* 🍞 **PASS** 'loca' table matches numGlyphs in 'maxp' table.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Checking Vertical Metric Linegaps.</summary>
 
 * [com.google.fonts/check/linegaps](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/linegaps)
@@ -1027,13 +1061,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/dsig](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/dsig)
 * 🍞 **PASS** Digital Signature (DSIG) exists.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Whitespace and non-breaking space have the same width?</summary>
-
-* [com.google.fonts/check/whitespace_widths](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/whitespace_widths)
-* 🍞 **PASS** Whitespace and non-breaking space have the same width.
 
 </details>
 <details>
@@ -1085,13 +1112,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * 🍞 **PASS** OK
 
 </details>
-<details>
-<summary>🍞 <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
-
-* [com.google.fonts/check/loca/maxp_num_glyphs](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/loca/maxp_num_glyphs)
-* 🍞 **PASS** 'loca' table matches numGlyphs in 'maxp' table.
-
-</details>
 <br>
 </details>
 
@@ -1099,5 +1119,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 7 | 66 | 8 | 68 |
-| 0% | 1% | 5% | 44% | 5% | 45% |
+| 0 | 2 | 6 | 68 | 8 | 69 |
+| 0% | 1% | 4% | 44% | 5% | 45% |
