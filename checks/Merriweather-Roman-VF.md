@@ -232,14 +232,7 @@ Fontbakery version: 0.7.1
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
 
 * [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1228, but got 1150 instead [code: ascent]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Whitespace and non-breaking space have the same width?</summary>
-
-* [com.google.fonts/check/whitespace_widths](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/whitespace_widths)
-* 🔥 **FAIL** Whitespace and non-breaking space have differing width: Whitespace (space) is 234 font units wide, non-breaking space (uni00A0) is 237 font units wide. Both should be positive and the same.
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2456, but got 2300 instead [code: ascent]
 
 </details>
 <details>
@@ -247,13 +240,6 @@ Fontbakery version: 0.7.1
 
 * [com.google.fonts/check/vendor_id](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/vendor_id)
 * ⚠ **WARN** OS/2 VendorID value 'STC ' is not a known registered id. You should set it to your own 4 character code, and register that code with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx [code: unknown]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
-
-* [com.google.fonts/check/unitsperem_strict](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/unitsperem_strict)
-* ⚠ **WARN** Even though unitsPerEm (1000) in this font is reasonable. It is strongly advised to consider changing it to 2000, since it will likely improve the quality of Variable Fonts by avoiding excessive rounding of coordinates on interpolations.
 
 </details>
 <details>
@@ -657,9 +643,9 @@ Fontbakery version: 0.7.1
 
 |  | fonts/variable/Merriweather-Roman-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 458.8kb |
-| Hinted Size | 457.8kb |
-| Increase | -988 bytes |
+| Dehinted Size | 487.6kb |
+| Hinted Size | 486.6kb |
+| Increase | -1020 bytes |
 | Change   | -0.2 % |
 
 
@@ -715,7 +701,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GPOS, prep, GSUB, gasp, DSIG, loca]
+* ℹ **INFO** This font contains the following optional tables [GSUB, DSIG, prep, gasp, loca, GPOS]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -795,6 +781,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
 * 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".' matches canonical pattern.
 * 🍞 **PASS** Name table copyright entries are good
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
+
+* [com.google.fonts/check/unitsperem_strict](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/unitsperem_strict)
+* 🍞 **PASS** Font em size is good (unitsPerEm = 2000).
 
 </details>
 <details>
@@ -955,7 +948,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Checking unitsPerEm value is reasonable.</summary>
 
 * [com.google.fonts/check/unitsperem](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/unitsperem)
-* 🍞 **PASS** unitsPerEm value (1000) on the 'head' table is reasonable.
+* 🍞 **PASS** unitsPerEm value (2000) on the 'head' table is reasonable.
 
 </details>
 <details>
@@ -1064,6 +1057,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Whitespace and non-breaking space have the same width?</summary>
+
+* [com.google.fonts/check/whitespace_widths](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/whitespace_widths)
+* 🍞 **PASS** Whitespace and non-breaking space have the same width.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Does GPOS table have kerning information?</summary>
 
 * [com.google.fonts/check/gpos_kerning_info](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/gpos_kerning_info)
@@ -1119,5 +1119,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 6 | 68 | 8 | 69 |
-| 0% | 1% | 4% | 44% | 5% | 45% |
+| 0 | 1 | 5 | 68 | 8 | 71 |
+| 0% | 1% | 3% | 44% | 5% | 46% |
