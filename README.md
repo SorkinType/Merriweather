@@ -95,6 +95,15 @@ If you've set up your dependencies correctly, it should build and place fonts in
 
 ## ChangeLog
 
+### 5 April 2019 (Eben Sorkin) Merriweather v2.005
+
+* Small caps are added
+* Kerning is added for nboth Latin and Cyrillic
+* Some respacing (losening ) of the Cyrillic, especially the italic.
+* Further rationalizing of the kern groups
+* Minor shape corrections for color and consistency 
+* Added cursor Carat data diacritics in the italic
+
 ### 2 Feb 2019 (Eben Sorkin) Merriweather v2.004
 
 *  Primary respacing of Latin in both Roman and Italic from n, and o and H and O outward. The color in text is much improved.
