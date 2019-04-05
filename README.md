@@ -99,11 +99,14 @@ If you've set up your dependencies correctly, it should build and place fonts in
 
 * changed UPM to 2000
 * Small caps are added
+* "Zero" 0 Value kern pair eliminated
 * Kerning is added for nboth Latin and Cyrillic
 * Some respacing (losening ) of the Cyrillic, especially the italic.
 * Further rationalizing of the kern groups
 * Minor shape corrections for color and consistency 
 * Added cursor Carat data diacritics in the italic
+* Added family alignment zones to font level settings
+* Added upper blue zone for small caps
 
 ### 2 Feb 2019 (Eben Sorkin) Merriweather v2.004
 
