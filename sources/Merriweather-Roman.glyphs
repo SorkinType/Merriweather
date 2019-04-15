@@ -1,5 +1,5 @@
 {
-.appVersion = "1226";
+.appVersion = "1192";
 DisplayStrings = (
 " ",
 "/quoteright/quotesinglbase",
@@ -51,7 +51,7 @@ value = (
 },
 {
 name = "Use Typo Metrics";
-value = 0;
+value = 1;
 },
 {
 name = "Disable Last Change";
@@ -1682,11 +1682,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2300;
+value = 2456;
 },
 {
 name = winDescent;
-value = 600;
+value = 604;
 },
 {
 name = strikeoutPosition;
@@ -1800,14 +1800,6 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 2300;
-},
-{
-name = winDescent;
-value = 600;
-},
-{
 name = strikeoutPosition;
 value = 596;
 },
@@ -1826,6 +1818,14 @@ value = -244;
 {
 name = smallCapHeight;
 value = 646;
+},
+{
+name = winAscent;
+value = 2456;
+},
+{
+name = winDescent;
+value = 604;
 }
 );
 descender = -546;
@@ -106522,7 +106522,7 @@ unicode = 058F;
 },
 {
 glyphname = bitcoin;
-lastChange = "2019-04-05 21:05:46 +0000";
+lastChange = "2019-04-15 13:42:28 +0000";
 layers = (
 {
 components = (
