@@ -49,7 +49,7 @@ The build process requires you to open up a terminal and navigate to this projec
 
 ### Step 1: Install Requirements
 
-I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, [read more virtualenv in this guide](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
+I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, [read more about setting up virtualenv in this guide](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
 
 First, set up a Python 3 virtual environment with:
 
@@ -70,6 +70,17 @@ pip install -r requirements.txt
 ```
 
 To exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back).
+
+**Setting up for woff & woff2 conversion**
+
+The build script also converts outputs to web-ready formats, `woff` & `woff2`.
+
+To enable this, use Homebrew ([install it from here](https://brew.sh/) if you haven't already) to get tools from [bramstein/homebrew-webfonttools](https://github.com/bramstein/homebrew-webfonttools):
+
+```
+brew install woff2
+brew install sfnt2woff-zopfli
+```
 
 ### Step 2: Give permissions to build scripts
 
