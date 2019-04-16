@@ -45,7 +45,7 @@ To contribute to the project, file issues at <https://github.com/EbenSorkin/Merr
 
 The sources can be built with FontMake, but I've put together some specific build scripts to pass the fonts through some steps that fix metadata issues.
 
-### Step 1: Install Requirements
+### Step 1: Set up the project locally
 
 The build process requires you to open up a terminal and navigate to this project's directory. Open a terminal, then navigate to the a directory (folder) for type projects, and git clone this repo.
 
@@ -72,13 +72,24 @@ Before you install dependencies or run the build, you need to activate the virtu
 source venv/bin/activate
 ```
 
-To operate the scripts within this repo, install requirements by pointing pip to the `requirements.txt` file:
+If you wish exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back). You can also simply close the terminal session.
+
+Once you've activated the venv, install requirements by pointing pip to the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-To exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back).
+**Setting up for woff & woff2 conversion**
+
+The build script also converts outputs to web-ready formats, `woff` & `woff2`.
+
+To enable this, use Homebrew ([install it from here](https://brew.sh/) if you haven't already) to get tools from [bramstein/homebrew-webfonttools](https://github.com/bramstein/homebrew-webfonttools):
+
+```
+brew install woff2
+brew install sfnt2woff-zopfli
+```
 
 ### Step 2: Give permissions to build scripts
 
