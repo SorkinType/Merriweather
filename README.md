@@ -45,27 +45,36 @@ To contribute to the project, file issues at <https://github.com/EbenSorkin/Merr
 
 The sources can be built with FontMake, but I've put together some specific build scripts to pass the fonts through some steps that fix metadata issues.
 
-The build process requires you to open up a terminal and navigate to this project's directory.
-
 ### Step 1: Install Requirements
 
-I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, [read more virtualenv in this guide](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
+The build process requires you to open up a terminal and navigate to this project's directory. Open a terminal, then navigate to the a directory (folder) for type projects, and git clone this repo.
 
-First, set up a Python 3 virtual environment with:
+```bash
+cd path/to/type_repos_directory
 
+# then
+git clone https://github.com/SorkinType/Merriweather.git
 ```
-virtualenv -p python3 venv
+
+You should use a Python virtual environment to build this project. If you've never set up a virtual environment before, [read more about it in this guide](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).
+
+You can set up a Python 3 virtual environment with:
+
+```bash
+python3 -m venv ./venv
 ```
 
-Here, `venv` will be the name of the virtual environment and of the folder holding its dependencies. Before you install dependencies or run the build, you need to activate it with:
+Here, `python3 -m venv` calls the virtual-environment-making module, then the `./venv` gives it a path to setup a virtual environment in (you could give a different path, but this is a conventional name). 
 
-```
+Before you install dependencies or run the build, you need to activate the virtual environment with:
+
+```bash
 source venv/bin/activate
 ```
 
 To operate the scripts within this repo, install requirements by pointing pip to the `requirements.txt` file:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -77,7 +86,7 @@ The first time you run the build, you will need to give run permissions to the b
 
 On the command line, navigate to the project folder (`cd Encode-Sans`), and then give permissions to the shell scripts with:
 
-```
+```bash
 chmod +x sources/build.sh
 ```
 
@@ -87,7 +96,7 @@ Using `chmod +x` gives shell scripts execute permissions. In general, before you
 
 Now, run the build script by entering its relative path in your terminal:
 
-```
+```bash
 sources/build.sh
 ```
 
