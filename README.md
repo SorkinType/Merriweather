@@ -4,6 +4,8 @@ This repo is where updates to this project will be found
 
 The previous repo here https://github.com/EbenSorkin/Merriweather will be left intact but is now inactive.
 
+The next steps for this project will be to add to the capbility of the variable fonts along optical size and width axes. Equivalent static fonts will also be made.
+
 Issues from the previous repo will be ported over when I can figure out how to do it.
 
 # Merriweather FONTLOG
