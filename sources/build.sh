@@ -13,6 +13,7 @@ echo "Generating VFs"
 mkdir -p ../fonts/variable
 fontmake -g Merriweather-Roman.glyphs -o variable --output-path ../fonts/variable/Merriweather-Roman-VF.ttf
 fontmake -g Merriweather-Italic.glyphs -o variable --output-path ../fonts/variable/Merriweather-Italic-VF.ttf
+fontmake -g Merriweather-RomanWandO7.glyphs -o variable --output-path ../fonts/variable/MerriweatherWO7-Roman-VF.ttf
 
 rm -rf master_ufo/ instance_ufo/
 echo "Post processing"
