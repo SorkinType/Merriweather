@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohorn" format="1">
+  <advance width="1120"/>
+  <unicode hex="01A1"/>
+  <outline>
+    <contour>
+      <point x="478" y="-20" type="curve"/>
+      <point x="812" y="-20"/>
+      <point x="1039" y="334"/>
+      <point x="1035" y="686" type="curve"/>
+      <point x="1033" y="825"/>
+      <point x="999" y="936"/>
+      <point x="936" y="1012" type="curve"/>
+      <point x="1081" y="1047"/>
+      <point x="1191" y="1120"/>
+      <point x="1211" y="1256" type="curve"/>
+      <point x="1213" y="1270"/>
+      <point x="1215" y="1286"/>
+      <point x="1215" y="1302" type="curve"/>
+      <point x="1054" y="1302" type="line"/>
+      <point x="1054" y="1279" type="line" smooth="yes"/>
+      <point x="1054" y="1166"/>
+      <point x="949" y="1109"/>
+      <point x="813" y="1105" type="curve"/>
+      <point x="764" y="1125"/>
+      <point x="708" y="1136"/>
+      <point x="645" y="1136" type="curve"/>
+      <point x="311" y="1136"/>
+      <point x="84" y="786"/>
+      <point x="87" y="428" type="curve"/>
+      <point x="91" y="143"/>
+      <point x="230" y="-20"/>
+    </contour>
+    <contour>
+      <point x="252" y="429" type="curve"/>
+      <point x="248" y="697"/>
+      <point x="371" y="1038"/>
+      <point x="618" y="1038" type="curve"/>
+      <point x="783" y="1038"/>
+      <point x="867" y="907"/>
+      <point x="869" y="685" type="curve"/>
+      <point x="873" y="421"/>
+      <point x="749" y="77"/>
+      <point x="507" y="77" type="curve"/>
+      <point x="344" y="77"/>
+      <point x="255" y="205"/>
+    </contour>
+    <contour>
+      <point x="474" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="642" y="1111" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b.sc" format="1">
+  <advance width="1330"/>
+  <outline>
+    <contour>
+      <point x="461" y="1292" type="curve"/>
+      <point x="139" y="1292" type="line"/>
+      <point x="128" y="1193" type="line"/>
+      <point x="265" y="1171" type="line"/>
+      <point x="123" y="123" type="line"/>
+      <point x="-7" y="97" type="line"/>
+      <point x="-13" y="0" type="line"/>
+      <point x="269" y="0" type="line" smooth="yes"/>
+      <point x="354" y="0"/>
+      <point x="480" y="-18"/>
+      <point x="571" y="-18" type="curve"/>
+      <point x="1022" y="-18"/>
+      <point x="1254" y="104"/>
+      <point x="1253" y="418" type="curve"/>
+      <point x="1253" y="578"/>
+      <point x="1102" y="691"/>
+      <point x="903" y="682" type="curve"/>
+      <point x="1145" y="736"/>
+      <point x="1263" y="836"/>
+      <point x="1251" y="1032" type="curve"/>
+      <point x="1244" y="1164"/>
+      <point x="1168" y="1308"/>
+      <point x="798" y="1308" type="curve"/>
+      <point x="675" y="1308"/>
+      <point x="570" y="1294"/>
+    </contour>
+    <contour>
+      <point x="444" y="115" type="curve"/>
+      <point x="512" y="605" type="line"/>
+      <point x="533" y="605"/>
+      <point x="555" y="607"/>
+      <point x="623" y="607" type="curve"/>
+      <point x="820" y="607"/>
+      <point x="892" y="540"/>
+      <point x="901" y="387" type="curve"/>
+      <point x="913" y="191"/>
+      <point x="809" y="93"/>
+      <point x="611" y="93" type="curve"/>
+      <point x="569" y="93"/>
+      <point x="490" y="103"/>
+    </contour>
+    <contour>
+      <point x="528" y="732" type="curve"/>
+      <point x="590" y="1183" type="line"/>
+      <point x="632" y="1191"/>
+      <point x="693" y="1193"/>
+      <point x="724" y="1193" type="curve"/>
+      <point x="854" y="1193"/>
+      <point x="927" y="1125"/>
+      <point x="935" y="1002" type="curve"/>
+      <point x="946" y="802"/>
+      <point x="800" y="732"/>
+      <point x="639" y="732" type="curve"/>
+      <point x="601" y="732"/>
+      <point x="565" y="730"/>
+    </contour>
+    <contour>
+      <point x="602" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="736" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>B</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

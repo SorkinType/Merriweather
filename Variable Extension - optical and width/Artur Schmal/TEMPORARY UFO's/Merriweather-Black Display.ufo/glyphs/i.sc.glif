@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.sc" format="1">
+  <advance width="730"/>
+  <outline>
+    <contour>
+      <point x="786" y="1292" type="line"/>
+      <point x="146" y="1292" type="line"/>
+      <point x="138" y="1192" type="line"/>
+      <point x="274" y="1172" type="line"/>
+      <point x="132" y="123" type="line"/>
+      <point x="-8" y="97" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="631" y="0" type="line"/>
+      <point x="635" y="97" type="line"/>
+      <point x="472" y="123" type="line"/>
+      <point x="614" y="1172" type="line"/>
+      <point x="776" y="1192" type="line"/>
+    </contour>
+    <contour>
+      <point x="287" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="467" y="-142" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="454" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="459" y="1292" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="142" y="1292" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>I</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j.sc" format="1">
+  <advance width="703"/>
+  <outline>
+    <contour>
+      <point x="610" y="1171" type="curve"/>
+      <point x="743" y="1193" type="line"/>
+      <point x="753" y="1292" type="line"/>
+      <point x="151" y="1292" type="line"/>
+      <point x="137" y="1193" type="line"/>
+      <point x="274" y="1169" type="line"/>
+      <point x="236" y="809"/>
+      <point x="190" y="416"/>
+      <point x="126" y="76" type="curve"/>
+      <point x="104" y="-38"/>
+      <point x="28" y="-126"/>
+      <point x="-174" y="-188" type="curve"/>
+      <point x="-122" y="-292" type="line"/>
+      <point x="190" y="-268"/>
+      <point x="383" y="-127"/>
+      <point x="455" y="62" type="curve"/>
+      <point x="485" y="138"/>
+      <point x="547" y="668"/>
+    </contour>
+    <contour>
+      <point x="273" y="-142" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="476" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>J</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

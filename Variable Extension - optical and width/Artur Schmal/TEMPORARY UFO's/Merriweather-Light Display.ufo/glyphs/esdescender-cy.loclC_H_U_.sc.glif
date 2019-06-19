@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="esdescender-cy.loclCHU.sc" format="1">
+  <advance width="1170"/>
+  <outline>
+    <component base="cedillacomb.case" xOffset="687"/>
+    <component base="c.sc"/>
+    <contour>
+      <point x="610" y="-164" type="move" name="_btm"/>
+    </contour>
+    <contour>
+      <point x="821" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>cedillacomb.case</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>c.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>es-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>es-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

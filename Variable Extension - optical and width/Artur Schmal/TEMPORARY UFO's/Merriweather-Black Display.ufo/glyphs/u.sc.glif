@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u.sc" format="1">
+  <advance width="1384"/>
+  <outline>
+    <contour>
+      <point x="1254" y="532" type="curve"/>
+      <point x="1336" y="1171" type="line"/>
+      <point x="1456" y="1195" type="line"/>
+      <point x="1468" y="1292" type="line"/>
+      <point x="1030" y="1292" type="line"/>
+      <point x="1022" y="1195" type="line"/>
+      <point x="1160" y="1171" type="line"/>
+      <point x="1072" y="532" type="line" smooth="yes"/>
+      <point x="1038" y="281"/>
+      <point x="962" y="95"/>
+      <point x="720" y="95" type="curve"/>
+      <point x="565" y="95"/>
+      <point x="475" y="201"/>
+      <point x="474" y="362" type="curve"/>
+      <point x="474" y="404"/>
+      <point x="480" y="470"/>
+      <point x="488" y="532" type="curve"/>
+      <point x="572" y="1171" type="line"/>
+      <point x="759" y="1195" type="line"/>
+      <point x="769" y="1292" type="line"/>
+      <point x="108" y="1292" type="line"/>
+      <point x="98" y="1193" type="line"/>
+      <point x="234" y="1171" type="line"/>
+      <point x="148" y="504" type="line" smooth="yes"/>
+      <point x="144" y="472"/>
+      <point x="144" y="440"/>
+      <point x="144" y="409" type="curve"/>
+      <point x="144" y="120"/>
+      <point x="311" y="-18"/>
+      <point x="661" y="-18" type="curve"/>
+      <point x="1047" y="-18"/>
+      <point x="1208" y="175"/>
+    </contour>
+    <contour>
+      <point x="665" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="850" y="1292" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1444" y="1292" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>U</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

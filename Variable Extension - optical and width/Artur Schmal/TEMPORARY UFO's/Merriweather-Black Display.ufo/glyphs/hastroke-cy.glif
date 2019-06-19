@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hastroke-cy" format="1">
+  <advance width="1060"/>
+  <unicode hex="04FF"/>
+  <outline>
+    <contour>
+      <point x="218" y="883" type="curve"/>
+      <point x="382" y="557" type="line"/>
+      <point x="-72" y="0" type="line"/>
+      <point x="239" y="0" type="line"/>
+      <point x="464" y="369" type="line"/>
+      <point x="559" y="84" type="line"/>
+      <point x="581" y="22"/>
+      <point x="631" y="-20"/>
+      <point x="730" y="-20" type="curve"/>
+      <point x="931" y="-20"/>
+      <point x="1018" y="102"/>
+      <point x="1035" y="129" type="curve"/>
+      <point x="992" y="210" type="line"/>
+      <point x="942" y="174"/>
+      <point x="918" y="171"/>
+      <point x="897" y="171" type="curve"/>
+      <point x="863" y="171"/>
+      <point x="816" y="250"/>
+      <point x="798" y="288" type="curve"/>
+      <point x="653" y="579" type="line"/>
+      <point x="1087" y="1128" type="line"/>
+      <point x="815" y="1128" type="line"/>
+      <point x="594" y="771" type="line"/>
+      <point x="511" y="1034" type="line" smooth="yes"/>
+      <point x="489" y="1098"/>
+      <point x="424" y="1136"/>
+      <point x="321" y="1136" type="curve"/>
+      <point x="153" y="1136"/>
+      <point x="43" y="1048"/>
+      <point x="26" y="1024" type="curve"/>
+      <point x="63" y="943" type="line"/>
+      <point x="89" y="959"/>
+      <point x="106" y="962"/>
+      <point x="142" y="962" type="curve"/>
+      <point x="174" y="962"/>
+      <point x="200" y="919"/>
+    </contour>
+    <contour>
+      <point x="957" y="640" type="line"/>
+      <point x="121" y="640" type="line"/>
+      <point x="104" y="509" type="line"/>
+      <point x="941" y="509" type="line"/>
+    </contour>
+    <contour>
+      <point x="553" y="1226" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ha-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ha-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

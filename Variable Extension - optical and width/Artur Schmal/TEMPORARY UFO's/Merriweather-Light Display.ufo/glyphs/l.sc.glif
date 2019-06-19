@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.sc" format="1">
+  <advance width="1110"/>
+  <outline>
+    <contour>
+      <point x="638" y="1292" type="line"/>
+      <point x="184" y="1292" type="line"/>
+      <point x="176" y="1220" type="line"/>
+      <point x="304" y="1202" type="line"/>
+      <point x="152" y="86" type="line"/>
+      <point x="16" y="64" type="line"/>
+      <point x="8" y="0" type="line"/>
+      <point x="934" y="0" type="line"/>
+      <point x="1022" y="388" type="line"/>
+      <point x="930" y="404" type="line"/>
+      <point x="806" y="94" type="line"/>
+      <point x="312" y="86" type="line"/>
+      <point x="466" y="1202" type="line"/>
+      <point x="630" y="1220" type="line"/>
+    </contour>
+    <contour>
+      <point x="516" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="790" y="966" type="move" name="car"/>
+    </contour>
+    <contour>
+      <point x="416" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>L</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>
