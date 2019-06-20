@@ -1,50 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k.sc" format="1">
-  <advance width="1432"/>
+  <advance width="1279"/>
   <outline>
     <contour>
-      <point x="906" y="804" type="curve"/>
-      <point x="1334" y="1172" type="line"/>
-      <point x="1452" y="1192" type="line"/>
-      <point x="1462" y="1292" type="line"/>
-      <point x="966" y="1292" type="line"/>
-      <point x="954" y="1194" type="line"/>
-      <point x="1108" y="1172" type="line"/>
-      <point x="538" y="632" type="line"/>
-      <point x="614" y="1172" type="line"/>
-      <point x="788" y="1192" type="line"/>
-      <point x="798" y="1292" type="line"/>
-      <point x="152" y="1292" type="line"/>
-      <point x="142" y="1192" type="line"/>
-      <point x="276" y="1172" type="line"/>
-      <point x="130" y="122" type="line"/>
-      <point x="6" y="96" type="line"/>
-      <point x="-6" y="0" type="line"/>
-      <point x="626" y="0" type="line"/>
-      <point x="634" y="96" type="line"/>
-      <point x="470" y="122" type="line"/>
-      <point x="510" y="440" type="line"/>
-      <point x="682" y="594" type="line"/>
-      <point x="748" y="458"/>
-      <point x="810" y="258"/>
-      <point x="860" y="144" type="curve"/>
-      <point x="908" y="36"/>
-      <point x="938" y="6"/>
-      <point x="994" y="0" type="curve"/>
-      <point x="1412" y="0" type="line"/>
-      <point x="1422" y="98" type="line"/>
-      <point x="1312" y="120" type="line"/>
-      <point x="1262" y="146"/>
-      <point x="1218" y="248"/>
-      <point x="1126" y="406" type="curve"/>
-      <point x="1078" y="490"/>
-      <point x="964" y="726"/>
+      <point x="-32" y="31" type="line"/>
+      <point x="-36" y="0" type="line"/>
+      <point x="559" y="0" type="line"/>
+      <point x="565" y="31" type="line"/>
+      <point x="445" y="60" type="line"/>
+      <point x="594" y="1102" type="line"/>
+      <point x="734" y="1137" type="line"/>
+      <point x="737" y="1165" type="line"/>
+      <point x="131" y="1165" type="line"/>
+      <point x="127" y="1137" type="line"/>
+      <point x="234" y="1102" type="line"/>
+      <point x="85" y="60" type="line"/>
     </contour>
     <contour>
-      <point x="756" y="0" type="move" name="bottom"/>
+      <point x="434" y="517" type="line"/>
+      <point x="475" y="493" type="line"/>
+      <point x="1249" y="1092" type="line"/>
+      <point x="1379" y="1140" type="line"/>
+      <point x="1383" y="1165" type="line"/>
+      <point x="989" y="1165" type="line"/>
+      <point x="985" y="1140" type="line"/>
+      <point x="1121" y="1095" type="line"/>
     </contour>
     <contour>
-      <point x="814" y="1292" type="move" name="top"/>
+      <point x="911" y="0" type="curve"/>
+      <point x="1337" y="0" type="line"/>
+      <point x="1342" y="34" type="line"/>
+      <point x="1270" y="50" type="line"/>
+      <point x="1193" y="98"/>
+      <point x="1101" y="300"/>
+      <point x="1017" y="481" type="curve"/>
+      <point x="930" y="719"/>
+      <point x="883" y="787"/>
+      <point x="822" y="880" type="curve"/>
+      <point x="586" y="593" type="line"/>
+      <point x="625" y="525"/>
+      <point x="727" y="177"/>
+      <point x="791" y="45" type="curve"/>
+      <point x="848" y="-46"/>
+      <point x="850" y="-3"/>
+    </contour>
+    <contour>
+      <point x="752" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="841" y="1165" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -54,10 +58,10 @@
         <key>source</key>
         <string>K</string>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>6</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>h.sc</string>
-      <key>public.markColor</key>
-      <string>0.97,0.9,0,1</string>
     </dict>
   </lib>
 </glyph>
