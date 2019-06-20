@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shhadescender-cy.sc" format="1">
+  <advance width="1400"/>
+  <outline>
+    <contour>
+      <point x="1284" y="92" type="curve"/>
+      <point x="1052" y="92" type="line"/>
+      <point x="902" y="92" type="line"/>
+      <point x="890" y="0" type="line"/>
+      <point x="1120" y="0" type="line"/>
+      <point x="1130" y="-64"/>
+      <point x="1110" y="-212"/>
+      <point x="1108" y="-296" type="curve"/>
+      <point x="1204" y="-296" type="line"/>
+      <point x="1220" y="-220"/>
+      <point x="1268" y="-18"/>
+    </contour>
+    <contour>
+      <point x="414" y="708" type="curve"/>
+      <point x="474" y="1206" type="line"/>
+      <point x="648" y="1228" type="line"/>
+      <point x="652" y="1292" type="line"/>
+      <point x="170" y="1292" type="line"/>
+      <point x="164" y="1228" type="line"/>
+      <point x="314" y="1206" type="line"/>
+      <point x="176" y="90" type="line"/>
+      <point x="44" y="74" type="line"/>
+      <point x="36" y="0" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="478" y="74" type="line"/>
+      <point x="334" y="90" type="line"/>
+      <point x="402" y="624" type="line"/>
+      <point x="470" y="664"/>
+      <point x="602" y="686"/>
+      <point x="696" y="686" type="curve"/>
+      <point x="926" y="686"/>
+      <point x="948" y="596"/>
+      <point x="916" y="310" type="curve"/>
+      <point x="886" y="92" type="line"/>
+      <point x="744" y="74" type="line"/>
+      <point x="736" y="0" type="line"/>
+      <point x="1168" y="0" type="line"/>
+      <point x="1176" y="74" type="line"/>
+      <point x="1046" y="90" type="line"/>
+      <point x="1088" y="412" type="line"/>
+      <point x="1126" y="728"/>
+      <point x="982" y="788"/>
+      <point x="760" y="788" type="curve"/>
+      <point x="656" y="788"/>
+      <point x="516" y="764"/>
+    </contour>
+    <contour>
+      <point x="610" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="440" y="1444" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Shhadescender-cy</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>shha-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>tse-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>
