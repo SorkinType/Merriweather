@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chekhakassian-cy" format="1">
+  <advance width="1186"/>
+  <unicode hex="04CC"/>
+  <outline>
+    <contour>
+      <point x="684" y="-61" type="curve"/>
+      <point x="633" y="-19" type="line"/>
+      <point x="577" y="-25"/>
+      <point x="391" y="-111"/>
+      <point x="391" y="-233" type="curve"/>
+      <point x="391" y="-296"/>
+      <point x="415" y="-321"/>
+      <point x="415" y="-368" type="curve"/>
+      <point x="415" y="-428"/>
+      <point x="372" y="-449"/>
+      <point x="322" y="-467" type="curve"/>
+      <point x="393" y="-546" type="line"/>
+      <point x="507" y="-518"/>
+      <point x="641" y="-445"/>
+      <point x="641" y="-342" type="curve"/>
+      <point x="641" y="-266"/>
+      <point x="608" y="-218"/>
+      <point x="608" y="-177" type="curve"/>
+      <point x="608" y="-123"/>
+      <point x="640" y="-89"/>
+    </contour>
+    <contour>
+      <point x="421" y="650" type="curve"/>
+      <point x="478" y="1112" type="line"/>
+      <point x="428" y="1136" type="line"/>
+      <point x="40" y="1104" type="line"/>
+      <point x="24" y="1018" type="line"/>
+      <point x="147" y="939" type="line"/>
+      <point x="123" y="777" type="line" smooth="yes"/>
+      <point x="76" y="458"/>
+      <point x="134" y="333"/>
+      <point x="378" y="333" type="curve"/>
+      <point x="486" y="333"/>
+      <point x="590" y="373"/>
+      <point x="686" y="417" type="curve"/>
+      <point x="654" y="168" type="line" smooth="yes"/>
+      <point x="640" y="74"/>
+      <point x="706" y="-20"/>
+      <point x="857" y="-20" type="curve"/>
+      <point x="986" y="-20"/>
+      <point x="1093" y="62"/>
+      <point x="1129" y="121" type="curve"/>
+      <point x="1101" y="190" type="line"/>
+      <point x="1057" y="154"/>
+      <point x="1029" y="146"/>
+      <point x="1011" y="146" type="curve"/>
+      <point x="981" y="146"/>
+      <point x="965" y="172"/>
+      <point x="973" y="220" type="curve"/>
+      <point x="1096" y="1127" type="line"/>
+      <point x="778" y="1127" type="line"/>
+      <point x="702" y="552" type="line"/>
+      <point x="660" y="527"/>
+      <point x="605" y="511"/>
+      <point x="516" y="511" type="curve"/>
+      <point x="424" y="511"/>
+      <point x="412" y="583"/>
+    </contour>
+    <contour>
+      <point x="1068" y="0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="593" y="564" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="613" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>che-cy</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

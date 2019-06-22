@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="palochka-cy.sc" format="1">
+  <advance width="788"/>
+  <outline>
+    <contour>
+      <point x="802" y="1292" type="line"/>
+      <point x="162" y="1292" type="line"/>
+      <point x="154" y="1192" type="line"/>
+      <point x="290" y="1172" type="line"/>
+      <point x="152" y="122" type="line"/>
+      <point x="12" y="96" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="652" y="0" type="line"/>
+      <point x="656" y="96" type="line"/>
+      <point x="492" y="122" type="line"/>
+      <point x="630" y="1172" type="line"/>
+      <point x="792" y="1192" type="line"/>
+    </contour>
+    <contour>
+      <point x="306" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="488" y="-142" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="594" y="18" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="478" y="1292" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="162" y="1292" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Palochka-cy</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>pe-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>
