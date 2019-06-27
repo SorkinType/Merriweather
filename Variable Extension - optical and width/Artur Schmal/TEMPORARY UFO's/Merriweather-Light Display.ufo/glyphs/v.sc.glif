@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="v.sc" format="1">
-  <advance width="1144"/>
+  <advance width="1101"/>
   <outline>
     <contour>
-      <point x="504" y="1292" type="line"/>
-      <point x="39" y="1292" type="line"/>
-      <point x="33" y="1220" type="line"/>
-      <point x="165" y="1202" type="line"/>
-      <point x="408" y="-15" type="line"/>
-      <point x="550" y="-8" type="line"/>
-      <point x="1142" y="1204" type="line"/>
-      <point x="1254" y="1220" type="line"/>
-      <point x="1261" y="1292" type="line"/>
-      <point x="876" y="1292" type="line"/>
-      <point x="870" y="1220" type="line"/>
-      <point x="1014" y="1202" type="line"/>
-      <point x="625" y="392" type="line"/>
-      <point x="517" y="137" type="line"/>
-      <point x="474" y="392" type="line"/>
-      <point x="328" y="1202" type="line"/>
-      <point x="496" y="1220" type="line"/>
+      <point x="153" y="1114" type="line"/>
+      <point x="410" y="-11" type="line"/>
+      <point x="535" y="-6" type="line"/>
+      <point x="1120" y="1117" type="line"/>
+      <point x="1227" y="1137" type="line"/>
+      <point x="1231" y="1165" type="line"/>
+      <point x="866" y="1165" type="line"/>
+      <point x="863" y="1137" type="line"/>
+      <point x="1026" y="1116" type="line"/>
+      <point x="585" y="231" type="line"/>
+      <point x="495" y="47" type="line"/>
+      <point x="529" y="54" type="line"/>
+      <point x="506" y="234" type="line"/>
+      <point x="313" y="1112" type="line"/>
+      <point x="486" y="1136" type="line"/>
+      <point x="492" y="1165" type="line"/>
+      <point x="55" y="1165" type="line"/>
+      <point x="52" y="1136" type="line"/>
     </contour>
     <contour>
-      <point x="541" y="-144" type="move" name="btm"/>
-    </contour>
-    <contour>
-      <point x="730" y="1444" type="move" name="top"/>
+      <point x="710" y="1301" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -35,6 +33,8 @@
         <key>source</key>
         <string>V</string>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>6</integer>
     </dict>
   </lib>
 </glyph>

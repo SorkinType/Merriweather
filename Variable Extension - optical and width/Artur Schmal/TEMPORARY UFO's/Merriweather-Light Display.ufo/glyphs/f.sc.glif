@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f.sc" format="1">
-  <advance width="1094"/>
+  <advance width="920"/>
   <outline>
     <contour>
-      <point x="1099" y="1292" type="line"/>
-      <point x="185" y="1292" type="line"/>
-      <point x="176" y="1220" type="line"/>
-      <point x="306" y="1202" type="line"/>
-      <point x="152" y="86" type="line"/>
-      <point x="12" y="64" type="line"/>
-      <point x="6" y="0" type="line"/>
-      <point x="534" y="0" type="line"/>
-      <point x="540" y="64" type="line"/>
-      <point x="314" y="88" type="line"/>
-      <point x="386" y="616" type="line"/>
-      <point x="862" y="600" type="line"/>
-      <point x="872" y="724" type="line"/>
-      <point x="400" y="716" type="line"/>
-      <point x="468" y="1212" type="line"/>
-      <point x="958" y="1200" type="line"/>
-      <point x="980" y="1018" type="line"/>
-      <point x="1080" y="1018" type="line"/>
+      <point x="-34" y="35" type="line"/>
+      <point x="-39" y="0" type="line"/>
+      <point x="466" y="0" type="line"/>
+      <point x="471" y="35" type="line"/>
+      <point x="258" y="61" type="line"/>
+      <point x="328" y="569" type="line"/>
+      <point x="739" y="559" type="line"/>
+      <point x="750" y="641" type="line"/>
+      <point x="336" y="628" type="line"/>
+      <point x="404" y="1117" type="line"/>
+      <point x="849" y="1099" type="line"/>
+      <point x="895" y="911" type="line"/>
+      <point x="948" y="911" type="line"/>
+      <point x="952" y="1165" type="line"/>
+      <point x="123" y="1165" type="line"/>
+      <point x="118" y="1130" type="line"/>
+      <point x="244" y="1104" type="line"/>
+      <point x="100" y="61" type="line"/>
     </contour>
     <contour>
-      <point x="556" y="-142" type="move" name="btm"/>
+      <point x="522" y="-129" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="676" y="1292" type="move" name="top"/>
+      <point x="630" y="1165" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -36,6 +36,12 @@
         <key>source</key>
         <string>F</string>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>25t</string>
     </dict>
   </lib>
 </glyph>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z.sc" format="1">
-  <advance width="1132"/>
+  <advance width="1082"/>
   <outline>
     <contour>
-      <point x="1101" y="1292" type="line"/>
-      <point x="211" y="1292" type="line"/>
-      <point x="163" y="993" type="line"/>
-      <point x="256" y="977" type="line"/>
-      <point x="337" y="1201" type="line"/>
-      <point x="938" y="1208" type="line"/>
-      <point x="779" y="1047" type="line"/>
-      <point x="0" y="65" type="line"/>
-      <point x="21" y="0" type="line"/>
-      <point x="980" y="0" type="line"/>
-      <point x="1062" y="313" type="line"/>
-      <point x="967" y="338" type="line"/>
-      <point x="853" y="99" type="line"/>
-      <point x="193" y="81" type="line"/>
-      <point x="325" y="228" type="line"/>
-      <point x="1120" y="1231" type="line"/>
+      <point x="-23" y="25" type="line"/>
+      <point x="-8" y="0" type="line"/>
+      <point x="919" y="0" type="line"/>
+      <point x="996" y="299" type="line"/>
+      <point x="930" y="314" type="line"/>
+      <point x="821" y="79" type="line"/>
+      <point x="148" y="49" type="line"/>
+      <point x="301" y="198" type="line"/>
+      <point x="1088" y="1141" type="line"/>
+      <point x="1075" y="1165" type="line"/>
+      <point x="217" y="1165" type="line"/>
+      <point x="169" y="883" type="line"/>
+      <point x="228" y="877" type="line"/>
+      <point x="332" y="1103" type="line"/>
+      <point x="915" y="1116" type="line"/>
+      <point x="746" y="951" type="line"/>
     </contour>
     <contour>
-      <point x="508" y="0" type="move" name="bottom"/>
+      <point x="491" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="642" y="1292" type="move" name="top"/>
+      <point x="616" y="1165" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -34,6 +34,8 @@
         <key>source</key>
         <string>Z</string>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>6</integer>
     </dict>
   </lib>
 </glyph>
