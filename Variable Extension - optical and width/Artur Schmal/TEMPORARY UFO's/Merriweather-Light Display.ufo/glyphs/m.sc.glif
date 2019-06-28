@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="m.sc" format="1">
-  <advance width="1780"/>
+  <advance width="1663"/>
   <outline>
     <contour>
-      <point x="936" y="425" type="curve"/>
-      <point x="842" y="232" type="line"/>
-      <point x="814" y="428" type="line"/>
-      <point x="646" y="1292" type="line"/>
-      <point x="247" y="1292" type="line"/>
-      <point x="237" y="1220" type="line"/>
-      <point x="413" y="1202" type="line"/>
-      <point x="140" y="86" type="line"/>
-      <point x="-22" y="64" type="line"/>
-      <point x="-28" y="0" type="line"/>
-      <point x="450" y="0" type="line"/>
-      <point x="454" y="64" type="line"/>
-      <point x="266" y="86" type="line"/>
-      <point x="440" y="874" type="line"/>
-      <point x="515" y="1213" type="line"/>
-      <point x="582" y="880" type="line"/>
-      <point x="759" y="-16" type="line"/>
-      <point x="848" y="-4" type="line"/>
-      <point x="1291" y="902" type="line"/>
-      <point x="1432" y="1215" type="line"/>
-      <point x="1411" y="860" type="line"/>
-      <point x="1382" y="84" type="line"/>
-      <point x="1208" y="66" type="line"/>
-      <point x="1202" y="0" type="line"/>
-      <point x="1697" y="0" type="line"/>
-      <point x="1702" y="64" type="line"/>
-      <point x="1541" y="86" type="line"/>
-      <point x="1561" y="1202" type="line"/>
-      <point x="1731" y="1220" type="line"/>
-      <point x="1739" y="1292" type="line"/>
-      <point x="1365" y="1292" type="line"/>
-      <point x="1265" y="1060"/>
-      <point x="1034" y="659"/>
+      <point x="-30" y="29" type="line"/>
+      <point x="-33" y="0" type="line"/>
+      <point x="358" y="0" type="line"/>
+      <point x="361" y="29" type="line"/>
+      <point x="197" y="55" type="line"/>
+      <point x="387" y="815" type="line"/>
+      <point x="455" y="1100" type="line"/>
+      <point x="523" y="803" type="line"/>
+      <point x="678" y="0" type="line"/>
+      <point x="774" y="0" type="line"/>
+      <point x="1188" y="817" type="line"/>
+      <point x="1320" y="1092" type="line"/>
+      <point x="1304" y="788" type="line"/>
+      <point x="1289" y="54" type="line"/>
+      <point x="1121" y="29" type="line"/>
+      <point x="1117" y="0" type="line"/>
+      <point x="1595" y="0" type="line"/>
+      <point x="1598" y="28" type="line"/>
+      <point x="1447" y="55" type="line"/>
+      <point x="1454" y="1115" type="line"/>
+      <point x="1600" y="1137" type="line"/>
+      <point x="1604" y="1165" type="line"/>
+      <point x="1285" y="1165" type="line"/>
+      <point x="879" y="374" type="line"/>
+      <point x="794" y="186" type="line"/>
+      <point x="762" y="376" type="line"/>
+      <point x="589" y="1165" type="line"/>
+      <point x="241" y="1165" type="line"/>
+      <point x="238" y="1137" type="line"/>
+      <point x="382" y="1111" type="line"/>
+      <point x="105" y="54" type="line"/>
     </contour>
     <contour>
-      <point x="813" y="0" type="move" name="btm"/>
+      <point x="738" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="980" y="1292" type="move" name="top"/>
+      <point x="899" y="1165" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -51,6 +49,8 @@
         <key>source</key>
         <string>M</string>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>6</integer>
     </dict>
   </lib>
 </glyph>

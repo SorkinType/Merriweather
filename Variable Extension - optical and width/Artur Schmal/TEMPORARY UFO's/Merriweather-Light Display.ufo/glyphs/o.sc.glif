@@ -1,55 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o.sc" format="1">
-  <advance width="1311"/>
+  <advance width="1204"/>
   <outline>
     <contour>
-      <point x="737" y="1310" type="curve"/>
-      <point x="353" y="1310"/>
-      <point x="76" y="970"/>
-      <point x="89" y="530" type="curve"/>
-      <point x="99" y="217"/>
-      <point x="266" y="-18"/>
-      <point x="576" y="-18" type="curve"/>
-      <point x="969" y="-18"/>
-      <point x="1233" y="331"/>
-      <point x="1218" y="770" type="curve"/>
-      <point x="1207" y="1102"/>
-      <point x="1026" y="1310"/>
+      <point x="540" y="-18" type="curve"/>
+      <point x="908" y="-18"/>
+      <point x="1153" y="286"/>
+      <point x="1153" y="667" type="curve"/>
+      <point x="1153" y="991"/>
+      <point x="975" y="1179"/>
+      <point x="685" y="1179" type="curve"/>
+      <point x="317" y="1179"/>
+      <point x="72" y="875"/>
+      <point x="72" y="494" type="curve"/>
+      <point x="72" y="170"/>
+      <point x="250" y="-18"/>
     </contour>
     <contour>
-      <point x="715" y="1221" type="curve"/>
-      <point x="926" y="1221"/>
-      <point x="1041" y="1037"/>
-      <point x="1051" y="739" type="curve"/>
-      <point x="1062" y="357"/>
-      <point x="860" y="70"/>
-      <point x="596" y="70" type="curve"/>
-      <point x="383" y="70"/>
-      <point x="260" y="269"/>
-      <point x="253" y="547" type="curve"/>
-      <point x="243" y="931"/>
-      <point x="442" y="1221"/>
+      <point x="552" y="32" type="curve"/>
+      <point x="334" y="32"/>
+      <point x="235" y="246"/>
+      <point x="235" y="497" type="curve"/>
+      <point x="235" y="830"/>
+      <point x="416" y="1129"/>
+      <point x="673" y="1129" type="curve"/>
+      <point x="891" y="1129"/>
+      <point x="990" y="915"/>
+      <point x="990" y="664" type="curve"/>
+      <point x="990" y="331"/>
+      <point x="809" y="32"/>
     </contour>
     <contour>
-      <point x="576" y="0" type="move" name="bottom"/>
+      <point x="539" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="560" y="-144" type="move" name="btm"/>
+      <point x="622" y="583" type="move" name="center"/>
     </contour>
     <contour>
-      <point x="670" y="648" type="move" name="center"/>
+      <point x="1000" y="10" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="755" y="18" type="move" name="ogonek"/>
+      <point x="704" y="1165" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="744" y="1292" type="move" name="top"/>
+      <point x="125" y="1165" type="move" name="topleft"/>
     </contour>
     <contour>
-      <point x="144" y="1292" type="move" name="topleft"/>
-    </contour>
-    <contour>
-      <point x="1018" y="1250" type="move" name="topright"/>
+      <point x="1269" y="1165" type="move" name="topright"/>
     </contour>
   </outline>
   <lib>
@@ -59,6 +56,8 @@
         <key>source</key>
         <string>O</string>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
     </dict>
   </lib>
 </glyph>

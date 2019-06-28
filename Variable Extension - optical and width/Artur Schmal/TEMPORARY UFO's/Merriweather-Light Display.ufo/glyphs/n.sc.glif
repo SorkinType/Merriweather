@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n.sc" format="1">
-  <advance width="1430"/>
+  <advance width="1208"/>
   <outline>
     <contour>
-      <point x="490" y="1292" type="line"/>
-      <point x="186" y="1292" type="line"/>
-      <point x="174" y="1220" type="line"/>
-      <point x="304" y="1202" type="line"/>
-      <point x="152" y="84" type="line"/>
-      <point x="16" y="64" type="line"/>
-      <point x="8" y="0" type="line"/>
-      <point x="438" y="0" type="line"/>
-      <point x="446" y="64" type="line"/>
-      <point x="282" y="86" type="line"/>
-      <point x="408" y="1146" type="line"/>
-      <point x="484" y="950" type="line"/>
-      <point x="960" y="0" type="line"/>
-      <point x="1120" y="0" type="line"/>
-      <point x="1294" y="1202" type="line"/>
-      <point x="1436" y="1220" type="line"/>
-      <point x="1440" y="1292" type="line"/>
-      <point x="1028" y="1292" type="line"/>
-      <point x="1020" y="1220" type="line"/>
-      <point x="1172" y="1204" type="line"/>
-      <point x="1038" y="148" type="line"/>
-      <point x="960" y="346" type="line"/>
+      <point x="-28" y="35" type="line"/>
+      <point x="-32" y="0" type="line"/>
+      <point x="330" y="0" type="line"/>
+      <point x="334" y="35" type="line"/>
+      <point x="194" y="65" type="line"/>
+      <point x="316" y="1116" type="line"/>
+      <point x="279" y="1112" type="line"/>
+      <point x="398" y="855" type="line"/>
+      <point x="862" y="0" type="line"/>
+      <point x="982" y="0" type="line"/>
+      <point x="1139" y="1100" type="line"/>
+      <point x="1274" y="1130" type="line"/>
+      <point x="1280" y="1165" type="line"/>
+      <point x="917" y="1165" type="line"/>
+      <point x="912" y="1130" type="line"/>
+      <point x="1052" y="1100" type="line"/>
+      <point x="932" y="94" type="line"/>
+      <point x="973" y="107" type="line"/>
+      <point x="860" y="337" type="line"/>
+      <point x="409" y="1165" type="line"/>
+      <point x="135" y="1165" type="line"/>
+      <point x="130" y="1130" type="line"/>
+      <point x="256" y="1104" type="line"/>
+      <point x="106" y="65" type="line"/>
     </contour>
     <contour>
-      <point x="680" y="0" type="move" name="bottom"/>
+      <point x="641" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="804" y="1260" type="move" name="top"/>
+      <point x="762" y="1165" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -40,6 +42,8 @@
         <key>source</key>
         <string>N</string>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>h.sc</string>
     </dict>
