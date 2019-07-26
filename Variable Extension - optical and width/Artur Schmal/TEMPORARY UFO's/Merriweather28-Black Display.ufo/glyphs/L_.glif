@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="1">
+  <advance width="1198"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="-34" y="38" type="line"/>
+      <point x="-39" y="0" type="line"/>
+      <point x="1060" y="0" type="line"/>
+      <point x="1181" y="524" type="line"/>
+      <point x="1008" y="543" type="line"/>
+      <point x="819" y="84" type="line"/>
+      <point x="467" y="53" type="line"/>
+      <point x="654" y="1413" type="line"/>
+      <point x="805" y="1450" type="line"/>
+      <point x="809" y="1486" type="line"/>
+      <point x="167" y="1486" type="line"/>
+      <point x="162" y="1450" type="line"/>
+      <point x="280" y="1413" type="line"/>
+      <point x="96" y="72" type="line"/>
+    </contour>
+    <contour>
+      <point x="590" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="858" y="1110" type="move" name="car"/>
+    </contour>
+    <contour>
+      <point x="518" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

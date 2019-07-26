@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t.sc" format="1">
+  <advance width="1241"/>
+  <outline>
+    <contour>
+      <point x="196" y="35" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="952" y="0" type="line"/>
+      <point x="957" y="35" type="line"/>
+      <point x="752" y="72" type="line"/>
+      <point x="911" y="1242" type="line"/>
+      <point x="1024" y="1236" type="line"/>
+      <point x="1109" y="862" type="line"/>
+      <point x="1253" y="862" type="line"/>
+      <point x="1290" y="1292" type="line"/>
+      <point x="174" y="1292" type="line"/>
+      <point x="86" y="862" type="line"/>
+      <point x="252" y="862" type="line"/>
+      <point x="430" y="1236" type="line"/>
+      <point x="559" y="1242" type="line"/>
+      <point x="396" y="72" type="line"/>
+    </contour>
+    <contour>
+      <point x="566" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="740" y="1383" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>T</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

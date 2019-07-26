@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.sc" format="1">
+  <advance width="524"/>
+  <outline>
+    <contour>
+      <point x="-16" y="35" type="line"/>
+      <point x="-21" y="0" type="line"/>
+      <point x="407" y="0" type="line"/>
+      <point x="412" y="35" type="line"/>
+      <point x="276" y="61" type="line"/>
+      <point x="449" y="1231" type="line"/>
+      <point x="583" y="1257" type="line"/>
+      <point x="588" y="1292" type="line"/>
+      <point x="170" y="1292" type="line"/>
+      <point x="165" y="1257" type="line"/>
+      <point x="291" y="1231" type="line"/>
+      <point x="118" y="61" type="line"/>
+    </contour>
+    <contour>
+      <point x="182" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="394" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="390" y="1383" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>I</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+    </dict>
+  </lib>
+</glyph>

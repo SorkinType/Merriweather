@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gestrokehook-cy" format="1">
+  <advance width="943"/>
+  <unicode hex="04FB"/>
+  <outline>
+    <contour>
+      <point x="439" y="97" type="curve"/>
+      <point x="192" y="126" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="421" y="0" type="line"/>
+      <point x="435" y="-34"/>
+      <point x="447" y="-80"/>
+      <point x="447" y="-136" type="curve"/>
+      <point x="447" y="-261"/>
+      <point x="353" y="-308"/>
+      <point x="229" y="-308" type="curve"/>
+      <point x="181" y="-308"/>
+      <point x="130" y="-299"/>
+      <point x="102" y="-290" type="curve"/>
+      <point x="101" y="-457" type="line"/>
+      <point x="138" y="-473"/>
+      <point x="198" y="-486"/>
+      <point x="268" y="-486" type="curve"/>
+      <point x="413" y="-486"/>
+      <point x="545" y="-413"/>
+      <point x="545" y="-208" type="curve"/>
+      <point x="545" y="-123"/>
+      <point x="512" y="-6"/>
+    </contour>
+    <component base="ghestroke-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ghestroke-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ghestroke-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ghestroke-cy</string>
+    </dict>
+  </lib>
+</glyph>

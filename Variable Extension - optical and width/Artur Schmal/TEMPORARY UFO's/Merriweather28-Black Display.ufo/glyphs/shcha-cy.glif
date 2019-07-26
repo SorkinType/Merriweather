@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shcha-cy" format="1">
+  <advance width="1736"/>
+  <unicode hex="0449"/>
+  <outline>
+    <contour>
+      <point x="1358" y="-459" type="curve"/>
+      <point x="1374" y="-502" type="line"/>
+      <point x="1454" y="-493"/>
+      <point x="1537" y="-458"/>
+      <point x="1598" y="-407" type="curve"/>
+      <point x="1657" y="-358"/>
+      <point x="1691" y="-296"/>
+      <point x="1691" y="-222" type="curve"/>
+      <point x="1691" y="-162"/>
+      <point x="1663" y="-94"/>
+      <point x="1663" y="-53" type="curve"/>
+      <point x="1663" y="2"/>
+      <point x="1694" y="52"/>
+      <point x="1737" y="119" type="curve"/>
+      <point x="1548" y="-2" type="line"/>
+      <point x="1505" y="-58"/>
+      <point x="1464" y="-107"/>
+      <point x="1455" y="-213" type="curve"/>
+      <point x="1450" y="-273"/>
+      <point x="1462" y="-342"/>
+      <point x="1445" y="-381" type="curve"/>
+      <point x="1431" y="-414"/>
+      <point x="1405" y="-440"/>
+    </contour>
+    <component base="sha-cy"/>
+    <contour>
+      <point x="952" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ii-cy</string>
+    </dict>
+  </lib>
+</glyph>

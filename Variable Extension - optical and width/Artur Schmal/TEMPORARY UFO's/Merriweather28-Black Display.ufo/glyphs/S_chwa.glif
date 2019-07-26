@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Schwa" format="1">
+  <advance width="1360"/>
+  <unicode hex="018F"/>
+  <outline>
+    <contour>
+      <point x="582" y="-22" type="curve"/>
+      <point x="1049" y="-22"/>
+      <point x="1335" y="368"/>
+      <point x="1335" y="904" type="curve"/>
+      <point x="1335" y="1187"/>
+      <point x="1227" y="1505"/>
+      <point x="788" y="1505" type="curve"/>
+      <point x="512" y="1505"/>
+      <point x="399" y="1414"/>
+      <point x="295" y="1414" type="curve"/>
+      <point x="251" y="1090" type="line"/>
+      <point x="430" y="1090" type="line"/>
+      <point x="523" y="1291" type="line" smooth="yes"/>
+      <point x="554" y="1359"/>
+      <point x="661" y="1448"/>
+      <point x="764" y="1448" type="curve"/>
+      <point x="982" y="1448"/>
+      <point x="979" y="1122"/>
+      <point x="979" y="869" type="curve"/>
+      <point x="979" y="830"/>
+      <point x="975" y="780"/>
+      <point x="974" y="760" type="curve"/>
+      <point x="135" y="760" type="line"/>
+      <point x="115" y="706"/>
+      <point x="89" y="582"/>
+      <point x="89" y="468" type="curve"/>
+      <point x="89" y="156"/>
+      <point x="324" y="-22"/>
+    </contour>
+    <contour>
+      <point x="588" y="34" type="curve"/>
+      <point x="432" y="34"/>
+      <point x="427" y="235"/>
+      <point x="427" y="434" type="curve"/>
+      <point x="427" y="503"/>
+      <point x="444" y="622"/>
+      <point x="460" y="694" type="curve"/>
+      <point x="963" y="694" type="line"/>
+      <point x="943" y="302"/>
+      <point x="758" y="34"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zedescender-cy.loclBSH.sc" format="1">
+  <advance width="967"/>
+  <outline>
+    <contour>
+      <point x="411" y="-440" type="curve"/>
+      <point x="493" y="-440"/>
+      <point x="548" y="-363"/>
+      <point x="562" y="-258" type="curve"/>
+      <point x="571" y="-191"/>
+      <point x="554" y="-110"/>
+      <point x="497" y="-1" type="curve"/>
+      <point x="410" y="-8" type="line"/>
+      <point x="434" y="-66"/>
+      <point x="450" y="-130"/>
+      <point x="440" y="-203" type="curve"/>
+      <point x="322" y="-347" type="line"/>
+      <point x="316" y="-406"/>
+      <point x="351" y="-440"/>
+    </contour>
+    <component base="ze-cy.sc" xOffset="-23"/>
+    <contour>
+      <point x="617" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Zedescender-cy.loclBSH</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>komizje-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>komizje-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

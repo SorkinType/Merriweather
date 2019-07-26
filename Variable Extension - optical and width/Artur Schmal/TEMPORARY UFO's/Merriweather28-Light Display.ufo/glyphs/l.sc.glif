@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.sc" format="1">
+  <advance width="977"/>
+  <outline>
+    <contour>
+      <point x="-39" y="0" type="line"/>
+      <point x="839" y="0" type="line"/>
+      <point x="923" y="346" type="line"/>
+      <point x="858" y="359" type="line"/>
+      <point x="739" y="71" type="line"/>
+      <point x="266" y="50" type="line"/>
+      <point x="428" y="1231" type="line"/>
+      <point x="569" y="1257" type="line"/>
+      <point x="574" y="1292" type="line"/>
+      <point x="141" y="1292" type="line"/>
+      <point x="136" y="1257" type="line"/>
+      <point x="270" y="1231" type="line"/>
+      <point x="109" y="61" type="line"/>
+      <point x="-34" y="35" type="line"/>
+    </contour>
+    <contour>
+      <point x="488" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="743" y="870" type="move" name="car"/>
+    </contour>
+    <contour>
+      <point x="412" y="1383" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>L</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ge-cy.sc" format="1">
+  <advance width="1064"/>
+  <outline>
+    <contour>
+      <point x="1140" y="1292" type="line"/>
+      <point x="191" y="1292" type="line"/>
+      <point x="186" y="1257" type="line"/>
+      <point x="294" y="1225" type="line"/>
+      <point x="135" y="67" type="line"/>
+      <point x="18" y="35" type="line"/>
+      <point x="14" y="0" type="line"/>
+      <point x="704" y="0" type="line"/>
+      <point x="709" y="35" type="line"/>
+      <point x="490" y="67" type="line"/>
+      <point x="651" y="1241" type="line"/>
+      <point x="878" y="1231" type="line"/>
+      <point x="927" y="800" type="line"/>
+      <point x="1069" y="800" type="line"/>
+    </contour>
+    <contour>
+      <point x="512" y="-144" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="634" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Ge-cy</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

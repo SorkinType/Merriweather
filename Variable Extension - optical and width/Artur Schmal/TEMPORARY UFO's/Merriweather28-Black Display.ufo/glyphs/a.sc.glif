@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="a.sc" format="1">
+  <advance width="1124"/>
+  <outline>
+    <contour>
+      <point x="-16" y="87" type="line"/>
+      <point x="-152" y="35" type="line"/>
+      <point x="-157" y="0" type="line"/>
+      <point x="255" y="0" type="line"/>
+      <point x="260" y="35" type="line"/>
+      <point x="91" y="84" type="line"/>
+      <point x="449" y="970" type="line"/>
+      <point x="538" y="1219" type="line"/>
+      <point x="495" y="1187" type="line"/>
+      <point x="522" y="970" type="line"/>
+      <point x="648" y="62" type="line"/>
+      <point x="511" y="35" type="line"/>
+      <point x="507" y="0" type="line"/>
+      <point x="1143" y="0" type="line"/>
+      <point x="1148" y="35" type="line"/>
+      <point x="1042" y="62" type="line"/>
+      <point x="836" y="1292" type="line"/>
+      <point x="516" y="1290" type="line"/>
+    </contour>
+    <contour>
+      <point x="712" y="445" type="line"/>
+      <point x="175" y="445" type="line"/>
+      <point x="156" y="381" type="line"/>
+      <point x="713" y="381" type="line"/>
+    </contour>
+    <contour>
+      <point x="471" y="-121" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="948" y="-121" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="692" y="1383" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>A</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

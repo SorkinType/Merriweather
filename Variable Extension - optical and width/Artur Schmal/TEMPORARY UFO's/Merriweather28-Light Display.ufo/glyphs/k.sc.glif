@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k.sc" format="1">
+  <advance width="1188"/>
+  <outline>
+    <contour>
+      <point x="-33" y="39" type="line"/>
+      <point x="-38" y="0" type="line"/>
+      <point x="390" y="0" type="line"/>
+      <point x="395" y="39" type="line"/>
+      <point x="259" y="67" type="line"/>
+      <point x="424" y="1225" type="line"/>
+      <point x="558" y="1254" type="line"/>
+      <point x="563" y="1292" type="line"/>
+      <point x="145" y="1292" type="line"/>
+      <point x="140" y="1254" type="line"/>
+      <point x="266" y="1225" type="line"/>
+      <point x="101" y="67" type="line"/>
+    </contour>
+    <contour>
+      <point x="290" y="518" type="line"/>
+      <point x="289" y="431" type="line"/>
+      <point x="514" y="662" type="line"/>
+      <point x="570" y="720" type="line"/>
+      <point x="1064" y="1228" type="line"/>
+      <point x="1188" y="1254" type="line"/>
+      <point x="1193" y="1292" type="line"/>
+      <point x="826" y="1292" type="line"/>
+      <point x="821" y="1254" type="line"/>
+      <point x="963" y="1228" type="line"/>
+    </contour>
+    <contour>
+      <point x="858" y="0" type="curve"/>
+      <point x="1104" y="0" type="line"/>
+      <point x="1108" y="39" type="line"/>
+      <point x="1010" y="67" type="line"/>
+      <point x="974" y="102"/>
+      <point x="904" y="201"/>
+      <point x="808" y="372" type="curve"/>
+      <point x="745" y="484"/>
+      <point x="630" y="700"/>
+      <point x="582" y="756" type="curve"/>
+      <point x="481" y="640" type="line"/>
+      <point x="529" y="574"/>
+      <point x="632" y="347"/>
+      <point x="679" y="265" type="curve"/>
+      <point x="759" y="125"/>
+      <point x="815" y="2"/>
+    </contour>
+    <contour>
+      <point x="574" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="752" y="1383" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>K</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hastroke-cy" format="1">
+  <advance width="1439"/>
+  <unicode hex="04FE"/>
+  <outline>
+    <contour>
+      <point x="713" y="810" type="line"/>
+      <point x="713" y="750" type="line"/>
+      <point x="1205" y="750" type="line"/>
+      <point x="1214" y="810" type="line"/>
+    </contour>
+    <contour>
+      <point x="280" y="795" type="line"/>
+      <point x="269" y="735" type="line"/>
+      <point x="713" y="735" type="line"/>
+      <point x="713" y="795" type="line"/>
+    </contour>
+    <component base="X"/>
+    <contour>
+      <point x="678" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="956" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>X</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>X</string>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

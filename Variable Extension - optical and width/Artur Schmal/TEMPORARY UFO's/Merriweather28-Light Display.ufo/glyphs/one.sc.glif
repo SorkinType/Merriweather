@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.sc" format="1">
+  <advance width="806"/>
+  <outline>
+    <contour>
+      <point x="308" y="65" type="line"/>
+      <point x="101" y="35" type="line"/>
+      <point x="97" y="0" type="line"/>
+      <point x="645" y="0" type="line"/>
+      <point x="649" y="35" type="line"/>
+      <point x="460" y="65" type="line"/>
+      <point x="618" y="1292" type="line"/>
+      <point x="532" y="1311" type="line"/>
+      <point x="445" y="1226"/>
+      <point x="328" y="1166"/>
+      <point x="194" y="1115" type="curve"/>
+      <point x="199" y="1066" type="line"/>
+      <point x="303" y="1085"/>
+      <point x="380" y="1108"/>
+      <point x="447" y="1134" type="curve"/>
+    </contour>
+    <contour>
+      <point x="236" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="364" y="-142" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="496" y="18" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="432" y="1444" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="124" y="1292" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>one</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

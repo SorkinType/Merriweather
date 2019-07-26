@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="O" format="1">
+  <advance width="1404"/>
+  <unicode hex="004F"/>
+  <outline>
+    <contour>
+      <point x="627" y="-24" type="curve"/>
+      <point x="1156" y="-24"/>
+      <point x="1401" y="428"/>
+      <point x="1401" y="885" type="curve"/>
+      <point x="1401" y="1188"/>
+      <point x="1293" y="1505"/>
+      <point x="848" y="1505" type="curve"/>
+      <point x="314" y="1505"/>
+      <point x="69" y="1054"/>
+      <point x="69" y="600" type="curve"/>
+      <point x="69" y="296"/>
+      <point x="179" y="-24"/>
+    </contour>
+    <contour>
+      <point x="641" y="34" type="curve"/>
+      <point x="461" y="34"/>
+      <point x="443" y="356"/>
+      <point x="443" y="543" type="curve"/>
+      <point x="443" y="1008"/>
+      <point x="587" y="1446"/>
+      <point x="828" y="1447" type="curve"/>
+      <point x="1020" y="1448"/>
+      <point x="1027" y="1124"/>
+      <point x="1027" y="944" type="curve"/>
+      <point x="1027" y="470"/>
+      <point x="881" y="34"/>
+    </contour>
+    <contour>
+      <point x="641" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="743" y="744" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="857" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="839" y="1486" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="175" y="1486" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="1257" y="1486" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>
