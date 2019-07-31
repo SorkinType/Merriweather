@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="J" format="1">
-  <advance width="539"/>
+  <advance width="537"/>
   <unicode hex="004A"/>
   <outline>
     <contour>
-      <point x="-171" y="-266" type="curve"/>
-      <point x="-152" y="-309" type="line"/>
-      <point x="42" y="-273"/>
-      <point x="243" y="-157"/>
-      <point x="295" y="80" type="curve"/>
-      <point x="334" y="254"/>
-      <point x="400" y="763"/>
+      <point x="241" y="-164" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="445" y="1486" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="-173" y="-266" type="curve"/>
+      <point x="-154" y="-309" type="line"/>
+      <point x="38" y="-273"/>
+      <point x="240" y="-158"/>
+      <point x="292" y="78" type="curve"/>
+      <point x="331" y="251"/>
+      <point x="399" y="762"/>
       <point x="474" y="1415" type="curve"/>
       <point x="616" y="1450" type="line"/>
       <point x="621" y="1486" type="line"/>
-      <point x="201" y="1486" type="line"/>
-      <point x="196" y="1450" type="line"/>
-      <point x="320" y="1418" type="line"/>
-      <point x="272" y="993"/>
-      <point x="215" y="416"/>
-      <point x="152" y="93" type="curve"/>
-      <point x="120" y="-67"/>
-      <point x="22" y="-208"/>
-    </contour>
-    <contour>
-      <point x="242" y="-164" type="move" name="btm"/>
-    </contour>
-    <contour>
-      <point x="443" y="1486" type="move" name="top"/>
+      <point x="204" y="1486" type="line"/>
+      <point x="199" y="1450" type="line"/>
+      <point x="324" y="1419" type="line"/>
+      <point x="275" y="993"/>
+      <point x="216" y="413"/>
+      <point x="152" y="92" type="curve"/>
+      <point x="121" y="-67"/>
+      <point x="21" y="-208"/>
     </contour>
   </outline>
 </glyph>
