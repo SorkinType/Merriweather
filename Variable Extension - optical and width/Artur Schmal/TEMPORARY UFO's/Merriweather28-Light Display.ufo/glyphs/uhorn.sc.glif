@@ -1,25 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorn.sc" format="1">
-  <advance width="1238"/>
+  <advance width="1360"/>
   <outline>
-    <component base="u.sc"/>
-    <component base="horncomb" xOffset="1174" yOffset="182"/>
+    <contour>
+      <point x="574" y="-16" type="curve"/>
+      <point x="871" y="-16"/>
+      <point x="1037" y="146"/>
+      <point x="1082" y="480" type="curve"/>
+      <point x="1181" y="1239" type="line"/>
+      <point x="1305" y="1264" type="line"/>
+      <point x="1309" y="1292" type="line"/>
+      <point x="970" y="1292" type="line"/>
+      <point x="966" y="1264" type="line"/>
+      <point x="1101" y="1239" type="line"/>
+      <point x="1015" y="480" type="line" smooth="yes"/>
+      <point x="982" y="186"/>
+      <point x="821" y="53"/>
+      <point x="601" y="53" type="curve"/>
+      <point x="384" y="53"/>
+      <point x="306" y="172"/>
+      <point x="303" y="334" type="curve"/>
+      <point x="302" y="376"/>
+      <point x="305" y="421"/>
+      <point x="311" y="468" type="curve"/>
+      <point x="413" y="1239" type="line"/>
+      <point x="548" y="1264" type="line"/>
+      <point x="552" y="1292" type="line"/>
+      <point x="137" y="1292" type="line"/>
+      <point x="133" y="1264" type="line"/>
+      <point x="253" y="1239" type="line"/>
+      <point x="150" y="461" type="line" smooth="yes"/>
+      <point x="145" y="423"/>
+      <point x="144" y="388"/>
+      <point x="144" y="354" type="curve"/>
+      <point x="149" y="123"/>
+      <point x="281" y="-16"/>
+    </contour>
+    <contour>
+      <point x="1129" y="1292" type="curve"/>
+      <point x="1169" y="1236" type="line"/>
+      <point x="1398" y="1229"/>
+      <point x="1495" y="1314"/>
+      <point x="1495" y="1432" type="curve"/>
+      <point x="1495" y="1463"/>
+      <point x="1485" y="1490"/>
+      <point x="1478" y="1506" type="curve"/>
+      <point x="1346" y="1506" type="line"/>
+      <point x="1347" y="1498"/>
+      <point x="1348" y="1486"/>
+      <point x="1348" y="1472" type="curve"/>
+      <point x="1348" y="1383"/>
+      <point x="1297" y="1292"/>
+    </contour>
+    <contour>
+      <point x="570" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="733" y="16" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="735" y="1383" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1317" y="1165" type="move" name="topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>horncomb</string>
-        </dict>
-      </array>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
     </dict>
   </lib>
 </glyph>

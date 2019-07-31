@@ -3,6 +3,7 @@
   <advance width="977"/>
   <outline>
     <contour>
+      <point x="-34" y="35" type="line"/>
       <point x="-39" y="0" type="line"/>
       <point x="839" y="0" type="line"/>
       <point x="923" y="346" type="line"/>
@@ -16,13 +17,12 @@
       <point x="136" y="1257" type="line"/>
       <point x="270" y="1231" type="line"/>
       <point x="109" y="61" type="line"/>
-      <point x="-34" y="35" type="line"/>
     </contour>
     <contour>
       <point x="488" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="743" y="870" type="move" name="car"/>
+      <point x="593" y="870" type="move" name="car"/>
     </contour>
     <contour>
       <point x="412" y="1383" type="move" name="top"/>
@@ -39,8 +39,6 @@
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>h.sc</string>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

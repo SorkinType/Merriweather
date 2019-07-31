@@ -4,57 +4,23 @@
   <unicode hex="00D0"/>
   <outline>
     <contour>
-      <point x="442" y="1488" type="curve"/>
-      <point x="182" y="1488" type="line"/>
-      <point x="174" y="1408" type="line"/>
-      <point x="306" y="1388" type="line"/>
-      <point x="234" y="818" type="line"/>
-      <point x="78" y="818" type="line"/>
-      <point x="64" y="712" type="line"/>
-      <point x="220" y="712" type="line"/>
-      <point x="142" y="96" type="line"/>
-      <point x="-4" y="72" type="line"/>
-      <point x="-14" y="2" type="line"/>
-      <point x="214" y="2" type="line" smooth="yes"/>
-      <point x="268" y="2"/>
-      <point x="374" y="-4"/>
-      <point x="418" y="-6" type="curve"/>
-      <point x="448" y="-8"/>
-      <point x="500" y="-12"/>
-      <point x="526" y="-14" type="curve"/>
-      <point x="994" y="-48"/>
-      <point x="1300" y="384"/>
-      <point x="1294" y="902" type="curve"/>
-      <point x="1292" y="1262"/>
-      <point x="1130" y="1504"/>
-      <point x="728" y="1504" type="curve"/>
-      <point x="628" y="1504"/>
-      <point x="534" y="1490"/>
+      <point x="89" y="802" type="line"/>
+      <point x="80" y="732" type="line"/>
+      <point x="879" y="732" type="line"/>
+      <point x="888" y="802" type="line"/>
+    </contour>
+    <component base="D" xOffset="13"/>
+    <contour>
+      <point x="535" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="302" y="108" type="curve"/>
-      <point x="378" y="712" type="line"/>
-      <point x="790" y="712" type="line"/>
-      <point x="802" y="818" type="line"/>
-      <point x="392" y="818" type="line"/>
-      <point x="464" y="1392" type="line"/>
-      <point x="522" y="1400"/>
-      <point x="616" y="1410"/>
-      <point x="684" y="1410" type="curve"/>
-      <point x="1002" y="1410"/>
-      <point x="1126" y="1256"/>
-      <point x="1132" y="888" type="curve"/>
-      <point x="1134" y="496"/>
-      <point x="956" y="100"/>
-      <point x="566" y="82" type="curve"/>
-      <point x="502" y="82"/>
-      <point x="378" y="92"/>
+      <point x="725" y="1484" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>D</string>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>D</string>
     </dict>

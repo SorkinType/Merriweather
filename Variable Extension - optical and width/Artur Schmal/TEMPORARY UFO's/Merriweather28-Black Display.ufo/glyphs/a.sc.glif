@@ -3,7 +3,6 @@
   <advance width="1124"/>
   <outline>
     <contour>
-      <point x="-16" y="87" type="line"/>
       <point x="-152" y="35" type="line"/>
       <point x="-157" y="0" type="line"/>
       <point x="255" y="0" type="line"/>
@@ -21,18 +20,19 @@
       <point x="1042" y="62" type="line"/>
       <point x="836" y="1292" type="line"/>
       <point x="516" y="1290" type="line"/>
+      <point x="-16" y="87" type="line"/>
     </contour>
     <contour>
-      <point x="712" y="445" type="line"/>
       <point x="175" y="445" type="line"/>
       <point x="156" y="381" type="line"/>
       <point x="713" y="381" type="line"/>
+      <point x="712" y="445" type="line"/>
     </contour>
     <contour>
       <point x="471" y="-121" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="948" y="-121" type="move" name="ogonek"/>
+      <point x="988" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
       <point x="692" y="1383" type="move" name="top"/>
@@ -47,8 +47,6 @@
       </dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

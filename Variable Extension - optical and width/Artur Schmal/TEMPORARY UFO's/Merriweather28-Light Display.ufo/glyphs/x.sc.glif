@@ -3,7 +3,6 @@
   <advance width="1149"/>
   <outline>
     <contour>
-      <point x="77" y="53" type="line"/>
       <point x="-52" y="29" type="line"/>
       <point x="-54" y="0" type="line"/>
       <point x="329" y="0" type="line"/>
@@ -19,9 +18,9 @@
       <point x="1005" y="1237" type="line"/>
       <point x="610" y="707" type="line"/>
       <point x="565" y="670" type="line"/>
+      <point x="77" y="53" type="line"/>
     </contour>
     <contour>
-      <point x="780" y="53" type="line"/>
       <point x="629" y="29" type="line"/>
       <point x="625" y="0" type="line"/>
       <point x="1086" y="0" type="line"/>
@@ -37,6 +36,7 @@
       <point x="235" y="1237" type="line"/>
       <point x="526" y="602" type="line"/>
       <point x="534" y="588" type="line"/>
+      <point x="780" y="53" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -47,7 +47,7 @@
         <string>X</string>
       </dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>6</integer>
+      <integer>4</integer>
     </dict>
   </lib>
 </glyph>

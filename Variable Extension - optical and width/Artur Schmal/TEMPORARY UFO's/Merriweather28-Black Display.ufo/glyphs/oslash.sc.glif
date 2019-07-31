@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslash.sc" format="1">
-  <advance width="1382"/>
+  <advance width="1291"/>
   <outline>
     <contour>
-      <point x="1242" y="1540" type="line"/>
-      <point x="1084" y="1540" type="line"/>
-      <point x="150" y="-272" type="line"/>
-      <point x="306" y="-272" type="line"/>
+      <point x="220" y="-142" type="line"/>
+      <point x="303" y="-183" type="line"/>
+      <point x="1111" y="1434" type="line"/>
+      <point x="1028" y="1475" type="line"/>
     </contour>
     <component base="o.sc"/>
     <contour>
-      <point x="702" y="648" type="move" name="_center"/>
-    </contour>
-    <contour>
-      <point x="712" y="1292" type="move" name="top"/>
+      <point x="732" y="1383" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
     </dict>
   </lib>
 </glyph>

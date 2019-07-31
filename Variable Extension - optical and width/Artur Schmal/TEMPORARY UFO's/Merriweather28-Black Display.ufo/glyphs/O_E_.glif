@@ -4,6 +4,20 @@
   <unicode hex="0152"/>
   <outline>
     <contour>
+      <point x="627" y="-24" type="curve"/>
+      <point x="803" y="-24"/>
+      <point x="948" y="40"/>
+      <point x="1060" y="144" type="curve"/>
+      <point x="1040" y="0" type="line"/>
+      <point x="2005" y="0" type="line"/>
+      <point x="2120" y="458" type="line"/>
+      <point x="1947" y="477" type="line"/>
+      <point x="1757" y="79" type="line"/>
+      <point x="1412" y="53" type="line"/>
+      <point x="1504" y="727" type="line"/>
+      <point x="1891" y="713" type="line"/>
+      <point x="1912" y="821" type="line"/>
+      <point x="1513" y="792" type="line"/>
       <point x="1601" y="1434" type="line"/>
       <point x="1890" y="1408" type="line"/>
       <point x="1979" y="1108" type="line"/>
@@ -19,20 +33,6 @@
       <point x="69" y="600" type="curve"/>
       <point x="69" y="296"/>
       <point x="179" y="-24"/>
-      <point x="627" y="-24" type="curve"/>
-      <point x="803" y="-24"/>
-      <point x="948" y="40"/>
-      <point x="1060" y="144" type="curve"/>
-      <point x="1040" y="0" type="line"/>
-      <point x="2005" y="0" type="line"/>
-      <point x="2120" y="458" type="line"/>
-      <point x="1947" y="477" type="line"/>
-      <point x="1757" y="79" type="line"/>
-      <point x="1412" y="53" type="line"/>
-      <point x="1504" y="727" type="line"/>
-      <point x="1891" y="713" type="line"/>
-      <point x="1912" y="821" type="line"/>
-      <point x="1513" y="792" type="line"/>
     </contour>
     <contour>
       <point x="641" y="34" type="curve"/>
@@ -51,12 +51,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>O</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>E</string>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

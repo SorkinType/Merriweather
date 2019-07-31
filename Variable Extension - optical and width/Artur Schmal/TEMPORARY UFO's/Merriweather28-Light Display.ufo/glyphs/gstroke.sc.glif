@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gstroke.sc" format="1">
-  <advance width="1241"/>
+  <advance width="1221"/>
   <outline>
     <contour>
-      <point x="1274" y="362" type="line"/>
-      <point x="642" y="362" type="line"/>
-      <point x="624" y="258" type="line"/>
-      <point x="1256" y="258" type="line"/>
+      <point x="591" y="-14" type="curve"/>
+      <point x="705" y="-14"/>
+      <point x="808" y="24"/>
+      <point x="881" y="47" type="curve"/>
+      <point x="947" y="64"/>
+      <point x="981" y="73"/>
+      <point x="1017" y="77" type="curve"/>
+      <point x="1090" y="656" type="line"/>
+      <point x="716" y="656" type="line"/>
+      <point x="711" y="607" type="line"/>
+      <point x="934" y="588" type="line"/>
+      <point x="880" y="126" type="line"/>
+      <point x="815" y="80"/>
+      <point x="699" y="41"/>
+      <point x="599" y="41" type="curve"/>
+      <point x="297" y="41"/>
+      <point x="229" y="333"/>
+      <point x="229" y="571" type="curve"/>
+      <point x="229" y="911"/>
+      <point x="379" y="1247"/>
+      <point x="723" y="1247" type="curve"/>
+      <point x="882" y="1247"/>
+      <point x="946" y="1213"/>
+      <point x="993" y="1184" type="curve"/>
+      <point x="1003" y="981" type="line"/>
+      <point x="1074" y="981" type="line"/>
+      <point x="1119" y="1251" type="line"/>
+      <point x="1058" y="1251"/>
+      <point x="984" y="1302"/>
+      <point x="739" y="1302" type="curve"/>
+      <point x="357" y="1302"/>
+      <point x="64" y="997"/>
+      <point x="64" y="565" type="curve"/>
+      <point x="64" y="286"/>
+      <point x="172" y="-14"/>
     </contour>
     <contour>
-      <point x="1060" y="78" type="curve"/>
-      <point x="1140" y="666" type="line"/>
-      <point x="714" y="666" type="line"/>
-      <point x="706" y="578" type="line"/>
-      <point x="962" y="564" type="line"/>
-      <point x="908" y="150" type="line"/>
-      <point x="836" y="98"/>
-      <point x="700" y="76"/>
-      <point x="596" y="76" type="curve"/>
-      <point x="348" y="76"/>
-      <point x="240" y="306"/>
-      <point x="232" y="552" type="curve"/>
-      <point x="226" y="860"/>
-      <point x="384" y="1222"/>
-      <point x="738" y="1222" type="curve"/>
-      <point x="882" y="1222"/>
-      <point x="954" y="1200"/>
-      <point x="1010" y="1168" type="curve"/>
-      <point x="1016" y="992" type="line"/>
-      <point x="1120" y="992" type="line"/>
-      <point x="1170" y="1250" type="line"/>
-      <point x="1132" y="1260" type="line" smooth="yes"/>
-      <point x="1068" y="1276"/>
-      <point x="954" y="1306"/>
-      <point x="754" y="1306" type="curve"/>
-      <point x="366" y="1306"/>
-      <point x="50" y="998"/>
-      <point x="64" y="532" type="curve"/>
-      <point x="72" y="264"/>
-      <point x="214" y="-14"/>
-      <point x="554" y="-14" type="curve"/>
-      <point x="704" y="-14"/>
-      <point x="836" y="24"/>
-      <point x="932" y="50" type="curve"/>
-      <point x="982" y="64"/>
-      <point x="1024" y="76"/>
+      <point x="666" y="356" type="line"/>
+      <point x="657" y="286" type="line"/>
+      <point x="1192" y="286" type="line"/>
+      <point x="1201" y="356" type="line"/>
     </contour>
     <contour>
-      <point x="615" y="0" type="move" name="bottom"/>
+      <point x="601" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="750" y="1292" type="move" name="top"/>
+      <point x="752" y="1383" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>g.sc</string>
     </dict>

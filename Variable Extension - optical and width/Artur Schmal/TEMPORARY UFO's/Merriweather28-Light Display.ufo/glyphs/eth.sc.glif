@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eth.sc" format="1">
-  <advance width="1190"/>
+  <advance width="1202"/>
   <outline>
     <contour>
-      <point x="104" y="716" type="line"/>
-      <point x="94" y="616" type="line"/>
-      <point x="790" y="616" type="line"/>
-      <point x="800" y="716" type="line"/>
+      <point x="65" y="690" type="line"/>
+      <point x="57" y="622" type="line"/>
+      <point x="722" y="622" type="line"/>
+      <point x="730" y="690" type="line"/>
     </contour>
-    <component base="d.sc"/>
+    <component base="d.sc" xOffset="12"/>
   </outline>
   <lib>
     <dict>
@@ -17,8 +17,8 @@
         <key>source</key>
         <string>Eth</string>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>d.sc</string>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>d.sc</string>
     </dict>

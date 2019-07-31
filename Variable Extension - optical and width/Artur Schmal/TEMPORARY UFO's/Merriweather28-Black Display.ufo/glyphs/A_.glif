@@ -30,10 +30,10 @@
       <point x="846" y="498" type="line"/>
     </contour>
     <contour>
-      <point x="499" y="0" type="move" name="bottom"/>
+      <point x="509" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="1058" y="20" type="move" name="ogonek"/>
+      <point x="1078" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
       <point x="736" y="1486" type="move" name="top"/>
@@ -41,8 +41,8 @@
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
     </dict>
   </lib>
 </glyph>

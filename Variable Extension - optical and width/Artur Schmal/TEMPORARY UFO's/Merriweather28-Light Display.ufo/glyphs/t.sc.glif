@@ -3,7 +3,6 @@
   <advance width="1171"/>
   <outline>
     <contour>
-      <point x="441" y="61" type="line"/>
       <point x="250" y="29" type="line"/>
       <point x="246" y="0" type="line"/>
       <point x="790" y="0" type="line"/>
@@ -19,6 +18,7 @@
       <point x="175" y="945" type="line"/>
       <point x="277" y="1232" type="line"/>
       <point x="608" y="1244" type="line"/>
+      <point x="441" y="61" type="line"/>
     </contour>
     <contour>
       <point x="515" y="0" type="move" name="bottom"/>
@@ -35,9 +35,7 @@
         <string>T</string>
       </dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
-      <integer>6</integer>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
+      <integer>4</integer>
     </dict>
   </lib>
 </glyph>

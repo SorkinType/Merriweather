@@ -18,16 +18,16 @@
       <point x="118" y="72" type="line"/>
     </contour>
     <contour>
-      <point x="338" y="0" type="move" name="bottom"/>
+      <point x="308" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="518" y="-164" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="560" y="20" type="move" name="ogonek"/>
+      <point x="510" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
-      <point x="536" y="1486" type="move" name="top"/>
+      <point x="516" y="1486" type="move" name="top"/>
     </contour>
     <contour>
       <point x="209" y="1486" type="move" name="topleft"/>
@@ -35,8 +35,8 @@
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
     </dict>
   </lib>
 </glyph>

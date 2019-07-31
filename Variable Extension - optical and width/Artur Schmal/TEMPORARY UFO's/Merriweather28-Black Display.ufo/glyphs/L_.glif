@@ -20,7 +20,7 @@
       <point x="96" y="72" type="line"/>
     </contour>
     <contour>
-      <point x="590" y="0" type="move" name="bottom"/>
+      <point x="555" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="858" y="1110" type="move" name="car"/>
@@ -31,6 +31,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>H</string>
     </dict>

@@ -12,9 +12,9 @@
       <point x="839" y="650" type="curve"/>
       <point x="1051" y="680"/>
       <point x="1165" y="800"/>
-      <point x="1165" y="962" type="curve"/>
-      <point x="1165" y="1200"/>
-      <point x="1053" y="1305"/>
+      <point x="1165" y="992" type="curve"/>
+      <point x="1165" y="1190"/>
+      <point x="1033" y="1305"/>
       <point x="726" y="1305" type="curve"/>
       <point x="586" y="1305"/>
       <point x="523" y="1292"/>
@@ -30,9 +30,6 @@
       <point x="402" y="-16"/>
     </contour>
     <contour>
-      <point x="556" y="38" type="curve"/>
-      <point x="482" y="38"/>
-      <point x="436" y="53"/>
       <point x="330" y="94" type="curve"/>
       <point x="425" y="7" type="line"/>
       <point x="601" y="1279" type="line"/>
@@ -58,12 +55,15 @@
       <point x="797" y="376" type="curve"/>
       <point x="797" y="150"/>
       <point x="705" y="38"/>
+      <point x="556" y="38" type="curve"/>
+      <point x="482" y="38"/>
+      <point x="436" y="53"/>
     </contour>
     <contour>
-      <point x="582" y="0" type="move" name="bottom"/>
+      <point x="567" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="708" y="1292" type="move" name="top"/>
+      <point x="708" y="1383" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -77,8 +77,6 @@
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>h.sc</string>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>
