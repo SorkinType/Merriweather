@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Be-cy" format="1">
+  <advance width="1320"/>
+  <unicode hex="0411"/>
+  <outline>
+    <contour>
+      <point x="26" y="102" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="262" y="0" type="line" smooth="yes"/>
+      <point x="342" y="0"/>
+      <point x="548" y="-18"/>
+      <point x="594" y="-18" type="curve"/>
+      <point x="994" y="-18"/>
+      <point x="1256" y="168"/>
+      <point x="1256" y="542" type="curve"/>
+      <point x="1256" y="784"/>
+      <point x="1086" y="910"/>
+      <point x="752" y="910" type="curve"/>
+      <point x="676" y="910"/>
+      <point x="628" y="898"/>
+      <point x="588" y="886" type="curve"/>
+      <point x="652" y="1370" type="line"/>
+      <point x="1006" y="1346" type="line"/>
+      <point x="1038" y="1128" type="line"/>
+      <point x="1220" y="1128" type="line"/>
+      <point x="1252" y="1486" type="line"/>
+      <point x="196" y="1486" type="line"/>
+      <point x="186" y="1378" type="line"/>
+      <point x="328" y="1356" type="line"/>
+      <point x="166" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="594" y="104" type="curve"/>
+      <point x="544" y="104"/>
+      <point x="510" y="104"/>
+      <point x="484" y="108" type="curve"/>
+      <point x="570" y="754" type="line"/>
+      <point x="596" y="762"/>
+      <point x="650" y="768"/>
+      <point x="690" y="768" type="curve"/>
+      <point x="820" y="768"/>
+      <point x="906" y="662"/>
+      <point x="906" y="514" type="curve"/>
+      <point x="906" y="274"/>
+      <point x="796" y="104"/>
+    </contour>
+    <contour>
+      <point x="746" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Softsign-cy</string>
+    </dict>
+  </lib>
+</glyph>

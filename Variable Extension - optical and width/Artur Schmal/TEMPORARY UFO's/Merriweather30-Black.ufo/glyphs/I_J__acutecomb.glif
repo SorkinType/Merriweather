@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="IJ_acutecomb" format="1">
+  <advance width="1474"/>
+  <outline>
+    <component base="IJ"/>
+    <component base="acutecomb.case" xOffset="1135"/>
+    <component base="acutecomb.case" xOffset="387" yOffset="-2"/>
+    <contour>
+      <point x="1120" y="1486" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="159" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="875" y="-164" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="456" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="1100" y="1486" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="30" y="1486" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>acutecomb.case</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>J</string>
+    </dict>
+  </lib>
+</glyph>

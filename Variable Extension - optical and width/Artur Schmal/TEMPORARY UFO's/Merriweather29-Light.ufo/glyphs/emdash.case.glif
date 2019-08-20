@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emdash.case" format="1">
+  <advance width="2201"/>
+  <outline>
+    <contour>
+      <point x="2057" y="823" type="line"/>
+      <point x="221" y="823" type="line"/>
+      <point x="202" y="697" type="line"/>
+      <point x="2038" y="697" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>emdash</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>emdash</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>emdash</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

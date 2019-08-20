@@ -4,24 +4,6 @@
   <unicode hex="004F"/>
   <outline>
     <contour>
-      <point x="179" y="1486" type="move" name="topleft"/>
-    </contour>
-    <contour>
-      <point x="676" y="744" type="move" name="center"/>
-    </contour>
-    <contour>
-      <point x="574" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="771" y="1486" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1054" y="1491" type="move" name="topright"/>
-    </contour>
-    <contour>
-      <point x="746" y="8" type="move" name="ogonek"/>
-    </contour>
-    <contour>
       <point x="559" y="-24" type="curve"/>
       <point x="1039" y="-24"/>
       <point x="1261" y="433"/>
@@ -48,6 +30,24 @@
       <point x="920" y="950" type="curve"/>
       <point x="913" y="474"/>
       <point x="782" y="34"/>
+    </contour>
+    <contour>
+      <point x="574" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="676" y="744" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="746" y="8" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="771" y="1486" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="179" y="1486" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="1054" y="1491" type="move" name="topright"/>
     </contour>
   </outline>
 </glyph>

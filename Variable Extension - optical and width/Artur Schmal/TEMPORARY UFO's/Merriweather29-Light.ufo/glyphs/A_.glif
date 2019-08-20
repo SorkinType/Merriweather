@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A" format="1">
+  <advance width="1335"/>
+  <unicode hex="0041"/>
+  <outline>
+    <contour>
+      <point x="-104" y="70" type="line"/>
+      <point x="-112" y="0" type="line"/>
+      <point x="353" y="0" type="line"/>
+      <point x="359" y="70" type="line"/>
+      <point x="179" y="94" type="line"/>
+      <point x="724" y="1257" type="line"/>
+      <point x="805" y="1432" type="line"/>
+      <point x="766" y="1438" type="line"/>
+      <point x="787" y="1246" type="line"/>
+      <point x="976" y="92" type="line"/>
+      <point x="798" y="70" type="line"/>
+      <point x="794" y="0" type="line"/>
+      <point x="1296" y="0" type="line"/>
+      <point x="1300" y="70" type="line"/>
+      <point x="1137" y="96" type="line"/>
+      <point x="882" y="1498" type="line"/>
+      <point x="721" y="1498" type="line"/>
+      <point x="32" y="92" type="line"/>
+    </contour>
+    <contour>
+      <point x="352" y="545" type="line"/>
+      <point x="305" y="447" type="line"/>
+      <point x="957" y="447" type="line"/>
+      <point x="941" y="545" type="line"/>
+    </contour>
+    <contour>
+      <point x="586" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1110" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="804" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
