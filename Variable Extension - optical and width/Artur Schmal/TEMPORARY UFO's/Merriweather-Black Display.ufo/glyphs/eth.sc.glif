@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eth.sc" format="1">
+  <advance width="1428"/>
+  <outline>
+    <contour>
+      <point x="66" y="748" type="line"/>
+      <point x="44" y="590" type="line"/>
+      <point x="776" y="590" type="line"/>
+      <point x="798" y="748" type="line"/>
+    </contour>
+    <component base="d.sc" xOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Eth</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>d.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>d.sc</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

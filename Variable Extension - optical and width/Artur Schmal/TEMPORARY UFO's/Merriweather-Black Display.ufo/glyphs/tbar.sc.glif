@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tbar.sc" format="1">
+  <advance width="1376"/>
+  <outline>
+    <contour>
+      <point x="1148" y="406" type="line"/>
+      <point x="1172" y="592" type="line"/>
+      <point x="248" y="592" type="line"/>
+      <point x="224" y="406" type="line"/>
+    </contour>
+    <component base="t.sc"/>
+    <contour>
+      <point x="708" y="556" type="move" name="_center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

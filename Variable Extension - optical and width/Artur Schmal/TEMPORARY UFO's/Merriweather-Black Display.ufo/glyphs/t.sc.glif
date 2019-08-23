@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t.sc" format="1">
+  <advance width="1250"/>
+  <outline>
+    <contour>
+      <point x="196" y="35" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="953" y="0" type="line"/>
+      <point x="958" y="35" type="line"/>
+      <point x="759" y="72" type="line"/>
+      <point x="905" y="1115" type="line"/>
+      <point x="1028" y="1109" type="line"/>
+      <point x="1106" y="735" type="line"/>
+      <point x="1250" y="735" type="line"/>
+      <point x="1295" y="1165" type="line"/>
+      <point x="152" y="1165" type="line"/>
+      <point x="64" y="735" type="line"/>
+      <point x="230" y="735" type="line"/>
+      <point x="408" y="1109" type="line"/>
+      <point x="540" y="1115" type="line"/>
+      <point x="394" y="72" type="line"/>
+    </contour>
+    <contour>
+      <point x="566" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="718" y="1165" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>T</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+    </dict>
+  </lib>
+</glyph>

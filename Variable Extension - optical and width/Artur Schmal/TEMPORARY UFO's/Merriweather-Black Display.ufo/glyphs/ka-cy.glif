@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ka-cy" format="1">
+  <advance width="1129"/>
+  <unicode hex="043A"/>
+  <outline>
+    <contour>
+      <point x="652" y="624" type="curve"/>
+      <point x="478" y="624" type="line"/>
+      <point x="544" y="1106" type="line"/>
+      <point x="483" y="1136" type="line"/>
+      <point x="122" y="1084" type="line"/>
+      <point x="106" y="999" type="line"/>
+      <point x="210" y="941" type="line"/>
+      <point x="84" y="0" type="line"/>
+      <point x="394" y="0" type="line"/>
+      <point x="464" y="527" type="line"/>
+      <point x="475" y="527" type="line" smooth="yes"/>
+      <point x="611" y="527"/>
+      <point x="648" y="0"/>
+      <point x="810" y="0" type="curve"/>
+      <point x="1123" y="0" type="line"/>
+      <point x="1135" y="89" type="line"/>
+      <point x="1063" y="125" type="line"/>
+      <point x="982" y="145"/>
+      <point x="848" y="487"/>
+      <point x="765" y="594" type="curve"/>
+      <point x="904" y="668"/>
+      <point x="1112" y="809"/>
+      <point x="1112" y="984" type="curve"/>
+      <point x="1112" y="1073"/>
+      <point x="1043" y="1126"/>
+      <point x="960" y="1126" type="curve"/>
+      <point x="856" y="1126"/>
+      <point x="765" y="1075"/>
+      <point x="765" y="972" type="curve"/>
+      <point x="765" y="899"/>
+      <point x="804" y="889"/>
+      <point x="802" y="842" type="curve"/>
+      <point x="800" y="808"/>
+      <point x="778" y="764"/>
+      <point x="736" y="713" type="curve"/>
+      <point x="714" y="684"/>
+      <point x="687" y="654"/>
+    </contour>
+    <contour>
+      <point x="796" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="675" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash.sc" format="1">
+  <advance width="1310"/>
+  <outline>
+    <contour>
+      <point x="1172" y="1530" type="line"/>
+      <point x="1064" y="1530" type="line"/>
+      <point x="114" y="-246" type="line"/>
+      <point x="232" y="-246" type="line"/>
+    </contour>
+    <component base="o.sc"/>
+    <contour>
+      <point x="670" y="648" type="move" name="_center"/>
+    </contour>
+    <contour>
+      <point x="732" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

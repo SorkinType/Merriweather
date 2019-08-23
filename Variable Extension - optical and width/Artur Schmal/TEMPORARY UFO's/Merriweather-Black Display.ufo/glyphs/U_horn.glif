@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorn" format="1">
+  <advance width="1585"/>
+  <unicode hex="01AF"/>
+  <outline>
+    <contour>
+      <point x="138" y="1486" type="line"/>
+      <point x="126" y="1379" type="line"/>
+      <point x="266" y="1355" type="line"/>
+      <point x="166" y="580" type="line" smooth="yes"/>
+      <point x="160" y="522"/>
+      <point x="160" y="468"/>
+      <point x="160" y="418" type="curve"/>
+      <point x="160" y="173"/>
+      <point x="306" y="-20"/>
+      <point x="685" y="-20" type="curve"/>
+      <point x="1045" y="-20"/>
+      <point x="1250" y="152"/>
+      <point x="1308" y="612" type="curve"/>
+      <point x="1404" y="1355" type="line"/>
+      <point x="1650" y="1397"/>
+      <point x="1741" y="1492"/>
+      <point x="1737" y="1686" type="curve"/>
+      <point x="1737" y="1700"/>
+      <point x="1735" y="1714"/>
+      <point x="1733" y="1730" type="curve"/>
+      <point x="1492" y="1730" type="line"/>
+      <point x="1494" y="1722"/>
+      <point x="1494" y="1710"/>
+      <point x="1494" y="1696" type="curve"/>
+      <point x="1494" y="1596"/>
+      <point x="1458" y="1486"/>
+      <point x="1294" y="1486" type="curve"/>
+      <point x="1092" y="1486" type="line"/>
+      <point x="1082" y="1381" type="line"/>
+      <point x="1226" y="1355" type="line"/>
+      <point x="1126" y="612" type="line" smooth="yes"/>
+      <point x="1080" y="285"/>
+      <point x="986" y="101"/>
+      <point x="746" y="101" type="curve"/>
+      <point x="579" y="101"/>
+      <point x="491" y="225"/>
+      <point x="491" y="412" type="curve"/>
+      <point x="490" y="458"/>
+      <point x="498" y="530"/>
+      <point x="506" y="608" type="curve"/>
+      <point x="605" y="1355" type="line"/>
+      <point x="797" y="1381" type="line"/>
+      <point x="807" y="1486" type="line"/>
+    </contour>
+    <contour>
+      <point x="682" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="903" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>U</string>
+    </dict>
+  </lib>
+</glyph>

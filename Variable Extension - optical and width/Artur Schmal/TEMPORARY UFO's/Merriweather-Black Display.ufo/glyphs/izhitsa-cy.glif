@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="izhitsa-cy" format="1">
+  <advance width="1020"/>
+  <unicode hex="0475"/>
+  <outline>
+    <contour>
+      <point x="778" y="864" type="curve"/>
+      <point x="617" y="441" type="line"/>
+      <point x="550" y="249" type="line"/>
+      <point x="530" y="441" type="line"/>
+      <point x="438" y="1002" type="line" smooth="yes"/>
+      <point x="425" y="1088"/>
+      <point x="352" y="1136"/>
+      <point x="237" y="1136" type="curve"/>
+      <point x="99" y="1136"/>
+      <point x="-5" y="1029"/>
+      <point x="-22" y="1005" type="curve"/>
+      <point x="5" y="928" type="line"/>
+      <point x="24" y="942"/>
+      <point x="53" y="960"/>
+      <point x="80" y="960" type="curve"/>
+      <point x="100" y="960"/>
+      <point x="112" y="946"/>
+      <point x="122" y="906" type="curve"/>
+      <point x="316" y="-20" type="line"/>
+      <point x="558" y="-20" type="line"/>
+      <point x="910" y="731" type="line" smooth="yes"/>
+      <point x="978" y="880"/>
+      <point x="1064" y="917"/>
+      <point x="1121" y="917" type="curve"/>
+      <point x="1127" y="917"/>
+      <point x="1135" y="917"/>
+      <point x="1141" y="915" type="curve"/>
+      <point x="1169" y="1122" type="line"/>
+      <point x="1163" y="1126"/>
+      <point x="1102" y="1134"/>
+      <point x="1062" y="1134" type="curve"/>
+      <point x="964" y="1134"/>
+      <point x="852" y="1062"/>
+    </contour>
+    <contour>
+      <point x="476" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="476" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e.sc" format="1">
+  <advance width="1132"/>
+  <outline>
+    <contour>
+      <point x="-39" y="35" type="line"/>
+      <point x="-43" y="0" type="line"/>
+      <point x="987" y="0" type="line"/>
+      <point x="1068" y="370" type="line"/>
+      <point x="906" y="386" type="line"/>
+      <point x="760" y="73" type="line"/>
+      <point x="442" y="50" type="line"/>
+      <point x="514" y="564" type="line"/>
+      <point x="894" y="554" type="line"/>
+      <point x="912" y="650" type="line"/>
+      <point x="523" y="625" type="line"/>
+      <point x="591" y="1115" type="line"/>
+      <point x="877" y="1087" type="line"/>
+      <point x="950" y="853" type="line"/>
+      <point x="1088" y="853" type="line"/>
+      <point x="1104" y="1165" type="line"/>
+      <point x="119" y="1165" type="line"/>
+      <point x="114" y="1130" type="line"/>
+      <point x="222" y="1098" type="line"/>
+      <point x="78" y="67" type="line"/>
+    </contour>
+    <contour>
+      <point x="539" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="980" y="16" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="665" y="1165" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="112" y="1165" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>E</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h.sc</string>
+    </dict>
+  </lib>
+</glyph>
