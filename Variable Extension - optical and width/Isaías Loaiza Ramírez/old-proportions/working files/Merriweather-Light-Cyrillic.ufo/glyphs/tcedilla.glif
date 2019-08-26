@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcedilla" format="1">
+  <advance width="786"/>
+  <unicode hex="0163"/>
+  <outline>
+    <component base="t"/>
+    <component base="cedillacomb" xOffset="444"/>
+    <contour>
+      <point x="452" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="452" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="392" y="556" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="460" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="332" y="1310" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="598" y="1330" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-15 05:46:36 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

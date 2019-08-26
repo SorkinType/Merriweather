@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aring" format="2">
+  <advance width="1237"/>
+  <unicode hex="00C5"/>
+  <anchor x="702" y="1486" name="_top"/>
+  <anchor x="670" y="-166" name="mark0"/>
+  <anchor x="1280" y="20" name="ogonek"/>
+  <anchor x="702" y="1966" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb.case" xOffset="612"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-16 06:31:28 +0000</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

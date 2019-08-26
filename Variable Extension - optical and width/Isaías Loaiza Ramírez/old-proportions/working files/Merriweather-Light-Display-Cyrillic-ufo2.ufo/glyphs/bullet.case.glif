@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet.case" format="1">
+  <advance width="786"/>
+  <outline>
+    <contour>
+      <point x="404" y="644" type="curve" smooth="yes"/>
+      <point x="494" y="644"/>
+      <point x="578" y="724"/>
+      <point x="578" y="822" type="curve" smooth="yes"/>
+      <point x="578" y="922"/>
+      <point x="510" y="996"/>
+      <point x="420" y="996" type="curve" smooth="yes"/>
+      <point x="328" y="996"/>
+      <point x="244" y="922"/>
+      <point x="244" y="820" type="curve"/>
+      <point x="246" y="728"/>
+      <point x="312" y="644"/>
+    </contour>
+    <component base="bullet" yOffset="180"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-07 05:45:00 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>bullet</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>bullet</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

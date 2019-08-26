@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcedilla.sc" format="2">
+  <advance width="1429"/>
+  <anchor x="701" y="0" name="_bottom"/>
+  <anchor x="701" y="0" name="bottom"/>
+  <anchor x="701" y="648" name="center"/>
+  <anchor x="707" y="-144" name="mark0"/>
+  <anchor x="701" y="1292" name="top"/>
+  <outline>
+    <component base="t.sc"/>
+    <component base="cedillacomb" xOffset="716"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Tcedilla</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-28 20:25:23 +0000</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

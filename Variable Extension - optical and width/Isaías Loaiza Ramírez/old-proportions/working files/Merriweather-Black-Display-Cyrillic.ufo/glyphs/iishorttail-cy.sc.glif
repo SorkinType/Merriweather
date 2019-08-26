@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iishorttail-cy.sc" format="2">
+  <advance width="1654"/>
+  <anchor x="1438" y="0" name="bottomright"/>
+  <outline>
+    <contour>
+      <point x="1598" y="0" type="curve"/>
+      <point x="1598" y="144" type="line"/>
+      <point x="1398" y="144" type="line"/>
+      <point x="1314" y="0" type="line"/>
+      <point x="1336" y="0" type="line"/>
+      <point x="1316" y="-70"/>
+      <point x="1264" y="-240"/>
+      <point x="1212" y="-370" type="curve"/>
+      <point x="1394" y="-370" type="line"/>
+      <point x="1432" y="-314"/>
+      <point x="1546" y="-102"/>
+    </contour>
+    <component base="ii-cy.sc"/>
+    <component base="brevecomb-cy" xOffset="328" yOffset="162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Iishorttail-cy</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-25 21:59:57 +0000</string>
+    </dict>
+  </lib>
+</glyph>

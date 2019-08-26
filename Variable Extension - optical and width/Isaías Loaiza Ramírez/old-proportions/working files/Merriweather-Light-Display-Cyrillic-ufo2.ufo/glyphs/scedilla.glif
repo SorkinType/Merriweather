@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scedilla" format="1">
+  <advance width="783"/>
+  <unicode hex="015F"/>
+  <outline>
+    <component base="s"/>
+    <component base="cedillacomb" xOffset="381"/>
+    <contour>
+      <point x="496" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="496" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="508" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="496" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-15 05:45:55 +0000</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

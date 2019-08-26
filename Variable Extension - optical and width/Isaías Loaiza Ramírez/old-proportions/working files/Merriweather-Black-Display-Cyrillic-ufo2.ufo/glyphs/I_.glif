@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="1">
+  <advance width="704"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="150" y="72" type="line"/>
+      <point x="16" y="38" type="line"/>
+      <point x="16" y="0" type="line"/>
+      <point x="688" y="0" type="line"/>
+      <point x="688" y="38" type="line"/>
+      <point x="534" y="72" type="line"/>
+      <point x="534" y="1412" type="line"/>
+      <point x="687" y="1450" type="line"/>
+      <point x="687" y="1486" type="line"/>
+      <point x="17" y="1486" type="line"/>
+      <point x="17" y="1450" type="line"/>
+      <point x="150" y="1412" type="line"/>
+    </contour>
+    <contour>
+      <point x="346" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="348" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="648" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="346" y="1486" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="33" y="1486" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-16 17:36:15 +0000</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

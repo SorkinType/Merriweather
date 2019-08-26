@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_acutecomb" format="1">
+  <outline>
+    <contour>
+      <point x="-208" y="1146" type="line"/>
+      <point x="0" y="1315" type="line"/>
+      <point x="208" y="1146" type="line"/>
+      <point x="250" y="1178" type="line"/>
+      <point x="51" y="1425" type="line"/>
+      <point x="-51" y="1425" type="line"/>
+      <point x="-250" y="1178" type="line"/>
+    </contour>
+    <contour>
+      <point x="180" y="1385" type="line"/>
+      <point x="258" y="1447"/>
+      <point x="360" y="1548"/>
+      <point x="415" y="1631" type="curve"/>
+      <point x="323" y="1693" type="line"/>
+      <point x="141" y="1414" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="1110" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="0" y="1726" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-07 05:45:00 +0000</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

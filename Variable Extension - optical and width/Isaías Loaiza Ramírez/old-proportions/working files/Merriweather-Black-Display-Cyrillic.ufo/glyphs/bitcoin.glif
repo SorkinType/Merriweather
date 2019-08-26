@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bitcoin" format="2">
+  <advance width="1509"/>
+  <unicode hex="20BF"/>
+  <outline>
+    <contour>
+      <point x="591" y="1738" type="line"/>
+      <point x="490" y="1738" type="line"/>
+      <point x="490" y="1460" type="line"/>
+      <point x="591" y="1460" type="line"/>
+    </contour>
+    <contour>
+      <point x="956" y="1738" type="line"/>
+      <point x="855" y="1738" type="line"/>
+      <point x="855" y="1460" type="line"/>
+      <point x="956" y="1460" type="line"/>
+    </contour>
+    <contour>
+      <point x="591" y="38" type="line"/>
+      <point x="490" y="38" type="line"/>
+      <point x="490" y="-260" type="line"/>
+      <point x="591" y="-260" type="line"/>
+    </contour>
+    <contour>
+      <point x="956" y="38" type="line"/>
+      <point x="855" y="38" type="line"/>
+      <point x="855" y="-260" type="line"/>
+      <point x="956" y="-260" type="line"/>
+    </contour>
+    <component base="B" xOffset="71"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>B</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-17 02:34:50 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>euro</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>euro</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

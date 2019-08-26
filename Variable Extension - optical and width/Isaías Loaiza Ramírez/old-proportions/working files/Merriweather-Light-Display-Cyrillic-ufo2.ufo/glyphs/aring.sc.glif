@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aring.sc" format="1">
+  <advance width="1334"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="ringcomb" xOffset="666" yOffset="272"/>
+    <contour>
+      <point x="658" y="1292" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="672" y="-144" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="1188" y="18" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="658" y="1710" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-18 03:15:40 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>a.sc</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

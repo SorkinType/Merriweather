@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecedilla.sc" format="1">
+  <advance width="1296"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="cedillacomb" xOffset="704"/>
+    <contour>
+      <point x="647" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="647" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="687" y="-144" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="1153" y="18" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="655" y="1292" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="55" y="1292" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Ecedilla</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-09 16:15:22 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>e.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e.sc</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
