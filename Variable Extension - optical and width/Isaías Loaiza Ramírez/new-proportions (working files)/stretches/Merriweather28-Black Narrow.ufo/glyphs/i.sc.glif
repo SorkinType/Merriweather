@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.sc" format="1">
+  <advance width="804"/>
+  <outline>
+    <contour>
+      <point x="232" y="146" type="line"/>
+      <point x="76" y="126" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="730" y="0" type="line"/>
+      <point x="730" y="124" type="line"/>
+      <point x="566" y="144" type="line"/>
+      <point x="566" y="1132" type="line"/>
+      <point x="730" y="1158" type="line"/>
+      <point x="730" y="1292" type="line"/>
+      <point x="74" y="1292" type="line"/>
+      <point x="74" y="1158" type="line"/>
+      <point x="232" y="1132" type="line"/>
+    </contour>
+    <contour>
+      <point x="403" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="405" y="-144" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="701" y="18" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="403" y="1287" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="37" y="1292" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>I</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-06-06 03:08:07 +0000</string>
+      <key>public.markColor</key>
+      <string>0.06,0.6,0.98,1</string>
+    </dict>
+  </lib>
+</glyph>

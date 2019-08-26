@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedilla" format="1">
+  <advance width="897"/>
+  <unicode hex="00E7"/>
+  <outline>
+    <component base="c"/>
+    <component base="cedillacomb" xOffset="497"/>
+    <contour>
+      <point x="568" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="568" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="585" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="583" y="1111" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-15 01:49:53 +0000</string>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aring" format="1">
+  <advance width="1394"/>
+  <unicode hex="00C5"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb.case" xOffset="685" yOffset="-4"/>
+    <contour>
+      <point x="680" y="1486" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="698" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="1230" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="680" y="1966" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-08-20 23:39:15 +0000</string>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcedilla.sc" format="1">
+  <advance width="1422"/>
+  <outline>
+    <component base="t.sc"/>
+    <component base="cedillacomb" xOffset="716"/>
+    <contour>
+      <point x="701" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="701" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="701" y="648" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="707" y="-144" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="701" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Tcedilla</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-28 20:25:23 +0000</string>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

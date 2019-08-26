@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecedilla" format="1">
+  <advance width="894"/>
+  <unicode hex="0229"/>
+  <outline>
+    <component base="e"/>
+    <component base="cedillacomb" xOffset="469"/>
+    <contour>
+      <point x="506" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="506" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="560" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="658" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="562" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-15 00:42:42 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

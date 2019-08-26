@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idotless" format="1">
+  <advance width="460"/>
+  <unicode hex="0131"/>
+  <outline>
+    <contour>
+      <point x="162" y="67" type="line"/>
+      <point x="44" y="36" type="line"/>
+      <point x="44" y="0" type="line"/>
+      <point x="420" y="0" type="line"/>
+      <point x="420" y="36" type="line"/>
+      <point x="304" y="67" type="line"/>
+      <point x="304" y="998" type="line"/>
+      <point x="289" y="1010" type="line"/>
+      <point x="232" y="1010" type="line"/>
+      <point x="36" y="958" type="line"/>
+      <point x="36" y="931" type="line"/>
+      <point x="162" y="896" type="line"/>
+    </contour>
+    <contour>
+      <point x="331" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="325" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="411" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="243" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-07-15 19:29:41 +0000</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>
