@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iishorttail-cy.sc" format="1">
+  <advance width="1624"/>
+  <outline>
+    <contour>
+      <point x="1550" y="0" type="curve"/>
+      <point x="1550" y="96" type="line"/>
+      <point x="1326" y="96" type="line"/>
+      <point x="1322" y="0" type="line"/>
+      <point x="1402" y="0" type="line"/>
+      <point x="1392" y="-46"/>
+      <point x="1324" y="-298"/>
+      <point x="1318" y="-320" type="curve"/>
+      <point x="1434" y="-320" type="line"/>
+      <point x="1442" y="-300"/>
+      <point x="1546" y="-12"/>
+    </contour>
+    <component base="ii-cy.sc"/>
+    <component base="brevecomb-cy" xOffset="328" yOffset="162"/>
+    <contour>
+      <point x="1358" y="0" type="move" name="bottomright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-25 05:51:07 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

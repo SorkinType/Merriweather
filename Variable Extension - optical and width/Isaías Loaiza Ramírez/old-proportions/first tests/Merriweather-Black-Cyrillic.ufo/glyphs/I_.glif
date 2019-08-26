@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="1">
+  <advance width="832"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="242" y="154" type="line"/>
+      <point x="81" y="132" type="line"/>
+      <point x="81" y="0" type="line"/>
+      <point x="753" y="0" type="line"/>
+      <point x="753" y="130" type="line"/>
+      <point x="585" y="153" type="line"/>
+      <point x="585" y="1319" type="line"/>
+      <point x="753" y="1347" type="line"/>
+      <point x="753" y="1486" type="line"/>
+      <point x="79" y="1486" type="line"/>
+      <point x="79" y="1347" type="line"/>
+      <point x="242" y="1319" type="line"/>
+    </contour>
+    <contour>
+      <point x="416" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="418" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="718" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="416" y="1486" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="37" y="1486" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-24 14:10:35 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

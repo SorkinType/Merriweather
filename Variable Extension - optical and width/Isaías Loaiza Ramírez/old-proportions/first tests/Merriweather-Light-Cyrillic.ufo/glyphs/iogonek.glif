@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iogonek" format="1">
+  <advance width="648"/>
+  <unicode hex="012F"/>
+  <outline>
+    <contour>
+      <point x="320" y="1320" type="curve"/>
+      <point x="322" y="1320" type="line"/>
+      <point x="404" y="1320"/>
+      <point x="450" y="1370"/>
+      <point x="450" y="1452" type="curve" smooth="yes"/>
+      <point x="450" y="1508"/>
+      <point x="426" y="1566"/>
+      <point x="338" y="1566" type="curve" smooth="yes"/>
+      <point x="258" y="1566"/>
+      <point x="212" y="1510"/>
+      <point x="212" y="1434" type="curve" smooth="yes"/>
+      <point x="212" y="1372"/>
+      <point x="238" y="1320"/>
+    </contour>
+    <contour>
+      <point x="304" y="-486" type="curve" smooth="yes"/>
+      <point x="466" y="-486"/>
+      <point x="536" y="-428"/>
+      <point x="586" y="-390" type="curve"/>
+      <point x="586" y="-304" type="line"/>
+      <point x="552" y="-324"/>
+      <point x="464" y="-382"/>
+      <point x="372" y="-382" type="curve" smooth="yes"/>
+      <point x="298" y="-382"/>
+      <point x="246" y="-340"/>
+      <point x="246" y="-256" type="curve" smooth="yes"/>
+      <point x="246" y="-174"/>
+      <point x="344" y="-53"/>
+      <point x="461" y="0" type="curve"/>
+      <point x="596" y="0" type="line"/>
+      <point x="596" y="86" type="line"/>
+      <point x="422" y="100" type="line"/>
+      <point x="422" y="1102" type="line"/>
+      <point x="382" y="1134" type="line"/>
+      <point x="378" y="1134" type="line"/>
+      <point x="104" y="1102" type="line"/>
+      <point x="104" y="1012" type="line"/>
+      <point x="260" y="978" type="line"/>
+      <point x="260" y="102" type="line"/>
+      <point x="84" y="86" type="line"/>
+      <point x="84" y="0" type="line"/>
+      <point x="328" y="0" type="line"/>
+      <point x="196" y="-65"/>
+      <point x="96" y="-196"/>
+      <point x="96" y="-302" type="curve" smooth="yes"/>
+      <point x="96" y="-424"/>
+      <point x="208" y="-486"/>
+    </contour>
+    <contour>
+      <point x="404" y="20" type="move" name="_ogonek"/>
+    </contour>
+    <contour>
+      <point x="324" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="318" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="404" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="324" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-07 05:45:00 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iishorttail-cy" format="1">
+  <advance width="1472"/>
+  <unicode hex="048B"/>
+  <outline>
+    <contour>
+      <point x="1234" y="-360" type="curve"/>
+      <point x="1344" y="-360" type="line"/>
+      <point x="1362" y="-206"/>
+      <point x="1380" y="-50"/>
+      <point x="1398" y="104" type="curve"/>
+      <point x="1188" y="104" type="line"/>
+      <point x="1218" y="0" type="line"/>
+      <point x="1224" y="-120"/>
+      <point x="1228" y="-240"/>
+    </contour>
+    <component base="ii-cy"/>
+    <component base="brevecomb-cy" xOffset="228"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-25 05:49:40 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>de-cy</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

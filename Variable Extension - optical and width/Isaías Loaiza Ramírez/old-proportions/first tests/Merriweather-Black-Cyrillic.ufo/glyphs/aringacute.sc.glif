@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aringacute.sc" format="1">
+  <advance width="1386"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="ringcomb" xOffset="696" yOffset="191"/>
+    <component base="acutecomb" xOffset="696" yOffset="781"/>
+    <contour>
+      <point x="696" y="1292" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="574" y="-144" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="1252" y="18" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="696" y="1504" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Aringacute</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-26 04:10:50 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>a.sc</string>
+    </dict>
+  </lib>
+</glyph>

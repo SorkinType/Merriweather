@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shhadescender-cy" format="1">
+  <advance width="1427"/>
+  <unicode hex="0527"/>
+  <outline>
+    <contour>
+      <point x="103" y="0" type="line"/>
+      <point x="537" y="0" type="line"/>
+      <point x="537" y="86" type="line"/>
+      <point x="389" y="102" type="line"/>
+      <point x="389" y="880" type="line"/>
+      <point x="473" y="944"/>
+      <point x="609" y="1012"/>
+      <point x="723" y="1012" type="curve" smooth="yes"/>
+      <point x="921" y="1012"/>
+      <point x="953" y="902"/>
+      <point x="953" y="668" type="curve" smooth="yes"/>
+      <point x="953" y="102" type="line"/>
+      <point x="813" y="86" type="line"/>
+      <point x="813" y="0" type="line"/>
+      <point x="1173" y="0" type="line"/>
+      <point x="1185" y="-108"/>
+      <point x="1189" y="-320"/>
+      <point x="1189" y="-360" type="curve"/>
+      <point x="1299" y="-360" type="line"/>
+      <point x="1317" y="-206"/>
+      <point x="1335" y="-50"/>
+      <point x="1353" y="104" type="curve"/>
+      <point x="1115" y="104" type="line"/>
+      <point x="1115" y="666" type="line" smooth="yes"/>
+      <point x="1115" y="996"/>
+      <point x="1047" y="1136"/>
+      <point x="793" y="1136" type="curve" smooth="yes"/>
+      <point x="627" y="1136"/>
+      <point x="451" y="1030"/>
+      <point x="385" y="970" type="curve"/>
+      <point x="389" y="1136" type="line"/>
+      <point x="389" y="1612" type="line"/>
+      <point x="351" y="1638" type="line"/>
+      <point x="347" y="1638" type="line"/>
+      <point x="51" y="1604" type="line"/>
+      <point x="51" y="1530" type="line"/>
+      <point x="229" y="1512" type="line"/>
+      <point x="229" y="100" type="line"/>
+      <point x="103" y="86" type="line"/>
+    </contour>
+    <contour>
+      <point x="675" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="675" y="556" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="739" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="277" y="1602" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-24 18:41:17 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>tse-cy</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

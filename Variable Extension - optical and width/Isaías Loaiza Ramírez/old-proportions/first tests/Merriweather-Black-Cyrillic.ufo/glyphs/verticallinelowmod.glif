@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticallinelowmod" format="1">
+  <advance width="0"/>
+  <unicode hex="02CC"/>
+  <outline>
+    <contour>
+      <point x="114" y="139" type="line"/>
+      <point x="-114" y="139" type="line"/>
+      <point x="-79" y="-521" type="line"/>
+      <point x="79" y="-521" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="0" y="-349" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-07 05:45:00 +0000</string>
+    </dict>
+  </lib>
+</glyph>

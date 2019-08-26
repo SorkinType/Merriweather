@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aogonek" format="1">
+  <advance width="1139"/>
+  <unicode hex="0105"/>
+  <outline>
+    <contour>
+      <point x="395" y="-22" type="curve" smooth="yes"/>
+      <point x="558" y="-22"/>
+      <point x="671" y="68"/>
+      <point x="722" y="133" type="curve"/>
+      <point x="722" y="87" type="line" smooth="yes"/>
+      <point x="722" y="7"/>
+      <point x="742" y="-21"/>
+      <point x="830" y="-23" type="curve"/>
+      <point x="707" y="-93"/>
+      <point x="637" y="-195"/>
+      <point x="637" y="-284" type="curve" smooth="yes"/>
+      <point x="637" y="-426"/>
+      <point x="774" y="-483"/>
+      <point x="899" y="-483" type="curve" smooth="yes"/>
+      <point x="1001" y="-483"/>
+      <point x="1109" y="-446"/>
+      <point x="1163" y="-405" type="curve"/>
+      <point x="1160" y="-269" type="line"/>
+      <point x="1117" y="-286"/>
+      <point x="1084" y="-307"/>
+      <point x="1026" y="-307" type="curve" smooth="yes"/>
+      <point x="942" y="-307"/>
+      <point x="898" y="-267"/>
+      <point x="898" y="-201" type="curve" smooth="yes"/>
+      <point x="898" y="-140"/>
+      <point x="955" y="-58"/>
+      <point x="1058" y="-5" type="curve"/>
+      <point x="1078" y="0"/>
+      <point x="1100" y="3"/>
+      <point x="1115" y="6" type="curve"/>
+      <point x="1115" y="132" type="line"/>
+      <point x="1012" y="132" type="line"/>
+      <point x="1012" y="727" type="line" smooth="yes"/>
+      <point x="1012" y="1020"/>
+      <point x="912" y="1138"/>
+      <point x="592" y="1138" type="curve" smooth="yes"/>
+      <point x="351" y="1138"/>
+      <point x="148" y="1025"/>
+      <point x="98" y="984" type="curve"/>
+      <point x="167" y="840" type="line"/>
+      <point x="231" y="868"/>
+      <point x="351" y="924"/>
+      <point x="508" y="924" type="curve" smooth="yes"/>
+      <point x="674" y="924"/>
+      <point x="706" y="862"/>
+      <point x="706" y="725" type="curve" smooth="yes"/>
+      <point x="706" y="687" type="line"/>
+      <point x="327" y="684"/>
+      <point x="56" y="563"/>
+      <point x="56" y="320" type="curve" smooth="yes"/>
+      <point x="56" y="102"/>
+      <point x="211" y="-22"/>
+    </contour>
+    <contour>
+      <point x="400" y="352" type="curve" smooth="yes"/>
+      <point x="400" y="458"/>
+      <point x="484" y="552"/>
+      <point x="706" y="553" type="curve"/>
+      <point x="706" y="234" type="line"/>
+      <point x="664" y="194"/>
+      <point x="598" y="161"/>
+      <point x="549" y="161" type="curve" smooth="yes"/>
+      <point x="458" y="161"/>
+      <point x="400" y="232"/>
+    </contour>
+    <contour>
+      <point x="980" y="20" type="move" name="_ogonek"/>
+    </contour>
+    <contour>
+      <point x="576" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="544" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="980" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="562" y="1111" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-05-07 05:45:00 +0000</string>
+    </dict>
+  </lib>
+</glyph>
