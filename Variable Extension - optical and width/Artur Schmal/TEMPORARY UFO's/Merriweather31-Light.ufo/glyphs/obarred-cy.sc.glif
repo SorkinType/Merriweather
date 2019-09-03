@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obarred-cy.sc" format="1">
+  <advance width="1244"/>
+  <outline>
+    <contour>
+      <point x="724" y="1310" type="curve"/>
+      <point x="340" y="1310"/>
+      <point x="64" y="970"/>
+      <point x="78" y="530" type="curve"/>
+      <point x="84" y="228"/>
+      <point x="244" y="-18"/>
+      <point x="564" y="-18" type="curve"/>
+      <point x="954" y="-18"/>
+      <point x="1220" y="340"/>
+      <point x="1208" y="762" type="curve"/>
+      <point x="1198" y="1068"/>
+      <point x="1038" y="1310"/>
+    </contour>
+    <contour>
+      <point x="242" y="614" type="curve"/>
+      <point x="1032" y="614" type="line"/>
+      <point x="1004" y="296"/>
+      <point x="824" y="70"/>
+      <point x="584" y="70" type="curve"/>
+      <point x="370" y="70"/>
+      <point x="248" y="272"/>
+      <point x="240" y="546" type="curve"/>
+      <point x="240" y="566"/>
+      <point x="240" y="592"/>
+    </contour>
+    <contour>
+      <point x="1038" y="690" type="curve"/>
+      <point x="246" y="690" type="line"/>
+      <point x="282" y="1002"/>
+      <point x="466" y="1220"/>
+      <point x="702" y="1220" type="curve"/>
+      <point x="918" y="1220"/>
+      <point x="1028" y="1034"/>
+      <point x="1036" y="750" type="curve"/>
+      <point x="1036" y="746"/>
+      <point x="1038" y="714"/>
+    </contour>
+    <contour>
+      <point x="722" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Obarred-cy</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o-cy.sc</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

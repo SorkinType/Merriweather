@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gstroke.sc" format="1">
+  <advance width="1255"/>
+  <outline>
+    <contour>
+      <point x="656" y="362" type="line"/>
+      <point x="638" y="258" type="line"/>
+      <point x="1270" y="258" type="line"/>
+      <point x="1288" y="362" type="line"/>
+    </contour>
+    <component base="g.sc"/>
+    <contour>
+      <point x="629" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="764" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>g.sc</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="enhook-cy" format="1">
+  <advance width="1252"/>
+  <unicode hex="04C8"/>
+  <outline>
+    <contour>
+      <point x="1058" y="123" type="curve"/>
+      <point x="1195" y="1127" type="line"/>
+      <point x="883" y="1127" type="line"/>
+      <point x="815" y="634" type="line"/>
+      <point x="474" y="634" type="line"/>
+      <point x="538" y="1106" type="line"/>
+      <point x="475" y="1136" type="line"/>
+      <point x="116" y="1084" type="line"/>
+      <point x="100" y="999" type="line"/>
+      <point x="204" y="941" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="387" y="0" type="line"/>
+      <point x="455" y="499" type="line"/>
+      <point x="797" y="499" type="line"/>
+      <point x="753" y="187" type="line" smooth="yes"/>
+      <point x="721" y="-46"/>
+      <point x="689" y="-252"/>
+      <point x="503" y="-252" type="curve"/>
+      <point x="494" y="-252"/>
+      <point x="448" y="-248"/>
+      <point x="430" y="-242" type="curve"/>
+      <point x="395" y="-359" type="line"/>
+      <point x="421" y="-383"/>
+      <point x="482" y="-395"/>
+      <point x="559" y="-395" type="curve"/>
+      <point x="802" y="-395"/>
+      <point x="1016" y="-216"/>
+    </contour>
+    <contour>
+      <point x="774" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="690" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>en-cy</string>
+    </dict>
+  </lib>
+</glyph>

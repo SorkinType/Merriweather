@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kadescender-cy" format="1">
+  <advance width="1523"/>
+  <unicode hex="049A"/>
+  <outline>
+    <contour>
+      <point x="1130" y="-406" type="curve"/>
+      <point x="1298" y="-406" type="line"/>
+      <point x="1330" y="-308"/>
+      <point x="1395" y="-84"/>
+      <point x="1432" y="156" type="curve"/>
+      <point x="1033" y="156" type="line"/>
+      <point x="1002" y="0" type="line"/>
+      <point x="1143" y="0" type="line"/>
+      <point x="1156" y="-87"/>
+      <point x="1144" y="-317"/>
+    </contour>
+    <component base="Ka-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>De-cy</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

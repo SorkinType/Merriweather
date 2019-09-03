@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Shha-cy" format="1">
+  <advance width="1270"/>
+  <unicode hex="04BA"/>
+  <outline>
+    <contour>
+      <point x="14" y="80" type="line"/>
+      <point x="2" y="0" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="454" y="80" type="line"/>
+      <point x="306" y="100" type="line"/>
+      <point x="388" y="716" type="line"/>
+      <point x="460" y="762"/>
+      <point x="594" y="790"/>
+      <point x="692" y="790" type="curve"/>
+      <point x="878" y="790"/>
+      <point x="935" y="730"/>
+      <point x="935" y="560" type="curve"/>
+      <point x="935" y="505"/>
+      <point x="929" y="439"/>
+      <point x="920" y="360" type="curve"/>
+      <point x="886" y="102" type="line"/>
+      <point x="740" y="80" type="line"/>
+      <point x="732" y="0" type="line"/>
+      <point x="1170" y="0" type="line"/>
+      <point x="1178" y="82" type="line"/>
+      <point x="1046" y="100" type="line"/>
+      <point x="1094" y="474" type="line"/>
+      <point x="1099" y="517"/>
+      <point x="1102" y="556"/>
+      <point x="1102" y="591" type="curve"/>
+      <point x="1102" y="848"/>
+      <point x="964" y="902"/>
+      <point x="760" y="902" type="curve"/>
+      <point x="650" y="902"/>
+      <point x="508" y="876"/>
+      <point x="400" y="810" type="curve"/>
+      <point x="482" y="1392" type="line"/>
+      <point x="668" y="1416" type="line"/>
+      <point x="674" y="1486" type="line"/>
+      <point x="180" y="1486" type="line"/>
+      <point x="174" y="1416" type="line"/>
+      <point x="324" y="1392" type="line"/>
+      <point x="148" y="100" type="line"/>
+    </contour>
+    <contour>
+      <point x="572" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="538" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="510" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>En-cy</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
