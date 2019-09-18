@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="softhyphen" format="1">
+  <advance width="1153"/>
+  <unicode hex="00AD"/>
+  <outline>
+    <contour>
+      <point x="983" y="603" type="line"/>
+      <point x="198" y="603" type="line"/>
+      <point x="186" y="517" type="line"/>
+      <point x="970" y="517" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>hyphen</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U" format="1">
+  <advance width="1348"/>
+  <unicode hex="0055"/>
+  <outline>
+    <contour>
+      <point x="1206" y="611" type="curve"/>
+      <point x="1324" y="1413" type="line"/>
+      <point x="1453" y="1450" type="line"/>
+      <point x="1455" y="1486" type="line"/>
+      <point x="1063" y="1486" type="line"/>
+      <point x="1058" y="1450" type="line"/>
+      <point x="1228" y="1411" type="line"/>
+      <point x="1138" y="653" type="line" smooth="yes"/>
+      <point x="1093" y="276"/>
+      <point x="993" y="103"/>
+      <point x="737" y="103" type="curve"/>
+      <point x="540" y="103"/>
+      <point x="487" y="241"/>
+      <point x="487" y="391" type="curve"/>
+      <point x="487" y="458"/>
+      <point x="494" y="532"/>
+      <point x="505" y="610" type="curve"/>
+      <point x="615" y="1413" type="line"/>
+      <point x="771" y="1450" type="line"/>
+      <point x="775" y="1486" type="line"/>
+      <point x="138" y="1486" type="line"/>
+      <point x="133" y="1450" type="line"/>
+      <point x="241" y="1413" type="line"/>
+      <point x="131" y="610" type="line" smooth="yes"/>
+      <point x="123" y="552"/>
+      <point x="119" y="499"/>
+      <point x="119" y="449" type="curve"/>
+      <point x="119" y="138"/>
+      <point x="270" y="-20"/>
+      <point x="634" y="-20" type="curve"/>
+      <point x="1048" y="-20"/>
+      <point x="1150" y="227"/>
+    </contour>
+    <contour>
+      <point x="655" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="861" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="866" y="1486" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="1234" y="1483" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iishorttail-cy" format="1">
+  <advance width="1677"/>
+  <unicode hex="048A"/>
+  <outline>
+    <contour>
+      <point x="1251" y="-406" type="curve"/>
+      <point x="1419" y="-406" type="line"/>
+      <point x="1451" y="-303"/>
+      <point x="1516" y="-79"/>
+      <point x="1553" y="156" type="curve"/>
+      <point x="1290" y="156" type="line"/>
+      <point x="1264" y="0" type="line"/>
+      <point x="1277" y="-87"/>
+      <point x="1265" y="-317"/>
+    </contour>
+    <component base="Iishort-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Iishort-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>De-cy</string>
+      <key>public.markColor</key>
+      <string>0.06,0.6,0.98,1</string>
+    </dict>
+  </lib>
+</glyph>

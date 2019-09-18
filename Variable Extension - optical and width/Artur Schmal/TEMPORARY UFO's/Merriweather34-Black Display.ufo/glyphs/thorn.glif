@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thorn" format="1">
+  <advance width="1180"/>
+  <unicode hex="00FE"/>
+  <outline>
+    <contour>
+      <point x="514" y="842" type="curve"/>
+      <point x="626" y="1606" type="line"/>
+      <point x="567" y="1634" type="line"/>
+      <point x="172" y="1580" type="line"/>
+      <point x="167" y="1546" type="line"/>
+      <point x="283" y="1508" type="line"/>
+      <point x="66" y="31" type="line"/>
+      <point x="-8" y="-508" type="line"/>
+      <point x="315" y="-508" type="line"/>
+      <point x="364" y="-175" type="line"/>
+      <point x="376" y="-17" type="line"/>
+      <point x="407" y="-21"/>
+      <point x="438" y="-24"/>
+      <point x="469" y="-24" type="curve"/>
+      <point x="913" y="-24"/>
+      <point x="1127" y="303"/>
+      <point x="1127" y="673" type="curve"/>
+      <point x="1127" y="895"/>
+      <point x="1013" y="1038"/>
+      <point x="808" y="1038" type="curve"/>
+      <point x="659" y="1038"/>
+      <point x="563" y="944"/>
+    </contour>
+    <contour>
+      <point x="398" y="73" type="curve"/>
+      <point x="494" y="712" type="line"/>
+      <point x="526" y="830"/>
+      <point x="617" y="913"/>
+      <point x="697" y="913" type="curve"/>
+      <point x="743" y="913"/>
+      <point x="776" y="864"/>
+      <point x="776" y="704" type="curve"/>
+      <point x="776" y="473"/>
+      <point x="684" y="31"/>
+      <point x="481" y="31" type="curve"/>
+      <point x="431" y="31"/>
+      <point x="410" y="49"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>b</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

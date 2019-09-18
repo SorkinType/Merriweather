@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="schwa-cy.sc" format="1">
+  <advance width="1267"/>
+  <outline>
+    <contour>
+      <point x="224" y="1214" type="curve"/>
+      <point x="170" y="895" type="line"/>
+      <point x="348" y="895" type="line"/>
+      <point x="427" y="1117" type="line" smooth="yes"/>
+      <point x="454" y="1193"/>
+      <point x="544" y="1256"/>
+      <point x="642" y="1256" type="curve"/>
+      <point x="836" y="1256"/>
+      <point x="856" y="967"/>
+      <point x="827" y="630" type="curve"/>
+      <point x="827" y="631"/>
+      <point x="825" y="632"/>
+      <point x="824" y="631" type="curve"/>
+      <point x="94" y="632" type="line"/>
+      <point x="74" y="589"/>
+      <point x="40" y="491"/>
+      <point x="40" y="373" type="curve"/>
+      <point x="40" y="105"/>
+      <point x="212" y="-20"/>
+      <point x="480" y="-20" type="curve"/>
+      <point x="924" y="-20"/>
+      <point x="1180" y="376"/>
+      <point x="1180" y="820" type="curve"/>
+      <point x="1180" y="1145"/>
+      <point x="994" y="1305"/>
+      <point x="669" y="1305" type="curve"/>
+      <point x="449" y="1305"/>
+      <point x="313" y="1214"/>
+    </contour>
+    <contour>
+      <point x="411" y="567" type="curve"/>
+      <point x="821" y="569" type="line"/>
+      <point x="780" y="225"/>
+      <point x="678" y="30"/>
+      <point x="521" y="30" type="curve"/>
+      <point x="387" y="30"/>
+      <point x="367" y="158"/>
+      <point x="367" y="292" type="curve"/>
+      <point x="367" y="398"/>
+      <point x="391" y="511"/>
+    </contour>
+    <contour>
+      <point x="676" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Schwa-cy</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Shhadescender-cy" format="1">
+  <advance width="1486"/>
+  <unicode hex="0526"/>
+  <outline>
+    <contour>
+      <point x="1098" y="-410" type="curve"/>
+      <point x="1249" y="-410" type="line"/>
+      <point x="1280" y="-332"/>
+      <point x="1366" y="-68"/>
+      <point x="1394" y="72" type="curve"/>
+      <point x="951" y="72" type="line"/>
+      <point x="1018" y="0" type="line"/>
+      <point x="1123" y="0" type="line"/>
+      <point x="1130" y="-87"/>
+      <point x="1111" y="-292"/>
+    </contour>
+    <component base="Shha-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Shha-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Tse-cy</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

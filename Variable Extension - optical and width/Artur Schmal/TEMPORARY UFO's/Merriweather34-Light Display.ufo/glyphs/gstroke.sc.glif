@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gstroke.sc" format="1">
+  <advance width="1223"/>
+  <outline>
+    <contour>
+      <point x="668" y="356" type="line"/>
+      <point x="659" y="286" type="line"/>
+      <point x="1194" y="286" type="line"/>
+      <point x="1203" y="356" type="line"/>
+    </contour>
+    <component base="g.sc"/>
+    <contour>
+      <point x="603" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="754" y="1383" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>g.sc</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tshe-cy" format="1">
+  <advance width="1607"/>
+  <unicode hex="040B"/>
+  <outline>
+    <contour>
+      <point x="259" y="36" type="line"/>
+      <point x="254" y="0" type="line"/>
+      <point x="776" y="0" type="line"/>
+      <point x="781" y="36" type="line"/>
+      <point x="621" y="67" type="line"/>
+      <point x="716" y="761" type="line"/>
+      <point x="803" y="804"/>
+      <point x="942" y="821"/>
+      <point x="998" y="821" type="curve"/>
+      <point x="1203" y="821"/>
+      <point x="1262" y="729"/>
+      <point x="1262" y="559" type="curve"/>
+      <point x="1262" y="501"/>
+      <point x="1253" y="434"/>
+      <point x="1242" y="360" type="curve"/>
+      <point x="1197" y="66" type="line"/>
+      <point x="1061" y="36" type="line"/>
+      <point x="1056" y="0" type="line"/>
+      <point x="1485" y="0" type="line"/>
+      <point x="1490" y="36" type="line"/>
+      <point x="1354" y="66" type="line"/>
+      <point x="1414" y="474" type="line" smooth="yes"/>
+      <point x="1418" y="502"/>
+      <point x="1420" y="530"/>
+      <point x="1420" y="555" type="curve"/>
+      <point x="1420" y="785"/>
+      <point x="1291" y="900"/>
+      <point x="1043" y="900" type="curve"/>
+      <point x="968" y="900"/>
+      <point x="828" y="876"/>
+      <point x="725" y="827" type="curve"/>
+      <point x="807" y="1421" type="line"/>
+      <point x="1151" y="1405" type="line"/>
+      <point x="1179" y="1060" type="line"/>
+      <point x="1239" y="1062" type="line"/>
+      <point x="1274" y="1486" type="line"/>
+      <point x="212" y="1486" type="line"/>
+      <point x="121" y="1062" type="line"/>
+      <point x="183" y="1064" type="line"/>
+      <point x="319" y="1405" type="line"/>
+      <point x="651" y="1421" type="line"/>
+      <point x="465" y="67" type="line"/>
+    </contour>
+    <contour>
+      <point x="530" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="740" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Shha-cy</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

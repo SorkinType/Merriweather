@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ertick-cy.sc" format="1">
+  <advance width="1081"/>
+  <outline>
+    <contour>
+      <point x="35" y="35" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="535" y="0" type="line"/>
+      <point x="540" y="35" type="line"/>
+      <point x="326" y="65" type="line"/>
+      <point x="493" y="1257" type="line"/>
+      <point x="455" y="1235" type="line"/>
+      <point x="512" y="1242"/>
+      <point x="618" y="1253"/>
+      <point x="673" y="1253" type="curve"/>
+      <point x="863" y="1253"/>
+      <point x="938" y="1102"/>
+      <point x="938" y="949" type="curve"/>
+      <point x="938" y="658"/>
+      <point x="819" y="477"/>
+      <point x="556" y="477" type="curve"/>
+      <point x="506" y="477"/>
+      <point x="421" y="485"/>
+      <point x="368" y="496" type="curve"/>
+      <point x="358" y="437" type="line"/>
+      <point x="411" y="429"/>
+      <point x="477" y="423"/>
+      <point x="555" y="423" type="curve"/>
+      <point x="867" y="423"/>
+      <point x="1108" y="599"/>
+      <point x="1108" y="919" type="curve"/>
+      <point x="1108" y="1194"/>
+      <point x="975" y="1303"/>
+      <point x="699" y="1303" type="curve"/>
+      <point x="600" y="1303"/>
+      <point x="520" y="1291"/>
+      <point x="421" y="1291" type="curve"/>
+      <point x="209" y="1291" type="line"/>
+      <point x="204" y="1256" type="line"/>
+      <point x="330" y="1230" type="line"/>
+      <point x="169" y="61" type="line"/>
+    </contour>
+    <contour>
+      <point x="936" y="252" type="line"/>
+      <point x="984" y="284" type="line"/>
+      <point x="654" y="752" type="line"/>
+      <point x="606" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="-144" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="760" y="1292" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Ertick-cy</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

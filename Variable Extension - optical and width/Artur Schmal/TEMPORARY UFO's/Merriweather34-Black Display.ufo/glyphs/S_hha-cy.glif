@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Shha-cy" format="1">
+  <advance width="1462"/>
+  <unicode hex="04BA"/>
+  <outline>
+    <contour>
+      <point x="-10" y="38" type="line"/>
+      <point x="-14" y="0" type="line"/>
+      <point x="595" y="0" type="line"/>
+      <point x="600" y="38" type="line"/>
+      <point x="482" y="73" type="line"/>
+      <point x="579" y="778" type="line"/>
+      <point x="623" y="806"/>
+      <point x="717" y="835"/>
+      <point x="786" y="835" type="curve"/>
+      <point x="906" y="835"/>
+      <point x="948" y="783"/>
+      <point x="948" y="640" type="curve"/>
+      <point x="948" y="564"/>
+      <point x="936" y="463"/>
+      <point x="918" y="331" type="curve"/>
+      <point x="882" y="73" type="line"/>
+      <point x="763" y="36" type="line"/>
+      <point x="759" y="0" type="line"/>
+      <point x="1368" y="0" type="line"/>
+      <point x="1373" y="36" type="line"/>
+      <point x="1254" y="73" type="line"/>
+      <point x="1308" y="460" type="line" smooth="yes"/>
+      <point x="1315" y="508"/>
+      <point x="1320" y="557"/>
+      <point x="1320" y="603" type="curve"/>
+      <point x="1320" y="774"/>
+      <point x="1248" y="920"/>
+      <point x="906" y="920" type="curve"/>
+      <point x="788" y="920"/>
+      <point x="677" y="894"/>
+      <point x="589" y="850" type="curve"/>
+      <point x="666" y="1414" type="line"/>
+      <point x="796" y="1448" type="line"/>
+      <point x="801" y="1486" type="line"/>
+      <point x="167" y="1486" type="line"/>
+      <point x="160" y="1448" type="line"/>
+      <point x="292" y="1414" type="line"/>
+      <point x="108" y="73" type="line"/>
+    </contour>
+    <contour>
+      <point x="611" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="834" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="808" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>En-cy</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

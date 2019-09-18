@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kgreenlandic" format="1">
+  <advance width="1157"/>
+  <unicode hex="0138"/>
+  <outline>
+    <contour>
+      <point x="931" y="265" type="curve"/>
+      <point x="682" y="772" type="line"/>
+      <point x="650" y="547" type="line"/>
+      <point x="1167" y="1110" type="line"/>
+      <point x="884" y="1110" type="line"/>
+      <point x="473" y="595" type="line"/>
+      <point x="658" y="98" type="line" smooth="yes"/>
+      <point x="685" y="29"/>
+      <point x="736" y="-18"/>
+      <point x="849" y="-18" type="curve"/>
+      <point x="1013" y="-18"/>
+      <point x="1143" y="104"/>
+      <point x="1180" y="151" type="curve"/>
+      <point x="1148" y="219" type="line"/>
+      <point x="1110" y="191"/>
+      <point x="1059" y="176"/>
+      <point x="1035" y="176" type="curve"/>
+      <point x="1003" y="176"/>
+      <point x="961" y="206"/>
+    </contour>
+    <contour>
+      <point x="533" y="1112" type="line"/>
+      <point x="481" y="1136" type="line"/>
+      <point x="122" y="1084" type="line"/>
+      <point x="106" y="999" type="line"/>
+      <point x="210" y="942" type="line"/>
+      <point x="82" y="0" type="line"/>
+      <point x="393" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="574" y="-126" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>k</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

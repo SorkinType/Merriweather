@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B" format="1">
+  <advance width="1296"/>
+  <unicode hex="0042"/>
+  <outline>
+    <contour>
+      <point x="-52" y="38" type="line"/>
+      <point x="-57" y="0" type="line"/>
+      <point x="245" y="0" type="line" smooth="yes"/>
+      <point x="370" y="0"/>
+      <point x="422" y="-20"/>
+      <point x="627" y="-20" type="curve"/>
+      <point x="984" y="-20"/>
+      <point x="1264" y="118"/>
+      <point x="1264" y="465" type="curve"/>
+      <point x="1264" y="642"/>
+      <point x="1138" y="776"/>
+      <point x="890" y="777" type="curve"/>
+      <point x="1136" y="817"/>
+      <point x="1273" y="970"/>
+      <point x="1273" y="1193" type="curve"/>
+      <point x="1273" y="1344"/>
+      <point x="1147" y="1502"/>
+      <point x="805" y="1502" type="curve"/>
+      <point x="594" y="1502"/>
+      <point x="583" y="1486"/>
+      <point x="451" y="1486" type="curve"/>
+      <point x="149" y="1486" type="line"/>
+      <point x="144" y="1450" type="line"/>
+      <point x="262" y="1413" type="line"/>
+      <point x="78" y="72" type="line"/>
+    </contour>
+    <contour>
+      <point x="598" y="40" type="curve"/>
+      <point x="503" y="40"/>
+      <point x="450" y="65"/>
+      <point x="341" y="92" type="curve"/>
+      <point x="436" y="5" type="line"/>
+      <point x="537" y="742" type="line"/>
+      <point x="492" y="720" type="line"/>
+      <point x="512" y="727"/>
+      <point x="551" y="730"/>
+      <point x="642" y="730" type="curve"/>
+      <point x="786" y="730"/>
+      <point x="893" y="655"/>
+      <point x="893" y="481" type="curve"/>
+      <point x="893" y="204"/>
+      <point x="779" y="40"/>
+    </contour>
+    <contour>
+      <point x="650" y="794" type="curve"/>
+      <point x="549" y="794"/>
+      <point x="535" y="792"/>
+      <point x="513" y="796" type="curve"/>
+      <point x="540" y="770" type="line"/>
+      <point x="638" y="1476" type="line"/>
+      <point x="503" y="1344" type="line"/>
+      <point x="625" y="1437"/>
+      <point x="638" y="1442"/>
+      <point x="708" y="1442" type="curve"/>
+      <point x="830" y="1442"/>
+      <point x="920" y="1349"/>
+      <point x="920" y="1183" type="curve"/>
+      <point x="920" y="934"/>
+      <point x="778" y="794"/>
+    </contour>
+    <contour>
+      <point x="524" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="745" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

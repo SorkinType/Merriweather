@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o.sc" format="1">
+  <advance width="1402"/>
+  <outline>
+    <contour>
+      <point x="616" y="-18" type="curve"/>
+      <point x="1146" y="-18"/>
+      <point x="1348" y="378"/>
+      <point x="1348" y="744" type="curve"/>
+      <point x="1348" y="1048"/>
+      <point x="1192" y="1310"/>
+      <point x="794" y="1310" type="curve"/>
+      <point x="286" y="1310"/>
+      <point x="58" y="932"/>
+      <point x="60" y="558" type="curve"/>
+      <point x="60" y="226"/>
+      <point x="222" y="-18"/>
+    </contour>
+    <contour>
+      <point x="640" y="94" type="curve"/>
+      <point x="498" y="94"/>
+      <point x="426" y="250"/>
+      <point x="426" y="570" type="curve"/>
+      <point x="426" y="878"/>
+      <point x="544" y="1198"/>
+      <point x="768" y="1198" type="curve"/>
+      <point x="912" y="1198"/>
+      <point x="982" y="1050"/>
+      <point x="982" y="724" type="curve"/>
+      <point x="982" y="380"/>
+      <point x="878" y="94"/>
+    </contour>
+    <contour>
+      <point x="624" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="712" y="648" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="834" y="18" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="800" y="1292" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="154" y="1292" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="1054" y="1264" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>O</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

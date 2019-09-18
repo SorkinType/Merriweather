@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="komidje-cy" format="1">
+  <advance width="1409"/>
+  <unicode hex="0503"/>
+  <outline>
+    <contour>
+      <point x="1346" y="379" type="curve"/>
+      <point x="1381" y="628" type="line"/>
+      <point x="1263" y="628" type="line"/>
+      <point x="1227" y="373" type="line" smooth="yes"/>
+      <point x="1199" y="173"/>
+      <point x="1121" y="22"/>
+      <point x="996" y="22" type="curve"/>
+      <point x="837" y="22"/>
+      <point x="840" y="227"/>
+      <point x="863" y="383" type="curve"/>
+      <point x="1047" y="1618" type="line"/>
+      <point x="1028" y="1634" type="line"/>
+      <point x="752" y="1597" type="line"/>
+      <point x="747" y="1571" type="line"/>
+      <point x="895" y="1548" type="line"/>
+      <point x="815" y="1010" type="line"/>
+      <point x="774" y="1025"/>
+      <point x="721" y="1035"/>
+      <point x="659" y="1035" type="curve"/>
+      <point x="292" y="1035"/>
+      <point x="64" y="678"/>
+      <point x="64" y="355" type="curve"/>
+      <point x="64" y="131"/>
+      <point x="157" y="-21"/>
+      <point x="358" y="-21" type="curve"/>
+      <point x="481" y="-21"/>
+      <point x="623" y="63"/>
+      <point x="727" y="237" type="curve"/>
+      <point x="732" y="67"/>
+      <point x="821" y="-22"/>
+      <point x="980" y="-22" type="curve"/>
+      <point x="1176" y="-22"/>
+      <point x="1307" y="101"/>
+    </contour>
+    <contour>
+      <point x="215" y="340" type="curve"/>
+      <point x="215" y="622"/>
+      <point x="380" y="993"/>
+      <point x="657" y="993" type="curve"/>
+      <point x="738" y="993"/>
+      <point x="779" y="958"/>
+      <point x="800" y="908" type="curve"/>
+      <point x="720" y="379" type="line"/>
+      <point x="675" y="175"/>
+      <point x="509" y="43"/>
+      <point x="379" y="43" type="curve"/>
+      <point x="277" y="43"/>
+      <point x="215" y="145"/>
+    </contour>
+    <contour>
+      <point x="722" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1046" y="1622" type="move" name="caron"/>
+    </contour>
+    <contour>
+      <point x="460" y="1226" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

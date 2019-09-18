@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ustraitstroke-cy.sc" format="1">
+  <advance width="1123"/>
+  <outline>
+    <contour>
+      <point x="954" y="494" type="line"/>
+      <point x="962" y="552" type="line"/>
+      <point x="186" y="552" type="line"/>
+      <point x="179" y="494" type="line"/>
+    </contour>
+    <component base="y.sc" xOffset="45"/>
+    <contour>
+      <point x="531" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="544" y="-144" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="723" y="1292" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="190" y="1292" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Ustraitstroke-cy</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ustrait-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ustrait-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

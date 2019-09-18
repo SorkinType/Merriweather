@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="a" format="1">
+  <advance width="983"/>
+  <unicode hex="0061"/>
+  <outline>
+    <contour>
+      <point x="776" y="141" type="curve"/>
+      <point x="916" y="1025" type="line"/>
+      <point x="819" y="983" type="line"/>
+      <point x="776" y="1003"/>
+      <point x="715" y="1025"/>
+      <point x="627" y="1025" type="curve"/>
+      <point x="292" y="1025"/>
+      <point x="59" y="688"/>
+      <point x="59" y="318" type="curve"/>
+      <point x="59" y="133"/>
+      <point x="149" y="-21"/>
+      <point x="340" y="-21" type="curve"/>
+      <point x="438" y="-21"/>
+      <point x="595" y="96"/>
+      <point x="649" y="248" type="curve"/>
+      <point x="628" y="130" type="line"/>
+      <point x="614" y="33"/>
+      <point x="657" y="-21"/>
+      <point x="736" y="-21" type="curve"/>
+      <point x="836" y="-21"/>
+      <point x="904" y="55"/>
+      <point x="927" y="94" type="curve"/>
+      <point x="909" y="124" type="line"/>
+      <point x="875" y="80"/>
+      <point x="834" y="58"/>
+      <point x="810" y="58" type="curve"/>
+      <point x="779" y="58"/>
+      <point x="766" y="80"/>
+    </contour>
+    <contour>
+      <point x="756" y="904" type="curve"/>
+      <point x="664" y="374" type="line"/>
+      <point x="619" y="171"/>
+      <point x="457" y="43"/>
+      <point x="363" y="43" type="curve"/>
+      <point x="260" y="43"/>
+      <point x="209" y="161"/>
+      <point x="209" y="311" type="curve"/>
+      <point x="209" y="638"/>
+      <point x="378" y="983"/>
+      <point x="625" y="983" type="curve"/>
+      <point x="691" y="983"/>
+      <point x="736" y="953"/>
+    </contour>
+    <contour>
+      <point x="424" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1020" y="1622" type="move" name="caron"/>
+    </contour>
+    <contour>
+      <point x="892" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="659" y="1108" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.06,0.6,0.98,1</string>
+    </dict>
+  </lib>
+</glyph>

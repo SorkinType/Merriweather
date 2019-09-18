@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aring" format="1">
+  <advance width="1322"/>
+  <unicode hex="00C5"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb.case" xOffset="662"/>
+    <contour>
+      <point x="577" y="-166" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="864" y="2094" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>A</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ringcomb.case</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

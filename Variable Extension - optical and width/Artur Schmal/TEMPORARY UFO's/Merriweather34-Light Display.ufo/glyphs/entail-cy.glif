@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="entail-cy" format="1">
+  <advance width="1043"/>
+  <unicode hex="04CA"/>
+  <outline>
+    <contour>
+      <point x="809" y="123" type="curve"/>
+      <point x="925" y="1005" type="line"/>
+      <point x="787" y="1005" type="line"/>
+      <point x="723" y="547" type="line"/>
+      <point x="290" y="547" type="line"/>
+      <point x="356" y="1005" type="line"/>
+      <point x="324" y="1025" type="line"/>
+      <point x="80" y="979" type="line"/>
+      <point x="76" y="954" type="line"/>
+      <point x="204" y="923" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="216" y="0" type="line"/>
+      <point x="283" y="486" type="line"/>
+      <point x="716" y="486" type="line"/>
+      <point x="668" y="125" type="line" smooth="yes"/>
+      <point x="654" y="22"/>
+      <point x="701" y="-21"/>
+      <point x="756" y="-21" type="curve"/>
+      <point x="771" y="-21"/>
+      <point x="787" y="-19"/>
+      <point x="794" y="-17" type="curve"/>
+      <point x="737" y="-195"/>
+      <point x="622" y="-332"/>
+      <point x="513" y="-392" type="curve"/>
+      <point x="532" y="-420" type="line"/>
+      <point x="728" y="-345"/>
+      <point x="939" y="-99"/>
+      <point x="960" y="92" type="curve"/>
+      <point x="939" y="124" type="line"/>
+      <point x="899" y="75"/>
+      <point x="864" y="58"/>
+      <point x="838" y="58" type="curve"/>
+      <point x="817" y="58"/>
+      <point x="803" y="74"/>
+    </contour>
+    <contour>
+      <point x="806" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="718" y="1660" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>en-cy</string>
+    </dict>
+  </lib>
+</glyph>

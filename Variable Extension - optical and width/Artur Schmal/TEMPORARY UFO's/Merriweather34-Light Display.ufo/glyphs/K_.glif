@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="K" format="1">
+  <advance width="1290"/>
+  <unicode hex="004B"/>
+  <outline>
+    <contour>
+      <point x="-1" y="36" type="line"/>
+      <point x="-6" y="0" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="451" y="36" type="line"/>
+      <point x="301" y="67" type="line"/>
+      <point x="487" y="1420" type="line"/>
+      <point x="623" y="1450" type="line"/>
+      <point x="628" y="1486" type="line"/>
+      <point x="200" y="1486" type="line"/>
+      <point x="195" y="1450" type="line"/>
+      <point x="331" y="1420" type="line"/>
+      <point x="145" y="67" type="line"/>
+    </contour>
+    <contour>
+      <point x="358" y="583" type="line"/>
+      <point x="345" y="479" type="line"/>
+      <point x="1209" y="1425" type="line"/>
+      <point x="1344" y="1450" type="line"/>
+      <point x="1351" y="1486" type="line"/>
+      <point x="953" y="1486" type="line"/>
+      <point x="949" y="1450" type="line"/>
+      <point x="1105" y="1423" type="line"/>
+    </contour>
+    <contour>
+      <point x="987" y="0" type="curve"/>
+      <point x="1219" y="0" type="line"/>
+      <point x="1224" y="36" type="line"/>
+      <point x="1111" y="68" type="line"/>
+      <point x="1075" y="95"/>
+      <point x="1009" y="217"/>
+      <point x="906" y="404" type="curve"/>
+      <point x="846" y="513"/>
+      <point x="716" y="732"/>
+      <point x="662" y="834" type="curve"/>
+      <point x="565" y="732" type="line"/>
+      <point x="614" y="640"/>
+      <point x="711" y="454"/>
+      <point x="771" y="342" type="curve"/>
+      <point x="846" y="203"/>
+      <point x="941" y="4"/>
+    </contour>
+    <contour>
+      <point x="686" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="830" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

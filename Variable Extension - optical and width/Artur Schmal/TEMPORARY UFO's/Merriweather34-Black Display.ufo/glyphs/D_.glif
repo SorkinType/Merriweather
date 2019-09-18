@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="D" format="1">
+  <advance width="1413"/>
+  <unicode hex="0044"/>
+  <outline>
+    <contour>
+      <point x="-52" y="38" type="line"/>
+      <point x="-57" y="0" type="line"/>
+      <point x="244" y="0" type="line"/>
+      <point x="329" y="0"/>
+      <point x="486" y="-23"/>
+      <point x="596" y="-23" type="curve"/>
+      <point x="1148" y="-23"/>
+      <point x="1417" y="404"/>
+      <point x="1417" y="923" type="curve"/>
+      <point x="1417" y="1221"/>
+      <point x="1283" y="1502"/>
+      <point x="848" y="1502" type="curve"/>
+      <point x="732" y="1502"/>
+      <point x="602" y="1486"/>
+      <point x="459" y="1486" type="curve"/>
+      <point x="149" y="1486" type="line"/>
+      <point x="144" y="1450" type="line"/>
+      <point x="262" y="1413" type="line"/>
+      <point x="78" y="72" type="line"/>
+    </contour>
+    <contour>
+      <point x="584" y="34" type="curve"/>
+      <point x="465" y="34"/>
+      <point x="467" y="67"/>
+      <point x="355" y="79" type="curve"/>
+      <point x="446" y="29" type="line"/>
+      <point x="642" y="1458" type="line"/>
+      <point x="606" y="1410" type="line"/>
+      <point x="634" y="1424"/>
+      <point x="673" y="1447"/>
+      <point x="774" y="1447" type="curve"/>
+      <point x="981" y="1447"/>
+      <point x="1038" y="1262"/>
+      <point x="1038" y="941" type="curve"/>
+      <point x="1038" y="573"/>
+      <point x="944" y="34"/>
+    </contour>
+    <contour>
+      <point x="567" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="781" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

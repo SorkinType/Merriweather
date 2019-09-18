@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="De-cy" format="1">
+  <advance width="1514"/>
+  <unicode hex="0414"/>
+  <outline>
+    <contour>
+      <point x="-86" y="-410" type="curve"/>
+      <point x="81" y="-410" type="line"/>
+      <point x="123" y="-282"/>
+      <point x="179" y="-126"/>
+      <point x="235" y="0" type="curve"/>
+      <point x="1153" y="0" type="line"/>
+      <point x="1147" y="-104"/>
+      <point x="1142" y="-291"/>
+      <point x="1125" y="-410" type="curve"/>
+      <point x="1279" y="-410" type="line"/>
+      <point x="1307" y="-337"/>
+      <point x="1395" y="-84"/>
+      <point x="1422" y="72" type="curve"/>
+      <point x="1216" y="72" type="line"/>
+      <point x="1400" y="1413" type="line"/>
+      <point x="1531" y="1448" type="line"/>
+      <point x="1533" y="1486" type="line"/>
+      <point x="470" y="1486" type="line"/>
+      <point x="465" y="1448" type="line"/>
+      <point x="601" y="1413" type="line"/>
+      <point x="586" y="1313" type="line" smooth="yes"/>
+      <point x="525" y="907"/>
+      <point x="351" y="290"/>
+      <point x="149" y="72" type="curve"/>
+      <point x="-6" y="72" type="line"/>
+      <point x="-31" y="-64"/>
+      <point x="-75" y="-314"/>
+    </contour>
+    <contour>
+      <point x="842" y="72" type="line"/>
+      <point x="296" y="72" type="line"/>
+      <point x="460" y="300"/>
+      <point x="616" y="874"/>
+      <point x="677" y="1307" type="curve"/>
+      <point x="692" y="1413" type="line"/>
+      <point x="1026" y="1413" type="line"/>
+    </contour>
+    <contour>
+      <point x="473" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="834" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

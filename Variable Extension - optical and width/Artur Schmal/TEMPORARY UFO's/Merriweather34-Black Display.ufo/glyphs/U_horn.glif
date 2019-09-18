@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorn" format="1">
+  <advance width="1510"/>
+  <unicode hex="01AF"/>
+  <outline>
+    <contour>
+      <point x="1206" y="611" type="curve"/>
+      <point x="1324" y="1413" type="line"/>
+      <point x="1437" y="1450" type="line"/>
+      <point x="1439" y="1486" type="line"/>
+      <point x="1083" y="1486" type="line"/>
+      <point x="1078" y="1450" type="line"/>
+      <point x="1234" y="1413" type="line"/>
+      <point x="1132" y="612" type="line" smooth="yes"/>
+      <point x="1091" y="287"/>
+      <point x="993" y="103"/>
+      <point x="737" y="103" type="curve"/>
+      <point x="540" y="103"/>
+      <point x="487" y="241"/>
+      <point x="487" y="391" type="curve"/>
+      <point x="487" y="458"/>
+      <point x="494" y="532"/>
+      <point x="505" y="610" type="curve"/>
+      <point x="615" y="1413" type="line"/>
+      <point x="771" y="1450" type="line"/>
+      <point x="775" y="1486" type="line"/>
+      <point x="138" y="1486" type="line"/>
+      <point x="133" y="1450" type="line"/>
+      <point x="241" y="1413" type="line"/>
+      <point x="131" y="610" type="line" smooth="yes"/>
+      <point x="123" y="552"/>
+      <point x="119" y="499"/>
+      <point x="119" y="449" type="curve"/>
+      <point x="119" y="138"/>
+      <point x="270" y="-20"/>
+      <point x="634" y="-20" type="curve"/>
+      <point x="1048" y="-20"/>
+      <point x="1150" y="227"/>
+    </contour>
+    <contour>
+      <point x="1644" y="1727" type="curve"/>
+      <point x="1421" y="1727" type="line"/>
+      <point x="1423" y="1715"/>
+      <point x="1424" y="1704"/>
+      <point x="1424" y="1692" type="curve"/>
+      <point x="1426" y="1628"/>
+      <point x="1402" y="1486"/>
+      <point x="1196" y="1486" type="curve"/>
+      <point x="1241" y="1410" type="line"/>
+      <point x="1430" y="1410"/>
+      <point x="1661" y="1442"/>
+      <point x="1661" y="1651" type="curve"/>
+      <point x="1661" y="1688"/>
+      <point x="1653" y="1707"/>
+    </contour>
+    <contour>
+      <point x="761" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="902" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>U</string>
+    </dict>
+  </lib>
+</glyph>

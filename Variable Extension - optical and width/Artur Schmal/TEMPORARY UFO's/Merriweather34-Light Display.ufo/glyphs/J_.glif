@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J" format="1">
+  <advance width="617"/>
+  <unicode hex="004A"/>
+  <outline>
+    <contour>
+      <point x="-180" y="-266" type="curve"/>
+      <point x="-159" y="-309" type="line"/>
+      <point x="43" y="-275"/>
+      <point x="273" y="-164"/>
+      <point x="327" y="74" type="curve"/>
+      <point x="365" y="241"/>
+      <point x="435" y="766"/>
+      <point x="507" y="1420" type="curve"/>
+      <point x="643" y="1450" type="line"/>
+      <point x="648" y="1486" type="line"/>
+      <point x="216" y="1486" type="line"/>
+      <point x="211" y="1450" type="line"/>
+      <point x="352" y="1420" type="line"/>
+      <point x="304" y="994"/>
+      <point x="240" y="406"/>
+      <point x="174" y="88" type="curve"/>
+      <point x="141" y="-70"/>
+      <point x="38" y="-209"/>
+    </contour>
+    <contour>
+      <point x="315" y="-164" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="511" y="1486" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

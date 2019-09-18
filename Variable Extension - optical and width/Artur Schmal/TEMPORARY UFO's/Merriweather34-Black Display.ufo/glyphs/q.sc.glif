@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="q.sc" format="1">
+  <advance width="1293"/>
+  <outline>
+    <contour>
+      <point x="898" y="-370" type="curve"/>
+      <point x="1122" y="-370"/>
+      <point x="1249" y="-273"/>
+      <point x="1296" y="-237" type="curve"/>
+      <point x="1295" y="-83" type="line"/>
+      <point x="1222" y="-107"/>
+      <point x="1130" y="-138"/>
+      <point x="983" y="-138" type="curve"/>
+      <point x="829" y="-138"/>
+      <point x="715" y="-129"/>
+      <point x="715" y="6" type="curve"/>
+      <point x="672" y="10" type="line"/>
+      <point x="633" y="-53"/>
+      <point x="614" y="-112"/>
+      <point x="614" y="-164" type="curve"/>
+      <point x="614" y="-288"/>
+      <point x="722" y="-370"/>
+    </contour>
+    <component base="o.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Q</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o.sc</string>
+    </dict>
+  </lib>
+</glyph>

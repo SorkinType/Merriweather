@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hardsign-cy.sc" format="1">
+  <advance width="1609"/>
+  <outline>
+    <contour>
+      <point x="882" y="754" type="curve"/>
+      <point x="947" y="1225" type="line"/>
+      <point x="1077" y="1257" type="line"/>
+      <point x="1081" y="1292" type="line"/>
+      <point x="174" y="1292" type="line"/>
+      <point x="117" y="893" type="line"/>
+      <point x="280" y="893" type="line"/>
+      <point x="430" y="1234" type="line"/>
+      <point x="594" y="1243" type="line"/>
+      <point x="433" y="67" type="line"/>
+      <point x="316" y="35" type="line"/>
+      <point x="312" y="0" type="line"/>
+      <point x="526" y="0" type="line" smooth="yes"/>
+      <point x="655" y="0"/>
+      <point x="794" y="-18"/>
+      <point x="919" y="-18" type="curve"/>
+      <point x="1239" y="-18"/>
+      <point x="1530" y="93"/>
+      <point x="1530" y="413" type="curve"/>
+      <point x="1530" y="685"/>
+      <point x="1313" y="772"/>
+      <point x="1041" y="772" type="curve"/>
+      <point x="981" y="772"/>
+      <point x="923" y="764"/>
+    </contour>
+    <contour>
+      <point x="788" y="63" type="curve"/>
+      <point x="874" y="691" type="line"/>
+      <point x="898" y="697"/>
+      <point x="935" y="701"/>
+      <point x="960" y="701" type="curve"/>
+      <point x="1122" y="701"/>
+      <point x="1161" y="589"/>
+      <point x="1161" y="427" type="curve"/>
+      <point x="1161" y="242"/>
+      <point x="1098" y="40"/>
+      <point x="913" y="40" type="curve"/>
+      <point x="846" y="40"/>
+      <point x="809" y="53"/>
+    </contour>
+    <contour>
+      <point x="559" y="-144" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="617" y="1444" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Hardsign-cy</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

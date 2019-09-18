@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblbase.ss01" format="1">
+  <advance width="1135"/>
+  <outline>
+    <component base="quotereversed.ss01" xOffset="-200" yOffset="-1394"/>
+    <component base="quotereversed.ss01" xOffset="266" yOffset="-1394"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>quotereversed.ss01</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>quotereversed.ss01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>comma</string>
+    </dict>
+  </lib>
+</glyph>

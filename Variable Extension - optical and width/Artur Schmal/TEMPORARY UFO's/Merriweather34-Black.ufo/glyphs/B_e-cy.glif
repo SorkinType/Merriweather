@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Be-cy" format="1">
+  <advance width="1331"/>
+  <unicode hex="0411"/>
+  <outline>
+    <contour>
+      <point x="585" y="-18" type="curve"/>
+      <point x="1034" y="-18"/>
+      <point x="1270" y="171"/>
+      <point x="1270" y="532" type="curve"/>
+      <point x="1270" y="781"/>
+      <point x="1100" y="897"/>
+      <point x="748" y="897" type="curve"/>
+      <point x="672" y="897"/>
+      <point x="618" y="884"/>
+      <point x="576" y="872" type="curve"/>
+      <point x="642" y="1368" type="line"/>
+      <point x="1050" y="1344" type="line"/>
+      <point x="1080" y="1070" type="line"/>
+      <point x="1262" y="1070" type="line"/>
+      <point x="1296" y="1486" type="line"/>
+      <point x="177" y="1486" type="line"/>
+      <point x="163" y="1378" type="line"/>
+      <point x="305" y="1354" type="line"/>
+      <point x="139" y="131" type="line"/>
+      <point x="3" y="103" type="line"/>
+      <point x="-7" y="0" type="line"/>
+      <point x="243" y="0" type="line" smooth="yes"/>
+      <point x="323" y="0"/>
+      <point x="539" y="-18"/>
+    </contour>
+    <contour>
+      <point x="585" y="106" type="curve"/>
+      <point x="537" y="106"/>
+      <point x="501" y="106"/>
+      <point x="475" y="111" type="curve"/>
+      <point x="558" y="737" type="line"/>
+      <point x="582" y="745"/>
+      <point x="641" y="753"/>
+      <point x="685" y="753" type="curve"/>
+      <point x="865" y="753"/>
+      <point x="919" y="664"/>
+      <point x="919" y="510" type="curve"/>
+      <point x="919" y="257"/>
+      <point x="807" y="106"/>
+    </contour>
+    <contour>
+      <point x="605" y="-172" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="813" y="1516" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Softsign-cy</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

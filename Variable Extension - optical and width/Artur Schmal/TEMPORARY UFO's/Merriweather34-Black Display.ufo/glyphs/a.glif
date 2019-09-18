@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="a" format="1">
+  <advance width="1107"/>
+  <unicode hex="0061"/>
+  <outline>
+    <contour>
+      <point x="945" y="185" type="curve"/>
+      <point x="1076" y="1022" type="line"/>
+      <point x="879" y="986" type="line"/>
+      <point x="821" y="1006"/>
+      <point x="769" y="1027"/>
+      <point x="675" y="1027" type="curve"/>
+      <point x="276" y="1027"/>
+      <point x="29" y="665"/>
+      <point x="29" y="318" type="curve"/>
+      <point x="29" y="116"/>
+      <point x="145" y="-24"/>
+      <point x="331" y="-24" type="curve"/>
+      <point x="509" y="-24"/>
+      <point x="595" y="96"/>
+      <point x="629" y="218" type="curve"/>
+      <point x="619" y="140" type="line" smooth="yes"/>
+      <point x="609" y="62"/>
+      <point x="652" y="-23"/>
+      <point x="773" y="-23" type="curve"/>
+      <point x="919" y="-23"/>
+      <point x="1032" y="44"/>
+      <point x="1095" y="121" type="curve"/>
+      <point x="1070" y="171" type="line"/>
+      <point x="1039" y="138"/>
+      <point x="1007" y="126"/>
+      <point x="976" y="126" type="curve"/>
+      <point x="953" y="126"/>
+      <point x="939" y="137"/>
+    </contour>
+    <contour>
+      <point x="741" y="927" type="curve"/>
+      <point x="624" y="324" type="line"/>
+      <point x="605" y="236"/>
+      <point x="528" y="108"/>
+      <point x="454" y="108" type="curve"/>
+      <point x="400" y="108"/>
+      <point x="358" y="159"/>
+      <point x="358" y="324" type="curve"/>
+      <point x="358" y="597"/>
+      <point x="454" y="976"/>
+      <point x="657" y="976" type="curve"/>
+      <point x="704" y="976"/>
+      <point x="737" y="950"/>
+    </contour>
+    <contour>
+      <point x="519" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1124" y="1622" type="move" name="caron"/>
+    </contour>
+    <contour>
+      <point x="925" y="20" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="697" y="1108" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.06,0.6,0.98,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obarred-cy" format="1">
+  <advance width="968"/>
+  <unicode hex="04E9"/>
+  <outline>
+    <contour>
+      <point x="568" y="1031" type="curve"/>
+      <point x="262" y="1031"/>
+      <point x="42" y="714"/>
+      <point x="42" y="393" type="curve"/>
+      <point x="42" y="142"/>
+      <point x="171" y="-20"/>
+      <point x="410" y="-20" type="curve"/>
+      <point x="729" y="-20"/>
+      <point x="937" y="304"/>
+      <point x="937" y="622" type="curve"/>
+      <point x="937" y="876"/>
+      <point x="802" y="1031"/>
+    </contour>
+    <contour>
+      <point x="770" y="529" type="curve"/>
+      <point x="217" y="529" type="line"/>
+      <point x="260" y="766"/>
+      <point x="387" y="987"/>
+      <point x="571" y="987" type="curve"/>
+      <point x="726" y="987"/>
+      <point x="777" y="818"/>
+      <point x="777" y="643" type="curve"/>
+      <point x="777" y="606"/>
+      <point x="775" y="567"/>
+    </contour>
+    <contour>
+      <point x="209" y="476" type="curve"/>
+      <point x="761" y="476" type="line"/>
+      <point x="719" y="243"/>
+      <point x="591" y="24"/>
+      <point x="410" y="24" type="curve"/>
+      <point x="296" y="24"/>
+      <point x="202" y="122"/>
+      <point x="202" y="358" type="curve"/>
+      <point x="202" y="397"/>
+      <point x="205" y="436"/>
+    </contour>
+    <contour>
+      <point x="642" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

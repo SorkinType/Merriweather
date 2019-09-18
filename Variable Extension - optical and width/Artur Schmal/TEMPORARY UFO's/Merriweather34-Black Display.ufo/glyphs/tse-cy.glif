@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tse-cy" format="1">
+  <advance width="1152"/>
+  <unicode hex="0446"/>
+  <outline>
+    <contour>
+      <point x="773" y="-459" type="curve"/>
+      <point x="789" y="-502" type="line"/>
+      <point x="869" y="-493"/>
+      <point x="952" y="-458"/>
+      <point x="1013" y="-407" type="curve"/>
+      <point x="1072" y="-358"/>
+      <point x="1106" y="-296"/>
+      <point x="1106" y="-222" type="curve"/>
+      <point x="1106" y="-162"/>
+      <point x="1078" y="-94"/>
+      <point x="1078" y="-53" type="curve"/>
+      <point x="1078" y="2"/>
+      <point x="1109" y="52"/>
+      <point x="1152" y="119" type="curve"/>
+      <point x="963" y="-2" type="line"/>
+      <point x="920" y="-58"/>
+      <point x="878" y="-107"/>
+      <point x="870" y="-213" type="curve"/>
+      <point x="865" y="-273"/>
+      <point x="877" y="-342"/>
+      <point x="860" y="-381" type="curve"/>
+      <point x="846" y="-414"/>
+      <point x="820" y="-440"/>
+    </contour>
+    <component base="u"/>
+    <contour>
+      <point x="768" y="-166" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="686" y="1110" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>ii-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>ii-cy</string>
+      <key>public.markColor</key>
+      <string>0,0.2,0.88,1</string>
+    </dict>
+  </lib>
+</glyph>

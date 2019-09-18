@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nje-cy" format="1">
+  <advance width="2081"/>
+  <unicode hex="040A"/>
+  <outline>
+    <contour>
+      <point x="-34" y="38" type="line"/>
+      <point x="-39" y="0" type="line"/>
+      <point x="596" y="0" type="line"/>
+      <point x="602" y="38" type="line"/>
+      <point x="470" y="72" type="line"/>
+      <point x="654" y="1413" type="line"/>
+      <point x="805" y="1448" type="line"/>
+      <point x="809" y="1486" type="line"/>
+      <point x="167" y="1486" type="line"/>
+      <point x="162" y="1448" type="line"/>
+      <point x="280" y="1413" type="line"/>
+      <point x="96" y="72" type="line"/>
+    </contour>
+    <contour>
+      <point x="467" y="798" type="line"/>
+      <point x="467" y="732" type="line"/>
+      <point x="1122" y="732" type="line"/>
+      <point x="1122" y="798" type="line"/>
+    </contour>
+    <contour>
+      <point x="1408" y="-20" type="curve"/>
+      <point x="1800" y="-20"/>
+      <point x="2034" y="162"/>
+      <point x="2034" y="513" type="curve"/>
+      <point x="2034" y="773"/>
+      <point x="1854" y="918"/>
+      <point x="1599" y="918" type="curve"/>
+      <point x="1495" y="918"/>
+      <point x="1390" y="904"/>
+      <point x="1348" y="891" type="curve"/>
+      <point x="1348" y="829" type="line"/>
+      <point x="1381" y="835"/>
+      <point x="1426" y="842"/>
+      <point x="1467" y="842" type="curve"/>
+      <point x="1600" y="842"/>
+      <point x="1653" y="755"/>
+      <point x="1653" y="497" type="curve"/>
+      <point x="1653" y="177"/>
+      <point x="1556" y="40"/>
+      <point x="1407" y="40" type="curve"/>
+      <point x="1363" y="40"/>
+      <point x="1315" y="50"/>
+      <point x="1264" y="64" type="curve"/>
+      <point x="1451" y="1413" type="line"/>
+      <point x="1587" y="1448" type="line"/>
+      <point x="1592" y="1486" type="line"/>
+      <point x="964" y="1486" type="line"/>
+      <point x="959" y="1448" type="line"/>
+      <point x="1075" y="1413" type="line"/>
+      <point x="893" y="74" type="line"/>
+      <point x="754" y="38" type="line"/>
+      <point x="749" y="0" type="line"/>
+      <point x="1065" y="0" type="line" smooth="yes"/>
+      <point x="1171" y="0"/>
+      <point x="1286" y="-20"/>
+    </contour>
+    <component base="Softsign-cy" xOffset="788"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Softsign-cy</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
