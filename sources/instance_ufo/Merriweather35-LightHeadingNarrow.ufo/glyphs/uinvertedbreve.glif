@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uinvertedbreve" format="2">
+  <advance width="1051.3"/>
+  <unicode hex="0217"/>
+  <anchor x="562.4" y="0.0" name="bottom"/>
+  <anchor x="582.4" y="-166.0" name="mark0"/>
+  <anchor x="890.4" y="20.0" name="ogonek"/>
+  <anchor x="499.4" y="1756.0" name="top"/>
+  <anchor x="871.6" y="1040.0" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="breveinvertedcomb" xOffset="499.4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 16:25:00</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

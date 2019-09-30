@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bitcoin" format="2">
+  <advance width="1155"/>
+  <unicode hex="20BF"/>
+  <anchor x="574" y="0" name="bottom"/>
+  <anchor x="612" y="-166" name="mark0"/>
+  <anchor x="574" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="450" y="1738" type="line"/>
+      <point x="340" y="1738" type="line"/>
+      <point x="340" y="1440" type="line"/>
+      <point x="450" y="1440" type="line"/>
+    </contour>
+    <contour>
+      <point x="764" y="1738" type="line"/>
+      <point x="654" y="1738" type="line"/>
+      <point x="654" y="1440" type="line"/>
+      <point x="764" y="1440" type="line"/>
+    </contour>
+    <contour>
+      <point x="450" y="38" type="line"/>
+      <point x="340" y="38" type="line"/>
+      <point x="340" y="-260" type="line"/>
+      <point x="450" y="-260" type="line"/>
+    </contour>
+    <contour>
+      <point x="764" y="38" type="line"/>
+      <point x="654" y="38" type="line"/>
+      <point x="654" y="-260" type="line"/>
+      <point x="764" y="-260" type="line"/>
+    </contour>
+    <component base="B" xOffset="16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>euro</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>euro</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/30 14:02:17</string>
+    </dict>
+  </lib>
+</glyph>

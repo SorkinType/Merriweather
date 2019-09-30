@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJ_acutecomb" format="2">
+  <advance width="1080.7"/>
+  <anchor x="263.5" y="1.5" name="bottom"/>
+  <anchor x="265.5" y="-167.5" name="mark0_1"/>
+  <anchor x="660.0" y="-166.0" name="mark0_2"/>
+  <anchor x="502.5" y="20.0" name="ogonek"/>
+  <anchor x="263.5" y="1486.0" name="top_1"/>
+  <anchor x="805.1" y="1486.0" name="top_2"/>
+  <anchor x="17.9" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="J" xOffset="520.4"/>
+    <component base="acutecomb.case" xOffset="321.4"/>
+    <component base="acutecomb.case" xOffset="887.4000000000001" yOffset="3.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/29 14:13:07</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

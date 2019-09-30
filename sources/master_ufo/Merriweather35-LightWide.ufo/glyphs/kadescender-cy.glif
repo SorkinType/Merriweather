@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kadescender-cy" format="2">
+  <advance width="1418"/>
+  <unicode hex="049B"/>
+  <anchor x="1192" y="0" name="bottomright"/>
+  <anchor x="623" y="556" name="center"/>
+  <anchor x="623" y="1110" name="top"/>
+  <outline>
+    <contour>
+      <point x="1278" y="106" type="line"/>
+      <point x="1178" y="102" type="line"/>
+      <point x="1192" y="0" type="line"/>
+      <point x="1218" y="0" type="line"/>
+      <point x="1220" y="-4"/>
+      <point x="1234" y="-320"/>
+      <point x="1236" y="-360" type="curve"/>
+      <point x="1344" y="-360" type="line"/>
+      <point x="1362" y="-206"/>
+      <point x="1380" y="-50"/>
+      <point x="1398" y="104" type="curve"/>
+    </contour>
+    <component base="ka-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>zhedescender-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:05:02</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

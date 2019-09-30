@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sacutedotaccent" format="2">
+  <advance width="877"/>
+  <unicode hex="1E65"/>
+  <anchor x="431" y="0" name="bottom"/>
+  <anchor x="441" y="-166" name="mark0"/>
+  <anchor x="447" y="1886" name="top"/>
+  <outline>
+    <component base="s"/>
+    <component base="acutecomb" xOffset="447"/>
+    <component base="dotaccentcomb" xOffset="447" yOffset="390"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/16 02:52:16</string>
+    </dict>
+  </lib>
+</glyph>

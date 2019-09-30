@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zhedescender-cy" format="2">
+  <advance width="2102"/>
+  <unicode hex="0496"/>
+  <anchor x="1932" y="0" name="bottomright"/>
+  <anchor x="968" y="1516" name="top"/>
+  <outline>
+    <contour>
+      <point x="1968" y="-360" type="curve"/>
+      <point x="2026" y="-360" type="line"/>
+      <point x="2028" y="-359"/>
+      <point x="2076" y="40"/>
+      <point x="2078" y="69" type="curve"/>
+      <point x="1878" y="67" type="line"/>
+      <point x="1878" y="0" type="line"/>
+      <point x="1920" y="0" type="line"/>
+      <point x="1925" y="-14"/>
+      <point x="1968" y="-320"/>
+    </contour>
+    <component base="Zhe-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Zhe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:04:17</string>
+    </dict>
+  </lib>
+</glyph>

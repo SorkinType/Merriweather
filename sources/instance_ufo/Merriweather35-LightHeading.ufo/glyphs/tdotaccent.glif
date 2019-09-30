@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tdotaccent" format="2">
+  <advance width="644.6"/>
+  <unicode hex="1E6B"/>
+  <anchor x="474.0" y="-166.0" name="mark0"/>
+  <anchor x="370.5" y="0.0" name="bottom"/>
+  <anchor x="343.4" y="556.0" name="center"/>
+  <anchor x="283.4" y="1694.6" name="top"/>
+  <anchor x="569.4" y="1110.0" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="dotaccentcomb" xOffset="283.4" yOffset="200.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/16 02:52:16</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

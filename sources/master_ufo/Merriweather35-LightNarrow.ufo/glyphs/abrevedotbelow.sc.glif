@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevedotbelow.sc" format="2">
+  <advance width="1308"/>
+  <anchor x="637" y="-346" name="bottom"/>
+  <anchor x="1177" y="18" name="ogonek"/>
+  <anchor x="660" y="1938" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="dotbelowcomb" xOffset="637"/>
+    <component base="brevecomb" xOffset="660" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/28 00:38:22</string>
+    </dict>
+  </lib>
+</glyph>

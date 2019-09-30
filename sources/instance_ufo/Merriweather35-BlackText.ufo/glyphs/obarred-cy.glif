@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obarred-cy" format="2">
+  <advance width="1164.0497237569061"/>
+  <unicode hex="04E9"/>
+  <anchor x="582.4281767955802" y="0.0" name="bottom"/>
+  <anchor x="582.4281767955802" y="529.4171270718232" name="center"/>
+  <anchor x="665.6795580110497" y="27.085635359116026" name="ogonek"/>
+  <anchor x="586.6491712707182" y="1110.5276243093922" name="top"/>
+  <anchor x="887.8729281767955" y="1058.0276243093922" name="topright"/>
+  <outline>
+    <contour>
+      <point x="384.68232044198896" y="501.58563535911605" type="line"/>
+      <point x="789.5745856353591" y="501.58563535911605" type="line"/>
+      <point x="789.5745856353591" y="584.1933701657458" type="line"/>
+      <point x="384.68232044198896" y="584.1933701657458" type="line"/>
+    </contour>
+    <component base="o-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:05:46</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

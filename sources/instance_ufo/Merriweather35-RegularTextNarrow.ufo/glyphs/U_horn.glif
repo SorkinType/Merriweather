@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="1479.6629834254143"/>
+  <unicode hex="01AF"/>
+  <anchor x="774.0" y="0.0" name="bottom"/>
+  <anchor x="745.0" y="-166.0" name="mark0"/>
+  <anchor x="1340.0" y="20.0" name="ogonek"/>
+  <anchor x="791.0" y="1486.0" name="top"/>
+  <anchor x="1439.6629834254143" y="1486.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1200.0" y="1486.0" type="curve"/>
+      <point x="1211.0" y="1412.0" type="line"/>
+      <point x="1419.0" y="1412.0"/>
+      <point x="1545.0" y="1470.0"/>
+      <point x="1544.0" y="1687.0" type="curve"/>
+      <point x="1544.0" y="1701.0"/>
+      <point x="1542.0" y="1717.0"/>
+      <point x="1539.0" y="1730.0" type="curve"/>
+      <point x="1347.0" y="1730.0" type="line"/>
+      <point x="1350.0" y="1718.0"/>
+      <point x="1353.0" y="1703.0"/>
+      <point x="1353.0" y="1678.0" type="curve" smooth="yes"/>
+      <point x="1353.0" y="1593.0"/>
+      <point x="1342.0" y="1486.0"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/10 05:16:17</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zhedescender-cy.sc" format="2">
+  <advance width="2306"/>
+  <anchor x="2172" y="0" name="bottomright"/>
+  <anchor x="1097" y="1340" name="top"/>
+  <outline>
+    <contour>
+      <point x="1985" y="102" type="line"/>
+      <point x="1985" y="0" type="line"/>
+      <point x="2018" y="0" type="line"/>
+      <point x="2026" y="-26"/>
+      <point x="2035" y="-285"/>
+      <point x="2035" y="-324" type="curve"/>
+      <point x="2148" y="-324" type="line"/>
+      <point x="2152" y="-310"/>
+      <point x="2202" y="77"/>
+      <point x="2202" y="102" type="curve"/>
+    </contour>
+    <component base="zhe-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>zhe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/07/11 17:42:15</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

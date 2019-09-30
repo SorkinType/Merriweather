@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Endescender-cy" format="2">
+  <advance width="1520"/>
+  <unicode hex="04A2"/>
+  <anchor x="715" y="0" name="bottom"/>
+  <anchor x="715" y="743" name="center"/>
+  <anchor x="715" y="1486" name="top"/>
+  <anchor x="-5" y="1486" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="1381" y="-360" type="curve"/>
+      <point x="1443" y="-360" type="line"/>
+      <point x="1445" y="-359"/>
+      <point x="1493" y="40"/>
+      <point x="1495" y="69" type="curve"/>
+      <point x="1271" y="67" type="line"/>
+      <point x="1271" y="0" type="line"/>
+      <point x="1332" y="0" type="line"/>
+      <point x="1334" y="-14"/>
+      <point x="1374" y="-320"/>
+    </contour>
+    <component base="H"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:04:17</string>
+    </dict>
+  </lib>
+</glyph>

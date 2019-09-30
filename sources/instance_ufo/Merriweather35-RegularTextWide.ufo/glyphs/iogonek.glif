@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek" format="2">
+  <advance width="582.6408839779006"/>
+  <unicode hex="012F"/>
+  <anchor x="274.2209944751381" y="0.0" name="bottom"/>
+  <anchor x="268.50276243093924" y="-166.0" name="mark0"/>
+  <anchor x="354.50276243093924" y="20.0" name="ogonek"/>
+  <anchor x="234.47513812154696" y="1511.6519337016575" name="top"/>
+  <outline>
+    <contour>
+      <point x="248.19337016574585" y="-485.1546961325967" type="curve" smooth="yes"/>
+      <point x="393.28729281767954" y="-485.1546961325967"/>
+      <point x="472.30386740331494" y="-433.9171270718232"/>
+      <point x="523.7127071823204" y="-395.0718232044199" type="curve"/>
+      <point x="523.9944751381215" y="-294.1381215469613" type="line"/>
+      <point x="487.4585635359116" y="-313.292817679558"/>
+      <point x="414.95580110497235" y="-360.8674033149171"/>
+      <point x="332.5359116022099" y="-360.8674033149171" type="curve" smooth="yes"/>
+      <point x="257.4088397790055" y="-360.8674033149171"/>
+      <point x="207.38121546961324" y="-318.8674033149171"/>
+      <point x="207.38121546961324" y="-240.50276243093924" type="curve" smooth="yes"/>
+      <point x="207.38121546961324" y="-164.21546961325967"/>
+      <point x="292.1381215469613" y="-54.07734806629834"/>
+      <point x="407.16574585635357" y="0.0" type="curve"/>
+      <point x="328.7900552486188" y="48.71270718232044" type="line"/>
+      <point x="257.8232044198895" y="0.0" type="line"/>
+      <point x="119.62430939226519" y="-66.12707182320442"/>
+      <point x="26.104972375690597" y="-192.90055248618785"/>
+      <point x="26.104972375690597" y="-296.9281767955801" type="curve" smooth="yes"/>
+      <point x="26.104972375690597" y="-423.7182320441989"/>
+      <point x="145.99447513812154" y="-485.1546961325967"/>
+    </contour>
+    <component base="i" xOffset="-53.50828729281769"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/10 05:17:19</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

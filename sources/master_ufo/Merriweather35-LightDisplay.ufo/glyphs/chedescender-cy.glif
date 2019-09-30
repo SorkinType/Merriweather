@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedescender-cy" format="2">
+  <advance width="1033"/>
+  <unicode hex="04B7"/>
+  <anchor x="642" y="-166" name="mark0"/>
+  <anchor x="825" y="0" name="bottomright"/>
+  <anchor x="591" y="556" name="center"/>
+  <anchor x="493" y="1110" name="top"/>
+  <outline>
+    <contour>
+      <point x="879" y="-370" type="curve"/>
+      <point x="939" y="-370" type="line"/>
+      <point x="957" y="-240"/>
+      <point x="979" y="-76"/>
+      <point x="995" y="56" type="curve"/>
+      <point x="853" y="56" type="line"/>
+      <point x="835" y="0" type="line"/>
+      <point x="849" y="-68"/>
+      <point x="873" y="-286"/>
+    </contour>
+    <component base="che-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:34:24</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

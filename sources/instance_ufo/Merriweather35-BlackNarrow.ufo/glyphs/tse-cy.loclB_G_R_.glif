@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tse-cy.loclBGR" format="2">
+  <advance width="1312"/>
+  <anchor x="588" y="-1" name="bottom"/>
+  <anchor x="676" y="-167" name="mark0"/>
+  <anchor x="976" y="19" name="ogonek"/>
+  <anchor x="562" y="1111" name="top"/>
+  <anchor x="953" y="1111" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1042" y="-407" type="curve"/>
+      <point x="1212" y="-407" type="line"/>
+      <point x="1226" y="-333"/>
+      <point x="1248" y="53"/>
+      <point x="1252" y="137" type="curve"/>
+      <point x="1076" y="137" type="line"/>
+      <point x="956" y="-1" type="line"/>
+      <point x="979" y="-48"/>
+      <point x="1034" y="-351"/>
+    </contour>
+    <component base="u" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:34:24</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

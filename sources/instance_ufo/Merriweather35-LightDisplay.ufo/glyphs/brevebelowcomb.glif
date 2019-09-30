@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevebelowcomb" format="2">
+  <unicode hex="032E"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="1756" name="top"/>
+  <outline>
+    <contour>
+      <point x="0" y="-450" type="curve" smooth="yes"/>
+      <point x="122" y="-450"/>
+      <point x="233" y="-358"/>
+      <point x="233" y="-222" type="curve" smooth="yes"/>
+      <point x="233" y="-202"/>
+      <point x="232" y="-188"/>
+      <point x="229" y="-167" type="curve"/>
+      <point x="191" y="-167" type="line"/>
+      <point x="191" y="-182"/>
+      <point x="190" y="-197"/>
+      <point x="187" y="-208" type="curve" smooth="yes"/>
+      <point x="170" y="-269"/>
+      <point x="109" y="-318"/>
+      <point x="0" y="-318" type="curve" smooth="yes"/>
+      <point x="-109" y="-318"/>
+      <point x="-172" y="-269"/>
+      <point x="-187" y="-208" type="curve" smooth="yes"/>
+      <point x="-190" y="-196"/>
+      <point x="-191" y="-182"/>
+      <point x="-191" y="-167" type="curve"/>
+      <point x="-229" y="-167" type="line"/>
+      <point x="-232" y="-188"/>
+      <point x="-233" y="-202"/>
+      <point x="-233" y="-222" type="curve" smooth="yes"/>
+      <point x="-233" y="-358"/>
+      <point x="-122" y="-450"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/07 05:45:00</string>
+    </dict>
+  </lib>
+</glyph>

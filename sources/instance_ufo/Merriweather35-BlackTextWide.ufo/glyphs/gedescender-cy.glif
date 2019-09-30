@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gedescender-cy" format="2">
+  <advance width="1025.5"/>
+  <unicode hex="04F7"/>
+  <anchor x="331.5" y="0.0" name="bottomright"/>
+  <anchor x="497.5" y="556.0" name="center"/>
+  <anchor x="497.5" y="1058.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="578.0" y="-411.0" type="curve"/>
+      <point x="716.5" y="-411.0" type="line"/>
+      <point x="723.5" y="-356.0"/>
+      <point x="766.5" y="-17.5"/>
+      <point x="777.0" y="107.0" type="curve"/>
+      <point x="414.5" y="107.0" type="line"/>
+      <point x="488.0" y="0.0" type="line"/>
+      <point x="516.5" y="-59.0"/>
+      <point x="569.5" y="-330.5"/>
+    </contour>
+    <component base="ge-cy" xOffset="-10.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:47:33</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

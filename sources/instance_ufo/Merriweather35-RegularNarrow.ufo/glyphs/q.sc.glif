@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q.sc" format="2">
+  <advance width="1415.5303867403316"/>
+  <anchor x="679.3259668508288" y="-144.0" name="mark0"/>
+  <anchor x="592.1491712707183" y="0.0" name="bottom"/>
+  <anchor x="603.9502762430939" y="648.0" name="center"/>
+  <anchor x="675.7817679558011" y="18.0" name="ogonek"/>
+  <anchor x="597.7209944751381" y="1243.9171270718232" name="top"/>
+  <anchor x="-80.16574585635358" y="1292.0" name="topleft"/>
+  <anchor x="953.9861878453039" y="1292.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1483.157458563536" y="-321.09944751381215" type="curve" smooth="yes"/>
+      <point x="1554.1767955801106" y="-321.09944751381215"/>
+      <point x="1622.2900552486187" y="-297.1546961325967"/>
+      <point x="1673.3342541436464" y="-242.78453038674033" type="curve"/>
+      <point x="1650.0939226519338" y="-164.27624309392266" type="line"/>
+      <point x="1635.389502762431" y="-165.4033149171271"/>
+      <point x="1619.8950276243095" y="-169.09392265193372"/>
+      <point x="1584.342541436464" y="-169.09392265193372" type="curve"/>
+      <point x="1355.328729281768" y="-169.09392265193372"/>
+      <point x="1280.511049723757" y="10.281767955801104"/>
+      <point x="1020.853591160221" y="35.353591160220994" type="curve"/>
+      <point x="897.8149171270718" y="46.88121546961326" type="line"/>
+      <point x="881.2983425414365" y="-6.56353591160221" type="line"/>
+      <point x="1121.8038674033148" y="-58.14364640883977"/>
+      <point x="1213.975138121547" y="-321.09944751381215"/>
+    </contour>
+    <component base="o.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 18:05:29</string>
+    </dict>
+  </lib>
+</glyph>

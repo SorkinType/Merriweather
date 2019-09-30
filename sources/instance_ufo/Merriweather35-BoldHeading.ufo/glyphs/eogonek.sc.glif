@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eogonek.sc" format="2">
+  <advance width="1262.513812154696"/>
+  <anchor x="633.5828729281768" y="0.19337016574585636" name="bottom"/>
+  <anchor x="670.507182320442" y="-143.61325966850828" name="mark0"/>
+  <anchor x="1079.2767955801105" y="17.493370165745855" name="ogonek"/>
+  <anchor x="648.3767955801105" y="1322.6397790055248" name="top"/>
+  <anchor x="42.92707182320443" y="1292.5066298342542" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="905.4591160220995" y="-436.17127071823205" type="curve" smooth="yes"/>
+      <point x="989.2878453038674" y="-436.17127071823205"/>
+      <point x="1087.7629834254144" y="-413.0662983425414"/>
+      <point x="1137.2104972375691" y="-378.3425414364641" type="curve"/>
+      <point x="1137.2104972375691" y="-257.8121546961326" type="line"/>
+      <point x="1093.2104972375691" y="-275.64088397790056"/>
+      <point x="1061.1331491712708" y="-281.6795580110497"/>
+      <point x="1014.5419889502763" y="-281.6795580110497" type="curve" smooth="yes"/>
+      <point x="938.7132596685083" y="-281.6795580110497"/>
+      <point x="886.63591160221" y="-246.78453038674033"/>
+      <point x="886.63591160221" y="-188.32596685082873" type="curve" smooth="yes"/>
+      <point x="886.63591160221" y="-126.07734806629834"/>
+      <point x="1001.1331491712707" y="-28.34254143646409"/>
+      <point x="1129.1331491712708" y="0.0" type="curve"/>
+      <point x="1031.2502762430938" y="63.640331491712715" type="line"/>
+      <point x="931.1552486187845" y="0.0" type="line"/>
+      <point x="759.0613259668509" y="-56.72375690607735"/>
+      <point x="654.088950276243" y="-160.24861878453038"/>
+      <point x="654.088950276243" y="-261.48618784530385" type="curve" smooth="yes"/>
+      <point x="654.088950276243" y="-371.9060773480663"/>
+      <point x="757.0613259668509" y="-436.17127071823205"/>
+    </contour>
+    <component base="e.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/30 14:28:27</string>
+    </dict>
+  </lib>
+</glyph>

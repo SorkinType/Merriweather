@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcaron" format="2">
+  <advance width="1501.0"/>
+  <unicode hex="0164"/>
+  <anchor x="731.0" y="-166.0" name="mark0"/>
+  <anchor x="756.5" y="0.0" name="bottom"/>
+  <anchor x="756.5" y="744.0" name="center"/>
+  <anchor x="756.5" y="1965.0" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="caroncomb.case" xOffset="756.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/16 03:52:37</string>
+    </dict>
+  </lib>
+</glyph>

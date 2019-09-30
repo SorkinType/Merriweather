@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gedescender-cy.sc" format="2">
+  <advance width="1213"/>
+  <anchor x="1169" y="0" name="bottomright"/>
+  <anchor x="585" y="1340" name="top"/>
+  <outline>
+    <contour>
+      <point x="467" y="68" type="line"/>
+      <point x="467" y="0" type="line"/>
+      <point x="679" y="0" type="line"/>
+      <point x="706" y="-65"/>
+      <point x="743" y="-245"/>
+      <point x="750" y="-292" type="curve"/>
+      <point x="947" y="-292" type="line"/>
+      <point x="961" y="-207"/>
+      <point x="985" y="-20"/>
+      <point x="995" y="68" type="curve"/>
+    </contour>
+    <component base="ge-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/07/11 17:42:15</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>652</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>67</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>64</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

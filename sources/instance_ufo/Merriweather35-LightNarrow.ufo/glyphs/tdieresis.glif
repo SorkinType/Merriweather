@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tdieresis" format="2">
+  <advance width="634"/>
+  <unicode hex="1E97"/>
+  <anchor x="354" y="0" name="bottom"/>
+  <anchor x="311" y="576" name="center"/>
+  <anchor x="363" y="-171" name="mark0"/>
+  <anchor x="262" y="1601" name="top"/>
+  <anchor x="506" y="1110" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="dieresiscomb" xOffset="262" yOffset="199"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/16 02:52:16</string>
+    </dict>
+  </lib>
+</glyph>

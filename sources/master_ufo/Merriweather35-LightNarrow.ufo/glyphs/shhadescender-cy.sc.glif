@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shhadescender-cy.sc" format="2">
+  <advance width="1162"/>
+  <anchor x="1057" y="0" name="bottomright"/>
+  <anchor x="538" y="0" name="top"/>
+  <outline>
+    <contour>
+      <point x="902" y="107" type="line"/>
+      <point x="902" y="0" type="line"/>
+      <point x="967" y="0" type="line"/>
+      <point x="977" y="-26"/>
+      <point x="989" y="-285"/>
+      <point x="989" y="-323" type="curve"/>
+      <point x="1088" y="-323" type="line"/>
+      <point x="1091" y="-309"/>
+      <point x="1128" y="107"/>
+      <point x="1128" y="107" type="curve"/>
+    </contour>
+    <component base="shha-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>shha-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 06:00:25</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

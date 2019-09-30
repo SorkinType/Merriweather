@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shhadescender-cy.sc" format="2">
+  <advance width="1312"/>
+  <anchor x="746" y="-168" name="bottom"/>
+  <anchor x="1216" y="0" name="bottomright"/>
+  <anchor x="618" y="0" name="top"/>
+  <outline>
+    <contour>
+      <point x="931" y="73" type="line"/>
+      <point x="931" y="0" type="line"/>
+      <point x="1000" y="0" type="line"/>
+      <point x="1019" y="-41"/>
+      <point x="1059" y="-245"/>
+      <point x="1067" y="-297" type="curve"/>
+      <point x="1244" y="-297" type="line"/>
+      <point x="1258" y="-192"/>
+      <point x="1273" y="-20"/>
+      <point x="1282" y="73" type="curve"/>
+    </contour>
+    <component base="shha-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>shha-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 06:00:25</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>642</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>703</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>76</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>75</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otilde.sc" format="2">
+  <advance width="1339"/>
+  <anchor x="671" y="0" name="bottom"/>
+  <anchor x="672" y="647" name="center"/>
+  <anchor x="799" y="10" name="ogonek"/>
+  <anchor x="671" y="1670" name="top"/>
+  <anchor x="18" y="1293" name="topleft"/>
+  <anchor x="1311" y="1293" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="tildecomb" xOffset="671" yOffset="230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 05:56:43</string>
+    </dict>
+  </lib>
+</glyph>

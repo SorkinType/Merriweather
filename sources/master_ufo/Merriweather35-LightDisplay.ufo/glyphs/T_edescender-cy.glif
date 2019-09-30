@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tedescender-cy" format="2">
+  <advance width="1336"/>
+  <unicode hex="04AC"/>
+  <anchor x="667" y="0" name="bottom"/>
+  <anchor x="667" y="744" name="center"/>
+  <anchor x="696" y="-166" name="mark0"/>
+  <anchor x="667" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="956" y="-360" type="curve"/>
+      <point x="1014" y="-360" type="line"/>
+      <point x="1016" y="-359"/>
+      <point x="1064" y="40"/>
+      <point x="1066" y="69" type="curve"/>
+      <point x="726" y="67" type="line"/>
+      <point x="726" y="0" type="line"/>
+      <point x="908" y="0" type="line"/>
+      <point x="913" y="-14"/>
+      <point x="956" y="-320"/>
+    </contour>
+    <component base="Te-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:04:17</string>
+    </dict>
+  </lib>
+</glyph>

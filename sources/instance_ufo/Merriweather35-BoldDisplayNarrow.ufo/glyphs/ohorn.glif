@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn" format="2">
+  <advance width="943.9668508287293"/>
+  <unicode hex="01A1"/>
+  <anchor x="472.121546961326" y="0.0" name="bottom"/>
+  <anchor x="472.121546961326" y="503.0" name="center"/>
+  <anchor x="526.4254143646409" y="10.0" name="ogonek"/>
+  <anchor x="472.56906077348066" y="1110.0" name="top"/>
+  <anchor x="719.9005524861878" y="1005.0" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="horncomb" xOffset="719.9005524861878" yOffset="-105.72375690607734"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 14:25:55</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

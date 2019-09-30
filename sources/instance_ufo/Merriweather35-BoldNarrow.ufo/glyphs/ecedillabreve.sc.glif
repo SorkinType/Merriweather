@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecedillabreve.sc" format="2">
+  <advance width="1166.5690607734807"/>
+  <anchor x="629.7127071823204" y="-501.121546961326" name="bottom"/>
+  <anchor x="666.9502762430939" y="-144.0" name="mark0"/>
+  <anchor x="1133.5027624309391" y="18.0" name="ogonek"/>
+  <anchor x="655.3701657458564" y="1915.1049723756905" name="top"/>
+  <anchor x="39.370165745856355" y="1292.0" name="topleft"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="cedillacomb" xOffset="629.7127071823204"/>
+    <component base="brevecomb" xOffset="655.3701657458564" yOffset="172.1325966850829"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 06:03:25</string>
+    </dict>
+  </lib>
+</glyph>

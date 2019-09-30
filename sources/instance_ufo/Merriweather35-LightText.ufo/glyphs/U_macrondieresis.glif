@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Umacrondieresis" format="2">
+  <advance width="1402.5"/>
+  <unicode hex="1E7A"/>
+  <anchor x="721.0" y="0.0" name="bottom"/>
+  <anchor x="753.0" y="-166.0" name="mark0"/>
+  <anchor x="1311.0" y="20.0" name="ogonek"/>
+  <anchor x="746.5" y="2110.0" name="top"/>
+  <anchor x="1419.0" y="1486.0" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="macroncomb.case" xOffset="746.5"/>
+    <component base="dieresiscomb.case" xOffset="746.5" yOffset="304.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 19:11:59</string>
+    </dict>
+  </lib>
+</glyph>

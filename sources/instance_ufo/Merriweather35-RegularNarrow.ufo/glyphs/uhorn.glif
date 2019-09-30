@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn" format="2">
+  <advance width="1365.254143646409"/>
+  <unicode hex="01B0"/>
+  <anchor x="610.0" y="0.0" name="bottom"/>
+  <anchor x="170.3646408839778" y="-166.0" name="mark0"/>
+  <anchor x="582.0" y="1110.0" name="top"/>
+  <anchor x="1092.3314917127072" y="20.0" name="ogonek"/>
+  <anchor x="1177.2486187845304" y="1157.3232044198894" name="topright"/>
+  <outline>
+    <contour>
+      <point x="790.232044198895" y="1130.9392265193371" type="line"/>
+      <point x="1134.1546961325967" y="1088.486187845304" type="line"/>
+      <point x="1268.6077348066299" y="1117.6132596685084"/>
+      <point x="1359.635359116022" y="1195.0276243093922"/>
+      <point x="1359.635359116022" y="1343.9005524861877" type="curve" smooth="yes"/>
+      <point x="1359.635359116022" y="1361.2817679558011"/>
+      <point x="1357.635359116022" y="1378.6629834254143"/>
+      <point x="1355.635359116022" y="1394.0994475138123" type="curve"/>
+      <point x="1172.011049723757" y="1394.0994475138123" type="line"/>
+      <point x="1174.5745856353592" y="1384.9723756906078"/>
+      <point x="1175.1381215469614" y="1370.1546961325967"/>
+      <point x="1175.1381215469614" y="1349.9558011049724" type="curve" smooth="yes"/>
+      <point x="1175.1381215469614" y="1246.8618784530386"/>
+      <point x="1118.8729281767955" y="1189.9558011049724"/>
+      <point x="1009.4806629834254" y="1174.0662983425414" type="curve"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/28 01:32:48</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yerudieresis-cy" format="2">
+  <advance width="1658.3994475138122"/>
+  <unicode hex="04F8"/>
+  <anchor x="1379.5497237569061" y="-31.100552486187844" name="bottom"/>
+  <anchor x="1509.0337016574586" y="-166.0" name="mark0"/>
+  <anchor x="1629.003314917127" y="20.0" name="ogonek"/>
+  <anchor x="845.5745856353591" y="1820.6519337016575" name="top"/>
+  <anchor x="1122.17182320442" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Yeru-cy"/>
+    <component base="dieresiscomb.case" xOffset="845.5745856353591"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:04:17</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

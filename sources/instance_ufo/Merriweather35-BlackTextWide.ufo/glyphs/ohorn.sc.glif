@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn.sc" format="2">
+  <advance width="1400.0"/>
+  <anchor x="1093.0" y="1292.0" name="_topright"/>
+  <anchor x="697.0" y="0.0" name="bottom"/>
+  <anchor x="697.0" y="648.0" name="center"/>
+  <anchor x="690.0" y="-144.0" name="mark0"/>
+  <anchor x="1256.0" y="18.0" name="ogonek"/>
+  <anchor x="711.0" y="1287.0" name="top"/>
+  <anchor x="31.0" y="1292.0" name="topleft"/>
+  <anchor x="1093.0" y="1292.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="687.0" y="-20.0" type="curve" smooth="yes"/>
+      <point x="1091.0" y="-18.0"/>
+      <point x="1350.0" y="267.0"/>
+      <point x="1350.0" y="672.0" type="curve" smooth="yes"/>
+      <point x="1350.0" y="1056.0"/>
+      <point x="1167.0" y="1309.0"/>
+      <point x="706.0" y="1311.0" type="curve" smooth="yes"/>
+      <point x="304.0" y="1312.0"/>
+      <point x="42.0" y="1051.0"/>
+      <point x="42.0" y="647.0" type="curve" smooth="yes"/>
+      <point x="42.0" y="249.0"/>
+      <point x="230.0" y="-22.0"/>
+    </contour>
+    <contour>
+      <point x="697.0" y="1185.0" type="curve" smooth="yes"/>
+      <point x="868.0" y="1185.0"/>
+      <point x="970.0" y="1064.0"/>
+      <point x="970.0" y="670.0" type="curve" smooth="yes"/>
+      <point x="970.0" y="302.0"/>
+      <point x="866.0" y="108.0"/>
+      <point x="694.0" y="108.0" type="curve" smooth="yes"/>
+      <point x="523.0" y="108.0"/>
+      <point x="421.0" y="254.0"/>
+      <point x="421.0" y="648.0" type="curve" smooth="yes"/>
+      <point x="421.0" y="1012.0"/>
+      <point x="523.0" y="1185.0"/>
+    </contour>
+    <contour>
+      <point x="1077.0" y="1129.0" type="line"/>
+      <point x="1285.0" y="1129.0"/>
+      <point x="1422.0" y="1220.0"/>
+      <point x="1422.0" y="1469.0" type="curve" smooth="yes"/>
+      <point x="1422.0" y="1479.0"/>
+      <point x="1420.0" y="1492.0"/>
+      <point x="1417.0" y="1506.0" type="curve"/>
+      <point x="1209.0" y="1506.0" type="line"/>
+      <point x="1213.0" y="1494.0"/>
+      <point x="1216.0" y="1482.0"/>
+      <point x="1216.0" y="1456.0" type="curve" smooth="yes"/>
+      <point x="1216.0" y="1385.0"/>
+      <point x="1194.0" y="1241.0"/>
+      <point x="1012.0" y="1241.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 05:55:01</string>
+    </dict>
+  </lib>
+</glyph>

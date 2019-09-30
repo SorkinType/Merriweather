@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chekhakassian-cy" format="2">
+  <advance width="1173.0"/>
+  <unicode hex="04CC"/>
+  <anchor x="1149.0" y="0.0" name="bottomright"/>
+  <anchor x="631.5" y="556.0" name="center"/>
+  <anchor x="559.5" y="1111.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="511.5" y="-411.0" type="curve"/>
+      <point x="641.5" y="-411.0" type="line"/>
+      <point x="659.5" y="-351.5"/>
+      <point x="750.5" y="-63.0"/>
+      <point x="779.5" y="0.0" type="curve"/>
+      <point x="756.5" y="111.0" type="line"/>
+      <point x="527.5" y="111.0" type="line"/>
+      <point x="519.5" y="-34.0"/>
+      <point x="514.0" y="-317.5"/>
+    </contour>
+    <component base="che-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:34:24</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="d.sc" format="2">
+  <advance width="1167"/>
+  <anchor x="715" y="0" name="bottom"/>
+  <anchor x="715" y="648" name="center"/>
+  <anchor x="743" y="-144" name="mark0"/>
+  <anchor x="578" y="1340" name="top"/>
+  <outline>
+    <contour>
+      <point x="165" y="60" type="line"/>
+      <point x="30" y="31" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="248" y="0" type="line" smooth="yes"/>
+      <point x="295" y="0"/>
+      <point x="419" y="-15"/>
+      <point x="536" y="-15" type="curve" smooth="yes"/>
+      <point x="873" y="-15"/>
+      <point x="1119" y="264"/>
+      <point x="1119" y="684" type="curve" smooth="yes"/>
+      <point x="1119" y="1033"/>
+      <point x="967" y="1303"/>
+      <point x="530" y="1303" type="curve" smooth="yes"/>
+      <point x="422" y="1303"/>
+      <point x="317" y="1292"/>
+      <point x="246" y="1292" type="curve" smooth="yes"/>
+      <point x="32" y="1292" type="line"/>
+      <point x="32" y="1261" type="line"/>
+      <point x="165" y="1233" type="line"/>
+    </contour>
+    <contour>
+      <point x="316" y="58" type="curve"/>
+      <point x="316" y="1242" type="line"/>
+      <point x="331" y="1244"/>
+      <point x="403" y="1258"/>
+      <point x="487" y="1258" type="curve" smooth="yes"/>
+      <point x="801" y="1258"/>
+      <point x="954" y="1058"/>
+      <point x="954" y="662" type="curve" smooth="yes"/>
+      <point x="954" y="282"/>
+      <point x="799" y="30"/>
+      <point x="497" y="30" type="curve" smooth="yes"/>
+      <point x="437" y="30"/>
+      <point x="359" y="42"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 06:01:25</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

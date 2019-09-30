@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Obarred-cy" format="2">
+  <advance width="1540.5"/>
+  <unicode hex="04E8"/>
+  <anchor x="759.0" y="0.0" name="bottom"/>
+  <anchor x="771.0" y="729.0" name="center"/>
+  <anchor x="836.0" y="20.0" name="ogonek"/>
+  <anchor x="775.5" y="1486.0" name="top"/>
+  <anchor x="68.0" y="1486.0" name="topleft"/>
+  <anchor x="1209.5" y="1486.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="403.0" y="699.0" type="line"/>
+      <point x="1178.5" y="699.0" type="line"/>
+      <point x="1180.5" y="796.0" type="line"/>
+      <point x="404.0" y="796.0" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 17:08:48</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

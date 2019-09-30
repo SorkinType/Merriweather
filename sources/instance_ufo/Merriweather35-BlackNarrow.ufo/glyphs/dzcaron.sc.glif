@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dzcaron.sc" format="2">
+  <advance width="2548"/>
+  <anchor x="736" y="0" name="bottom_1"/>
+  <anchor x="1913" y="0" name="bottom_2"/>
+  <anchor x="736" y="648" name="center"/>
+  <anchor x="768" y="-144" name="mark0_1"/>
+  <anchor x="1932" y="-144" name="mark0_2"/>
+  <anchor x="736" y="1286" name="top_1"/>
+  <anchor x="1933" y="1287" name="top_2"/>
+  <outline>
+    <component base="dz.sc"/>
+    <component base="caroncomb" xOffset="1933" yOffset="177"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 20:56:05</string>
+    </dict>
+  </lib>
+</glyph>

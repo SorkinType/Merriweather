@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorntilde.sc" format="2">
+  <advance width="1445.1160220994475"/>
+  <anchor x="713.3701657458563" y="0.0" name="bottom"/>
+  <anchor x="711.5359116022099" y="-144.0" name="mark0"/>
+  <anchor x="1257.6795580110497" y="18.0" name="ogonek"/>
+  <anchor x="750.353591160221" y="1673.1381215469612" name="top"/>
+  <anchor x="1363.243093922652" y="1293.0" name="topright"/>
+  <outline>
+    <component base="uhorn.sc"/>
+    <component base="tildecomb" xOffset="750.353591160221" yOffset="201.58011049723757"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/16 02:52:17</string>
+    </dict>
+  </lib>
+</glyph>

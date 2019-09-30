@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eldescender-cy.sc" format="2">
+  <advance width="1290"/>
+  <outline>
+    <contour>
+      <point x="911" y="73" type="line"/>
+      <point x="911" y="0" type="line"/>
+      <point x="980" y="0" type="line"/>
+      <point x="999" y="-41"/>
+      <point x="1039" y="-245"/>
+      <point x="1047" y="-297" type="curve"/>
+      <point x="1224" y="-297" type="line"/>
+      <point x="1238" y="-192"/>
+      <point x="1253" y="-20"/>
+      <point x="1262" y="73" type="curve"/>
+    </contour>
+    <component base="el-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 13:11:41</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1234</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>145</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>583</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

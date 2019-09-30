@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iishorttail-cy" format="2">
+  <advance width="1485"/>
+  <unicode hex="048B"/>
+  <anchor x="1116" y="0" name="bottomright"/>
+  <anchor x="666" y="1110" name="top"/>
+  <outline>
+    <contour>
+      <point x="1245" y="-360" type="curve"/>
+      <point x="1355" y="-360" type="line"/>
+      <point x="1375" y="-206"/>
+      <point x="1391" y="-50"/>
+      <point x="1409" y="104" type="curve"/>
+      <point x="1179" y="104" type="line"/>
+      <point x="1229" y="0" type="line"/>
+      <point x="1235" y="-120"/>
+      <point x="1239" y="-240"/>
+    </contour>
+    <component base="ii-cy"/>
+    <component base="brevecomb-cy" xOffset="744"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ii-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:34:24</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

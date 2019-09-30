@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q.sc" format="2">
+  <advance width="1222"/>
+  <anchor x="698" y="-144" name="mark0"/>
+  <anchor x="610" y="0" name="bottom"/>
+  <anchor x="630" y="648" name="center"/>
+  <anchor x="693" y="18" name="ogonek"/>
+  <anchor x="609" y="1340" name="top"/>
+  <anchor x="56" y="1292" name="topleft"/>
+  <anchor x="969" y="1292" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1199" y="-314" type="curve" smooth="yes"/>
+      <point x="1302" y="-314"/>
+      <point x="1365" y="-280"/>
+      <point x="1425" y="-204" type="curve"/>
+      <point x="1398" y="-114" type="line"/>
+      <point x="1383" y="-118"/>
+      <point x="1358" y="-126"/>
+      <point x="1302" y="-126" type="curve"/>
+      <point x="1107" y="-126"/>
+      <point x="971" y="-4"/>
+      <point x="783" y="34" type="curve"/>
+      <point x="709" y="42" type="line"/>
+      <point x="680" y="-8" type="line"/>
+      <point x="875" y="-84"/>
+      <point x="973" y="-314"/>
+    </contour>
+    <component base="o.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 18:05:29</string>
+    </dict>
+  </lib>
+</glyph>

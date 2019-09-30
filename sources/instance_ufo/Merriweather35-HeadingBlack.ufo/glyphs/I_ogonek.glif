@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iogonek" format="2">
+  <advance width="742.4"/>
+  <unicode hex="012E"/>
+  <anchor x="369.8" y="-2.842170943040401e-14" name="bottom"/>
+  <anchor x="371.8" y="-165.99999999999997" name="mark0"/>
+  <anchor x="671.8" y="20.0" name="ogonek"/>
+  <anchor x="369.8" y="1486.0" name="top"/>
+  <anchor x="37.0" y="1486.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="484.8" y="42.6" type="line"/>
+      <point x="383.9" y="0.0" type="line"/>
+      <point x="222.9" y="-64.0"/>
+      <point x="102.9" y="-184.0"/>
+      <point x="102.9" y="-301.0" type="curve" smooth="yes"/>
+      <point x="102.9" y="-427.0"/>
+      <point x="217.9" y="-501.0"/>
+      <point x="380.9" y="-501.0" type="curve" smooth="yes"/>
+      <point x="462.9" y="-501.0"/>
+      <point x="574.9" y="-478.0"/>
+      <point x="630.9" y="-436.0" type="curve"/>
+      <point x="630.9" y="-296.0" type="line"/>
+      <point x="585.9" y="-315.0"/>
+      <point x="558.9" y="-322.0"/>
+      <point x="511.9" y="-322.0" type="curve" smooth="yes"/>
+      <point x="416.9" y="-322.0"/>
+      <point x="365.9" y="-283.0"/>
+      <point x="365.9" y="-215.0" type="curve" smooth="yes"/>
+      <point x="365.9" y="-147.0"/>
+      <point x="449.9" y="-47.0"/>
+      <point x="574.9" y="0.0" type="curve"/>
+    </contour>
+    <component base="I"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/14 20:18:28</string>
+    </dict>
+  </lib>
+</glyph>

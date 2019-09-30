@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorntilde" format="2">
+  <advance width="1216.5469613259668"/>
+  <unicode hex="1EE1"/>
+  <anchor x="610.5690607734807" y="0.0" name="bottom"/>
+  <anchor x="610.5690607734807" y="529.5" name="center"/>
+  <anchor x="690.0856353591159" y="16.906077348066297" name="ogonek"/>
+  <anchor x="608.9116022099447" y="1537.3093922651933" name="top"/>
+  <anchor x="943.8950276243094" y="1058.2237569060774" name="topright"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="tildecomb" xOffset="608.9116022099447" yOffset="0.7237569060773481"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 14:25:55</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

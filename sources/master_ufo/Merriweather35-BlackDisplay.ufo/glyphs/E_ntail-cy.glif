@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Entail-cy" format="2">
+  <advance width="1593"/>
+  <unicode hex="04C9"/>
+  <anchor x="1638" y="0" name="bottomright"/>
+  <anchor x="749" y="743" name="center"/>
+  <anchor x="774" y="1486" name="top"/>
+  <anchor x="12" y="1486" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="1201" y="-410" type="curve"/>
+      <point x="1403" y="-410" type="line"/>
+      <point x="1425" y="-364"/>
+      <point x="1524" y="-123"/>
+      <point x="1575" y="0" type="curve"/>
+      <point x="1575" y="72" type="line"/>
+      <point x="1229" y="72" type="line"/>
+      <point x="1229" y="0" type="line"/>
+      <point x="1292" y="0" type="line"/>
+      <point x="1280" y="-68"/>
+      <point x="1222" y="-327"/>
+    </contour>
+    <component base="En-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:04:17</string>
+    </dict>
+  </lib>
+</glyph>

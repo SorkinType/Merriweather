@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scarondotaccent" format="2">
+  <advance width="1066"/>
+  <unicode hex="1E67"/>
+  <anchor x="530" y="-9" name="bottom"/>
+  <anchor x="537" y="-176" name="mark0"/>
+  <anchor x="535" y="2198" name="top"/>
+  <outline>
+    <component base="s"/>
+    <component base="caroncomb" xOffset="535" yOffset="-10"/>
+    <component base="dotaccentcomb" xOffset="535" yOffset="650"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/16 18:13:26</string>
+    </dict>
+  </lib>
+</glyph>

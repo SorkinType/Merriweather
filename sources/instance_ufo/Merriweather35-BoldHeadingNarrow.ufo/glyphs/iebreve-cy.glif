@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iebreve-cy" format="2">
+  <advance width="878.4375690607735"/>
+  <unicode hex="04D7"/>
+  <anchor x="566.4972375690608" y="-166.0" name="mark0"/>
+  <anchor x="447.9524861878453" y="-10.271270718232044" name="bottom"/>
+  <anchor x="570.5701657458563" y="20.0" name="ogonek"/>
+  <anchor x="482.26408839779003" y="1110.7237569060774" name="top"/>
+  <outline>
+    <component base="ie-cy"/>
+    <component base="brevecomb-cy" xOffset="482.26408839779003" yOffset="0.7237569060773481"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 19:08:33</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

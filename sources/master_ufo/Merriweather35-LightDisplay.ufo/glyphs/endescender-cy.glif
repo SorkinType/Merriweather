@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endescender-cy" format="2">
+  <advance width="1086"/>
+  <unicode hex="04A3"/>
+  <anchor x="1048" y="0" name="bottomright"/>
+  <outline>
+    <contour>
+      <point x="1048" y="56" type="curve"/>
+      <point x="906" y="56" type="line"/>
+      <point x="888" y="0" type="line"/>
+      <point x="902" y="-68"/>
+      <point x="926" y="-286"/>
+      <point x="932" y="-370" type="curve"/>
+      <point x="992" y="-370" type="line"/>
+      <point x="1010" y="-240"/>
+      <point x="1032" y="-76"/>
+    </contour>
+    <component base="en-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 18:38:26</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

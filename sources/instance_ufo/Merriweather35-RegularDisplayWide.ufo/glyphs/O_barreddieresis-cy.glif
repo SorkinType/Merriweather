@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Obarreddieresis-cy" format="2">
+  <advance width="1485.0607734806629"/>
+  <unicode hex="04EA"/>
+  <anchor x="714.2265193370166" y="-166.0" name="mark0"/>
+  <anchor x="737.1270718232045" y="0.0" name="bottom"/>
+  <anchor x="744.6353591160221" y="728.3646408839779" name="center"/>
+  <anchor x="839.8563535911602" y="20.0" name="ogonek"/>
+  <anchor x="747.9171270718232" y="1820.6519337016575" name="top"/>
+  <anchor x="6.90607734806629" y="1486.0" name="topleft"/>
+  <anchor x="1547.5856353591162" y="1486.0" name="topright"/>
+  <outline>
+    <component base="Obarred-cy"/>
+    <component base="dieresiscomb.case" xOffset="747.9171270718232"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 17:09:01</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij_acutecomb.sc" format="2">
+  <advance width="1457.0883977900553"/>
+  <anchor x="362.7762430939227" y="0.0" name="bottom"/>
+  <anchor x="544.2624309392265" y="18.0" name="ogonek"/>
+  <anchor x="361.24309392265195" y="1311.4281767955802" name="top_1"/>
+  <anchor x="1092.3453038674033" y="1312.1519337016575" name="top_2"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="acutecomb" xOffset="361.24309392265195" yOffset="201.4281767955801"/>
+    <component base="j.sc" xOffset="730.0580110497237"/>
+    <component base="acutecomb" xOffset="1092.3453038674033" yOffset="202.15193370165747"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ij.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ij.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/25 02:34:09</string>
+    </dict>
+  </lib>
+</glyph>

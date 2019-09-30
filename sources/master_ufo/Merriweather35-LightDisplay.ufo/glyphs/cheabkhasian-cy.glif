@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cheabkhasian-cy" format="2">
+  <advance width="1124"/>
+  <unicode hex="04BD"/>
+  <anchor x="699" y="0" name="bottom"/>
+  <anchor x="753" y="-166" name="mark0"/>
+  <anchor x="851" y="20" name="ogonek"/>
+  <anchor x="741" y="1110" name="top"/>
+  <outline>
+    <contour>
+      <point x="286" y="526" type="curve"/>
+      <point x="290" y="568" type="line"/>
+      <point x="159" y="568"/>
+      <point x="132" y="637"/>
+      <point x="132" y="697" type="curve" smooth="yes"/>
+      <point x="132" y="753"/>
+      <point x="155" y="809"/>
+      <point x="174" y="833" type="curve"/>
+      <point x="54" y="857" type="line"/>
+      <point x="26" y="832"/>
+      <point x="0" y="761"/>
+      <point x="0" y="705" type="curve" smooth="yes"/>
+      <point x="0" y="583"/>
+      <point x="123" y="526"/>
+    </contour>
+    <component base="ie-cy" xOffset="230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:05:02</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

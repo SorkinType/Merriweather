@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="schwadieresis-cy" format="2">
+  <advance width="1071.560773480663"/>
+  <unicode hex="04DB"/>
+  <anchor x="493.9944751381216" y="1036.9342541436463" name="bottom"/>
+  <anchor x="512.1011049723757" y="1130.486187845304" name="mark0"/>
+  <anchor x="367.6475138121547" y="1016.9342541436464" name="ogonek"/>
+  <anchor x="531.9779005524862" y="1475.8232044198894" name="top"/>
+  <outline>
+    <component base="schwa-cy"/>
+    <component base="dieresiscomb" xOffset="531.9779005524862"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/16 02:52:17</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar" format="2">
+  <advance width="1573"/>
+  <unicode hex="0126"/>
+  <anchor x="791" y="0" name="bottom"/>
+  <anchor x="791" y="743" name="center"/>
+  <anchor x="807" y="1486" name="top"/>
+  <anchor x="-1" y="1486" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="1543" y="1110" type="line"/>
+      <point x="30" y="1110" type="line"/>
+      <point x="30" y="1020" type="line"/>
+      <point x="1543" y="1020" type="line"/>
+    </contour>
+    <component base="H"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/25 02:53:41</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

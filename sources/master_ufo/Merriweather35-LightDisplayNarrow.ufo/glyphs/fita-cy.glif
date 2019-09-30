@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fita-cy" format="2">
+  <advance width="881"/>
+  <unicode hex="0473"/>
+  <anchor x="441" y="0" name="bottom"/>
+  <anchor x="441" y="503" name="center"/>
+  <anchor x="483" y="10" name="ogonek"/>
+  <anchor x="440" y="1110" name="top"/>
+  <anchor x="662" y="1005" name="topright"/>
+  <outline>
+    <contour>
+      <point x="559" y="426" type="curve" smooth="yes"/>
+      <point x="613" y="426"/>
+      <point x="661" y="443"/>
+      <point x="695" y="474" type="curve"/>
+      <point x="695" y="518" type="line"/>
+      <point x="663" y="502"/>
+      <point x="615" y="492"/>
+      <point x="579" y="492" type="curve" smooth="yes"/>
+      <point x="481" y="492"/>
+      <point x="443" y="591"/>
+      <point x="312" y="591" type="curve" smooth="yes"/>
+      <point x="258" y="591"/>
+      <point x="220" y="574"/>
+      <point x="186" y="543" type="curve"/>
+      <point x="186" y="499" type="line"/>
+      <point x="218" y="515"/>
+      <point x="256" y="525"/>
+      <point x="292" y="525" type="curve" smooth="yes"/>
+      <point x="397" y="525"/>
+      <point x="428" y="426"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:05:02</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

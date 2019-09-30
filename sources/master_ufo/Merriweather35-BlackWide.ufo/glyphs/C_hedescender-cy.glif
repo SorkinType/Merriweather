@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chedescender-cy" format="2">
+  <advance width="1755"/>
+  <unicode hex="04B6"/>
+  <anchor x="1624" y="0" name="bottomright"/>
+  <anchor x="871" y="744" name="center"/>
+  <anchor x="808" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="1433" y="-406" type="curve"/>
+      <point x="1627" y="-406" type="line"/>
+      <point x="1639" y="-338"/>
+      <point x="1673" y="-1"/>
+      <point x="1677" y="155" type="curve"/>
+      <point x="1282" y="157" type="line"/>
+      <point x="1277" y="0" type="line"/>
+      <point x="1374" y="0" type="line"/>
+      <point x="1396" y="-49"/>
+      <point x="1431" y="-345"/>
+    </contour>
+    <component base="Che-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/17 15:04:17</string>
+    </dict>
+  </lib>
+</glyph>

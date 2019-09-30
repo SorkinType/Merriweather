@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kadescender-cy.sc" format="2">
+  <advance width="1070"/>
+  <anchor x="1035" y="0" name="bottomright"/>
+  <anchor x="525" y="1292" name="top"/>
+  <outline>
+    <contour>
+      <point x="896" y="101" type="line"/>
+      <point x="896" y="0" type="line"/>
+      <point x="921" y="0" type="line"/>
+      <point x="931" y="-26"/>
+      <point x="943" y="-285"/>
+      <point x="943" y="-323" type="curve"/>
+      <point x="1042" y="-323" type="line"/>
+      <point x="1045" y="-309"/>
+      <point x="1082" y="78"/>
+      <point x="1082" y="101" type="curve"/>
+    </contour>
+    <component base="ka-cy.sc" xOffset="-3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 13:10:36</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

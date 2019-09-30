@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Emacron" format="2">
+  <advance width="1212.5292817679558"/>
+  <unicode hex="0112"/>
+  <anchor x="686.2265193370166" y="-166.0" name="mark0"/>
+  <anchor x="639.7132596685083" y="0.0" name="bottom"/>
+  <anchor x="1139.0602209944752" y="20.0" name="ogonek"/>
+  <anchor x="669.7408839779006" y="1782.3696132596685" name="top"/>
+  <anchor x="27.740883977900545" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="macroncomb.case" xOffset="669.7408839779006"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/28 03:38:02</string>
+    </dict>
+  </lib>
+</glyph>

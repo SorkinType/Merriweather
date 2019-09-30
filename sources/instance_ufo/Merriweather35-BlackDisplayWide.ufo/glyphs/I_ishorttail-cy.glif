@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iishorttail-cy" format="2">
+  <advance width="1715"/>
+  <unicode hex="048A"/>
+  <anchor x="1424" y="0" name="bottomright"/>
+  <anchor x="743" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="1187" y="-406" type="curve"/>
+      <point x="1369" y="-406" type="line"/>
+      <point x="1387" y="-383"/>
+      <point x="1596" y="-28"/>
+      <point x="1642" y="71" type="curve"/>
+      <point x="1387" y="71" type="line"/>
+      <point x="1317" y="0" type="line"/>
+      <point x="1317" y="-49"/>
+      <point x="1213" y="-345"/>
+    </contour>
+    <component base="Iishort-cy" xOffset="-62"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 14:01:34</string>
+    </dict>
+  </lib>
+</glyph>

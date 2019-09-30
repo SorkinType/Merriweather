@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacron" format="2">
+  <advance width="1112.2044198895028"/>
+  <unicode hex="016B"/>
+  <anchor x="589.7513812154696" y="0.0" name="bottom"/>
+  <anchor x="634.3591160220994" y="-166.0" name="mark0"/>
+  <anchor x="922.2099447513813" y="20.0" name="ogonek"/>
+  <anchor x="555.5690607734807" y="1476.5690607734807" name="top"/>
+  <anchor x="912.2872928176796" y="1069.7707182320441" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="macroncomb" xOffset="555.5690607734807" yOffset="0.7237569060773481"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 16:25:00</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

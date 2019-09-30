@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash.sc" format="2">
+  <advance width="1001"/>
+  <anchor x="611" y="0" name="bottom"/>
+  <anchor x="609" y="647" name="center"/>
+  <anchor x="654" y="-144" name="mark0"/>
+  <anchor x="322" y="1323" name="top"/>
+  <anchor x="878" y="966" name="topright"/>
+  <outline>
+    <contour>
+      <point x="732" y="1018" type="line"/>
+      <point x="280" y="669" type="line"/>
+      <point x="203" y="645" type="line"/>
+      <point x="32" y="522" type="line"/>
+      <point x="32" y="454" type="line"/>
+      <point x="202" y="575" type="line"/>
+      <point x="289" y="606" type="line"/>
+      <point x="732" y="947" type="line"/>
+    </contour>
+    <component base="l.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/25 02:28:43</string>
+    </dict>
+  </lib>
+</glyph>

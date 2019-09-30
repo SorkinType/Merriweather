@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shhadescender-cy.sc" format="2">
+  <advance width="1590"/>
+  <anchor x="1402" y="0" name="bottomright"/>
+  <anchor x="711" y="0" name="top"/>
+  <outline>
+    <contour>
+      <point x="1247" y="69" type="line"/>
+      <point x="1247" y="0" type="line"/>
+      <point x="1338" y="0" type="line"/>
+      <point x="1345" y="-41"/>
+      <point x="1353" y="-273"/>
+      <point x="1353" y="-293" type="curve"/>
+      <point x="1462" y="-293" type="line"/>
+      <point x="1479" y="-192"/>
+      <point x="1507" y="8"/>
+      <point x="1517" y="69" type="curve"/>
+    </contour>
+    <component base="shha-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>shha-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 06:00:25</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>892</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>651</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>80</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

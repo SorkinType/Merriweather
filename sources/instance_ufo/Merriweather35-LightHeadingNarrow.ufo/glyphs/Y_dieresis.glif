@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ydieresis" format="2">
+  <advance width="1128.5"/>
+  <unicode hex="0178"/>
+  <anchor x="610.0" y="-166.0" name="mark0"/>
+  <anchor x="610.4" y="0.0" name="bottom"/>
+  <anchor x="630.4" y="1806.0" name="top"/>
+  <anchor x="10.399999999999999" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="dieresiscomb.case" xOffset="630.4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/16 05:40:21</string>
+    </dict>
+  </lib>
+</glyph>

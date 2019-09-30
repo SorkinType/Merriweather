@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ibreve" format="2">
+  <advance width="520.4"/>
+  <unicode hex="012C"/>
+  <anchor x="400.0" y="-166.0" name="mark0"/>
+  <anchor x="263.5" y="1.5" name="bottom"/>
+  <anchor x="502.5" y="20.0" name="ogonek"/>
+  <anchor x="263.5" y="1948.0" name="top"/>
+  <anchor x="17.9" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="brevecomb.case" xOffset="263.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/29 14:13:07</string>
+    </dict>
+  </lib>
+</glyph>

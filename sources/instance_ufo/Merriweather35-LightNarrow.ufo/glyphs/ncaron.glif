@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ncaron" format="2">
+  <advance width="1097"/>
+  <unicode hex="0148"/>
+  <anchor x="674" y="-166" name="mark0"/>
+  <anchor x="551" y="0" name="bottom"/>
+  <anchor x="524" y="1792" name="top"/>
+  <outline>
+    <component base="n"/>
+    <component base="caroncomb" xOffset="524"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 14:25:55</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

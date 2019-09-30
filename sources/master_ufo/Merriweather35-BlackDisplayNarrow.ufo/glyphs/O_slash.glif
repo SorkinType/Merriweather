@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslash" format="2">
+  <advance width="1232"/>
+  <unicode hex="00D8"/>
+  <anchor x="739" y="1486" name="top"/>
+  <anchor x="626" y="0" name="bottom"/>
+  <anchor x="629" y="714" name="center"/>
+  <anchor x="716" y="20" name="ogonek"/>
+  <anchor x="44" y="1486" name="topleft"/>
+  <anchor x="1008" y="1486" name="topright"/>
+  <outline>
+    <contour>
+      <point x="856" y="1666" type="line"/>
+      <point x="305" y="-172" type="line"/>
+      <point x="381" y="-198" type="line"/>
+      <point x="932" y="1638" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/10 04:12:02</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

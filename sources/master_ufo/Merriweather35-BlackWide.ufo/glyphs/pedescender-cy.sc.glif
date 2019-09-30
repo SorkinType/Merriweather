@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pedescender-cy.sc" format="2">
+  <advance width="1781"/>
+  <anchor x="1719" y="0" name="bottomright"/>
+  <outline>
+    <contour>
+      <point x="1352" y="153" type="line"/>
+      <point x="1352" y="0" type="line"/>
+      <point x="1421" y="0" type="line"/>
+      <point x="1449" y="-56"/>
+      <point x="1482" y="-305"/>
+      <point x="1482" y="-372" type="curve"/>
+      <point x="1671" y="-372" type="line"/>
+      <point x="1679" y="-335"/>
+      <point x="1723" y="5"/>
+      <point x="1723" y="153" type="curve"/>
+    </contour>
+    <component base="pe-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/24 13:11:24</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

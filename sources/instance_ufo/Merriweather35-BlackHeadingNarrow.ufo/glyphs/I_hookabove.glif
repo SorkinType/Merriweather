@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ihookabove" format="2">
+  <advance width="671.0"/>
+  <unicode hex="1EC8"/>
+  <anchor x="331.4" y="-114.20000000000002" name="bottom"/>
+  <anchor x="331.0" y="-51.79999999999998" name="mark0"/>
+  <anchor x="607.5" y="20.0" name="ogonek"/>
+  <anchor x="330.2" y="1486.0" name="top"/>
+  <anchor x="44.0" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="hookabovecomb.case" xOffset="330.2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/29 14:13:07</string>
+    </dict>
+  </lib>
+</glyph>

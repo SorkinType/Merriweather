@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotaccentmacron.sc" format="2">
+  <advance width="1417.8397790055249"/>
+  <anchor x="708.988950276243" y="0.0" name="bottom"/>
+  <anchor x="712.2900552486187" y="530.389502762431" name="center"/>
+  <anchor x="965.0911602209945" y="15.104972375690608" name="ogonek"/>
+  <anchor x="708.988950276243" y="1868.9447513812154" name="top"/>
+  <anchor x="29.68508287292819" y="1058.2265193370165" name="topleft"/>
+  <anchor x="1197.121546961326" y="1058.2265193370165" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="dotaccentcomb" xOffset="708.988950276243" yOffset="-30.53591160220995"/>
+    <component base="macroncomb" xOffset="708.988950276243" yOffset="393.09944751381215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 05:56:43</string>
+    </dict>
+  </lib>
+</glyph>

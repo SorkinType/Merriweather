@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohorndotbelow" format="2">
+  <advance width="1469"/>
+  <unicode hex="1EE2"/>
+  <anchor x="736" y="-346" name="bottom"/>
+  <anchor x="739" y="734" name="center"/>
+  <anchor x="1294" y="20" name="ogonek"/>
+  <anchor x="742" y="1486" name="top"/>
+  <anchor x="-10" y="1486" name="topleft"/>
+  <anchor x="1671" y="1486" name="topright"/>
+  <outline>
+    <component base="Ohorn"/>
+    <component base="dotbelowcomb" xOffset="736"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 17:11:14</string>
+    </dict>
+  </lib>
+</glyph>

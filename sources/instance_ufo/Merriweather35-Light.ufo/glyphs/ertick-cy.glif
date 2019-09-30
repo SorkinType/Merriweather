@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ertick-cy" format="2">
+  <advance width="1250"/>
+  <unicode hex="048F"/>
+  <anchor x="665" y="-166" name="mark0"/>
+  <anchor x="643" y="1110" name="top"/>
+  <outline>
+    <contour>
+      <point x="804" y="76" type="line"/>
+      <point x="874" y="141" type="line"/>
+      <point x="713" y="320" type="line"/>
+      <point x="640" y="255" type="line"/>
+    </contour>
+    <contour>
+      <point x="984" y="-122" type="line"/>
+      <point x="1057" y="-57" type="line"/>
+      <point x="903" y="112" type="line"/>
+      <point x="833" y="47" type="line"/>
+    </contour>
+    <component base="p"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>p</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/27 20:19:52</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
