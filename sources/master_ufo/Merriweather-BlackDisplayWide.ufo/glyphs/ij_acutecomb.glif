@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij_acutecomb" format="2">
-  <advance width="1170.0"/>
+  <advance width="1150.0"/>
   <anchor x="364.0" y="0.0" name="bottom"/>
   <anchor x="445.0" y="20.0" name="ogonek"/>
   <anchor x="304.0" y="1110.0" name="top_1"/>
-  <anchor x="851.0" y="1110.0" name="top_2"/>
+  <anchor x="831.0" y="1110.0" name="top_2"/>
   <outline>
     <component base="idotless"/>
     <component base="acutecomb" xOffset="83.0"/>
-    <component base="jdotless" xOffset="580.0"/>
-    <component base="acutecomb" xOffset="630.0"/>
+    <component base="jdotless" xOffset="560.0"/>
+    <component base="acutecomb" xOffset="610.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 05:31:27</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
       <key>public.markColor</key>
