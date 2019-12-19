@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tse-cy" format="2">
-  <advance width="1493.1381215469614"/>
+  <advance width="1487.3480662983425"/>
   <unicode hex="0426"/>
+  <anchor x="1476.9558011049724" y="0.0" name="_bottomright"/>
   <outline>
     <contour>
       <point x="1338.7845303867402" y="0.0" type="line"/>
@@ -23,7 +24,17 @@
       <point x="12.696132596685082" y="36.72375690607735" type="line"/>
       <point x="12.696132596685082" y="0.0" type="line"/>
     </contour>
-    <component base="righttooth_part." xOffset="1202.6740331491712"/>
+    <contour>
+      <point x="1315.9502762430939" y="-360.0" type="curve"/>
+      <point x="1419.3756906077347" y="-360.0" type="line"/>
+      <point x="1433.756906077348" y="-247.37016574585635"/>
+      <point x="1457.2044198895028" y="-59.27624309392266"/>
+      <point x="1470.3093922651933" y="72.0" type="curve"/>
+      <point x="1202.5414364640883" y="72.0" type="line"/>
+      <point x="1219.1160220994475" y="5.447513812154696" type="line"/>
+      <point x="1239.6298342541436" y="-61.10497237569061"/>
+      <point x="1296.1988950276243" y="-266.5911602209945"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -32,7 +43,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>De-cy</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 17:47:55</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

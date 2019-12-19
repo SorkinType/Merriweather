@@ -2,7 +2,7 @@
 <glyph name="Fita-cy" format="2">
   <advance width="1540.5"/>
   <unicode hex="0472"/>
-  <anchor x="759.0" y="0.0" name="bottom"/>
+  <anchor x="769.0" y="0.0" name="bottom"/>
   <anchor x="773.0" y="741.0" name="center"/>
   <anchor x="836.0" y="20.0" name="ogonek"/>
   <anchor x="930.159" y="0.0" name="qq"/>
@@ -10,29 +10,8 @@
   <anchor x="68.0" y="1486.0" name="topleft"/>
   <anchor x="1209.5" y="1486.0" name="topright"/>
   <outline>
-    <contour>
-      <point x="900.0" y="621.0" type="curve" smooth="yes"/>
-      <point x="1002.0" y="621.0"/>
-      <point x="1077.0" y="677.0"/>
-      <point x="1135.0" y="739.0" type="curve"/>
-      <point x="1143.0" y="849.0" type="line"/>
-      <point x="1114.0" y="828.5"/>
-      <point x="1070.0" y="792.0"/>
-      <point x="999.0" y="792.0" type="curve" smooth="yes"/>
-      <point x="889.0" y="792.0"/>
-      <point x="799.5" y="906.0"/>
-      <point x="655.0" y="906.0" type="curve" smooth="yes"/>
-      <point x="552.5" y="906.0"/>
-      <point x="479.5" y="848.5"/>
-      <point x="423.0" y="788.0" type="curve"/>
-      <point x="407.0" y="670.0" type="line"/>
-      <point x="439.5" y="693.0"/>
-      <point x="482.0" y="732.0"/>
-      <point x="558.0" y="732.0" type="curve" smooth="yes"/>
-      <point x="665.5" y="732.0"/>
-      <point x="754.5" y="621.0"/>
-    </contour>
     <component base="O"/>
+    <component base="fita_part." xOffset="-1.5" yOffset="-21.5"/>
   </outline>
   <lib>
     <dict>
@@ -41,7 +20,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>O</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 17:57:38</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

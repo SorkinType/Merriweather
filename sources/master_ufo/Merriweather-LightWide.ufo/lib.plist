@@ -690,14 +690,6 @@
         <string>I</string>
       </dict>
     </dict>
-    <key>com.schriftgestaltung.Glyphs.glyphUserData.i.uc.sc</key>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>source</key>
-        <string>I.uc</string>
-      </dict>
-    </dict>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.ia-cy.sc</key>
     <dict>
       <key>RMXScaler</key>
@@ -1650,6 +1642,52 @@
       <string>P</string>
       <string>/eng</string>
       <string>/lje-cy</string>
+      <string>/Aogonek</string>
+      <string>Ç</string>
+      <string>/Eogonek</string>
+      <string>/Lslash</string>
+      <string>Q</string>
+      <string>/Tbar</string>
+      <string>/aogonek</string>
+      <string>/dcroat</string>
+      <string>/gstroke</string>
+      <string>/lslash</string>
+      <string>/caroncomb/scarondotaccent</string>
+      <string>/tbar</string>
+      <string>/eth.sc</string>
+      <string>/hbar.sc</string>
+      <string>/lslash.sc</string>
+      <string>/tbar.sc</string>
+      <string>/Iishorttail-cy</string>
+      <string>/Tse-cy</string>
+      <string>/Shcha-cy</string>
+      <string>/E-cy</string>
+      <string>/fita_part./Fita-cy</string>
+      <string>/fita_part.</string>
+      <string>/fita_part.</string>
+      <string>/fita_part.</string>
+      <string>/Kadescender-cy</string>
+      <string>/Kaverticalstroke-cy</string>
+      <string>/Kastroke-cy</string>
+      <string>/Endescender-cy</string>
+      <string>/Pedescender-cy</string>
+      <string>/Esdescender-cy</string>
+      <string>/el-cy.sc/eldescender-cy.sc</string>
+      <string>/chedescenderabkhasian-cy.sc</string>
+      <string>/esdescender-cy.loclCHU.sc</string>
+      <string>O/cheabkhasian-cy.sc/chedescenderabkhasian-cy.sc</string>
+      <string>/dotbelowcomb.case/Odotbelow</string>
+      <string>/Tedescender-cy</string>
+      <string>/descender_part.</string>
+      <string>/esdescender-cy.sc</string>
+      <string>no/esdescender-cy</string>
+      <string>/descender_part.</string>
+      <string>/dotbelowcomb.case</string>
+      <string>/descender_part.</string>
+      <string>/descender_part.</string>
+      <string>/dotaccentcomb</string>
+      <string>/descender_part.</string>
+      <string>/partialdiff</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
     <integer>1</integer>
@@ -2423,7 +2461,6 @@
       <string>u.sc</string>
       <string>uacute.sc</string>
       <string>ubreve.sc</string>
-      <string>i.uc.sc</string>
       <string>ucaron.sc</string>
       <string>ucircumflex.sc</string>
       <string>udblgrave.sc</string>
@@ -3334,6 +3371,8 @@
       <string>dieresis-cy</string>
       <string>rtail_part.</string>
       <string>slashocomb</string>
+      <string>fita_part.</string>
+      <string>descender_part.</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>

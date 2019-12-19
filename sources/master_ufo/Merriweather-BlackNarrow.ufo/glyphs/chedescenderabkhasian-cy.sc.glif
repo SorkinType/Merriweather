@@ -1,30 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedescenderabkhasian-cy.sc" format="2">
   <advance width="1323.0"/>
+  <anchor x="800.0" y="-513.0" name="bottom"/>
   <outline>
-    <contour>
-      <point x="935.0" y="-6.0" type="curve"/>
-      <point x="799.0" y="-10.0" type="line"/>
-      <point x="813.0" y="-40.0"/>
-      <point x="830.0" y="-87.0"/>
-      <point x="830.071" y="-141.565" type="curve" smooth="yes"/>
-      <point x="830.0" y="-250.0"/>
-      <point x="796.937" y="-261.19"/>
-      <point x="729.993" y="-261.19" type="curve" smooth="yes"/>
-      <point x="717.685" y="-261.19"/>
-      <point x="685.018" y="-257.378"/>
-      <point x="667.88" y="-251.565" type="curve"/>
-      <point x="668.451" y="-435.746" type="line"/>
-      <point x="693.64" y="-449.933"/>
-      <point x="746.303" y="-459.933"/>
-      <point x="775.75" y="-459.933" type="curve" smooth="yes"/>
-      <point x="928.185" y="-459.933"/>
-      <point x="1019.231" y="-413.559"/>
-      <point x="1026.242" y="-258.937" type="curve" smooth="yes"/>
-      <point x="1031.644" y="-149.625"/>
-      <point x="983.0" y="-61.0"/>
-    </contour>
     <component base="cheabkhasian-cy.sc"/>
+    <component base="cedillacomb" xOffset="602.0"/>
   </outline>
   <lib>
     <dict>
@@ -33,9 +13,9 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>cheabkhasian-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 18:08:58</string>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

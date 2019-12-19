@@ -8,12 +8,44 @@
   <anchor x="678.0" y="1111.0" name="topright"/>
   <outline>
     <contour>
-      <point x="776.0" y="633.0" type="line"/>
+      <point x="777.0" y="633.0" type="line"/>
       <point x="51.0" y="633.0" type="line"/>
       <point x="51.0" y="479.0" type="line"/>
-      <point x="776.0" y="479.0" type="line"/>
+      <point x="777.0" y="479.0" type="line"/>
     </contour>
-    <component base="t"/>
+    <contour>
+      <point x="430.0" y="-18.0" type="curve" smooth="yes"/>
+      <point x="588.0" y="-18.0"/>
+      <point x="745.0" y="40.0"/>
+      <point x="817.0" y="96.0" type="curve"/>
+      <point x="774.0" y="221.0" type="line"/>
+      <point x="732.0" y="206.0"/>
+      <point x="683.0" y="190.0"/>
+      <point x="623.0" y="190.0" type="curve" smooth="yes"/>
+      <point x="538.0" y="190.0"/>
+      <point x="522.0" y="206.0"/>
+      <point x="522.0" y="415.0" type="curve" smooth="yes"/>
+      <point x="522.0" y="944.0" type="line"/>
+      <point x="777.0" y="944.0" type="line"/>
+      <point x="777.0" y="1111.0" type="line"/>
+      <point x="519.0" y="1111.0" type="line"/>
+      <point x="507.0" y="1412.0" type="line"/>
+      <point x="301.0" y="1412.0" type="line"/>
+      <point x="283.0" y="1346.0"/>
+      <point x="260.0" y="1276.0"/>
+      <point x="239.0" y="1225.0" type="curve" smooth="yes"/>
+      <point x="220.0" y="1177.0"/>
+      <point x="207.0" y="1150.0"/>
+      <point x="179.0" y="1123.0" type="curve" smooth="yes"/>
+      <point x="151.0" y="1097.0"/>
+      <point x="100.0" y="1089.0"/>
+      <point x="50.0" y="1069.0" type="curve"/>
+      <point x="50.0" y="944.0" type="line"/>
+      <point x="172.0" y="944.0" type="line"/>
+      <point x="172.0" y="232.0" type="line" smooth="yes"/>
+      <point x="172.0" y="63.0"/>
+      <point x="254.0" y="-18.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -24,7 +56,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>t</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 17:34:16</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
       <key>public.markColor</key>

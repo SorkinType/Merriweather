@@ -1,30 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedescenderabkhasian-cy.sc" format="2">
   <advance width="1290.6132596685084"/>
+  <anchor x="824.6906077348067" y="-501.121546961326" name="bottom"/>
   <outline>
-    <contour>
-      <point x="836.232044198895" y="-0.10497237569060758" type="curve"/>
-      <point x="779.756906077348" y="-1.1049723756906076" type="line"/>
-      <point x="829.0220994475138" y="-57.751381215469614"/>
-      <point x="860.6795580110497" y="-115.23756906077348"/>
-      <point x="860.6795580110497" y="-166.24861878453038" type="curve" smooth="yes"/>
-      <point x="860.6795580110497" y="-224.02209944751382"/>
-      <point x="821.5469613259669" y="-248.5745856353591"/>
-      <point x="762.0331491712707" y="-248.5745856353591" type="curve" smooth="yes"/>
-      <point x="739.4530386740331" y="-248.5745856353591"/>
-      <point x="707.2154696132596" y="-246.5745856353591"/>
-      <point x="684.7016574585635" y="-241.1270718232044" type="curve"/>
-      <point x="684.1491712707182" y="-407.61878453038673" type="line"/>
-      <point x="710.8729281767955" y="-418.7900552486188"/>
-      <point x="756.0441988950276" y="-429.4088397790055"/>
-      <point x="798.4530386740331" y="-429.4088397790055" type="curve" smooth="yes"/>
-      <point x="897.0994475138122" y="-429.4088397790055"/>
-      <point x="973.707182320442" y="-362.8674033149171"/>
-      <point x="973.707182320442" y="-249.353591160221" type="curve" smooth="yes"/>
-      <point x="973.707182320442" y="-129.41988950276243"/>
-      <point x="898.8121546961327" y="-54.0"/>
-    </contour>
     <component base="cheabkhasian-cy.sc"/>
+    <component base="cedillacomb" xOffset="628.767955801105"/>
   </outline>
   <lib>
     <dict>
@@ -33,9 +13,9 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>cheabkhasian-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 18:08:58</string>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

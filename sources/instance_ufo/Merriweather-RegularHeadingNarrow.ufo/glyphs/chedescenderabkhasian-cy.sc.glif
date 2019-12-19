@@ -1,30 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedescenderabkhasian-cy.sc" format="2">
   <advance width="1240.0088397790055"/>
+  <anchor x="777.775138121547" y="-482.1160220994475" name="bottom"/>
   <outline>
-    <contour>
-      <point x="808.3044198895027" y="-3.5419889502762434" type="curve"/>
-      <point x="746.2259668508287" y="-5.011049723756907" type="line"/>
-      <point x="776.4640883977901" y="-46.97845303867403"/>
-      <point x="807.3044198895027" y="-108.84364640883977"/>
-      <point x="807.3104215469613" y="-170.41792541436465" type="curve" smooth="yes"/>
-      <point x="807.3044198895027" y="-255.14696132596686"/>
-      <point x="772.61401160221" y="-277.561364640884"/>
-      <point x="712.1353198895027" y="-277.561364640884" type="curve" smooth="yes"/>
-      <point x="697.222544198895" y="-277.561364640884"/>
-      <point x="667.0164386740331" y="-274.5463171270718"/>
-      <point x="648.4986961325967" y="-269.1367099447514" type="curve"/>
-      <point x="647.3259685082872" y="-405.51499337016577" type="line"/>
-      <point x="673.6701215469614" y="-416.40704364640885"/>
-      <point x="719.3714690607735" y="-425.29323149171273"/>
-      <point x="754.6352209944752" y="-425.29323149171273" type="curve" smooth="yes"/>
-      <point x="855.9598370165745" y="-425.29323149171273"/>
-      <point x="922.4913497237569" y="-373.88261160221"/>
-      <point x="924.1613403314917" y="-257.2035143646409" type="curve" smooth="yes"/>
-      <point x="925.264382320442" y="-141.37437845303867"/>
-      <point x="858.7591160220994" y="-53.94530386740331"/>
-    </contour>
     <component base="cheabkhasian-cy.sc"/>
+    <component base="cedillacomb" xOffset="588.682320441989"/>
   </outline>
   <lib>
     <dict>
@@ -33,9 +13,9 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>cheabkhasian-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 18:08:58</string>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

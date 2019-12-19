@@ -2,7 +2,7 @@
 <glyph name="Fita-cy" format="2">
   <advance width="1517.4624309392266"/>
   <unicode hex="0472"/>
-  <anchor x="747.4773480662983" y="-3.552713678800501e-15" name="bottom"/>
+  <anchor x="757.6099447513812" y="-3.552713678800501e-15" name="bottom"/>
   <anchor x="760.7127071823204" y="741.0" name="center"/>
   <anchor x="832.4209944751381" y="20.0" name="ogonek"/>
   <anchor x="916.2488784530386" y="0.0" name="qq"/>
@@ -10,29 +10,8 @@
   <anchor x="37.01546961325967" y="1486.0" name="topleft"/>
   <anchor x="1300.2812154696132" y="1486.0" name="topright"/>
   <outline>
-    <contour>
-      <point x="906.1049723756906" y="622.9337016574585" type="curve" smooth="yes"/>
-      <point x="1025.9558011049724" y="622.9337016574585"/>
-      <point x="1111.4906077348066" y="695.1889502762431"/>
-      <point x="1174.0441988950276" y="771.2872928176796" type="curve"/>
-      <point x="1180.7955801104972" y="855.4198895027624" type="line"/>
-      <point x="1146.8486187845303" y="830.1209944751381"/>
-      <point x="1087.8729281767955" y="777.4696132596686"/>
-      <point x="1003.9668508287293" y="777.4696132596686" type="curve" smooth="yes"/>
-      <point x="887.5458563535911" y="777.4696132596686"/>
-      <point x="776.3055248618784" y="901.0276243093923"/>
-      <point x="622.9060773480662" y="901.0276243093923" type="curve" smooth="yes"/>
-      <point x="503.29337016574584" y="901.0276243093923"/>
-      <point x="420.3099447513812" y="827.9276243093923"/>
-      <point x="359.0828729281768" y="753.7348066298342" type="curve"/>
-      <point x="343.9889502762431" y="662.1988950276243" type="line"/>
-      <point x="381.15303867403316" y="690.1977900552486"/>
-      <point x="438.3867403314917" y="744.1546961325967"/>
-      <point x="527.0441988950276" y="744.1546961325967" type="curve" smooth="yes"/>
-      <point x="638.7618784530387" y="744.1546961325967"/>
-      <point x="750.6834254143646" y="622.9337016574585"/>
-    </contour>
     <component base="O"/>
+    <component base="fita_part." xOffset="-1.518784530386739" yOffset="-20.112154696132595"/>
   </outline>
   <lib>
     <dict>
@@ -41,7 +20,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>O</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 17:57:38</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

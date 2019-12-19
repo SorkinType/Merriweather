@@ -2,6 +2,7 @@
 <glyph name="Tse-cy" format="2">
   <advance width="1345.0"/>
   <unicode hex="0426"/>
+  <anchor x="1262.0" y="0.0" name="_bottomright"/>
   <outline>
     <contour>
       <point x="1193.0" y="0.0" type="line"/>
@@ -23,7 +24,17 @@
       <point x="40.0" y="37.0" type="line"/>
       <point x="40.0" y="0.0" type="line"/>
     </contour>
-    <component base="righttooth_part." xOffset="980.0"/>
+    <contour>
+      <point x="1152.0" y="-360.0" type="curve"/>
+      <point x="1252.0" y="-360.0" type="line"/>
+      <point x="1267.0" y="-216.0"/>
+      <point x="1281.0" y="-72.0"/>
+      <point x="1296.0" y="72.0" type="curve"/>
+      <point x="1032.0" y="72.0" type="line"/>
+      <point x="1032.0" y="6.0" type="line"/>
+      <point x="1055.0" y="-60.0"/>
+      <point x="1127.0" y="-263.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -32,7 +43,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>De-cy</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 17:47:55</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

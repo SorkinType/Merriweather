@@ -11,7 +11,45 @@
       <point x="634.0" y="1151.0" type="line"/>
       <point x="89.0" y="1151.0" type="line"/>
     </contour>
-    <component base="Ka-cy"/>
+    <contour>
+      <point x="69.0" y="0.0" type="line"/>
+      <point x="576.0" y="0.0" type="line"/>
+      <point x="576.0" y="85.0" type="line"/>
+      <point x="398.0" y="107.0" type="line"/>
+      <point x="398.0" y="704.0" type="line"/>
+      <point x="568.0" y="704.0" type="line" smooth="yes"/>
+      <point x="652.0" y="704.0"/>
+      <point x="777.0" y="534.0"/>
+      <point x="873.0" y="384.0" type="curve" smooth="yes"/>
+      <point x="997.0" y="191.0"/>
+      <point x="1121.0" y="0.0"/>
+      <point x="1201.0" y="0.0" type="curve"/>
+      <point x="1393.0" y="0.0" type="line"/>
+      <point x="1393.0" y="87.0" type="line"/>
+      <point x="1316.0" y="108.0" type="line" smooth="yes"/>
+      <point x="1235.0" y="130.0"/>
+      <point x="1081.0" y="366.0"/>
+      <point x="939.0" y="566.0" type="curve" smooth="yes"/>
+      <point x="867.0" y="668.0"/>
+      <point x="795.0" y="754.0"/>
+      <point x="719.0" y="783.0" type="curve"/>
+      <point x="1226.0" y="1377.0" type="line"/>
+      <point x="1379.0" y="1399.0" type="line"/>
+      <point x="1379.0" y="1486.0" type="line"/>
+      <point x="911.0" y="1486.0" type="line"/>
+      <point x="911.0" y="1399.0" type="line"/>
+      <point x="1088.0" y="1377.0" type="line"/>
+      <point x="607.0" y="793.0" type="line"/>
+      <point x="398.0" y="793.0" type="line"/>
+      <point x="398.0" y="1377.0" type="line"/>
+      <point x="574.0" y="1399.0" type="line"/>
+      <point x="574.0" y="1486.0" type="line"/>
+      <point x="69.0" y="1486.0" type="line"/>
+      <point x="69.0" y="1399.0" type="line"/>
+      <point x="235.0" y="1377.0" type="line"/>
+      <point x="235.0" y="107.0" type="line"/>
+      <point x="69.0" y="89.0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -20,7 +58,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Ka-cy</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 17:59:13</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

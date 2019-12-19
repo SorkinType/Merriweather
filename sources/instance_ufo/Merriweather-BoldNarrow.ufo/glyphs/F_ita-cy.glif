@@ -10,29 +10,8 @@
   <anchor x="28.751381215469614" y="1486.0" name="topleft"/>
   <anchor x="971.9668508287293" y="1486.0" name="topright"/>
   <outline>
-    <contour>
-      <point x="718.6298342541436" y="637.4088397790056" type="curve" smooth="yes"/>
-      <point x="805.756906077348" y="637.4088397790056"/>
-      <point x="871.2541436464088" y="680.9834254143647"/>
-      <point x="916.2265193370166" y="725.7955801104972" type="curve"/>
-      <point x="912.8453038674033" y="868.6961325966851" type="line"/>
-      <point x="882.5966850828729" y="845.171270718232"/>
-      <point x="830.232044198895" y="794.3204419889503"/>
-      <point x="755.6961325966851" y="794.3204419889503" type="curve" smooth="yes"/>
-      <point x="678.1988950276243" y="794.3204419889503"/>
-      <point x="617.0441988950276" y="886.5524861878453"/>
-      <point x="515.7845303867404" y="886.5524861878453" type="curve" smooth="yes"/>
-      <point x="427.76243093922653" y="886.5524861878453"/>
-      <point x="363.37016574585635" y="840.0828729281768"/>
-      <point x="318.3977900552486" y="794.5469613259669" type="curve"/>
-      <point x="318.50276243093924" y="648.9226519337017" type="line"/>
-      <point x="351.47513812154693" y="675.171270718232"/>
-      <point x="402.0110497237569" y="726.9171270718232"/>
-      <point x="480.7182320441989" y="726.9171270718232" type="curve" smooth="yes"/>
-      <point x="554.5580110497237" y="726.9171270718232"/>
-      <point x="616.5414364640884" y="637.4088397790056"/>
-    </contour>
     <component base="O"/>
+    <component base="fita_part." xOffset="5.8674033149171265" yOffset="-21.895027624309392"/>
   </outline>
   <lib>
     <dict>
@@ -41,7 +20,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>O</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/19 17:57:38</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>
