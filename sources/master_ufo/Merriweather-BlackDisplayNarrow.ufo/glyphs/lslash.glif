@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="552.0"/>
+  <unicode hex="0142"/>
+  <anchor x="286.0" y="0.0" name="bottom"/>
+  <anchor x="275.0" y="1634.0" name="top"/>
+  <anchor x="571.0" y="1111.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="211.0" y="866.0" type="line"/>
+      <point x="3.0" y="750.0" type="line"/>
+      <point x="3.0" y="664.0" type="line"/>
+      <point x="211.0" y="778.0" type="line"/>
+      <point x="310.0" y="820.0" type="line"/>
+      <point x="527.0" y="942.0" type="line"/>
+      <point x="527.0" y="1029.0" type="line"/>
+      <point x="310.0" y="907.0" type="line"/>
+    </contour>
+    <component base="l" xOffset="13.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=l+5</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=l+5</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

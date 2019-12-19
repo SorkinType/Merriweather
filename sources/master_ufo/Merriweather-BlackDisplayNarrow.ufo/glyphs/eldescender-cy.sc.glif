@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eldescender-cy.sc" format="2">
+  <advance width="1062.0"/>
+  <anchor x="1241.0" y="0.0" name="bottomright"/>
+  <outline>
+    <component base="el-cy.sc"/>
+    <component base="righttooth_part." xOffset="959.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>de-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>1234.0</real>
+            <real>1255.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>145.0</real>
+            <real>1255.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>583.0</real>
+            <real>37.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

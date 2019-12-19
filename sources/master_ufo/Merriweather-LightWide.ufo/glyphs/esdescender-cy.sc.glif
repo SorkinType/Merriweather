@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescender-cy.sc" format="2">
+  <advance width="1254.0"/>
+  <anchor x="707.0" y="0.0" name="bottom"/>
+  <anchor x="709.0" y="1272.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="798.0" y="6.0" type="curve"/>
+      <point x="620.0" y="6.0" type="line"/>
+      <point x="636.0" y="-148.0"/>
+      <point x="639.0" y="-232.0"/>
+      <point x="652.0" y="-360.0" type="curve"/>
+      <point x="761.0" y="-360.0" type="line"/>
+      <point x="773.0" y="-233.0"/>
+      <point x="779.0" y="-148.0"/>
+    </contour>
+    <component base="es-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

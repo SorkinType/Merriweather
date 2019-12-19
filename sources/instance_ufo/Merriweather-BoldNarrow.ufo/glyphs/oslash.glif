@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash" format="2">
+  <advance width="1036.8729281767955"/>
+  <unicode hex="00F8"/>
+  <anchor x="518.4364640883978" y="0.0" name="bottom"/>
+  <anchor x="518.4364640883978" y="557.0" name="center"/>
+  <anchor x="932.0828729281768" y="10.0" name="ogonek"/>
+  <anchor x="518.4364640883978" y="1111.4475138121547" name="top"/>
+  <anchor x="813.7845303867404" y="1111.4475138121547" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="slashocomb" xOffset="8.19889502762431" yOffset="2.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

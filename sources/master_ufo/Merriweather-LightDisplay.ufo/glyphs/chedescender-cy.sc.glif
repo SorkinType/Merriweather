@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedescender-cy.sc" format="2">
+  <advance width="1190.0"/>
+  <anchor x="632.0" y="0.0" name="bottomleft"/>
+  <anchor x="1162.0" y="0.0" name="bottomright"/>
+  <anchor x="567.0" y="1340.0" name="top"/>
+  <outline>
+    <component base="che-cy.sc"/>
+    <component base="righttooth_part." xOffset="957.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>1162.0</real>
+            <real>1257.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>673.0</real>
+            <real>1257.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>455.0</real>
+            <real>1257.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>21.0</real>
+            <real>1257.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>652.0</real>
+            <real>35.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

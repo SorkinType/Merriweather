@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Otildemacron" format="2">
+  <advance width="1201.8342541436464"/>
+  <unicode hex="022C"/>
+  <anchor x="604.4530386740331" y="0.0" name="bottom"/>
+  <anchor x="601.6353591160221" y="741.0" name="center"/>
+  <anchor x="690.8618784530387" y="12.817679558011049" name="ogonek"/>
+  <anchor x="725.671635359116" y="0.0" name="qq"/>
+  <anchor x="611.6629834254144" y="2131.795580110497" name="top"/>
+  <anchor x="13.834254143646405" y="1486.0" name="topleft"/>
+  <anchor x="1112.8618784530386" y="1486.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="tildecomb.case" xOffset="355.3756906077348"/>
+    <component base="macroncomb.case" xOffset="376.30386740331494" yOffset="379.29834254143645"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

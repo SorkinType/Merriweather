@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresisacute" format="2">
+  <advance width="619.5469613259668"/>
+  <unicode hex="1E2F"/>
+  <anchor x="348.6685082872928" y="0.0" name="bottom"/>
+  <anchor x="429.3922651933702" y="20.0" name="ogonek"/>
+  <anchor x="328.49171270718233" y="1956.2983425414366" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dieresiscomb" xOffset="-52.11325966850829" yOffset="1.0"/>
+    <component base="acutecomb" xOffset="117.43370165745856" yOffset="369.58563535911605"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

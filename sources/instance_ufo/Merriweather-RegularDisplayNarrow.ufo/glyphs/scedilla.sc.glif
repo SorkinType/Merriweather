@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scedilla.sc" format="2">
+  <advance width="964.0773480662983"/>
+  <anchor x="575.0718232044198" y="0.0" name="_bottom"/>
+  <anchor x="575.0718232044198" y="-426.1160220994475" name="bottom"/>
+  <anchor x="485.3977900552486" y="1360.0" name="top"/>
+  <outline>
+    <component base="s.sc"/>
+    <component base="cedillacomb" xOffset="363.939226519337"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

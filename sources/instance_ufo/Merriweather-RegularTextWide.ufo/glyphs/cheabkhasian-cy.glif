@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cheabkhasian-cy" format="2">
+  <advance width="1296.7707182320441"/>
+  <unicode hex="04BD"/>
+  <anchor x="810.267955801105" y="-8.881784197001252e-16" name="bottom"/>
+  <anchor x="966.3453038674033" y="20.0" name="ogonek"/>
+  <anchor x="825.6270718232045" y="1110.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="317.47237569060775" y="615.3729281767955" type="line"/>
+      <point x="208.5524861878453" y="619.3591160220994"/>
+      <point x="177.34254143646407" y="674.5635359116022"/>
+      <point x="177.34254143646407" y="736.0138121546961" type="curve" smooth="yes"/>
+      <point x="177.34254143646407" y="784.4088397790056"/>
+      <point x="199.560773480663" y="849.2900552486187"/>
+      <point x="218.91988950276243" y="873.4171270718232" type="curve"/>
+      <point x="67.8011049723757" y="898.8259668508288" type="line"/>
+      <point x="43.0828729281768" y="877.0580110497237"/>
+      <point x="14.22375690607735" y="800.1132596685082"/>
+      <point x="14.22375690607735" y="742.2955801104972" type="curve" smooth="yes"/>
+      <point x="14.22375690607735" y="598.5497237569061"/>
+      <point x="150.74309392265195" y="544.4419889502763"/>
+      <point x="312.19060773480663" y="540.4558011049724" type="curve"/>
+    </contour>
+    <component base="ie-cy" xOffset="246.939226519337"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ie-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

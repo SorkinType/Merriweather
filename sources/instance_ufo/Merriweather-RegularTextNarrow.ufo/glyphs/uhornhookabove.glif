@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhornhookabove" format="2">
+  <advance width="1030.1823204419888"/>
+  <unicode hex="1EED"/>
+  <anchor x="610.0" y="0.0" name="bottom"/>
+  <anchor x="887.9447513812155" y="20.0" name="ogonek"/>
+  <anchor x="499.42541436464086" y="1536.0607734806629" name="top"/>
+  <anchor x="887.7458563535912" y="1063.8038674033148" name="topright"/>
+  <outline>
+    <component base="uhorn"/>
+    <component base="hookabovecomb" xOffset="335.1740331491713" yOffset="0.28176795580110486"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

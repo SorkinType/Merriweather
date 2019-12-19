@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omacrongrave" format="2">
+  <advance width="1054.0"/>
+  <unicode hex="1E51"/>
+  <anchor x="527.0" y="0.0" name="bottom"/>
+  <anchor x="527.0" y="557.0" name="center"/>
+  <anchor x="947.0" y="10.0" name="ogonek"/>
+  <anchor x="527.0" y="2195.0" name="top"/>
+  <anchor x="845.0" y="1112.0" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="macroncomb" xOffset="237.0" yOffset="2.0"/>
+    <component base="gravecomb" xOffset="206.0" yOffset="398.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

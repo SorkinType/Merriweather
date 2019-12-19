@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gestrokehook-cy" format="2">
+  <advance width="862.0"/>
+  <unicode hex="04FB"/>
+  <anchor x="264.0" y="0.0" name="bottomright"/>
+  <anchor x="467.5" y="556.0" name="center"/>
+  <anchor x="404.0" y="1111.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="498.5" y="-479.0" type="curve" smooth="yes"/>
+      <point x="647.5" y="-479.0"/>
+      <point x="725.5" y="-377.0"/>
+      <point x="725.5" y="-240.5" type="curve" smooth="yes"/>
+      <point x="725.5" y="-98.5"/>
+      <point x="654.0" y="15.5"/>
+      <point x="581.0" y="85.0" type="curve"/>
+      <point x="530.0" y="3.0" type="line"/>
+      <point x="555.0" y="-34.5"/>
+      <point x="571.5" y="-96.0"/>
+      <point x="571.5" y="-154.5" type="curve" smooth="yes"/>
+      <point x="571.5" y="-253.0"/>
+      <point x="519.0" y="-282.0"/>
+      <point x="436.0" y="-282.0" type="curve" smooth="yes"/>
+      <point x="413.0" y="-282.0"/>
+      <point x="383.5" y="-279.0"/>
+      <point x="365.5" y="-274.0" type="curve"/>
+      <point x="365.5" y="-454.0" type="line"/>
+      <point x="403.5" y="-470.0"/>
+      <point x="448.5" y="-479.0"/>
+    </contour>
+    <component base="ghestroke-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

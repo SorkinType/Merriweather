@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevedotbelow.sc" format="2">
+  <advance width="1303.3"/>
+  <anchor x="640.4" y="-377.0" name="bottom"/>
+  <anchor x="1188.4" y="17.3" name="ogonek"/>
+  <anchor x="646.3" y="1961.6" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="dotbelowcomb" xOffset="439.8"/>
+    <component base="brevecomb" xOffset="303.4" yOffset="223.6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

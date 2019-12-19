@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edotaccent" format="2">
+  <advance width="1327.0"/>
+  <unicode hex="0116"/>
+  <anchor x="692.0" y="0.0" name="bottom"/>
+  <anchor x="1113.0" y="20.0" name="ogonek"/>
+  <anchor x="695.0" y="1878.0" name="top"/>
+  <anchor x="53.0" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="dotaccentcomb.case" xOffset="493.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otilde.sc" format="2">
+  <advance width="1186.0"/>
+  <anchor x="592.5" y="0.0" name="bottom"/>
+  <anchor x="593.5" y="647.0" name="center"/>
+  <anchor x="670.0" y="18.0" name="ogonek"/>
+  <anchor x="685.0" y="0.0" name="q"/>
+  <anchor x="595.5" y="1768.0" name="top"/>
+  <anchor x="-4.5" y="1292.0" name="topleft"/>
+  <anchor x="817.5" y="1293.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="tildecomb" xOffset="244.5" yOffset="206.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

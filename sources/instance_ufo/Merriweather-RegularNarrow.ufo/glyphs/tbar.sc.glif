@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar.sc" format="2">
+  <advance width="1239.4309392265193"/>
+  <anchor x="629.0359116022099" y="0.0" name="bottom"/>
+  <anchor x="988.8839779005525" y="0.0" name="bottomright"/>
+  <anchor x="629.0359116022099" y="648.0" name="center"/>
+  <anchor x="628.317679558011" y="1228.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="977.7596685082873" y="639.9806629834254" type="line"/>
+      <point x="261.67127071823205" y="639.9806629834254" type="line"/>
+      <point x="261.67127071823205" y="510.6325966850829" type="line"/>
+      <point x="977.7596685082873" y="510.6325966850829" type="line"/>
+    </contour>
+    <component base="t.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

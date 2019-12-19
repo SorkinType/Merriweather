@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dzcaron" format="2">
+  <advance width="2332.3"/>
+  <unicode hex="01C5"/>
+  <anchor x="711.9" y="0.0" name="bottom_1"/>
+  <anchor x="1854.8" y="0.0" name="bottom_2"/>
+  <anchor x="687.9" y="764.0" name="center"/>
+  <anchor x="269.3" y="763.0" name="lstem"/>
+  <anchor x="711.9" y="1486.0" name="top_1"/>
+  <anchor x="1864.9" y="1484.2" name="top_2"/>
+  <outline>
+    <component base="D"/>
+    <component base="zcaron" xOffset="1374.4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

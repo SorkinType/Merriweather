@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash.sc" format="2">
+  <advance width="1391.4950276243094"/>
+  <anchor x="691.6265193370166" y="0.0" name="bottom"/>
+  <anchor x="691.6950276243094" y="647.2342541436464" name="center"/>
+  <anchor x="767.4359116022099" y="16.262983425414365" name="ogonek"/>
+  <anchor x="808.610497237569" y="0.0" name="q"/>
+  <anchor x="691.3187845303868" y="1333.6" name="top"/>
+  <anchor x="16.52928176795581" y="1151.7359116022099" name="topleft"/>
+  <anchor x="928.0337016574586" y="1293.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="slashocomb.sc" xOffset="26.69502762430939" yOffset="6.2342541436464085"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+    </dict>
+  </lib>
+</glyph>

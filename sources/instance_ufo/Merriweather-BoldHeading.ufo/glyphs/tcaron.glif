@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron" format="2">
+  <advance width="703.296685082873"/>
+  <unicode hex="0165"/>
+  <anchor x="376.507182320442" y="0.0" name="bottom"/>
+  <anchor x="293.7165745856354" y="562.0" name="center"/>
+  <anchor x="343.83425414364643" y="1375.4364640883978" name="top"/>
+  <anchor x="618.9049723756906" y="1110.7237569060774" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="caroncomb.alt" xOffset="577.539226519337" yOffset="0.28950276243093936"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorndotbelow.sc" format="2">
+  <advance width="1358.4"/>
+  <anchor x="751.2" y="-377.0" name="bottom"/>
+  <anchor x="1291.2" y="18.0" name="ogonek"/>
+  <anchor x="735.1" y="1333.6" name="top"/>
+  <anchor x="1203.8" y="1292.7" name="topright"/>
+  <outline>
+    <component base="uhorn.sc"/>
+    <component base="dotbelowcomb" xOffset="556.2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

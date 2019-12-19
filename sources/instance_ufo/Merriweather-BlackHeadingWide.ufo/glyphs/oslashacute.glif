@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslashacute" format="2">
+  <advance width="1222.6"/>
+  <unicode hex="01FF"/>
+  <anchor x="611.8" y="0.0" name="bottom"/>
+  <anchor x="611.8" y="518.9" name="center"/>
+  <anchor x="683.5" y="10.0" name="ogonek"/>
+  <anchor x="613.8" y="1589.6" name="top"/>
+  <anchor x="923.8" y="1037.1" name="topright"/>
+  <outline>
+    <component base="oslash"/>
+    <component base="acutecomb" xOffset="385.7" yOffset="0.6000000000000001"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash.sc" format="2">
+  <advance width="1275.0"/>
+  <anchor x="698.0" y="0.0" name="bottom"/>
+  <anchor x="667.0" y="648.0" name="center"/>
+  <anchor x="448.0" y="1273.0" name="top"/>
+  <anchor x="1008.0" y="967.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="917.0" y="964.0" type="line"/>
+      <point x="465.0" y="794.0" type="line"/>
+      <point x="312.0" y="745.0" type="line"/>
+      <point x="85.0" y="664.0" type="line"/>
+      <point x="85.0" y="526.0" type="line"/>
+      <point x="333.0" y="612.0" type="line"/>
+      <point x="468.0" y="653.0" type="line"/>
+      <point x="917.0" y="816.0" type="line"/>
+    </contour>
+    <component base="l.sc" xOffset="42.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=l.sc+10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

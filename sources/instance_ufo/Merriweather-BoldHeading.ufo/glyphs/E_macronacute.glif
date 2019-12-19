@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Emacronacute" format="2">
+  <advance width="1258.849723756906"/>
+  <unicode hex="1E16"/>
+  <anchor x="646.1088397790055" y="0.0" name="bottom"/>
+  <anchor x="1061.243093922652" y="20.0" name="ogonek"/>
+  <anchor x="659.9591160220995" y="2278.087845303867" name="top"/>
+  <anchor x="35.96187845303868" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="macroncomb.case" xOffset="352.16077348066295"/>
+    <component base="acutecomb.case" xOffset="501.9867403314917" yOffset="315.192817679558"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

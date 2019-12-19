@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy.sc" format="2">
+  <advance width="1213.8"/>
+  <outline>
+    <contour>
+      <point x="1104.8" y="34.3" type="line"/>
+      <point x="1030.4" y="93.0" type="line"/>
+      <point x="1030.4" y="1193.5" type="line"/>
+      <point x="1174.1" y="1224.4" type="line"/>
+      <point x="1174.1" y="1292.0" type="line"/>
+      <point x="140.0" y="1292.0" type="line"/>
+      <point x="140.0" y="1224.4" type="line"/>
+      <point x="339.4" y="1193.5" type="line"/>
+      <point x="339.4" y="1078.0" type="line" smooth="yes"/>
+      <point x="339.4" y="464.20000000000005"/>
+      <point x="215.5" y="211.4"/>
+      <point x="136.8" y="93.0" type="curve"/>
+      <point x="86.9" y="36.10000000000001" type="line"/>
+      <point x="283.3" y="0.0" type="line"/>
+      <point x="909.3" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="432.0" y="1068.0" type="curve"/>
+      <point x="432.0" y="1199.8" type="line"/>
+      <point x="692.9" y="1199.8" type="line"/>
+      <point x="694.9" y="96.6" type="line"/>
+      <point x="260.5" y="96.6" type="line"/>
+      <point x="327.3" y="223.7"/>
+      <point x="432.0" y="486.4"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="-9.5"/>
+    <component base="righttooth_part." xOffset="834.8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

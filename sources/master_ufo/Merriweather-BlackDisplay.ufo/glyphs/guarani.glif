@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guarani" format="2">
+  <advance width="1499.0"/>
+  <unicode hex="20B2"/>
+  <anchor x="797.0" y="0.0" name="bottom"/>
+  <anchor x="1236.0" y="345.0" name="rstem"/>
+  <anchor x="857.0" y="1486.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="865.0" y="1738.0" type="line"/>
+      <point x="764.0" y="1738.0" type="line"/>
+      <point x="764.0" y="1460.0" type="line"/>
+      <point x="865.0" y="1460.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="865.0" y="18.0" type="line"/>
+      <point x="764.0" y="18.0" type="line"/>
+      <point x="764.0" y="-260.0" type="line"/>
+      <point x="865.0" y="-260.0" type="line"/>
+    </contour>
+    <component base="G" xOffset="60.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

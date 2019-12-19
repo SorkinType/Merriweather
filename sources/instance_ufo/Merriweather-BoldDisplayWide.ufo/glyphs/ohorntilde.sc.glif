@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorntilde.sc" format="2">
+  <advance width="1372.46408839779"/>
+  <anchor x="685.646408839779" y="0.0" name="bottom"/>
+  <anchor x="686.646408839779" y="648.0" name="center"/>
+  <anchor x="758.4475138121547" y="18.0" name="ogonek"/>
+  <anchor x="801.5911602209944" y="0.0" name="q"/>
+  <anchor x="684.5414364640884" y="1786.585635359116" name="top"/>
+  <anchor x="17.895027624309392" y="1292.0" name="topleft"/>
+  <anchor x="906.1436464088398" y="1293.0" name="topright"/>
+  <outline>
+    <component base="ohorn.sc"/>
+    <component base="tildecomb" xOffset="342.8121546961326" yOffset="250.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

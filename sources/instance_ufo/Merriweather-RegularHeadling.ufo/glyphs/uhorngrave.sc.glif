@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorngrave.sc" format="2">
+  <advance width="1334.0519337016574"/>
+  <anchor x="720.8187845303868" y="0.0" name="bottom"/>
+  <anchor x="1265.1281767955802" y="18.0" name="ogonek"/>
+  <anchor x="699.6193370165746" y="1842.3353591160221" name="top"/>
+  <anchor x="1186.203314917127" y="1292.1972375690607" name="topright"/>
+  <outline>
+    <component base="uhorn.sc"/>
+    <component base="gravecomb" xOffset="407.9132596685083" yOffset="223.51546961325965"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

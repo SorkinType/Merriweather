@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn" format="2">
+  <advance width="1160.0994475138123"/>
+  <unicode hex="01B0"/>
+  <anchor x="610.0" y="0.0" name="bottom"/>
+  <anchor x="985.4806629834254" y="20.0" name="ogonek"/>
+  <anchor x="584.0441988950276" y="1110.0" name="top"/>
+  <anchor x="947.4861878453039" y="1028.0939226519338" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1033.6906077348067" y="1234.9337016574586" type="line"/>
+      <point x="1038.9668508287293" y="1216.828729281768"/>
+      <point x="1046.9668508287293" y="1192.6850828729282"/>
+      <point x="1046.9668508287293" y="1157.7513812154696" type="curve" smooth="yes"/>
+      <point x="1046.9668508287293" y="1067.7513812154696"/>
+      <point x="1014.3093922651933" y="1027.8176795580112"/>
+      <point x="969.4419889502763" y="1027.8176795580112" type="curve"/>
+      <point x="881.0276243093922" y="962.7348066298342" type="line"/>
+      <point x="900.6850828729282" y="917.3259668508288" type="line"/>
+      <point x="1114.1160220994475" y="917.3259668508288"/>
+      <point x="1269.9613259668508" y="986.8287292817679"/>
+      <point x="1269.9613259668508" y="1169.2375690607735" type="curve" smooth="yes"/>
+      <point x="1269.9613259668508" y="1192.6187845303866"/>
+      <point x="1265.3038674033148" y="1214.486187845304"/>
+      <point x="1257.5801104972375" y="1234.9337016574586" type="curve"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

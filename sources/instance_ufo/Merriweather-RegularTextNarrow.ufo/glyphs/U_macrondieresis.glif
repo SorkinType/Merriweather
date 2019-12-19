@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Umacrondieresis" format="2">
+  <advance width="1288.4419889502763"/>
+  <unicode hex="1E7A"/>
+  <anchor x="699.6602209944751" y="0.0" name="bottom"/>
+  <anchor x="780.0441988950276" y="20.0" name="ogonek"/>
+  <anchor x="701.6077348066299" y="2134.4226519337017" name="top"/>
+  <anchor x="1337.4696132596684" y="1486.0" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="macroncomb.case" xOffset="446.15193370165747"/>
+    <component base="dieresiscomb.case" xOffset="377.5524861878453" yOffset="313.7707182320442"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

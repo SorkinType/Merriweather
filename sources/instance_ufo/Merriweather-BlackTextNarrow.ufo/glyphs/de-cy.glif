@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy" format="2">
+  <advance width="1052.0"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="73.5" y="0.0" type="line"/>
+      <point x="917.5" y="0.0" type="line"/>
+      <point x="917.5" y="945.5" type="line"/>
+      <point x="1005.5" y="974.0" type="line"/>
+      <point x="1005.5" y="1058.0" type="line"/>
+      <point x="151.5" y="1058.0" type="line"/>
+      <point x="151.5" y="974.0" type="line"/>
+      <point x="282.5" y="945.5" type="line"/>
+      <point x="282.5" y="483.5"/>
+      <point x="225.0" y="231.5"/>
+      <point x="114.0" y="102.5" type="curve"/>
+      <point x="73.5" y="98.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="251.0" y="108.5" type="line"/>
+      <point x="333.5" y="215.5"/>
+      <point x="397.5" y="476.5"/>
+      <point x="397.5" y="874.5" type="curve" smooth="yes"/>
+      <point x="397.5" y="955.0" type="line"/>
+      <point x="606.5" y="955.0" type="line"/>
+      <point x="606.5" y="108.5" type="line"/>
+    </contour>
+    <component base="lefttooth_part." xScale="0.96" xOffset="-10.0"/>
+    <component base="righttooth_part." xScale="0.96" xOffset="723.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

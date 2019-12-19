@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Shhadescender-cy" format="2">
+  <advance width="1430.8"/>
+  <unicode hex="0526"/>
+  <anchor x="1404.7" y="0.0" name="bottomright"/>
+  <anchor x="479.5" y="20.0" name="ogonek"/>
+  <anchor x="371.2" y="1486.0" name="top"/>
+  <anchor x="38.4" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Shha-cy"/>
+    <component base="righttooth_part." xOffset="1077.1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

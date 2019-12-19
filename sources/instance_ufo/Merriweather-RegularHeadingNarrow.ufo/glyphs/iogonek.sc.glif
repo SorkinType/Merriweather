@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek.sc" format="2">
+  <advance width="577.3751381215469"/>
+  <anchor x="292.8386740331492" y="0.0" name="bottom"/>
+  <anchor x="350.4458563535911" y="16.422099447513812" name="ogonek"/>
+  <anchor x="289.62486187845303" y="1333.6" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="ogonekcomb" xOffset="51.15193370165745" yOffset="10.112707182320442"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn" format="2">
+  <advance width="1293.9668508287293"/>
+  <unicode hex="01B0"/>
+  <anchor x="610.0" y="0.0" name="bottom"/>
+  <anchor x="1009.0552486187845" y="20.0" name="ogonek"/>
+  <anchor x="602.2265193370166" y="1111.4475138121547" name="top"/>
+  <anchor x="1072.5635359116022" y="1128.8176795580112" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1095.292817679558" y="1402.0" type="line"/>
+      <point x="1099.292817679558" y="1390.0"/>
+      <point x="1101.5690607734807" y="1368.0"/>
+      <point x="1101.5690607734807" y="1332.0" type="curve" smooth="yes"/>
+      <point x="1101.5690607734807" y="1256.8066298342542"/>
+      <point x="1080.8729281767955" y="1138.0"/>
+      <point x="982.5414364640884" y="1127.0" type="curve"/>
+      <point x="922.2375690607735" y="1066.0" type="line"/>
+      <point x="1125.3480662983425" y="1039.220994475138" type="line"/>
+      <point x="1250.2486187845304" y="1078.5524861878453"/>
+      <point x="1338.0883977900553" y="1184.1988950276243"/>
+      <point x="1338.0883977900553" y="1331.0276243093922" type="curve" smooth="yes"/>
+      <point x="1338.0883977900553" y="1362.0"/>
+      <point x="1335.53591160221" y="1388.0"/>
+      <point x="1333.53591160221" y="1402.0" type="curve"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

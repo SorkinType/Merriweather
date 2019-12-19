@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorngrave.sc" format="2">
+  <advance width="1458.0"/>
+  <anchor x="710.0" y="0.0" name="bottom"/>
+  <anchor x="709.0" y="646.0" name="center"/>
+  <anchor x="792.0" y="10.0" name="ogonek"/>
+  <anchor x="833.0" y="0.0" name="q"/>
+  <anchor x="711.0" y="1959.0" name="top"/>
+  <anchor x="15.0" y="646.0" name="topleft"/>
+  <anchor x="999.0" y="1293.0" name="topright"/>
+  <outline>
+    <component base="ohorn.sc"/>
+    <component base="gravecomb" xOffset="345.0" yOffset="162.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

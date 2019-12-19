@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odieresismacron.sc" format="2">
+  <advance width="1391.4950276243094"/>
+  <anchor x="691.6265193370166" y="0.0" name="bottom"/>
+  <anchor x="691.6950276243094" y="647.2342541436464" name="center"/>
+  <anchor x="767.4359116022099" y="16.262983425414365" name="ogonek"/>
+  <anchor x="808.610497237569" y="0.0" name="q"/>
+  <anchor x="691.3187845303868" y="2008.7370165745856" name="top"/>
+  <anchor x="16.52928176795581" y="1151.7359116022099" name="topleft"/>
+  <anchor x="928.0337016574586" y="1293.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="dieresiscomb" xOffset="321.53701657458566" yOffset="223.6"/>
+    <component base="macroncomb" xOffset="384.8491712707182" yOffset="591.0806629834254"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

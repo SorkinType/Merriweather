@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eth.sc" format="2">
+  <advance width="1385.6801104972376"/>
+  <anchor x="673.8337016574586" y="0.0" name="bottom"/>
+  <anchor x="683.8889502762431" y="647.3" name="center"/>
+  <anchor x="700.5254143646409" y="1333.6" name="top"/>
+  <outline>
+    <contour>
+      <point x="63.87237569060774" y="625.7988950276243" type="line"/>
+      <point x="709.9182320441989" y="625.7988950276243" type="line"/>
+      <point x="709.9182320441989" y="703.1243093922652" type="line"/>
+      <point x="63.87237569060774" y="703.1243093922652" type="line"/>
+    </contour>
+    <component base="d.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

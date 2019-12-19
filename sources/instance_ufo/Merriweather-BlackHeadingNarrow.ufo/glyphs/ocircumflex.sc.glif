@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocircumflex.sc" format="2">
+  <advance width="1183.6"/>
+  <anchor x="591.1" y="0.0" name="bottom"/>
+  <anchor x="592.5" y="647.4" name="center"/>
+  <anchor x="670.0" y="18.0" name="ogonek"/>
+  <anchor x="683.8" y="0.0" name="q"/>
+  <anchor x="594.1" y="1970.6" name="top"/>
+  <anchor x="15.699999999999989" y="1292.0" name="topleft"/>
+  <anchor x="823.3" y="1293.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="circumflexcomb" xOffset="252.3" yOffset="223.6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tedescender-cy" format="2">
+  <advance width="1230.121546961326"/>
+  <unicode hex="04AC"/>
+  <anchor x="658.5580110497237" y="0.0" name="bottom"/>
+  <anchor x="966.4679944751381" y="0.0" name="bottomright"/>
+  <anchor x="613.7513812154696" y="692.2872928176796" name="center"/>
+  <anchor x="657.1767955801105" y="1486.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="677.5027624309392" y="70.61878453038673" type="line"/>
+      <point x="677.5027624309392" y="14.61878453038674" type="line"/>
+      <point x="886.5027624309392" y="14.61878453038674" type="line"/>
+      <point x="886.5027624309392" y="70.61878453038673" type="line"/>
+    </contour>
+    <component base="T"/>
+    <component base="righttooth_part." xOffset="776.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

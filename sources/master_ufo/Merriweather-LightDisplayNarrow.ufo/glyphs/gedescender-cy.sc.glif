@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gedescender-cy.sc" format="2">
+  <advance width="869.0"/>
+  <anchor x="572.0" y="0.0" name="bottomright"/>
+  <anchor x="469.0" y="1340.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="282.0" y="72.0" type="line"/>
+      <point x="282.0" y="41.0" type="line"/>
+      <point x="477.0" y="41.0" type="line"/>
+      <point x="477.0" y="72.0" type="line"/>
+    </contour>
+    <component base="ge-cy.sc"/>
+    <component base="righttooth_part." xOffset="357.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ge-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>56.0</real>
+            <real>35.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>382.0</real>
+            <real>1256.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>734.0</real>
+            <real>1256.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>62.0</real>
+            <real>1256.0</real>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>30.0</real>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

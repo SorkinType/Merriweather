@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="De-cy" format="2">
+  <advance width="1330.0"/>
+  <unicode hex="0414"/>
+  <outline>
+    <contour>
+      <point x="235.0" y="1486.0" type="line"/>
+      <point x="235.0" y="1427.0" type="line"/>
+      <point x="420.0" y="1399.5" type="line"/>
+      <point x="420.0" y="1248.0" type="line" smooth="yes"/>
+      <point x="420.0" y="621.5"/>
+      <point x="242.0" y="161.5"/>
+      <point x="139.0" y="87.5" type="curve"/>
+      <point x="92.5" y="31.5" type="line"/>
+      <point x="192.5" y="0.0" type="line"/>
+      <point x="1116.0" y="0.0" type="line"/>
+      <point x="1226.0" y="40.0" type="line"/>
+      <point x="1101.0" y="86.0" type="line"/>
+      <point x="1101.0" y="1399.0" type="line"/>
+      <point x="1249.5" y="1425.0" type="line"/>
+      <point x="1249.5" y="1486.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="281.0" y="86.5" type="line"/>
+      <point x="396.0" y="240.0"/>
+      <point x="512.0" y="701.0"/>
+      <point x="514.0" y="1223.0" type="curve"/>
+      <point x="514.5" y="1403.0" type="line"/>
+      <point x="941.0" y="1403.0" type="line"/>
+      <point x="941.0" y="86.5" type="line"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="-8.5"/>
+    <component base="righttooth_part." xOffset="983.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

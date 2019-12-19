@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="De-cy.loclBGR" format="2">
+  <advance width="1326.0"/>
+  <outline>
+    <contour>
+      <point x="610.0" y="1500.0" type="line"/>
+      <point x="119.0" y="86.0" type="line"/>
+      <point x="20.0" y="64.0" type="line"/>
+      <point x="110.0" y="0.0" type="line"/>
+      <point x="1206.0" y="0.0" type="line"/>
+      <point x="1284.0" y="52.0" type="line"/>
+      <point x="1226.0" y="102.0" type="line"/>
+      <point x="774.0" y="1500.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="270.0" y="106.0" type="line"/>
+      <point x="616.0" y="1186.0" type="line"/>
+      <point x="670.0" y="1382.0" type="line"/>
+      <point x="724.0" y="1192.0" type="line"/>
+      <point x="1044.0" y="106.0" type="line"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="-18.0"/>
+    <component base="righttooth_part." xOffset="978.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=De-cy-5</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

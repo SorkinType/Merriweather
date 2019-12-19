@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek" format="2">
+  <advance width="619.5469613259668"/>
+  <unicode hex="012F"/>
+  <anchor x="327.8121546961326" y="0.0" name="bottom"/>
+  <anchor x="408.5359116022099" y="20.0" name="ogonek"/>
+  <anchor x="305.6353591160221" y="1488.2707182320441" name="top"/>
+  <outline>
+    <contour>
+      <point x="306.2596685082873" y="-483.82872928176795" type="curve" smooth="yes"/>
+      <point x="424.8342541436464" y="-483.82872928176795"/>
+      <point x="517.9944751381215" y="-443.1988950276243"/>
+      <point x="571.6132596685082" y="-403.02762430939225" type="curve"/>
+      <point x="572.3370165745856" y="-278.6685082872928" type="line"/>
+      <point x="531.8232044198895" y="-296.49723756906076"/>
+      <point x="483.6298342541437" y="-327.7182320441989"/>
+      <point x="416.23756906077347" y="-327.7182320441989" type="curve" smooth="yes"/>
+      <point x="339.3425414364641" y="-327.7182320441989"/>
+      <point x="292.4088397790056" y="-285.7182320441989"/>
+      <point x="292.4088397790056" y="-216.19337016574585" type="curve" smooth="yes"/>
+      <point x="292.4088397790056" y="-148.08287292817678"/>
+      <point x="356.3922651933702" y="-53.414364640883974"/>
+      <point x="468.32596685082876" y="0.0" type="curve"/>
+      <point x="376.02762430939225" y="56.889502762430936" type="line"/>
+      <point x="293.34806629834253" y="0.0" type="line"/>
+      <point x="145.4254143646409" y="-67.89502762430939"/>
+      <point x="62.07182320441989" y="-188.03867403314916"/>
+      <point x="62.07182320441989" y="-288.97237569060775" type="curve" smooth="yes"/>
+      <point x="62.07182320441989" y="-423.27624309392263"/>
+      <point x="194.33701657458565" y="-483.82872928176795"/>
+    </contour>
+    <component base="i" xOffset="-20.856353591160218"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

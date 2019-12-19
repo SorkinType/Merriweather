@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odotaccentmacron" format="2">
+  <advance width="1398.0"/>
+  <unicode hex="0230"/>
+  <anchor x="699.0" y="0.0" name="bottom"/>
+  <anchor x="701.0" y="741.0" name="center"/>
+  <anchor x="781.0" y="20.0" name="ogonek"/>
+  <anchor x="844.117" y="0.0" name="qq"/>
+  <anchor x="699.0" y="2192.0" name="top"/>
+  <anchor x="19.0" y="1486.0" name="topleft"/>
+  <anchor x="1051.0" y="1486.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="dotaccentcomb.case" xOffset="570.0"/>
+    <component base="macroncomb.case" xOffset="405.0" yOffset="352.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

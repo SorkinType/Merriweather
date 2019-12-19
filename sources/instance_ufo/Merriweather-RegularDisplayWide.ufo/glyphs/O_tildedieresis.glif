@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Otildedieresis" format="2">
+  <advance width="1485.0607734806629"/>
+  <unicode hex="1E4E"/>
+  <anchor x="737.1270718232045" y="0.0" name="bottom"/>
+  <anchor x="743.6077348066299" y="741.0" name="center"/>
+  <anchor x="839.8563535911602" y="20.0" name="ogonek"/>
+  <anchor x="896.6846077348066" y="0.0" name="qq"/>
+  <anchor x="748.7624309392265" y="2199.950276243094" name="top"/>
+  <anchor x="6.90607734806629" y="1486.0" name="topleft"/>
+  <anchor x="1547.5856353591162" y="1486.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="tildecomb.case" xOffset="441.0662983425414"/>
+    <component base="dieresiscomb.case" xOffset="411.9668508287293" yOffset="379.29834254143645"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 04:06:44</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
