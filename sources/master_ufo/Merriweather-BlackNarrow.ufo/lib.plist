@@ -1719,13 +1719,13 @@
         <key>Axis</key>
         <string>Width</string>
         <key>Location</key>
-        <string>125</string>
+        <integer>80</integer>
       </dict>
       <dict>
         <key>Axis</key>
         <string>Optical size</string>
         <key>Location</key>
-        <string>6</string>
+        <integer>9</integer>
       </dict>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -2368,7 +2368,6 @@
       <string>hcircumflex.sc</string>
       <string>hdotbelow.sc</string>
       <string>i.sc</string>
-      <string>idotless.sc</string>
       <string>iacute.sc</string>
       <string>ibreve.sc</string>
       <string>icaron.sc</string>
@@ -4569,8 +4568,6 @@
       <string>uni1ECB.sc</string>
       <key>idotless</key>
       <string>dotlessi</string>
-      <key>idotless.sc</key>
-      <string>dotlessi.sc</string>
       <key>ie-cy</key>
       <string>uni0435</string>
       <key>ie-cy.sc</key>

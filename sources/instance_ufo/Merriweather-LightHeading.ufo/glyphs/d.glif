@@ -2,7 +2,7 @@
 <glyph name="d" format="2">
   <advance width="1058.1"/>
   <unicode hex="0064"/>
-  <anchor x="538.4" y="0.0" name="bottom"/>
+  <anchor x="538.4" y="-1.7763568394002505e-15" name="bottom"/>
   <anchor x="536.3" y="570.0" name="center"/>
   <anchor x="333.0" y="1158.0" name="top"/>
   <anchor x="1042.8" y="1110.0" name="topright"/>
@@ -13,14 +13,14 @@
       <point x="736.6" y="88.0"/>
       <point x="779.3" y="148.5" type="curve"/>
       <point x="779.3" y="67.3" type="line" smooth="yes"/>
-      <point x="779.3" y="2.5999999999999988"/>
+      <point x="779.3" y="2.6000000000000014"/>
       <point x="810.7" y="-16.6"/>
       <point x="878.0" y="-16.6" type="curve" smooth="yes"/>
       <point x="932.3" y="-16.6"/>
       <point x="992.8" y="0.0"/>
       <point x="1037.8" y="13.4" type="curve"/>
-      <point x="1037.8" y="59.900000000000006" type="line"/>
-      <point x="922.8" y="59.900000000000006" type="line"/>
+      <point x="1037.8" y="59.9" type="line"/>
+      <point x="922.8" y="59.9" type="line"/>
       <point x="922.8" y="1620.5" type="line"/>
       <point x="901.6" y="1638.0" type="line"/>
       <point x="871.0" y="1638.0" type="line"/>
@@ -35,11 +35,11 @@
       <point x="50.2" y="819.6"/>
       <point x="50.2" y="486.7" type="curve" smooth="yes"/>
       <point x="50.2" y="156.9"/>
-      <point x="211.9" y="-22.0"/>
+      <point x="211.89999999999998" y="-22.0"/>
     </contour>
     <contour>
-      <point x="499.6" y="63.400000000000006" type="curve" smooth="yes"/>
-      <point x="343.3" y="63.400000000000006"/>
+      <point x="499.59999999999997" y="63.39999999999999" type="curve" smooth="yes"/>
+      <point x="343.3" y="63.39999999999999"/>
       <point x="218.7" y="201.2"/>
       <point x="219.9" y="505.6" type="curve" smooth="yes"/>
       <point x="221.1" y="837.2"/>
@@ -50,7 +50,7 @@
       <point x="776.9" y="921.6" type="curve"/>
       <point x="776.9" y="201.0" type="line"/>
       <point x="732.2" y="148.6"/>
-      <point x="630.5" y="63.400000000000006"/>
+      <point x="630.5" y="63.39999999999999"/>
     </contour>
   </outline>
   <lib>

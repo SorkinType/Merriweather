@@ -6,12 +6,12 @@ cd sources
 
 echo "Generating Static fonts"
 mkdir -p ../fonts/ttfs
-fontmake -g Merriweather-Roman.glyphs -i -o ttf --output-dir ../fonts/ttfs/
+#fontmake -g Merriweather-Roman.glyphs -i -o ttf --output-dir ../fonts/ttfs/
 fontmake -g Merriweather-Italic.glyphs -i -o ttf --output-dir ../fonts/ttfs/
 
 echo "Generating VFs"
 mkdir -p ../fonts/variable
-fontmake -g Merriweather-Roman.glyphs -o variable --output-path ../fonts/variable/Merriweather-Roman-VF.ttf
+#fontmake -g Merriweather-Roman.glyphs -o variable --output-path ../fonts/variable/Merriweather-Roman-VF.ttf
 fontmake -g Merriweather-Italic.glyphs -o variable --output-path ../fonts/variable/Merriweather-Italic-VF.ttf
 
 rm -rf master_ufo/ instance_ufo/
