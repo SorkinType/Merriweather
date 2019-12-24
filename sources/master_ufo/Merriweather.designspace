@@ -5,16 +5,8 @@
       <map input="300" output="169"/>
       <map input="900" output="350"/>
     </axis>
-    <axis tag="wdth" name="Width" minimum="80" maximum="125" default="100">
-      <map input="80" output="50"/>
-      <map input="100" output="100"/>
-      <map input="125" output="200"/>
-    </axis>
-    <axis tag="opsz" name="Optical size" minimum="6" maximum="144" default="9">
-      <map input="6" output="100"/>
-      <map input="9" output="100"/>
-      <map input="144" output="300"/>
-    </axis>
+    <axis tag="wdth" name="Width" minimum="80" maximum="125" default="100"/>
+    <axis tag="opsz" name="Optical size" minimum="12" maximum="144" default="12"/>
   </axes>
   <sources>
     <source filename="Merriweather-Light.ufo" name="Merriweather Light" familyname="Merriweather" stylename="Light">
@@ -25,84 +17,84 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-Black.ufo" name="Merriweather Black" familyname="Merriweather" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="350"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-LightNarrow.ufo" name="Merriweather Light Narrow" familyname="Merriweather" stylename="Light Narrow">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-BlackNarrow.ufo" name="Merriweather Black Narrow" familyname="Merriweather" stylename="Black Narrow">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-LightWide.ufo" name="Merriweather Light Wide" familyname="Merriweather" stylename="Light Wide">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-BlackWide.ufo" name="Merriweather Black Wide" familyname="Merriweather" stylename="Black Wide">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-LightDisplay.ufo" name="Merriweather Light Display" familyname="Merriweather" stylename="Light Display">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-BlackDisplay.ufo" name="Merriweather Black Display" familyname="Merriweather" stylename="Black Display">
       <location>
         <dimension name="Weight" xvalue="350"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-LightDisplayNarrow.ufo" name="Merriweather Light Display Narrow" familyname="Merriweather" stylename="Light Display Narrow">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-BlackDisplayNarrow.ufo" name="Merriweather Black Display Narrow" familyname="Merriweather" stylename="Black Display Narrow">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-LightDisplayWide.ufo" name="Merriweather Light Display Wide" familyname="Merriweather" stylename="Light Display Wide">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-BlackDisplayWide.ufo" name="Merriweather Black Display Wide" familyname="Merriweather" stylename="Black Display Wide">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
   </sources>
@@ -111,7 +103,7 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -135,7 +127,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -159,7 +151,7 @@
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -183,7 +175,7 @@
       <location>
         <dimension name="Weight" xvalue="350"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -206,8 +198,8 @@
     <instance name="Merriweather Light Narrow" familyname="Merriweather" stylename="Light Narrow" filename="../instance_ufo/Merriweather-LightNarrow.ufo" stylemapfamilyname="Merriweather Light Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -230,8 +222,8 @@
     <instance name="Merriweather Regular Narrow" familyname="Merriweather" stylename="Regular Narrow" filename="../instance_ufo/Merriweather-RegularNarrow.ufo" stylemapfamilyname="Merriweather Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="0"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -254,8 +246,8 @@
     <instance name="Merriweather Bold Narrow" familyname="Merriweather" stylename="Bold Narrow" filename="../instance_ufo/Merriweather-BoldNarrow.ufo" stylemapfamilyname="Merriweather Regular Narrow" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -278,8 +270,8 @@
     <instance name="Merriweather Black Narrow" familyname="Merriweather" stylename="Black Narrow" filename="../instance_ufo/Merriweather-BlackNarrow.ufo" stylemapfamilyname="Merriweather Black Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -302,8 +294,8 @@
     <instance name="Merriweather Light Wide" familyname="Merriweather" stylename="Light Wide" filename="../instance_ufo/Merriweather-LightWide.ufo" stylemapfamilyname="Merriweather Light Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -326,8 +318,8 @@
     <instance name="Merriweather Regular Wide" familyname="Merriweather" stylename="Regular Wide" filename="../instance_ufo/Merriweather-RegularWide.ufo" stylemapfamilyname="Merriweather Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -350,8 +342,8 @@
     <instance name="Merriweather Bold Wide" familyname="Merriweather" stylename="Bold Wide" filename="../instance_ufo/Merriweather-BoldWide.ufo" stylemapfamilyname="Merriweather Regular Wide" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -374,8 +366,8 @@
     <instance name="Merriweather Black Wide" familyname="Merriweather" stylename="Black Wide" filename="../instance_ufo/Merriweather-BlackWide.ufo" stylemapfamilyname="Merriweather Black Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="100"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -399,7 +391,7 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -423,7 +415,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -447,7 +439,7 @@
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -471,7 +463,7 @@
       <location>
         <dimension name="Weight" xvalue="360"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -494,8 +486,8 @@
     <instance name="Merriweather Light Text Narrow" familyname="Merriweather" stylename="Light Text Narrow" filename="../instance_ufo/Merriweather-LightTextNarrow.ufo" stylemapfamilyname="Merriweather Light Text Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -518,8 +510,8 @@
     <instance name="Merriweather Regular Text Narrow" familyname="Merriweather" stylename="Regular Text Narrow" filename="../instance_ufo/Merriweather-RegularTextNarrow.ufo" stylemapfamilyname="Merriweather Text Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -542,8 +534,8 @@
     <instance name="Merriweather Bold Text Narrow" familyname="Merriweather" stylename="Bold Text Narrow" filename="../instance_ufo/Merriweather-BoldTextNarrow.ufo" stylemapfamilyname="Merriweather Regular Text Narrow" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -566,8 +558,8 @@
     <instance name="Merriweather Black Text Narrow" familyname="Merriweather" stylename="Black Text Narrow" filename="../instance_ufo/Merriweather-BlackTextNarrow.ufo" stylemapfamilyname="Merriweather Black Text Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -590,8 +582,8 @@
     <instance name="Merriweather Light Text Wide" familyname="Merriweather" stylename="Light Text Wide" filename="../instance_ufo/Merriweather-LightTextWide.ufo" stylemapfamilyname="Merriweather Light Text Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -614,8 +606,8 @@
     <instance name="Merriweather Regular Text Wide" familyname="Merriweather" stylename="Regular Text Wide" filename="../instance_ufo/Merriweather-RegularTextWide.ufo" stylemapfamilyname="Merriweather Text Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -638,8 +630,8 @@
     <instance name="Merriweather Bold Text Wide" familyname="Merriweather" stylename="Bold Text Wide" filename="../instance_ufo/Merriweather-BoldTextWide.ufo" stylemapfamilyname="Merriweather Regular Text Wide" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -662,8 +654,8 @@
     <instance name="Merriweather Black Text Wide" familyname="Merriweather" stylename="Black Text Wide" filename="../instance_ufo/Merriweather-BlackTextWide.ufo" stylemapfamilyname="Merriweather Black Text Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="200"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="54"/>
       </location>
       <kerning/>
       <info/>
@@ -687,7 +679,7 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -711,7 +703,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -735,7 +727,7 @@
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -759,7 +751,7 @@
       <location>
         <dimension name="Weight" xvalue="350"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -782,8 +774,8 @@
     <instance name="Merriweather Light Heading Narrow" familyname="Merriweather" stylename="Light Heading Narrow" filename="../instance_ufo/Merriweather-LightHeadingNarrow.ufo" stylemapfamilyname="Merriweather Light Heading Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -806,8 +798,8 @@
     <instance name="Merriweather Regular Heading Narrow" familyname="Merriweather" stylename="Regular Heading Narrow" filename="../instance_ufo/Merriweather-RegularHeadingNarrow.ufo" stylemapfamilyname="Merriweather Heading Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -830,8 +822,8 @@
     <instance name="Merriweather Bold Heading Narrow" familyname="Merriweather" stylename="Bold Heading Narrow" filename="../instance_ufo/Merriweather-BoldHeadingNarrow.ufo" stylemapfamilyname="Merriweather Regular Heading Narrow" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -854,8 +846,8 @@
     <instance name="Merriweather Black Heading Narrow" familyname="Merriweather" stylename="Black Heading Narrow" filename="../instance_ufo/Merriweather-BlackHeadingNarrow.ufo" stylemapfamilyname="Merriweather Black Heading Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -878,8 +870,8 @@
     <instance name="Merriweather Light Heading Wide" familyname="Merriweather" stylename="Light Heading Wide" filename="../instance_ufo/Merriweather-LightHeadingWide.ufo" stylemapfamilyname="Merriweather Light Heading Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -902,8 +894,8 @@
     <instance name="Merriweather Regular Heading Wide" familyname="Merriweather" stylename="Regular Heading Wide" filename="../instance_ufo/Merriweather-RegularHeadingWide.ufo" stylemapfamilyname="Merriweather Heading Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -926,8 +918,8 @@
     <instance name="Merriweather Bold Heading Wide" familyname="Merriweather" stylename="Bold Heading Wide" filename="../instance_ufo/Merriweather-BoldHeadingWide.ufo" stylemapfamilyname="Merriweather Regular Heading Wide" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -950,8 +942,8 @@
     <instance name="Merriweather Black Heading Wide" familyname="Merriweather" stylename="Black Heading Wide" filename="../instance_ufo/Merriweather-BlackHeadingWide.ufo" stylemapfamilyname="Merriweather Black Heading Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="240"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -975,7 +967,7 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -999,7 +991,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1023,7 +1015,7 @@
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1047,7 +1039,7 @@
       <location>
         <dimension name="Weight" xvalue="350"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1070,8 +1062,8 @@
     <instance name="Merriweather Light Display Narrow" familyname="Merriweather" stylename="Light Display Narrow" filename="../instance_ufo/Merriweather-LightDisplayNarrow.ufo" stylemapfamilyname="Merriweather Light Display Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1094,8 +1086,8 @@
     <instance name="Merriweather Regular Display Narrow" familyname="Merriweather" stylename="Regular Display Narrow" filename="../instance_ufo/Merriweather-RegularDisplayNarrow.ufo" stylemapfamilyname="Merriweather Display Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1118,8 +1110,8 @@
     <instance name="Merriweather Bold Display Narrow" familyname="Merriweather" stylename="Bold Display Narrow" filename="../instance_ufo/Merriweather-BoldDisplayNarrow.ufo" stylemapfamilyname="Merriweather Regular Display Narrow" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1142,8 +1134,8 @@
     <instance name="Merriweather Black Display Narrow" familyname="Merriweather" stylename="Black Display Narrow" filename="../instance_ufo/Merriweather-BlackDisplayNarrow.ufo" stylemapfamilyname="Merriweather Black Display Narrow" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1166,8 +1158,8 @@
     <instance name="Merriweather Light Display Wide" familyname="Merriweather" stylename="Light Display Wide" filename="../instance_ufo/Merriweather-LightDisplayWide.ufo" stylemapfamilyname="Merriweather Light Display Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1190,8 +1182,8 @@
     <instance name="Merriweather Regular Display Wide" familyname="Merriweather" stylename="Regular Display Wide" filename="../instance_ufo/Merriweather-RegularDisplayWide.ufo" stylemapfamilyname="Merriweather Display Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="220"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1214,8 +1206,8 @@
     <instance name="Merriweather Bold Display Wide" familyname="Merriweather" stylename="Bold Display Wide" filename="../instance_ufo/Merriweather-BoldDisplayWide.ufo" stylemapfamilyname="Merriweather Regular Display Wide" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1238,8 +1230,8 @@
     <instance name="Merriweather Black Display Wide" familyname="Merriweather" stylename="Black Display Wide" filename="../instance_ufo/Merriweather-BlackDisplayWide.ufo" stylemapfamilyname="Merriweather Black Display Wide" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="350"/>
-        <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical size" xvalue="300"/>
+        <dimension name="Width" xvalue="125"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
