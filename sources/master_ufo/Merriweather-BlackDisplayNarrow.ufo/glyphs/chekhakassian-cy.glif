@@ -2,7 +2,7 @@
 <glyph name="chekhakassian-cy" format="2">
   <advance width="1010.0"/>
   <unicode hex="04CC"/>
-  <anchor x="1093.0" y="0.0" name="bottomright"/>
+  <anchor x="998.0" y="0.0" name="bottomright"/>
   <anchor x="590.0" y="556.0" name="center"/>
   <anchor x="494.0" y="1111.0" name="top"/>
   <outline>
@@ -13,10 +13,12 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>che-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>pe-cy</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/23 15:10:53</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
@@ -25,7 +27,7 @@
         <integer>-1</integer>
       </array>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.65,0.48,0.2,1</string>
     </dict>
   </lib>
 </glyph>

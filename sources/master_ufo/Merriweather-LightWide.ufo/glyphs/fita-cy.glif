@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fita-cy" format="2">
-  <advance width="1239.0"/>
+  <advance width="1229.0"/>
   <unicode hex="0473"/>
   <anchor x="617.0" y="0.0" name="bottom"/>
   <anchor x="615.0" y="557.0" name="center"/>
   <anchor x="795.0" y="60.0" name="ogonek"/>
   <anchor x="616.0" y="1110.0" name="top"/>
-  <anchor x="952.0" y="1110.0" name="topright"/>
+  <anchor x="842.0" y="1110.0" name="topright"/>
   <outline>
     <contour>
       <point x="231.0" y="506.0" type="line"/>
@@ -36,8 +36,12 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/24 07:26:31</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
       <key>public.markColor</key>

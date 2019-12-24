@@ -1611,7 +1611,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1280</string>
+    <string>1282</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Black Display Wide</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
@@ -1644,61 +1644,84 @@
       <string>/lje-cy</string>
       <string>/Aogonek</string>
       <string>Ç</string>
-      <string>/Eogonek</string>
-      <string>/Lslash</string>
-      <string>Q</string>
-      <string>/Tbar</string>
-      <string>/aogonek</string>
-      <string>/dcroat</string>
-      <string>/gstroke</string>
-      <string>/lslash</string>
-      <string>/caroncomb/scarondotaccent</string>
-      <string>/tbar</string>
-      <string>/eth.sc</string>
-      <string>/hbar.sc</string>
-      <string>/lslash.sc</string>
-      <string>/tbar.sc</string>
-      <string>/Iishorttail-cy</string>
-      <string>/Tse-cy</string>
-      <string>/Shcha-cy</string>
-      <string>/E-cy</string>
-      <string>/fita_part./Fita-cy</string>
-      <string>/fita_part.</string>
-      <string>/fita_part.</string>
-      <string>/fita_part.</string>
-      <string>/Kadescender-cy</string>
-      <string>/Kaverticalstroke-cy</string>
+      <string>o/ohorn/ohorntilde</string>
+      <string>o/horncomb/horncomb o/ohorn/ohorntilde</string>
+      <string>/uogonek</string>
+      <string>/oe</string>
+      <string>/uhorn.sc</string>
+      <string>/ohorn.sc</string>
+      <string>ao8ºª</string>
+      <string>ª</string>
+      <string>º</string>
       <string>/Kastroke-cy</string>
-      <string>/Endescender-cy</string>
-      <string>/Pedescender-cy</string>
-      <string>/Esdescender-cy</string>
-      <string>/el-cy.sc/eldescender-cy.sc</string>
-      <string>/chedescenderabkhasian-cy.sc</string>
-      <string>/esdescender-cy.loclCHU.sc</string>
-      <string>O/cheabkhasian-cy.sc/chedescenderabkhasian-cy.sc</string>
-      <string>/dotbelowcomb.case/Odotbelow</string>
-      <string>/Tedescender-cy</string>
-      <string>/descender_part.</string>
-      <string>/esdescender-cy.sc</string>
-      <string>no/esdescender-cy</string>
-      <string>/descender_part.</string>
-      <string>/dotbelowcomb.case</string>
-      <string>/descender_part.</string>
-      <string>/descender_part.</string>
-      <string>/dotaccentcomb</string>
-      <string>/descender_part.</string>
-      <string>/partialdiff</string>
+      <string>/lefttooth_part./De-cy_part.</string>
+      <string>¨</string>
+      <string>/seven.sc</string>
+      <string>/two.lf</string>
+      <string>/three.lf</string>
+      <string>/zero.osf.zero</string>
+      <string>/zero.osf.zero</string>
+      <string>/zero.tosf.zero</string>
+      <string>/zero.tf.zero</string>
+      <string>/zero.tosf.zero</string>
+      <string>/zero.sc.zero</string>
+      <string>/zhe-cy</string>
+      <string>/Zhe-cy</string>
+      <string>/De-cy_part.</string>
+      <string>/A-cy</string>
+      <string>/Pe-cy</string>
+      <string>/Tse-cy</string>
+      <string>H/Ereversed-cy/Edieresis-cy H</string>
+      <string>/Zedescender-cy</string>
+      <string>/Umacron-cy</string>
+      <string>H/U-cy HYH</string>
+      <string>/Semisoftsign-cy</string>
+      <string>/Hardsign-cy</string>
+      <string>/Lje-cy</string>
+      <string>/Yeru-cy</string>
+      <string>/ka-cy</string>
+      <string>/zhe-cy/nje-cy</string>
+      <string>/yat-cy</string>
+      <string>/kastroke-cy</string>
+      <string>/ge-cy</string>
+      <string>/tshe-cy</string>
+      <string>/kabashkir-cy</string>
+      <string>/pe-cy/pedescender-cy</string>
+      <string>/pemiddlehook-cy</string>
+      <string>/ghemiddlehook-cy</string>
+      <string>/softsign-cy/ghemiddlehook-cy</string>
+      <string>/ze-cy/zhe-cy/zhedescender-cy</string>
+      <string>c/esdescender-cy</string>
+      <string>/che-cy/che-cy/che-cy/cheverticalstroke-cy</string>
+      <string>/chedescender-cy/aie-cy</string>
+      <string>/iegrave-cy</string>
+      <string>/io-cy</string>
+      <string>/iebreve-cy</string>
+      <string>/schwadieresis-cy</string>
+      <string>/ie-cy</string>
+      <string>/fita-cy</string>
+      <string>/righttooth_part./gedescender-cy</string>
+      <string>/righttooth_part./gedescender-cy</string>
+      <string>/tetse-cy</string>
+      <string>/hahook-cy</string>
+      <string>x/hastroke-cy</string>
+      <string>/ha-cy</string>
+      <string>/De-cy_part.</string>
+      <string>/Sha-cy</string>
+      <string>/De-cy_part.</string>
+      <string>/De-cy_part./De-cy</string>
+      <string>/kje-cy</string>
+      <string>/zhe-cy.loclBGR</string>
+      <string>/zhedieresis-cy</string>
+      <string>/zhebreve-cy</string>
+      <string>/zhedescender-cy</string>
+      <string>/kadescender-cy</string>
+      <string>/kaverticalstroke-cy</string>
+      <string>/ka-cy.sc</string>
+      <string>/zhe-cy.sc</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
     <integer>1</integer>
-    <key>com.schriftgestaltung.customParameter.GSFont.Family Alignment Zones</key>
-    <array>
-      <string>{1540, 48}</string>
-      <string>{1486, 20}</string>
-      <string>{1292, 32}</string>
-      <string>{1110, 32}</string>
-      <string>{0, -26}</string>
-    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -2669,6 +2692,7 @@
       <string>Zedescender-cy.loclBSH</string>
       <string>Esdescender-cy.loclBSH</string>
       <string>Esdescender-cy.loclCHU</string>
+      <string>De-cy_part.</string>
       <string>a-cy</string>
       <string>be-cy</string>
       <string>ve-cy</string>
@@ -3474,6 +3498,8 @@
       <string>uni0414</string>
       <key>De-cy.loclBGR</key>
       <string>uni0414.loclBGR</string>
+      <key>De-cy_part.</key>
+      <string>Decy_part.</string>
       <key>Delta</key>
       <string>uni0394</string>
       <key>Dje-cy</key>

@@ -8,7 +8,34 @@
       <point x="396.0" y="152.0" type="line"/>
       <point x="1034.0" y="1258.0" type="line"/>
     </contour>
-    <component base="zero.tf"/>
+    <contour>
+      <point x="655.0" y="-18.0" type="curve" smooth="yes"/>
+      <point x="995.0" y="-18.0"/>
+      <point x="1239.0" y="278.0"/>
+      <point x="1242.0" y="748.0" type="curve" smooth="yes"/>
+      <point x="1245.0" y="1194.0"/>
+      <point x="1091.0" y="1504.0"/>
+      <point x="682.0" y="1504.0" type="curve" smooth="yes"/>
+      <point x="357.0" y="1504.0"/>
+      <point x="91.0" y="1236.0"/>
+      <point x="88.0" y="760.0" type="curve" smooth="yes"/>
+      <point x="85.0" y="326.0"/>
+      <point x="246.0" y="-18.0"/>
+    </contour>
+    <contour>
+      <point x="662.0" y="32.0" type="curve" smooth="yes"/>
+      <point x="406.0" y="32.0"/>
+      <point x="274.0" y="368.0"/>
+      <point x="274.0" y="768.0" type="curve" smooth="yes"/>
+      <point x="274.0" y="1182.0"/>
+      <point x="401.0" y="1454.0"/>
+      <point x="671.0" y="1454.0" type="curve" smooth="yes"/>
+      <point x="931.0" y="1454.0"/>
+      <point x="1054.0" y="1154.0"/>
+      <point x="1054.0" y="740.0" type="curve" smooth="yes"/>
+      <point x="1054.0" y="314.0"/>
+      <point x="934.0" y="32.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -24,7 +51,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>zero.tf</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>2019/12/21 21:17:54</string>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>
