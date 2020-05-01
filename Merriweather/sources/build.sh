@@ -1,5 +1,5 @@
 #!/bin/sh
-source venv/bin/activate
+sources venv/bin/activate
 set -e
 
 cd sources
@@ -42,7 +42,7 @@ do
 	rm ../fonts/variable/*.ttx
 done
 rm ../fonts/variable/*backup*.ttf
-
+source bin/activate
 gftools fix-vf-meta $vfs;
 for vf in $vfs
 do
