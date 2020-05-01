@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yeru-cy" format="2">
-  <advance width="2173.0"/>
+  <advance width="2199"/>
   <unicode hex="042B"/>
-  <anchor x="1091.0" y="1486.0" name="top"/>
-  <anchor x="1757.0" y="0.0" name="bottom"/>
-  <anchor x="1817.0" y="20.0" name="ogonek"/>
-  <anchor x="1378.0" y="1486.0" name="topleft"/>
+  <anchor x="1091" y="1486" name="top"/>
+  <anchor x="1783" y="0" name="bottom"/>
+  <anchor x="1843" y="20" name="ogonek"/>
+  <anchor x="1404" y="1486" name="topleft"/>
   <outline>
     <component base="Softsign-cy"/>
-    <component base="I-cy" xOffset="1341.0"/>
+    <component base="I-cy" xOffset="1367"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Pe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

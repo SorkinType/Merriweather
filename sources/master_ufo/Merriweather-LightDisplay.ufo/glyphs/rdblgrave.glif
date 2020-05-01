@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rdblgrave" format="2">
-  <advance width="620.0"/>
+  <advance width="621"/>
   <unicode hex="0211"/>
-  <anchor x="188.0" y="0.0" name="bottom"/>
-  <anchor x="333.0" y="1606.0" name="top"/>
+  <anchor x="197" y="0" name="bottom"/>
+  <anchor x="342" y="1606" name="top"/>
   <outline>
     <component base="r"/>
-    <component base="dblgravecomb" xOffset="-109.0"/>
+    <component base="dblgravecomb" xOffset="-100"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

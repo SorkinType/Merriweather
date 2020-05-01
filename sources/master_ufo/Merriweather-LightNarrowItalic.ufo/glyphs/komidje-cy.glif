@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="komidje-cy" format="2">
+  <advance width="1472"/>
+  <unicode hex="0503"/>
+  <anchor x="709" y="0" name="bottom"/>
+  <anchor x="1033" y="1622" name="caron"/>
+  <anchor x="447" y="1226" name="top"/>
+  <outline>
+    <contour>
+      <point x="1419" y="628" type="line"/>
+      <point x="1291" y="628" type="line"/>
+      <point x="1258" y="384" type="line" smooth="yes"/>
+      <point x="1232" y="191"/>
+      <point x="1161" y="67"/>
+      <point x="1015" y="67" type="curve" smooth="yes"/>
+      <point x="846" y="67"/>
+      <point x="826" y="197"/>
+      <point x="850" y="362" type="curve" smooth="yes"/>
+      <point x="1028" y="1610" type="line"/>
+      <point x="991" y="1634" type="line"/>
+      <point x="751" y="1600" type="line"/>
+      <point x="735" y="1533" type="line"/>
+      <point x="863" y="1500" type="line"/>
+      <point x="808" y="1109" type="line"/>
+      <point x="757" y="1124"/>
+      <point x="703" y="1136"/>
+      <point x="651" y="1136" type="curve" smooth="yes"/>
+      <point x="315" y="1136"/>
+      <point x="68" y="755"/>
+      <point x="68" y="401" type="curve" smooth="yes"/>
+      <point x="68" y="125"/>
+      <point x="184" y="-20"/>
+      <point x="381" y="-20" type="curve" smooth="yes"/>
+      <point x="511" y="-20"/>
+      <point x="611" y="70"/>
+      <point x="687" y="207" type="curve"/>
+      <point x="721" y="28"/>
+      <point x="829" y="-22"/>
+      <point x="1000" y="-22" type="curve" smooth="yes"/>
+      <point x="1221" y="-22"/>
+      <point x="1351" y="108"/>
+      <point x="1388" y="390" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="225" y="402" type="curve" smooth="yes"/>
+      <point x="225" y="736"/>
+      <point x="407" y="1038"/>
+      <point x="643" y="1038" type="curve" smooth="yes"/>
+      <point x="703" y="1038"/>
+      <point x="747" y="1024"/>
+      <point x="792" y="986" type="curve"/>
+      <point x="695" y="324" type="line"/>
+      <point x="654" y="233"/>
+      <point x="542" y="95"/>
+      <point x="412" y="95" type="curve" smooth="yes"/>
+      <point x="296" y="95"/>
+      <point x="225" y="219"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>d</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=softsign-cy-5</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

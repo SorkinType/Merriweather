@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ccedilla" format="2">
-  <advance width="1264.0"/>
+  <advance width="1264"/>
   <unicode hex="00C7"/>
-  <anchor x="717.0" y="-513.0" name="bottom"/>
-  <anchor x="747.0" y="1486.0" name="top"/>
+  <anchor x="717" y="-513" name="bottom"/>
+  <anchor x="747" y="1486" name="top"/>
   <outline>
     <component base="C"/>
-    <component base="cedillacomb" xOffset="495.0"/>
+    <component base="cedillacomb" xOffset="495"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

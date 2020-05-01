@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scommaaccent" format="2">
-  <advance width="877.0"/>
+  <advance width="877"/>
   <unicode hex="0219"/>
-  <anchor x="431.0" y="-544.0" name="bottom"/>
-  <anchor x="457.0" y="1110.0" name="top"/>
+  <anchor x="431" y="-544" name="bottom"/>
+  <anchor x="457" y="1110" name="top"/>
   <outline>
     <component base="s"/>
-    <component base="commaaccentcomb" xOffset="315.0"/>
+    <component base="commaaccentcomb" xOffset="315"/>
   </outline>
   <lib>
     <dict>
@@ -16,12 +16,8 @@
       <string>s</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>s</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

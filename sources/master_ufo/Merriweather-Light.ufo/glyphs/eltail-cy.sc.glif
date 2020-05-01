@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eltail-cy.sc" format="2">
-  <advance width="1214.0"/>
-  <anchor x="1141.0" y="0.0" name="bottomright"/>
+  <advance width="1214"/>
+  <anchor x="1141" y="0" name="bottomright"/>
   <outline>
     <component base="el-cy.sc"/>
-    <component base="rtail_part." xOffset="857.0"/>
+    <component base="rtail_part." xOffset="857"/>
   </outline>
   <lib>
     <dict>
@@ -19,19 +19,21 @@
         <key>width</key>
         <integer>96</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>rtail_part.</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>el-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>el-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

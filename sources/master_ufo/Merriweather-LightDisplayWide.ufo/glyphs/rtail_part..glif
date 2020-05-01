@@ -1,25 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rtail_part." format="2">
-  <advance width="259.0"/>
-  <anchor x="279.0" y="0.0" name="_bottomright"/>
+  <advance width="259"/>
+  <anchor x="279" y="0" name="_bottomright"/>
   <outline>
     <contour>
-      <point x="47.0" y="-360.0" type="line"/>
-      <point x="117.0" y="-360.0" type="line"/>
-      <point x="171.0" y="-244.0"/>
-      <point x="229.0" y="-120.0"/>
-      <point x="279.0" y="0.0" type="curve"/>
-      <point x="279.0" y="68.0" type="line"/>
-      <point x="83.0" y="68.0" type="line"/>
-      <point x="123.0" y="0.0" type="line"/>
+      <point x="47" y="-360" type="line"/>
+      <point x="117" y="-360" type="line"/>
+      <point x="171" y="-244"/>
+      <point x="229" y="-120"/>
+      <point x="279" y="0" type="curve"/>
+      <point x="279" y="68" type="line"/>
+      <point x="83" y="68" type="line"/>
+      <point x="123" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-    </dict>
-  </lib>
 </glyph>

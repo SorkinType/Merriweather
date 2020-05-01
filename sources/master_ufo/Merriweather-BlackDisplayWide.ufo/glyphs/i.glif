@@ -1,52 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i" format="2">
-  <advance width="590.0"/>
+  <advance width="590"/>
   <unicode hex="0069"/>
-  <anchor x="364.0" y="0.0" name="bottom"/>
-  <anchor x="415.0" y="20.0" name="ogonek"/>
-  <anchor x="304.0" y="1110.0" name="top"/>
+  <anchor x="313" y="0" name="bottom"/>
+  <anchor x="415" y="20" name="ogonek"/>
+  <anchor x="304" y="1528" name="top"/>
   <outline>
-    <contour>
-      <point x="131.0" y="72.0" type="line"/>
-      <point x="18.0" y="38.0" type="line"/>
-      <point x="18.0" y="0.0" type="line"/>
-      <point x="596.0" y="0.0" type="line"/>
-      <point x="596.0" y="38.0" type="line"/>
-      <point x="484.0" y="72.0" type="line"/>
-      <point x="483.0" y="990.0" type="line"/>
-      <point x="423.0" y="1035.0" type="line"/>
-      <point x="370.0" y="1035.0" type="line"/>
-      <point x="20.0" y="920.0" type="line"/>
-      <point x="20.0" y="881.0" type="line"/>
-      <point x="131.0" y="834.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="289.0" y="1140.0" type="curve" smooth="yes"/>
-      <point x="291.0" y="1140.0" type="line" smooth="yes"/>
-      <point x="422.0" y="1140.0"/>
-      <point x="494.0" y="1225.0"/>
-      <point x="494.0" y="1328.0" type="curve" smooth="yes"/>
-      <point x="494.0" y="1415.0"/>
-      <point x="435.0" y="1486.0"/>
-      <point x="319.0" y="1486.0" type="curve" smooth="yes"/>
-      <point x="317.0" y="1486.0" type="line" smooth="yes"/>
-      <point x="186.0" y="1486.0"/>
-      <point x="114.0" y="1402.0"/>
-      <point x="114.0" y="1298.0" type="curve" smooth="yes"/>
-      <point x="114.0" y="1211.0"/>
-      <point x="173.0" y="1140.0"/>
-    </contour>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="104"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotaccentcomb</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/20 20:15:56</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

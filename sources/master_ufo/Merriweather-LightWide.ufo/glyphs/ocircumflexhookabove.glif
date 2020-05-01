@@ -1,26 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocircumflexhookabove" format="2">
-  <advance width="1229.0"/>
+  <advance width="1229"/>
   <unicode hex="1ED5"/>
-  <anchor x="617.0" y="0.0" name="bottom"/>
-  <anchor x="615.0" y="557.0" name="center"/>
-  <anchor x="795.0" y="60.0" name="ogonek"/>
-  <anchor x="616.0" y="1730.0" name="top"/>
-  <anchor x="842.0" y="1110.0" name="topright"/>
+  <anchor x="617" y="0" name="bottom"/>
+  <anchor x="615" y="557" name="center"/>
+  <anchor x="793" y="58" name="ogonek"/>
+  <anchor x="616" y="1730" name="top"/>
+  <anchor x="842" y="1110" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="circumflexcomb_hookabovecomb" xOffset="257.0"/>
+    <component base="circumflexcomb_hookabovecomb" xOffset="257"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

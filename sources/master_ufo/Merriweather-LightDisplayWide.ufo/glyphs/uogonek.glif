@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uogonek" format="2">
-  <advance width="1087.0"/>
+  <advance width="1087"/>
   <unicode hex="0173"/>
-  <anchor x="579.0" y="0.0" name="bottom"/>
-  <anchor x="916.0" y="20.0" name="ogonek"/>
-  <anchor x="537.0" y="1110.0" name="top"/>
-  <anchor x="905.0" y="1010.0" name="topright"/>
+  <anchor x="579" y="0" name="bottom"/>
+  <anchor x="916" y="20" name="ogonek"/>
+  <anchor x="537" y="1110" name="top"/>
+  <anchor x="905" y="1010" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="ogonekcomb" xOffset="605.0" yOffset="12.0"/>
+    <component base="ogonekcomb" xOffset="605" yOffset="12"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/20 20:32:38</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

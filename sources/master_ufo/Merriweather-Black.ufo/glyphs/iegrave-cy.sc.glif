@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iegrave-cy.sc" format="2">
-  <advance width="1283.0"/>
-  <anchor x="647.0" y="0.0" name="bottom"/>
-  <anchor x="879.0" y="18.0" name="ogonek"/>
-  <anchor x="671.0" y="1958.0" name="top"/>
-  <anchor x="55.0" y="1292.0" name="topleft"/>
+  <advance width="1283"/>
+  <anchor x="647" y="0" name="bottom"/>
+  <anchor x="879" y="18" name="ogonek"/>
+  <anchor x="671" y="1958" name="top"/>
+  <anchor x="55" y="1292" name="topleft"/>
   <outline>
     <component base="ie-cy.sc"/>
-    <component base="gravecomb" xOffset="297.0" yOffset="161.0"/>
+    <component base="gravecomb" xOffset="297" yOffset="161"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

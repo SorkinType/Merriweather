@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="NJ" format="2">
-  <advance width="2432.0"/>
+  <advance width="2432"/>
   <unicode hex="01CA"/>
-  <anchor x="821.0" y="0.0" name="bottom"/>
-  <anchor x="820.0" y="1486.0" name="top_1"/>
-  <anchor x="2013.0" y="1486.0" name="top_2"/>
+  <anchor x="821" y="0" name="bottom"/>
+  <anchor x="820" y="1486" name="top_1"/>
+  <anchor x="2013" y="1486" name="top_2"/>
   <outline>
     <component base="N"/>
-    <component base="J" xOffset="1600.0"/>
+    <component base="J" xOffset="1600"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

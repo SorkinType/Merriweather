@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="einvertedbreve.sc" format="2">
-  <advance width="1291.0"/>
-  <anchor x="607.0" y="0.0" name="bottom"/>
-  <anchor x="1083.0" y="18.0" name="ogonek"/>
-  <anchor x="692.0" y="1988.0" name="top"/>
-  <anchor x="-5.0" y="1292.0" name="topleft"/>
+  <advance width="1291"/>
+  <anchor x="607" y="0" name="bottom"/>
+  <anchor x="1083" y="18" name="ogonek"/>
+  <anchor x="692" y="1988" name="top"/>
+  <anchor x="-5" y="1292" name="topleft"/>
   <outline>
     <component base="e.sc"/>
-    <component base="breveinvertedcomb" xOffset="371.0" yOffset="250.0"/>
+    <component base="breveinvertedcomb" xOffset="371" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

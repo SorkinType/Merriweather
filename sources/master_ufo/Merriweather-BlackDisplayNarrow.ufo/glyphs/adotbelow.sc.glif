@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="adotbelow.sc" format="2">
-  <advance width="1086.0"/>
-  <anchor x="546.0" y="-377.0" name="bottom"/>
-  <anchor x="990.0" y="18.0" name="ogonek"/>
-  <anchor x="545.0" y="1360.0" name="top"/>
+  <advance width="1086"/>
+  <anchor x="546" y="-377" name="bottom"/>
+  <anchor x="990" y="18" name="ogonek"/>
+  <anchor x="545" y="1360" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="dotbelowcomb" xOffset="359.0"/>
+    <component base="dotbelowcomb" xOffset="359"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,22 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fdotaccent" format="2">
-  <advance width="647.0"/>
+  <advance width="647"/>
   <unicode hex="1E1F"/>
-  <anchor x="417.0" y="2031.0" name="top"/>
+  <anchor x="417" y="2031" name="top"/>
   <outline>
     <component base="f"/>
-    <component base="dotaccentcomb" xOffset="217.0" yOffset="503.0"/>
+    <component base="dotaccentcomb" xOffset="217" yOffset="503"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

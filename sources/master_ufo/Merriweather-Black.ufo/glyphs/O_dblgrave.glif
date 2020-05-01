@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odblgrave" format="2">
-  <advance width="1462.0"/>
+  <advance width="1462"/>
   <unicode hex="020C"/>
-  <anchor x="732.0" y="0.0" name="bottom"/>
-  <anchor x="733.0" y="741.0" name="center"/>
-  <anchor x="812.0" y="20.0" name="ogonek"/>
+  <anchor x="732" y="0" name="bottom"/>
+  <anchor x="733" y="741" name="center"/>
+  <anchor x="812" y="20" name="ogonek"/>
   <anchor x="882.761" y="0.0" name="qq"/>
-  <anchor x="742.0" y="1965.0" name="top"/>
-  <anchor x="40.0" y="1486.0" name="topleft"/>
-  <anchor x="1140.0" y="1486.0" name="topright"/>
+  <anchor x="742" y="1965" name="top"/>
+  <anchor x="40" y="1486" name="topleft"/>
+  <anchor x="1140" y="1486" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="dblgravecomb.case" xOffset="142.0"/>
+    <component base="dblgravecomb.case" xOffset="142"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

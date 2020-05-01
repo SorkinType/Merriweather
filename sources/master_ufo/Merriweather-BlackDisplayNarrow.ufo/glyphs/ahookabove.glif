@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ahookabove" format="2">
-  <advance width="850.0"/>
+  <advance width="888"/>
   <unicode hex="1EA3"/>
-  <anchor x="411.0" y="0.0" name="bottom"/>
-  <anchor x="720.0" y="20.0" name="ogonek"/>
-  <anchor x="436.0" y="1576.0" name="top"/>
+  <anchor x="430" y="0" name="bottom"/>
+  <anchor x="739" y="20" name="ogonek"/>
+  <anchor x="455" y="1576" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="hookabovecomb" xOffset="243.0"/>
+    <component base="hookabovecomb" xOffset="262"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

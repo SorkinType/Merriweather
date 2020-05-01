@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aring.sc" format="2">
-  <advance width="1270.0"/>
-  <anchor x="1188.0" y="18.0" name="ogonek"/>
-  <anchor x="640.0" y="0.0" name="bottom"/>
-  <anchor x="648.0" y="1916.0" name="top"/>
+  <advance width="1270"/>
+  <anchor x="1188" y="18" name="ogonek"/>
+  <anchor x="640" y="0" name="bottom"/>
+  <anchor x="648" y="1916" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="ringcomb" xOffset="410.0" yOffset="250.0"/>
+    <component base="ringcomb" xOffset="410" yOffset="250"/>
   </outline>
   <lib>
     <dict>
@@ -23,10 +23,6 @@
       </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>a.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

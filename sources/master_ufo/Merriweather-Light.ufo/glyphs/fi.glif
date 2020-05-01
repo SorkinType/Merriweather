@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fi" format="2">
-  <advance width="1410.0"/>
+  <advance width="1374"/>
   <unicode hex="FB01"/>
-  <anchor x="737.0" y="0.0" name="caret_1"/>
-  <anchor x="1088.0" y="0.0" name="bottom"/>
-  <anchor x="1178.0" y="20.0" name="ogonek"/>
-  <anchor x="477.0" y="1483.0" name="top_1"/>
-  <anchor x="1088.0" y="1424.0" name="top_2"/>
+  <anchor x="737" y="0" name="caret_1"/>
+  <anchor x="1069" y="0" name="bottom"/>
+  <anchor x="1142" y="20" name="ogonek"/>
+  <anchor x="471" y="1483" name="top_1"/>
+  <anchor x="1052" y="1424" name="top_2"/>
   <outline>
     <component base="f"/>
-    <component base="i" xOffset="786.0"/>
+    <component base="i" xOffset="750"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

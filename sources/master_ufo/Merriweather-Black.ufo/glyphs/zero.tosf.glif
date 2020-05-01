@@ -1,15 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.tosf" format="2">
-  <advance width="1332.0"/>
+  <advance width="1180"/>
   <outline>
-    <component base="zero.osf"/>
+    <contour>
+      <point x="562" y="-21" type="curve" smooth="yes"/>
+      <point x="879" y="-21"/>
+      <point x="1143" y="190"/>
+      <point x="1144" y="638" type="curve" smooth="yes"/>
+      <point x="1144" y="1043"/>
+      <point x="960" y="1259"/>
+      <point x="620" y="1259" type="curve" smooth="yes"/>
+      <point x="306" y="1259"/>
+      <point x="37" y="1057"/>
+      <point x="36" y="607" type="curve" smooth="yes"/>
+      <point x="35" y="206"/>
+      <point x="225" y="-21"/>
+    </contour>
+    <contour>
+      <point x="593" y="111" type="curve" smooth="yes"/>
+      <point x="445" y="111"/>
+      <point x="385" y="265"/>
+      <point x="385" y="635" type="curve" smooth="yes"/>
+      <point x="385" y="969"/>
+      <point x="456" y="1129"/>
+      <point x="591" y="1129" type="curve" smooth="yes"/>
+      <point x="741" y="1129"/>
+      <point x="794" y="986"/>
+      <point x="794" y="611" type="curve" smooth="yes"/>
+      <point x="794" y="272"/>
+      <point x="730" y="111"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

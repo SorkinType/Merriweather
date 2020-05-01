@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="De-cy" format="2">
-  <advance width="1335.0"/>
+  <advance width="1335"/>
   <unicode hex="0414"/>
   <anchor x="24.521" y="0.0" name="bottomleft"/>
-  <anchor x="1278.0" y="0.0" name="bottomright"/>
+  <anchor x="1278" y="0" name="bottomright"/>
   <outline>
-    <component base="De-cy_part."/>
-    <component base="lefttooth_part." xOffset="3.0"/>
-    <component base="righttooth_part." xOffset="953.0"/>
+    <component base="Decy_part."/>
+    <component base="lefttooth_part." xOffset="3"/>
+    <component base="righttooth_part." xOffset="953"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/24 07:25:37</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ustraitstroke-cy" format="2">
-  <advance width="1013.0"/>
+  <advance width="1013"/>
   <unicode hex="04B1"/>
-  <anchor x="641.0" y="22.0" name="center"/>
+  <anchor x="641" y="22" name="center"/>
   <outline>
     <contour>
-      <point x="74.0" y="0.0" type="line"/>
-      <point x="972.0" y="0.0" type="line"/>
-      <point x="972.0" y="70.0" type="line"/>
-      <point x="74.0" y="70.0" type="line"/>
+      <point x="114" y="0" type="line"/>
+      <point x="972" y="0" type="line"/>
+      <point x="972" y="70" type="line"/>
+      <point x="114" y="70" type="line"/>
     </contour>
     <component base="ustrait-cy"/>
   </outline>
@@ -20,12 +20,8 @@
       <string>v</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>v</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/24 07:26:31</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

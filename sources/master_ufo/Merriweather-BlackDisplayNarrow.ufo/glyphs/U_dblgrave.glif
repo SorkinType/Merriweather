@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udblgrave" format="2">
-  <advance width="1307.0"/>
+  <advance width="1257"/>
   <unicode hex="0214"/>
-  <anchor x="755.0" y="0.0" name="bottom"/>
-  <anchor x="808.0" y="20.0" name="ogonek"/>
-  <anchor x="763.0" y="1965.0" name="top"/>
-  <anchor x="1449.0" y="1486.0" name="topright"/>
+  <anchor x="705" y="0" name="bottom"/>
+  <anchor x="798" y="20" name="ogonek"/>
+  <anchor x="703" y="1965" name="top"/>
+  <anchor x="1439" y="1486" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="dblgravecomb.case" xOffset="311.0"/>
+    <component base="dblgravecomb.case" xOffset="251"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

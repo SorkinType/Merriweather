@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gedescender-cy.sc" format="2">
-  <advance width="1185.0"/>
-  <anchor x="830.0" y="0.0" name="bottomright"/>
-  <anchor x="628.0" y="1272.0" name="top"/>
+  <advance width="1185"/>
+  <anchor x="830" y="0" name="bottomright"/>
+  <anchor x="628" y="1272" name="top"/>
   <outline>
     <contour>
-      <point x="370.0" y="106.0" type="line"/>
-      <point x="370.0" y="75.0" type="line"/>
-      <point x="645.0" y="75.0" type="line"/>
-      <point x="645.0" y="106.0" type="line"/>
+      <point x="370" y="106" type="line"/>
+      <point x="370" y="75" type="line"/>
+      <point x="645" y="75" type="line"/>
+      <point x="645" y="106" type="line"/>
     </contour>
     <component base="ge-cy.sc"/>
-    <component base="righttooth_part." xOffset="545.0"/>
+    <component base="righttooth_part." xOffset="545"/>
   </outline>
   <lib>
     <dict>
@@ -19,10 +19,6 @@
       <string>ge-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ge-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

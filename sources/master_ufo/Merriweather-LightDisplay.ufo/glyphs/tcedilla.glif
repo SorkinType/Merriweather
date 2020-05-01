@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcedilla" format="2">
-  <advance width="584.0"/>
+  <advance width="558"/>
   <unicode hex="0163"/>
-  <anchor x="411.0" y="0.0" name="_bottom"/>
-  <anchor x="411.0" y="0.0" name="bottom"/>
-  <anchor x="351.0" y="556.0" name="center"/>
-  <anchor x="291.0" y="1310.0" name="top"/>
-  <anchor x="557.0" y="1330.0" name="topright"/>
+  <anchor x="411" y="0" name="_bottom"/>
+  <anchor x="411" y="0" name="bottom"/>
+  <anchor x="351" y="556" name="center"/>
+  <anchor x="291" y="1310" name="top"/>
+  <anchor x="557" y="1330" name="topright"/>
   <outline>
     <component base="t"/>
-    <component base="cedillacomb" xOffset="139.0"/>
+    <component base="cedillacomb" xOffset="113"/>
   </outline>
   <lib>
     <dict>
@@ -19,12 +19,8 @@
       <string>t</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>t</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Edieresis-cy" format="2">
-  <advance width="1241.0"/>
+  <advance width="1241"/>
   <unicode hex="04EC"/>
-  <anchor x="582.0" y="1855.0" name="top"/>
+  <anchor x="582" y="1855" name="top"/>
   <outline>
     <component base="Ereversed-cy"/>
-    <component base="dieresiscomb.case" xOffset="197.0" yOffset="-3.0"/>
+    <component base="dieresiscomb.case" xOffset="197" yOffset="-3"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/24 07:29:35</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

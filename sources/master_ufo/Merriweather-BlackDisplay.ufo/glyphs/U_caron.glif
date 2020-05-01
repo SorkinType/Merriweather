@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ucaron" format="2">
-  <advance width="1357.0"/>
+  <advance width="1357"/>
   <unicode hex="01D3"/>
-  <anchor x="775.0" y="0.0" name="bottom"/>
-  <anchor x="828.0" y="20.0" name="ogonek"/>
-  <anchor x="763.0" y="1920.0" name="top"/>
-  <anchor x="1449.0" y="1486.0" name="topright"/>
+  <anchor x="775" y="0" name="bottom"/>
+  <anchor x="828" y="20" name="ogonek"/>
+  <anchor x="763" y="1920" name="top"/>
+  <anchor x="1449" y="1486" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="caroncomb.case" xOffset="398.0"/>
+    <component base="caroncomb.case" xOffset="398"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

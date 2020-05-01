@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="922"/>
+  <unicode hex="02C7"/>
+  <anchor x="528" y="1110" name="_top"/>
+  <anchor x="594" y="1583" name="top"/>
+  <outline>
+    <contour>
+      <point x="313" y="1614" type="line"/>
+      <point x="501" y="1267" type="line"/>
+      <point x="628" y="1267" type="line"/>
+      <point x="898" y="1604" type="line"/>
+      <point x="842" y="1650" type="line"/>
+      <point x="743" y="1561"/>
+      <point x="674" y="1473"/>
+      <point x="576" y="1384" type="curve"/>
+      <point x="508" y="1473"/>
+      <point x="441" y="1561"/>
+      <point x="374" y="1650" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+    </dict>
+  </lib>
+</glyph>

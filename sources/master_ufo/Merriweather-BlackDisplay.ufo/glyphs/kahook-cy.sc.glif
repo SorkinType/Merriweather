@@ -1,53 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kahook-cy.sc" format="2">
-  <advance width="1390.0"/>
+  <advance width="1390"/>
   <outline>
     <contour>
-      <point x="540.0" y="676.0" type="curve"/>
-      <point x="540.0" y="1228.0" type="line"/>
-      <point x="673.0" y="1255.0" type="line"/>
-      <point x="673.0" y="1292.0" type="line"/>
-      <point x="20.0" y="1292.0" type="line"/>
-      <point x="20.0" y="1255.0" type="line"/>
-      <point x="158.0" y="1228.0" type="line"/>
-      <point x="158.0" y="68.0" type="line"/>
-      <point x="20.0" y="55.0" type="line"/>
-      <point x="20.0" y="0.0" type="line"/>
-      <point x="715.0" y="0.0" type="line"/>
-      <point x="715.0" y="37.0" type="line"/>
-      <point x="540.0" y="68.0" type="line"/>
-      <point x="540.0" y="622.0" type="line"/>
-      <point x="579.0" y="643.0"/>
-      <point x="665.0" y="661.0"/>
-      <point x="744.0" y="661.0" type="curve" smooth="yes"/>
-      <point x="909.0" y="661.0"/>
-      <point x="977.0" y="542.0"/>
-      <point x="977.0" y="261.0" type="curve" smooth="yes"/>
-      <point x="977.0" y="-60.0"/>
-      <point x="852.0" y="-285.0"/>
-      <point x="686.0" y="-285.0" type="curve" smooth="yes"/>
-      <point x="653.0" y="-285.0"/>
-      <point x="647.0" y="-286.0"/>
-      <point x="600.0" y="-283.0" type="curve"/>
-      <point x="600.0" y="-321.0" type="line"/>
-      <point x="629.0" y="-329.0"/>
-      <point x="696.0" y="-337.0"/>
-      <point x="750.0" y="-337.0" type="curve" smooth="yes"/>
-      <point x="1097.0" y="-337.0"/>
-      <point x="1358.0" y="-135.0"/>
-      <point x="1358.0" y="260.0" type="curve" smooth="yes"/>
-      <point x="1358.0" y="543.0"/>
-      <point x="1201.0" y="714.0"/>
-      <point x="911.0" y="735.0" type="curve"/>
-      <point x="1177.0" y="1228.0" type="line"/>
-      <point x="1313.0" y="1255.0" type="line"/>
-      <point x="1313.0" y="1292.0" type="line"/>
-      <point x="881.0" y="1292.0" type="line"/>
-      <point x="881.0" y="1255.0" type="line"/>
-      <point x="1059.0" y="1227.0" type="line"/>
-      <point x="831.0" y="740.0" type="line"/>
-      <point x="715.0" y="737.0"/>
-      <point x="619.0" y="714.0"/>
+      <point x="540" y="676" type="curve"/>
+      <point x="540" y="1228" type="line"/>
+      <point x="673" y="1255" type="line"/>
+      <point x="673" y="1292" type="line"/>
+      <point x="20" y="1292" type="line"/>
+      <point x="20" y="1255" type="line"/>
+      <point x="158" y="1228" type="line"/>
+      <point x="158" y="68" type="line"/>
+      <point x="20" y="55" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="715" y="0" type="line"/>
+      <point x="715" y="37" type="line"/>
+      <point x="540" y="68" type="line"/>
+      <point x="540" y="622" type="line"/>
+      <point x="579" y="643"/>
+      <point x="665" y="661"/>
+      <point x="744" y="661" type="curve" smooth="yes"/>
+      <point x="909" y="661"/>
+      <point x="977" y="542"/>
+      <point x="977" y="261" type="curve" smooth="yes"/>
+      <point x="977" y="-60"/>
+      <point x="852" y="-285"/>
+      <point x="686" y="-285" type="curve" smooth="yes"/>
+      <point x="653" y="-285"/>
+      <point x="647" y="-286"/>
+      <point x="600" y="-283" type="curve"/>
+      <point x="600" y="-321" type="line"/>
+      <point x="629" y="-329"/>
+      <point x="696" y="-337"/>
+      <point x="750" y="-337" type="curve" smooth="yes"/>
+      <point x="1097" y="-337"/>
+      <point x="1358" y="-135"/>
+      <point x="1358" y="260" type="curve" smooth="yes"/>
+      <point x="1358" y="543"/>
+      <point x="1201" y="714"/>
+      <point x="911" y="735" type="curve"/>
+      <point x="1177" y="1228" type="line"/>
+      <point x="1313" y="1255" type="line"/>
+      <point x="1313" y="1292" type="line"/>
+      <point x="881" y="1292" type="line"/>
+      <point x="881" y="1255" type="line"/>
+      <point x="1059" y="1227" type="line"/>
+      <point x="831" y="740" type="line"/>
+      <point x="715" y="737"/>
+      <point x="619" y="714"/>
     </contour>
   </outline>
   <lib>
@@ -56,68 +56,64 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>be-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>726.0</real>
-            <real>1255.0</real>
+            <integer>726</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>73.0</real>
-            <real>1255.0</real>
+            <integer>73</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>768.0</real>
-            <real>37.0</real>
+            <integer>768</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1426.0</real>
-            <real>1255.0</real>
+            <integer>1426</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>860.0</real>
-            <real>1255.0</real>
+            <integer>860</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

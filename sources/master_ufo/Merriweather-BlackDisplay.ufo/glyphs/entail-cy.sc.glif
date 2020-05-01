@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="entail-cy.sc" format="2">
-  <advance width="1474.0"/>
-  <anchor x="743.0" y="0.0" name="bottom"/>
-  <anchor x="1450.0" y="0.0" name="bottomright"/>
-  <anchor x="747.0" y="1340.0" name="top"/>
+  <advance width="1474"/>
+  <anchor x="743" y="0" name="bottom"/>
+  <anchor x="1450" y="0" name="bottomright"/>
+  <anchor x="747" y="1340" name="top"/>
   <outline>
     <component base="h.sc"/>
-    <component base="rtail_part." xOffset="1043.0"/>
+    <component base="rtail_part." xOffset="1043"/>
   </outline>
   <lib>
     <dict>
@@ -14,90 +14,86 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>pe-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>1575.0</real>
-            <real>1255.0</real>
+            <integer>1575</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>910.0</real>
-            <real>1255.0</real>
+            <integer>910</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>749.0</real>
-            <real>1255.0</real>
+            <integer>749</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>73.0</real>
-            <real>1255.0</real>
+            <integer>73</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>71.0</real>
-            <real>37.0</real>
+            <integer>71</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>749.0</real>
-            <real>37.0</real>
+            <integer>749</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>912.0</real>
-            <real>37.0</real>
+            <integer>912</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

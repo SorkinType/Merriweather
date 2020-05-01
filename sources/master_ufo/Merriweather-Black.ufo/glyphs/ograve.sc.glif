@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ograve.sc" format="2">
-  <advance width="1384.0"/>
-  <anchor x="692.0" y="0.0" name="bottom"/>
-  <anchor x="693.0" y="646.0" name="center"/>
-  <anchor x="768.0" y="18.0" name="ogonek"/>
-  <anchor x="809.0" y="0.0" name="q"/>
-  <anchor x="693.0" y="1958.0" name="top"/>
-  <anchor x="28.0" y="1292.0" name="topleft"/>
-  <anchor x="937.0" y="1293.0" name="topright"/>
+  <advance width="1384"/>
+  <anchor x="692" y="0" name="bottom"/>
+  <anchor x="693" y="646" name="center"/>
+  <anchor x="768" y="18" name="ogonek"/>
+  <anchor x="809" y="0" name="q"/>
+  <anchor x="693" y="1958" name="top"/>
+  <anchor x="28" y="1292" name="topleft"/>
+  <anchor x="937" y="1293" name="topright"/>
   <outline>
     <component base="o.sc"/>
-    <component base="gravecomb" xOffset="319.0" yOffset="161.0"/>
+    <component base="gravecomb" xOffset="319" yOffset="161"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

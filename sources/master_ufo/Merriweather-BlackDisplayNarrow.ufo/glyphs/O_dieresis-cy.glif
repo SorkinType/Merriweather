@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odieresis-cy" format="2">
-  <advance width="1232.0"/>
+  <advance width="1244"/>
   <unicode hex="04E6"/>
-  <anchor x="626.0" y="0.0" name="bottom"/>
-  <anchor x="732.0" y="744.0" name="center"/>
-  <anchor x="716.0" y="20.0" name="ogonek"/>
-  <anchor x="743.886" y="0.0" name="qq"/>
-  <anchor x="732.0" y="1858.0" name="top"/>
-  <anchor x="44.0" y="1486.0" name="topleft"/>
-  <anchor x="1008.0" y="1486.0" name="topright"/>
+  <anchor x="632" y="0" name="bottom"/>
+  <anchor x="732" y="744" name="center"/>
+  <anchor x="722" y="20" name="ogonek"/>
+  <anchor x="750" y="0" name="qq"/>
+  <anchor x="732" y="1858" name="top"/>
+  <anchor x="50" y="1486" name="topleft"/>
+  <anchor x="1014" y="1486" name="topright"/>
   <outline>
     <component base="O-cy"/>
-    <component base="dieresiscomb.case" xOffset="374.0"/>
+    <component base="dieresiscomb.case" xOffset="374"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

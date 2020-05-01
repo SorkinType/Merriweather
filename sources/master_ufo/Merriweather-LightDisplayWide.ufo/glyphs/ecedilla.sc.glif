@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecedilla.sc" format="2">
-  <advance width="1144.0"/>
-  <anchor x="610.0" y="0.0" name="_bottom"/>
-  <anchor x="610.0" y="0.0" name="bottom"/>
-  <anchor x="1108.0" y="18.0" name="ogonek"/>
-  <anchor x="622.0" y="1292.0" name="top"/>
-  <anchor x="24.0" y="1292.0" name="topleft"/>
+  <advance width="1144"/>
+  <anchor x="610" y="0" name="_bottom"/>
+  <anchor x="610" y="0" name="bottom"/>
+  <anchor x="1108" y="18" name="ogonek"/>
+  <anchor x="622" y="1292" name="top"/>
+  <anchor x="24" y="1292" name="topleft"/>
   <outline>
     <component base="e.sc"/>
-    <component base="cedillacomb" xOffset="332.0"/>
+    <component base="cedillacomb" xOffset="332"/>
   </outline>
   <lib>
     <dict>
@@ -27,10 +27,6 @@
       <string>e.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>e.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bitcoin" format="2">
-  <advance width="1316.0"/>
+  <advance width="1316"/>
   <unicode hex="20BF"/>
-  <anchor x="632.0" y="0.0" name="bottom"/>
-  <anchor x="632.0" y="1486.0" name="top"/>
+  <anchor x="632" y="0" name="bottom"/>
+  <anchor x="632" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="525.0" y="1738.0" type="line"/>
-      <point x="415.0" y="1738.0" type="line"/>
-      <point x="415.0" y="1440.0" type="line"/>
-      <point x="525.0" y="1440.0" type="line"/>
+      <point x="525" y="1738" type="line"/>
+      <point x="415" y="1738" type="line"/>
+      <point x="415" y="1440" type="line"/>
+      <point x="525" y="1440" type="line"/>
     </contour>
     <contour>
-      <point x="839.0" y="1738.0" type="line"/>
-      <point x="729.0" y="1738.0" type="line"/>
-      <point x="729.0" y="1440.0" type="line"/>
-      <point x="839.0" y="1440.0" type="line"/>
+      <point x="839" y="1738" type="line"/>
+      <point x="729" y="1738" type="line"/>
+      <point x="729" y="1440" type="line"/>
+      <point x="839" y="1440" type="line"/>
     </contour>
     <contour>
-      <point x="525.0" y="38.0" type="line"/>
-      <point x="415.0" y="38.0" type="line"/>
-      <point x="415.0" y="-260.0" type="line"/>
-      <point x="525.0" y="-260.0" type="line"/>
+      <point x="525" y="38" type="line"/>
+      <point x="415" y="38" type="line"/>
+      <point x="415" y="-260" type="line"/>
+      <point x="525" y="-260" type="line"/>
     </contour>
     <contour>
-      <point x="839.0" y="38.0" type="line"/>
-      <point x="729.0" y="38.0" type="line"/>
-      <point x="729.0" y="-260.0" type="line"/>
-      <point x="839.0" y="-260.0" type="line"/>
+      <point x="839" y="38" type="line"/>
+      <point x="729" y="38" type="line"/>
+      <point x="729" y="-260" type="line"/>
+      <point x="839" y="-260" type="line"/>
     </contour>
-    <component base="B" xOffset="-19.0"/>
+    <component base="B" xOffset="-19"/>
   </outline>
   <lib>
     <dict>
@@ -37,10 +37,6 @@
       <string>euro</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>euro</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ccaron.sc" format="2">
-  <advance width="1195.0"/>
-  <anchor x="658.0" y="0.0" name="bottom"/>
-  <anchor x="716.0" y="1736.0" name="top"/>
+  <advance width="1195"/>
+  <anchor x="658" y="0" name="bottom"/>
+  <anchor x="716" y="1736" name="top"/>
   <outline>
     <component base="c.sc"/>
-    <component base="caroncomb" xOffset="427.0" yOffset="250.0"/>
+    <component base="caroncomb" xOffset="427" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

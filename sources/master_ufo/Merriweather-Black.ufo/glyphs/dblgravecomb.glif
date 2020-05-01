@@ -1,36 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dblgravecomb" format="2">
   <unicode hex="030F"/>
-  <anchor x="607.0" y="1111.0" name="_top"/>
-  <anchor x="606.0" y="1742.0" name="top"/>
+  <anchor x="607" y="1111" name="_top"/>
+  <anchor x="606" y="1742" name="top"/>
   <outline>
     <contour>
-      <point x="857.0" y="1272.0" type="curve"/>
-      <point x="858.0" y="1272.0" type="line"/>
-      <point x="971.0" y="1361.0" type="line"/>
-      <point x="643.0" y="1784.0" type="line"/>
-      <point x="467.0" y="1642.0" type="line"/>
-      <point x="533.0" y="1538.0"/>
-      <point x="769.0" y="1325.0"/>
+      <point x="857" y="1272" type="curve"/>
+      <point x="858" y="1272" type="line"/>
+      <point x="971" y="1361" type="line"/>
+      <point x="643" y="1784" type="line"/>
+      <point x="467" y="1642" type="line"/>
+      <point x="533" y="1538"/>
+      <point x="769" y="1325"/>
     </contour>
     <contour>
-      <point x="407.0" y="1272.0" type="curve"/>
-      <point x="409.0" y="1272.0" type="line"/>
-      <point x="519.0" y="1362.0" type="line"/>
-      <point x="176.0" y="1784.0" type="line"/>
-      <point x="10.0" y="1645.0" type="line"/>
-      <point x="63.0" y="1550.0"/>
-      <point x="315.0" y="1325.0"/>
+      <point x="407" y="1272" type="curve"/>
+      <point x="409" y="1272" type="line"/>
+      <point x="519" y="1362" type="line"/>
+      <point x="176" y="1784" type="line"/>
+      <point x="10" y="1645" type="line"/>
+      <point x="63" y="1550"/>
+      <point x="315" y="1325"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>981.0</real>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <integer>981</integer>
     </dict>
   </lib>
 </glyph>

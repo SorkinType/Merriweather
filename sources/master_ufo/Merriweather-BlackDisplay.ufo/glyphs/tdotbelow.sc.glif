@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotbelow.sc" format="2">
-  <advance width="1381.0"/>
-  <anchor x="697.0" y="-377.0" name="bottom"/>
-  <anchor x="1098.0" y="0.0" name="bottomright"/>
-  <anchor x="697.0" y="647.0" name="center"/>
-  <anchor x="692.0" y="1360.0" name="top"/>
+  <advance width="1381"/>
+  <anchor x="697" y="-377" name="bottom"/>
+  <anchor x="1098" y="0" name="bottomright"/>
+  <anchor x="697" y="647" name="center"/>
+  <anchor x="692" y="1360" name="top"/>
   <outline>
     <component base="t.sc"/>
-    <component base="dotbelowcomb" xOffset="505.0"/>
+    <component base="dotbelowcomb" xOffset="505"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

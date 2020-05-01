@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asciitilde" format="2">
-  <advance width="1327.0"/>
+  <advance width="1249"/>
   <unicode hex="007E"/>
   <outline>
     <contour>
-      <point x="156.0" y="618.0" type="curve"/>
-      <point x="189.0" y="561.0" type="line"/>
-      <point x="245.0" y="632.0"/>
-      <point x="334.0" y="682.0"/>
-      <point x="430.0" y="682.0" type="curve" smooth="yes"/>
-      <point x="621.0" y="682.0"/>
-      <point x="647.0" y="498.0"/>
-      <point x="866.0" y="498.0" type="curve" smooth="yes"/>
-      <point x="990.0" y="498.0"/>
-      <point x="1108.0" y="566.0"/>
-      <point x="1171.0" y="653.0" type="curve"/>
-      <point x="1130.0" y="717.0" type="line"/>
-      <point x="1075.0" y="649.0"/>
-      <point x="973.0" y="589.0"/>
-      <point x="876.0" y="589.0" type="curve" smooth="yes"/>
-      <point x="685.0" y="589.0"/>
-      <point x="656.0" y="773.0"/>
-      <point x="456.0" y="773.0" type="curve" smooth="yes"/>
-      <point x="334.0" y="773.0"/>
-      <point x="216.0" y="701.0"/>
+      <point x="154" y="547" type="curve"/>
+      <point x="192" y="490" type="line"/>
+      <point x="246" y="561"/>
+      <point x="327" y="611"/>
+      <point x="412" y="611" type="curve" smooth="yes"/>
+      <point x="585" y="611"/>
+      <point x="619" y="427"/>
+      <point x="820" y="427" type="curve" smooth="yes"/>
+      <point x="940" y="427"/>
+      <point x="1038" y="495"/>
+      <point x="1095" y="582" type="curve"/>
+      <point x="1049" y="646" type="line"/>
+      <point x="995" y="575"/>
+      <point x="909" y="518"/>
+      <point x="821" y="518" type="curve" smooth="yes"/>
+      <point x="653" y="518"/>
+      <point x="610" y="702"/>
+      <point x="423" y="702" type="curve" smooth="yes"/>
+      <point x="308" y="702"/>
+      <point x="206" y="630"/>
     </contour>
   </outline>
   <lib>
@@ -32,8 +32,6 @@
       <string>hyphen</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hyphen</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

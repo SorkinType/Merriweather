@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="umacrondieresis.sc" format="2">
-  <advance width="1249.0"/>
-  <anchor x="722.0" y="0.0" name="bottom"/>
-  <anchor x="752.0" y="18.0" name="ogonek"/>
-  <anchor x="671.0" y="2044.0" name="top"/>
-  <anchor x="1099.0" y="1292.0" name="topright"/>
+  <advance width="1249"/>
+  <anchor x="722" y="0" name="bottom"/>
+  <anchor x="752" y="18" name="ogonek"/>
+  <anchor x="671" y="2044" name="top"/>
+  <anchor x="1099" y="1292" name="topright"/>
   <outline>
     <component base="u.sc"/>
-    <component base="macroncomb" xOffset="391.0" yOffset="250.0"/>
-    <component base="dieresiscomb" xOffset="321.0" yOffset="540.0"/>
+    <component base="macroncomb" xOffset="391" yOffset="250"/>
+    <component base="dieresiscomb" xOffset="321" yOffset="540"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

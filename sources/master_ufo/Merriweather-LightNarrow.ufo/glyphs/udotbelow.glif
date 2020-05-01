@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udotbelow" format="2">
-  <advance width="1042.0"/>
+  <advance width="1042"/>
   <unicode hex="1EE5"/>
-  <anchor x="518.0" y="-346.0" name="bottom"/>
-  <anchor x="930.0" y="20.0" name="ogonek"/>
-  <anchor x="490.0" y="1110.0" name="top"/>
-  <anchor x="765.0" y="1110.0" name="topright"/>
+  <anchor x="518" y="-346" name="bottom"/>
+  <anchor x="930" y="20" name="ogonek"/>
+  <anchor x="490" y="1110" name="top"/>
+  <anchor x="765" y="1110" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="dotbelowcomb" xOffset="389.0"/>
+    <component base="dotbelowcomb" xOffset="389"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

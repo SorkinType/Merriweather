@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qa-cy.sc" format="2">
-  <advance width="1324.0"/>
-  <anchor x="662.0" y="0.0" name="bottom"/>
-  <anchor x="663.0" y="644.0" name="center"/>
-  <anchor x="750.0" y="18.0" name="ogonek"/>
-  <anchor x="764.0" y="0.0" name="q"/>
-  <anchor x="662.0" y="1272.0" name="top"/>
-  <anchor x="8.0" y="1292.0" name="topleft"/>
-  <anchor x="897.0" y="1293.0" name="topright"/>
+  <advance width="1324"/>
+  <anchor x="662" y="0" name="bottom"/>
+  <anchor x="663" y="644" name="center"/>
+  <anchor x="750" y="18" name="ogonek"/>
+  <anchor x="764" y="0" name="q"/>
+  <anchor x="662" y="1272" name="top"/>
+  <anchor x="8" y="1292" name="topleft"/>
+  <anchor x="897" y="1293" name="topright"/>
   <outline>
     <component base="q.sc"/>
   </outline>
@@ -24,10 +24,6 @@
         <key>width</key>
         <integer>96</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

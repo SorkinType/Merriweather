@@ -1,27 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="esdescender-cy.sc" format="2">
-  <advance width="1281.0"/>
-  <anchor x="664.0" y="0.0" name="bottom"/>
-  <anchor x="685.0" y="1340.0" name="top"/>
+  <advance width="1281"/>
+  <anchor x="664" y="0" name="bottom"/>
+  <anchor x="685" y="1340" name="top"/>
   <outline>
     <contour>
-      <point x="812.0" y="-2.0" type="curve"/>
-      <point x="573.0" y="-2.0" type="line"/>
-      <point x="595.0" y="-88.0"/>
-      <point x="608.0" y="-261.0"/>
-      <point x="611.0" y="-360.0" type="curve"/>
-      <point x="773.0" y="-360.0" type="line"/>
-      <point x="780.0" y="-261.0"/>
-      <point x="792.0" y="-88.0"/>
+      <point x="812" y="-2" type="curve"/>
+      <point x="573" y="-2" type="line"/>
+      <point x="595" y="-88"/>
+      <point x="608" y="-261"/>
+      <point x="611" y="-360" type="curve"/>
+      <point x="773" y="-360" type="line"/>
+      <point x="780" y="-261"/>
+      <point x="792" y="-88"/>
     </contour>
     <component base="es-cy.sc"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

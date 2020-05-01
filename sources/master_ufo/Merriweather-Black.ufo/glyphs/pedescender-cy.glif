@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pedescender-cy" format="2">
-  <advance width="1424.0"/>
+  <advance width="1424"/>
   <unicode hex="0525"/>
-  <anchor x="1346.0" y="0.0" name="bottomright"/>
+  <anchor x="1346" y="0" name="bottomright"/>
   <outline>
     <component base="pe-cy"/>
-    <component base="righttooth_part." xOffset="940.0"/>
+    <component base="righttooth_part." xOffset="940"/>
   </outline>
   <lib>
     <dict>
@@ -13,12 +13,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>pe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 04:54:00</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

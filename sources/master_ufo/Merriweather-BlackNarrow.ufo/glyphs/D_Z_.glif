@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="DZ" format="2">
-  <advance width="2502.0"/>
+  <advance width="2504"/>
   <unicode hex="01F1"/>
-  <anchor x="742.0" y="0.0" name="bottom_1"/>
-  <anchor x="1931.0" y="0.0" name="bottom_2"/>
-  <anchor x="669.0" y="764.0" name="center"/>
-  <anchor x="335.0" y="763.0" name="lstem"/>
-  <anchor x="742.0" y="1486.0" name="top_1"/>
-  <anchor x="1954.0" y="1486.0" name="top_2"/>
+  <anchor x="744" y="0" name="bottom_1"/>
+  <anchor x="1933" y="0" name="bottom_2"/>
+  <anchor x="671" y="764" name="center"/>
+  <anchor x="337" y="763" name="lstem"/>
+  <anchor x="744" y="1486" name="top_1"/>
+  <anchor x="1956" y="1486" name="top_2"/>
   <outline>
     <component base="D"/>
-    <component base="Z" xOffset="1276.0"/>
+    <component base="Z" xOffset="1278"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

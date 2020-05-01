@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gedescender-cy" format="2">
-  <advance width="1213.0"/>
+  <advance width="1218"/>
   <unicode hex="04F6"/>
-  <anchor x="852.0" y="0.0" name="bottomright"/>
-  <anchor x="601.0" y="744.0" name="center"/>
-  <anchor x="743.0" y="1486.0" name="top"/>
+  <anchor x="852" y="0" name="bottomright"/>
+  <anchor x="601" y="744" name="center"/>
+  <anchor x="743" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="414.0" y="104.0" type="line"/>
-      <point x="414.0" y="59.0" type="line"/>
-      <point x="796.0" y="59.0" type="line"/>
-      <point x="796.0" y="104.0" type="line"/>
+      <point x="414" y="104" type="line"/>
+      <point x="414" y="59" type="line"/>
+      <point x="796" y="59" type="line"/>
+      <point x="796" y="104" type="line"/>
     </contour>
     <component base="Ge-cy"/>
-    <component base="righttooth_part." xOffset="567.0"/>
+    <component base="righttooth_part." xOffset="567"/>
   </outline>
   <lib>
     <dict>
@@ -21,10 +21,6 @@
       <string>Ge-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Te-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/22 16:36:43</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

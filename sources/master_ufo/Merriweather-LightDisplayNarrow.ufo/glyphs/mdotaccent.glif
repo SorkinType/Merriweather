@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mdotaccent" format="2">
-  <advance width="1500.0"/>
+  <advance width="1494"/>
   <unicode hex="1E41"/>
-  <anchor x="763.0" y="0.0" name="bottom"/>
-  <anchor x="762.0" y="1402.0" name="top"/>
+  <anchor x="763" y="0" name="bottom"/>
+  <anchor x="762" y="1402" name="top"/>
   <outline>
     <component base="m"/>
-    <component base="dotaccentcomb" xOffset="649.0"/>
+    <component base="dotaccentcomb" xOffset="649"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

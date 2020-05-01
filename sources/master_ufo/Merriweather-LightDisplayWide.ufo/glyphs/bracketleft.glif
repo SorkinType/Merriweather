@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketleft" format="2">
-  <advance width="781.0"/>
+  <advance width="781"/>
   <unicode hex="005B"/>
   <outline>
     <contour>
-      <point x="177.0" y="1484.0" type="curve"/>
-      <point x="177.0" y="-150.0" type="line" smooth="yes"/>
-      <point x="177.0" y="-248.0"/>
-      <point x="218.0" y="-274.0"/>
-      <point x="334.0" y="-274.0" type="curve" smooth="yes"/>
-      <point x="412.0" y="-274.0"/>
-      <point x="502.0" y="-258.0"/>
-      <point x="587.0" y="-238.0" type="curve"/>
-      <point x="587.0" y="-198.0" type="line"/>
-      <point x="285.0" y="-198.0" type="line"/>
-      <point x="285.0" y="1534.0" type="line"/>
-      <point x="587.0" y="1534.0" type="line"/>
-      <point x="587.0" y="1574.0" type="line"/>
-      <point x="509.0" y="1590.0"/>
-      <point x="419.0" y="1608.0"/>
-      <point x="334.0" y="1608.0" type="curve" smooth="yes"/>
-      <point x="218.0" y="1608.0"/>
-      <point x="177.0" y="1582.0"/>
+      <point x="177" y="1484" type="curve"/>
+      <point x="177" y="-150" type="line" smooth="yes"/>
+      <point x="177" y="-248"/>
+      <point x="218" y="-274"/>
+      <point x="334" y="-274" type="curve" smooth="yes"/>
+      <point x="412" y="-274"/>
+      <point x="502" y="-258"/>
+      <point x="587" y="-238" type="curve"/>
+      <point x="587" y="-198" type="line"/>
+      <point x="285" y="-198" type="line"/>
+      <point x="285" y="1534" type="line"/>
+      <point x="587" y="1534" type="line"/>
+      <point x="587" y="1574" type="line"/>
+      <point x="509" y="1590"/>
+      <point x="419" y="1608"/>
+      <point x="334" y="1608" type="curve" smooth="yes"/>
+      <point x="218" y="1608"/>
+      <point x="177" y="1582"/>
     </contour>
   </outline>
   <lib>
@@ -30,10 +30,6 @@
       <string>=|bracketright</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|bracketright</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

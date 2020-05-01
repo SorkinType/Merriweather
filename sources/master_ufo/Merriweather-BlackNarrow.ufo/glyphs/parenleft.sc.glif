@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenleft.sc" format="2">
-  <advance width="896.0"/>
+  <advance width="896"/>
   <outline>
     <contour>
-      <point x="103.0" y="668.0" type="curve" smooth="yes"/>
-      <point x="103.0" y="-60.0"/>
-      <point x="553.0" y="-328.0"/>
-      <point x="643.0" y="-382.0" type="curve"/>
-      <point x="754.0" y="-295.0" type="line"/>
-      <point x="653.0" y="-226.0"/>
-      <point x="384.0" y="95.0"/>
-      <point x="400.0" y="695.0" type="curve"/>
-      <point x="413.0" y="1250.0"/>
-      <point x="667.0" y="1527.0"/>
-      <point x="756.0" y="1581.0" type="curve"/>
-      <point x="643.0" y="1670.0" type="line"/>
-      <point x="537.0" y="1610.0"/>
-      <point x="103.0" y="1292.0"/>
+      <point x="103" y="668" type="curve" smooth="yes"/>
+      <point x="103" y="-60"/>
+      <point x="553" y="-328"/>
+      <point x="643" y="-382" type="curve"/>
+      <point x="754" y="-295" type="line"/>
+      <point x="653" y="-226"/>
+      <point x="384" y="95"/>
+      <point x="400" y="695" type="curve"/>
+      <point x="413" y="1250"/>
+      <point x="667" y="1527"/>
+      <point x="756" y="1581" type="curve"/>
+      <point x="643" y="1670" type="line"/>
+      <point x="537" y="1610"/>
+      <point x="103" y="1292"/>
     </contour>
   </outline>
   <lib>
@@ -25,10 +25,6 @@
       <string>=|parenright.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|parenright.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

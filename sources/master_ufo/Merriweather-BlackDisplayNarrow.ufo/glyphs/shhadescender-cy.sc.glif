@@ -1,69 +1,65 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shhadescender-cy.sc" format="2">
-  <advance width="1214.0"/>
-  <anchor x="596.0" y="-646.0" name="bottom"/>
-  <anchor x="1183.0" y="0.0" name="bottomright"/>
-  <anchor x="-2.0" y="646.0" name="topleft"/>
+  <advance width="1214"/>
+  <anchor x="596" y="-646" name="bottom"/>
+  <anchor x="1183" y="0" name="bottomright"/>
+  <anchor x="-2" y="646" name="topleft"/>
   <anchor x="548.85" y="646.0" name="topright"/>
   <outline>
     <component base="shha-cy.sc"/>
-    <component base="righttooth_part." xOffset="901.0"/>
+    <component base="righttooth_part." xOffset="901"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>tse-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>642.0</real>
-            <real>37.0</real>
+            <integer>642</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>703.0</real>
-            <real>1255.0</real>
+            <integer>703</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>76.0</real>
-            <real>1255.0</real>
+            <integer>76</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>75.0</real>
-            <real>37.0</real>
+            <integer>75</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

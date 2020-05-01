@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aeacute" format="2">
-  <advance width="1457.0"/>
+  <advance width="1442"/>
   <unicode hex="01FD"/>
-  <anchor x="700.0" y="0.0" name="bottom"/>
-  <anchor x="742.0" y="1560.0" name="top"/>
+  <anchor x="703" y="0" name="bottom"/>
+  <anchor x="745" y="1560" name="top"/>
   <outline>
     <component base="ae"/>
-    <component base="acutecomb" xOffset="607.0"/>
+    <component base="acutecomb" xOffset="610"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

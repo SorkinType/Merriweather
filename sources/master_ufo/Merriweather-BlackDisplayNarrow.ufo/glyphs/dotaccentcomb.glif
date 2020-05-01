@@ -1,34 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb" format="2">
   <unicode hex="0307"/>
-  <anchor x="187.0" y="1110.0" name="_top"/>
-  <anchor x="187.0" y="1528.0" name="top"/>
+  <anchor x="187" y="1110" name="_top"/>
+  <anchor x="187" y="1528" name="top"/>
   <outline>
     <contour>
-      <point x="172.0" y="1140.0" type="curve" smooth="yes"/>
-      <point x="174.0" y="1140.0" type="line" smooth="yes"/>
-      <point x="292.0" y="1140.0"/>
-      <point x="364.0" y="1225.0"/>
-      <point x="364.0" y="1328.0" type="curve" smooth="yes"/>
-      <point x="364.0" y="1415.0"/>
-      <point x="305.0" y="1486.0"/>
-      <point x="202.0" y="1486.0" type="curve" smooth="yes"/>
-      <point x="200.0" y="1486.0" type="line" smooth="yes"/>
-      <point x="82.0" y="1486.0"/>
-      <point x="10.0" y="1402.0"/>
-      <point x="10.0" y="1298.0" type="curve" smooth="yes"/>
-      <point x="10.0" y="1211.0"/>
-      <point x="69.0" y="1140.0"/>
+      <point x="172" y="1140" type="curve" smooth="yes"/>
+      <point x="174" y="1140" type="line" smooth="yes"/>
+      <point x="290" y="1140"/>
+      <point x="360" y="1227"/>
+      <point x="360" y="1332" type="curve" smooth="yes"/>
+      <point x="360" y="1421"/>
+      <point x="303" y="1493"/>
+      <point x="202" y="1493" type="curve" smooth="yes"/>
+      <point x="200" y="1493" type="line" smooth="yes"/>
+      <point x="84" y="1493"/>
+      <point x="14" y="1407"/>
+      <point x="14" y="1301" type="curve" smooth="yes"/>
+      <point x="14" y="1212"/>
+      <point x="71" y="1140"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>374.0</real>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <integer>374</integer>
     </dict>
   </lib>
 </glyph>

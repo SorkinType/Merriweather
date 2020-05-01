@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="schwadieresis-cy.sc" format="2">
+  <advance width="1120"/>
+  <anchor x="470" y="0" name="bottom"/>
+  <anchor x="694" y="1719" name="top"/>
+  <outline>
+    <component base="schwa-cy.sc"/>
+    <component base="dieresiscomb" xOffset="282" yOffset="273"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

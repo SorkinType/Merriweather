@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plusminus" format="2">
+  <advance width="1220"/>
+  <unicode hex="00B1"/>
+  <outline>
+    <contour>
+      <point x="100" y="0" type="line"/>
+      <point x="929" y="0" type="line"/>
+      <point x="946" y="174" type="line"/>
+      <point x="116" y="174" type="line"/>
+    </contour>
+    <contour>
+      <point x="480" y="400" type="line"/>
+      <point x="463" y="280" type="line"/>
+      <point x="674" y="280" type="line"/>
+      <point x="693" y="400" type="line"/>
+      <point x="703" y="560" type="line"/>
+      <point x="812" y="554" type="line"/>
+      <point x="1052" y="554" type="line"/>
+      <point x="1070" y="744" type="line"/>
+      <point x="849" y="744" type="line"/>
+      <point x="737" y="734" type="line"/>
+      <point x="765" y="894" type="line"/>
+      <point x="791" y="1120" type="line"/>
+      <point x="579" y="1120" type="line"/>
+      <point x="553" y="894" type="line"/>
+      <point x="541" y="734" type="line"/>
+      <point x="404" y="744" type="line"/>
+      <point x="194" y="744" type="line"/>
+      <point x="176" y="554" type="line"/>
+      <point x="367" y="554" type="line"/>
+      <point x="506" y="560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

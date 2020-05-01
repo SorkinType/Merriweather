@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Esdescender-cy" format="2">
-  <advance width="1334.0"/>
+  <advance width="1334"/>
   <unicode hex="04AA"/>
-  <anchor x="747.0" y="0.0" name="bottom"/>
-  <anchor x="747.0" y="1486.0" name="top"/>
+  <anchor x="747" y="0" name="bottom"/>
+  <anchor x="747" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="949.0" y="10.0" type="curve"/>
-      <point x="607.0" y="10.0" type="line"/>
-      <point x="638.0" y="-63.0"/>
-      <point x="665.0" y="-300.0"/>
-      <point x="665.0" y="-410.0" type="curve"/>
-      <point x="895.0" y="-410.0" type="line"/>
-      <point x="897.0" y="-269.0"/>
-      <point x="919.0" y="-68.0"/>
+      <point x="949" y="10" type="curve"/>
+      <point x="607" y="10" type="line"/>
+      <point x="638" y="-63"/>
+      <point x="665" y="-300"/>
+      <point x="665" y="-410" type="curve"/>
+      <point x="895" y="-410" type="line"/>
+      <point x="897" y="-269"/>
+      <point x="919" y="-68"/>
     </contour>
     <component base="C"/>
   </outline>
@@ -23,10 +23,6 @@
       <string>Es-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Es-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

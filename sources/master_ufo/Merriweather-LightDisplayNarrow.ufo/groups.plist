@@ -85,7 +85,7 @@
     </array>
     <key>public.kern1.Dje-cy</key>
     <array>
-      <string>Dje-cy</string>
+      <string>Ghemiddlehook-cy</string>
     </array>
     <key>public.kern1.E</key>
     <array>
@@ -121,8 +121,9 @@
       <string>Aie-cy</string>
       <string>Iebreve-cy</string>
     </array>
-    <key>public.kern1.Ef-cy.loclBGR</key>
+    <key>public.kern1.Ef-cy</key>
     <array>
+      <string>Ef-cy</string>
       <string>Ef-cy.loclBGR</string>
     </array>
     <key>public.kern1.Eogonek</key>
@@ -173,7 +174,8 @@
       <string>Ge-cy</string>
       <string>Gje-cy</string>
       <string>Ghestroke-cy</string>
-      <string>Ghestroke-cy.001</string>
+      <string>Gedescender-cy</string>
+      <string>Gestrokehook-cy</string>
     </array>
     <key>public.kern1.Germandbls</key>
     <array>
@@ -202,8 +204,7 @@
     </array>
     <key>public.kern1.Ha-cy</key>
     <array>
-      <string>Hahook-cy</string>
-      <string>Hastroke-cy.001</string>
+      <string>Hastroke-cy</string>
     </array>
     <key>public.kern1.Haabkhasian-cy</key>
     <array>
@@ -237,6 +238,7 @@
       <string>IJ</string>
       <string>IJ_acutecomb</string>
       <string>J</string>
+      <string>Jacute</string>
       <string>Jcircumflex</string>
       <string>LJ</string>
       <string>NJ</string>
@@ -253,11 +255,11 @@
     </array>
     <key>public.kern1.Ka-cy</key>
     <array>
-      <string>Kastroke-cy.001</string>
-    </array>
-    <key>public.kern1.Kahook-cy</key>
-    <array>
-      <string>Kahook-cy</string>
+      <string>Ka-cy</string>
+      <string>Kadescender-cy</string>
+      <string>Kaverticalstroke-cy</string>
+      <string>Kastroke-cy</string>
+      <string>Kabashkir-cy</string>
     </array>
     <key>public.kern1.Komidje-cy</key>
     <array>
@@ -284,10 +286,6 @@
       <string>Ldotbelow</string>
       <string>Llinebelow</string>
       <string>Lslash</string>
-    </array>
-    <key>public.kern1.Lje-cy</key>
-    <array>
-      <string>Nje-cy</string>
     </array>
     <key>public.kern1.M</key>
     <array>
@@ -353,6 +351,7 @@
       <string>Fita-cy</string>
       <string>Cheabkhasian-cy</string>
       <string>Chedescenderabkhasian-cy</string>
+      <string>Kahook-cy</string>
       <string>Schwa-cy</string>
       <string>Schwadieresis-cy</string>
       <string>Odieresis-cy</string>
@@ -395,10 +394,6 @@
       <string>Yerudieresis-cy</string>
       <string>Komide-cy</string>
       <string>EnLeftHook-cy</string>
-    </array>
-    <key>public.kern1.Phi</key>
-    <array>
-      <string>Ef-cy</string>
     </array>
     <key>public.kern1.Q</key>
     <array>
@@ -445,8 +440,9 @@
       <string>Softsign-cy</string>
       <string>Hardsign-cy</string>
       <string>Lje-cy</string>
+      <string>Nje-cy</string>
+      <string>Dje-cy</string>
       <string>Yat-cy</string>
-      <string>Ghemiddlehook-cy</string>
       <string>Pemiddlehook-cy</string>
       <string>Semisoftsign-cy</string>
     </array>
@@ -461,13 +457,8 @@
       <string>Tdotbelow</string>
       <string>Tlinebelow</string>
       <string>Te-cy</string>
-      <string>Gestrokehook-cy</string>
-    </array>
-    <key>public.kern1.Te-cy</key>
-    <array>
       <string>Enghe-cy</string>
       <string>Tedescender-cy</string>
-      <string>Gedescender-cy</string>
     </array>
     <key>public.kern1.Tshe-cy</key>
     <array>
@@ -528,7 +519,8 @@
     <array>
       <string>X</string>
       <string>Ha-cy</string>
-      <string>Hastroke-cy</string>
+      <string>Hadescender-cy</string>
+      <string>Hahook-cy</string>
     </array>
     <key>public.kern1.Y</key>
     <array>
@@ -568,14 +560,8 @@
     <key>public.kern1.Zhe-cy</key>
     <array>
       <string>Zhe-cy</string>
-      <string>Ka-cy</string>
       <string>Kje-cy</string>
       <string>Zhedescender-cy</string>
-      <string>Kadescender-cy</string>
-      <string>Kaverticalstroke-cy</string>
-      <string>Kastroke-cy</string>
-      <string>Kabashkir-cy</string>
-      <string>Hadescender-cy</string>
       <string>Zhebreve-cy</string>
       <string>Zhedieresis-cy</string>
     </array>
@@ -684,6 +670,7 @@
     <key>public.kern1.approxequal</key>
     <array>
       <string>approxequal</string>
+      <string>approxequal.case</string>
     </array>
     <key>public.kern1.asciicircum</key>
     <array>
@@ -792,9 +779,6 @@
     <key>public.kern1.bullet</key>
     <array>
       <string>bullet</string>
-    </array>
-    <key>public.kern1.bullet.cap</key>
-    <array>
       <string>bullet.case</string>
     </array>
     <key>public.kern1.bulletoperator</key>
@@ -811,7 +795,6 @@
       <string>ccircumflex</string>
       <string>cdotaccent</string>
       <string>es-cy</string>
-      <string>esdescender-cy</string>
     </array>
     <key>public.kern1.c.sc</key>
     <array>
@@ -883,6 +866,7 @@
       <string>colon</string>
       <string>semicolon</string>
       <string>ratio</string>
+      <string>ratio.case</string>
     </array>
     <key>public.kern1.colonsign</key>
     <array>
@@ -938,16 +922,8 @@
     </array>
     <key>public.kern1.de-cy</key>
     <array>
-      <string>iishorttail-cy</string>
-      <string>tse-cy</string>
-      <string>shcha-cy</string>
       <string>endescender-cy</string>
       <string>pedescender-cy</string>
-      <string>tetse-cy</string>
-      <string>chedescender-cy</string>
-      <string>eltail-cy</string>
-      <string>entail-cy</string>
-      <string>eldescender-cy</string>
     </array>
     <key>public.kern1.de-cy.loclBGR</key>
     <array>
@@ -1067,9 +1043,14 @@
       <string>eogonek</string>
       <string>etilde</string>
       <string>oe</string>
+      <string>ie-cy</string>
+      <string>iegrave-cy</string>
+      <string>io-cy</string>
       <string>cheabkhasian-cy</string>
       <string>chedescenderabkhasian-cy</string>
       <string>aie-cy</string>
+      <string>iebreve-cy</string>
+      <string>edieresis-cy</string>
     </array>
     <key>public.kern1.e.sc</key>
     <array>
@@ -1164,14 +1145,11 @@
     <key>public.kern1.emptyset</key>
     <array>
       <string>emptyset</string>
+      <string>emptyset.case</string>
     </array>
     <key>public.kern1.emtail-cy</key>
     <array>
       <string>emtail-cy</string>
-    </array>
-    <key>public.kern1.eng</key>
-    <array>
-      <string>dje-cy</string>
     </array>
     <key>public.kern1.enhook-cy</key>
     <array>
@@ -1181,10 +1159,8 @@
     <array>
       <string>equal</string>
       <string>notequal</string>
-    </array>
-    <key>public.kern1.ertick-cy</key>
-    <array>
-      <string>ertick-cy</string>
+      <string>equal.case</string>
+      <string>notequal.case</string>
     </array>
     <key>public.kern1.ertick-cy.sc</key>
     <array>
@@ -1193,6 +1169,7 @@
     <key>public.kern1.es-cy</key>
     <array>
       <string>e-cy</string>
+      <string>esdescender-cy</string>
       <string>esdescender-cy.loclBSH</string>
       <string>esdescender-cy.loclCHU</string>
     </array>
@@ -1244,6 +1221,7 @@
     <key>public.kern1.five</key>
     <array>
       <string>five</string>
+      <string>five.001</string>
       <string>five.lf</string>
     </array>
     <key>public.kern1.five.dnom</key>
@@ -1341,6 +1319,12 @@
       <string>gmacron.sc</string>
       <string>gstroke.sc</string>
     </array>
+    <key>public.kern1.ge-cy</key>
+    <array>
+      <string>ge-cy</string>
+      <string>gje-cy</string>
+      <string>gheupturn-cy</string>
+    </array>
     <key>public.kern1.ge-cy.loclBGR</key>
     <array>
       <string>ge-cy.loclBGR</string>
@@ -1385,10 +1369,12 @@
     <key>public.kern1.greater</key>
     <array>
       <string>greater</string>
+      <string>greater.case</string>
     </array>
     <key>public.kern1.greaterequal</key>
     <array>
       <string>greaterequal</string>
+      <string>greaterequal.case</string>
     </array>
     <key>public.kern1.guarani</key>
     <array>
@@ -1437,7 +1423,6 @@
     </array>
     <key>public.kern1.ha-cy</key>
     <array>
-      <string>ha-cy</string>
       <string>hadescender-cy</string>
       <string>hastroke-cy</string>
     </array>
@@ -1514,6 +1499,12 @@
       <string>plusminus</string>
       <string>asciitilde</string>
       <string>logicalnot</string>
+      <string>plus.case</string>
+      <string>minus.case</string>
+      <string>divide.case</string>
+      <string>plusminus.case</string>
+      <string>asciitilde.case</string>
+      <string>logicalnot.case</string>
     </array>
     <key>public.kern1.i</key>
     <array>
@@ -1545,6 +1536,8 @@
       <string>eng</string>
       <string>nj</string>
       <string>i.dot</string>
+      <string>ij.ss02</string>
+      <string>ij_acutecomb.ss02</string>
       <string>i-cy</string>
       <string>yi-cy</string>
       <string>je-cy</string>
@@ -1569,24 +1562,26 @@
       <string>itilde.sc</string>
       <string>yi-cy.sc</string>
     </array>
-    <key>public.kern1.ie-cy</key>
-    <array>
-      <string>ie-cy</string>
-      <string>iegrave-cy</string>
-      <string>io-cy</string>
-      <string>iebreve-cy</string>
-    </array>
     <key>public.kern1.infinity</key>
     <array>
       <string>infinity</string>
+      <string>infinity.case</string>
     </array>
     <key>public.kern1.integral</key>
     <array>
       <string>integral</string>
     </array>
+    <key>public.kern1.izhitsa-cy</key>
+    <array>
+      <string>izhitsa-cy</string>
+    </array>
     <key>public.kern1.izhitsa-cy.sc</key>
     <array>
       <string>izhitsa-cy.sc</string>
+    </array>
+    <key>public.kern1.j</key>
+    <array>
+      <string>dje-cy</string>
     </array>
     <key>public.kern1.j.sc</key>
     <array>
@@ -1594,6 +1589,8 @@
       <string>ij_acutecomb.sc</string>
       <string>j.sc</string>
       <string>jacute.sc</string>
+      <string>jcircumflex.sc</string>
+      <string>eng.sc</string>
       <string>nj.sc</string>
       <string>je-cy.sc</string>
       <string>enhook-cy.sc</string>
@@ -1605,6 +1602,7 @@
       <string>kcaron</string>
       <string>kcommaaccent</string>
       <string>kgreenlandic</string>
+      <string>kastroke-cy</string>
     </array>
     <key>public.kern1.k.sc</key>
     <array>
@@ -1697,10 +1695,12 @@
     <key>public.kern1.less</key>
     <array>
       <string>less</string>
+      <string>less.case</string>
     </array>
     <key>public.kern1.lessequal</key>
     <array>
       <string>lessequal</string>
+      <string>lessequal.case</string>
     </array>
     <key>public.kern1.lira</key>
     <array>
@@ -1713,6 +1713,10 @@
     <key>public.kern1.literSign</key>
     <array>
       <string>literSign</string>
+    </array>
+    <key>public.kern1.lje-cy</key>
+    <array>
+      <string>yat-cy</string>
     </array>
     <key>public.kern1.lozenge</key>
     <array>
@@ -1772,6 +1776,7 @@
     <key>public.kern1.multiply</key>
     <array>
       <string>multiply</string>
+      <string>multiply.case</string>
     </array>
     <key>public.kern1.n</key>
     <array>
@@ -1804,7 +1809,6 @@
       <string>ncommaaccent.sc</string>
       <string>ndotaccent.sc</string>
       <string>ndotbelow.sc</string>
-      <string>eng.sc</string>
       <string>nlinebelow.sc</string>
       <string>ntilde.sc</string>
     </array>
@@ -1901,17 +1905,14 @@
       <string>ef-cy</string>
       <string>ereversed-cy</string>
       <string>iu-cy</string>
-      <string>odieresis-cy</string>
-      <string>obarred-cy</string>
-      <string>iu-cy.loclBGR</string>
-    </array>
-    <key>public.kern1.o-cy</key>
-    <array>
       <string>fita-cy</string>
       <string>schwa-cy</string>
       <string>schwadieresis-cy</string>
+      <string>odieresis-cy</string>
+      <string>obarred-cy</string>
       <string>obarreddieresis-cy</string>
-      <string>edieresis-cy</string>
+      <string>ertick-cy</string>
+      <string>iu-cy.loclBGR</string>
     </array>
     <key>public.kern1.o.sc</key>
     <array>
@@ -2064,20 +2065,28 @@
       <string>ii-cy</string>
       <string>iishort-cy</string>
       <string>iigrave-cy</string>
+      <string>iishorttail-cy</string>
       <string>el-cy</string>
       <string>en-cy</string>
       <string>pe-cy</string>
       <string>che-cy</string>
+      <string>tse-cy</string>
       <string>sha-cy</string>
+      <string>shcha-cy</string>
       <string>dzhe-cy</string>
       <string>yeru-cy</string>
       <string>ia-cy</string>
+      <string>tetse-cy</string>
+      <string>chedescender-cy</string>
       <string>cheverticalstroke-cy</string>
+      <string>eltail-cy</string>
+      <string>entail-cy</string>
       <string>chekhakassian-cy</string>
       <string>imacron-cy</string>
       <string>idieresis-cy</string>
       <string>yerudieresis-cy</string>
       <string>enlefthook-cy</string>
+      <string>eldescender-cy</string>
       <string>en-cy.loclBGR</string>
     </array>
     <key>public.kern1.pe-cy.sc</key>
@@ -2097,6 +2106,10 @@
       <string>chedieresis-cy.sc</string>
       <string>yerudieresis-cy.sc</string>
     </array>
+    <key>public.kern1.pemiddlehook-cy</key>
+    <array>
+      <string>pemiddlehook-cy</string>
+    </array>
     <key>public.kern1.percent</key>
     <array>
       <string>percent</string>
@@ -2108,7 +2121,10 @@
       <string>comma</string>
       <string>ellipsis</string>
       <string>quotesinglbase</string>
-      <string>quotedblbase</string>
+    </array>
+    <key>public.kern1.periodcentered</key>
+    <array>
+      <string>Ldot</string>
     </array>
     <key>public.kern1.periodcentered.cap</key>
     <array>
@@ -2168,6 +2184,10 @@
     <array>
       <string>questiondown.ss01.sc</string>
     </array>
+    <key>public.kern1.quotedblbase</key>
+    <array>
+      <string>quotedblbase</string>
+    </array>
     <key>public.kern1.quoteleft</key>
     <array>
       <string>quotedblleft</string>
@@ -2183,6 +2203,7 @@
     <array>
       <string>quotedblright</string>
       <string>quoteright</string>
+      <string>quoteright.001</string>
     </array>
     <key>public.kern1.quoteright.ss01</key>
     <array>
@@ -2392,9 +2413,7 @@
       <string>hardsign-cy</string>
       <string>lje-cy</string>
       <string>nje-cy</string>
-      <string>yat-cy</string>
       <string>ghemiddlehook-cy</string>
-      <string>pemiddlehook-cy</string>
       <string>semisoftsign-cy</string>
       <string>softsign-cy.loclBGR</string>
       <string>hardsign-cy.loclBGR</string>
@@ -2491,9 +2510,6 @@
     </array>
     <key>public.kern1.te-cy</key>
     <array>
-      <string>ge-cy</string>
-      <string>gje-cy</string>
-      <string>gheupturn-cy</string>
       <string>te-cy</string>
       <string>ghestroke-cy</string>
       <string>enghe-cy</string>
@@ -2608,12 +2624,6 @@
       <string>udotbelow</string>
       <string>ugrave</string>
       <string>uhookabove</string>
-      <string>uhorn</string>
-      <string>uhornacute</string>
-      <string>uhorndotbelow</string>
-      <string>uhorngrave</string>
-      <string>uhornhookabove</string>
-      <string>uhorntilde</string>
       <string>uhungarumlaut</string>
       <string>uinvertedbreve</string>
       <string>umacron</string>
@@ -2658,6 +2668,15 @@
       <string>utilde.sc</string>
       <string>utildeacute.sc</string>
     </array>
+    <key>public.kern1.uhorn</key>
+    <array>
+      <string>uhorn</string>
+      <string>uhornacute</string>
+      <string>uhorndotbelow</string>
+      <string>uhorngrave</string>
+      <string>uhornhookabove</string>
+      <string>uhorntilde</string>
+    </array>
     <key>public.kern1.uhorn.sc</key>
     <array>
       <string>uhorn.sc</string>
@@ -2679,10 +2698,6 @@
     <array>
       <string>upDownArrow</string>
     </array>
-    <key>public.kern1.ustrait-cy</key>
-    <array>
-      <string>ustrait-cy</string>
-    </array>
     <key>public.kern1.ustraitstroke-cy</key>
     <array>
       <string>ustraitstroke-cy</string>
@@ -2690,7 +2705,7 @@
     <key>public.kern1.v</key>
     <array>
       <string>v</string>
-      <string>izhitsa-cy</string>
+      <string>ustrait-cy</string>
     </array>
     <key>public.kern1.v.sc</key>
     <array>
@@ -2738,6 +2753,7 @@
     <key>public.kern1.x</key>
     <array>
       <string>x</string>
+      <string>ha-cy</string>
     </array>
     <key>public.kern1.x.sc</key>
     <array>
@@ -2870,7 +2886,6 @@
       <string>zhedescender-cy</string>
       <string>kadescender-cy</string>
       <string>kaverticalstroke-cy</string>
-      <string>kastroke-cy</string>
       <string>kabashkir-cy</string>
       <string>zhebreve-cy</string>
       <string>zhedieresis-cy</string>
@@ -2935,10 +2950,6 @@
       <string>AE</string>
       <string>Aie-cy</string>
     </array>
-    <key>public.kern2.C</key>
-    <array>
-      <string>Haabkhasian-cy</string>
-    </array>
     <key>public.kern2.Che-cy</key>
     <array>
       <string>Che-cy</string>
@@ -2946,6 +2957,8 @@
       <string>Cheverticalstroke-cy</string>
       <string>Chekhakassian-cy</string>
       <string>Chedieresis-cy</string>
+      <string>Komizje-cy</string>
+      <string>Komidzje-cy</string>
     </array>
     <key>public.kern2.Cheabkhasian-cy</key>
     <array>
@@ -2956,8 +2969,9 @@
     <array>
       <string>De-cy</string>
     </array>
-    <key>public.kern2.Ef-cy.loclBGR</key>
+    <key>public.kern2.Ef-cy</key>
     <array>
+      <string>Ef-cy</string>
       <string>Ef-cy.loclBGR</string>
     </array>
     <key>public.kern2.El-cy</key>
@@ -2979,9 +2993,6 @@
     </array>
     <key>public.kern2.Es-cy</key>
     <array>
-      <string>Es-cy</string>
-      <string>E-cy</string>
-      <string>Komisje-cy</string>
       <string>Esdescender-cy.loclBSH</string>
       <string>Esdescender-cy.loclCHU</string>
     </array>
@@ -2994,10 +3005,6 @@
       <string>Ezh</string>
       <string>Ezhcaron</string>
     </array>
-    <key>public.kern2.Ge-cy</key>
-    <array>
-      <string>Gedescender-cy</string>
-    </array>
     <key>public.kern2.Germandbls</key>
     <array>
       <string>Germandbls</string>
@@ -3006,7 +3013,6 @@
     <array>
       <string>Ghestroke-cy</string>
       <string>Gestrokehook-cy</string>
-      <string>Ghestroke-cy.001</string>
     </array>
     <key>public.kern2.H</key>
     <array>
@@ -3095,8 +3101,7 @@
     </array>
     <key>public.kern2.Ha-cy</key>
     <array>
-      <string>Hahook-cy</string>
-      <string>Hastroke-cy.001</string>
+      <string>Hastroke-cy</string>
     </array>
     <key>public.kern2.I</key>
     <array>
@@ -3127,24 +3132,15 @@
     <key>public.kern2.J</key>
     <array>
       <string>J</string>
+      <string>Jacute</string>
       <string>Jcircumflex</string>
       <string>Je-cy</string>
       <string>EnLeftHook-cy</string>
-    </array>
-    <key>public.kern2.Kabashkir-cy</key>
-    <array>
-      <string>Kabashkir-cy</string>
-      <string>Tetse-cy</string>
     </array>
     <key>public.kern2.Komide-cy</key>
     <array>
       <string>Komide-cy</string>
       <string>Komidje-cy</string>
-    </array>
-    <key>public.kern2.Komizje-cy</key>
-    <array>
-      <string>Komizje-cy</string>
-      <string>Komidzje-cy</string>
     </array>
     <key>public.kern2.L</key>
     <array>
@@ -3220,13 +3216,17 @@
       <string>Q</string>
       <string>Schwa</string>
       <string>O-cy</string>
+      <string>Es-cy</string>
+      <string>E-cy</string>
       <string>Fita-cy</string>
+      <string>Haabkhasian-cy</string>
       <string>Esdescender-cy</string>
       <string>Schwa-cy</string>
       <string>Schwadieresis-cy</string>
       <string>Odieresis-cy</string>
       <string>Obarred-cy</string>
       <string>Obarreddieresis-cy</string>
+      <string>Komisje-cy</string>
       <string>Qa-cy</string>
     </array>
     <key>public.kern2.Omega</key>
@@ -3276,13 +3276,10 @@
       <string>Entail-cy</string>
       <string>Imacron-cy</string>
       <string>Idieresis-cy</string>
+      <string>Gedescender-cy</string>
       <string>Yerudieresis-cy</string>
       <string>Kominje-cy</string>
       <string>Ghestroke-cy.loclBSH</string>
-    </array>
-    <key>public.kern2.Phi</key>
-    <array>
-      <string>Ef-cy</string>
     </array>
     <key>public.kern2.Reversedze-cy</key>
     <array>
@@ -3324,11 +3321,11 @@
       <string>Te-cy</string>
       <string>Hardsign-cy</string>
       <string>Tshe-cy</string>
-    </array>
-    <key>public.kern2.Te-cy</key>
-    <array>
       <string>Dje-cy</string>
+      <string>Yat-cy</string>
+      <string>Kabashkir-cy</string>
       <string>Tedescender-cy</string>
+      <string>Tetse-cy</string>
       <string>Komitje-cy</string>
     </array>
     <key>public.kern2.U</key>
@@ -3385,7 +3382,7 @@
       <string>X</string>
       <string>Ha-cy</string>
       <string>Hadescender-cy</string>
-      <string>Hastroke-cy</string>
+      <string>Hahook-cy</string>
     </array>
     <key>public.kern2.Y</key>
     <array>
@@ -3401,10 +3398,6 @@
       <string>Ytilde</string>
       <string>Ustrait-cy</string>
       <string>Ustraitstroke-cy</string>
-    </array>
-    <key>public.kern2.Yat-cy</key>
-    <array>
-      <string>Yat-cy</string>
     </array>
     <key>public.kern2.Yusbig-cy</key>
     <array>
@@ -3433,7 +3426,6 @@
       <string>Zhedescender-cy</string>
       <string>Zhebreve-cy</string>
       <string>Zhedieresis-cy</string>
-      <string>Kastroke-cy.001</string>
     </array>
     <key>public.kern2.a</key>
     <array>
@@ -3468,6 +3460,7 @@
       <string>a-cy</string>
       <string>abreve-cy</string>
       <string>adieresis-cy</string>
+      <string>aie-cy</string>
     </array>
     <key>public.kern2.a.sc</key>
     <array>
@@ -3528,10 +3521,6 @@
       <string>aeacute.sc</string>
       <string>aie-cy.sc</string>
     </array>
-    <key>public.kern2.aie-cy</key>
-    <array>
-      <string>aie-cy</string>
-    </array>
     <key>public.kern2.ampersand</key>
     <array>
       <string>ampersand</string>
@@ -3548,6 +3537,7 @@
     <key>public.kern2.approxequal</key>
     <array>
       <string>approxequal</string>
+      <string>approxequal.case</string>
     </array>
     <key>public.kern2.asciicircum</key>
     <array>
@@ -3650,19 +3640,11 @@
     <key>public.kern2.bullet</key>
     <array>
       <string>bullet</string>
-    </array>
-    <key>public.kern2.bullet.cap</key>
-    <array>
       <string>bullet.case</string>
     </array>
     <key>public.kern2.bulletoperator</key>
     <array>
       <string>bulletoperator</string>
-    </array>
-    <key>public.kern2.c</key>
-    <array>
-      <string>c</string>
-      <string>esdescender-cy</string>
     </array>
     <key>public.kern2.careof</key>
     <array>
@@ -3744,6 +3726,7 @@
       <string>colon</string>
       <string>semicolon</string>
       <string>ratio</string>
+      <string>ratio.case</string>
     </array>
     <key>public.kern2.colonsign</key>
     <array>
@@ -3815,10 +3798,6 @@
     <key>public.kern2.divisionslash</key>
     <array>
       <string>divisionslash</string>
-    </array>
-    <key>public.kern2.dje-cy</key>
-    <array>
-      <string>semisoftsign-cy</string>
     </array>
     <key>public.kern2.dollar</key>
     <array>
@@ -3917,6 +3896,7 @@
     <key>public.kern2.emptyset</key>
     <array>
       <string>emptyset</string>
+      <string>emptyset.case</string>
     </array>
     <key>public.kern2.enlefthook-cy</key>
     <array>
@@ -3926,10 +3906,14 @@
     <array>
       <string>equal</string>
       <string>notequal</string>
+      <string>equal.case</string>
+      <string>notequal.case</string>
     </array>
     <key>public.kern2.ereversed-cy</key>
     <array>
+      <string>ze-cy</string>
       <string>ereversed-cy</string>
+      <string>zedescender-cy</string>
       <string>edieresis-cy</string>
     </array>
     <key>public.kern2.ertick-cy.sc</key>
@@ -3984,6 +3968,7 @@
     <key>public.kern2.five</key>
     <array>
       <string>five</string>
+      <string>five.001</string>
       <string>five.lf</string>
     </array>
     <key>public.kern2.five.numr</key>
@@ -4090,10 +4075,6 @@
     <array>
       <string>germandbls.sc</string>
     </array>
-    <key>public.kern2.gestrokehook-cy</key>
-    <array>
-      <string>gestrokehook-cy</string>
-    </array>
     <key>public.kern2.gestrokehook-cy.sc</key>
     <array>
       <string>gestrokehook-cy.sc</string>
@@ -4114,10 +4095,12 @@
     <key>public.kern2.greater</key>
     <array>
       <string>greater</string>
+      <string>greater.case</string>
     </array>
     <key>public.kern2.greaterequal</key>
     <array>
       <string>greaterequal</string>
+      <string>greaterequal.case</string>
     </array>
     <key>public.kern2.guarani</key>
     <array>
@@ -4145,6 +4128,7 @@
     </array>
     <key>public.kern2.h</key>
     <array>
+      <string>h</string>
       <string>hbar</string>
       <string>hbrevebelow</string>
       <string>hcircumflex</string>
@@ -4154,8 +4138,10 @@
       <string>kcommaaccent</string>
       <string>kgreenlandic</string>
       <string>dje-cy</string>
+      <string>kastroke-cy</string>
       <string>shha-cy</string>
       <string>shhadescender-cy</string>
+      <string>semisoftsign-cy</string>
       <string>ka-cy.loclBGR</string>
       <string>iu-cy.loclBGR</string>
     </array>
@@ -4221,7 +4207,6 @@
       <string>ncommaaccent.sc</string>
       <string>ndotaccent.sc</string>
       <string>ndotbelow.sc</string>
-      <string>eng.sc</string>
       <string>nlinebelow.sc</string>
       <string>ntilde.sc</string>
       <string>p.sc</string>
@@ -4248,14 +4233,15 @@
     </array>
     <key>public.kern2.ha-cy</key>
     <array>
-      <string>ha-cy</string>
-      <string>hadescender-cy</string>
-      <string>hahook-cy</string>
       <string>hastroke-cy</string>
     </array>
     <key>public.kern2.haabkhasian-cy.sc</key>
     <array>
       <string>haabkhasian-cy.sc</string>
+    </array>
+    <key>public.kern2.hardsign-cy</key>
+    <array>
+      <string>hardsign-cy</string>
     </array>
     <key>public.kern2.hastroke-cy.sc</key>
     <array>
@@ -4264,7 +4250,6 @@
     <key>public.kern2.hbar</key>
     <array>
       <string>tshe-cy</string>
-      <string>kastroke-cy</string>
     </array>
     <key>public.kern2.hookabovecomb</key>
     <array>
@@ -4311,6 +4296,12 @@
       <string>plusminus</string>
       <string>asciitilde</string>
       <string>logicalnot</string>
+      <string>plus.case</string>
+      <string>minus.case</string>
+      <string>divide.case</string>
+      <string>plusminus.case</string>
+      <string>asciitilde.case</string>
+      <string>logicalnot.case</string>
     </array>
     <key>public.kern2.i</key>
     <array>
@@ -4334,6 +4325,8 @@
       <string>iogonek</string>
       <string>itilde</string>
       <string>i.dot</string>
+      <string>ij.ss02</string>
+      <string>ij_acutecomb.ss02</string>
       <string>i-cy</string>
       <string>yi-cy</string>
     </array>
@@ -4371,6 +4364,7 @@
     <key>public.kern2.infinity</key>
     <array>
       <string>infinity</string>
+      <string>infinity.case</string>
     </array>
     <key>public.kern2.integral</key>
     <array>
@@ -4387,6 +4381,7 @@
     <array>
       <string>j.sc</string>
       <string>jacute.sc</string>
+      <string>jcircumflex.sc</string>
       <string>je-cy.sc</string>
       <string>enlefthook-cy.sc</string>
     </array>
@@ -4407,6 +4402,11 @@
     <array>
       <string>kominje-cy.sc</string>
     </array>
+    <key>public.kern2.komizje-cy</key>
+    <array>
+      <string>komizje-cy</string>
+      <string>komidzje-cy</string>
+    </array>
     <key>public.kern2.komizje-cy.sc</key>
     <array>
       <string>komizje-cy.sc</string>
@@ -4414,7 +4414,6 @@
     </array>
     <key>public.kern2.l</key>
     <array>
-      <string>h</string>
       <string>l</string>
       <string>lacute</string>
       <string>lcaron</string>
@@ -4440,10 +4439,12 @@
     <key>public.kern2.less</key>
     <array>
       <string>less</string>
+      <string>less.case</string>
     </array>
     <key>public.kern2.lessequal</key>
     <array>
       <string>lessequal</string>
+      <string>lessequal.case</string>
     </array>
     <key>public.kern2.lira</key>
     <array>
@@ -4515,6 +4516,7 @@
     <key>public.kern2.multiply</key>
     <array>
       <string>multiply</string>
+      <string>multiply.case</string>
     </array>
     <key>public.kern2.n</key>
     <array>
@@ -4545,6 +4547,7 @@
     </array>
     <key>public.kern2.n.sc</key>
     <array>
+      <string>eng.sc</string>
       <string>nj.sc</string>
     </array>
     <key>public.kern2.naira</key>
@@ -4597,6 +4600,7 @@
     </array>
     <key>public.kern2.o</key>
     <array>
+      <string>c</string>
       <string>cacute</string>
       <string>ccaron</string>
       <string>ccedilla</string>
@@ -4673,13 +4677,22 @@
       <string>otildemacron</string>
       <string>oe</string>
       <string>q</string>
+      <string>ie-cy</string>
+      <string>iegrave-cy</string>
+      <string>io-cy</string>
       <string>o-cy</string>
       <string>es-cy</string>
       <string>ef-cy</string>
       <string>e-cy</string>
+      <string>fita-cy</string>
       <string>haabkhasian-cy</string>
+      <string>esdescender-cy</string>
+      <string>iebreve-cy</string>
+      <string>schwa-cy</string>
+      <string>schwadieresis-cy</string>
       <string>odieresis-cy</string>
       <string>obarred-cy</string>
+      <string>obarreddieresis-cy</string>
       <string>komide-cy</string>
       <string>komidje-cy</string>
       <string>komisje-cy</string>
@@ -4687,17 +4700,6 @@
       <string>esdescender-cy.loclBSH</string>
       <string>esdescender-cy.loclCHU</string>
       <string>be-cy.loclSRB</string>
-    </array>
-    <key>public.kern2.o-cy</key>
-    <array>
-      <string>ie-cy</string>
-      <string>iegrave-cy</string>
-      <string>io-cy</string>
-      <string>fita-cy</string>
-      <string>iebreve-cy</string>
-      <string>schwa-cy</string>
-      <string>schwadieresis-cy</string>
-      <string>obarreddieresis-cy</string>
     </array>
     <key>public.kern2.o.sc</key>
     <array>
@@ -4891,6 +4893,7 @@
       <string>idieresis-cy</string>
       <string>gedescender-cy</string>
       <string>yerudieresis-cy</string>
+      <string>gestrokehook-cy</string>
       <string>kominje-cy</string>
       <string>en-cy.loclBGR</string>
     </array>
@@ -4946,7 +4949,6 @@
       <string>comma</string>
       <string>ellipsis</string>
       <string>quotesinglbase</string>
-      <string>quotedblbase</string>
     </array>
     <key>public.kern2.periodcentered.cap</key>
     <array>
@@ -4999,6 +5001,10 @@
     <array>
       <string>questiondown.ss01.sc</string>
     </array>
+    <key>public.kern2.quotedblbase</key>
+    <array>
+      <string>quotedblbase</string>
+    </array>
     <key>public.kern2.quoteleft</key>
     <array>
       <string>quotedblleft</string>
@@ -5014,6 +5020,7 @@
     <array>
       <string>quotedblright</string>
       <string>quoteright</string>
+      <string>quoteright.001</string>
     </array>
     <key>public.kern2.quoteright.ss01</key>
     <array>
@@ -5286,7 +5293,6 @@
     <key>public.kern2.te-cy</key>
     <array>
       <string>te-cy</string>
-      <string>hardsign-cy</string>
       <string>kabashkir-cy</string>
       <string>tedescender-cy</string>
       <string>tetse-cy</string>
@@ -5464,10 +5470,6 @@
     <array>
       <string>upDownArrow</string>
     </array>
-    <key>public.kern2.ustrait-cy</key>
-    <array>
-      <string>ustrait-cy</string>
-    </array>
     <key>public.kern2.ustraitstroke-cy</key>
     <array>
       <string>ustraitstroke-cy</string>
@@ -5476,6 +5478,7 @@
     <array>
       <string>v</string>
       <string>izhitsa-cy</string>
+      <string>ustrait-cy</string>
     </array>
     <key>public.kern2.v.sc</key>
     <array>
@@ -5523,6 +5526,9 @@
     <key>public.kern2.x</key>
     <array>
       <string>x</string>
+      <string>ha-cy</string>
+      <string>hadescender-cy</string>
+      <string>hahook-cy</string>
     </array>
     <key>public.kern2.x.sc</key>
     <array>
@@ -5600,11 +5606,7 @@
     </array>
     <key>public.kern2.ze-cy</key>
     <array>
-      <string>ze-cy</string>
-      <string>zedescender-cy</string>
       <string>zedieresis-cy</string>
-      <string>komizje-cy</string>
-      <string>komidzje-cy</string>
       <string>zedescender-cy.loclBSH</string>
       <string>zedescender-cy.loclBSH.sc</string>
     </array>

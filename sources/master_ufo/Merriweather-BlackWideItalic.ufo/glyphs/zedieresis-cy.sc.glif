@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zedieresis-cy.sc" format="2">
+  <advance width="1275"/>
+  <anchor x="584" y="0" name="bottom"/>
+  <anchor x="754" y="1638" name="top"/>
+  <outline>
+    <component base="ze-cy.sc"/>
+    <component base="dieresiscomb" xOffset="221" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

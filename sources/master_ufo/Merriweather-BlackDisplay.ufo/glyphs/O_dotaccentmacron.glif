@@ -1,25 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odotaccentmacron" format="2">
-  <advance width="1410.0"/>
+  <advance width="1410"/>
   <unicode hex="0230"/>
-  <anchor x="737.0" y="0.0" name="bottom"/>
-  <anchor x="706.0" y="741.0" name="center"/>
-  <anchor x="817.0" y="20.0" name="ogonek"/>
+  <anchor x="737" y="0" name="bottom"/>
+  <anchor x="706" y="741" name="center"/>
+  <anchor x="817" y="20" name="ogonek"/>
   <anchor x="851.363" y="0.0" name="qq"/>
-  <anchor x="713.0" y="2164.0" name="top"/>
-  <anchor x="45.0" y="1486.0" name="topleft"/>
-  <anchor x="1145.0" y="1486.0" name="topright"/>
+  <anchor x="713" y="2164" name="top"/>
+  <anchor x="45" y="1486" name="topleft"/>
+  <anchor x="1145" y="1486" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="dotaccentcomb.case" xOffset="521.0"/>
-    <component base="macroncomb.case" xOffset="383.0" yOffset="372.0"/>
+    <component base="dotaccentcomb.case" xOffset="521"/>
+    <component base="macroncomb.case" xOffset="383" yOffset="372"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

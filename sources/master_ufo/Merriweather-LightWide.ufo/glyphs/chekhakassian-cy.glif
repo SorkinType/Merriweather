@@ -1,33 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chekhakassian-cy" format="2">
-  <advance width="1226.0"/>
+  <advance width="1226"/>
   <unicode hex="04CC"/>
-  <anchor x="1192.0" y="0.0" name="bottomright"/>
-  <anchor x="646.0" y="556.0" name="center"/>
-  <anchor x="576.0" y="1110.0" name="top"/>
+  <anchor x="1192" y="0" name="bottomright"/>
+  <anchor x="646" y="556" name="center"/>
+  <anchor x="576" y="1110" name="top"/>
   <outline>
     <component base="che-cy"/>
-    <component base="lefttooth_part." xOffset="632.0"/>
+    <component base="lefttooth_part." xOffset="632"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>lefttooth_part.</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>che-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>pe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 15:10:53</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
     </dict>
   </lib>
 </glyph>

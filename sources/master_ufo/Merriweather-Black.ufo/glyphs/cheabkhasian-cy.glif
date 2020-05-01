@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cheabkhasian-cy" format="2">
-  <advance width="1326.0"/>
+  <advance width="1326"/>
   <unicode hex="04BD"/>
-  <anchor x="772.0" y="0.0" name="bottom"/>
-  <anchor x="755.0" y="20.0" name="ogonek"/>
-  <anchor x="826.0" y="1110.0" name="top"/>
+  <anchor x="772" y="0" name="bottom"/>
+  <anchor x="755" y="20" name="ogonek"/>
+  <anchor x="826" y="1110" name="top"/>
   <outline>
     <contour>
-      <point x="295.0" y="671.0" type="line"/>
-      <point x="222.0" y="684.0"/>
-      <point x="201.0" y="732.0"/>
-      <point x="201.0" y="774.0" type="curve" smooth="yes"/>
-      <point x="201.0" y="817.0"/>
-      <point x="221.0" y="871.0"/>
-      <point x="242.0" y="904.0" type="curve"/>
-      <point x="51.0" y="936.0" type="line"/>
-      <point x="27.0" y="900.0"/>
-      <point x="-4.0" y="824.0"/>
-      <point x="-4.0" y="757.0" type="curve" smooth="yes"/>
-      <point x="-4.0" y="621.0"/>
-      <point x="127.0" y="548.0"/>
-      <point x="287.0" y="537.0" type="curve"/>
+      <point x="295" y="671" type="line"/>
+      <point x="222" y="684"/>
+      <point x="201" y="732"/>
+      <point x="201" y="774" type="curve" smooth="yes"/>
+      <point x="201" y="817"/>
+      <point x="221" y="871"/>
+      <point x="242" y="904" type="curve"/>
+      <point x="51" y="936" type="line"/>
+      <point x="27" y="900"/>
+      <point x="-4" y="824"/>
+      <point x="-4" y="757" type="curve" smooth="yes"/>
+      <point x="-4" y="621"/>
+      <point x="127" y="548"/>
+      <point x="287" y="537" type="curve"/>
     </contour>
-    <component base="ie-cy" xOffset="221.0"/>
+    <component base="ie-cy" xOffset="221"/>
   </outline>
   <lib>
     <dict>
@@ -30,12 +30,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ie-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emtail-cy" format="2">
+  <advance width="1643"/>
+  <unicode hex="04CE"/>
+  <anchor x="1496" y="0" name="bottomright"/>
+  <anchor x="964" y="1110" name="top"/>
+  <outline>
+    <contour>
+      <point x="1533" y="102" type="curve"/>
+      <point x="1344" y="38" type="line"/>
+      <point x="1323" y="-153"/>
+      <point x="1219" y="-294"/>
+      <point x="1069" y="-362" type="curve"/>
+      <point x="1088" y="-420" type="line"/>
+      <point x="1298" y="-379"/>
+      <point x="1533" y="-196"/>
+    </contour>
+    <component base="em-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>em-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>em-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

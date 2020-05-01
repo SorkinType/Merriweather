@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gestrokehook-cy" format="2">
-  <advance width="1225.0"/>
+  <advance width="1239"/>
   <unicode hex="04FA"/>
-  <anchor x="729.0" y="0.0" name="bottomright"/>
-  <anchor x="741.0" y="744.0" name="center"/>
-  <anchor x="677.0" y="1486.0" name="top"/>
+  <anchor x="736" y="0" name="bottomright"/>
+  <anchor x="748" y="744" name="center"/>
+  <anchor x="684" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="680.0" y="-513.0" type="curve" smooth="yes"/>
-      <point x="816.0" y="-513.0"/>
-      <point x="916.0" y="-441.0"/>
-      <point x="916.0" y="-270.0" type="curve" smooth="yes"/>
-      <point x="916.0" y="-116.0"/>
-      <point x="825.0" y="1.0"/>
-      <point x="787.0" y="51.0" type="curve"/>
-      <point x="551.0" y="72.0" type="line"/>
-      <point x="745.0" y="0.0" type="line"/>
-      <point x="779.0" y="-52.0"/>
-      <point x="802.0" y="-128.0"/>
-      <point x="802.0" y="-195.0" type="curve" smooth="yes"/>
-      <point x="802.0" y="-285.0"/>
-      <point x="749.0" y="-312.0"/>
-      <point x="643.0" y="-312.0" type="curve" smooth="yes"/>
-      <point x="624.0" y="-312.0"/>
-      <point x="574.0" y="-308.0"/>
-      <point x="540.0" y="-299.0" type="curve"/>
-      <point x="540.0" y="-484.0" type="line"/>
-      <point x="573.0" y="-499.0"/>
-      <point x="636.0" y="-513.0"/>
+      <point x="677" y="-513" type="curve" smooth="yes"/>
+      <point x="813" y="-513"/>
+      <point x="913" y="-441"/>
+      <point x="913" y="-270" type="curve" smooth="yes"/>
+      <point x="913" y="-116"/>
+      <point x="822" y="1"/>
+      <point x="784" y="51" type="curve"/>
+      <point x="548" y="72" type="line"/>
+      <point x="742" y="0" type="line"/>
+      <point x="776" y="-52"/>
+      <point x="799" y="-128"/>
+      <point x="799" y="-195" type="curve" smooth="yes"/>
+      <point x="799" y="-285"/>
+      <point x="746" y="-312"/>
+      <point x="640" y="-312" type="curve" smooth="yes"/>
+      <point x="621" y="-312"/>
+      <point x="571" y="-308"/>
+      <point x="537" y="-299" type="curve"/>
+      <point x="537" y="-484" type="line"/>
+      <point x="570" y="-499"/>
+      <point x="633" y="-513"/>
     </contour>
-    <component base="Ghestroke-cy" xOffset="27.0"/>
+    <component base="Ghestroke-cy" xOffset="24"/>
   </outline>
   <lib>
     <dict>
@@ -37,10 +37,6 @@
       <string>Te-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Te-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/22 16:37:03</string>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

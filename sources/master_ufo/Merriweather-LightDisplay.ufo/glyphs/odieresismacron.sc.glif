@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odieresismacron.sc" format="2">
-  <advance width="1331.0"/>
-  <anchor x="667.0" y="0.0" name="bottom"/>
-  <anchor x="666.0" y="648.0" name="center"/>
-  <anchor x="795.0" y="10.0" name="ogonek"/>
-  <anchor x="768.0" y="0.0" name="q"/>
-  <anchor x="666.0" y="1910.0" name="top"/>
-  <anchor x="14.0" y="1293.0" name="topleft"/>
-  <anchor x="897.0" y="1293.0" name="topright"/>
+  <advance width="1331"/>
+  <anchor x="667" y="0" name="bottom"/>
+  <anchor x="666" y="648" name="center"/>
+  <anchor x="795" y="10" name="ogonek"/>
+  <anchor x="768" y="0" name="q"/>
+  <anchor x="666" y="1915" name="top"/>
+  <anchor x="14" y="1293" name="topleft"/>
+  <anchor x="897" y="1293" name="topright"/>
   <outline>
     <component base="o.sc"/>
-    <component base="dieresiscomb" xOffset="394.0" yOffset="250.0"/>
-    <component base="macroncomb" xOffset="446.0" yOffset="542.0"/>
+    <component base="dieresiscomb" xOffset="394" yOffset="250"/>
+    <component base="macroncomb" xOffset="446" yOffset="542"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

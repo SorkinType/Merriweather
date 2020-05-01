@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohornacute.sc" format="2">
-  <advance width="1138.0"/>
-  <anchor x="569.0" y="0.0" name="bottom"/>
-  <anchor x="568.0" y="644.0" name="center"/>
-  <anchor x="657.0" y="18.0" name="ogonek"/>
-  <anchor x="659.0" y="0.0" name="q"/>
-  <anchor x="571.0" y="1732.0" name="top"/>
-  <anchor x="-85.0" y="1292.0" name="topleft"/>
-  <anchor x="751.0" y="1293.0" name="topright"/>
+  <advance width="1138"/>
+  <anchor x="569" y="0" name="bottom"/>
+  <anchor x="568" y="644" name="center"/>
+  <anchor x="657" y="18" name="ogonek"/>
+  <anchor x="659" y="0" name="q"/>
+  <anchor x="571" y="1732" name="top"/>
+  <anchor x="-85" y="1292" name="topleft"/>
+  <anchor x="751" y="1293" name="topright"/>
   <outline>
     <component base="ohorn.sc"/>
-    <component base="acutecomb" xOffset="456.0" yOffset="162.0"/>
+    <component base="acutecomb" xOffset="456" yOffset="162"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

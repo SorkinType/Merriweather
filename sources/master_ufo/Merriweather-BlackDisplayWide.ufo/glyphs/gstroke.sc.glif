@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gstroke.sc" format="2">
-  <advance width="1363.0"/>
-  <anchor x="714.0" y="0.0" name="bottom"/>
-  <anchor x="1150.0" y="349.0" name="rstem"/>
-  <anchor x="721.0" y="1360.0" name="top"/>
+  <advance width="1363"/>
+  <anchor x="714" y="0" name="bottom"/>
+  <anchor x="1150" y="349" name="rstem"/>
+  <anchor x="721" y="1360" name="top"/>
   <outline>
     <contour>
-      <point x="1346.0" y="377.0" type="line"/>
-      <point x="764.0" y="377.0" type="line"/>
-      <point x="764.0" y="320.0" type="line"/>
-      <point x="1346.0" y="320.0" type="line"/>
+      <point x="1346" y="377" type="line"/>
+      <point x="764" y="377" type="line"/>
+      <point x="764" y="320" type="line"/>
+      <point x="1346" y="320" type="line"/>
     </contour>
     <component base="g.sc"/>
   </outline>
@@ -19,10 +19,6 @@
       <string>g.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>g.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

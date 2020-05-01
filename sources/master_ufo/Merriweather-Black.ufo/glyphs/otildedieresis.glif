@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildedieresis" format="2">
-  <advance width="1207.0"/>
+  <advance width="1207"/>
   <unicode hex="1E4F"/>
-  <anchor x="604.0" y="0.0" name="bottom"/>
-  <anchor x="604.0" y="558.0" name="center"/>
-  <anchor x="733.0" y="45.0" name="ogonek"/>
-  <anchor x="612.0" y="1955.0" name="top"/>
-  <anchor x="814.0" y="1111.0" name="topright"/>
+  <anchor x="604" y="0" name="bottom"/>
+  <anchor x="604" y="558" name="center"/>
+  <anchor x="597" y="45" name="ogonek"/>
+  <anchor x="612" y="1955" name="top"/>
+  <anchor x="814" y="1111" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="tildecomb" xOffset="215.0"/>
-    <component base="dieresiscomb" xOffset="200.0" yOffset="451.0"/>
+    <component base="tildecomb" xOffset="215"/>
+    <component base="dieresiscomb" xOffset="200" yOffset="451"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

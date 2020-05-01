@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shhadescender-cy" format="2">
+  <advance width="1211"/>
+  <unicode hex="0527"/>
+  <anchor x="547" y="0" name="bottom"/>
+  <anchor x="993" y="0" name="bottomright"/>
+  <anchor x="232" y="1814" name="cap"/>
+  <anchor x="349" y="1322" name="tbar"/>
+  <anchor x="390" y="1532" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="desccy_part." xOffset="712"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij_acutecomb.sc" format="2">
-  <advance width="1411.0"/>
-  <anchor x="347.0" y="0.0" name="bottom"/>
-  <anchor x="369.0" y="18.0" name="ogonek"/>
-  <anchor x="350.0" y="1732.0" name="top_1"/>
-  <anchor x="1069.0" y="1732.0" name="top_2"/>
+  <advance width="1411"/>
+  <anchor x="347" y="0" name="bottom"/>
+  <anchor x="369" y="18" name="ogonek"/>
+  <anchor x="350" y="1732" name="top_1"/>
+  <anchor x="1069" y="1732" name="top_2"/>
   <outline>
     <component base="iacute.sc"/>
-    <component base="jacute.sc" xOffset="695.0"/>
+    <component base="jacute.sc" xOffset="695"/>
   </outline>
   <lib>
     <dict>
@@ -26,8 +26,6 @@
       <string>ij.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ij.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
     </dict>
   </lib>
 </glyph>

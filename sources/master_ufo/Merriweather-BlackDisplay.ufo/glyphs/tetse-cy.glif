@@ -1,52 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tetse-cy" format="2">
-  <advance width="1768.0"/>
+  <advance width="1778"/>
   <unicode hex="04B5"/>
   <outline>
     <contour>
-      <point x="225.0" y="0.0" type="line"/>
-      <point x="1613.0" y="0.0" type="line"/>
-      <point x="1613.0" y="933.0" type="line"/>
-      <point x="1733.0" y="967.0" type="line"/>
-      <point x="1733.0" y="1005.0" type="line"/>
-      <point x="1175.0" y="1005.0" type="line"/>
-      <point x="1175.0" y="967.0" type="line"/>
-      <point x="1275.0" y="933.0" type="line"/>
-      <point x="1275.0" y="70.0" type="line"/>
-      <point x="751.0" y="70.0" type="line"/>
-      <point x="751.0" y="953.0" type="line"/>
-      <point x="872.0" y="941.0" type="line"/>
-      <point x="934.0" y="596.0" type="line"/>
-      <point x="1132.0" y="596.0" type="line"/>
-      <point x="1124.0" y="1005.0" type="line"/>
-      <point x="34.0" y="1005.0" type="line"/>
-      <point x="26.0" y="596.0" type="line"/>
-      <point x="224.0" y="596.0" type="line"/>
-      <point x="286.0" y="941.0" type="line"/>
-      <point x="413.0" y="953.0" type="line"/>
-      <point x="413.0" y="72.0" type="line"/>
-      <point x="225.0" y="38.0" type="line"/>
+      <point x="225" y="0" type="line"/>
+      <point x="1613" y="0" type="line"/>
+      <point x="1613" y="933" type="line"/>
+      <point x="1733" y="967" type="line"/>
+      <point x="1733" y="1005" type="line"/>
+      <point x="1175" y="1005" type="line"/>
+      <point x="1175" y="967" type="line"/>
+      <point x="1275" y="933" type="line"/>
+      <point x="1275" y="70" type="line"/>
+      <point x="751" y="70" type="line"/>
+      <point x="751" y="953" type="line"/>
+      <point x="872" y="941" type="line"/>
+      <point x="934" y="596" type="line"/>
+      <point x="1132" y="596" type="line"/>
+      <point x="1124" y="1005" type="line"/>
+      <point x="34" y="1005" type="line"/>
+      <point x="26" y="596" type="line"/>
+      <point x="224" y="596" type="line"/>
+      <point x="286" y="941" type="line"/>
+      <point x="413" y="953" type="line"/>
+      <point x="413" y="72" type="line"/>
+      <point x="225" y="38" type="line"/>
     </contour>
-    <component base="righttooth_part." xOffset="1448.0"/>
+    <component base="righttooth_part." xOffset="1448"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>righttooth_part.</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>te-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>de-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 15:17:05</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

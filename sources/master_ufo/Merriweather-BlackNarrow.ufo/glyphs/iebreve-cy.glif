@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iebreve-cy" format="2">
-  <advance width="955.0"/>
+  <advance width="955"/>
   <unicode hex="04D7"/>
-  <anchor x="505.0" y="0.0" name="bottom"/>
-  <anchor x="601.0" y="20.0" name="ogonek"/>
-  <anchor x="516.0" y="1110.0" name="top"/>
+  <anchor x="505" y="0" name="bottom"/>
+  <anchor x="601" y="20" name="ogonek"/>
+  <anchor x="516" y="1110" name="top"/>
   <outline>
     <component base="ie-cy"/>
-    <component base="brevecomb-cy" xOffset="114.0"/>
+    <component base="brevecomb-cy" xOffset="114"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 15:13:16</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hcircumflex" format="2">
-  <advance width="1804.0"/>
+  <advance width="1804"/>
   <unicode hex="0124"/>
-  <anchor x="858.0" y="0.0" name="bottom"/>
-  <anchor x="1729.0" y="0.0" name="bottomright"/>
-  <anchor x="851.0" y="743.0" name="center"/>
-  <anchor x="902.0" y="1960.0" name="top"/>
-  <anchor x="32.0" y="1486.0" name="topleft"/>
+  <anchor x="858" y="0" name="bottom"/>
+  <anchor x="1729" y="0" name="bottomright"/>
+  <anchor x="851" y="743" name="center"/>
+  <anchor x="902" y="1960" name="top"/>
+  <anchor x="32" y="1486" name="topleft"/>
   <outline>
     <component base="H"/>
-    <component base="circumflexcomb.case" xOffset="471.0"/>
+    <component base="circumflexcomb.case" xOffset="471"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yi-cy" format="2">
+  <advance width="597"/>
+  <unicode hex="0457"/>
+  <anchor x="212" y="0" name="bottom"/>
+  <anchor x="284" y="0" name="ogonek"/>
+  <anchor x="403" y="1476" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dieresis-cy" xOffset="275"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>i</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

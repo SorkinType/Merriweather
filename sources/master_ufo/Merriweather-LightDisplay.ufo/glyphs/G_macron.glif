@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gmacron" format="2">
-  <advance width="1326.0"/>
+  <advance width="1316"/>
   <unicode hex="1E20"/>
-  <anchor x="680.0" y="0.0" name="bottom"/>
-  <anchor x="1103.0" y="349.0" name="rstem"/>
-  <anchor x="740.0" y="1737.0" name="top"/>
+  <anchor x="680" y="0" name="bottom"/>
+  <anchor x="1103" y="349" name="rstem"/>
+  <anchor x="740" y="1737" name="top"/>
   <outline>
     <component base="G"/>
-    <component base="macroncomb.case" xOffset="515.0"/>
+    <component base="macroncomb.case" xOffset="515"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocircumflexdotbelow.sc" format="2">
-  <advance width="1337.0"/>
-  <anchor x="669.0" y="-346.0" name="bottom"/>
-  <anchor x="670.0" y="648.0" name="center"/>
-  <anchor x="757.0" y="18.0" name="ogonek"/>
-  <anchor x="811.0" y="0.0" name="q"/>
-  <anchor x="665.0" y="1964.0" name="top"/>
-  <anchor x="15.0" y="1292.0" name="topleft"/>
-  <anchor x="917.0" y="1293.0" name="topright"/>
+  <advance width="1337"/>
+  <anchor x="669" y="-346" name="bottom"/>
+  <anchor x="670" y="648" name="center"/>
+  <anchor x="757" y="18" name="ogonek"/>
+  <anchor x="811" y="0" name="q"/>
+  <anchor x="665" y="1964" name="top"/>
+  <anchor x="15" y="1292" name="topleft"/>
+  <anchor x="917" y="1293" name="topright"/>
   <outline>
     <component base="o.sc"/>
-    <component base="dotbelowcomb" xOffset="556.0"/>
-    <component base="circumflexcomb" xOffset="356.0" yOffset="250.0"/>
+    <component base="dotbelowcomb" xOffset="556"/>
+    <component base="circumflexcomb" xOffset="356" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

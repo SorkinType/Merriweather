@@ -1,22 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn.sc" format="2">
-  <advance width="1314.0"/>
-  <anchor x="750.0" y="0.0" name="bottom"/>
-  <anchor x="1290.0" y="18.0" name="ogonek"/>
-  <anchor x="712.0" y="1360.0" name="top"/>
-  <anchor x="1181.0" y="1293.0" name="topright"/>
+  <advance width="1314"/>
+  <anchor x="750" y="0" name="bottom"/>
+  <anchor x="1290" y="18" name="ogonek"/>
+  <anchor x="712" y="1360" name="top"/>
+  <anchor x="1181" y="1293" name="topright"/>
   <outline>
     <component base="u.sc"/>
-    <component base="horncomb.case" xOffset="1121.0" yOffset="-66.0"/>
+    <component base="horncomb.case" xOffset="1121" yOffset="-66"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>u.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/20 20:33:27</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

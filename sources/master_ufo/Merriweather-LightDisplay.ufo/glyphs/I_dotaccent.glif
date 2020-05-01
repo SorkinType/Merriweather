@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idotaccent" format="2">
-  <advance width="479.0"/>
+  <advance width="507"/>
   <unicode hex="0130"/>
-  <anchor x="240.0" y="0.0" name="bottom"/>
-  <anchor x="274.0" y="20.0" name="ogonek"/>
-  <anchor x="240.0" y="1806.0" name="top"/>
-  <anchor x="10.0" y="1486.0" name="topleft"/>
+  <anchor x="254" y="0" name="bottom"/>
+  <anchor x="288" y="20" name="ogonek"/>
+  <anchor x="254" y="1806" name="top"/>
+  <anchor x="24" y="1486" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="dotaccentcomb.case" xOffset="127.0"/>
+    <component base="dotaccentcomb.case" xOffset="141"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

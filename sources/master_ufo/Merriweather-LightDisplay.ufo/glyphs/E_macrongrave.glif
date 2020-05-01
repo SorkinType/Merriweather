@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Emacrongrave" format="2">
-  <advance width="1156.0"/>
+  <advance width="1158"/>
   <unicode hex="1E14"/>
-  <anchor x="574.0" y="0.0" name="bottom"/>
-  <anchor x="981.0" y="20.0" name="ogonek"/>
-  <anchor x="586.0" y="2211.0" name="top"/>
-  <anchor x="24.0" y="1486.0" name="topleft"/>
+  <anchor x="574" y="0" name="bottom"/>
+  <anchor x="981" y="20" name="ogonek"/>
+  <anchor x="586" y="2211" name="top"/>
+  <anchor x="24" y="1486" name="topleft"/>
   <outline>
     <component base="E"/>
-    <component base="macroncomb.case" xOffset="361.0"/>
-    <component base="gravecomb.case" xOffset="300.0" yOffset="251.0"/>
+    <component base="macroncomb.case" xOffset="361"/>
+    <component base="gravecomb.case" xOffset="300" yOffset="251"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

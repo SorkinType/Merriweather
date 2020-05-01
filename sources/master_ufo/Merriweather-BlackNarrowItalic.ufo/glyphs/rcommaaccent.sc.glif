@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rcommaaccent.sc" format="2">
+  <advance width="1190"/>
+  <anchor x="597" y="0" name="bottom"/>
+  <anchor x="653" y="1292" name="top"/>
+  <outline>
+    <component base="r.sc"/>
+    <component base="commaaccentcomb" xOffset="505"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

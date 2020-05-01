@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tedescender-cy.sc" format="2">
-  <advance width="1197.0"/>
-  <anchor x="598.0" y="0.0" name="bottom"/>
-  <anchor x="917.0" y="0.0" name="bottomright"/>
-  <anchor x="598.0" y="648.0" name="center"/>
-  <anchor x="600.0" y="1360.0" name="top"/>
+  <advance width="1197"/>
+  <anchor x="598" y="0" name="bottom"/>
+  <anchor x="917" y="0" name="bottomright"/>
+  <anchor x="598" y="648" name="center"/>
+  <anchor x="600" y="1360" name="top"/>
   <outline>
     <contour>
-      <point x="650.0" y="72.0" type="line"/>
-      <point x="650.0" y="31.0" type="line"/>
-      <point x="780.0" y="31.0" type="line"/>
-      <point x="780.0" y="72.0" type="line"/>
+      <point x="650" y="72" type="line"/>
+      <point x="650" y="31" type="line"/>
+      <point x="780" y="31" type="line"/>
+      <point x="780" y="72" type="line"/>
     </contour>
     <component base="t.sc"/>
-    <component base="righttooth_part." xOffset="702.0"/>
+    <component base="righttooth_part." xOffset="702"/>
   </outline>
   <lib>
     <dict>
@@ -21,46 +21,42 @@
       <string>t.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>t.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>287.0</real>
-            <real>35.0</real>
+            <integer>287</integer>
+            <integer>35</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>646.0</real>
-            <real>1256.0</real>
+            <integer>646</integer>
+            <integer>1256</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>488.0</real>
-            <real>1256.0</real>
+            <integer>488</integer>
+            <integer>1256</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

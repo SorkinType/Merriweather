@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresisacute" format="2">
-  <advance width="727.0"/>
+  <advance width="727"/>
   <unicode hex="1E2E"/>
-  <anchor x="372.0" y="-327.0" name="bottom"/>
-  <anchor x="409.0" y="20.0" name="ogonek"/>
-  <anchor x="368.0" y="2336.0" name="top"/>
-  <anchor x="37.0" y="1486.0" name="topleft"/>
+  <anchor x="372" y="-327" name="bottom"/>
+  <anchor x="409" y="20" name="ogonek"/>
+  <anchor x="368" y="2336" name="top"/>
+  <anchor x="37" y="1486" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="dieresiscomb.case" xOffset="-32.0"/>
-    <component base="acutecomb.case" xOffset="225.0" yOffset="372.0"/>
+    <component base="dieresiscomb.case" xOffset="-32"/>
+    <component base="acutecomb.case" xOffset="225" yOffset="372"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

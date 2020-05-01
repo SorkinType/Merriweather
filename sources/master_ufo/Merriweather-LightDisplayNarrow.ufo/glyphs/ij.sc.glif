@@ -1,18 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij.sc" format="2">
-  <advance width="998.0"/>
-  <anchor x="250.0" y="0.0" name="bottom"/>
-  <anchor x="314.0" y="18.0" name="ogonek"/>
-  <anchor x="244.0" y="1360.0" name="top_1"/>
-  <anchor x="746.0" y="1360.0" name="top_2"/>
+  <advance width="998"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="314" y="18" name="ogonek"/>
+  <anchor x="244" y="1360" name="top_1"/>
+  <anchor x="746" y="1360" name="top_2"/>
   <outline>
     <component base="i.sc"/>
-    <component base="j.sc" xOffset="485.0"/>
+    <component base="j.sc" xOffset="485"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-    </dict>
-  </lib>
 </glyph>

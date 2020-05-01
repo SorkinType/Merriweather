@@ -1,41 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="esdescender-cy.sc" format="2">
-  <advance width="1033.0"/>
-  <anchor x="607.0" y="0.0" name="bottom"/>
-  <anchor x="625.0" y="1360.0" name="top"/>
+  <advance width="1033"/>
+  <anchor x="607" y="0" name="bottom"/>
+  <anchor x="625" y="1360" name="top"/>
   <outline>
     <contour>
-      <point x="659.0" y="-11.0" type="curve"/>
-      <point x="503.0" y="-11.0" type="line"/>
-      <point x="509.0" y="-73.0"/>
-      <point x="526.0" y="-268.0"/>
-      <point x="531.0" y="-360.0" type="curve"/>
-      <point x="633.0" y="-360.0" type="line"/>
-      <point x="640.0" y="-260.0"/>
-      <point x="649.0" y="-96.0"/>
+      <point x="659" y="-11" type="curve"/>
+      <point x="503" y="-11" type="line"/>
+      <point x="509" y="-73"/>
+      <point x="526" y="-268"/>
+      <point x="531" y="-360" type="curve"/>
+      <point x="633" y="-360" type="line"/>
+      <point x="640" y="-260"/>
+      <point x="649" y="-96"/>
     </contour>
     <component base="es-cy.sc"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>953.0</real>
-            <real>1256.0</real>
+            <integer>953</integer>
+            <integer>1256</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

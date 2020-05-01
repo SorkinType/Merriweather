@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal" format="2">
-  <advance width="1058.0"/>
+  <advance width="1058"/>
   <unicode hex="003D"/>
   <outline>
     <contour>
-      <point x="918.0" y="969.0" type="line"/>
-      <point x="140.0" y="969.0" type="line"/>
-      <point x="140.0" y="885.0" type="line"/>
-      <point x="918.0" y="885.0" type="line"/>
+      <point x="918" y="860" type="line"/>
+      <point x="140" y="860" type="line"/>
+      <point x="140" y="776" type="line"/>
+      <point x="918" y="776" type="line"/>
     </contour>
     <contour>
-      <point x="918.0" y="458.0" type="line"/>
-      <point x="140.0" y="458.0" type="line"/>
-      <point x="140.0" y="374.0" type="line"/>
-      <point x="918.0" y="374.0" type="line"/>
+      <point x="918" y="349" type="line"/>
+      <point x="140" y="349" type="line"/>
+      <point x="140" y="265" type="line"/>
+      <point x="918" y="265" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,8 +22,6 @@
       <string>hyphen</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hyphen</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

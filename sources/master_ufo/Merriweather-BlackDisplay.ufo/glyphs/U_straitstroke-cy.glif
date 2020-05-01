@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ustraitstroke-cy" format="2">
-  <advance width="1295.0"/>
+  <advance width="1295"/>
   <unicode hex="04B0"/>
-  <anchor x="664.0" y="0.0" name="bottom"/>
-  <anchor x="660.0" y="547.0" name="center"/>
-  <anchor x="694.0" y="1486.0" name="top"/>
-  <anchor x="40.0" y="1486.0" name="topleft"/>
+  <anchor x="664" y="0" name="bottom"/>
+  <anchor x="660" y="547" name="center"/>
+  <anchor x="694" y="1486" name="top"/>
+  <anchor x="40" y="1486" name="topleft"/>
   <outline>
     <component base="Y"/>
-    <component base="strokelongcomb" xOffset="145.0" yOffset="-9.0"/>
+    <component base="strokelongcomb" xOffset="145" yOffset="-9"/>
   </outline>
   <lib>
     <dict>
@@ -16,10 +16,6 @@
       <string>U-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>U-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevetilde.sc" format="2">
-  <advance width="1225.0"/>
-  <anchor x="589.0" y="0.0" name="bottom"/>
-  <anchor x="1129.0" y="17.0" name="ogonek"/>
-  <anchor x="601.0" y="1963.0" name="top"/>
+  <advance width="1225"/>
+  <anchor x="589" y="0" name="bottom"/>
+  <anchor x="1129" y="17" name="ogonek"/>
+  <anchor x="601" y="1963" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="brevecomb_tildecomb" xOffset="304.0" yOffset="250.0"/>
+    <component base="brevecomb_tildecomb" xOffset="304" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

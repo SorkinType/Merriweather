@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedescenderabkhasian-cy" format="2">
-  <advance width="1200.0"/>
+  <advance width="1200"/>
   <unicode hex="04BF"/>
-  <anchor x="768.0" y="-470.0" name="bottom"/>
-  <anchor x="952.0" y="20.0" name="ogonek"/>
-  <anchor x="779.0" y="1110.0" name="top"/>
+  <anchor x="768" y="-470" name="bottom"/>
+  <anchor x="952" y="20" name="ogonek"/>
+  <anchor x="779" y="1110" name="top"/>
   <outline>
     <component base="cheabkhasian-cy"/>
-    <component base="cedillacomb" xOffset="548.0"/>
+    <component base="cedillacomb" xOffset="548"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Macute" format="2">
-  <advance width="1971.0"/>
+  <advance width="1971"/>
   <unicode hex="1E3E"/>
-  <anchor x="894.0" y="0.0" name="bottom"/>
-  <anchor x="2028.0" y="0.0" name="bottomright"/>
-  <anchor x="984.0" y="1964.0" name="top"/>
+  <anchor x="894" y="0" name="bottom"/>
+  <anchor x="2028" y="0" name="bottomright"/>
+  <anchor x="984" y="1964" name="top"/>
   <outline>
     <component base="M"/>
-    <component base="acutecomb.case" xOffset="796.0"/>
+    <component base="acutecomb.case" xOffset="796"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

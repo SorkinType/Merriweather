@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="esdescender-cy" format="2">
-  <advance width="888.0"/>
+  <advance width="888"/>
   <unicode hex="04AB"/>
-  <anchor x="481.0" y="0.0" name="bottom"/>
-  <anchor x="662.0" y="1110.0" name="top"/>
+  <anchor x="481" y="0" name="bottom"/>
+  <anchor x="662" y="1110" name="top"/>
   <outline>
     <contour>
-      <point x="470.0" y="-366.0" type="curve"/>
-      <point x="530.0" y="-366.0" type="line"/>
-      <point x="540.0" y="-252.0"/>
-      <point x="558.0" y="-94.0"/>
-      <point x="570.0" y="0.0" type="curve"/>
-      <point x="417.0" y="0.0" type="line"/>
-      <point x="433.0" y="-94.0"/>
-      <point x="456.0" y="-252.0"/>
+      <point x="470" y="-366" type="curve"/>
+      <point x="530" y="-366" type="line"/>
+      <point x="540" y="-252"/>
+      <point x="558" y="-94"/>
+      <point x="570" y="0" type="curve"/>
+      <point x="417" y="0" type="line"/>
+      <point x="433" y="-94"/>
+      <point x="456" y="-252"/>
     </contour>
     <component base="c"/>
   </outline>
@@ -25,12 +25,8 @@
       <string>es-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>c</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 04:59:31</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

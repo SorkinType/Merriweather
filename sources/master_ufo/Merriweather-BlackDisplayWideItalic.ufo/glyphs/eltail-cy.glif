@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eltail-cy" format="2">
+  <advance width="1061"/>
+  <unicode hex="04C6"/>
+  <anchor x="910" y="0" name="bottomright"/>
+  <anchor x="647" y="1110" name="top"/>
+  <outline>
+    <contour>
+      <point x="1033" y="122" type="curve"/>
+      <point x="795" y="73" type="line"/>
+      <point x="792" y="-139"/>
+      <point x="688" y="-308"/>
+      <point x="564" y="-403" type="curve"/>
+      <point x="605" y="-447" type="line"/>
+      <point x="800" y="-409"/>
+      <point x="1033" y="-130"/>
+    </contour>
+    <component base="el-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>el-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>el-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

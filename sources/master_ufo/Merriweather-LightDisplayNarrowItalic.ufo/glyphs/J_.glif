@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J" format="2">
+  <advance width="507"/>
+  <unicode hex="004A"/>
+  <anchor x="237" y="-164" name="btm"/>
+  <anchor x="438" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="-157" y="-309" type="line"/>
+      <point x="37" y="-273"/>
+      <point x="238" y="-157"/>
+      <point x="290" y="80" type="curve" smooth="yes"/>
+      <point x="329" y="254"/>
+      <point x="393" y="763"/>
+      <point x="467" y="1415" type="curve"/>
+      <point x="609" y="1450" type="line"/>
+      <point x="614" y="1486" type="line"/>
+      <point x="183" y="1486" type="line"/>
+      <point x="178" y="1450" type="line"/>
+      <point x="316" y="1420" type="line"/>
+      <point x="268" y="995"/>
+      <point x="210" y="416"/>
+      <point x="147" y="93" type="curve" smooth="yes"/>
+      <point x="115" y="-67"/>
+      <point x="17" y="-208"/>
+      <point x="-176" y="-266" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tenge" format="2">
+  <advance width="1587"/>
+  <unicode hex="20B8"/>
+  <outline>
+    <contour>
+      <point x="310" y="0" type="line"/>
+      <point x="1171" y="0" type="line"/>
+      <point x="1181" y="103" type="line"/>
+      <point x="906" y="131" type="line"/>
+      <point x="1022" y="996" type="line"/>
+      <point x="1242" y="970" type="line"/>
+      <point x="1298" y="637" type="line"/>
+      <point x="1472" y="637" type="line"/>
+      <point x="1547" y="1142" type="line"/>
+      <point x="216" y="1142" type="line"/>
+      <point x="128" y="637" type="line"/>
+      <point x="308" y="637" type="line"/>
+      <point x="429" y="970" type="line"/>
+      <point x="684" y="996" type="line"/>
+      <point x="568" y="131" type="line"/>
+      <point x="324" y="103" type="line"/>
+    </contour>
+    <contour>
+      <point x="246" y="1324" type="line"/>
+      <point x="1575" y="1324" type="line"/>
+      <point x="1599" y="1486" type="line"/>
+      <point x="274" y="1486" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>360</integer>
+            <integer>0</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequal" format="2">
+  <advance width="1264"/>
+  <unicode hex="2265"/>
+  <outline>
+    <contour>
+      <point x="94" y="0" type="line"/>
+      <point x="1020" y="0" type="line"/>
+      <point x="1042" y="165" type="line"/>
+      <point x="116" y="165" type="line"/>
+    </contour>
+    <contour>
+      <point x="125" y="238" type="line"/>
+      <point x="1100" y="630" type="line"/>
+      <point x="1114" y="719" type="line"/>
+      <point x="246" y="1098" type="line"/>
+      <point x="219" y="895" type="line"/>
+      <point x="792" y="685" type="line"/>
+      <point x="157" y="460" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>2</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yerudieresis-cy" format="2">
-  <advance width="1594.0"/>
+  <advance width="1631"/>
   <unicode hex="04F8"/>
-  <anchor x="1355.0" y="0.0" name="bottom"/>
-  <anchor x="1389.0" y="20.0" name="ogonek"/>
-  <anchor x="844.0" y="1806.0" name="top"/>
-  <anchor x="1125.0" y="1486.0" name="topleft"/>
+  <anchor x="1378" y="0" name="bottom"/>
+  <anchor x="1412" y="20" name="ogonek"/>
+  <anchor x="844" y="1806" name="top"/>
+  <anchor x="1148" y="1486" name="topleft"/>
   <outline>
     <component base="Yeru-cy"/>
-    <component base="dieresiscomb.case" xOffset="547.0"/>
+    <component base="dieresiscomb.case" xOffset="547"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

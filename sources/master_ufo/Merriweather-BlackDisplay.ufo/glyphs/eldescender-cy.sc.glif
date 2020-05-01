@@ -1,55 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eldescender-cy.sc" format="2">
-  <advance width="1185.0"/>
-  <anchor x="1161.0" y="0.0" name="bottomright"/>
+  <advance width="1185"/>
+  <anchor x="1161" y="0" name="bottomright"/>
   <outline>
     <component base="el-cy.sc"/>
-    <component base="righttooth_part." xOffset="867.0"/>
+    <component base="righttooth_part." xOffset="867"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>de-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 18:03:47</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>1488.0</real>
-            <real>1255.0</real>
+            <integer>1488</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>193.0</real>
-            <real>1255.0</real>
+            <integer>193</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>733.0</real>
-            <real>37.0</real>
+            <integer>733</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

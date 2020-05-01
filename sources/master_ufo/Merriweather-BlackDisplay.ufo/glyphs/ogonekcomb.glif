@@ -1,40 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonekcomb" format="2">
   <unicode hex="0328"/>
-  <anchor x="350.0" y="2.0" name="_ogonek"/>
+  <anchor x="350" y="2" name="_ogonek"/>
   <outline>
     <contour>
-      <point x="209.0" y="-479.0" type="curve" smooth="yes"/>
-      <point x="335.0" y="-479.0"/>
-      <point x="446.0" y="-399.0"/>
-      <point x="498.0" y="-340.0" type="curve"/>
-      <point x="473.0" y="-297.0" type="line"/>
-      <point x="437.0" y="-322.0"/>
-      <point x="387.0" y="-333.0"/>
-      <point x="346.0" y="-333.0" type="curve" smooth="yes"/>
-      <point x="294.0" y="-333.0"/>
-      <point x="237.0" y="-313.0"/>
-      <point x="237.0" y="-241.0" type="curve" smooth="yes"/>
-      <point x="237.0" y="-160.0"/>
-      <point x="274.0" y="-83.0"/>
-      <point x="431.0" y="0.0" type="curve"/>
-      <point x="393.0" y="8.0" type="line"/>
-      <point x="366.0" y="0.0" type="line"/>
-      <point x="170.0" y="-65.0"/>
-      <point x="10.0" y="-191.0"/>
-      <point x="10.0" y="-327.0" type="curve" smooth="yes"/>
-      <point x="10.0" y="-428.0"/>
-      <point x="109.0" y="-479.0"/>
+      <point x="209" y="-479" type="curve" smooth="yes"/>
+      <point x="335" y="-479"/>
+      <point x="446" y="-399"/>
+      <point x="498" y="-340" type="curve"/>
+      <point x="473" y="-297" type="line"/>
+      <point x="437" y="-322"/>
+      <point x="387" y="-333"/>
+      <point x="346" y="-333" type="curve" smooth="yes"/>
+      <point x="294" y="-333"/>
+      <point x="237" y="-313"/>
+      <point x="237" y="-241" type="curve" smooth="yes"/>
+      <point x="237" y="-160"/>
+      <point x="274" y="-83"/>
+      <point x="431" y="0" type="curve"/>
+      <point x="393" y="8" type="line"/>
+      <point x="366" y="0" type="line"/>
+      <point x="170" y="-65"/>
+      <point x="10" y="-191"/>
+      <point x="10" y="-327" type="curve" smooth="yes"/>
+      <point x="10" y="-428"/>
+      <point x="109" y="-479"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>508.0</real>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <integer>508</integer>
     </dict>
   </lib>
 </glyph>

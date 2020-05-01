@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macronbelowcomb" format="2">
   <unicode hex="0331"/>
-  <anchor x="280.0" y="0.0" name="_bottom"/>
-  <anchor x="280.0" y="-346.0" name="bottom"/>
+  <anchor x="280" y="0" name="_bottom"/>
+  <anchor x="280" y="-346" name="bottom"/>
   <outline>
     <contour>
-      <point x="550.0" y="-149.0" type="line"/>
-      <point x="10.0" y="-149.0" type="line"/>
-      <point x="10.0" y="-334.0" type="line"/>
-      <point x="550.0" y="-334.0" type="line"/>
+      <point x="550" y="-149" type="line"/>
+      <point x="10" y="-149" type="line"/>
+      <point x="10" y="-334" type="line"/>
+      <point x="550" y="-334" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>560.0</real>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <integer>560</integer>
     </dict>
   </lib>
 </glyph>

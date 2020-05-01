@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="utildeacute" format="2">
-  <advance width="1298.0"/>
+  <advance width="1298"/>
   <unicode hex="1E79"/>
-  <anchor x="638.0" y="0.0" name="bottom"/>
-  <anchor x="916.0" y="20.0" name="ogonek"/>
-  <anchor x="634.0" y="2063.0" name="top"/>
-  <anchor x="1042.0" y="1112.0" name="topright"/>
+  <anchor x="638" y="0" name="bottom"/>
+  <anchor x="916" y="20" name="ogonek"/>
+  <anchor x="634" y="2063" name="top"/>
+  <anchor x="1042" y="1112" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="tildecomb" xOffset="235.0" yOffset="1.0"/>
-    <component base="acutecomb" xOffset="414.0" yOffset="453.0"/>
+    <component base="tildecomb" xOffset="235" yOffset="1"/>
+    <component base="acutecomb" xOffset="414" yOffset="453"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

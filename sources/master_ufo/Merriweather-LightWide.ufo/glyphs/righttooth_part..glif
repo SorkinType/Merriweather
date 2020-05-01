@@ -1,26 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="righttooth_part." format="2">
-  <advance width="368.0"/>
-  <anchor x="285.0" y="0.0" name="_bottomright"/>
+  <advance width="368"/>
+  <anchor x="285" y="0" name="_bottomright"/>
   <outline>
     <contour>
-      <point x="135.0" y="-360.0" type="curve"/>
-      <point x="245.0" y="-360.0" type="line"/>
-      <point x="265.0" y="-206.0"/>
-      <point x="281.0" y="-50.0"/>
-      <point x="299.0" y="104.0" type="curve"/>
-      <point x="19.0" y="104.0" type="line"/>
-      <point x="94.0" y="0.0" type="line"/>
-      <point x="100.0" y="-120.0"/>
-      <point x="129.0" y="-240.0"/>
+      <point x="135" y="-360" type="curve"/>
+      <point x="245" y="-360" type="line"/>
+      <point x="265" y="-206"/>
+      <point x="281" y="-50"/>
+      <point x="299" y="104" type="curve"/>
+      <point x="19" y="104" type="line"/>
+      <point x="94" y="0" type="line"/>
+      <point x="100" y="-120"/>
+      <point x="129" y="-240"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 15:15:12</string>
-    </dict>
-  </lib>
 </glyph>

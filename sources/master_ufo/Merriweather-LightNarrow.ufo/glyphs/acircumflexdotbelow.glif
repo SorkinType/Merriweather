@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acircumflexdotbelow" format="2">
-  <advance width="915.0"/>
+  <advance width="880"/>
   <unicode hex="1EAD"/>
-  <anchor x="434.0" y="-341.0" name="bottom"/>
-  <anchor x="718.0" y="20.0" name="ogonek"/>
-  <anchor x="423.0" y="1714.0" name="top"/>
+  <anchor x="434" y="-341" name="bottom"/>
+  <anchor x="718" y="20" name="ogonek"/>
+  <anchor x="423" y="1714" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="dotbelowcomb" xOffset="305.0" yOffset="5.0"/>
-    <component base="circumflexcomb" xOffset="97.0"/>
+    <component base="dotbelowcomb" xOffset="305" yOffset="5"/>
+    <component base="circumflexcomb" xOffset="97"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

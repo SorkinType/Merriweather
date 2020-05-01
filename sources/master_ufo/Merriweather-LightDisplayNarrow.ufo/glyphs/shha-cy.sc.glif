@@ -1,77 +1,73 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shha-cy.sc" format="2">
-  <advance width="1043.0"/>
-  <anchor x="555.0" y="0.0" name="bottom"/>
-  <anchor x="1045.0" y="0.0" name="bottomright"/>
-  <anchor x="-17.0" y="1292.0" name="topleft"/>
-  <anchor x="471.541" y="1292.0" name="topright"/>
+  <advance width="1043"/>
+  <anchor x="555" y="0" name="bottom"/>
+  <anchor x="1045" y="0" name="bottomright"/>
+  <anchor x="-17" y="1292" name="topleft"/>
+  <anchor x="471.541" y="1292" name="topright"/>
   <outline>
     <contour>
-      <point x="328.0" y="1224.0" type="line"/>
-      <point x="489.0" y="1257.0" type="line"/>
-      <point x="489.0" y="1292.0" type="line"/>
-      <point x="38.0" y="1292.0" type="line"/>
-      <point x="38.0" y="1257.0" type="line"/>
-      <point x="177.0" y="1224.0" type="line"/>
-      <point x="177.0" y="64.0" type="line"/>
-      <point x="40.0" y="35.0" type="line"/>
-      <point x="40.0" y="0.0" type="line"/>
-      <point x="468.0" y="0.0" type="line"/>
-      <point x="468.0" y="35.0" type="line"/>
-      <point x="328.0" y="65.0" type="line"/>
-      <point x="328.0" y="635.0" type="line"/>
-      <point x="371.0" y="662.0"/>
-      <point x="479.0" y="691.0"/>
-      <point x="560.0" y="691.0" type="curve" smooth="yes"/>
-      <point x="755.0" y="691.0"/>
-      <point x="777.0" y="637.0"/>
-      <point x="777.0" y="323.0" type="curve" smooth="yes"/>
-      <point x="777.0" y="68.0" type="line"/>
-      <point x="642.0" y="35.0" type="line"/>
-      <point x="642.0" y="0.0" type="line"/>
-      <point x="1024.0" y="0.0" type="line"/>
-      <point x="1024.0" y="35.0" type="line"/>
-      <point x="928.0" y="67.0" type="line"/>
-      <point x="928.0" y="364.0" type="line" smooth="yes"/>
-      <point x="928.0" y="615.0"/>
-      <point x="866.0" y="764.0"/>
-      <point x="631.0" y="764.0" type="curve" smooth="yes"/>
-      <point x="537.0" y="764.0"/>
-      <point x="404.0" y="736.0"/>
-      <point x="328.0" y="690.0" type="curve"/>
+      <point x="328" y="1224" type="line"/>
+      <point x="489" y="1257" type="line"/>
+      <point x="489" y="1292" type="line"/>
+      <point x="38" y="1292" type="line"/>
+      <point x="38" y="1257" type="line"/>
+      <point x="177" y="1224" type="line"/>
+      <point x="177" y="64" type="line"/>
+      <point x="40" y="35" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="468" y="0" type="line"/>
+      <point x="468" y="35" type="line"/>
+      <point x="328" y="65" type="line"/>
+      <point x="328" y="635" type="line"/>
+      <point x="371" y="662"/>
+      <point x="479" y="691"/>
+      <point x="560" y="691" type="curve" smooth="yes"/>
+      <point x="755" y="691"/>
+      <point x="777" y="637"/>
+      <point x="777" y="323" type="curve" smooth="yes"/>
+      <point x="777" y="68" type="line"/>
+      <point x="642" y="35" type="line"/>
+      <point x="642" y="0" type="line"/>
+      <point x="1024" y="0" type="line"/>
+      <point x="1024" y="35" type="line"/>
+      <point x="928" y="67" type="line"/>
+      <point x="928" y="364" type="line" smooth="yes"/>
+      <point x="928" y="615"/>
+      <point x="866" y="764"/>
+      <point x="631" y="764" type="curve" smooth="yes"/>
+      <point x="537" y="764"/>
+      <point x="404" y="736"/>
+      <point x="328" y="690" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>526.0</real>
-            <real>1256.0</real>
+            <integer>526</integer>
+            <integer>1256</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>75.0</real>
-            <real>1256.0</real>
+            <integer>75</integer>
+            <integer>1256</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

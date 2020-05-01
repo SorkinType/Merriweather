@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kastroke-cy" format="2">
+  <advance width="1371"/>
+  <unicode hex="049E"/>
+  <anchor x="1334" y="0" name="bottomright"/>
+  <anchor x="370" y="1205" name="tbar"/>
+  <anchor x="770" y="1486" name="top"/>
+  <outline>
+    <component base="Ka-cy"/>
+    <component base="barlc" xOffset="114" yOffset="625"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Ka-cy</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

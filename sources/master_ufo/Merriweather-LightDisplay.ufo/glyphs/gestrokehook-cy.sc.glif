@@ -1,34 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gestrokehook-cy.sc" format="2">
-  <advance width="954.0"/>
-  <anchor x="578.0" y="0.0" name="bottomright"/>
-  <anchor x="524.0" y="1340.0" name="top"/>
+  <advance width="954"/>
   <outline>
     <contour>
-      <point x="354.0" y="75.0" type="line"/>
-      <point x="354.0" y="0.0" type="line"/>
-      <point x="716.0" y="0.0" type="line"/>
-      <point x="747.0" y="-44.0"/>
-      <point x="775.0" y="-108.0"/>
-      <point x="775.0" y="-173.0" type="curve" smooth="yes"/>
-      <point x="775.0" y="-257.0"/>
-      <point x="732.0" y="-292.0"/>
-      <point x="653.0" y="-292.0" type="curve" smooth="yes"/>
-      <point x="633.0" y="-292.0"/>
-      <point x="589.0" y="-286.0"/>
-      <point x="561.0" y="-276.0" type="curve"/>
-      <point x="559.0" y="-394.0" type="line"/>
-      <point x="595.0" y="-408.0"/>
-      <point x="645.0" y="-420.0"/>
-      <point x="691.0" y="-420.0" type="curve" smooth="yes"/>
-      <point x="794.0" y="-420.0"/>
-      <point x="875.0" y="-357.0"/>
-      <point x="875.0" y="-242.0" type="curve" smooth="yes"/>
-      <point x="875.0" y="-133.0"/>
-      <point x="799.0" y="-18.0"/>
-      <point x="752.0" y="36.0" type="curve"/>
+      <point x="56" y="577" type="line"/>
+      <point x="674" y="577" type="line"/>
+      <point x="674" y="643" type="line"/>
+      <point x="56" y="643" type="line"/>
     </contour>
-    <component base="ghestroke-cy.sc" xOffset="-2.0"/>
+    <contour>
+      <point x="26" y="0" type="line"/>
+      <point x="575" y="0" type="line"/>
+      <point x="575" y="32" type="line"/>
+      <point x="341" y="59" type="line"/>
+      <point x="341" y="1243" type="line"/>
+      <point x="723" y="1224" type="line"/>
+      <point x="834" y="844" type="line"/>
+      <point x="920" y="844" type="line"/>
+      <point x="872" y="1292" type="line"/>
+      <point x="34" y="1292" type="line"/>
+      <point x="34" y="1256" type="line"/>
+      <point x="187" y="1225" type="line"/>
+      <point x="187" y="59" type="line"/>
+      <point x="26" y="32" type="line"/>
+    </contour>
+    <contour>
+      <point x="497" y="-414" type="curve" smooth="yes"/>
+      <point x="623" y="-414"/>
+      <point x="695" y="-345"/>
+      <point x="695" y="-242" type="curve" smooth="yes"/>
+      <point x="695" y="-135"/>
+      <point x="629" y="-19"/>
+      <point x="575" y="32" type="curve"/>
+      <point x="549" y="28" type="line"/>
+      <point x="523" y="16" type="line"/>
+      <point x="564" y="-35"/>
+      <point x="597" y="-105"/>
+      <point x="597" y="-173" type="curve" smooth="yes"/>
+      <point x="597" y="-255"/>
+      <point x="533" y="-291"/>
+      <point x="466" y="-291" type="curve" smooth="yes"/>
+      <point x="439" y="-291"/>
+      <point x="403" y="-287"/>
+      <point x="375" y="-277" type="curve"/>
+      <point x="375" y="-391" type="line"/>
+      <point x="404" y="-405"/>
+      <point x="463" y="-414"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -36,46 +54,31 @@
       <string>ge-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ge-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>427.0</real>
-            <real>1257.0</real>
+            <integer>427</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>73.0</real>
-            <real>1257.0</real>
+            <integer>73</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <real>65.0</real>
-            <real>35.0</real>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

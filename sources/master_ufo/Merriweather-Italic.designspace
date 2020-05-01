@@ -1,0 +1,1352 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="900" default="300">
+      <map input="300" output="162"/>
+      <map input="900" output="346"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="80" maximum="125" default="80">
+      <map input="80" output="50"/>
+      <map input="100" output="100"/>
+      <map input="125" output="200"/>
+    </axis>
+    <axis tag="opsz" name="Optical Size" minimum="12" maximum="144" default="12"/>
+  </axes>
+  <sources>
+    <source filename="Merriweather-LightNarrowItalic.ufo" name="Merriweather Light Narrow Italic" familyname="Merriweather" stylename="Light Narrow Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Merriweather-BlackNarrowItalic.ufo" name="Merriweather Black Narrow Italic" familyname="Merriweather" stylename="Black Narrow Italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Merriweather-LightItalic.ufo" name="Merriweather Light Italic" familyname="Merriweather" stylename="Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Merriweather-BlackItalic.ufo" name="Merriweather Black Italic" familyname="Merriweather" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Merriweather-LightWideItalic.ufo" name="Merriweather Light Wide Italic" familyname="Merriweather" stylename="Light Wide Italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Merriweather-BlackWideItalic.ufo" name="Merriweather Black Wide Italic" familyname="Merriweather" stylename="Black Wide Italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Merriweather-LightDisplayNarrowItalic.ufo" name="Merriweather Light Display Narrow Italic" familyname="Merriweather" stylename="Light Display Narrow Italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Merriweather-BlackDisplayNarrowItalic.ufo" name="Merriweather Black Display Narrow Italic" familyname="Merriweather" stylename="Black Display Narrow Italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Merriweather-LightDisplayItalic.ufo" name="Merriweather Light Display Italic" familyname="Merriweather" stylename="Light Display Italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Merriweather-BlackDisplayItalic.ufo" name="Merriweather Black Display Italic" familyname="Merriweather" stylename="Black Display Italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Merriweather-LightDisplayWideItalic.ufo" name="Merriweather Light Display Wide Italic" familyname="Merriweather" stylename="Light Display Wide Italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="Merriweather-BlackDisplayWideItalic.ufo" name="Merriweather Black Display Wide Italic" familyname="Merriweather" stylename="Black Display Wide Italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Merriweather Light Italic" familyname="Merriweather" stylename="Light Italic" filename="../instance_ufo/Merriweather-LightItalic.ufo" stylemapfamilyname="Merriweather Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Italic" familyname="Merriweather" stylename="Italic" filename="../instance_ufo/Merriweather-Italic.ufo" stylemapfamilyname="Merriweather" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Italic" familyname="Merriweather" stylename="Bold Italic" filename="../instance_ufo/Merriweather-BoldItalic.ufo" stylemapfamilyname="Merriweather" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Italic" familyname="Merriweather" stylename="Black Italic" filename="../instance_ufo/Merriweather-BlackItalic.ufo" stylemapfamilyname="Merriweather Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Narrow Italic" familyname="Merriweather" stylename="Light Narrow Italic" filename="../instance_ufo/Merriweather-LightNarrowItalic.ufo" stylemapfamilyname="Merriweather Light Narrow Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Narrow Italic" familyname="Merriweather" stylename="Regular Narrow Italic" filename="../instance_ufo/Merriweather-RegularNarrowItalic.ufo" stylemapfamilyname="Merriweather Regular Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Narrow Italic" familyname="Merriweather" stylename="Bold Narrow Italic" filename="../instance_ufo/Merriweather-BoldNarrowItalic.ufo" stylemapfamilyname="Merriweather Bold Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Narrow Italic" familyname="Merriweather" stylename="Black Narrow Italic" filename="../instance_ufo/Merriweather-BlackNarrowItalic.ufo" stylemapfamilyname="Merriweather Black Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Wide Italic" familyname="Merriweather" stylename="Light Wide Italic" filename="../instance_ufo/Merriweather-LightWideItalic.ufo" stylemapfamilyname="Merriweather Light Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Wide Italic" familyname="Merriweather" stylename="Regular Wide Italic" filename="../instance_ufo/Merriweather-RegularWideItalic.ufo" stylemapfamilyname="Merriweather Regular Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Wide Italic" familyname="Merriweather" stylename="Bold Wide Italic" filename="../instance_ufo/Merriweather-BoldWideItalic.ufo" stylemapfamilyname="Merriweather Regular Wide" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Wide Italic" familyname="Merriweather" stylename="Black Wide Italic" filename="../instance_ufo/Merriweather-BlackWideItalic.ufo" stylemapfamilyname="Merriweather Black Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Text Italic" familyname="Merriweather" stylename="Light Text Italic" filename="../instance_ufo/Merriweather-LightTextItalic.ufo" stylemapfamilyname="Merriweather Light Text" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Text Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Text Italic" familyname="Merriweather" stylename="Regular Text Italic" filename="../instance_ufo/Merriweather-RegularTextItalic.ufo" stylemapfamilyname="Merriweather Regular Text" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Text Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Text Italic" familyname="Merriweather" stylename="Bold Text Italic" filename="../instance_ufo/Merriweather-BoldTextItalic.ufo" stylemapfamilyname="Merriweather Bold Text" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Text Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Text Italic" familyname="Merriweather" stylename="Black Text Italic" filename="../instance_ufo/Merriweather-BlackTextItalic.ufo" stylemapfamilyname="Merriweather Black Text" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Text Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Text Narrow Italic" familyname="Merriweather" stylename="Light Text Narrow Italic" filename="../instance_ufo/Merriweather-LightTextNarrowItalic.ufo" stylemapfamilyname="Merriweather Light Text Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Text Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Text Narrow Italic" familyname="Merriweather" stylename="Regular Text Narrow Italic" filename="../instance_ufo/Merriweather-RegularTextNarrowItalic.ufo" stylemapfamilyname="Merriweather Regular Text Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Text Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Text Narrow Italic" familyname="Merriweather" stylename="Bold Text Narrow Italic" filename="../instance_ufo/Merriweather-BoldTextNarrowItalic.ufo" stylemapfamilyname="Merriweather Bold Text Narrow" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Text Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Text Narrow Italic" familyname="Merriweather" stylename="Black Text Narrow Italic" filename="../instance_ufo/Merriweather-BlackTextNarrowItalic.ufo" stylemapfamilyname="Merriweather Black Text Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Text Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Text Wide Italic" familyname="Merriweather" stylename="Light Text Wide Italic" filename="../instance_ufo/Merriweather-LightTextWideItalic.ufo" stylemapfamilyname="Merriweather Light Text Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Text Light Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Text Wide Italic" familyname="Merriweather" stylename="Regular Text Wide Italic" filename="../instance_ufo/Merriweather-RegularTextWideItalic.ufo" stylemapfamilyname="Merriweather Regular Text Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Text Regular Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Text Wide Italic" familyname="Merriweather" stylename="Bold Text Wide Italic" filename="../instance_ufo/Merriweather-BoldTextWideItalic.ufo" stylemapfamilyname="Merriweather Bold Text Wide" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Text Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Text Wide Italic" familyname="Merriweather" stylename="Black Text Wide Italic" filename="../instance_ufo/Merriweather-BlackTextWideItalic.ufo" stylemapfamilyname="Merriweather Black Text Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="36"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Text Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Heading Italic" familyname="Merriweather" stylename="Light Heading Italic" filename="../instance_ufo/Merriweather-LightHeadingItalic.ufo" stylemapfamilyname="Merriweather Light Heading" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Heading Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Heading Italic" familyname="Merriweather" stylename="Regular Heading Italic" filename="../instance_ufo/Merriweather-RegularHeadingItalic.ufo" stylemapfamilyname="Merriweather Regular Heading" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Heading Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Heading Italic" familyname="Merriweather" stylename="Bold Heading Italic" filename="../instance_ufo/Merriweather-BoldHeadingItalic.ufo" stylemapfamilyname="Merriweather Bold Heading" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Heading Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Heading Italic" familyname="Merriweather" stylename="Black Heading Italic" filename="../instance_ufo/Merriweather-BlackHeadingItalic.ufo" stylemapfamilyname="Merriweather Black Heading" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="350"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Heading Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Heading Narrow Italic" familyname="Merriweather" stylename="Light Heading Narrow Italic" filename="../instance_ufo/Merriweather-LightHeadingNarrowItalic.ufo" stylemapfamilyname="Merriweather Light Heading Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Heading Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Heading Narrow Italic" familyname="Merriweather" stylename="Regular Heading Narrow Italic" filename="../instance_ufo/Merriweather-RegularHeadingNarrowItalic.ufo" stylemapfamilyname="Merriweather Regular Heading Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Heading Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Heading Narrow Italic" familyname="Merriweather" stylename="Bold Heading Narrow Italic" filename="../instance_ufo/Merriweather-BoldHeadingNarrowItalic.ufo" stylemapfamilyname="Merriweather Regular Heading Narrow" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Heading Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Heading Narrow Italic" familyname="Merriweather" stylename="Black Heading Narrow Italic" filename="../instance_ufo/Merriweather-BlackHeadingNarrowItalic.ufo" stylemapfamilyname="Merriweather Black Heading Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="350"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Heading Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Heading Wide Italic" familyname="Merriweather" stylename="Light Heading Wide Italic" filename="../instance_ufo/Merriweather-LightHeadingWideItalic.ufo" stylemapfamilyname="Merriweather Light Heading Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Heading Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Heading Wide Italic" familyname="Merriweather" stylename="Regular Heading Wide Italic" filename="../instance_ufo/Merriweather-RegularHeadingWideItalic.ufo" stylemapfamilyname="Merriweather Regular Heading Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Heading Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Heading Wide Italic" familyname="Merriweather" stylename="Bold Heading Wide Italic" filename="../instance_ufo/Merriweather-BoldHeadingWideItalic.ufo" stylemapfamilyname="Merriweather Regular Heading Wide" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Heading Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Heading Wide Italic" familyname="Merriweather" stylename="Black Heading Wide Italic" filename="../instance_ufo/Merriweather-BlackHeadingWideItalic.ufo" stylemapfamilyname="Merriweather Black Heading Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="350"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="96"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Heading Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Display Italic" familyname="Merriweather" stylename="Light Display Italic" filename="../instance_ufo/Merriweather-LightDisplayItalic.ufo" stylemapfamilyname="Merriweather Light Display" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Display Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Display Italic" familyname="Merriweather" stylename="Regular Display Italic" filename="../instance_ufo/Merriweather-RegularDisplayItalic.ufo" stylemapfamilyname="Merriweather Regular Display" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Display Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Display Italic" familyname="Merriweather" stylename="Bold Display Italic" filename="../instance_ufo/Merriweather-BoldDisplayItalic.ufo" stylemapfamilyname="Merriweather Regular Display" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Display Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Display Italic" familyname="Merriweather" stylename="Black Display Italic" filename="../instance_ufo/Merriweather-BlackDisplayItalic.ufo" stylemapfamilyname="Merriweather Black Display" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Display Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Display Narrow Italic" familyname="Merriweather" stylename="Light Display Narrow Italic" filename="../instance_ufo/Merriweather-LightDisplayNarrowItalic.ufo" stylemapfamilyname="Merriweather Light Display Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Display Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Display Narrow Italic" familyname="Merriweather" stylename="Regular Display Narrow Italic" filename="../instance_ufo/Merriweather-RegularDisplayNarrowItalic.ufo" stylemapfamilyname="Merriweather Display Narrow Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Display Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Display Narrow Italic" familyname="Merriweather" stylename="Bold Display Narrow Italic" filename="../instance_ufo/Merriweather-BoldDisplayNarrowItalic.ufo" stylemapfamilyname="Merriweather Regular Display Narrow" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Display Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Display Narrow Italic" familyname="Merriweather" stylename="Black Display Narrow Italic" filename="../instance_ufo/Merriweather-BlackDisplayNarrowItalic.ufo" stylemapfamilyname="Merriweather Black Display Narrow" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="50"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Display Narrow Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Light Display Wide Italic" familyname="Merriweather" stylename="Light Display Wide Italic" filename="../instance_ufo/Merriweather-LightDisplayWideItalic.ufo" stylemapfamilyname="Merriweather Light Display Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="162"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light Display Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Regular Display Wide Italic" familyname="Merriweather" stylename="Regular Display Wide Italic" filename="../instance_ufo/Merriweather-RegularDisplayWideItalic.ufo" stylemapfamilyname="Merriweather Regular Display Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular Display Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Bold Display Wide Italic" familyname="Merriweather" stylename="Bold Display Wide Italic" filename="../instance_ufo/Merriweather-BoldDisplayWideItalic.ufo" stylemapfamilyname="Merriweather Regular Display Wide" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="290"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold Display Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Merriweather Black Display Wide Italic" familyname="Merriweather" stylename="Black Display Wide Italic" filename="../instance_ufo/Merriweather-BlackDisplayWideItalic.ufo" stylemapfamilyname="Merriweather Black Display Wide" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="346"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical Size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Merriweather</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black Display Wide Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>0E81F995-ADCA-4265-BF48-502C19DBCB17</key>
+        <dict>
+          <key>HH</key>
+          <string>64</string>
+          <key>HV</key>
+          <string>374</string>
+          <key>OH</key>
+          <string>58</string>
+          <key>OV</key>
+          <string>379</string>
+        </dict>
+        <key>10D406F4-E64B-40B9-806E-EB589F33F511</key>
+        <dict>
+          <key>HH</key>
+          <string>66</string>
+          <key>HV</key>
+          <string>156</string>
+          <key>OH</key>
+          <string>51</string>
+          <key>OV</key>
+          <string>164</string>
+        </dict>
+        <key>2795BD5C-FE1E-44B5-B1D3-799347E852FC</key>
+        <dict>
+          <key>HH</key>
+          <string>66</string>
+          <key>HV</key>
+          <string>392</string>
+          <key>OH</key>
+          <string>58</string>
+          <key>OV</key>
+          <string>415</string>
+        </dict>
+        <key>7A2136B0-3E1D-476B-B826-4714342A6FC2</key>
+        <dict>
+          <key>HH</key>
+          <string>64</string>
+          <key>HV</key>
+          <string>347</string>
+          <key>OH</key>
+          <string>58</string>
+          <key>OV</key>
+          <string>366</string>
+        </dict>
+        <key>95CCB04D-97EC-4126-A206-216E0B8EC505</key>
+        <dict>
+          <key>HH</key>
+          <string>66</string>
+          <key>HV</key>
+          <string>156</string>
+          <key>OH</key>
+          <string>51</string>
+          <key>OV</key>
+          <string>169</string>
+        </dict>
+        <key>F318CEA5-7792-49D8-B68D-92025E304353</key>
+        <dict>
+          <key>HH</key>
+          <string>66</string>
+          <key>HV</key>
+          <string>153</string>
+          <key>OH</key>
+          <string>51</string>
+          <key>OV</key>
+          <string>160</string>
+        </dict>
+      </dict>
+      <key>UFOFormat</key>
+      <integer>2</integer>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>barlc</string>
+        <string>desccy_part.</string>
+        <string>dzhe_desc.part</string>
+        <string>hook_cy.part</string>
+        <string>lefttooth_part.</string>
+        <string>longbar_part.</string>
+        <string>ptick_part.</string>
+        <string>qtail.case</string>
+        <string>qtail.sc</string>
+        <string>righttooth_part.</string>
+        <string>rtail_part.</string>
+        <string>slashocomb</string>
+        <string>slashocomb.case</string>
+        <string>slashocomb.sc</string>
+        <string>vertbarlc_part.</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

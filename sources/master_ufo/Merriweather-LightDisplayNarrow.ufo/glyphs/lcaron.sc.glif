@@ -1,18 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lcaron.sc" format="2">
-  <advance width="962.0"/>
-  <anchor x="610.0" y="0.0" name="bottom"/>
-  <anchor x="610.0" y="648.0" name="center"/>
-  <anchor x="352.0" y="1292.0" name="top"/>
-  <anchor x="878.0" y="966.0" name="topright"/>
+  <advance width="964"/>
+  <anchor x="612" y="0" name="bottom"/>
+  <anchor x="612" y="648" name="center"/>
+  <anchor x="354" y="1292" name="top"/>
+  <anchor x="880" y="966" name="topright"/>
   <outline>
     <component base="l.sc"/>
-    <component base="caroncomb.alt" xOffset="849.0" yOffset="-146.0"/>
+    <component base="caroncomb.alt" xOffset="851" yOffset="-146"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-    </dict>
-  </lib>
 </glyph>

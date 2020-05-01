@@ -1,26 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocircumflexacute" format="2">
-  <advance width="1189.0"/>
+  <advance width="1193"/>
   <unicode hex="1ED1"/>
-  <anchor x="595.0" y="0.0" name="bottom"/>
-  <anchor x="595.0" y="503.0" name="center"/>
-  <anchor x="673.0" y="10.0" name="ogonek"/>
-  <anchor x="595.0" y="1726.0" name="top"/>
-  <anchor x="862.0" y="1005.0" name="topright"/>
+  <anchor x="597" y="0" name="bottom"/>
+  <anchor x="597" y="503" name="center"/>
+  <anchor x="695" y="10" name="ogonek"/>
+  <anchor x="597" y="1726" name="top"/>
+  <anchor x="864" y="1005" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="circumflexcomb_acutecomb" xOffset="230.0"/>
+    <component base="circumflexcomb_acutecomb" xOffset="232"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

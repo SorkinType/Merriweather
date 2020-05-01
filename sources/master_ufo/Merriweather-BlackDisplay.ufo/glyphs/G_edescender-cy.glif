@@ -1,35 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gedescender-cy" format="2">
-  <advance width="1128.0"/>
+  <advance width="1128"/>
   <unicode hex="04F6"/>
-  <anchor x="747.0" y="0.0" name="bottomright"/>
-  <anchor x="610.0" y="744.0" name="center"/>
-  <anchor x="594.0" y="1486.0" name="top"/>
+  <anchor x="747" y="0" name="bottomright"/>
+  <anchor x="610" y="744" name="center"/>
+  <anchor x="594" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="354.0" y="72.0" type="line"/>
-      <point x="354.0" y="26.0" type="line"/>
-      <point x="736.0" y="26.0" type="line"/>
-      <point x="736.0" y="72.0" type="line"/>
+      <point x="354" y="72" type="line"/>
+      <point x="354" y="26" type="line"/>
+      <point x="736" y="26" type="line"/>
+      <point x="736" y="72" type="line"/>
     </contour>
     <component base="Ge-cy"/>
-    <component base="righttooth_part." xOffset="483.0"/>
+    <component base="righttooth_part." xOffset="483"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Ge-cy</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>Ge-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Te-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/22 16:36:43</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

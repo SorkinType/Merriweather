@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zdotbelow.sc" format="2">
-  <advance width="1027.0"/>
-  <anchor x="570.0" y="-377.0" name="bottom"/>
-  <anchor x="518.0" y="1343.0" name="top"/>
+  <advance width="1027"/>
+  <anchor x="570" y="-377" name="bottom"/>
+  <anchor x="518" y="1343" name="top"/>
   <outline>
     <component base="z.sc"/>
-    <component base="dotbelowcomb" xOffset="383.0"/>
+    <component base="dotbelowcomb" xOffset="383"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

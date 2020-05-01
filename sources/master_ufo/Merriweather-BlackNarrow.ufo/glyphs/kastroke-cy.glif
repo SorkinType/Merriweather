@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kastroke-cy" format="2">
-  <advance width="1162.0"/>
+  <advance width="1162"/>
   <unicode hex="049F"/>
-  <anchor x="680.0" y="0.0" name="bottom"/>
-  <anchor x="699.0" y="1548.0" name="top"/>
+  <anchor x="680" y="0" name="bottom"/>
+  <anchor x="699" y="1548" name="top"/>
   <outline>
     <contour>
-      <point x="26.0" y="1351.0" type="line"/>
-      <point x="26.0" y="1218.0" type="line"/>
-      <point x="737.0" y="1218.0" type="line"/>
-      <point x="737.0" y="1351.0" type="line"/>
+      <point x="26" y="1351" type="line"/>
+      <point x="26" y="1218" type="line"/>
+      <point x="737" y="1218" type="line"/>
+      <point x="737" y="1351" type="line"/>
     </contour>
     <component base="k"/>
   </outline>
@@ -21,12 +21,8 @@
       <string>hbar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>zhe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/24 07:26:31</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

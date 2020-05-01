@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="strokelongcomb" format="2">
   <unicode hex="0336"/>
-  <anchor x="490.0" y="556.0" name="_center"/>
+  <anchor x="490" y="556" name="_center"/>
   <outline>
     <contour>
-      <point x="970.0" y="597.0" type="line"/>
-      <point x="10.0" y="597.0" type="line"/>
-      <point x="10.0" y="527.0" type="line"/>
-      <point x="970.0" y="527.0" type="line"/>
+      <point x="970" y="597" type="line"/>
+      <point x="10" y="597" type="line"/>
+      <point x="10" y="527" type="line"/>
+      <point x="970" y="527" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>980.0</real>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <integer>980</integer>
     </dict>
   </lib>
 </glyph>

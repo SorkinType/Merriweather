@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhookabove" format="2">
-  <advance width="1433.0"/>
+  <advance width="1433"/>
   <unicode hex="1EE6"/>
-  <anchor x="785.0" y="0.0" name="bottom"/>
-  <anchor x="914.0" y="20.0" name="ogonek"/>
-  <anchor x="783.0" y="1486.0" name="top"/>
-  <anchor x="1449.0" y="1486.0" name="topright"/>
+  <anchor x="785" y="0" name="bottom"/>
+  <anchor x="914" y="20" name="ogonek"/>
+  <anchor x="783" y="1486" name="top"/>
+  <anchor x="1449" y="1486" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="hookabovecomb.case" xOffset="576.0"/>
+    <component base="hookabovecomb.case" xOffset="576"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

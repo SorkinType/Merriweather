@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ntilde" format="2">
-  <advance width="1377.0"/>
+  <advance width="1379"/>
   <unicode hex="00D1"/>
-  <anchor x="699.0" y="0.0" name="bottom"/>
-  <anchor x="698.0" y="1796.0" name="top"/>
+  <anchor x="699" y="0" name="bottom"/>
+  <anchor x="698" y="1796" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="tildecomb.case" xOffset="432.0"/>
+    <component base="tildecomb.case" xOffset="432"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

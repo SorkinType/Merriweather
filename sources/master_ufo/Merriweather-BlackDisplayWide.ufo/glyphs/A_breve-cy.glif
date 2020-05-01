@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abreve-cy" format="2">
-  <advance width="1367.0"/>
+  <advance width="1367"/>
   <unicode hex="04D0"/>
-  <anchor x="635.0" y="0.0" name="bottom"/>
-  <anchor x="1265.0" y="20.0" name="ogonek"/>
-  <anchor x="696.0" y="1486.0" name="top"/>
+  <anchor x="635" y="0" name="bottom"/>
+  <anchor x="1265" y="20" name="ogonek"/>
+  <anchor x="696" y="1486" name="top"/>
   <outline>
     <component base="A-cy"/>
-    <component base="brevecomb-cy.case" xOffset="295.0"/>
+    <component base="brevecomb-cy.case" xOffset="295"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

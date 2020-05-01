@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hcircumflex.sc" format="2">
-  <advance width="1566.0"/>
-  <anchor x="783.0" y="0.0" name="bottom"/>
-  <anchor x="1502.0" y="0.0" name="bottomright"/>
-  <anchor x="785.0" y="1908.0" name="top"/>
+  <advance width="1566"/>
+  <anchor x="783" y="0" name="bottom"/>
+  <anchor x="1502" y="0" name="bottomright"/>
+  <anchor x="785" y="1908" name="top"/>
   <outline>
     <component base="h.sc"/>
-    <component base="circumflexcomb" xOffset="376.0" yOffset="161.0"/>
+    <component base="circumflexcomb" xOffset="376" yOffset="161"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

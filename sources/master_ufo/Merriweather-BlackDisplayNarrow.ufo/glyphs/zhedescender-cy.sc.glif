@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zhedescender-cy.sc" format="2">
-  <advance width="1713.0"/>
-  <anchor x="1712.0" y="0.0" name="bottomright"/>
-  <anchor x="856.0" y="1340.0" name="top"/>
+  <advance width="1713"/>
+  <anchor x="1712" y="0" name="bottomright"/>
+  <anchor x="856" y="1340" name="top"/>
   <outline>
     <component base="zhe-cy.sc"/>
-    <component base="righttooth_part." xOffset="1430.0"/>
+    <component base="righttooth_part." xOffset="1430"/>
   </outline>
   <lib>
     <dict>
@@ -13,101 +13,97 @@
       <string>zhe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>de-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/24 07:40:33</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>1679.0</real>
-            <real>1255.0</real>
+            <integer>1679</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1215.0</real>
-            <real>1255.0</real>
+            <integer>1215</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1147.0</real>
-            <real>1255.0</real>
+            <integer>1147</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>566.0</real>
-            <real>1255.0</real>
+            <integer>566</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>496.0</real>
-            <real>1255.0</real>
+            <integer>496</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>38.0</real>
-            <real>1255.0</real>
+            <integer>38</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>4.0</real>
-            <real>37.0</real>
+            <integer>4</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>554.0</real>
-            <real>37.0</real>
+            <integer>554</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

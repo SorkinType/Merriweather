@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexacute" format="2">
-  <advance width="1327.0"/>
+  <advance width="1327"/>
   <unicode hex="1EBE"/>
-  <anchor x="692.0" y="0.0" name="bottom"/>
-  <anchor x="1113.0" y="20.0" name="ogonek"/>
-  <anchor x="695.0" y="1976.0" name="top"/>
-  <anchor x="53.0" y="1486.0" name="topleft"/>
+  <anchor x="692" y="0" name="bottom"/>
+  <anchor x="1113" y="20" name="ogonek"/>
+  <anchor x="695" y="1976" name="top"/>
+  <anchor x="53" y="1486" name="topleft"/>
   <outline>
     <component base="E"/>
-    <component base="circumflexcomb_acutecomb.case" xOffset="319.0"/>
+    <component base="circumflexcomb_acutecomb.case" xOffset="319"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

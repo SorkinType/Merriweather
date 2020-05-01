@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Obarred-cy" format="2">
-  <advance width="1410.0"/>
+  <advance width="1410"/>
   <unicode hex="04E8"/>
-  <anchor x="737.0" y="0.0" name="bottom"/>
-  <anchor x="706.0" y="741.0" name="center"/>
-  <anchor x="817.0" y="20.0" name="ogonek"/>
+  <anchor x="737" y="0" name="bottom"/>
+  <anchor x="706" y="741" name="center"/>
+  <anchor x="817" y="20" name="ogonek"/>
   <anchor x="851.363" y="0.0" name="qq"/>
-  <anchor x="713.0" y="1486.0" name="top"/>
-  <anchor x="45.0" y="1486.0" name="topleft"/>
-  <anchor x="1145.0" y="1486.0" name="topright"/>
+  <anchor x="713" y="1486" name="top"/>
+  <anchor x="45" y="1486" name="topleft"/>
+  <anchor x="1145" y="1486" name="topright"/>
   <outline>
     <contour>
-      <point x="403.0" y="706.0" type="line"/>
-      <point x="1003.0" y="706.0" type="line"/>
-      <point x="1005.0" y="776.0" type="line"/>
-      <point x="404.0" y="776.0" type="line"/>
+      <point x="403" y="706" type="line"/>
+      <point x="1003" y="706" type="line"/>
+      <point x="1005" y="776" type="line"/>
+      <point x="404" y="776" type="line"/>
     </contour>
     <component base="O"/>
   </outline>
@@ -24,10 +24,6 @@
       <string>O</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>O</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/22 16:30:53</string>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

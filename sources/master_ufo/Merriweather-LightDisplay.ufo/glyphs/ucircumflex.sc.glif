@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ucircumflex.sc" format="2">
-  <advance width="1281.0"/>
-  <anchor x="680.0" y="0.0" name="bottom"/>
-  <anchor x="791.0" y="17.0" name="ogonek"/>
-  <anchor x="662.0" y="1780.0" name="top"/>
-  <anchor x="1152.0" y="1292.0" name="topright"/>
+  <advance width="1281"/>
+  <anchor x="680" y="0" name="bottom"/>
+  <anchor x="791" y="17" name="ogonek"/>
+  <anchor x="662" y="1780" name="top"/>
+  <anchor x="1152" y="1292" name="topright"/>
   <outline>
     <component base="u.sc"/>
-    <component base="circumflexcomb" xOffset="373.0" yOffset="250.0"/>
+    <component base="circumflexcomb" xOffset="373" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

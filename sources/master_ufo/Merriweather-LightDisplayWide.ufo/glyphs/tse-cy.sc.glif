@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tse-cy.sc" format="2">
-  <advance width="1444.0"/>
+  <advance width="1444"/>
   <outline>
     <contour>
-      <point x="1254.0" y="0.0" type="line"/>
-      <point x="1246.0" y="66.0" type="line"/>
-      <point x="1246.0" y="1226.0" type="line"/>
-      <point x="1423.0" y="1257.0" type="line"/>
-      <point x="1423.0" y="1292.0" type="line"/>
-      <point x="923.0" y="1292.0" type="line"/>
-      <point x="923.0" y="1257.0" type="line"/>
-      <point x="1086.0" y="1226.0" type="line"/>
-      <point x="1086.0" y="71.0" type="line"/>
-      <point x="360.0" y="71.0" type="line"/>
-      <point x="360.0" y="1227.0" type="line"/>
-      <point x="576.0" y="1257.0" type="line"/>
-      <point x="576.0" y="1292.0" type="line"/>
-      <point x="21.0" y="1292.0" type="line"/>
-      <point x="21.0" y="1257.0" type="line"/>
-      <point x="205.0" y="1226.0" type="line"/>
-      <point x="205.0" y="72.0" type="line"/>
-      <point x="26.0" y="35.0" type="line"/>
-      <point x="26.0" y="0.0" type="line"/>
+      <point x="1254" y="0" type="line"/>
+      <point x="1246" y="66" type="line"/>
+      <point x="1246" y="1226" type="line"/>
+      <point x="1423" y="1257" type="line"/>
+      <point x="1423" y="1292" type="line"/>
+      <point x="923" y="1292" type="line"/>
+      <point x="923" y="1257" type="line"/>
+      <point x="1086" y="1226" type="line"/>
+      <point x="1086" y="71" type="line"/>
+      <point x="360" y="71" type="line"/>
+      <point x="360" y="1227" type="line"/>
+      <point x="576" y="1257" type="line"/>
+      <point x="576" y="1292" type="line"/>
+      <point x="21" y="1292" type="line"/>
+      <point x="21" y="1257" type="line"/>
+      <point x="205" y="1226" type="line"/>
+      <point x="205" y="72" type="line"/>
+      <point x="26" y="35" type="line"/>
+      <point x="26" y="0" type="line"/>
     </contour>
-    <component base="righttooth_part." xOffset="1144.0"/>
+    <component base="righttooth_part." xOffset="1144"/>
   </outline>
   <lib>
     <dict>
@@ -31,68 +31,64 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>de-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>1530.0</real>
-            <real>1257.0</real>
+            <integer>1530</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1030.0</real>
-            <real>1257.0</real>
+            <integer>1030</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>683.0</real>
-            <real>1257.0</real>
+            <integer>683</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>128.0</real>
-            <real>1257.0</real>
+            <integer>128</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>105.0</real>
-            <real>35.0</real>
+            <integer>105</integer>
+            <integer>35</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

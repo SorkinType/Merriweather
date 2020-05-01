@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Chedescender-cy" format="2">
-  <advance width="1224.0"/>
+  <advance width="1224"/>
   <unicode hex="04B6"/>
-  <anchor x="1194.0" y="0.0" name="bottomright"/>
-  <anchor x="612.0" y="744.0" name="center"/>
-  <anchor x="589.0" y="1486.0" name="top"/>
+  <anchor x="1194" y="0" name="bottomright"/>
+  <anchor x="612" y="744" name="center"/>
+  <anchor x="589" y="1486" name="top"/>
   <outline>
     <component base="Che-cy"/>
-    <component base="righttooth_part." xOffset="912.0"/>
+    <component base="righttooth_part." xOffset="912"/>
   </outline>
   <lib>
     <dict>
@@ -15,10 +15,6 @@
       <string>Che-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>De-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

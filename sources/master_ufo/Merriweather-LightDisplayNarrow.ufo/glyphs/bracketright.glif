@@ -1,35 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright" format="2">
-  <advance width="663.0"/>
+  <advance width="663"/>
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="508.0" y="1493.0" type="line"/>
-      <point x="508.0" y="1591.0"/>
-      <point x="464.0" y="1608.0"/>
-      <point x="377.0" y="1608.0" type="curve" smooth="yes"/>
-      <point x="316.0" y="1608.0"/>
-      <point x="240.0" y="1590.0"/>
-      <point x="180.0" y="1574.0" type="curve"/>
-      <point x="180.0" y="1534.0" type="line"/>
-      <point x="405.0" y="1534.0" type="line"/>
-      <point x="405.0" y="-198.0" type="line"/>
-      <point x="180.0" y="-198.0" type="line"/>
-      <point x="180.0" y="-238.0" type="line"/>
-      <point x="245.0" y="-258.0"/>
-      <point x="321.0" y="-274.0"/>
-      <point x="377.0" y="-274.0" type="curve" smooth="yes"/>
-      <point x="464.0" y="-274.0"/>
-      <point x="508.0" y="-257.0"/>
-      <point x="508.0" y="-159.0" type="curve" smooth="yes"/>
+      <point x="508" y="1493" type="line"/>
+      <point x="508" y="1591"/>
+      <point x="464" y="1608"/>
+      <point x="377" y="1608" type="curve" smooth="yes"/>
+      <point x="316" y="1608"/>
+      <point x="240" y="1590"/>
+      <point x="180" y="1574" type="curve"/>
+      <point x="180" y="1534" type="line"/>
+      <point x="405" y="1534" type="line"/>
+      <point x="405" y="-198" type="line"/>
+      <point x="180" y="-198" type="line"/>
+      <point x="180" y="-238" type="line"/>
+      <point x="245" y="-258"/>
+      <point x="321" y="-274"/>
+      <point x="377" y="-274" type="curve" smooth="yes"/>
+      <point x="464" y="-274"/>
+      <point x="508" y="-257"/>
+      <point x="508" y="-159" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

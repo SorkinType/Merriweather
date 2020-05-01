@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semisoftsign-cy.sc" format="2">
-  <advance width="1118.0"/>
+  <advance width="1118"/>
   <outline>
     <contour>
-      <point x="41.0" y="920.0" type="line"/>
-      <point x="734.0" y="920.0" type="line"/>
-      <point x="734.0" y="987.0" type="line"/>
-      <point x="41.0" y="987.0" type="line"/>
+      <point x="41" y="920" type="line"/>
+      <point x="734" y="920" type="line"/>
+      <point x="734" y="987" type="line"/>
+      <point x="41" y="987" type="line"/>
     </contour>
     <component base="softsign-cy.sc"/>
   </outline>
@@ -16,46 +16,42 @@
       <string>softsign-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>softsign-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>684.0</real>
-            <real>1255.0</real>
+            <integer>684</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>52.0</real>
-            <real>1255.0</real>
+            <integer>52</integer>
+            <integer>1255</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>51.0</real>
-            <real>37.0</real>
+            <integer>51</integer>
+            <integer>37</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

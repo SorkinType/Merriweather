@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hdotbelow.sc" format="2">
-  <advance width="1273.0"/>
-  <anchor x="636.0" y="-346.0" name="bottom"/>
-  <anchor x="1235.0" y="0.0" name="bottomright"/>
-  <anchor x="638.0" y="1272.0" name="top"/>
+  <advance width="1273"/>
+  <anchor x="636" y="-346" name="bottom"/>
+  <anchor x="1235" y="0" name="bottomright"/>
+  <anchor x="638" y="1272" name="top"/>
   <outline>
     <component base="h.sc"/>
-    <component base="dotbelowcomb" xOffset="507.0"/>
+    <component base="dotbelowcomb" xOffset="507"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

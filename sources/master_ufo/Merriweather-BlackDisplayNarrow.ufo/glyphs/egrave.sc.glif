@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="egrave.sc" format="2">
-  <advance width="1147.0"/>
-  <anchor x="545.0" y="0.0" name="bottom"/>
-  <anchor x="937.0" y="18.0" name="ogonek"/>
-  <anchor x="639.0" y="2047.0" name="top"/>
-  <anchor x="16.0" y="1292.0" name="topleft"/>
+  <advance width="1147"/>
+  <anchor x="545" y="0" name="bottom"/>
+  <anchor x="937" y="18" name="ogonek"/>
+  <anchor x="639" y="2047" name="top"/>
+  <anchor x="16" y="1292" name="topleft"/>
   <outline>
     <component base="e.sc"/>
-    <component base="gravecomb" xOffset="341.0" yOffset="250.0"/>
+    <component base="gravecomb" xOffset="341" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

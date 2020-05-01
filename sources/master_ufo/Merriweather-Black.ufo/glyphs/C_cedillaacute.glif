@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ccedillaacute" format="2">
-  <advance width="1336.0"/>
+  <advance width="1336"/>
   <unicode hex="1E08"/>
-  <anchor x="727.0" y="-513.0" name="bottom"/>
-  <anchor x="757.0" y="1964.0" name="top"/>
+  <anchor x="727" y="-513" name="bottom"/>
+  <anchor x="757" y="1964" name="top"/>
   <outline>
     <component base="C"/>
-    <component base="cedillacomb.case" xOffset="476.0"/>
-    <component base="acutecomb.case" xOffset="589.0"/>
+    <component base="cedillacomb.case" xOffset="476"/>
+    <component base="acutecomb.case" xOffset="589"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

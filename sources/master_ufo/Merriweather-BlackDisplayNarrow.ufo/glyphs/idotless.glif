@@ -1,36 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless" format="2">
-  <advance width="515.0"/>
+  <advance width="521"/>
   <unicode hex="0131"/>
-  <anchor x="269.0" y="0.0" name="bottom"/>
-  <anchor x="357.0" y="20.0" name="ogonek"/>
-  <anchor x="271.0" y="1110.0" name="top"/>
+  <anchor x="273" y="0" name="bottom"/>
+  <anchor x="361" y="20" name="ogonek"/>
+  <anchor x="275" y="1110" name="top"/>
   <outline>
     <contour>
-      <point x="112.0" y="73.0" type="line"/>
-      <point x="35.0" y="38.0" type="line"/>
-      <point x="35.0" y="0.0" type="line"/>
-      <point x="517.0" y="0.0" type="line"/>
-      <point x="517.0" y="38.0" type="line"/>
-      <point x="428.0" y="70.0" type="line"/>
-      <point x="428.0" y="990.0" type="line"/>
-      <point x="393.0" y="1033.0" type="line"/>
-      <point x="322.0" y="1035.0" type="line"/>
-      <point x="6.0" y="918.0" type="line"/>
-      <point x="6.0" y="881.0" type="line"/>
-      <point x="112.0" y="834.0" type="line"/>
+      <point x="116" y="73" type="line"/>
+      <point x="39" y="38" type="line"/>
+      <point x="39" y="0" type="line"/>
+      <point x="521" y="0" type="line"/>
+      <point x="521" y="38" type="line"/>
+      <point x="432" y="70" type="line"/>
+      <point x="432" y="990" type="line"/>
+      <point x="397" y="1033" type="line"/>
+      <point x="326" y="1035" type="line"/>
+      <point x="10" y="918" type="line"/>
+      <point x="10" y="881" type="line"/>
+      <point x="116" y="834" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/20 20:13:57</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

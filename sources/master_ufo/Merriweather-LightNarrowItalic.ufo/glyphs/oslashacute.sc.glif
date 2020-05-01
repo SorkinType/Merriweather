@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslashacute.sc" format="2">
+  <advance width="1172"/>
+  <anchor x="517" y="0" name="bottom"/>
+  <anchor x="599" y="647" name="center"/>
+  <anchor x="678" y="18" name="ogonek"/>
+  <anchor x="681" y="1709" name="top"/>
+  <anchor x="151" y="1292" name="topleft"/>
+  <anchor x="896" y="1234" name="topright"/>
+  <outline>
+    <component base="oslash.sc"/>
+    <component base="acutecomb" xOffset="527" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

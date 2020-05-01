@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tedescender-cy" format="2">
-  <advance width="1242.0"/>
+  <advance width="1242"/>
   <unicode hex="04AC"/>
-  <anchor x="679.0" y="0.0" name="bottom"/>
+  <anchor x="679" y="0" name="bottom"/>
   <anchor x="978.097" y="0.0" name="bottomright"/>
-  <anchor x="619.0" y="684.0" name="center"/>
-  <anchor x="679.0" y="1486.0" name="top"/>
+  <anchor x="619" y="684" name="center"/>
+  <anchor x="679" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="688.0" y="72.0" type="line"/>
-      <point x="688.0" y="16.0" type="line"/>
-      <point x="897.0" y="16.0" type="line"/>
-      <point x="897.0" y="72.0" type="line"/>
+      <point x="688" y="72" type="line"/>
+      <point x="688" y="16" type="line"/>
+      <point x="897" y="16" type="line"/>
+      <point x="897" y="72" type="line"/>
     </contour>
     <component base="T"/>
-    <component base="righttooth_part." xOffset="776.0"/>
+    <component base="righttooth_part." xOffset="776"/>
   </outline>
   <lib>
     <dict>
@@ -22,10 +22,6 @@
       <string>Te-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Te-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

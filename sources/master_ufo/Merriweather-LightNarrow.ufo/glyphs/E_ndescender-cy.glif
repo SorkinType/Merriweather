@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Endescender-cy" format="2">
-  <advance width="1350.0"/>
+  <advance width="1350"/>
   <unicode hex="04A2"/>
-  <anchor x="676.0" y="0.0" name="bottom"/>
-  <anchor x="1295.0" y="0.0" name="bottomright"/>
-  <anchor x="675.0" y="743.0" name="center"/>
-  <anchor x="673.0" y="1486.0" name="top"/>
-  <anchor x="-11.0" y="1486.0" name="topleft"/>
+  <anchor x="676" y="0" name="bottom"/>
+  <anchor x="1295" y="0" name="bottomright"/>
+  <anchor x="675" y="743" name="center"/>
+  <anchor x="673" y="1486" name="top"/>
+  <anchor x="-11" y="1486" name="topleft"/>
   <outline>
     <component base="H"/>
-    <component base="righttooth_part." xOffset="960.0"/>
+    <component base="righttooth_part." xOffset="960"/>
   </outline>
   <lib>
     <dict>
@@ -17,10 +17,6 @@
       <string>Pe-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>De-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gje-cy.sc" format="2">
-  <advance width="1028.0"/>
-  <anchor x="757.0" y="0.0" name="bottomright"/>
-  <anchor x="572.0" y="1810.0" name="top"/>
+  <advance width="1028"/>
+  <anchor x="757" y="0" name="bottomright"/>
+  <anchor x="572" y="1810" name="top"/>
   <outline>
     <component base="ge-cy.sc"/>
-    <component base="acutecomb" xOffset="389.0" yOffset="230.0"/>
+    <component base="acutecomb" xOffset="389" yOffset="230"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gstroke" format="2">
-  <advance width="1213.0"/>
+  <advance width="1213"/>
   <unicode hex="01E4"/>
-  <anchor x="738.0" y="0.0" name="bottom"/>
-  <anchor x="798.0" y="1486.0" name="top"/>
+  <anchor x="738" y="0" name="bottom"/>
+  <anchor x="798" y="1486" name="top"/>
   <anchor x="1009.004" y="349.0" name="rstem"/>
   <outline>
     <contour>
-      <point x="1188.0" y="412.0" type="line"/>
-      <point x="675.0" y="412.0" type="line"/>
-      <point x="675.0" y="306.0" type="line"/>
-      <point x="1188.0" y="306.0" type="line"/>
+      <point x="1188" y="412" type="line"/>
+      <point x="675" y="412" type="line"/>
+      <point x="675" y="306" type="line"/>
+      <point x="1188" y="306" type="line"/>
     </contour>
     <component base="G"/>
   </outline>
@@ -20,10 +20,6 @@
       <string>G</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>G</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

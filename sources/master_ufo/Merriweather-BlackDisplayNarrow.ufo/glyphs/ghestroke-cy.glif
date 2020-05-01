@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghestroke-cy" format="2">
-  <advance width="775.0"/>
+  <advance width="783"/>
   <unicode hex="0493"/>
-  <anchor x="416.0" y="0.0" name="bottomright"/>
-  <anchor x="507.0" y="556.0" name="center"/>
-  <anchor x="380.0" y="1111.0" name="top"/>
+  <anchor x="424" y="0" name="bottomright"/>
+  <anchor x="515" y="556" name="center"/>
+  <anchor x="388" y="1111" name="top"/>
   <outline>
     <contour>
-      <point x="600.0" y="432.0" type="line"/>
-      <point x="36.0" y="432.0" type="line"/>
-      <point x="36.0" y="362.0" type="line"/>
-      <point x="600.0" y="362.0" type="line"/>
+      <point x="600" y="432" type="line"/>
+      <point x="36" y="432" type="line"/>
+      <point x="36" y="362" type="line"/>
+      <point x="600" y="362" type="line"/>
     </contour>
     <component base="ge-cy"/>
   </outline>
@@ -22,12 +22,8 @@
       <string>pe-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>te-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 04:50:55</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

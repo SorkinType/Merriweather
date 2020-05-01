@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kastroke-cy.sc" format="2">
-  <advance width="1315.0"/>
-  <anchor x="1284.0" y="0.0" name="bottomright"/>
-  <anchor x="729.0" y="1340.0" name="top"/>
+  <advance width="1315"/>
+  <anchor x="1284" y="0" name="bottomright"/>
+  <anchor x="729" y="1340" name="top"/>
   <outline>
     <contour>
-      <point x="47.0" y="910.0" type="line"/>
-      <point x="555.0" y="910.0" type="line"/>
-      <point x="555.0" y="976.0" type="line"/>
-      <point x="47.0" y="976.0" type="line"/>
+      <point x="47" y="910" type="line"/>
+      <point x="555" y="910" type="line"/>
+      <point x="555" y="976" type="line"/>
+      <point x="47" y="976" type="line"/>
     </contour>
     <component base="ka-cy.sc"/>
   </outline>
@@ -18,68 +18,64 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ka-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/24 07:40:27</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>1411.0</real>
-            <real>1257.0</real>
+            <integer>1411</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>927.0</real>
-            <real>1257.0</real>
+            <integer>927</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>635.0</real>
-            <real>1257.0</real>
+            <integer>635</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>126.0</real>
-            <real>1257.0</real>
+            <integer>126</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1436.0</real>
-            <real>35.0</real>
+            <integer>1436</integer>
+            <integer>35</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

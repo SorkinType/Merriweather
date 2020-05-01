@@ -1,28 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caroncomb" format="2">
   <unicode hex="030C"/>
-  <guideline x="1085.0" y="1140.0" angle="90.0"/>
-  <anchor x="365.0" y="1110.0" name="_top"/>
-  <anchor x="364.0" y="1603.0" name="top"/>
+  <guideline x="1085" y="1140" angle="90"/>
+  <anchor x="365" y="1110" name="_top"/>
+  <anchor x="364" y="1573" name="top"/>
   <outline>
     <contour>
-      <point x="48.0" y="1570.0" type="line"/>
-      <point x="10.0" y="1537.0" type="line"/>
-      <point x="274.0" y="1141.0" type="line"/>
-      <point x="456.0" y="1141.0" type="line"/>
-      <point x="720.0" y="1537.0" type="line"/>
-      <point x="682.0" y="1570.0" type="line"/>
-      <point x="365.0" y="1357.0" type="line"/>
+      <point x="48" y="1570" type="line"/>
+      <point x="10" y="1537" type="line"/>
+      <point x="274" y="1141" type="line"/>
+      <point x="456" y="1141" type="line"/>
+      <point x="720" y="1537" type="line"/>
+      <point x="682" y="1570" type="line"/>
+      <point x="365" y="1357" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/20 20:11:35</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>730.0</real>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <integer>730</integer>
     </dict>
   </lib>
 </glyph>

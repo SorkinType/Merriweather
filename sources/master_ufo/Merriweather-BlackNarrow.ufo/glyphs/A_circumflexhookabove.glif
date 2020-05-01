@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Acircumflexhookabove" format="2">
-  <advance width="1288.0"/>
+  <advance width="1283"/>
   <unicode hex="1EA8"/>
-  <anchor x="616.0" y="0.0" name="bottom"/>
-  <anchor x="1103.0" y="20.0" name="ogonek"/>
-  <anchor x="649.0" y="1978.0" name="top"/>
+  <anchor x="615" y="0" name="bottom"/>
+  <anchor x="1102" y="20" name="ogonek"/>
+  <anchor x="648" y="1978" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="circumflexcomb_hookabovecomb.case" xOffset="306.0"/>
+    <component base="circumflexcomb_hookabovecomb.case" xOffset="305"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

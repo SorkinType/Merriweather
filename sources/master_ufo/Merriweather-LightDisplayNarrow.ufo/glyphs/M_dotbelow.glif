@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Mdotbelow" format="2">
-  <advance width="1577.0"/>
+  <advance width="1567"/>
   <unicode hex="1E42"/>
-  <anchor x="797.0" y="-346.0" name="bottom"/>
-  <anchor x="1597.0" y="0.0" name="bottomright"/>
-  <anchor x="787.0" y="1486.0" name="top"/>
+  <anchor x="787" y="-346" name="bottom"/>
+  <anchor x="1587" y="0" name="bottomright"/>
+  <anchor x="777" y="1486" name="top"/>
   <outline>
     <component base="M"/>
-    <component base="dotbelowcomb.case" xOffset="685.0"/>
+    <component base="dotbelowcomb.case" xOffset="675"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 18:18:00</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

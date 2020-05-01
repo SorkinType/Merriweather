@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.dot" format="2">
+  <advance width="600"/>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="311" y="0" name="ogonek"/>
+  <anchor x="414" y="1501" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccent" xOffset="-53"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

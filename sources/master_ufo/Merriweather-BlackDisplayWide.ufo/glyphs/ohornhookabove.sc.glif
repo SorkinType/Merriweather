@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohornhookabove.sc" format="2">
-  <advance width="1386.0"/>
-  <anchor x="692.0" y="0.0" name="bottom"/>
-  <anchor x="693.0" y="648.0" name="center"/>
-  <anchor x="759.0" y="18.0" name="ogonek"/>
-  <anchor x="798.0" y="0.0" name="q"/>
-  <anchor x="692.0" y="1826.0" name="top"/>
-  <anchor x="19.0" y="1292.0" name="topleft"/>
-  <anchor x="902.0" y="1293.0" name="topright"/>
+  <advance width="1386"/>
+  <anchor x="692" y="0" name="bottom"/>
+  <anchor x="693" y="648" name="center"/>
+  <anchor x="759" y="18" name="ogonek"/>
+  <anchor x="798" y="0" name="q"/>
+  <anchor x="692" y="1826" name="top"/>
+  <anchor x="19" y="1292" name="topleft"/>
+  <anchor x="942" y="1293" name="topright"/>
   <outline>
     <component base="ohorn.sc"/>
-    <component base="hookabovecomb" xOffset="471.0" yOffset="250.0"/>
+    <component base="hookabovecomb" xOffset="471" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

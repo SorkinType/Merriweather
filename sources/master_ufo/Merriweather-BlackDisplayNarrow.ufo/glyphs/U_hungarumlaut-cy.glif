@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhungarumlaut-cy" format="2">
-  <advance width="1204.0"/>
+  <advance width="1185"/>
   <unicode hex="04F2"/>
-  <anchor x="663.0" y="1965.0" name="top"/>
+  <anchor x="663" y="1965" name="top"/>
   <outline>
     <component base="U-cy"/>
-    <component base="hungarumlautcomb.case" xOffset="393.0"/>
+    <component base="hungarumlautcomb.case" xOffset="393"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/24 07:29:35</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

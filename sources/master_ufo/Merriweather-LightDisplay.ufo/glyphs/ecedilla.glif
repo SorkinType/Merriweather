@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecedilla" format="2">
-  <advance width="894.0"/>
+  <advance width="896"/>
   <unicode hex="0229"/>
-  <anchor x="506.0" y="0.0" name="_bottom"/>
-  <anchor x="506.0" y="0.0" name="bottom"/>
-  <anchor x="658.0" y="20.0" name="ogonek"/>
-  <anchor x="562.0" y="1110.0" name="top"/>
+  <anchor x="506" y="0" name="_bottom"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="658" y="20" name="ogonek"/>
+  <anchor x="562" y="1110" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="cedillacomb" xOffset="269.0"/>
+    <component base="cedillacomb" xOffset="269"/>
   </outline>
   <lib>
     <dict>
@@ -18,12 +18,8 @@
       <string>e</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>e</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

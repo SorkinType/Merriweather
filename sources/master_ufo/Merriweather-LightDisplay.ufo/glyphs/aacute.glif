@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aacute" format="2">
-  <advance width="888.0"/>
+  <advance width="888"/>
   <unicode hex="00E1"/>
-  <anchor x="413.0" y="0.0" name="bottom"/>
-  <anchor x="739.0" y="20.0" name="ogonek"/>
-  <anchor x="440.0" y="1560.0" name="top"/>
+  <anchor x="413" y="0" name="bottom"/>
+  <anchor x="739" y="20" name="ogonek"/>
+  <anchor x="440" y="1560" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="acutecomb" xOffset="305.0"/>
+    <component base="acutecomb" xOffset="305"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

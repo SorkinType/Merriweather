@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aacute.sc" format="2">
-  <advance width="1221.0"/>
-  <anchor x="616.0" y="0.0" name="bottom"/>
-  <anchor x="1078.0" y="17.0" name="ogonek"/>
-  <anchor x="607.0" y="1810.0" name="top"/>
+  <advance width="1221"/>
+  <anchor x="616" y="0" name="bottom"/>
+  <anchor x="1078" y="17" name="ogonek"/>
+  <anchor x="607" y="1810" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="acutecomb" xOffset="472.0" yOffset="250.0"/>
+    <component base="acutecomb" xOffset="472" yOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

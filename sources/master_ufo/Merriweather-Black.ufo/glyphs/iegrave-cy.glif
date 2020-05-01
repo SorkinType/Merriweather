@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iegrave-cy" format="2">
-  <advance width="1105.0"/>
+  <advance width="1105"/>
   <unicode hex="0450"/>
-  <anchor x="551.0" y="0.0" name="bottom"/>
-  <anchor x="534.0" y="20.0" name="ogonek"/>
-  <anchor x="605.0" y="1796.0" name="top"/>
+  <anchor x="551" y="0" name="bottom"/>
+  <anchor x="534" y="20" name="ogonek"/>
+  <anchor x="605" y="1796" name="top"/>
   <outline>
     <component base="ie-cy"/>
-    <component base="gravecomb" xOffset="231.0" yOffset="-1.0"/>
+    <component base="gravecomb" xOffset="231" yOffset="-1"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/23 15:12:57</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

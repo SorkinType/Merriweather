@@ -1,18 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lcommaaccent.sc" format="2">
-  <advance width="1188.0"/>
-  <anchor x="643.0" y="-545.0" name="bottom"/>
-  <anchor x="612.0" y="647.0" name="center"/>
-  <anchor x="402.0" y="1363.0" name="top"/>
-  <anchor x="953.0" y="967.0" name="topright"/>
+  <advance width="1188"/>
+  <anchor x="643" y="-545" name="bottom"/>
+  <anchor x="612" y="647" name="center"/>
+  <anchor x="402" y="1363" name="top"/>
+  <anchor x="953" y="967" name="topright"/>
   <outline>
     <component base="l.sc"/>
-    <component base="commaaccentcomb" xOffset="470.0"/>
+    <component base="commaaccentcomb" xOffset="470"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-    </dict>
-  </lib>
 </glyph>

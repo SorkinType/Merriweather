@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zhedieresis-cy" format="2">
-  <advance width="1756.0"/>
+  <advance width="1758"/>
   <unicode hex="04DD"/>
-  <anchor x="1753.0" y="0.0" name="bottomright"/>
-  <anchor x="883.0" y="1547.0" name="top"/>
+  <anchor x="1755" y="0" name="bottomright"/>
+  <anchor x="880" y="1547" name="top"/>
   <outline>
     <component base="zhe-cy"/>
-    <component base="dieresiscomb" xOffset="508.0"/>
+    <component base="dieresiscomb" xOffset="505"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevedotbelow" format="2">
-  <advance width="1304.0"/>
+  <advance width="1299"/>
   <unicode hex="1EB6"/>
-  <anchor x="643.0" y="-346.0" name="bottom"/>
-  <anchor x="1154.0" y="20.0" name="ogonek"/>
-  <anchor x="656.0" y="1868.0" name="top"/>
+  <anchor x="638" y="-346" name="bottom"/>
+  <anchor x="1149" y="20" name="ogonek"/>
+  <anchor x="651" y="1868" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="brevecomb.case" xOffset="403.0"/>
-    <component base="dotbelowcomb" xOffset="530.0"/>
+    <component base="brevecomb.case" xOffset="398"/>
+    <component base="dotbelowcomb" xOffset="525"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

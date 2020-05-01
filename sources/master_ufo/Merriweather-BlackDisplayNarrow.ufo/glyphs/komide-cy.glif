@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="komide-cy" format="2">
-  <advance width="1014.0"/>
+  <advance width="1001"/>
   <unicode hex="0501"/>
-  <anchor x="517.0" y="0.0" name="bottom"/>
-  <anchor x="515.0" y="576.0" name="center"/>
-  <anchor x="293.0" y="1158.0" name="top"/>
-  <anchor x="1036.0" y="1111.0" name="topright"/>
+  <anchor x="517" y="0" name="bottom"/>
+  <anchor x="515" y="576" name="center"/>
+  <anchor x="293" y="1158" name="top"/>
+  <anchor x="1036" y="1111" name="topright"/>
   <outline>
     <component base="d"/>
   </outline>
@@ -13,12 +13,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,44 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="de-cy.sc" format="2">
-  <advance width="1212.0"/>
+  <advance width="1212"/>
   <outline>
     <contour>
-      <point x="1094.0" y="22.0" type="line"/>
-      <point x="1028.0" y="72.0" type="line"/>
-      <point x="1028.0" y="1222.0" type="line"/>
-      <point x="1178.0" y="1255.0" type="line"/>
-      <point x="1178.0" y="1292.0" type="line"/>
-      <point x="131.0" y="1292.0" type="line"/>
-      <point x="131.0" y="1255.0" type="line"/>
-      <point x="346.0" y="1222.0" type="line"/>
-      <point x="346.0" y="1078.0" type="line" smooth="yes"/>
-      <point x="346.0" y="430.0"/>
-      <point x="217.0" y="194.0"/>
-      <point x="132.0" y="72.0" type="curve"/>
-      <point x="92.0" y="22.0" type="line"/>
-      <point x="280.0" y="0.0" type="line"/>
-      <point x="903.0" y="0.0" type="line"/>
+      <point x="1094" y="22" type="line"/>
+      <point x="1028" y="72" type="line"/>
+      <point x="1028" y="1222" type="line"/>
+      <point x="1178" y="1255" type="line"/>
+      <point x="1178" y="1292" type="line"/>
+      <point x="131" y="1292" type="line"/>
+      <point x="131" y="1255" type="line"/>
+      <point x="346" y="1222" type="line"/>
+      <point x="346" y="1078" type="line" smooth="yes"/>
+      <point x="346" y="430"/>
+      <point x="217" y="194"/>
+      <point x="132" y="72" type="curve"/>
+      <point x="92" y="22" type="line"/>
+      <point x="280" y="0" type="line"/>
+      <point x="903" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="417.0" y="1068.0" type="curve" smooth="yes"/>
-      <point x="417.0" y="1222.0" type="line"/>
-      <point x="677.0" y="1222.0" type="line"/>
-      <point x="679.0" y="72.0" type="line"/>
-      <point x="226.0" y="72.0" type="line"/>
-      <point x="300.0" y="200.0"/>
-      <point x="417.0" y="451.0"/>
+      <point x="417" y="1068" type="curve" smooth="yes"/>
+      <point x="417" y="1222" type="line"/>
+      <point x="677" y="1222" type="line"/>
+      <point x="679" y="72" type="line"/>
+      <point x="226" y="72" type="line"/>
+      <point x="300" y="200"/>
+      <point x="417" y="451"/>
     </contour>
-    <component base="lefttooth_part." xOffset="-8.0"/>
-    <component base="righttooth_part." xOffset="839.0"/>
+    <component base="lefttooth_part." xOffset="-8"/>
+    <component base="righttooth_part." xOffset="839"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>pe-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

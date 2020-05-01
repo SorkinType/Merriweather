@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ygrave" format="2">
-  <advance width="1106.0"/>
+  <advance width="1106"/>
   <unicode hex="1EF2"/>
-  <anchor x="560.0" y="0.0" name="bottom"/>
+  <anchor x="560" y="0" name="bottom"/>
   <anchor x="554.728" y="547.0" name="center"/>
-  <anchor x="577.0" y="1960.0" name="top"/>
-  <anchor x="20.0" y="1486.0" name="topleft"/>
+  <anchor x="577" y="1960" name="top"/>
+  <anchor x="20" y="1486" name="topleft"/>
   <outline>
     <component base="Y"/>
-    <component base="gravecomb.case" xOffset="311.0"/>
+    <component base="gravecomb.case" xOffset="311"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

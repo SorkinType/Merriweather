@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcircumflex" format="2">
-  <advance width="1232.0"/>
+  <advance width="1232"/>
   <unicode hex="011C"/>
-  <anchor x="749.0" y="0.0" name="bottom"/>
+  <anchor x="679" y="0" name="bottom"/>
   <anchor x="1024.808" y="349.0" name="rstem"/>
-  <anchor x="809.0" y="1960.0" name="top"/>
+  <anchor x="699" y="1960" name="top"/>
   <outline>
     <component base="G"/>
-    <component base="circumflexcomb.case" xOffset="484.0"/>
+    <component base="circumflexcomb.case" xOffset="374"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

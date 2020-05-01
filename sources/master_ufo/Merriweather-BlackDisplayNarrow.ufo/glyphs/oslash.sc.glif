@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslash.sc" format="2">
-  <advance width="1180.0"/>
-  <anchor x="589.0" y="0.0" name="bottom"/>
-  <anchor x="591.0" y="648.0" name="center"/>
-  <anchor x="670.0" y="18.0" name="ogonek"/>
-  <anchor x="682.0" y="0.0" name="q"/>
-  <anchor x="592.0" y="1360.0" name="top"/>
-  <anchor x="46.0" y="1292.0" name="topleft"/>
-  <anchor x="832.0" y="1293.0" name="topright"/>
+  <advance width="1180"/>
+  <anchor x="589" y="0" name="bottom"/>
+  <anchor x="591" y="648" name="center"/>
+  <anchor x="670" y="18" name="ogonek"/>
+  <anchor x="682" y="0" name="q"/>
+  <anchor x="592" y="1360" name="top"/>
+  <anchor x="46" y="1292" name="topleft"/>
+  <anchor x="832" y="1293" name="topright"/>
   <outline>
     <component base="o.sc"/>
-    <component base="slashocomb.sc" xOffset="-74.0" yOffset="7.0"/>
+    <component base="slashocomb.sc" xOffset="-74" yOffset="7"/>
   </outline>
   <lib>
     <dict>
@@ -18,8 +18,6 @@
       <string>o.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>o.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
     </dict>
   </lib>
 </glyph>

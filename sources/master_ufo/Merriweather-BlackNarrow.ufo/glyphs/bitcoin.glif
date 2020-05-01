@@ -1,50 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bitcoin" format="2">
-  <advance width="1339.0"/>
+  <advance width="1337"/>
   <unicode hex="20BF"/>
-  <anchor x="664.0" y="0.0" name="bottom"/>
-  <anchor x="664.0" y="1486.0" name="top"/>
+  <anchor x="667" y="0" name="bottom"/>
+  <anchor x="667" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="573.0" y="1738.0" type="line"/>
-      <point x="411.0" y="1738.0" type="line"/>
-      <point x="411.0" y="1440.0" type="line"/>
-      <point x="573.0" y="1440.0" type="line"/>
+      <point x="574" y="1738" type="line"/>
+      <point x="412" y="1738" type="line"/>
+      <point x="412" y="1440" type="line"/>
+      <point x="574" y="1440" type="line"/>
     </contour>
     <contour>
-      <point x="927.0" y="1738.0" type="line"/>
-      <point x="765.0" y="1738.0" type="line"/>
-      <point x="765.0" y="1440.0" type="line"/>
-      <point x="927.0" y="1440.0" type="line"/>
+      <point x="928" y="1738" type="line"/>
+      <point x="766" y="1738" type="line"/>
+      <point x="766" y="1440" type="line"/>
+      <point x="928" y="1440" type="line"/>
     </contour>
     <contour>
-      <point x="573.0" y="38.0" type="line"/>
-      <point x="411.0" y="38.0" type="line"/>
-      <point x="411.0" y="-260.0" type="line"/>
-      <point x="573.0" y="-260.0" type="line"/>
+      <point x="574" y="38" type="line"/>
+      <point x="412" y="38" type="line"/>
+      <point x="412" y="-260" type="line"/>
+      <point x="574" y="-260" type="line"/>
     </contour>
     <contour>
-      <point x="927.0" y="38.0" type="line"/>
-      <point x="765.0" y="38.0" type="line"/>
-      <point x="765.0" y="-260.0" type="line"/>
-      <point x="927.0" y="-260.0" type="line"/>
+      <point x="928" y="38" type="line"/>
+      <point x="766" y="38" type="line"/>
+      <point x="766" y="-260" type="line"/>
+      <point x="928" y="-260" type="line"/>
     </contour>
-    <component base="B" xOffset="38.0"/>
+    <component base="B" xOffset="39"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>B</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>euro</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>euro</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

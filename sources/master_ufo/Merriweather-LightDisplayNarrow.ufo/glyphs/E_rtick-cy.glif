@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ertick-cy" format="2">
-  <advance width="1016.0"/>
+  <advance width="1016"/>
   <unicode hex="048E"/>
-  <anchor x="256.0" y="0.0" name="bottom"/>
-  <anchor x="577.0" y="1486.0" name="top"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="577" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="888.0" y="435.0" type="line"/>
-      <point x="948.0" y="485.0" type="line"/>
-      <point x="535.0" y="989.0" type="line"/>
-      <point x="475.0" y="939.0" type="line"/>
+      <point x="888" y="435" type="line"/>
+      <point x="948" y="485" type="line"/>
+      <point x="535" y="989" type="line"/>
+      <point x="475" y="939" type="line"/>
     </contour>
     <component base="P"/>
   </outline>
@@ -19,10 +19,6 @@
       <string>P</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>P</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

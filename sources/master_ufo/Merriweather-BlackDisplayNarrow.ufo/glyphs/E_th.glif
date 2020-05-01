@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eth" format="2">
-  <advance width="1244.0"/>
+  <advance width="1247"/>
   <unicode hex="00D0"/>
-  <anchor x="734.0" y="0.0" name="bottom"/>
-  <anchor x="740.0" y="764.0" name="center"/>
-  <anchor x="330.0" y="763.0" name="lstem"/>
-  <anchor x="734.0" y="1486.0" name="top"/>
+  <anchor x="734" y="0" name="bottom"/>
+  <anchor x="740" y="764" name="center"/>
+  <anchor x="330" y="763" name="lstem"/>
+  <anchor x="734" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="686.0" y="802.0" type="line"/>
-      <point x="43.0" y="802.0" type="line"/>
-      <point x="43.0" y="732.0" type="line"/>
-      <point x="686.0" y="732.0" type="line"/>
+      <point x="686" y="802" type="line"/>
+      <point x="43" y="802" type="line"/>
+      <point x="43" y="732" type="line"/>
+      <point x="686" y="732" type="line"/>
     </contour>
     <component base="D"/>
   </outline>
@@ -21,10 +21,6 @@
       <string>D</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>D</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

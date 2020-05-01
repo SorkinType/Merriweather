@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="686"/>
+  <unicode hex="0049"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="488" y="-164" name="btm"/>
+  <anchor x="290" y="0" name="ogonek"/>
+  <anchor x="486" y="1486" name="top"/>
+  <anchor x="179" y="1486" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="-48" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="591" y="39" type="line"/>
+      <point x="471" y="72" type="line"/>
+      <point x="655" y="1413" type="line"/>
+      <point x="796" y="1450" type="line"/>
+      <point x="800" y="1486" type="line"/>
+      <point x="158" y="1486" type="line"/>
+      <point x="153" y="1450" type="line"/>
+      <point x="280" y="1413" type="line"/>
+      <point x="97" y="72" type="line"/>
+      <point x="-43" y="39" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

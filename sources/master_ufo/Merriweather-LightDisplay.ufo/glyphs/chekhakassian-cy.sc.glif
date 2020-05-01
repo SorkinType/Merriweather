@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chekhakassian-cy.sc" format="2">
-  <advance width="1190.0"/>
-  <anchor x="632.0" y="0.0" name="bottomleft"/>
-  <anchor x="1162.0" y="0.0" name="bottomright"/>
-  <anchor x="567.0" y="1340.0" name="top"/>
+  <advance width="1190"/>
+  <anchor x="632" y="0" name="bottomleft"/>
+  <anchor x="1162" y="0" name="bottomright"/>
+  <anchor x="567" y="1340" name="top"/>
   <outline>
     <component base="che-cy.sc"/>
-    <component base="lefttooth_part." xOffset="621.0"/>
+    <component base="lefttooth_part." xOffset="621"/>
   </outline>
   <lib>
     <dict>
@@ -14,68 +14,64 @@
       <string>che-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>pe-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>1164.0</real>
-            <real>35.0</real>
+            <integer>1164</integer>
+            <integer>35</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1162.0</real>
-            <real>1257.0</real>
+            <integer>1162</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>673.0</real>
-            <real>1257.0</real>
+            <integer>673</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>455.0</real>
-            <real>1257.0</real>
+            <integer>455</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>21.0</real>
-            <real>1257.0</real>
+            <integer>21</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

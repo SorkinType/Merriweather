@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zdotbelow" format="2">
-  <advance width="1131.0"/>
+  <advance width="1131"/>
   <unicode hex="1E93"/>
-  <anchor x="574.0" y="-377.0" name="bottom"/>
-  <anchor x="595.0" y="1111.0" name="top"/>
+  <anchor x="574" y="-377" name="bottom"/>
+  <anchor x="595" y="1111" name="top"/>
   <outline>
     <component base="z"/>
-    <component base="dotbelowcomb" xOffset="372.0"/>
+    <component base="dotbelowcomb" xOffset="372"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

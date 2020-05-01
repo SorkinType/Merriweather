@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iishorttail-cy.sc" format="2">
-  <advance width="1604.0"/>
-  <anchor x="1543.0" y="0.0" name="bottomright"/>
-  <anchor x="803.0" y="1272.0" name="top"/>
+  <advance width="1604"/>
+  <anchor x="1543" y="0" name="bottomright"/>
+  <anchor x="803" y="1272" name="top"/>
   <outline>
     <component base="ii-cy.sc"/>
-    <component base="brevecomb-cy" xOffset="370.0" yOffset="161.0"/>
-    <component base="righttooth_part." xOffset="1137.0"/>
+    <component base="brevecomb-cy" xOffset="370" yOffset="161"/>
+    <component base="righttooth_part." xOffset="1137"/>
   </outline>
   <lib>
     <dict>
@@ -14,10 +14,6 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>pe-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

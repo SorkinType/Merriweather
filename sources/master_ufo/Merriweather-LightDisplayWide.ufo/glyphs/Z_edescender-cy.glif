@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zedescender-cy" format="2">
-  <advance width="1131.0"/>
+  <advance width="1155"/>
   <unicode hex="0498"/>
-  <anchor x="501.0" y="-470.0" name="bottom"/>
-  <anchor x="524.0" y="1486.0" name="top"/>
+  <anchor x="521" y="-470" name="bottom"/>
+  <anchor x="544" y="1486" name="top"/>
   <outline>
     <component base="Ze-cy"/>
-    <component base="cedillacomb.case" xOffset="281.0"/>
+    <component base="cedillacomb.case" xOffset="301"/>
   </outline>
   <lib>
     <dict>
@@ -14,10 +14,6 @@
       <string>Ze-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Ze-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

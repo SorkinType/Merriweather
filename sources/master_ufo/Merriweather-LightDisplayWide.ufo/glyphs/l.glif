@@ -1,36 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l" format="2">
-  <advance width="455.0"/>
+  <advance width="435"/>
   <unicode hex="006C"/>
-  <anchor x="252.0" y="0.0" name="bottom"/>
-  <anchor x="241.0" y="1634.0" name="top"/>
-  <anchor x="545.0" y="1110.0" name="topright"/>
+  <anchor x="252" y="0" name="bottom"/>
+  <anchor x="241" y="1634" name="top"/>
+  <anchor x="545" y="1110" name="topright"/>
   <outline>
     <contour>
-      <point x="169.0" y="67.0" type="line"/>
-      <point x="49.0" y="36.0" type="line"/>
-      <point x="49.0" y="0.0" type="line"/>
-      <point x="425.0" y="0.0" type="line"/>
-      <point x="425.0" y="36.0" type="line"/>
-      <point x="308.0" y="67.0" type="line"/>
-      <point x="308.0" y="1625.0" type="line"/>
-      <point x="297.0" y="1638.0" type="line"/>
-      <point x="233.0" y="1638.0" type="line"/>
-      <point x="15.0" y="1606.0" type="line"/>
-      <point x="15.0" y="1579.0" type="line"/>
-      <point x="169.0" y="1560.0" type="line"/>
+      <point x="169" y="67" type="line"/>
+      <point x="49" y="36" type="line"/>
+      <point x="49" y="0" type="line"/>
+      <point x="425" y="0" type="line"/>
+      <point x="425" y="36" type="line"/>
+      <point x="308" y="67" type="line"/>
+      <point x="308" y="1625" type="line"/>
+      <point x="297" y="1638" type="line"/>
+      <point x="233" y="1638" type="line"/>
+      <point x="15" y="1606" type="line"/>
+      <point x="15" y="1579" type="line"/>
+      <point x="169" y="1560" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

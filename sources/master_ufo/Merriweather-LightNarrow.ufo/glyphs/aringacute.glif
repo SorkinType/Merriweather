@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringacute" format="2">
-  <advance width="915.0"/>
+  <advance width="880"/>
   <unicode hex="01FB"/>
-  <anchor x="434.0" y="5.0" name="bottom"/>
-  <anchor x="718.0" y="20.0" name="ogonek"/>
-  <anchor x="425.0" y="2126.0" name="top"/>
+  <anchor x="434" y="5" name="bottom"/>
+  <anchor x="718" y="20" name="ogonek"/>
+  <anchor x="425" y="2126" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="ringcomb" xOffset="175.0"/>
-    <component base="acutecomb" xOffset="310.0" yOffset="556.0"/>
+    <component base="ringcomb" xOffset="175"/>
+    <component base="acutecomb" xOffset="310" yOffset="556"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,97 +1,99 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yeru-cy.sc" format="2">
-  <advance width="1684.0"/>
-  <anchor x="911.0" y="1292.0" name="top"/>
-  <anchor x="1421.0" y="0.0" name="bottom"/>
-  <anchor x="1457.0" y="18.0" name="ogonek"/>
+  <advance width="1684"/>
+  <anchor x="911" y="1292" name="top"/>
+  <anchor x="1421" y="0" name="bottom"/>
+  <anchor x="1457" y="18" name="ogonek"/>
   <outline>
     <component base="softsign-cy.sc"/>
-    <component base="i-cy.sc" xOffset="1155.0"/>
+    <component base="i-cy.sc" xOffset="1155"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>i-cy.sc</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>i-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>
           <key>position</key>
           <array>
-            <real>664.0</real>
-            <real>1257.0</real>
+            <integer>664</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>133.0</real>
-            <real>1257.0</real>
+            <integer>133</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>126.0</real>
-            <real>35.0</real>
+            <integer>126</integer>
+            <integer>35</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1474.0</real>
-            <real>1257.0</real>
+            <integer>1474</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>1474.0</real>
-            <real>35.0</real>
+            <integer>1474</integer>
+            <integer>35</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
         <dict>
           <key>position</key>
           <array>
-            <real>2047.0</real>
-            <real>1257.0</real>
+            <integer>2047</integer>
+            <integer>1257</integer>
           </array>
           <key>type</key>
           <string>Circle</string>
           <key>width</key>
-          <real>30.0</real>
+          <integer>30</integer>
         </dict>
       </array>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>
