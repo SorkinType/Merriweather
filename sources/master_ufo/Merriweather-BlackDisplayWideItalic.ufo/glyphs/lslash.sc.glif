@@ -1,20 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lslash.sc" format="2">
-  <advance width="1197"/>
-  <anchor x="597" y="0" name="bottom"/>
-  <anchor x="927" y="940" name="car"/>
-  <anchor x="317" y="543" name="center"/>
-  <anchor x="516" y="1383" name="top"/>
+  <advance width="1219"/>
+  <anchor x="619" y="0" name="bottom"/>
+  <anchor x="949" y="940" name="car"/>
+  <anchor x="359" y="543" name="center"/>
+  <anchor x="538" y="1383" name="top"/>
   <outline>
-    <component base="l.sc"/>
-    <component base="slashshortcomb" xOffset="-43" yOffset="-200"/>
+    <component base="l.sc" xOffset="22"/>
+    <component base="slashshortcomb" xOffset="-1" yOffset="-200"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>l.sc</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>l.sc+20</string>
+      <string>=l.sc+10</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>l.sc</string>
       <key>com.schriftgestaltung.Glyphs.script</key>

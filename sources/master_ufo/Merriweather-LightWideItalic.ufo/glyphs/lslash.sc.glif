@@ -3,18 +3,18 @@
   <advance width="1149"/>
   <anchor x="559" y="0" name="bottom"/>
   <anchor x="848" y="940" name="car"/>
-  <anchor x="298" y="543" name="center"/>
+  <anchor x="348" y="543" name="center"/>
   <anchor x="435" y="1292" name="top"/>
   <outline>
     <component base="l.sc"/>
-    <component base="slashshortcomb" xOffset="-28" yOffset="-200"/>
+    <component base="slashshortcomb" xOffset="22" yOffset="-200"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>l.sc+20</string>
+      <string>=l.sc+10</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>l.sc</string>
       <key>com.schriftgestaltung.Glyphs.script</key>

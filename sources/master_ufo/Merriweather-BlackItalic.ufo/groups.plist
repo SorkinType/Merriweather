@@ -4196,7 +4196,6 @@
       <string>ldot.sc</string>
       <string>ldotbelow.sc</string>
       <string>llinebelow.sc</string>
-      <string>lslash.sc</string>
       <string>n.sc</string>
       <string>nacute.sc</string>
       <string>ncaron.sc</string>
@@ -4467,6 +4466,10 @@
     <key>public.kern2.lslash</key>
     <array>
       <string>lslash</string>
+    </array>
+    <key>public.kern2.lslash.sc</key>
+    <array>
+      <string>lslash.sc</string>
     </array>
     <key>public.kern2.m.sc</key>
     <array>
