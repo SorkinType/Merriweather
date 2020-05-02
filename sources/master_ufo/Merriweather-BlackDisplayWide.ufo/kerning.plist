@@ -2,11 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>I</key>
-    <dict>
-      <key>public.kern2.H</key>
-      <integer>30</integer>
-    </dict>
     <key>Lcaron</key>
     <dict>
       <key>public.kern2.T</key>
@@ -161,30 +156,18 @@
       <integer>20</integer>
       <key>public.kern2.AE</key>
       <integer>70</integer>
-      <key>public.kern2.C</key>
-      <integer>-30</integer>
       <key>public.kern2.Che-cy</key>
       <integer>-140</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-170</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-40</integer>
       <key>public.kern2.El-cy</key>
       <integer>40</integer>
       <key>public.kern2.H</key>
       <integer>-20</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-150</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-180</integer>
       <key>public.kern2.O</key>
       <integer>-50</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-30</integer>
       <key>public.kern2.T</key>
       <integer>-140</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-130</integer>
       <key>public.kern2.U</key>
       <integer>-88</integer>
       <key>public.kern2.U-cy</key>
@@ -197,8 +180,6 @@
       <integer>-110</integer>
       <key>public.kern2.Y</key>
       <integer>-200</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-130</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>40</integer>
       <key>public.kern2.asterisk</key>
@@ -383,10 +364,6 @@
       <integer>30</integer>
       <key>public.kern2.AE</key>
       <integer>50</integer>
-      <key>public.kern2.C</key>
-      <integer>70</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>20</integer>
       <key>public.kern2.El-cy</key>
       <integer>20</integer>
       <key>public.kern2.Es-cy</key>
@@ -512,8 +489,6 @@
       <integer>30</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>30</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-40</integer>
       <key>public.kern2.a.sc</key>
       <integer>80</integer>
       <key>public.kern2.braceright</key>
@@ -539,12 +514,8 @@
       <integer>-70</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-90</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-150</integer>
       <key>public.kern2.Komide-cy</key>
       <integer>20</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-170</integer>
       <key>public.kern2.Reversedze-cy</key>
       <integer>30</integer>
       <key>public.kern2.T</key>
@@ -559,8 +530,6 @@
       <integer>-30</integer>
       <key>public.kern2.Y</key>
       <integer>-190</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-150</integer>
       <key>public.kern2.a</key>
       <integer>40</integer>
       <key>public.kern2.a.sc</key>
@@ -652,63 +621,6 @@
       <key>public.kern2.guilsinglright</key>
       <integer>50</integer>
     </dict>
-    <key>public.kern1.Ef-cy.loclBGR</key>
-    <dict>
-      <key>public.kern2.A</key>
-      <integer>-40</integer>
-      <key>public.kern2.De-cy</key>
-      <integer>-70</integer>
-      <key>public.kern2.El-cy</key>
-      <integer>-30</integer>
-      <key>public.kern2.Ha-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.Ia-cy</key>
-      <integer>-40</integer>
-      <key>public.kern2.O</key>
-      <integer>20</integer>
-      <key>public.kern2.T</key>
-      <integer>20</integer>
-      <key>public.kern2.U-cy</key>
-      <integer>-110</integer>
-      <key>public.kern2.V</key>
-      <integer>-60</integer>
-      <key>public.kern2.W</key>
-      <integer>-50</integer>
-      <key>public.kern2.X</key>
-      <integer>-120</integer>
-      <key>public.kern2.Y</key>
-      <integer>-100</integer>
-      <key>public.kern2.Yusbig-cy</key>
-      <integer>-120</integer>
-      <key>public.kern2.Zhe-cy</key>
-      <integer>-110</integer>
-      <key>public.kern2.ae.sc</key>
-      <integer>-110</integer>
-      <key>public.kern2.cheabkhasian-cy.sc</key>
-      <integer>70</integer>
-      <key>public.kern2.de-cy</key>
-      <integer>-30</integer>
-      <key>public.kern2.ef-cy.loclBGR</key>
-      <integer>60</integer>
-      <key>public.kern2.es-cy.sc</key>
-      <integer>50</integer>
-      <key>public.kern2.guilsinglright</key>
-      <integer>40</integer>
-      <key>public.kern2.hyphen</key>
-      <integer>80</integer>
-      <key>public.kern2.period</key>
-      <integer>-50</integer>
-      <key>public.kern2.space</key>
-      <integer>-40</integer>
-      <key>public.kern2.y</key>
-      <integer>30</integer>
-      <key>public.kern2.yusbig-cy.sc</key>
-      <integer>-150</integer>
-      <key>public.kern2.zhe-cy</key>
-      <integer>-40</integer>
-      <key>public.kern2.zhe-cy.sc</key>
-      <integer>-40</integer>
-    </dict>
     <key>public.kern1.Eogonek</key>
     <dict>
       <key>public.kern2.x</key>
@@ -722,8 +634,6 @@
       <integer>-40</integer>
       <key>public.kern2.De-cy</key>
       <integer>-150</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>20</integer>
       <key>public.kern2.El-cy</key>
       <integer>-110</integer>
       <key>public.kern2.Ia-cy</key>
@@ -736,8 +646,6 @@
       <integer>-40</integer>
       <key>public.kern2.X</key>
       <integer>-60</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>50</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>-190</integer>
       <key>public.kern2.Zhe-cy</key>
@@ -847,8 +755,6 @@
       <integer>-120</integer>
       <key>public.kern2.De-cy</key>
       <integer>-140</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-40</integer>
       <key>public.kern2.El-cy</key>
       <integer>-180</integer>
       <key>public.kern2.Germandbls</key>
@@ -1001,8 +907,6 @@
       <integer>60</integer>
       <key>public.kern2.Y</key>
       <integer>40</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>30</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>-240</integer>
       <key>public.kern2.Zhe-cy</key>
@@ -1135,16 +1039,12 @@
       <integer>-100</integer>
       <key>public.kern2.AE</key>
       <integer>-90</integer>
-      <key>public.kern2.C</key>
-      <integer>-130</integer>
       <key>public.kern2.Che-cy</key>
       <integer>40</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-190</integer>
       <key>public.kern2.De-cy</key>
       <integer>-100</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-210</integer>
       <key>public.kern2.El-cy</key>
       <integer>-150</integer>
       <key>public.kern2.Es-cy</key>
@@ -1159,8 +1059,6 @@
       <integer>-70</integer>
       <key>public.kern2.O</key>
       <integer>-90</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-120</integer>
       <key>public.kern2.Reversedze-cy</key>
       <integer>-40</integer>
       <key>public.kern2.S</key>
@@ -1175,8 +1073,6 @@
       <integer>50</integer>
       <key>public.kern2.Y</key>
       <integer>60</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-40</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>-210</integer>
       <key>public.kern2.Ze-cy</key>
@@ -1233,10 +1129,6 @@
       <integer>-210</integer>
       <key>public.kern2.ge-cy.loclBGR</key>
       <integer>-240</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>-240</integer>
-      <key>public.kern2.ghestroke-cy</key>
-      <integer>-230</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-190</integer>
       <key>public.kern2.guilsinglright</key>
@@ -1328,6 +1220,8 @@
     <dict>
       <key>public.kern2.AE</key>
       <integer>30</integer>
+      <key>public.kern2.H</key>
+      <integer>30</integer>
       <key>public.kern2.a</key>
       <integer>-14</integer>
       <key>public.kern2.ampersand</key>
@@ -1361,18 +1255,12 @@
     </dict>
     <key>public.kern1.Ha-cy</key>
     <dict>
-      <key>public.kern2.C</key>
-      <integer>-90</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-90</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-60</integer>
       <key>public.kern2.Es-cy</key>
       <integer>-50</integer>
       <key>public.kern2.O</key>
       <integer>-70</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-60</integer>
       <key>public.kern2.T</key>
       <integer>20</integer>
       <key>public.kern2.Yusbig-cy</key>
@@ -1419,10 +1307,6 @@
       <key>public.kern2.Ha-cy</key>
       <integer>-130</integer>
       <key>public.kern2.Ia-cy</key>
-      <integer>-80</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-70</integer>
-      <key>public.kern2.Komizje-cy</key>
       <integer>-80</integer>
       <key>public.kern2.T</key>
       <integer>-60</integer>
@@ -1482,8 +1366,6 @@
       <integer>-230</integer>
       <key>public.kern2.AE</key>
       <integer>-100</integer>
-      <key>public.kern2.C</key>
-      <integer>-80</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-110</integer>
       <key>public.kern2.De-cy</key>
@@ -1496,16 +1378,12 @@
       <integer>-120</integer>
       <key>public.kern2.Komide-cy</key>
       <integer>-190</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>20</integer>
       <key>public.kern2.M</key>
       <integer>-60</integer>
       <key>public.kern2.O</key>
       <integer>-80</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>40</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-100</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>-240</integer>
       <key>public.kern2.a</key>
@@ -1556,10 +1434,6 @@
       <integer>-160</integer>
       <key>public.kern2.ge-cy.loclBGR</key>
       <integer>-230</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>-150</integer>
-      <key>public.kern2.ghestroke-cy</key>
-      <integer>-160</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-160</integer>
       <key>public.kern2.guilsinglright</key>
@@ -1812,53 +1686,18 @@
       <key>public.kern2.y</key>
       <integer>-120</integer>
     </dict>
-    <key>public.kern1.Kahook-cy</key>
-    <dict>
-      <key>public.kern2.A</key>
-      <integer>110</integer>
-      <key>public.kern2.AE</key>
-      <integer>130</integer>
-      <key>public.kern2.Cheabkhasian-cy</key>
-      <integer>-110</integer>
-      <key>public.kern2.a</key>
-      <integer>36</integer>
-      <key>public.kern2.che-cy</key>
-      <integer>-40</integer>
-      <key>public.kern2.d</key>
-      <integer>20</integer>
-      <key>public.kern2.komizje-cy.sc</key>
-      <integer>-110</integer>
-      <key>public.kern2.o</key>
-      <integer>30</integer>
-      <key>public.kern2.v.sc</key>
-      <integer>-30</integer>
-      <key>public.kern2.w.sc</key>
-      <integer>-40</integer>
-      <key>public.kern2.yat-cy</key>
-      <integer>-40</integer>
-      <key>public.kern2.yat-cy.sc</key>
-      <integer>-130</integer>
-    </dict>
     <key>public.kern1.Komidje-cy</key>
     <dict>
-      <key>public.kern2.C</key>
-      <integer>100</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>20</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>90</integer>
       <key>public.kern2.Es-cy</key>
       <integer>120</integer>
       <key>public.kern2.Ghestroke-cy</key>
       <integer>50</integer>
       <key>public.kern2.Komide-cy</key>
       <integer>20</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-50</integer>
       <key>public.kern2.O</key>
       <integer>90</integer>
-      <key>public.kern2.Phi</key>
-      <integer>80</integer>
       <key>public.kern2.T</key>
       <integer>-20</integer>
       <key>public.kern2.U-cy</key>
@@ -1942,10 +1781,6 @@
       <integer>-40</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-80</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-50</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-60</integer>
       <key>public.kern2.T</key>
       <integer>-50</integer>
       <key>public.kern2.U-cy</key>
@@ -1956,8 +1791,6 @@
       <integer>-60</integer>
       <key>public.kern2.Y</key>
       <integer>-90</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-40</integer>
       <key>public.kern2.che-cy</key>
       <integer>-40</integer>
       <key>public.kern2.cheabkhasian-cy</key>
@@ -2057,103 +1890,6 @@
       <key>public.kern2.y.sc</key>
       <integer>-150</integer>
     </dict>
-    <key>public.kern1.Lje-cy</key>
-    <dict>
-      <key>public.kern2.AE</key>
-      <integer>80</integer>
-      <key>public.kern2.C</key>
-      <integer>30</integer>
-      <key>public.kern2.Che-cy</key>
-      <integer>-70</integer>
-      <key>public.kern2.De-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>20</integer>
-      <key>public.kern2.El-cy</key>
-      <integer>30</integer>
-      <key>public.kern2.Es-cy</key>
-      <integer>40</integer>
-      <key>public.kern2.Ha-cy</key>
-      <integer>-40</integer>
-      <key>public.kern2.J</key>
-      <integer>-30</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-90</integer>
-      <key>public.kern2.Komide-cy</key>
-      <integer>50</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-170</integer>
-      <key>public.kern2.O</key>
-      <integer>40</integer>
-      <key>public.kern2.Phi</key>
-      <integer>50</integer>
-      <key>public.kern2.Reversedze-cy</key>
-      <integer>40</integer>
-      <key>public.kern2.T</key>
-      <integer>-130</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-80</integer>
-      <key>public.kern2.U-cy</key>
-      <integer>-160</integer>
-      <key>public.kern2.V</key>
-      <integer>-200</integer>
-      <key>public.kern2.W</key>
-      <integer>-120</integer>
-      <key>public.kern2.X</key>
-      <integer>-100</integer>
-      <key>public.kern2.Y</key>
-      <integer>-210</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-120</integer>
-      <key>public.kern2.Yusbig-cy</key>
-      <integer>-50</integer>
-      <key>public.kern2.Zhe-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.a</key>
-      <integer>40</integer>
-      <key>public.kern2.be-cy</key>
-      <integer>40</integer>
-      <key>public.kern2.che-cy.sc</key>
-      <integer>-50</integer>
-      <key>public.kern2.de-cy</key>
-      <integer>-40</integer>
-      <key>public.kern2.hyphen</key>
-      <integer>40</integer>
-      <key>public.kern2.ia-cy.sc</key>
-      <integer>-30</integer>
-      <key>public.kern2.komizje-cy.sc</key>
-      <integer>-130</integer>
-      <key>public.kern2.o</key>
-      <integer>40</integer>
-      <key>public.kern2.quoteleft</key>
-      <integer>-80</integer>
-      <key>public.kern2.quotesingle</key>
-      <integer>-130</integer>
-      <key>public.kern2.te-cy.sc</key>
-      <integer>-40</integer>
-      <key>public.kern2.v</key>
-      <integer>-60</integer>
-      <key>public.kern2.v.sc</key>
-      <integer>-50</integer>
-      <key>public.kern2.w</key>
-      <integer>-40</integer>
-      <key>public.kern2.w.sc</key>
-      <integer>-70</integer>
-      <key>public.kern2.x.sc</key>
-      <integer>-100</integer>
-      <key>public.kern2.y</key>
-      <integer>-40</integer>
-      <key>public.kern2.yat-cy.sc</key>
-      <integer>-120</integer>
-      <key>public.kern2.yusbig-cy</key>
-      <integer>-20</integer>
-      <key>public.kern2.yusbig-cy.sc</key>
-      <integer>-70</integer>
-      <key>public.kern2.zhe-cy</key>
-      <integer>-50</integer>
-      <key>public.kern2.zhe-cy.sc</key>
-      <integer>-20</integer>
-    </dict>
     <key>public.kern1.M</key>
     <dict>
       <key>public.kern2.AE</key>
@@ -2172,8 +1908,6 @@
       <integer>-40</integer>
       <key>public.kern2.U</key>
       <integer>-30</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-40</integer>
       <key>public.kern2.che-cy.sc</key>
       <integer>-50</integer>
       <key>public.kern2.d</key>
@@ -2241,8 +1975,6 @@
       <integer>40</integer>
       <key>public.kern2.M</key>
       <integer>-40</integer>
-      <key>public.kern2.Phi</key>
-      <integer>40</integer>
       <key>public.kern2.T</key>
       <integer>40</integer>
       <key>public.kern2.U</key>
@@ -2354,8 +2086,6 @@
       <integer>-90</integer>
       <key>public.kern2.Y</key>
       <integer>-50</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>60</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>-250</integer>
       <key>public.kern2.Zhe-cy</key>
@@ -2439,8 +2169,6 @@
     <dict>
       <key>public.kern2.Pe-cy</key>
       <integer>80</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-14</integer>
       <key>public.kern2.Ze-cy</key>
       <integer>30</integer>
       <key>public.kern2.a</key>
@@ -2462,67 +2190,6 @@
       <key>public.kern2.quoteleft</key>
       <integer>20</integer>
     </dict>
-    <key>public.kern1.Phi</key>
-    <dict>
-      <key>public.kern2.De-cy</key>
-      <integer>-130</integer>
-      <key>public.kern2.El-cy</key>
-      <integer>-130</integer>
-      <key>public.kern2.Es-cy</key>
-      <integer>50</integer>
-      <key>public.kern2.H</key>
-      <integer>-14</integer>
-      <key>public.kern2.Ha-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.Ia-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.Phi</key>
-      <integer>20</integer>
-      <key>public.kern2.T</key>
-      <integer>30</integer>
-      <key>public.kern2.U-cy</key>
-      <integer>-160</integer>
-      <key>public.kern2.V</key>
-      <integer>-100</integer>
-      <key>public.kern2.W</key>
-      <integer>-70</integer>
-      <key>public.kern2.X</key>
-      <integer>-150</integer>
-      <key>public.kern2.Y</key>
-      <integer>-110</integer>
-      <key>public.kern2.Yusbig-cy</key>
-      <integer>-140</integer>
-      <key>public.kern2.Zhe-cy</key>
-      <integer>-140</integer>
-      <key>public.kern2.ae.sc</key>
-      <integer>-150</integer>
-      <key>public.kern2.cheabkhasian-cy.sc</key>
-      <integer>60</integer>
-      <key>public.kern2.de-cy</key>
-      <integer>-100</integer>
-      <key>public.kern2.de-cy.sc</key>
-      <integer>-40</integer>
-      <key>public.kern2.el-cy</key>
-      <integer>-70</integer>
-      <key>public.kern2.el-cy.sc</key>
-      <integer>-50</integer>
-      <key>public.kern2.hyphen</key>
-      <integer>60</integer>
-      <key>public.kern2.parenright</key>
-      <integer>-40</integer>
-      <key>public.kern2.period</key>
-      <integer>-88</integer>
-      <key>public.kern2.y</key>
-      <integer>20</integer>
-      <key>public.kern2.yusbig-cy</key>
-      <integer>-120</integer>
-      <key>public.kern2.yusbig-cy.sc</key>
-      <integer>-140</integer>
-      <key>public.kern2.zhe-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.zhe-cy.sc</key>
-      <integer>-60</integer>
-    </dict>
     <key>public.kern1.Q</key>
     <dict>
       <key>public.kern2.A</key>
@@ -2531,8 +2198,6 @@
       <integer>-20</integer>
       <key>public.kern2.De-cy</key>
       <integer>-40</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>30</integer>
       <key>public.kern2.El-cy</key>
       <integer>-30</integer>
       <key>public.kern2.Ia-cy</key>
@@ -2541,8 +2206,6 @@
       <integer>-20</integer>
       <key>public.kern2.M</key>
       <integer>-40</integer>
-      <key>public.kern2.Phi</key>
-      <integer>20</integer>
       <key>public.kern2.U</key>
       <integer>-40</integer>
       <key>public.kern2.U-cy</key>
@@ -2555,8 +2218,6 @@
       <integer>-100</integer>
       <key>public.kern2.Y</key>
       <integer>-100</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>20</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>-130</integer>
       <key>public.kern2.Zhe-cy</key>
@@ -2719,14 +2380,8 @@
     <dict>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-70</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-130</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-140</integer>
       <key>public.kern2.T</key>
       <integer>-80</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-100</integer>
       <key>public.kern2.U-cy</key>
       <integer>-150</integer>
       <key>public.kern2.V</key>
@@ -2735,8 +2390,6 @@
       <integer>-140</integer>
       <key>public.kern2.Y</key>
       <integer>-180</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-130</integer>
       <key>public.kern2.che-cy.sc</key>
       <integer>-70</integer>
       <key>public.kern2.komizje-cy.sc</key>
@@ -2772,24 +2425,16 @@
       <integer>-50</integer>
       <key>public.kern2.Ha-cy</key>
       <integer>-70</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-110</integer>
       <key>public.kern2.Komide-cy</key>
       <integer>30</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-100</integer>
       <key>public.kern2.O</key>
       <integer>60</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>-20</integer>
-      <key>public.kern2.Phi</key>
-      <integer>40</integer>
       <key>public.kern2.Reversedze-cy</key>
       <integer>20</integer>
       <key>public.kern2.T</key>
       <integer>-110</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-70</integer>
       <key>public.kern2.U-cy</key>
       <integer>-130</integer>
       <key>public.kern2.V</key>
@@ -2800,8 +2445,6 @@
       <integer>-40</integer>
       <key>public.kern2.Y</key>
       <integer>-160</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-110</integer>
       <key>public.kern2.Zhe-cy</key>
       <integer>-30</integer>
       <key>public.kern2.a</key>
@@ -2845,8 +2488,6 @@
     </dict>
     <key>public.kern1.T</key>
     <dict>
-      <key>icircumflex</key>
-      <integer>30</integer>
       <key>idieresis</key>
       <integer>40</integer>
       <key>igrave</key>
@@ -2861,8 +2502,6 @@
       <integer>20</integer>
       <key>public.kern2.De-cy</key>
       <integer>-130</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>20</integer>
       <key>public.kern2.El-cy</key>
       <integer>-130</integer>
       <key>public.kern2.Ha-cy</key>
@@ -2897,8 +2536,6 @@
       <integer>-130</integer>
       <key>public.kern2.de-cy.sc</key>
       <integer>-70</integer>
-      <key>public.kern2.dje-cy</key>
-      <integer>30</integer>
       <key>public.kern2.el-cy</key>
       <integer>-100</integer>
       <key>public.kern2.el-cy.loclBGR</key>
@@ -2917,6 +2554,8 @@
       <integer>40</integer>
       <key>public.kern2.hyphen</key>
       <integer>-138</integer>
+      <key>public.kern2.i</key>
+      <integer>30</integer>
       <key>public.kern2.ia-cy</key>
       <integer>-90</integer>
       <key>public.kern2.ia-cy.sc</key>
@@ -2952,65 +2591,10 @@
       <key>public.kern2.zhe-cy</key>
       <integer>-70</integer>
     </dict>
-    <key>public.kern1.Te-cy</key>
-    <dict>
-      <key>public.kern2.A</key>
-      <integer>-50</integer>
-      <key>public.kern2.AE</key>
-      <integer>-60</integer>
-      <key>public.kern2.De-cy</key>
-      <integer>-100</integer>
-      <key>public.kern2.El-cy</key>
-      <integer>-120</integer>
-      <key>public.kern2.Ia-cy</key>
-      <integer>-40</integer>
-      <key>public.kern2.Komide-cy</key>
-      <integer>-80</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>50</integer>
-      <key>public.kern2.Yusbig-cy</key>
-      <integer>-160</integer>
-      <key>public.kern2.a.sc</key>
-      <integer>-100</integer>
-      <key>public.kern2.ae.sc</key>
-      <integer>-200</integer>
-      <key>public.kern2.cheabkhasian-cy</key>
-      <integer>-50</integer>
-      <key>public.kern2.de-cy</key>
-      <integer>-90</integer>
-      <key>public.kern2.de-cy.sc</key>
-      <integer>-70</integer>
-      <key>public.kern2.el-cy</key>
-      <integer>-50</integer>
-      <key>public.kern2.el-cy.sc</key>
-      <integer>-80</integer>
-      <key>public.kern2.ia-cy</key>
-      <integer>-70</integer>
-      <key>public.kern2.ia-cy.sc</key>
-      <integer>-60</integer>
-      <key>public.kern2.komide-cy.sc</key>
-      <integer>-130</integer>
-      <key>public.kern2.o</key>
-      <integer>-60</integer>
-      <key>public.kern2.space</key>
-      <integer>-20</integer>
-      <key>public.kern2.y</key>
-      <integer>60</integer>
-      <key>public.kern2.yusbig-cy</key>
-      <integer>-130</integer>
-      <key>public.kern2.yusbig-cy.sc</key>
-      <integer>-200</integer>
-      <key>public.kern2.zhe-cy</key>
-      <integer>-40</integer>
-    </dict>
     <key>public.kern1.Tshe-cy</key>
     <dict>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-110</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-150</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-200</integer>
       <key>public.kern2.T</key>
       <integer>-160</integer>
       <key>public.kern2.U-cy</key>
@@ -3021,8 +2605,6 @@
       <integer>-170</integer>
       <key>public.kern2.Y</key>
       <integer>-180</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-140</integer>
       <key>public.kern2.che-cy</key>
       <integer>-80</integer>
       <key>public.kern2.che-cy.sc</key>
@@ -3133,8 +2715,6 @@
       <integer>-260</integer>
       <key>public.kern2.AE</key>
       <integer>-120</integer>
-      <key>public.kern2.C</key>
-      <integer>-130</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-110</integer>
       <key>public.kern2.De-cy</key>
@@ -3151,8 +2731,6 @@
       <integer>-60</integer>
       <key>public.kern2.O</key>
       <integer>-110</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-160</integer>
       <key>public.kern2.S</key>
       <integer>-50</integer>
       <key>public.kern2.U-cy</key>
@@ -3211,10 +2789,6 @@
       <integer>-150</integer>
       <key>public.kern2.ge-cy.loclBGR</key>
       <integer>-220</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>-150</integer>
-      <key>public.kern2.ghestroke-cy</key>
-      <integer>-150</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-220</integer>
       <key>public.kern2.guilsinglright</key>
@@ -3417,8 +2991,6 @@
       <integer>-150</integer>
       <key>public.kern2.De-cy</key>
       <integer>-90</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-130</integer>
       <key>public.kern2.El-cy</key>
       <integer>-40</integer>
       <key>public.kern2.Germandbls</key>
@@ -3431,8 +3003,6 @@
       <integer>-96</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>60</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-190</integer>
       <key>public.kern2.Reversedze-cy</key>
       <integer>-80</integer>
       <key>public.kern2.S</key>
@@ -3444,8 +3014,6 @@
       <key>public.kern2.V</key>
       <integer>-100</integer>
       <key>public.kern2.Y</key>
-      <integer>-60</integer>
-      <key>public.kern2.Yat-cy</key>
       <integer>-60</integer>
       <key>public.kern2.Yusbig-cy</key>
       <integer>-260</integer>
@@ -3560,14 +3128,10 @@
       <integer>-150</integer>
       <key>public.kern2.AE</key>
       <integer>-80</integer>
-      <key>public.kern2.C</key>
-      <integer>-40</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-60</integer>
       <key>public.kern2.De-cy</key>
       <integer>-30</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-40</integer>
       <key>public.kern2.El-cy</key>
       <integer>-80</integer>
       <key>public.kern2.Es-cy</key>
@@ -3576,18 +3140,12 @@
       <integer>-80</integer>
       <key>public.kern2.H</key>
       <integer>-40</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>20</integer>
       <key>public.kern2.Komide-cy</key>
       <integer>-80</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>20</integer>
       <key>public.kern2.O</key>
       <integer>-72</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>60</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-70</integer>
       <key>public.kern2.T</key>
       <integer>18</integer>
       <key>public.kern2.U</key>
@@ -3662,8 +3220,6 @@
       <integer>-80</integer>
       <key>public.kern2.germandbls.sc</key>
       <integer>-140</integer>
-      <key>public.kern2.ghestroke-cy</key>
-      <integer>-40</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-70</integer>
       <key>public.kern2.guilsinglright</key>
@@ -3755,12 +3311,8 @@
     <dict>
       <key>public.kern2.A</key>
       <integer>-50</integer>
-      <key>public.kern2.C</key>
-      <integer>-100</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-230</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-130</integer>
       <key>public.kern2.Es-cy</key>
       <integer>-110</integer>
       <key>public.kern2.H</key>
@@ -3771,14 +3323,10 @@
       <integer>-96</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>40</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-160</integer>
       <key>public.kern2.U</key>
       <integer>-90</integer>
       <key>public.kern2.Y</key>
       <integer>-50</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-60</integer>
       <key>public.kern2.ampersand</key>
       <integer>14</integer>
       <key>public.kern2.be-cy</key>
@@ -3864,12 +3412,8 @@
       <integer>100</integer>
       <key>public.kern2.A</key>
       <integer>-58</integer>
-      <key>public.kern2.C</key>
-      <integer>-110</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-110</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-100</integer>
       <key>public.kern2.El-cy</key>
       <integer>-60</integer>
       <key>public.kern2.Es-cy</key>
@@ -3884,14 +3428,10 @@
       <integer>-98</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>40</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-110</integer>
       <key>public.kern2.S</key>
       <integer>-34</integer>
       <key>public.kern2.T</key>
       <integer>40</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>50</integer>
       <key>public.kern2.W</key>
       <integer>-50</integer>
       <key>public.kern2.X</key>
@@ -3966,10 +3506,6 @@
       <integer>-90</integer>
       <key>public.kern2.germandbls.sc</key>
       <integer>-150</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>-90</integer>
-      <key>public.kern2.ghestroke-cy</key>
-      <integer>-90</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-120</integer>
       <key>public.kern2.guilsinglright</key>
@@ -4069,30 +3605,18 @@
     <dict>
       <key>public.kern2.A</key>
       <integer>40</integer>
-      <key>public.kern2.C</key>
-      <integer>-120</integer>
       <key>public.kern2.Che-cy</key>
       <integer>-210</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-260</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-120</integer>
       <key>public.kern2.Es-cy</key>
       <integer>-120</integer>
       <key>public.kern2.Ia-cy</key>
       <integer>40</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-230</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-260</integer>
       <key>public.kern2.O</key>
       <integer>-120</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-140</integer>
       <key>public.kern2.T</key>
       <integer>-200</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-170</integer>
       <key>public.kern2.U-cy</key>
       <integer>-120</integer>
       <key>public.kern2.V</key>
@@ -4101,8 +3625,6 @@
       <integer>-200</integer>
       <key>public.kern2.Y</key>
       <integer>-160</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-240</integer>
       <key>public.kern2.Ze-cy</key>
       <integer>40</integer>
       <key>public.kern2.asterisk</key>
@@ -4226,32 +3748,22 @@
     <dict>
       <key>public.kern2.AE</key>
       <integer>100</integer>
-      <key>public.kern2.C</key>
-      <integer>-60</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-220</integer>
       <key>public.kern2.De-cy</key>
       <integer>60</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-110</integer>
       <key>public.kern2.Es-cy</key>
       <integer>-110</integer>
       <key>public.kern2.O</key>
       <integer>-100</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>40</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-130</integer>
       <key>public.kern2.T</key>
       <integer>-30</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-40</integer>
       <key>public.kern2.U-cy</key>
       <integer>-50</integer>
       <key>public.kern2.W</key>
       <integer>40</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-110</integer>
       <key>public.kern2.a</key>
       <integer>-20</integer>
       <key>public.kern2.be-cy</key>
@@ -4475,8 +3987,6 @@
       <integer>52</integer>
       <key>public.kern2.H</key>
       <integer>14</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-110</integer>
       <key>public.kern2.M</key>
       <integer>22</integer>
       <key>public.kern2.O</key>
@@ -4692,8 +4202,6 @@
       <integer>-120</integer>
       <key>public.kern2.d</key>
       <integer>-38</integer>
-      <key>public.kern2.dje-cy</key>
-      <integer>60</integer>
       <key>public.kern2.eth</key>
       <integer>-40</integer>
       <key>public.kern2.f</key>
@@ -4739,8 +4247,6 @@
       <integer>-60</integer>
       <key>public.kern2.che-cy</key>
       <integer>-90</integer>
-      <key>public.kern2.dje-cy</key>
-      <integer>100</integer>
       <key>public.kern2.eth</key>
       <integer>-50</integer>
       <key>public.kern2.f</key>
@@ -5069,10 +4575,6 @@
       <integer>50</integer>
       <key>public.kern2.ge-cy</key>
       <integer>20</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>30</integer>
-      <key>public.kern2.ghestroke-cy</key>
-      <integer>20</integer>
       <key>public.kern2.ha-cy</key>
       <integer>70</integer>
       <key>public.kern2.i</key>
@@ -5323,15 +4825,6 @@
       <key>public.kern2.zhe-cy</key>
       <integer>-50</integer>
     </dict>
-    <key>public.kern1.ertick-cy</key>
-    <dict>
-      <key>public.kern2.de-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.yusbig-cy</key>
-      <integer>-50</integer>
-      <key>public.kern2.zhe-cy</key>
-      <integer>-70</integer>
-    </dict>
     <key>public.kern1.ertick-cy.sc</key>
     <dict>
       <key>public.kern2.ae.sc</key>
@@ -5446,8 +4939,6 @@
     <dict>
       <key>ibreve</key>
       <integer>26</integer>
-      <key>idieresis</key>
-      <integer>32</integer>
       <key>public.kern2.a</key>
       <integer>-14</integer>
       <key>public.kern2.asterisk</key>
@@ -5975,8 +5466,6 @@
       <integer>20</integer>
       <key>public.kern2.O</key>
       <integer>50</integer>
-      <key>public.kern2.Phi</key>
-      <integer>40</integer>
       <key>public.kern2.U-cy</key>
       <integer>-60</integer>
       <key>public.kern2.V</key>
@@ -5987,8 +5476,6 @@
       <integer>-80</integer>
       <key>public.kern2.Zhe-cy</key>
       <integer>40</integer>
-      <key>public.kern2.dje-cy</key>
-      <integer>80</integer>
       <key>public.kern2.f</key>
       <integer>40</integer>
       <key>public.kern2.h.sc</key>
@@ -6008,14 +5495,8 @@
       <integer>-40</integer>
       <key>public.kern2.Ha-cy</key>
       <integer>-70</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-60</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-60</integer>
       <key>public.kern2.T</key>
       <integer>-80</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-100</integer>
       <key>public.kern2.U</key>
       <integer>-40</integer>
       <key>public.kern2.U-cy</key>
@@ -6054,8 +5535,6 @@
       <integer>60</integer>
       <key>public.kern2.enlefthook-cy</key>
       <integer>60</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>50</integer>
       <key>public.kern2.ha-cy</key>
       <integer>40</integer>
       <key>public.kern2.hbar</key>
@@ -6201,20 +5680,12 @@
     <dict>
       <key>public.kern2.A</key>
       <integer>-64</integer>
-      <key>public.kern2.C</key>
-      <integer>40</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>80</integer>
       <key>public.kern2.Es-cy</key>
       <integer>40</integer>
       <key>public.kern2.Ha-cy</key>
       <integer>-80</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-90</integer>
       <key>public.kern2.M</key>
       <integer>-80</integer>
-      <key>public.kern2.Phi</key>
-      <integer>60</integer>
       <key>public.kern2.S</key>
       <integer>-38</integer>
       <key>public.kern2.T</key>
@@ -6515,8 +5986,6 @@
       <integer>30</integer>
       <key>public.kern2.ereversed-cy</key>
       <integer>40</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>30</integer>
       <key>public.kern2.ha-cy</key>
       <integer>30</integer>
       <key>public.kern2.ustraitstroke-cy</key>
@@ -7223,8 +6692,6 @@
       <integer>-54</integer>
       <key>public.kern2.Pe-cy</key>
       <integer>30</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-50</integer>
       <key>public.kern2.Ze-cy</key>
       <integer>20</integer>
       <key>public.kern2.a</key>
@@ -7240,8 +6707,6 @@
       <key>public.kern2.cheabkhasian-cy</key>
       <integer>-220</integer>
       <key>public.kern2.de-cy</key>
-      <integer>90</integer>
-      <key>public.kern2.dje-cy</key>
       <integer>90</integer>
       <key>public.kern2.eth</key>
       <integer>-100</integer>
@@ -7359,25 +6824,15 @@
       <integer>-280</integer>
       <key>public.kern2.De-cy</key>
       <integer>30</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-50</integer>
       <key>public.kern2.El-cy</key>
       <integer>90</integer>
       <key>public.kern2.J</key>
       <integer>-20</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-110</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-120</integer>
       <key>public.kern2.M</key>
       <integer>40</integer>
       <key>public.kern2.O</key>
       <integer>-58</integer>
-      <key>public.kern2.Phi</key>
-      <integer>-90</integer>
       <key>public.kern2.T</key>
-      <integer>-270</integer>
-      <key>public.kern2.Te-cy</key>
       <integer>-270</integer>
       <key>public.kern2.U</key>
       <integer>-96</integer>
@@ -7389,8 +6844,6 @@
       <integer>-260</integer>
       <key>public.kern2.Y</key>
       <integer>-256</integer>
-      <key>public.kern2.Yat-cy</key>
-      <integer>-200</integer>
       <key>public.kern2.Ze-cy</key>
       <integer>70</integer>
       <key>public.kern2.a</key>
@@ -7640,12 +7093,8 @@
       <integer>-220</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-250</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-90</integer>
       <key>public.kern2.El-cy</key>
       <integer>40</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-140</integer>
       <key>public.kern2.M</key>
       <integer>40</integer>
       <key>public.kern2.O</key>
@@ -7877,10 +7326,6 @@
       <integer>-150</integer>
       <key>public.kern2.Cheabkhasian-cy</key>
       <integer>-130</integer>
-      <key>public.kern2.Kabashkir-cy</key>
-      <integer>-110</integer>
-      <key>public.kern2.Komizje-cy</key>
-      <integer>-90</integer>
       <key>public.kern2.O</key>
       <integer>-60</integer>
       <key>public.kern2.T</key>
@@ -8452,14 +7897,10 @@
       <integer>-50</integer>
       <key>public.kern2.De-cy</key>
       <integer>-40</integer>
-      <key>public.kern2.Ef-cy.loclBGR</key>
-      <integer>-40</integer>
       <key>public.kern2.El-cy</key>
       <integer>-60</integer>
       <key>public.kern2.T</key>
       <integer>-50</integer>
-      <key>public.kern2.Te-cy</key>
-      <integer>-20</integer>
       <key>public.kern2.U-cy</key>
       <integer>-30</integer>
       <key>public.kern2.V</key>
@@ -9221,8 +8662,6 @@
       <integer>-20</integer>
       <key>public.kern2.ge-cy</key>
       <integer>40</integer>
-      <key>public.kern2.gestrokehook-cy</key>
-      <integer>50</integer>
       <key>public.kern2.hyphen</key>
       <integer>-70</integer>
       <key>public.kern2.o</key>
@@ -9277,8 +8716,6 @@
       <integer>-32</integer>
       <key>public.kern2.de-cy</key>
       <integer>-50</integer>
-      <key>public.kern2.dje-cy</key>
-      <integer>40</integer>
       <key>public.kern2.el-cy</key>
       <integer>-28</integer>
       <key>public.kern2.el-cy.loclBGR</key>

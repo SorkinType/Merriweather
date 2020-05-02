@@ -92,7 +92,7 @@
       <key>public.kern2.exclam</key>
       <integer>-36</integer>
       <key>public.kern2.ezh</key>
-      <integer>-38</integer>
+      <integer>-50</integer>
       <key>public.kern2.f</key>
       <integer>-38</integer>
       <key>public.kern2.five.sinf</key>
@@ -843,11 +843,6 @@
       <integer>-18</integer>
       <key>public.kern2.z.sc</key>
       <integer>-40</integer>
-    </dict>
-    <key>public.kern1.Hadescender-cy</key>
-    <dict>
-      <key>public.kern2.comma</key>
-      <integer>90</integer>
     </dict>
     <key>public.kern1.Hahook-cy</key>
     <dict>
@@ -1785,6 +1780,8 @@
       <integer>2</integer>
       <key>public.kern2.comma</key>
       <integer>-90</integer>
+      <key>public.kern2.eth</key>
+      <integer>-50</integer>
       <key>public.kern2.g</key>
       <integer>-65</integer>
       <key>public.kern2.hyphen</key>

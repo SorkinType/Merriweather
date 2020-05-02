@@ -77,7 +77,7 @@
       <key>public.kern2.exclam</key>
       <integer>38</integer>
       <key>public.kern2.ezh</key>
-      <integer>-2</integer>
+      <integer>-10</integer>
       <key>public.kern2.f</key>
       <integer>-2</integer>
       <key>public.kern2.five.sinf</key>
@@ -603,11 +603,6 @@
       <integer>20</integer>
       <key>public.kern2.y</key>
       <integer>-20</integer>
-    </dict>
-    <key>public.kern1.Hadescender-cy</key>
-    <dict>
-      <key>public.kern2.period</key>
-      <integer>70</integer>
     </dict>
     <key>public.kern1.Hahook-cy</key>
     <dict>
@@ -1271,6 +1266,8 @@
       <integer>-40</integer>
       <key>public.kern2.asterisk</key>
       <integer>38</integer>
+      <key>public.kern2.eth</key>
+      <integer>-20</integer>
       <key>public.kern2.g</key>
       <integer>-20</integer>
       <key>public.kern2.germandbls</key>
