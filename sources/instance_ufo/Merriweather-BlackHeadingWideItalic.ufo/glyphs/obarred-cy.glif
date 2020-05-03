@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obarred-cy" format="2">
+  <advance width="1203.4545454545453"/>
+  <unicode hex="04E9"/>
+  <anchor x="680.1818181818181" y="1110.0" name="top"/>
+  <anchor x="506.36363636363626" y="-27.0" name="bottom"/>
+  <anchor x="599.2727272727273" y="523.1818181818181" name="center"/>
+  <anchor x="681.4545454545455" y="7.272727272727273" name="ogonek"/>
+  <anchor x="870.4545454545454" y="1043.1818181818182" name="topright"/>
+  <outline>
+    <contour>
+      <point x="809.8181818181819" y="493.54545454545456" type="line"/>
+      <point x="818.6363636363636" y="569.5454545454545" type="line"/>
+      <point x="387.0" y="569.5454545454545" type="line"/>
+      <point x="376.09090909090907" y="493.54545454545456" type="line"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

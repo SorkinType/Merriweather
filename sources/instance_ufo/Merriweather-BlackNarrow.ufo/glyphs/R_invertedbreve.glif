@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rinvertedbreve" format="2">
-  <advance width="1362.0"/>
+  <advance width="1364"/>
   <unicode hex="0212"/>
-  <anchor x="795.0" y="0.0" name="bottom"/>
-  <anchor x="711.0" y="1958.0" name="top"/>
+  <anchor x="797" y="0" name="bottom"/>
+  <anchor x="713" y="1958" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="breveinvertedcomb.case" xOffset="367.0"/>
+    <component base="breveinvertedcomb.case" xOffset="369"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

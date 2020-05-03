@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek" format="2">
+  <advance width="1128.1304347826087"/>
+  <unicode hex="0105"/>
+  <anchor x="515.1739130434783" y="0.0" name="bottom"/>
+  <anchor x="1117.4347826086957" y="1622.0" name="caron"/>
+  <anchor x="908.1739130434783" y="0.0" name="ogonek"/>
+  <anchor x="669.7826086956521" y="1108.608695652174" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="ogonekcomb" xOffset="681.5217391304346"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>29</integer>
+            <integer>0</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

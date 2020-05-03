@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn.sc" format="2">
+  <advance width="1199.3241106719368"/>
+  <anchor x="546.4584980237155" y="0.0" name="bottom"/>
+  <anchor x="683.6996047430829" y="0.0" name="ogonek"/>
+  <anchor x="709.0513833992095" y="1308.5454545454545" name="top"/>
+  <anchor x="1122.9644268774705" y="1292.0" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="horncomb" xOffset="1182.818181818182" yOffset="1292.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

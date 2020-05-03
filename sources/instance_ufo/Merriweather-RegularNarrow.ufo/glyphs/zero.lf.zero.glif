@@ -1,41 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.lf.zero" format="2">
-  <advance width="1188.677900552486"/>
+  <advance width="1166.6408839779006"/>
   <outline>
-    <contour>
-      <point x="578.9853591160221" y="-18.56353591160221" type="curve" smooth="yes"/>
-      <point x="890.8196132596685" y="-18.56353591160221"/>
-      <point x="1094.0019337016574" y="262.78453038674036"/>
-      <point x="1095.4383977900552" y="750.817679558011" type="curve" smooth="yes"/>
-      <point x="1096.874861878453" y="1209.2154696132598"/>
-      <point x="953.6593922651933" y="1504.5635359116022"/>
-      <point x="614.0019337016574" y="1504.5635359116022" type="curve" smooth="yes"/>
-      <point x="315.29475138121546" y="1504.5635359116022"/>
-      <point x="94.67596685082873" y="1243.3259668508288"/>
-      <point x="93.23950276243094" y="750.9834254143647" type="curve" smooth="yes"/>
-      <point x="91.80303867403315" y="301.76795580110496"/>
-      <point x="241.94668508287293" y="-18.56353591160221"/>
-    </contour>
-    <contour>
-      <point x="593.7477900552486" y="84.14364640883977" type="curve" smooth="yes"/>
-      <point x="398.74226519337014" y="84.14364640883977"/>
-      <point x="312.01298342541435" y="345.878453038674"/>
-      <point x="312.01298342541435" y="761.8011049723757" type="curve" smooth="yes"/>
-      <point x="312.01298342541435" y="1203.1049723756905"/>
-      <point x="396.1234806629834" y="1401.8563535911603"/>
-      <point x="596.9301104972376" y="1401.8563535911603" type="curve" smooth="yes"/>
-      <point x="792.5544198895028" y="1401.8563535911603"/>
-      <point x="875.228453038674" y="1175.8121546961327"/>
-      <point x="875.228453038674" y="734.9281767955802" type="curve" smooth="yes"/>
-      <point x="875.228453038674" y="297.0939226519337"/>
-      <point x="801.6262430939227" y="84.14364640883977"/>
-    </contour>
-    <contour>
-      <point x="880.1124309392266" y="1288.0" type="line"/>
-      <point x="262.1124309392265" y="202.0" type="line"/>
-      <point x="330.1124309392265" y="156.3646408839779" type="line"/>
-      <point x="948.1124309392266" y="1242.364640883978" type="line"/>
-    </contour>
+    <component base="zero.zero"/>
   </outline>
   <lib>
     <dict>
@@ -43,10 +10,8 @@
       <string>zero.lf</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>zero.lf</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.25,0.25,0.25,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohornhookabove" format="2">
+  <advance width="1193"/>
+  <unicode hex="1EDF"/>
+  <anchor x="597" y="0" name="bottom"/>
+  <anchor x="597" y="503" name="center"/>
+  <anchor x="695" y="10" name="ogonek"/>
+  <anchor x="597" y="1576" name="top"/>
+  <anchor x="864" y="1005" name="topright"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="hookabovecomb" xOffset="376"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

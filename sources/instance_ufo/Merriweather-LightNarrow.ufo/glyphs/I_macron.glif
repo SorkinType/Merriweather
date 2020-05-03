@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Imacron" format="2">
-  <advance width="617.0"/>
+  <advance width="617"/>
   <unicode hex="012A"/>
-  <anchor x="309.0" y="5.0" name="bottom"/>
-  <anchor x="312.0" y="20.0" name="ogonek"/>
-  <anchor x="309.0" y="1840.0" name="top"/>
-  <anchor x="-1.0" y="1486.0" name="topleft"/>
+  <anchor x="309" y="5" name="bottom"/>
+  <anchor x="312" y="20" name="ogonek"/>
+  <anchor x="309" y="1840" name="top"/>
+  <anchor x="-1" y="1486" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="macroncomb.case" xOffset="45.0"/>
+    <component base="macroncomb.case" xOffset="45"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

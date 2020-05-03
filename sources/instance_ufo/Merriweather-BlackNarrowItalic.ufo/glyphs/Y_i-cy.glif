@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yi-cy" format="2">
+  <advance width="717"/>
+  <unicode hex="0407"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="447" y="-164" name="btm"/>
+  <anchor x="305" y="0" name="ogonek"/>
+  <anchor x="546" y="1892" name="top"/>
+  <anchor x="202" y="1486" name="topleft"/>
+  <outline>
+    <component base="I-cy"/>
+    <component base="dieresiscomb.case" xOffset="-27"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

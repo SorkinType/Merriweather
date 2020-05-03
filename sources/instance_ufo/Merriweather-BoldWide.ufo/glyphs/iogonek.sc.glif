@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iogonek.sc" format="2">
-  <advance width="784.0220994475137"/>
+  <advance width="784.0220994475138"/>
   <anchor x="390.42541436464086" y="0.0" name="bottom"/>
-  <anchor x="443.54696132596683" y="18.0" name="ogonek"/>
+  <anchor x="443.5469613259669" y="18.0" name="ogonek"/>
   <anchor x="392.1491712707182" y="1272.0" name="top"/>
   <outline>
     <component base="i.sc"/>
-    <component base="ogonekcomb" xOffset="71.14917127071823" yOffset="14.342541436464087"/>
+    <component base="ogonekcomb" xOffset="71.14917127071824" yOffset="14.342541436464089"/>
   </outline>
   <lib>
     <dict>
@@ -21,10 +21,6 @@
         <key>width</key>
         <integer>96</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

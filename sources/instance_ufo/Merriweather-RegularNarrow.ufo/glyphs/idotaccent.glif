@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotaccent" format="2">
-  <advance width="568.9338674033149"/>
-  <anchor x="339.24723756906076" y="0.0" name="bottom"/>
-  <anchor x="414.78544198895025" y="20.0" name="ogonek"/>
-  <anchor x="282.9949723756906" y="1449.3839226519337" name="top"/>
+  <advance width="540.6132596685082"/>
+  <anchor x="275.96132596685084" y="0.0" name="bottom"/>
+  <anchor x="338.3425414364641" y="20.0" name="ogonek"/>
+  <anchor x="270.9337016574586" y="1445.6685082872928" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="126.27411602209945" yOffset="0.819944751381215"/>
+    <component base="dotaccentcomb" xOffset="121.3646408839779" yOffset="0.56353591160221"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

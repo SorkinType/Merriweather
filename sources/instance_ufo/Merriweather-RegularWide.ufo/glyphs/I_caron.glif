@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Icaron" format="2">
-  <advance width="779.6685082872928"/>
+  <advance width="779.0773480662983"/>
   <unicode hex="01CF"/>
   <anchor x="387.707182320442" y="0.0" name="bottom"/>
   <anchor x="420.2044198895028" y="20.0" name="ogonek"/>
-  <anchor x="387.707182320442" y="1838.6519337016575" name="top"/>
-  <anchor x="-19.303867403314925" y="1486.0" name="topleft"/>
+  <anchor x="387.70718232044203" y="1838.6519337016575" name="top"/>
+  <anchor x="-19.303867403314918" y="1486.0" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="caroncomb.case" xOffset="9.13812154696133"/>
+    <component base="caroncomb.case" xOffset="9.138121546961326"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

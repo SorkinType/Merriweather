@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bitcoin" format="2">
+  <advance width="1320.4545454545455"/>
+  <unicode hex="20BF"/>
+  <anchor x="657.7272727272726" y="0.0" name="bottom"/>
+  <anchor x="657.7272727272726" y="1486.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="560.5454545454546" y="1738.0" type="line"/>
+      <point x="410.3636363636364" y="1738.0" type="line"/>
+      <point x="410.3636363636364" y="1443.6363636363637" type="line"/>
+      <point x="560.5454545454546" y="1443.6363636363637" type="line"/>
+    </contour>
+    <contour>
+      <point x="908.3636363636364" y="1738.0" type="line"/>
+      <point x="758.1818181818182" y="1738.0" type="line"/>
+      <point x="758.1818181818182" y="1443.6363636363637" type="line"/>
+      <point x="908.3636363636364" y="1443.6363636363637" type="line"/>
+    </contour>
+    <contour>
+      <point x="560.5454545454546" y="38.0" type="line"/>
+      <point x="410.3636363636364" y="38.0" type="line"/>
+      <point x="410.3636363636364" y="-260.0" type="line"/>
+      <point x="560.5454545454546" y="-260.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="908.3636363636364" y="38.0" type="line"/>
+      <point x="758.1818181818182" y="38.0" type="line"/>
+      <point x="758.1818181818182" y="-260.0" type="line"/>
+      <point x="908.3636363636364" y="-260.0" type="line"/>
+    </contour>
+    <component base="B" xOffset="33.54545454545455"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>euro</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>euro</string>
+    </dict>
+  </lib>
+</glyph>

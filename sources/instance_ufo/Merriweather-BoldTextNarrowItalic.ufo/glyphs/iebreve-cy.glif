@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iebreve-cy" format="2">
+  <advance width="935.4861660079051"/>
+  <unicode hex="04D7"/>
+  <anchor x="461.9802371541502" y="0.0" name="bottom"/>
+  <anchor x="536.5731225296443" y="0.0" name="ogonek"/>
+  <anchor x="633.5928853754941" y="1109.2490118577073" name="top"/>
+  <outline>
+    <component base="ie-cy"/>
+    <component base="brevecomb-cy" xOffset="159.62450592885372" yOffset="-0.7509881422924901"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

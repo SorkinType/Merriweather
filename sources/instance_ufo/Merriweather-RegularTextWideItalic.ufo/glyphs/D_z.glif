@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dz" format="2">
+  <advance width="2525.46837944664"/>
+  <unicode hex="01F2"/>
+  <anchor x="353.424385375494" y="748.0" name="bar"/>
+  <anchor x="579.0247035573123" y="0.0" name="bottom_1"/>
+  <anchor x="1969.6422924901185" y="0.0" name="bottom_2"/>
+  <anchor x="782.6452569169961" y="1484.6304347826087" name="top_1"/>
+  <anchor x="2122.598814229249" y="1110.0" name="top_2"/>
+  <outline>
+    <component base="D"/>
+    <component base="z" xOffset="1503.3488142292488"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>D</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>z</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

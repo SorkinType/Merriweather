@@ -1,15 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslash" format="2">
-  <advance width="1301.0"/>
+  <advance width="1301"/>
   <unicode hex="00F8"/>
-  <anchor x="651.0" y="0.0" name="bottom"/>
-  <anchor x="651.0" y="556.0" name="center"/>
-  <anchor x="708.0" y="10.0" name="ogonek"/>
-  <anchor x="651.0" y="1112.0" name="top"/>
-  <anchor x="1068.0" y="1112.0" name="topright"/>
+  <anchor x="651" y="0" name="bottom"/>
+  <anchor x="651" y="556" name="center"/>
+  <anchor x="708" y="10" name="ogonek"/>
+  <anchor x="651" y="1112" name="top"/>
+  <anchor x="1068" y="1112" name="topright"/>
   <outline>
-    <component base="o"/>
-    <component base="slashocomb" xOffset="27.0" yOffset="1.0"/>
+    <contour>
+      <point x="48" y="550" type="curve" smooth="yes"/>
+      <point x="48" y="202"/>
+      <point x="247" y="-22"/>
+      <point x="634" y="-22" type="curve" smooth="yes"/>
+      <point x="987" y="-22"/>
+      <point x="1253" y="173"/>
+      <point x="1253" y="568" type="curve" smooth="yes"/>
+      <point x="1253" y="916"/>
+      <point x="1055" y="1140"/>
+      <point x="666" y="1140" type="curve" smooth="yes"/>
+      <point x="314" y="1140"/>
+      <point x="48" y="935"/>
+    </contour>
+    <contour>
+      <point x="656" y="117" type="curve" smooth="yes"/>
+      <point x="492" y="117"/>
+      <point x="437" y="271"/>
+      <point x="437" y="574" type="curve" smooth="yes"/>
+      <point x="437" y="871"/>
+      <point x="504" y="1001"/>
+      <point x="650" y="1001" type="curve" smooth="yes"/>
+      <point x="815" y="1001"/>
+      <point x="862" y="846"/>
+      <point x="862" y="544" type="curve" smooth="yes"/>
+      <point x="862" y="247"/>
+      <point x="802" y="117"/>
+    </contour>
+    <contour>
+      <point x="236" y="-157" type="line"/>
+      <point x="398" y="73" type="line"/>
+      <point x="430" y="137" type="line"/>
+      <point x="948" y="929" type="line"/>
+      <point x="1017" y="1020" type="line"/>
+      <point x="1171" y="1238" type="line"/>
+      <point x="1079" y="1292" type="line"/>
+      <point x="922" y="1069" type="line"/>
+      <point x="895" y="1013" type="line"/>
+      <point x="372" y="213" type="line"/>
+      <point x="298" y="114" type="line"/>
+      <point x="145" y="-102" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -19,12 +59,8 @@
       <string>o</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

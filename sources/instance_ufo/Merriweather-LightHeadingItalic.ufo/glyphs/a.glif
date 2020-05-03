@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a" format="2">
+  <advance width="1024.342391304348"/>
+  <unicode hex="0061"/>
+  <anchor x="414.56966403162056" y="0.0" name="bottom"/>
+  <anchor x="1010.9120553359684" y="1622.0" name="caron"/>
+  <anchor x="825.7099802371541" y="7.272727272727275" name="ogonek"/>
+  <anchor x="630.7737154150196" y="1109.2243083003953" name="top"/>
+  <outline>
+    <contour>
+      <point x="810.7366600790513" y="154.001976284585" type="curve" smooth="yes"/>
+      <point x="951.6561264822135" y="1060.9184782608697" type="line"/>
+      <point x="853.9644268774704" y="1022.2994071146245" type="line"/>
+      <point x="800.3127470355731" y="1052.2297430830042"/>
+      <point x="730.7831027667984" y="1069.6971343873518"/>
+      <point x="662.2712450592884" y="1069.6971343873518" type="curve" smooth="yes"/>
+      <point x="276.1749011857707" y="1069.6971343873518"/>
+      <point x="50.66156126482213" y="689.3898221343874"/>
+      <point x="50.66156126482213" y="363.47480237154156" type="curve" smooth="yes"/>
+      <point x="50.66156126482213" y="127.0602766798419"/>
+      <point x="162.9802371541502" y="-20.684782608695652"/>
+      <point x="347.8517786561265" y="-20.684782608695652" type="curve" smooth="yes"/>
+      <point x="487.39673913043475" y="-20.684782608695652"/>
+      <point x="614.3122529644268" y="94.98913043478261"/>
+      <point x="674.9486166007905" y="226.89723320158103" type="curve"/>
+      <point x="658.2425889328064" y="123.48913043478262" type="line"/>
+      <point x="647.4179841897233" y="27.575592885375492"/>
+      <point x="691.0014822134386" y="-20.684782608695652"/>
+      <point x="768.6388339920948" y="-20.684782608695652" type="curve" smooth="yes"/>
+      <point x="871.2588932806325" y="-20.684782608695652"/>
+      <point x="946.1264822134389" y="62.50839920948618"/>
+      <point x="966.9466403162056" y="97.1259881422925" type="curve"/>
+      <point x="945.1408102766798" y="133.04693675889328" type="line"/>
+      <point x="909.6620553359684" y="92.23616600790514"/>
+      <point x="873.9792490118577" y="71.35770750988142"/>
+      <point x="850.4036561264824" y="71.35770750988142" type="curve" smooth="yes"/>
+      <point x="821.024209486166" y="71.35770750988142"/>
+      <point x="801.2248023715414" y="91.66452569169961"/>
+    </contour>
+    <contour>
+      <point x="781.3532608695652" y="947.272233201581" type="curve"/>
+      <point x="690.395256916996" y="353.00296442687744" type="line"/>
+      <point x="640.1887351778657" y="194.65266798418972"/>
+      <point x="514.1872529644269" y="64.56571146245058"/>
+      <point x="381.429347826087" y="64.56571146245058" type="curve" smooth="yes"/>
+      <point x="282.695652173913" y="64.56571146245058"/>
+      <point x="216.49357707509878" y="159.85820158102769"/>
+      <point x="216.49357707509878" y="364.2855731225297" type="curve" smooth="yes"/>
+      <point x="216.49357707509878" y="662.0691699604743"/>
+      <point x="370.8458498023716" y="1006.7005928853755"/>
+      <point x="649.3310276679842" y="1006.7005928853755" type="curve" smooth="yes"/>
+      <point x="711.3661067193676" y="1006.7005928853755"/>
+      <point x="756.4520750988141" y="983.4179841897233"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>29</integer>
+            <integer>0</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron" format="2">
+  <advance width="1255.6363636363637"/>
+  <unicode hex="013D"/>
+  <anchor x="555.2727272727271" y="0.0" name="bottom"/>
+  <anchor x="871.6363636363636" y="1110.0" name="car"/>
+  <anchor x="976.5454545454546" y="1618.0" name="caron"/>
+  <anchor x="386.36363636363643" y="743.0" name="center"/>
+  <anchor x="489.00000000000006" y="1486.0" name="top"/>
+  <anchor x="1373.6834545454542" y="1486.0" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="caroncomb.alt" xOffset="651.7272727272727" yOffset="-155.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

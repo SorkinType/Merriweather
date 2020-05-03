@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddotaccent" format="2">
+  <advance width="1251.3636363636365"/>
+  <unicode hex="1E0B"/>
+  <anchor x="497.09090909090907" y="0.0" name="bottom"/>
+  <anchor x="1342.9999999999998" y="1622.0" name="caron"/>
+  <anchor x="424.6363636363637" y="1501.0" name="top"/>
+  <outline>
+    <component base="d"/>
+    <component base="dotaccentcomb" xOffset="107.45454545454547"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

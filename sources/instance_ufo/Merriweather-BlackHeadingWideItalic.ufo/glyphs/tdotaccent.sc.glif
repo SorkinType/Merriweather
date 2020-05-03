@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tdotaccent.sc" format="2">
+  <advance width="1364.1818181818182"/>
+  <anchor x="630.3636363636363" y="0.0" name="bottom"/>
+  <anchor x="1026.5454545454545" y="0.0" name="bottomright"/>
+  <anchor x="698.1818181818181" y="521.909090909091" name="center"/>
+  <anchor x="874.8181818181819" y="1740.9090909090908" name="top"/>
+  <outline>
+    <component base="t.sc"/>
+    <component base="dotaccentcomb" xOffset="547.1818181818181" yOffset="239.9090909090909"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

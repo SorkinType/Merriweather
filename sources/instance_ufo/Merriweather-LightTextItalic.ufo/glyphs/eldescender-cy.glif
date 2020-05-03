@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eldescender-cy" format="2">
+  <advance width="1107.3636363636365"/>
+  <unicode hex="052F"/>
+  <anchor x="881.2727272727273" y="0.0" name="bottomright"/>
+  <anchor x="658.8181818181819" y="1110.0" name="top"/>
+  <outline>
+    <component base="el-cy"/>
+    <component base="desccy_part." xOffset="599.7272727272727"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>el-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

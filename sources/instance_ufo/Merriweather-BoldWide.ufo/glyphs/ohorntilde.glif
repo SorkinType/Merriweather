@@ -2,25 +2,21 @@
 <glyph name="ohorntilde" format="2">
   <advance width="1281.110497237569"/>
   <unicode hex="1EE1"/>
-  <anchor x="641.6077348066299" y="0.0" name="bottom"/>
+  <anchor x="641.6077348066298" y="0.0" name="bottom"/>
   <anchor x="641.0552486187845" y="556.2762430939226" name="center"/>
-  <anchor x="732.0331491712707" y="23.81215469613261" name="ogonek"/>
+  <anchor x="731.4806629834254" y="23.25966850828729" name="ogonek"/>
   <anchor x="641.3314917127071" y="1538.0331491712707" name="top"/>
-  <anchor x="1035.9558011049724" y="1111.4475138121547" name="topright"/>
+  <anchor x="1005.5690607734807" y="1111.4475138121547" name="topright"/>
   <outline>
     <component base="ohorn"/>
-    <component base="tildecomb" xOffset="212.8011049723757" yOffset="1.4475138121546958"/>
+    <component base="tildecomb" xOffset="212.8011049723757" yOffset="1.4475138121546962"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yi-cy" format="2">
+  <advance width="595.2727272727273"/>
+  <unicode hex="0457"/>
+  <anchor x="303.90909090909093" y="0.0" name="bottom"/>
+  <anchor x="372.5454545454545" y="20.0" name="ogonek"/>
+  <anchor x="299.45454545454544" y="1111.6363636363637" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dieresis-cy" xOffset="299.45454545454544" yOffset="-0.36363636363636365"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>idotless</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresisacute.sc" format="2">
+  <advance width="653.2905138339921"/>
+  <anchor x="259.3211462450593" y="0.0" name="bottom"/>
+  <anchor x="304.12055335968375" y="0.0" name="ogonek"/>
+  <anchor x="421.7114624505929" y="2044.618577075099" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="dieresiscomb" xOffset="37.934782608695656" yOffset="196.54545454545456"/>
+    <component base="acutecomb" xOffset="249.14920948616603" yOffset="505.62450592885375"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

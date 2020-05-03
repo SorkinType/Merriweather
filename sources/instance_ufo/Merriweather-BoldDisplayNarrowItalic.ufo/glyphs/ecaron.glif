@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecaron" format="2">
+  <advance width="851.7826086956521"/>
+  <unicode hex="011B"/>
+  <anchor x="431.5652173913044" y="0.0" name="bottom"/>
+  <anchor x="497.8695652173913" y="0.0" name="ogonek"/>
+  <anchor x="610.8260869565217" y="1560.2173913043478" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="caroncomb" xOffset="147.1304347826087" yOffset="-1.391304347826087"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

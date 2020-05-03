@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u-cy" format="2">
-  <advance width="1150.0"/>
+  <advance width="1150"/>
   <unicode hex="0443"/>
-  <anchor x="898.0" y="0.0" name="bottom"/>
-  <anchor x="604.0" y="1110.0" name="top"/>
+  <anchor x="898" y="0" name="bottom"/>
+  <anchor x="604" y="1110" name="top"/>
   <outline>
     <component base="y"/>
   </outline>
@@ -11,12 +11,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

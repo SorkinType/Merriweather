@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eogonek" format="2">
+  <advance width="1190"/>
+  <unicode hex="0118"/>
+  <anchor x="546" y="0" name="bottom"/>
+  <anchor x="866" y="0" name="ogonek"/>
+  <anchor x="702" y="1486" name="top"/>
+  <anchor x="148" y="1486" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="ogonekcomb.case" xOffset="485"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

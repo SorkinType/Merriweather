@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adotbelow" format="2">
+  <advance width="1009.0909090909091"/>
+  <unicode hex="1EA1"/>
+  <anchor x="480.09090909090907" y="-346.0" name="bottom"/>
+  <anchor x="803.6363636363636" y="20.0" name="ogonek"/>
+  <anchor x="469.9090909090909" y="1110.0" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="dotbelowcomb" xOffset="354.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

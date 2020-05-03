@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Emacronacute" format="2">
-  <advance width="1127.5709944751381"/>
+  <advance width="1111.9613259668508"/>
   <unicode hex="1E16"/>
-  <anchor x="572.9303314917126" y="5.225138121546962" name="bottom"/>
-  <anchor x="898.7314917127072" y="20.0" name="ogonek"/>
-  <anchor x="576.412182320442" y="2365.190138121547" name="top"/>
-  <anchor x="3.439447513812153" y="1486.0" name="topleft"/>
+  <anchor x="564.2983425414365" y="3.591160220994475" name="bottom"/>
+  <anchor x="903.1160220994475" y="20.0" name="ogonek"/>
+  <anchor x="569.6077348066299" y="2322.171270718232" name="top"/>
+  <anchor x="17.607734806629836" y="1486.0" name="topleft"/>
   <outline>
     <component base="E"/>
-    <component base="macroncomb.case" xOffset="282.5717127071823"/>
-    <component base="acutecomb.case" xOffset="454.2929834254144" yOffset="404.0630662983425"/>
+    <component base="macroncomb.case" xOffset="294.0552486187845"/>
+    <component base="acutecomb.case" xOffset="448.1546961325967" yOffset="361.04419889502765"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

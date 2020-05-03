@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Scarondotaccent" format="2">
-  <advance width="1099.8473756906078"/>
+  <advance width="1064.5911602209944"/>
   <unicode hex="1E66"/>
-  <anchor x="551.4951933701658" y="0.0" name="bottom"/>
-  <anchor x="571.0178453038674" y="2196.23138121547" name="top"/>
+  <anchor x="539.171270718232" y="0.0" name="bottom"/>
+  <anchor x="562.817679558011" y="2201.9226519337017" name="top"/>
   <outline>
     <component base="S"/>
-    <component base="caroncomb.case" xOffset="219.25635359116023"/>
-    <component base="dotaccentcomb.case" xOffset="414.2969889502763" yOffset="333.9391160220994"/>
+    <component base="caroncomb.case" xOffset="234.24861878453038"/>
+    <component base="dotaccentcomb.case" xOffset="413.2486187845304" yOffset="352.65193370165747"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

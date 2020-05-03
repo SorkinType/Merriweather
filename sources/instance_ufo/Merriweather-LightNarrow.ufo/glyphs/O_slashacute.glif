@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oslashacute" format="2">
-  <advance width="1202.0"/>
+  <advance width="1210"/>
   <unicode hex="01FE"/>
-  <anchor x="601.0" y="-21.0" name="bottom"/>
-  <anchor x="604.0" y="741.0" name="center"/>
-  <anchor x="671.0" y="20.0" name="ogonek"/>
-  <anchor x="725.772" y="0.0" name="qq"/>
-  <anchor x="602.0" y="1960.0" name="top"/>
-  <anchor x="15.0" y="1486.0" name="topleft"/>
-  <anchor x="909.0" y="1486.0" name="topright"/>
+  <anchor x="605" y="-21" name="bottom"/>
+  <anchor x="608" y="741" name="center"/>
+  <anchor x="675" y="20" name="ogonek"/>
+  <anchor x="730" y="0" name="qq"/>
+  <anchor x="606" y="1960" name="top"/>
+  <anchor x="19" y="1486" name="topleft"/>
+  <anchor x="913" y="1486" name="topright"/>
   <outline>
     <component base="Oslash"/>
-    <component base="acutecomb.case" xOffset="489.0"/>
+    <component base="acutecomb.case" xOffset="493"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

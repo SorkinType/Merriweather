@@ -1,36 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l" format="2">
-  <advance width="700.0"/>
+  <advance width="700"/>
   <unicode hex="006C"/>
-  <anchor x="342.0" y="0.0" name="bottom"/>
-  <anchor x="336.0" y="1634.0" name="top"/>
-  <anchor x="661.0" y="1111.0" name="topright"/>
+  <anchor x="342" y="0" name="bottom"/>
+  <anchor x="336" y="1634" name="top"/>
+  <anchor x="661" y="1111" name="topright"/>
   <outline>
     <contour>
-      <point x="178.0" y="151.0" type="line"/>
-      <point x="50.0" y="132.0" type="line"/>
-      <point x="50.0" y="0.0" type="line"/>
-      <point x="664.0" y="0.0" type="line"/>
-      <point x="664.0" y="132.0" type="line"/>
-      <point x="535.0" y="150.0" type="line"/>
-      <point x="535.0" y="1597.0" type="line"/>
-      <point x="475.0" y="1639.0" type="line"/>
-      <point x="470.0" y="1639.0" type="line"/>
-      <point x="37.0" y="1592.0" type="line"/>
-      <point x="37.0" y="1471.0" type="line"/>
-      <point x="179.0" y="1444.0" type="line"/>
+      <point x="178" y="151" type="line"/>
+      <point x="50" y="132" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="664" y="0" type="line"/>
+      <point x="664" y="132" type="line"/>
+      <point x="535" y="150" type="line"/>
+      <point x="535" y="1597" type="line"/>
+      <point x="475" y="1639" type="line"/>
+      <point x="470" y="1639" type="line"/>
+      <point x="37" y="1592" type="line"/>
+      <point x="37" y="1471" type="line"/>
+      <point x="179" y="1444" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

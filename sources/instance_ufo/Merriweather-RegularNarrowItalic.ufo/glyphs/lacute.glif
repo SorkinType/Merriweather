@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lacute" format="2">
+  <advance width="519.9565217391305"/>
+  <unicode hex="013A"/>
+  <anchor x="219.04347826086956" y="0.0" name="bottom"/>
+  <anchor x="604.3695652173913" y="1618.2608695652175" name="caron"/>
+  <anchor x="426.04347826086956" y="1963.141304347826" name="top"/>
+  <outline>
+    <component base="l"/>
+    <component base="acutecomb.case" xOffset="102.3695652173913" yOffset="77.83695652173913"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

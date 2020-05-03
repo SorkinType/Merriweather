@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.dot.sc" format="2">
+  <advance width="706.4545454545455"/>
+  <anchor x="306.09090909090907" y="0.0" name="bottom"/>
+  <anchor x="336.3636363636364" y="0.0" name="ogonek"/>
+  <anchor x="521.6363636363636" y="1733.909090909091" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="dotaccentcomb" xOffset="204.8181818181818" yOffset="232.9090909090909"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>i.sc</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotaccentcomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

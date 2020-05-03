@@ -1,39 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pe-cy.sc" format="2">
-  <advance width="1446.0"/>
-  <anchor x="1377.0" y="0.0" name="bottomright"/>
+  <advance width="1446"/>
+  <anchor x="1377" y="0" name="bottomright"/>
   <outline>
     <contour>
-      <point x="74.0" y="1292.0" type="line"/>
-      <point x="74.0" y="1210.0" type="line"/>
-      <point x="230.0" y="1192.0" type="line"/>
-      <point x="230.0" y="96.0" type="line"/>
-      <point x="72.0" y="80.0" type="line"/>
-      <point x="72.0" y="0.0" type="line"/>
-      <point x="564.0" y="0.0" type="line"/>
-      <point x="564.0" y="80.0" type="line"/>
-      <point x="395.0" y="96.0" type="line"/>
-      <point x="395.0" y="1194.0" type="line"/>
-      <point x="1053.0" y="1194.0" type="line"/>
-      <point x="1053.0" y="98.0" type="line"/>
-      <point x="884.0" y="80.0" type="line"/>
-      <point x="884.0" y="0.0" type="line"/>
-      <point x="1374.0" y="0.0" type="line"/>
-      <point x="1374.0" y="80.0" type="line"/>
-      <point x="1218.0" y="98.0" type="line"/>
-      <point x="1218.0" y="1192.0" type="line"/>
-      <point x="1368.0" y="1212.0" type="line"/>
-      <point x="1368.0" y="1292.0" type="line"/>
+      <point x="74" y="1292" type="line"/>
+      <point x="74" y="1210" type="line"/>
+      <point x="230" y="1192" type="line"/>
+      <point x="230" y="96" type="line"/>
+      <point x="72" y="80" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="564" y="0" type="line"/>
+      <point x="564" y="80" type="line"/>
+      <point x="395" y="96" type="line"/>
+      <point x="395" y="1194" type="line"/>
+      <point x="1053" y="1194" type="line"/>
+      <point x="1053" y="98" type="line"/>
+      <point x="884" y="80" type="line"/>
+      <point x="884" y="0" type="line"/>
+      <point x="1374" y="0" type="line"/>
+      <point x="1374" y="80" type="line"/>
+      <point x="1218" y="98" type="line"/>
+      <point x="1218" y="1192" type="line"/>
+      <point x="1368" y="1212" type="line"/>
+      <point x="1368" y="1292" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

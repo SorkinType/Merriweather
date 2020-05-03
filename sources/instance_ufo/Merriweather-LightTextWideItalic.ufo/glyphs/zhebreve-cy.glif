@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zhebreve-cy" format="2">
+  <advance width="1950.2727272727273"/>
+  <unicode hex="04C2"/>
+  <anchor x="1721.0909090909092" y="0.0" name="bottomright"/>
+  <anchor x="1053.0909090909092" y="1110.0" name="top"/>
+  <outline>
+    <component base="zhe-cy"/>
+    <component base="brevecomb-cy" xOffset="576.6363636363636"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

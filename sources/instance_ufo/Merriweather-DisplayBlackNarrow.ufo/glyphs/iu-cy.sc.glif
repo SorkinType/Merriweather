@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iu-cy.sc" format="2">
+  <advance width="1756"/>
+  <outline>
+    <contour>
+      <point x="661" y="694" type="curve"/>
+      <point x="497" y="694" type="line"/>
+      <point x="497" y="1224" type="line"/>
+      <point x="635" y="1260" type="line"/>
+      <point x="635" y="1292" type="line"/>
+      <point x="35" y="1292" type="line"/>
+      <point x="35" y="1261" type="line"/>
+      <point x="160" y="1224" type="line"/>
+      <point x="160" y="63" type="line"/>
+      <point x="34" y="35" type="line"/>
+      <point x="34" y="0" type="line"/>
+      <point x="636" y="0" type="line"/>
+      <point x="636" y="35" type="line"/>
+      <point x="497" y="63" type="line"/>
+      <point x="497" y="635" type="line"/>
+      <point x="661" y="635" type="line"/>
+      <point x="679" y="247"/>
+      <point x="818" y="-15"/>
+      <point x="1185" y="-15" type="curve" smooth="yes"/>
+      <point x="1525" y="-15"/>
+      <point x="1721" y="227"/>
+      <point x="1720" y="655" type="curve" smooth="yes"/>
+      <point x="1719" y="1029"/>
+      <point x="1593" y="1307"/>
+      <point x="1193" y="1306" type="curve" smooth="yes"/>
+      <point x="882" y="1306"/>
+      <point x="690" y="1080"/>
+    </contour>
+    <contour>
+      <point x="1187" y="1232" type="curve" smooth="yes"/>
+      <point x="1290" y="1232"/>
+      <point x="1332" y="947"/>
+      <point x="1332" y="655" type="curve" smooth="yes"/>
+      <point x="1332" y="250"/>
+      <point x="1294" y="62"/>
+      <point x="1191" y="62" type="curve" smooth="yes"/>
+      <point x="1099" y="62"/>
+      <point x="1044" y="343"/>
+      <point x="1044" y="627" type="curve" smooth="yes"/>
+      <point x="1044" y="1050"/>
+      <point x="1084" y="1232"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o-cy.sc</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>631</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>51</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>50</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>633</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

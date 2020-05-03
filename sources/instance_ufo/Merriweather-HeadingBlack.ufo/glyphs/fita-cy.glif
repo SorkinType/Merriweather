@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fita-cy" format="2">
+  <advance width="1144.6363636363635"/>
+  <unicode hex="0473"/>
+  <anchor x="572.8181818181818" y="0.0" name="bottom"/>
+  <anchor x="572.8181818181818" y="525.5454545454545" name="center"/>
+  <anchor x="619.909090909091" y="22.727272727272727" name="ogonek"/>
+  <anchor x="575.7272727272726" y="1110.3636363636365" name="top"/>
+  <anchor x="770.7272727272726" y="1043.5454545454547" name="topright"/>
+  <outline>
+    <contour>
+      <point x="408.0909090909091" y="478.54545454545456" type="line"/>
+      <point x="425.0909090909091" y="487.45454545454544"/>
+      <point x="444.0909090909091" y="492.7272727272727"/>
+      <point x="463.36363636363643" y="492.7272727272727" type="curve" smooth="yes"/>
+      <point x="535.6363636363637" y="492.7272727272727"/>
+      <point x="563.7272727272726" y="400.90909090909093"/>
+      <point x="656.6363636363636" y="400.90909090909093" type="curve" smooth="yes"/>
+      <point x="689.8181818181818" y="400.90909090909093"/>
+      <point x="719.5454545454546" y="414.09090909090907"/>
+      <point x="736.3636363636363" y="439.3636363636363" type="curve"/>
+      <point x="737.0909090909091" y="560.8181818181818" type="line"/>
+      <point x="720.8181818181818" y="552.6363636363636"/>
+      <point x="702.909090909091" y="547.3636363636364"/>
+      <point x="685.8181818181819" y="547.3636363636364" type="curve" smooth="yes"/>
+      <point x="613.5454545454546" y="547.3636363636364"/>
+      <point x="588.8181818181819" y="637.3636363636364"/>
+      <point x="497.0909090909091" y="637.3636363636364" type="curve" smooth="yes"/>
+      <point x="461.72727272727275" y="637.3636363636364"/>
+      <point x="430.72727272727275" y="622.0000000000001"/>
+      <point x="408.45454545454544" y="596.0" type="curve"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

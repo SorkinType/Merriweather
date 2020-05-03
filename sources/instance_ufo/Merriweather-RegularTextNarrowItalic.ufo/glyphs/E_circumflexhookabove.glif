@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecircumflexhookabove" format="2">
+  <advance width="1086.9664031620555"/>
+  <unicode hex="1EC2"/>
+  <anchor x="505.8596837944664" y="0.0" name="bottom"/>
+  <anchor x="776.5197628458498" y="0.0" name="ogonek"/>
+  <anchor x="661.1294466403161" y="1486.0" name="top"/>
+  <anchor x="171.46936758893278" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="circumflexcomb_hookabovecomb.case" xOffset="200.12351778656125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

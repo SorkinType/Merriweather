@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otildemacron" format="2">
+  <advance width="974.4782608695651"/>
+  <unicode hex="022D"/>
+  <anchor x="420.0" y="0.0" name="bottom"/>
+  <anchor x="487.69565217391306" y="505.0" name="center"/>
+  <anchor x="531.3913043478261" y="6.086956521739131" name="ogonek"/>
+  <anchor x="693.2173913043479" y="1836.4347826086957" name="top"/>
+  <anchor x="721.5217391304348" y="1005.0" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="tildecomb" xOffset="223.8695652173913"/>
+    <component base="macroncomb" xOffset="286.5652173913043" yOffset="420.52173913043475"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghestroke-cy.sc" format="2">
+  <advance width="1071"/>
+  <anchor x="776" y="0" name="bottomright"/>
+  <anchor x="634" y="1340" name="top"/>
+  <outline>
+    <contour>
+      <point x="41" y="550" type="line"/>
+      <point x="784" y="550" type="line"/>
+      <point x="784" y="617" type="line"/>
+      <point x="41" y="617" type="line"/>
+    </contour>
+    <component base="ge-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t.sc</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>73</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>70</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1020</integer>
+            <integer>37</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>73</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>700</integer>
+            <integer>1255</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

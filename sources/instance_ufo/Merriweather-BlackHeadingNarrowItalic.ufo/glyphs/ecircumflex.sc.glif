@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflex.sc" format="2">
+  <advance width="1078.3636363636365"/>
+  <anchor x="507.54545454545456" y="0.0" name="bottom"/>
+  <anchor x="765.0909090909091" y="0.0" name="ogonek"/>
+  <anchor x="750.4545454545455" y="1858.909090909091" name="top"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="circumflexcomb" xOffset="238.36363636363637" yOffset="239.9090909090909"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

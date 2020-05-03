@@ -3,12 +3,39 @@
   <advance width="1333.9558011049724"/>
   <outline>
     <contour>
-      <point x="1056.8066298342542" y="1039.2762430939226" type="line"/>
-      <point x="973.0" y="1039.2762430939226" type="line"/>
-      <point x="321.96132596685084" y="204.1878453038674" type="line"/>
-      <point x="412.0497237569061" y="204.1878453038674" type="line"/>
+      <point x="651.4972375690608" y="-18.845303867403317" type="curve" smooth="yes"/>
+      <point x="982.1767955801106" y="-18.845303867403317"/>
+      <point x="1236.1546961325967" y="238.83977900552486"/>
+      <point x="1239.3093922651933" y="630.817679558011" type="curve" smooth="yes"/>
+      <point x="1242.1823204419888" y="993.4419889502763"/>
+      <point x="1092.8508287292818" y="1261.1546961325967"/>
+      <point x="690.2044198895028" y="1261.1546961325967" type="curve" smooth="yes"/>
+      <point x="370.42541436464086" y="1261.1546961325967"/>
+      <point x="98.51933701657458" y="1027.5524861878453"/>
+      <point x="94.64640883977901" y="630.7016574585635" type="curve" smooth="yes"/>
+      <point x="91.49171270718232" y="277.8232044198895"/>
+      <point x="254.00552486187846" y="-18.845303867403317"/>
     </contour>
-    <component base="zero.osf"/>
+    <contour>
+      <point x="665.6685082872929" y="84.42541436464089" type="curve" smooth="yes"/>
+      <point x="419.0" y="84.42541436464089"/>
+      <point x="330.353591160221" y="331.7955801104972"/>
+      <point x="330.353591160221" y="644.3370165745856" type="curve" smooth="yes"/>
+      <point x="330.353591160221" y="963.9723756906077"/>
+      <point x="434.1546961325967" y="1158.4475138121547"/>
+      <point x="671.5690607734806" y="1158.4475138121547" type="curve" smooth="yes"/>
+      <point x="922.9558011049724" y="1158.4475138121547"/>
+      <point x="1001.8839779005525" y="941.4696132596686"/>
+      <point x="1001.8839779005525" y="617.4640883977901" type="curve" smooth="yes"/>
+      <point x="1001.8839779005525" y="287.8011049723757"/>
+      <point x="906.0828729281768" y="84.42541436464089"/>
+    </contour>
+    <contour>
+      <point x="1046.0331491712707" y="1038.5580110497237" type="line"/>
+      <point x="950.0165745856353" y="1038.5580110497237" type="line"/>
+      <point x="290.3591160220995" y="203.4696132596685" type="line"/>
+      <point x="389.0662983425414" y="203.4696132596685" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -16,10 +43,8 @@
       <string>zero.osf</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>zero.osf</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

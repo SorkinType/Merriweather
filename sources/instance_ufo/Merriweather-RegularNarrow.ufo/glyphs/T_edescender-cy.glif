@@ -1,36 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tedescender-cy" format="2">
-  <advance width="1236.4539226519337"/>
+  <advance width="1228.5303867403316"/>
   <unicode hex="04AC"/>
-  <anchor x="627.8765745856354" y="0.0" name="bottom"/>
-  <anchor x="1011.7051608563536" y="0.0" name="bottomright"/>
-  <anchor x="620.2974861878453" y="657.7972375690608" name="center"/>
-  <anchor x="613.4251657458564" y="1486.0" name="top"/>
+  <anchor x="627.243093922652" y="0.0" name="bottom"/>
+  <anchor x="991.7403314917127" y="0.0" name="bottomright"/>
+  <anchor x="615.6243093922652" y="672.7292817679559" name="center"/>
+  <anchor x="616.1878453038674" y="1486.0" name="top"/>
   <outline>
     <contour>
-      <point x="664.0351933701658" y="140.69259668508286" type="line"/>
-      <point x="664.0351933701658" y="84.69259668508286" type="line"/>
-      <point x="1059.934364640884" y="84.69259668508286" type="line"/>
-      <point x="1059.934364640884" y="140.69259668508286" type="line"/>
+      <point x="662.9944751381215" y="118.08839779005525" type="line"/>
+      <point x="662.9944751381215" y="62.08839779005525" type="line"/>
+      <point x="1000.4475138121547" y="62.08839779005525" type="line"/>
+      <point x="1000.4475138121547" y="118.08839779005525" type="line"/>
     </contour>
     <component base="T"/>
-    <component base="righttooth_part." xOffset="664.5518232044199"/>
+    <component base="righttooth_part." xOffset="699.4033149171271"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>righttooth_part.</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>Te-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Te-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

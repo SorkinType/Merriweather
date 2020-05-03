@@ -1,42 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="De-cy.loclBGR" format="2">
-  <advance width="1341.422817679558"/>
+  <advance width="1342.3370165745857"/>
   <outline>
     <contour>
-      <point x="594.1710220994476" y="1497.6430110497238" type="line"/>
-      <point x="137.86640883977898" y="134.0934806629834" type="line"/>
-      <point x="5.994861878453033" y="88.2699447513812" type="line"/>
-      <point x="163.47544198895025" y="0.0" type="line"/>
-      <point x="1209.094502762431" y="0.0" type="line"/>
-      <point x="1310.7852486187844" y="65.8621270718232" type="line"/>
-      <point x="1229.859502762431" y="146.78737569060772" type="line"/>
-      <point x="827.2792541436463" y="1497.6430110497238" type="line"/>
+      <point x="596.8453038674033" y="1498.0276243093922" type="line"/>
+      <point x="149.8342541436464" y="110.9060773480663" type="line"/>
+      <point x="36.187845303867405" y="72.45303867403315" type="line"/>
+      <point x="164.59116022099448" y="0.0" type="line"/>
+      <point x="1192.8397790055249" y="0.0" type="line"/>
+      <point x="1297.4088397790056" y="53.04419889502763" type="line"/>
+      <point x="1218.5745856353592" y="119.80662983425414" type="line"/>
+      <point x="816.6353591160221" y="1498.0276243093922" type="line"/>
     </contour>
     <contour>
-      <point x="336.0780110497237" y="139.05861878453038" type="line"/>
-      <point x="638.4302209944751" y="1145.6191988950277" type="line"/>
-      <point x="691.5501104972376" y="1327.559364640884" type="line"/>
-      <point x="725.405635359116" y="1152.2993370165746" type="line"/>
-      <point x="999.2630386740332" y="140.51361878453037" type="line"/>
+      <point x="317.7292817679558" y="118.08839779005525" type="line"/>
+      <point x="623.9779005524862" y="1171.3480662983425" type="line"/>
+      <point x="671.2154696132596" y="1337.767955801105" type="line"/>
+      <point x="705.3977900552486" y="1175.9392265193371" type="line"/>
+      <point x="989.2651933701658" y="119.08839779005525" type="line"/>
     </contour>
-    <component base="lefttooth_part." xOffset="-23.542955801104974"/>
-    <component base="righttooth_part." xOffset="954.5721546961325"/>
+    <component base="lefttooth_part." xOffset="-2.0"/>
+    <component base="righttooth_part." xOffset="988.5911602209944"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>lefttooth_part.</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>=De-cy-5</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

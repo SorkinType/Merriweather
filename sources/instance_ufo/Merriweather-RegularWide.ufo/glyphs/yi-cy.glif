@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yi-cy" format="2">
-  <advance width="647.1049723756906"/>
+  <advance width="648.7955801104972"/>
   <unicode hex="0457"/>
-  <anchor x="319.4696132596685" y="0.0" name="bottom"/>
-  <anchor x="399.7513812154696" y="20.0" name="ogonek"/>
-  <anchor x="342.1878453038674" y="1112.0" name="top"/>
+  <anchor x="336.4696132596685" y="0.0" name="bottom"/>
+  <anchor x="406.9337016574586" y="20.0" name="ogonek"/>
+  <anchor x="334.2872928176796" y="1112.0" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="dieresis-cy" xOffset="342.1878453038674"/>
+    <component base="dieresis-cy" xOffset="334.2872928176796" yOffset="1.1102230246251565e-16"/>
   </outline>
   <lib>
     <dict>
@@ -15,12 +15,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>idotless</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

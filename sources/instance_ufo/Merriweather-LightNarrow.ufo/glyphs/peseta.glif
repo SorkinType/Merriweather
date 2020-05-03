@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="peseta" format="2">
-  <advance width="1365.0"/>
+  <advance width="1365"/>
   <unicode hex="20A7"/>
-  <anchor x="659.0" y="0.0" name="bottom"/>
-  <anchor x="719.0" y="1486.0" name="top"/>
+  <anchor x="659" y="0" name="bottom"/>
+  <anchor x="719" y="1486" name="top"/>
   <outline>
     <contour>
-      <point x="195.0" y="1098.0" type="line"/>
-      <point x="195.0" y="986.0" type="line"/>
-      <point x="1290.0" y="986.0" type="line"/>
-      <point x="1290.0" y="1087.0" type="line"/>
+      <point x="195" y="1098" type="line"/>
+      <point x="195" y="986" type="line"/>
+      <point x="1290" y="986" type="line"/>
+      <point x="1290" y="1087" type="line"/>
     </contour>
-    <component base="P" xOffset="65.0"/>
+    <component base="P" xOffset="65"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

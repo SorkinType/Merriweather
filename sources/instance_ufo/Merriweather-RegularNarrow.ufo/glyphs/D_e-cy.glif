@@ -1,45 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="De-cy" format="2">
-  <advance width="1271.6846132596686"/>
+  <advance width="1234.4475138121547"/>
   <unicode hex="0414"/>
+  <anchor x="28.456193370165746" y="0.0" name="bottomleft"/>
+  <anchor x="1178.1657458563536" y="0.0" name="bottomright"/>
   <outline>
-    <contour>
-      <point x="183.54151933701658" y="1486.0" type="line"/>
-      <point x="183.54151933701658" y="1355.6496685082873" type="line"/>
-      <point x="367.2764917127072" y="1335.3426519337017" type="line"/>
-      <point x="367.2764917127072" y="1240.0" type="line" smooth="yes"/>
-      <point x="367.2764917127072" y="553.0739226519337"/>
-      <point x="223.66657458563535" y="224.41248618784527"/>
-      <point x="171.51701657458563" y="146.78737569060772" type="curve"/>
-      <point x="66.19953038674032" y="62.3739226519337" type="line"/>
-      <point x="252.87124309392263" y="0.0" type="line"/>
-      <point x="957.0275690607734" y="0.0" type="line"/>
-      <point x="1125.9464917127073" y="55.1025138121547" type="line"/>
-      <point x="1036.541049723757" y="138.84433701657457" type="line"/>
-      <point x="1036.541049723757" y="1335.4708563535912" type="line"/>
-      <point x="1208.7746132596685" y="1355.6496685082873" type="line"/>
-      <point x="1208.7746132596685" y="1486.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="370.53953038674035" y="142.06441988950274" type="line"/>
-      <point x="419.2036740331491" y="240.8005801104972"/>
-      <point x="520.7685635359115" y="629.8325138121547"/>
-      <point x="516.6530939226519" y="1228.0" type="curve"/>
-      <point x="516.3262983425415" y="1336.9593370165746" type="line"/>
-      <point x="829.1469337016574" y="1336.9593370165746" type="line"/>
-      <point x="829.1469337016574" y="142.06441988950274" type="line"/>
-    </contour>
-    <component base="lefttooth_part." xOffset="-18.542955801104974"/>
-    <component base="righttooth_part." xOffset="792.6652209944751"/>
+    <component base="Decy_part."/>
+    <component base="lefttooth_part." xOffset="3.0"/>
+    <component base="righttooth_part." xOffset="845.9834254143647"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>Pe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

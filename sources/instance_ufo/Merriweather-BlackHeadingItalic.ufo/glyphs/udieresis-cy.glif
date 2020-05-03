@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udieresis-cy" format="2">
+  <advance width="1015.9090909090908"/>
+  <unicode hex="04F1"/>
+  <anchor x="901.0000000000001" y="0.0" name="bottom"/>
+  <anchor x="643.6363636363637" y="1495.4545454545455" name="top"/>
+  <outline>
+    <component base="u-cy"/>
+    <component base="dieresiscomb" xOffset="138.90909090909093" yOffset="-1.2727272727272727"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

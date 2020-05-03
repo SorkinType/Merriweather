@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ncommaaccent" format="2">
-  <advance width="1326.1602209944751"/>
+  <advance width="1318.9779005524863"/>
   <unicode hex="0146"/>
-  <anchor x="676.5801104972376" y="-544.2817679558011" name="bottom"/>
-  <anchor x="646.5524861878453" y="1110.2817679558011" name="top"/>
+  <anchor x="669.3977900552486" y="-544.2817679558011" name="bottom"/>
+  <anchor x="639.3701657458564" y="1110.2817679558011" name="top"/>
   <outline>
     <component base="n"/>
-    <component base="commaaccentcomb" xOffset="551.0"/>
+    <component base="commaaccentcomb" xOffset="543.817679558011"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

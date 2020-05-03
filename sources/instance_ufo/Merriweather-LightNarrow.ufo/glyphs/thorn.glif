@@ -1,53 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="thorn" format="2">
-  <advance width="1071.0"/>
+  <advance width="1071"/>
   <unicode hex="00FE"/>
-  <guideline x="746.0" y="-376.0" angle="0.0"/>
-  <guideline x="755.0" y="-484.0" angle="0.0"/>
-  <guideline x="746.0" y="-396.0" angle="0.0"/>
+  <guideline x="746" y="-376" angle="0"/>
+  <guideline x="755" y="-484" angle="0"/>
+  <guideline x="746" y="-396" angle="0"/>
   <outline>
     <contour>
-      <point x="21.0" y="-484.0" type="line"/>
-      <point x="569.0" y="-484.0" type="line"/>
-      <point x="569.0" y="-396.0" type="line"/>
-      <point x="339.0" y="-376.0" type="line"/>
-      <point x="337.0" y="-132.0" type="line"/>
-      <point x="333.0" y="0.0" type="line"/>
-      <point x="395.0" y="-12.0"/>
-      <point x="432.0" y="-22.0"/>
-      <point x="512.0" y="-22.0" type="curve" smooth="yes"/>
-      <point x="818.0" y="-22.0"/>
-      <point x="1004.0" y="254.0"/>
-      <point x="1004.0" y="625.0" type="curve" smooth="yes"/>
-      <point x="1004.0" y="967.0"/>
-      <point x="829.0" y="1140.0"/>
-      <point x="630.0" y="1140.0" type="curve" smooth="yes"/>
-      <point x="445.0" y="1140.0"/>
-      <point x="372.0" y="1047.0"/>
-      <point x="339.0" y="1002.0" type="curve"/>
-      <point x="339.0" y="1610.0" type="line"/>
-      <point x="301.0" y="1638.0" type="line"/>
-      <point x="297.0" y="1638.0" type="line"/>
-      <point x="38.0" y="1604.0" type="line"/>
-      <point x="38.0" y="1530.0" type="line"/>
-      <point x="183.0" y="1514.0" type="line"/>
-      <point x="183.0" y="-376.0" type="line"/>
-      <point x="21.0" y="-396.0" type="line"/>
+      <point x="21" y="-484" type="line"/>
+      <point x="569" y="-484" type="line"/>
+      <point x="569" y="-396" type="line"/>
+      <point x="339" y="-376" type="line"/>
+      <point x="337" y="-132" type="line"/>
+      <point x="333" y="0" type="line"/>
+      <point x="395" y="-12"/>
+      <point x="432" y="-22"/>
+      <point x="512" y="-22" type="curve" smooth="yes"/>
+      <point x="818" y="-22"/>
+      <point x="1004" y="254"/>
+      <point x="1004" y="625" type="curve" smooth="yes"/>
+      <point x="1004" y="967"/>
+      <point x="829" y="1140"/>
+      <point x="630" y="1140" type="curve" smooth="yes"/>
+      <point x="445" y="1140"/>
+      <point x="372" y="1047"/>
+      <point x="339" y="1002" type="curve"/>
+      <point x="339" y="1610" type="line"/>
+      <point x="301" y="1638" type="line"/>
+      <point x="297" y="1638" type="line"/>
+      <point x="38" y="1604" type="line"/>
+      <point x="38" y="1530" type="line"/>
+      <point x="183" y="1514" type="line"/>
+      <point x="183" y="-376" type="line"/>
+      <point x="21" y="-396" type="line"/>
     </contour>
     <contour>
-      <point x="525.0" y="78.0" type="curve" smooth="yes"/>
-      <point x="443.0" y="78.0"/>
-      <point x="359.0" y="104.0"/>
-      <point x="339.0" y="142.0" type="curve"/>
-      <point x="339.0" y="879.0" type="line"/>
-      <point x="376.0" y="944.0"/>
-      <point x="451.0" y="1018.0"/>
-      <point x="589.0" y="1018.0" type="curve" smooth="yes"/>
-      <point x="717.0" y="1018.0"/>
-      <point x="834.0" y="897.0"/>
-      <point x="834.0" y="596.0" type="curve" smooth="yes"/>
-      <point x="834.0" y="233.0"/>
-      <point x="701.0" y="78.0"/>
+      <point x="525" y="78" type="curve" smooth="yes"/>
+      <point x="443" y="78"/>
+      <point x="359" y="104"/>
+      <point x="339" y="142" type="curve"/>
+      <point x="339" y="879" type="line"/>
+      <point x="376" y="944"/>
+      <point x="451" y="1018"/>
+      <point x="589" y="1018" type="curve" smooth="yes"/>
+      <point x="717" y="1018"/>
+      <point x="834" y="897"/>
+      <point x="834" y="596" type="curve" smooth="yes"/>
+      <point x="834" y="233"/>
+      <point x="701" y="78"/>
     </contour>
   </outline>
   <lib>
@@ -56,12 +56,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>p</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

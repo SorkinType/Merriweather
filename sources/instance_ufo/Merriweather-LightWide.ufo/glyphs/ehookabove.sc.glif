@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ehookabove.sc" format="2">
-  <advance width="1221.0"/>
-  <anchor x="576.0" y="0.0" name="bottom"/>
-  <anchor x="996.0" y="18.0" name="ogonek"/>
-  <anchor x="626.0" y="1682.0" name="top"/>
-  <anchor x="-10.0" y="1292.0" name="topleft"/>
+  <advance width="1221"/>
+  <anchor x="576" y="0" name="bottom"/>
+  <anchor x="996" y="18" name="ogonek"/>
+  <anchor x="626" y="1682" name="top"/>
+  <anchor x="-10" y="1292" name="topleft"/>
   <outline>
     <component base="e.sc"/>
-    <component base="hookabovecomb" xOffset="414.0" yOffset="162.0"/>
+    <component base="hookabovecomb" xOffset="414" yOffset="162"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

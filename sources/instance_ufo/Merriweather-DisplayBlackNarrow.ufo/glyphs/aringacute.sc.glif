@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aringacute.sc" format="2">
+  <advance width="1086"/>
+  <anchor x="1252" y="18" name="ogonek"/>
+  <anchor x="546" y="0" name="bottom"/>
+  <anchor x="547" y="2420" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="ringcomb" xOffset="277" yOffset="250"/>
+    <component base="acutecomb" xOffset="364" yOffset="840"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a.sc</string>
+    </dict>
+  </lib>
+</glyph>

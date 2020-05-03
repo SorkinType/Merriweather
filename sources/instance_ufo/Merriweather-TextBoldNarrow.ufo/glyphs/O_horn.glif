@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohorn" format="2">
+  <advance width="1244.2621798091411"/>
+  <unicode hex="01A0"/>
+  <anchor x="1309.1988950276243" y="20.0" name="ogonek"/>
+  <anchor x="628.8267202410849" y="-4.746358613761928" name="bottom"/>
+  <anchor x="622.859367152185" y="741.0" name="center"/>
+  <anchor x="751.0048216976394" y="0.0" name="qq"/>
+  <anchor x="630.7739829231542" y="1486.0" name="top"/>
+  <anchor x="31.10798593671522" y="1486.0" name="topleft"/>
+  <anchor x="987.5449522852838" y="1486.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="940.7749874434958" y="1309.314414866901" type="line"/>
+      <point x="1170.5630336514316" y="1309.314414866901"/>
+      <point x="1303.4455047714716" y="1443.6544450025112"/>
+      <point x="1303.4455047714716" y="1686.592164741336" type="curve" smooth="yes"/>
+      <point x="1303.4455047714716" y="1700.592164741336"/>
+      <point x="1301.4455047714716" y="1715.776494224008"/>
+      <point x="1298.8533400301355" y="1730.0" type="curve"/>
+      <point x="1113.3234555499748" y="1730.0" type="line"/>
+      <point x="1116.507785032647" y="1719.6313410346559"/>
+      <point x="1118.284279256655" y="1705.854846810648"/>
+      <point x="1118.284279256655" y="1685.341034655952" type="curve" smooth="yes"/>
+      <point x="1118.284279256655" y="1594.223505775992"/>
+      <point x="1079.2335509794075" y="1416.8824711200402"/>
+      <point x="888.4178804620794" y="1416.8824711200402" type="curve"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kcaron" format="2">
+  <advance width="1086.608695652174"/>
+  <unicode hex="01E9"/>
+  <anchor x="495.82608695652175" y="0.0" name="bottom"/>
+  <anchor x="374.39130434782606" y="1292.0" name="tbar"/>
+  <anchor x="832.391304347826" y="1865.086956521739" name="top"/>
+  <outline>
+    <component base="k"/>
+    <component base="caroncomb.case" xOffset="320.17391304347825" yOffset="-21.652173913043477"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

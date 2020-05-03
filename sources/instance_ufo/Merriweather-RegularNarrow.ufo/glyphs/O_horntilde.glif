@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ohorntilde" format="2">
-  <advance width="1226.6737569060774"/>
+  <advance width="1224.6519337016575"/>
   <unicode hex="1EE0"/>
-  <anchor x="615.4177900552486" y="-21.94558011049724" name="bottom"/>
-  <anchor x="616.1451657458564" y="741.0" name="center"/>
+  <anchor x="614.8618784530387" y="-15.082872928176796" name="bottom"/>
+  <anchor x="614.4806629834254" y="741.0" name="center"/>
   <anchor x="1299.9171270718232" y="20.0" name="ogonek"/>
-  <anchor x="740.6701451381216" y="0.0" name="qq"/>
-  <anchor x="614.4122099447513" y="1865.2983425414366" name="top"/>
-  <anchor x="23.31988950276243" y="1486.0" name="topleft"/>
-  <anchor x="851.9104419889502" y="1486.0" name="topright"/>
+  <anchor x="739.0165745856353" y="0.0" name="qq"/>
+  <anchor x="616.4254143646409" y="1865.2983425414366" name="top"/>
+  <anchor x="23.226519337016576" y="1486.0" name="topleft"/>
+  <anchor x="936.3867403314918" y="1486.0" name="topright"/>
   <outline>
     <component base="Ohorn"/>
-    <component base="tildecomb.case" xOffset="216.27447513812155"/>
+    <component base="tildecomb.case" xOffset="262.646408839779"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

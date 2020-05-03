@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Semisoftsign-cy" format="2">
-  <advance width="1307.0"/>
+  <advance width="1307"/>
   <unicode hex="048C"/>
   <outline>
     <contour>
-      <point x="111.0" y="1081.0" type="line"/>
-      <point x="636.0" y="1081.0" type="line"/>
-      <point x="636.0" y="1181.0" type="line"/>
-      <point x="111.0" y="1181.0" type="line"/>
+      <point x="111" y="1081" type="line"/>
+      <point x="636" y="1081" type="line"/>
+      <point x="636" y="1181" type="line"/>
+      <point x="111" y="1181" type="line"/>
     </contour>
     <component base="Softsign-cy"/>
   </outline>
@@ -16,11 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>Softsign-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>Lje-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>Softsign-cy</string>
     </dict>
   </lib>
 </glyph>

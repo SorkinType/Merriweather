@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uogonek.sc" format="2">
+  <advance width="1249"/>
+  <anchor x="722" y="0" name="bottom"/>
+  <anchor x="752" y="18" name="ogonek"/>
+  <anchor x="671" y="1360" name="top"/>
+  <anchor x="1099" y="1292" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="ogonekcomb" xOffset="442" yOffset="16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>u.sc</string>
+    </dict>
+  </lib>
+</glyph>

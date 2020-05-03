@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedescender-cy" format="2">
+  <advance width="1054.998023715415"/>
+  <unicode hex="04B7"/>
+  <anchor x="482.1739130434783" y="435.3359683794467" name="bar"/>
+  <anchor x="879.1452569169961" y="0.0" name="bottomright"/>
+  <anchor x="569.9486166007905" y="1109.7509881422925" name="top"/>
+  <outline>
+    <component base="che-cy"/>
+    <component base="desccy_part." xOffset="585.7687747035574"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>che-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

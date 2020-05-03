@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q.sc" format="2">
+  <advance width="1189.8181818181818"/>
+  <anchor x="594.7272727272727" y="0.0" name="bottom"/>
+  <anchor x="595.0909090909091" y="646.3636363636364" name="center"/>
+  <anchor x="670.0" y="18.0" name="ogonek"/>
+  <anchor x="686.909090909091" y="0.0" name="q"/>
+  <anchor x="597.7272727272727" y="1288.0" name="top"/>
+  <anchor x="-36.63636363636364" y="1292.0" name="topleft"/>
+  <anchor x="808.2727272727273" y="1293.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="qtail.sc" xScale="0.98" xOffset="31.454545454545453"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+    </dict>
+  </lib>
+</glyph>

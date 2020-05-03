@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iigrave-cy.loclBGR" format="2">
+  <advance width="1065.2727272727273"/>
+  <anchor x="437.6363636363636" y="0.0" name="bottom"/>
+  <anchor x="890.6363636363636" y="0.0" name="bottomright"/>
+  <anchor x="834.1818181818181" y="0.0" name="ogonek"/>
+  <anchor x="691.5454545454545" y="1659.0" name="top"/>
+  <anchor x="894.4545454545455" y="1100.7272727272727" name="topright"/>
+  <outline>
+    <component base="ii-cy.loclBGR"/>
+    <component base="gravecomb" xOffset="215.72727272727272" yOffset="2.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringacute.sc" format="2">
-  <advance width="1317.5004696132596"/>
+  <advance width="1234.3259668508288"/>
   <anchor x="1207.4696132596684" y="18.0" name="ogonek"/>
-  <anchor x="662.3417403314917" y="0.0" name="bottom"/>
-  <anchor x="662.9348895027624" y="2275.9249171270717" name="top"/>
+  <anchor x="621.9171270718232" y="0.0" name="bottom"/>
+  <anchor x="623.5359116022099" y="2308.8508287292816" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="ringcomb" xOffset="385.61237569060773" yOffset="121.96000000000001"/>
-    <component base="acutecomb" xOffset="523.855" yOffset="687.5401104972376"/>
+    <component base="ringcomb" xOffset="360.8563535911602" yOffset="162.0"/>
+    <component base="acutecomb" xOffset="485.9944751381216" yOffset="727.5801104972376"/>
   </outline>
   <lib>
     <dict>
@@ -24,10 +24,6 @@
       </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>a.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

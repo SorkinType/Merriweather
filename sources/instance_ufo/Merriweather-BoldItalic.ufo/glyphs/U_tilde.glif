@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Utilde" format="2">
+  <advance width="1400.5217391304348"/>
+  <unicode hex="0168"/>
+  <anchor x="657.7391304347826" y="0.0" name="bottom"/>
+  <anchor x="738.3478260869565" y="20.0" name="ogonek"/>
+  <anchor x="926.0434782608695" y="1883.0869565217392" name="top"/>
+  <anchor x="1332.7391304347825" y="1486.0" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="tildecomb.case" xOffset="339.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ustraitstroke-cy" format="2">
+  <advance width="817"/>
+  <unicode hex="04B1"/>
+  <anchor x="474" y="22" name="center"/>
+  <outline>
+    <contour>
+      <point x="86" y="0" type="line"/>
+      <point x="780" y="0" type="line"/>
+      <point x="780" y="64" type="line"/>
+      <point x="86" y="64" type="line"/>
+    </contour>
+    <component base="ustrait-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

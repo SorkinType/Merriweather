@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhungarumlaut-cy" format="2">
+  <advance width="1067.909090909091"/>
+  <unicode hex="04F3"/>
+  <anchor x="918.6363636363635" y="0.0" name="bottom"/>
+  <anchor x="576.090909090909" y="1664.3636363636363" name="top"/>
+  <outline>
+    <component base="u-cy"/>
+    <component base="hungarumlautcomb" xOffset="246.8181818181818" yOffset="0.6363636363636364"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

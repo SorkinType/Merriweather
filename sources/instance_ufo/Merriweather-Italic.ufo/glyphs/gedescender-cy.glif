@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gedescender-cy" format="2">
+  <advance width="901.8804347826087"/>
+  <unicode hex="04F7"/>
+  <anchor x="4.1847826086956275" y="1110.0" name="top"/>
+  <anchor x="351.45652173913044" y="0.0" name="bottom"/>
+  <anchor x="446.6739130434783" y="558.0" name="center"/>
+  <anchor x="321.05434782608694" y="0.0" name="hook"/>
+  <outline>
+    <component base="ge-cy"/>
+    <component base="desccy_part." xOffset="90.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>desccy_part.</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ge-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

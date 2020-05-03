@@ -1,19 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yhookabove.sc" format="2">
-  <advance width="1258.0"/>
-  <anchor x="628.0" y="0.0" name="bottom"/>
-  <anchor x="687.0" y="1738.0" name="top"/>
-  <anchor x="4.0" y="1292.0" name="topleft"/>
+  <advance width="1258"/>
+  <anchor x="628" y="0" name="bottom"/>
+  <anchor x="670" y="399" name="center"/>
+  <anchor x="687" y="1738" name="top"/>
+  <anchor x="4" y="1292" name="topleft"/>
   <outline>
     <component base="y.sc"/>
-    <component base="hookabovecomb" xOffset="411.0" yOffset="162.0"/>
+    <component base="hookabovecomb" xOffset="411" yOffset="162"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

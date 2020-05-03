@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otildemacron.sc" format="2">
+  <advance width="1217.1818181818182"/>
+  <anchor x="544.8181818181818" y="0.0" name="bottom"/>
+  <anchor x="624.2727272727273" y="648.4545454545455" name="center"/>
+  <anchor x="726.3636363636364" y="19.090909090909093" name="ogonek"/>
+  <anchor x="822.1818181818182" y="2080.272727272727" name="top"/>
+  <anchor x="166.54545454545456" y="1268.909090909091" name="topleft"/>
+  <anchor x="949.6363636363636" y="1234.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="tildecomb" xOffset="280.0" yOffset="197.27272727272728"/>
+    <component base="macroncomb" xOffset="410.9090909090909" yOffset="644.2727272727273"/>
+  </outline>
+</glyph>

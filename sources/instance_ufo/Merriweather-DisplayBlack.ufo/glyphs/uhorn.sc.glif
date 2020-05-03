@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn.sc" format="2">
+  <advance width="1314"/>
+  <anchor x="750" y="0" name="bottom"/>
+  <anchor x="1290" y="18" name="ogonek"/>
+  <anchor x="712" y="1360" name="top"/>
+  <anchor x="1181" y="1293" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="horncomb.case" xOffset="1121" yOffset="-66"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u.sc</string>
+    </dict>
+  </lib>
+</glyph>

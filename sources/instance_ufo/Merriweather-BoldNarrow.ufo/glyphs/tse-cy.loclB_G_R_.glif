@@ -1,33 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tse-cy.loclBGR" format="2">
-  <advance width="1130.4530386740332"/>
+  <advance width="1118.9060773480662"/>
   <anchor x="539.7127071823204" y="0.0" name="bottom"/>
   <anchor x="934.3425414364641" y="20.0" name="ogonek"/>
   <anchor x="513.1602209944751" y="1111.4475138121547" name="top"/>
-  <anchor x="936.4806629834254" y="1111.4475138121547" name="topright"/>
+  <anchor x="872.1160220994475" y="1111.4475138121547" name="topright"/>
   <outline>
     <component base="ii-cy.loclBGR"/>
     <component base="righttooth_part." xOffset="778.2265193370166"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ii-cy.loclBGR</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>ii-cy.loclBGR</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>pedescender-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

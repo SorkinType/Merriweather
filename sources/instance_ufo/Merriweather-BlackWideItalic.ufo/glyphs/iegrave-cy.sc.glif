@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iegrave-cy.sc" format="2">
+  <advance width="1350"/>
+  <anchor x="633" y="0" name="bottom"/>
+  <anchor x="986" y="0" name="ogonek"/>
+  <anchor x="845" y="1883" name="top"/>
+  <outline>
+    <component base="ie-cy.sc"/>
+    <component base="gravecomb" xOffset="216" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

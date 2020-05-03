@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Otildeacute" format="2">
+  <advance width="1357.1086956521738"/>
+  <unicode hex="1E4C"/>
+  <anchor x="611.9239130434783" y="0.0" name="bottom"/>
+  <anchor x="702.9673913043479" y="744.0" name="center"/>
+  <anchor x="718.6086956521739" y="0.0" name="ogonek"/>
+  <anchor x="923.0326086956522" y="2263.75" name="top"/>
+  <anchor x="171.2608695652174" y="1486.0" name="topleft"/>
+  <anchor x="949.9021739130435" y="1486.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="tildecomb.case" xOffset="321.22826086956525"/>
+    <component base="acutecomb.case" xOffset="599.358695652174" yOffset="378.44565217391306"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

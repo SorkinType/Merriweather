@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde" format="2">
+  <advance width="1072"/>
+  <unicode hex="007E"/>
+  <outline>
+    <contour>
+      <point x="140" y="546" type="curve"/>
+      <point x="172" y="489" type="line"/>
+      <point x="217" y="560"/>
+      <point x="286" y="610"/>
+      <point x="357" y="610" type="curve" smooth="yes"/>
+      <point x="503" y="610"/>
+      <point x="523" y="426"/>
+      <point x="693" y="426" type="curve" smooth="yes"/>
+      <point x="793" y="426"/>
+      <point x="894" y="494"/>
+      <point x="932" y="581" type="curve"/>
+      <point x="893" y="645" type="line"/>
+      <point x="848" y="574"/>
+      <point x="775" y="517"/>
+      <point x="702" y="517" type="curve" smooth="yes"/>
+      <point x="560" y="517"/>
+      <point x="532" y="701"/>
+      <point x="375" y="701" type="curve" smooth="yes"/>
+      <point x="277" y="701"/>
+      <point x="174" y="629"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

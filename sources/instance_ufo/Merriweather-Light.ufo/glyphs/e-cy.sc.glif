@@ -1,51 +1,58 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="e-cy.sc" format="2">
-  <advance width="1252.0"/>
+  <advance width="1252"/>
   <outline>
     <contour>
-      <point x="1122.0" y="46.0" type="curve"/>
-      <point x="1170.0" y="300.0" type="line"/>
-      <point x="1070.0" y="308.0" type="line"/>
-      <point x="990.0" y="132.0" type="line"/>
-      <point x="938.0" y="98.0"/>
-      <point x="880.0" y="72.0"/>
-      <point x="728.0" y="72.0" type="curve" smooth="yes"/>
-      <point x="432.0" y="72.0"/>
-      <point x="284.0" y="328.0"/>
-      <point x="268.0" y="610.0" type="curve"/>
-      <point x="924.0" y="594.0" type="line"/>
-      <point x="924.0" y="728.0" type="line"/>
-      <point x="268.0" y="712.0" type="line"/>
-      <point x="284.0" y="1034.0"/>
-      <point x="472.0" y="1216.0"/>
-      <point x="720.0" y="1216.0" type="curve" smooth="yes"/>
-      <point x="878.0" y="1216.0"/>
-      <point x="946.0" y="1190.0"/>
-      <point x="990.0" y="1164.0" type="curve"/>
-      <point x="1036.0" y="956.0" type="line"/>
-      <point x="1142.0" y="956.0" type="line"/>
-      <point x="1154.0" y="1250.0" type="line"/>
-      <point x="1078.0" y="1262.0"/>
-      <point x="920.0" y="1306.0"/>
-      <point x="744.0" y="1306.0" type="curve" smooth="yes"/>
-      <point x="362.0" y="1306.0"/>
-      <point x="70.0" y="1034.0"/>
-      <point x="70.0" y="648.0" type="curve" smooth="yes"/>
-      <point x="70.0" y="250.0"/>
-      <point x="316.0" y="-20.0"/>
-      <point x="722.0" y="-20.0" type="curve" smooth="yes"/>
-      <point x="948.0" y="-20.0"/>
-      <point x="1022.0" y="42.0"/>
+      <point x="1122" y="46" type="curve"/>
+      <point x="1170" y="300" type="line"/>
+      <point x="1070" y="308" type="line"/>
+      <point x="990" y="132" type="line"/>
+      <point x="938" y="98"/>
+      <point x="880" y="72"/>
+      <point x="728" y="72" type="curve" smooth="yes"/>
+      <point x="432" y="72"/>
+      <point x="284" y="328"/>
+      <point x="268" y="610" type="curve"/>
+      <point x="924" y="594" type="line"/>
+      <point x="924" y="728" type="line"/>
+      <point x="268" y="712" type="line"/>
+      <point x="284" y="1034"/>
+      <point x="472" y="1216"/>
+      <point x="720" y="1216" type="curve" smooth="yes"/>
+      <point x="878" y="1216"/>
+      <point x="946" y="1190"/>
+      <point x="990" y="1164" type="curve"/>
+      <point x="1036" y="956" type="line"/>
+      <point x="1142" y="956" type="line"/>
+      <point x="1154" y="1250" type="line"/>
+      <point x="1078" y="1262"/>
+      <point x="920" y="1306"/>
+      <point x="744" y="1306" type="curve" smooth="yes"/>
+      <point x="362" y="1306"/>
+      <point x="70" y="1034"/>
+      <point x="70" y="648" type="curve" smooth="yes"/>
+      <point x="70" y="250"/>
+      <point x="316" y="-20"/>
+      <point x="722" y="-20" type="curve" smooth="yes"/>
+      <point x="948" y="-20"/>
+      <point x="1022" y="42"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>ze-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

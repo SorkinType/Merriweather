@@ -1,28 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lefttooth_part." format="2">
-  <advance width="1301.0"/>
-  <anchor x="25.0" y="0.0" name="_bottomleft"/>
+  <advance width="1301"/>
+  <anchor x="25" y="0" name="_bottomleft"/>
   <outline>
     <contour>
-      <point x="10.0" y="-360.0" type="curve"/>
-      <point x="200.0" y="-360.0" type="line"/>
-      <point x="209.0" y="-309.0"/>
-      <point x="273.0" y="-54.0"/>
-      <point x="296.0" y="0.0" type="curve"/>
-      <point x="404.0" y="154.0" type="line"/>
-      <point x="25.0" y="154.0" type="line"/>
-      <point x="18.0" y="-28.0"/>
-      <point x="11.0" y="-253.0"/>
+      <point x="10" y="-360" type="curve"/>
+      <point x="200" y="-360" type="line"/>
+      <point x="209" y="-309"/>
+      <point x="273" y="-54"/>
+      <point x="296" y="0" type="curve"/>
+      <point x="404" y="154" type="line"/>
+      <point x="25" y="154" type="line"/>
+      <point x="18" y="-28"/>
+      <point x="11" y="-253"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
     </dict>
   </lib>
 </glyph>

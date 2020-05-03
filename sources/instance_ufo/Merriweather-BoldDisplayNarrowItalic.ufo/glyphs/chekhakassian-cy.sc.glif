@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chekhakassian-cy.sc" format="2">
+  <advance width="1131.1739130434783"/>
+  <anchor x="530.1739130434783" y="564.0" name="bar"/>
+  <anchor x="447.5217391304348" y="0.0" name="bottomleft"/>
+  <anchor x="1011.695652173913" y="0.0" name="bottomright"/>
+  <anchor x="637.2173913043479" y="1355.304347826087" name="top"/>
+  <outline>
+    <component base="che-cy.sc"/>
+    <component base="lefttooth_part." xOffset="436.0434782608696"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>che-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

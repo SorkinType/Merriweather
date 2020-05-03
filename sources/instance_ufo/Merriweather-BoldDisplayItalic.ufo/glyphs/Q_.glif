@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="1355.391304347826"/>
+  <unicode hex="0051"/>
+  <anchor x="614.2608695652174" y="0.0" name="bottom"/>
+  <anchor x="714.1739130434783" y="740.2173913043478" name="center"/>
+  <anchor x="726.8695652173914" y="0.0" name="ogonek"/>
+  <anchor x="814.7826086956521" y="1486.0" name="top"/>
+  <anchor x="161.34782608695653" y="1486.0" name="topleft"/>
+  <anchor x="982.8695652173913" y="1486.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="qtail.case" xOffset="-25.739130434782606"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

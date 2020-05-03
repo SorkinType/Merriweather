@@ -1,32 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gheupturn-cy.sc" format="2">
-  <advance width="1090.0"/>
+  <advance width="1090"/>
   <outline>
     <contour>
-      <point x="934.0" y="1598.0" type="line"/>
-      <point x="882.0" y="1292.0" type="line"/>
-      <point x="76.0" y="1292.0" type="line"/>
-      <point x="76.0" y="1212.0" type="line"/>
-      <point x="288.0" y="1190.0" type="line"/>
-      <point x="288.0" y="98.0" type="line"/>
-      <point x="72.0" y="80.0" type="line"/>
-      <point x="72.0" y="0.0" type="line"/>
-      <point x="798.0" y="0.0" type="line"/>
-      <point x="798.0" y="80.0" type="line"/>
-      <point x="458.0" y="98.0" type="line"/>
-      <point x="458.0" y="1206.0" type="line"/>
-      <point x="1032.0" y="1198.0" type="line"/>
-      <point x="1050.0" y="1598.0" type="line"/>
+      <point x="934" y="1598" type="line"/>
+      <point x="882" y="1292" type="line"/>
+      <point x="76" y="1292" type="line"/>
+      <point x="76" y="1212" type="line"/>
+      <point x="288" y="1190" type="line"/>
+      <point x="288" y="98" type="line"/>
+      <point x="72" y="80" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="798" y="0" type="line"/>
+      <point x="798" y="80" type="line"/>
+      <point x="458" y="98" type="line"/>
+      <point x="458" y="1206" type="line"/>
+      <point x="1032" y="1198" type="line"/>
+      <point x="1050" y="1598" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>pe-cy.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

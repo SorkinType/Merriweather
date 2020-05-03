@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghemiddlehook-cy" format="2">
+  <advance width="1007.9090909090909"/>
+  <unicode hex="0495"/>
+  <anchor x="330.1818181818182" y="0.0" name="bottomright"/>
+  <anchor x="453.6363636363636" y="556.0" name="center"/>
+  <anchor x="429.45454545454544" y="1110.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="547.1818181818182" y="-482.0" type="curve" smooth="yes"/>
+      <point x="780.2727272727273" y="-482.0"/>
+      <point x="954.2727272727273" y="-295.6363636363636"/>
+      <point x="954.2727272727273" y="96.9090909090909" type="curve" smooth="yes"/>
+      <point x="954.2727272727273" y="383.27272727272725"/>
+      <point x="851.1818181818182" y="533.7272727272726"/>
+      <point x="599.0909090909091" y="533.7272727272726" type="curve" smooth="yes"/>
+      <point x="484.3636363636363" y="533.7272727272726"/>
+      <point x="389.72727272727275" y="483.6363636363636"/>
+      <point x="331.18181818181813" y="431.54545454545456" type="curve"/>
+      <point x="331.18181818181813" y="375.72727272727275" type="line"/>
+      <point x="392.3636363636364" y="409.0909090909091"/>
+      <point x="486.0" y="434.6363636363636"/>
+      <point x="556.7272727272727" y="434.6363636363636" type="curve" smooth="yes"/>
+      <point x="732.6363636363636" y="434.6363636363636"/>
+      <point x="806.4545454545454" y="339.45454545454544"/>
+      <point x="806.4545454545454" y="88.18181818181819" type="curve" smooth="yes"/>
+      <point x="806.4545454545454" y="-248.36363636363637"/>
+      <point x="712.8181818181818" y="-412.3636363636364"/>
+      <point x="520.7272727272727" y="-412.3636363636364" type="curve" smooth="yes"/>
+      <point x="494.45454545454544" y="-412.3636363636364"/>
+      <point x="453.90909090909093" y="-409.3636363636364"/>
+      <point x="435.90909090909093" y="-406.3636363636364" type="curve"/>
+      <point x="436.6363636363636" y="-466.0" type="line"/>
+      <point x="458.54545454545456" y="-474.0"/>
+      <point x="508.2727272727273" y="-482.0"/>
+    </contour>
+    <component base="ge-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

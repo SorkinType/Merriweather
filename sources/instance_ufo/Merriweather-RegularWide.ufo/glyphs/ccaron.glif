@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ccaron" format="2">
-  <advance width="1048.9723756906078"/>
+  <advance width="1046.7900552486187"/>
   <unicode hex="010D"/>
-  <anchor x="562.6740331491712" y="0.0" name="bottom"/>
+  <anchor x="562.6740331491714" y="0.0" name="bottom"/>
   <anchor x="640.3867403314918" y="1539.2983425414366" name="top"/>
   <outline>
     <component base="c"/>
-    <component base="caroncomb" xOffset="248.88950276243094" yOffset="0.28176795580110486"/>
+    <component base="caroncomb" xOffset="248.88950276243094" yOffset="0.281767955801105"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

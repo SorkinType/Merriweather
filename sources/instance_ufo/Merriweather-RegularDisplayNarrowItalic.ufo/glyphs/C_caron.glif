@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ccaron" format="2">
+  <advance width="1106.2065217391305"/>
+  <unicode hex="010C"/>
+  <anchor x="563.6630434782609" y="0.0" name="bottom"/>
+  <anchor x="788.9239130434783" y="1881.0978260869565" name="top"/>
+  <outline>
+    <component base="C"/>
+    <component base="caroncomb.case" xOffset="292.6847826086957" yOffset="-0.31521739130434784"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

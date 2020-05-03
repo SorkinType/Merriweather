@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ainvertedbreve" format="2">
-  <advance width="982.1619889502763"/>
+  <advance width="906.4861878453039"/>
   <unicode hex="0203"/>
-  <anchor x="441.89243093922653" y="-128.8358287292817" name="bottom"/>
-  <anchor x="747.4874861878453" y="20.0" name="ogonek"/>
-  <anchor x="447.132044198895" y="1751.3381491712707" name="top"/>
+  <anchor x="426.3922651933702" y="-88.54696132596685" name="bottom"/>
+  <anchor x="734.6243093922652" y="20.0" name="ogonek"/>
+  <anchor x="435.1160220994475" y="1751.2099447513813" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="breveinvertedcomb" xOffset="104.62919889502763" yOffset="0.4099723756906075"/>
+    <component base="breveinvertedcomb" xOffset="124.87292817679558" yOffset="0.281767955801105"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

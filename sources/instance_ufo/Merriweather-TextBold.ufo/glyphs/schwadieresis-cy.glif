@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="schwadieresis-cy" format="2">
+  <advance width="1056.5479658463087"/>
+  <unicode hex="04DB"/>
+  <anchor x="475.25364138623814" y="-17.906579608237067" name="bottom"/>
+  <anchor x="525.51632345555" y="1485.4098442993468" name="top"/>
+  <outline>
+    <component base="schwa-cy"/>
+    <component base="dieresiscomb" xOffset="141.69010547463586" yOffset="-0.592164741336012"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

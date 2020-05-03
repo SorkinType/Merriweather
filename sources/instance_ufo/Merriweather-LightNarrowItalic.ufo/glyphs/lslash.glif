@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="559"/>
+  <unicode hex="0142"/>
+  <guideline x="-4" y="703" angle="215.1807"/>
+  <anchor x="260" y="0" name="bottom"/>
+  <anchor x="622" y="1617" name="caron"/>
+  <anchor x="416" y="1561" name="top"/>
+  <outline>
+    <contour>
+      <point x="106" y="794" type="line"/>
+      <point x="285" y="875" type="line"/>
+      <point x="370" y="907" type="line"/>
+      <point x="594" y="1000" type="line"/>
+      <point x="594" y="1115" type="line"/>
+      <point x="376" y="1022" type="line"/>
+      <point x="295" y="991" type="line"/>
+      <point x="106" y="902" type="line"/>
+    </contour>
+    <component base="l" xOffset="46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=l+10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=l+5</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

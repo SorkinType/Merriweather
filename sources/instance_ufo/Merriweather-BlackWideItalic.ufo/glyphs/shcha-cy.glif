@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shcha-cy" format="2">
+  <advance width="1933"/>
+  <unicode hex="0449"/>
+  <anchor x="1764" y="0" name="bottomright"/>
+  <anchor x="726" y="-166" name="btm"/>
+  <anchor x="926" y="1660" name="top"/>
+  <outline>
+    <component base="sha-cy"/>
+    <component base="desccy_part." xOffset="1466"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ii-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

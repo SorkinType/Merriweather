@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbrevebelow.sc" format="2">
+  <advance width="1566"/>
+  <anchor x="707" y="0" name="bottom"/>
+  <anchor x="1438" y="0" name="bottomright"/>
+  <anchor x="867" y="1292" name="top"/>
+  <outline>
+    <component base="h.sc"/>
+    <component base="brevebelowcomb" xOffset="446"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

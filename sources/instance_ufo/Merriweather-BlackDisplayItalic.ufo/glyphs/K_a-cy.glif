@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ka-cy" format="2">
+  <advance width="1461"/>
+  <unicode hex="041A"/>
+  <anchor x="1416" y="0" name="bottomright"/>
+  <anchor x="392" y="1205" name="tbar"/>
+  <anchor x="868" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="964" y="0" type="curve" smooth="yes"/>
+      <point x="1414" y="0" type="line"/>
+      <point x="1418" y="38" type="line"/>
+      <point x="1351" y="54" type="line"/>
+      <point x="1292" y="127"/>
+      <point x="1250" y="238"/>
+      <point x="1207" y="353" type="curve" smooth="yes"/>
+      <point x="1093" y="658"/>
+      <point x="1024" y="848"/>
+      <point x="750" y="833" type="curve"/>
+      <point x="729" y="739" type="line"/>
+      <point x="1351" y="1408" type="line"/>
+      <point x="1493" y="1448" type="line"/>
+      <point x="1497" y="1486" type="line"/>
+      <point x="1073" y="1486" type="line"/>
+      <point x="1069" y="1448" type="line"/>
+      <point x="1217" y="1410" type="line"/>
+      <point x="711" y="833" type="line"/>
+      <point x="413" y="833" type="line"/>
+      <point x="404" y="749" type="line"/>
+      <point x="608" y="749" type="line" smooth="yes"/>
+      <point x="784" y="749"/>
+      <point x="859" y="0"/>
+    </contour>
+    <contour>
+      <point x="-47" y="0" type="line"/>
+      <point x="588" y="0" type="line"/>
+      <point x="594" y="38" type="line"/>
+      <point x="464" y="72" type="line"/>
+      <point x="648" y="1413" type="line"/>
+      <point x="799" y="1448" type="line"/>
+      <point x="803" y="1486" type="line"/>
+      <point x="160" y="1486" type="line"/>
+      <point x="155" y="1448" type="line"/>
+      <point x="273" y="1413" type="line"/>
+      <point x="90" y="72" type="line"/>
+      <point x="-41" y="38" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>K</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1308</integer>
+            <integer>1237</integer>
+          </array>
+          <key>type</key>
+          <string>Plus</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

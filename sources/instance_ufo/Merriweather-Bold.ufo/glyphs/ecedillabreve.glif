@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecedillabreve" format="2">
-  <advance width="1080.9668508287293"/>
+  <advance width="1080.966850828729"/>
   <unicode hex="1E1D"/>
   <anchor x="538.292817679558" y="-501.121546961326" name="bottom"/>
   <anchor x="567.9779005524862" y="20.0" name="ogonek"/>
-  <anchor x="594.5027624309392" y="1732.8397790055249" name="top"/>
+  <anchor x="594.5027624309391" y="1732.8397790055249" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="cedillacomb" xOffset="293.0939226519337" yOffset="-8.881784197001252e-16"/>
-    <component base="brevecomb" xOffset="233.48618784530387" yOffset="-10.13259668508287"/>
+    <component base="cedillacomb" xOffset="293.09392265193367"/>
+    <component base="brevecomb" xOffset="233.48618784530387" yOffset="-10.132596685082873"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

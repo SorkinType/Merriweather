@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohorndotbelow.sc" format="2">
-  <advance width="1164.2309944751382"/>
-  <anchor x="581.0999171270719" y="-354.7348066298342" name="bottom"/>
-  <anchor x="580.778867403315" y="642.9999447513812" name="center"/>
-  <anchor x="664.2577348066299" y="18.0" name="ogonek"/>
-  <anchor x="669.5744751381216" y="0.0" name="q"/>
-  <anchor x="582.2720165745857" y="1231.96" name="top"/>
-  <anchor x="-85.90085635359115" y="1292.0" name="topleft"/>
-  <anchor x="759.9732320441989" y="1293.0" name="topright"/>
+  <advance width="1153.2154696132598"/>
+  <anchor x="576.6077348066299" y="-354.7348066298343" name="bottom"/>
+  <anchor x="575.889502762431" y="644.5635359116022" name="center"/>
+  <anchor x="660.6629834254144" y="18.0" name="ogonek"/>
+  <anchor x="667.171270718232" y="0.0" name="q"/>
+  <anchor x="577.4530386740331" y="1272.0" name="top"/>
+  <anchor x="-76.54696132596685" y="1292.0" name="topleft"/>
+  <anchor x="765.6519337016574" y="1293.0" name="topright"/>
   <outline>
     <component base="ohorn.sc"/>
-    <component base="dotbelowcomb" xOffset="424.37906077348066"/>
+    <component base="dotbelowcomb" xOffset="427.03867403314916"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedescender-cy" format="2">
-  <advance width="1261.1645027624309"/>
+  <advance width="1111.132596685083"/>
   <unicode hex="04B7"/>
-  <anchor x="816.1941712707182" y="0.0" name="bottomright"/>
-  <anchor x="624.742817679558" y="556.0" name="center"/>
-  <anchor x="552.3641712707182" y="1110.2817679558011" name="top"/>
+  <anchor x="1047.524861878453" y="0.0" name="bottomright"/>
+  <anchor x="613.2044198895028" y="556.0" name="center"/>
+  <anchor x="524.6795580110497" y="1110.2817679558011" name="top"/>
   <outline>
     <component base="che-cy"/>
-    <component base="righttooth_part." xOffset="793.9530662983425"/>
+    <component base="righttooth_part." xOffset="720.414364640884"/>
   </outline>
   <lib>
     <dict>
@@ -15,17 +15,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>de-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

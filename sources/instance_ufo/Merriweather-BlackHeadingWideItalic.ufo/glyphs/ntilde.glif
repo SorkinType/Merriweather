@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ntilde" format="2">
+  <advance width="1221.5454545454543"/>
+  <unicode hex="00F1"/>
+  <anchor x="583.7272727272729" y="0.0" name="bottom"/>
+  <anchor x="1080.090909090909" y="0.0" name="bottomright"/>
+  <anchor x="753.6363636363635" y="1555.7272727272727" name="top"/>
+  <outline>
+    <component base="n"/>
+    <component base="tildecomb" xOffset="223.1818181818182" yOffset="-1.2727272727272727"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

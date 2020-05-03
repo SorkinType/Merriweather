@@ -1,27 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghestroke-cy.sc" format="2">
-  <advance width="1128.0"/>
-  <anchor x="798.0" y="0.0" name="bottomright"/>
-  <anchor x="609.0" y="1272.0" name="top"/>
+  <advance width="1128"/>
+  <anchor x="798" y="0" name="bottomright"/>
+  <anchor x="609" y="1272" name="top"/>
   <outline>
     <contour>
-      <point x="94.0" y="530.0" type="line"/>
-      <point x="738.0" y="530.0" type="line"/>
-      <point x="738.0" y="643.0" type="line"/>
-      <point x="94.0" y="643.0" type="line"/>
+      <point x="94" y="530" type="line"/>
+      <point x="738" y="530" type="line"/>
+      <point x="738" y="643" type="line"/>
+      <point x="94" y="643" type="line"/>
     </contour>
     <component base="ge-cy.sc"/>
   </outline>
   <lib>
     <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>t.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

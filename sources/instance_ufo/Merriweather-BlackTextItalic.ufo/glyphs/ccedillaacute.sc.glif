@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccedillaacute.sc" format="2">
+  <advance width="1214.0"/>
+  <anchor x="643.0909090909091" y="0.0" name="bottom"/>
+  <anchor x="697.6363636363636" y="1767.909090909091" name="top"/>
+  <outline>
+    <component base="c.sc"/>
+    <component base="cedillacomb" xOffset="402.36363636363643"/>
+    <component base="acutecomb" xOffset="512.3636363636364" yOffset="198.54545454545453"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

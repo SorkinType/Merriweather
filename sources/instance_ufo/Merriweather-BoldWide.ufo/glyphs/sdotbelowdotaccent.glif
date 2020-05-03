@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotbelowdotaccent" format="2">
-  <advance width="1065.4254143646408"/>
+  <advance width="1058.9116022099447"/>
   <unicode hex="1E69"/>
-  <anchor x="501.08839779005524" y="-374.9502762430939" name="bottom"/>
-  <anchor x="498.0773480662983" y="1482.0718232044198" name="top"/>
+  <anchor x="497.46961325966845" y="-374.9502762430939" name="bottom"/>
+  <anchor x="494.45856353591165" y="1482.0718232044198" name="top"/>
   <outline>
     <component base="s"/>
-    <component base="dotbelowcomb" xOffset="319.25414364640886" yOffset="-6.513812154696131"/>
-    <component base="dotaccentcomb" xOffset="316.24309392265195" yOffset="0.7237569060773479"/>
+    <component base="dotbelowcomb" xOffset="315.6353591160221" yOffset="-6.513812154696133"/>
+    <component base="dotaccentcomb" xOffset="312.62430939226516" yOffset="0.7237569060773481"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

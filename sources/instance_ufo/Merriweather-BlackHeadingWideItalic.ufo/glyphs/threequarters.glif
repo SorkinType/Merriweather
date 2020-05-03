@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threequarters" format="2">
+  <advance width="2045.0000000000002"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <component base="three.numr"/>
+    <component base="fraction" xOffset="783.909090909091"/>
+    <component base="four.dnom" xOffset="1188.9090909090905"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>threesuperior</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>four.numr</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

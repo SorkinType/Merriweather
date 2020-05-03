@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ccedillaacute" format="2">
+  <advance width="1108.8695652173913"/>
+  <unicode hex="1E08"/>
+  <anchor x="577.7391304347826" y="0.0" name="bottom"/>
+  <anchor x="802.2173913043479" y="1938.1304347826085" name="top"/>
+  <outline>
+    <component base="C"/>
+    <component base="cedillacomb.case" xOffset="383.7391304347826"/>
+    <component base="acutecomb.case" xOffset="447.52173913043475" yOffset="-1.391304347826087"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

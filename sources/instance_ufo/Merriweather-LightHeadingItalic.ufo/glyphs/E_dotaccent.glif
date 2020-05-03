@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edotaccent" format="2">
+  <advance width="1175.1077075098815"/>
+  <unicode hex="0116"/>
+  <anchor x="526.4767786561265" y="0.0" name="bottom"/>
+  <anchor x="848.6383399209485" y="0.0" name="ogonek"/>
+  <anchor x="730.7623517786561" y="1767.1467391304348" name="top"/>
+  <anchor x="152.01877470355728" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="dotaccentcomb.case" xOffset="439.3898221343874"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

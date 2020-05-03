@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zhebreve-cy" format="2">
-  <advance width="1817.4917127071824"/>
+  <advance width="1817.4917127071822"/>
   <unicode hex="04C2"/>
-  <anchor x="1807.1823204419888" y="0.0" name="bottomright"/>
-  <anchor x="906.3867403314916" y="1110.5635359116022" name="top"/>
+  <anchor x="1790.8453038674033" y="0.0" name="bottomright"/>
+  <anchor x="906.3867403314918" y="1110.5635359116022" name="top"/>
   <outline>
     <component base="zhe-cy"/>
-    <component base="brevecomb-cy" xOffset="528.6906077348067" yOffset="0.28176795580110486"/>
+    <component base="brevecomb-cy" xOffset="528.6906077348066" yOffset="0.281767955801105"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

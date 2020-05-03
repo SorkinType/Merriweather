@@ -1,27 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dzcaron" format="2">
-  <advance width="2364.0"/>
+  <advance width="2364"/>
   <unicode hex="01C6"/>
-  <anchor x="625.0" y="0.0" name="bottom_1"/>
-  <anchor x="1817.0" y="0.0" name="bottom_2"/>
-  <anchor x="625.0" y="556.0" name="center"/>
-  <anchor x="333.0" y="1158.0" name="top_1"/>
-  <anchor x="1848.0" y="1552.0" name="top_2"/>
-  <anchor x="1239.0" y="1111.0" name="topright"/>
+  <anchor x="625" y="0" name="bottom_1"/>
+  <anchor x="1817" y="0" name="bottom_2"/>
+  <anchor x="625" y="556" name="center"/>
+  <anchor x="333" y="1158" name="top_1"/>
+  <anchor x="1848" y="1552" name="top_2"/>
+  <anchor x="1239" y="1111" name="topright"/>
   <outline>
     <component base="d"/>
-    <component base="zcaron" xOffset="1253.0"/>
+    <component base="zcaron" xOffset="1253"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotaccent.sc" format="2">
+  <advance width="730"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <anchor x="521" y="1683" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="dotaccentcomb" xOffset="208" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

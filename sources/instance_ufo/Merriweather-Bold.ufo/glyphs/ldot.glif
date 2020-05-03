@@ -3,20 +3,24 @@
   <advance width="979.9171270718232"/>
   <unicode hex="0140"/>
   <anchor x="327.35911602209944" y="0.0" name="bottom"/>
-  <anchor x="314.9502762430939" y="1634.0" name="top"/>
-  <anchor x="628.4033149171271" y="1110.7237569060774" name="topright"/>
+  <anchor x="314.95027624309387" y="1634.0" name="top"/>
+  <anchor x="628.403314917127" y="1110.7237569060774" name="topright"/>
   <outline>
     <component base="l"/>
     <component base="periodcentered.loclCAT" xOffset="648.939226519337"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>periodcentered.loclCAT</string>
+        </dict>
       </array>
     </dict>
   </lib>

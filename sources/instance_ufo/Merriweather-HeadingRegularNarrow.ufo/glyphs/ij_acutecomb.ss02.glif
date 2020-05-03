@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij_acutecomb.ss02" format="2">
+  <advance width="993.8432948267202"/>
+  <anchor x="256.7086891009543" y="0.0" name="bottom"/>
+  <anchor x="328.0798593671522" y="20.0" name="ogonek"/>
+  <anchor x="254.7820190858865" y="1110.2049221496736" name="top_1"/>
+  <anchor x="763.6559517830236" y="1110.1024610748368" name="top_2"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="acutecomb" xOffset="121.39226519337018" yOffset="0.2049221496735309"/>
+    <component base="jdotless" xOffset="491.76343545956803"/>
+    <component base="acutecomb" xOffset="630.2661978905072" yOffset="0.10246107483676545"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecedillabreve" format="2">
+  <advance width="1204"/>
+  <unicode hex="1E1C"/>
+  <anchor x="569" y="0" name="bottom"/>
+  <anchor x="856" y="0" name="ogonek"/>
+  <anchor x="712" y="1486" name="top"/>
+  <anchor x="137" y="1486" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="cedillacomb.case" xOffset="382"/>
+    <component base="brevecomb.case" xOffset="279"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

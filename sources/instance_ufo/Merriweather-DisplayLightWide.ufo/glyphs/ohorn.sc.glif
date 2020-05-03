@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn.sc" format="2">
+  <advance width="1337"/>
+  <anchor x="669" y="0" name="bottom"/>
+  <anchor x="670" y="648" name="center"/>
+  <anchor x="757" y="18" name="ogonek"/>
+  <anchor x="811" y="0" name="q"/>
+  <anchor x="665" y="1360" name="top"/>
+  <anchor x="15" y="1292" name="topleft"/>
+  <anchor x="917" y="1293" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="horncomb.case" xOffset="887" yOffset="-66"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obarreddieresis-cy.sc" format="2">
+  <advance width="1208"/>
+  <anchor x="535" y="0" name="bottom"/>
+  <anchor x="622" y="643" name="center"/>
+  <anchor x="701" y="10" name="ogonek"/>
+  <anchor x="774" y="1719" name="top"/>
+  <anchor x="113" y="1165" name="topleft"/>
+  <anchor x="956" y="1234" name="topright"/>
+  <outline>
+    <component base="obarred-cy.sc"/>
+    <component base="dieresiscomb" xOffset="362" yOffset="273"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

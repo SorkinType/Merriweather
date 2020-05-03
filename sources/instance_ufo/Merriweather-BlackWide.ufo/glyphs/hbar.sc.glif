@@ -1,67 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hbar.sc" format="2">
-  <advance width="1636.0"/>
-  <anchor x="817.0" y="0.0" name="bottom"/>
-  <anchor x="819.0" y="1287.0" name="top"/>
+  <advance width="1636"/>
+  <anchor x="817" y="0" name="bottom"/>
+  <anchor x="819" y="1287" name="top"/>
   <outline>
     <contour>
-      <point x="212.0" y="145.0" type="line"/>
-      <point x="77.0" y="126.0" type="line"/>
-      <point x="77.0" y="0.0" type="line"/>
-      <point x="712.0" y="0.0" type="line"/>
-      <point x="712.0" y="126.0" type="line"/>
-      <point x="556.0" y="144.0" type="line"/>
-      <point x="556.0" y="452.0" type="line"/>
-      <point x="1079.0" y="452.0" type="line"/>
-      <point x="1079.0" y="146.0" type="line"/>
-      <point x="935.0" y="126.0" type="line"/>
-      <point x="935.0" y="0.0" type="line"/>
-      <point x="1560.0" y="0.0" type="line"/>
-      <point x="1560.0" y="126.0" type="line"/>
-      <point x="1423.0" y="145.0" type="line"/>
-      <point x="1423.0" y="1134.0" type="line"/>
-      <point x="1558.0" y="1158.0" type="line"/>
-      <point x="1558.0" y="1292.0" type="line"/>
-      <point x="935.0" y="1292.0" type="line"/>
-      <point x="935.0" y="1158.0" type="line"/>
-      <point x="1079.0" y="1132.0" type="line"/>
-      <point x="1079.0" y="608.0" type="line"/>
-      <point x="556.0" y="608.0" type="line"/>
-      <point x="556.0" y="1134.0" type="line"/>
-      <point x="712.0" y="1158.0" type="line"/>
-      <point x="712.0" y="1292.0" type="line"/>
-      <point x="77.0" y="1292.0" type="line"/>
-      <point x="77.0" y="1158.0" type="line"/>
-      <point x="212.0" y="1134.0" type="line"/>
+      <point x="212" y="145" type="line"/>
+      <point x="77" y="126" type="line"/>
+      <point x="77" y="0" type="line"/>
+      <point x="712" y="0" type="line"/>
+      <point x="712" y="126" type="line"/>
+      <point x="556" y="144" type="line"/>
+      <point x="556" y="452" type="line"/>
+      <point x="1079" y="452" type="line"/>
+      <point x="1079" y="146" type="line"/>
+      <point x="935" y="126" type="line"/>
+      <point x="935" y="0" type="line"/>
+      <point x="1560" y="0" type="line"/>
+      <point x="1560" y="126" type="line"/>
+      <point x="1423" y="145" type="line"/>
+      <point x="1423" y="1134" type="line"/>
+      <point x="1558" y="1158" type="line"/>
+      <point x="1558" y="1292" type="line"/>
+      <point x="935" y="1292" type="line"/>
+      <point x="935" y="1158" type="line"/>
+      <point x="1079" y="1132" type="line"/>
+      <point x="1079" y="608" type="line"/>
+      <point x="556" y="608" type="line"/>
+      <point x="556" y="1134" type="line"/>
+      <point x="712" y="1158" type="line"/>
+      <point x="712" y="1292" type="line"/>
+      <point x="77" y="1292" type="line"/>
+      <point x="77" y="1158" type="line"/>
+      <point x="212" y="1134" type="line"/>
     </contour>
     <contour>
-      <point x="1558.0" y="958.0" type="line"/>
-      <point x="76.0" y="958.0" type="line"/>
-      <point x="76.0" y="802.0" type="line"/>
-      <point x="1558.0" y="802.0" type="line"/>
+      <point x="1558" y="958" type="line"/>
+      <point x="76" y="958" type="line"/>
+      <point x="76" y="802" type="line"/>
+      <point x="1558" y="802" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>adjustSpace</key>
-        <integer>2</integer>
-        <key>height</key>
-        <integer>87</integer>
-        <key>weight</key>
-        <integer>2</integer>
-        <key>width</key>
-        <integer>96</integer>
-      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>=h.sc+10</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

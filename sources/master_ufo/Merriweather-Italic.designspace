@@ -10,7 +10,11 @@
       <map input="100" output="100"/>
       <map input="125" output="200"/>
     </axis>
-    <axis tag="opsz" name="Optical Size" minimum="12" maximum="144" default="12"/>
+    <axis tag="opsz" name="Optical size" minimum="6" maximum="144" default="9">
+      <map input="6" output="12"/>
+      <map input="9" output="12"/>
+      <map input="144" output="144"/>
+    </axis>
   </axes>
   <sources>
     <source filename="Merriweather-LightNarrowItalic.ufo" name="Merriweather Light Narrow Italic" familyname="Merriweather" stylename="Light Narrow Italic">
@@ -21,84 +25,84 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-BlackNarrowItalic.ufo" name="Merriweather Black Narrow Italic" familyname="Merriweather" stylename="Black Narrow Italic">
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-LightItalic.ufo" name="Merriweather Light Italic" familyname="Merriweather" stylename="Light Italic">
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-BlackItalic.ufo" name="Merriweather Black Italic" familyname="Merriweather" stylename="Black Italic">
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-LightWideItalic.ufo" name="Merriweather Light Wide Italic" familyname="Merriweather" stylename="Light Wide Italic">
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-BlackWideItalic.ufo" name="Merriweather Black Wide Italic" familyname="Merriweather" stylename="Black Wide Italic">
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
     </source>
     <source filename="Merriweather-LightDisplayNarrowItalic.ufo" name="Merriweather Light Display Narrow Italic" familyname="Merriweather" stylename="Light Display Narrow Italic">
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-BlackDisplayNarrowItalic.ufo" name="Merriweather Black Display Narrow Italic" familyname="Merriweather" stylename="Black Display Narrow Italic">
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-LightDisplayItalic.ufo" name="Merriweather Light Display Italic" familyname="Merriweather" stylename="Light Display Italic">
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-BlackDisplayItalic.ufo" name="Merriweather Black Display Italic" familyname="Merriweather" stylename="Black Display Italic">
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-LightDisplayWideItalic.ufo" name="Merriweather Light Display Wide Italic" familyname="Merriweather" stylename="Light Display Wide Italic">
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
     <source filename="Merriweather-BlackDisplayWideItalic.ufo" name="Merriweather Black Display Wide Italic" familyname="Merriweather" stylename="Black Display Wide Italic">
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
   </sources>
@@ -107,7 +111,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -131,7 +135,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -155,7 +159,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -179,7 +183,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -203,7 +207,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -227,7 +231,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -251,7 +255,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -275,7 +279,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -299,7 +303,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -323,7 +327,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -347,7 +351,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -371,7 +375,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="12"/>
+        <dimension name="Optical size" xvalue="12"/>
       </location>
       <kerning/>
       <info/>
@@ -395,7 +399,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -419,7 +423,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -443,7 +447,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -467,7 +471,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -491,7 +495,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -515,7 +519,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -539,7 +543,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -563,7 +567,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -587,7 +591,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -611,7 +615,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -635,7 +639,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -659,7 +663,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="36"/>
+        <dimension name="Optical size" xvalue="36"/>
       </location>
       <kerning/>
       <info/>
@@ -683,7 +687,7 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -707,7 +711,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -731,7 +735,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -753,9 +757,9 @@
     </instance>
     <instance name="Merriweather Black Heading Italic" familyname="Merriweather" stylename="Black Heading Italic" filename="../instance_ufo/Merriweather-BlackHeadingItalic.ufo" stylemapfamilyname="Merriweather Black Heading" stylemapstylename="italic">
       <location>
-        <dimension name="Weight" xvalue="350"/>
+        <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -779,7 +783,7 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -803,7 +807,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -827,7 +831,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -849,9 +853,9 @@
     </instance>
     <instance name="Merriweather Black Heading Narrow Italic" familyname="Merriweather" stylename="Black Heading Narrow Italic" filename="../instance_ufo/Merriweather-BlackHeadingNarrowItalic.ufo" stylemapfamilyname="Merriweather Black Heading Narrow" stylemapstylename="italic">
       <location>
-        <dimension name="Weight" xvalue="350"/>
+        <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -875,7 +879,7 @@
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -899,7 +903,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -923,7 +927,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -945,9 +949,9 @@
     </instance>
     <instance name="Merriweather Black Heading Wide Italic" familyname="Merriweather" stylename="Black Heading Wide Italic" filename="../instance_ufo/Merriweather-BlackHeadingWideItalic.ufo" stylemapfamilyname="Merriweather Black Heading Wide" stylemapstylename="italic">
       <location>
-        <dimension name="Weight" xvalue="350"/>
+        <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="96"/>
+        <dimension name="Optical size" xvalue="96"/>
       </location>
       <kerning/>
       <info/>
@@ -971,7 +975,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -995,7 +999,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1019,7 +1023,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1043,7 +1047,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1067,7 +1071,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1091,7 +1095,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1115,7 +1119,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1139,7 +1143,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="50"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1163,7 +1167,7 @@
       <location>
         <dimension name="Weight" xvalue="162"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1187,7 +1191,7 @@
       <location>
         <dimension name="Weight" xvalue="220"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1211,7 +1215,7 @@
       <location>
         <dimension name="Weight" xvalue="290"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>
@@ -1235,7 +1239,7 @@
       <location>
         <dimension name="Weight" xvalue="346"/>
         <dimension name="Width" xvalue="200"/>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical size" xvalue="144"/>
       </location>
       <kerning/>
       <info/>

@@ -2,14 +2,54 @@
 <glyph name="oslash" format="2">
   <advance width="1281.110497237569"/>
   <unicode hex="00F8"/>
-  <anchor x="641.6077348066299" y="0.0" name="bottom"/>
+  <anchor x="641.6077348066298" y="0.0" name="bottom"/>
   <anchor x="641.0552486187845" y="556.2762430939226" name="center"/>
-  <anchor x="732.0331491712707" y="23.81215469613261" name="ogonek"/>
+  <anchor x="732.0331491712707" y="23.812154696132595" name="ogonek"/>
   <anchor x="641.3314917127071" y="1111.4475138121547" name="top"/>
   <anchor x="1035.9558011049724" y="1111.4475138121547" name="topright"/>
   <outline>
-    <component base="o"/>
-    <component base="slashocomb" xOffset="28.38121546961326" yOffset="1.2762430939226521"/>
+    <contour>
+      <point x="50.76243093922652" y="551.9337016574586" type="curve" smooth="yes"/>
+      <point x="50.76243093922652" y="213.6022099447514"/>
+      <point x="238.16022099447514" y="-22.0"/>
+      <point x="625.7127071823205" y="-22.0" type="curve" smooth="yes"/>
+      <point x="956.6132596685082" y="-22.0"/>
+      <point x="1230.3480662983427" y="181.5635359116022"/>
+      <point x="1230.3480662983427" y="566.0662983425415" type="curve" smooth="yes"/>
+      <point x="1230.3480662983427" y="904.3977900552486"/>
+      <point x="1043.950276243094" y="1140.0"/>
+      <point x="654.9502762430939" y="1140.0" type="curve" smooth="yes"/>
+      <point x="324.77348066298345" y="1140.0"/>
+      <point x="50.76243093922652" y="929.1988950276243"/>
+    </contour>
+    <contour>
+      <point x="644.3977900552486" y="107.33149171270719" type="curve" smooth="yes"/>
+      <point x="453.32596685082876" y="107.33149171270719"/>
+      <point x="380.9226519337017" y="279.5635359116022"/>
+      <point x="380.9226519337017" y="574.0" type="curve" smooth="yes"/>
+      <point x="380.9226519337017" y="870.4475138121547"/>
+      <point x="472.2320441988951" y="1010.6685082872928"/>
+      <point x="641.1602209944751" y="1010.6685082872928" type="curve" smooth="yes"/>
+      <point x="832.6795580110497" y="1010.6685082872928"/>
+      <point x="899.0165745856353" y="837.7127071823204"/>
+      <point x="899.0165745856353" y="544.0" type="curve" smooth="yes"/>
+      <point x="899.0165745856353" y="248.38121546961327"/>
+      <point x="812.4972375690609" y="107.33149171270719"/>
+    </contour>
+    <contour>
+      <point x="224.95027624309392" y="-149.26519337016575" type="line"/>
+      <point x="374.2430939226519" y="61.950276243093924" type="line"/>
+      <point x="412.8729281767956" y="133.13259668508286" type="line"/>
+      <point x="938.6077348066298" y="932.5911602209944" type="line"/>
+      <point x="1009.2651933701655" y="1025.8011049723757" type="line"/>
+      <point x="1155.5303867403313" y="1232.1988950276243" type="line"/>
+      <point x="1068.5027624309394" y="1285.0939226519336" type="line"/>
+      <point x="919.7900552486188" y="1075.0773480662983" type="line"/>
+      <point x="885.8839779005525" y="1010.5138121546962" type="line"/>
+      <point x="358.1878453038674" y="206.92265193370167" type="line"/>
+      <point x="283.0828729281768" y="107.37016574585635" type="line"/>
+      <point x="138.646408839779" y="-95.92265193370166" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -19,12 +59,8 @@
       <string>o</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecedilla" format="2">
+  <advance width="1031.5806127574083"/>
+  <unicode hex="0229"/>
+  <anchor x="508.7905575087895" y="0.0" name="_bottom"/>
+  <anchor x="508.7905575087895" y="0.0" name="bottom"/>
+  <anchor x="658.2546459065795" y="20.0" name="ogonek"/>
+  <anchor x="556.0557508789552" y="1110.2817679558011" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="cedillacomb" xOffset="315.25313912606725"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

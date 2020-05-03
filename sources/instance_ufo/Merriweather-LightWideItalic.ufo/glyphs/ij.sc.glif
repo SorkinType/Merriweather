@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij.sc" format="2">
+  <advance width="1211"/>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="891" y="-142" name="btm"/>
+  <anchor x="290" y="0" name="ogonek"/>
+  <anchor x="403" y="1292" name="top_1"/>
+  <anchor x="1060" y="1292" name="top_2"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="j.sc" xOffset="616"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

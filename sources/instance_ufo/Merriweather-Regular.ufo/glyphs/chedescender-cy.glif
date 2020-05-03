@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedescender-cy" format="2">
-  <advance width="1374.0883977900553"/>
+  <advance width="1272.4419889502763"/>
   <unicode hex="04B7"/>
-  <anchor x="843.4033149171271" y="0.0" name="bottomright"/>
+  <anchor x="1199.414364640884" y="0.0" name="bottomright"/>
   <anchor x="612.9779005524862" y="556.0" name="center"/>
   <anchor x="598.0165745856353" y="1110.2817679558011" name="top"/>
   <outline>
     <component base="che-cy"/>
-    <component base="righttooth_part." xOffset="915.4088397790056"/>
+    <component base="righttooth_part." xOffset="838.6629834254144"/>
   </outline>
   <lib>
     <dict>
@@ -15,17 +15,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>de-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

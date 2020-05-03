@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="utilde" format="2">
-  <advance width="1103.3427071823205"/>
+  <advance width="1068.486187845304"/>
   <unicode hex="0169"/>
-  <anchor x="510.8925414364641" y="0.0" name="bottom"/>
-  <anchor x="971.4993370165746" y="20.0" name="ogonek"/>
-  <anchor x="498.6445303867403" y="1496.7425966850828" name="top"/>
-  <anchor x="1052.5862430939226" y="1153.1148342541437" name="topright"/>
+  <anchor x="526.4530386740331" y="0.0" name="bottom"/>
+  <anchor x="931.6906077348066" y="20.0" name="ogonek"/>
+  <anchor x="499.01657458563534" y="1496.486187845304" name="top"/>
+  <anchor x="806.7016574585635" y="1110.5635359116022" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="tildecomb" xOffset="100.5067955801105" yOffset="0.819944751381215"/>
+    <component base="tildecomb" xOffset="145.23756906077347" yOffset="0.56353591160221"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohookabove" format="2">
+  <advance width="1129.9565217391305"/>
+  <unicode hex="1ECF"/>
+  <anchor x="485.0869565217391" y="-9.880434782608695" name="bottom"/>
+  <anchor x="564.9782608695651" y="558.054347826087" name="center"/>
+  <anchor x="599.4891304347826" y="20.0" name="ogonek"/>
+  <anchor x="728.4565217391305" y="1724.0" name="top"/>
+  <anchor x="797.0652173913044" y="1110.0" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="hookabovecomb" xOffset="410.2608695652174"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

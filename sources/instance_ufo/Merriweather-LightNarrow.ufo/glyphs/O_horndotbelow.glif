@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ohorndotbelow" format="2">
-  <advance width="1202.0"/>
+  <advance width="1210"/>
   <unicode hex="1EE2"/>
-  <anchor x="601.0" y="-367.0" name="bottom"/>
-  <anchor x="604.0" y="741.0" name="center"/>
-  <anchor x="1294.0" y="20.0" name="ogonek"/>
-  <anchor x="725.772" y="0.0" name="qq"/>
-  <anchor x="602.0" y="1486.0" name="top"/>
-  <anchor x="15.0" y="1486.0" name="topleft"/>
-  <anchor x="909.0" y="1486.0" name="topright"/>
+  <anchor x="605" y="-367" name="bottom"/>
+  <anchor x="608" y="741" name="center"/>
+  <anchor x="1294" y="20" name="ogonek"/>
+  <anchor x="730" y="0" name="qq"/>
+  <anchor x="606" y="1486" name="top"/>
+  <anchor x="19" y="1486" name="topleft"/>
+  <anchor x="913" y="1486" name="topright"/>
   <outline>
     <component base="Ohorn"/>
-    <component base="dotbelowcomb.case" xOffset="472.0" yOffset="-21.0"/>
+    <component base="dotbelowcomb.case" xOffset="476" yOffset="-21"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 18:18:00</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udblgrave.sc" format="2">
-  <advance width="1462.0"/>
-  <anchor x="724.0" y="0.0" name="bottom"/>
-  <anchor x="701.0" y="18.0" name="ogonek"/>
-  <anchor x="788.0" y="1903.0" name="top"/>
-  <anchor x="1257.0" y="1292.0" name="topright"/>
+  <advance width="1462"/>
+  <anchor x="724" y="0" name="bottom"/>
+  <anchor x="701" y="18" name="ogonek"/>
+  <anchor x="788" y="1903" name="top"/>
+  <anchor x="1257" y="1292" name="topright"/>
   <outline>
     <component base="u.sc"/>
-    <component base="dblgravecomb" xOffset="182.0" yOffset="161.0"/>
+    <component base="dblgravecomb" xOffset="182" yOffset="161"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

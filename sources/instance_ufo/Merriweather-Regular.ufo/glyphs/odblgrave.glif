@@ -1,26 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odblgrave" format="2">
-  <advance width="1138.767955801105"/>
+  <advance width="1138.7679558011052"/>
   <unicode hex="020D"/>
-  <anchor x="570.9613259668508" y="0.0" name="bottom"/>
+  <anchor x="570.961325966851" y="0.0" name="bottom"/>
   <anchor x="569.5248618784531" y="558.0" name="center"/>
-  <anchor x="713.6077348066299" y="55.77348066298343" name="ogonek"/>
+  <anchor x="607.0552486187845" y="19.861878453038674" name="ogonek"/>
   <anchor x="572.9337016574585" y="1644.3204419889503" name="top"/>
-  <anchor x="934.1657458563536" y="1110.2817679558011" name="topright"/>
+  <anchor x="750.0773480662983" y="1110.2817679558011" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="dblgravecomb" xOffset="9.309392265193367"/>
+    <component base="dblgravecomb" xOffset="9.30939226519337"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotaccent.sc" format="2">
-  <advance width="1422.0"/>
-  <anchor x="716.0" y="0.0" name="bottom"/>
-  <anchor x="1170.0" y="0.0" name="bottomright"/>
-  <anchor x="716.0" y="648.0" name="center"/>
-  <anchor x="716.0" y="1666.0" name="top"/>
+  <advance width="1422"/>
+  <anchor x="712" y="0" name="bottom"/>
+  <anchor x="1170" y="0" name="bottomright"/>
+  <anchor x="712" y="648" name="center"/>
+  <anchor x="712" y="1666" name="top"/>
   <outline>
     <component base="t.sc"/>
-    <component base="dotaccentcomb" xOffset="514.0" yOffset="162.0"/>
+    <component base="dotaccentcomb" xOffset="510" yOffset="162"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

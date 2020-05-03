@@ -4,23 +4,19 @@
   <unicode hex="1EDF"/>
   <anchor x="518.4364640883978" y="0.0" name="bottom"/>
   <anchor x="518.4364640883978" y="557.0" name="center"/>
-  <anchor x="932.0828729281768" y="10.0" name="ogonek"/>
-  <anchor x="518.4364640883978" y="1561.977900552486" name="top"/>
-  <anchor x="813.7845303867404" y="1111.4475138121547" name="topright"/>
+  <anchor x="564.8839779005525" y="10.0" name="ogonek"/>
+  <anchor x="518.4364640883978" y="1561.9779005524863" name="top"/>
+  <anchor x="709.8066298342542" y="1111.4475138121547" name="topright"/>
   <outline>
     <component base="ohorn"/>
-    <component base="hookabovecomb" xOffset="310.1160220994475" yOffset="1.4475138121546958"/>
+    <component base="hookabovecomb" xOffset="310.1160220994475" yOffset="1.4475138121546962"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

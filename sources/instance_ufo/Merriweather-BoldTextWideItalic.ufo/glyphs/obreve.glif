@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obreve" format="2">
+  <advance width="1214.1343873517783"/>
+  <unicode hex="014F"/>
+  <anchor x="523.6758893280632" y="-19.391304347826086" name="bottom"/>
+  <anchor x="606.3478260869566" y="546.9604743083004" name="center"/>
+  <anchor x="664.8379446640317" y="17.470355731225297" name="ogonek"/>
+  <anchor x="750.9367588932806" y="1564.8695652173913" name="top"/>
+  <anchor x="864.8339920948615" y="1090.909090909091" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="brevecomb" xOffset="275.72727272727275"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

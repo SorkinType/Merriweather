@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tedescender-cy.sc" format="2">
+  <advance width="1363.4545454545455"/>
+  <anchor x="687.5454545454545" y="0.0" name="bottom"/>
+  <anchor x="1079.0909090909092" y="0.0" name="bottomright"/>
+  <anchor x="687.5454545454545" y="648.0" name="center"/>
+  <anchor x="688.1818181818181" y="1288.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="740.0" y="99.81818181818181" type="line"/>
+      <point x="740.0" y="58.0" type="line"/>
+      <point x="894.5454545454545" y="58.0" type="line"/>
+      <point x="894.5454545454545" y="99.81818181818181" type="line"/>
+    </contour>
+    <component base="t.sc"/>
+    <component base="righttooth_part." xOffset="805.909090909091"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t.sc</string>
+    </dict>
+  </lib>
+</glyph>

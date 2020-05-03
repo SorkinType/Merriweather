@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kadescender-cy" format="2">
-  <advance width="1224.0"/>
+  <advance width="1230"/>
   <unicode hex="049B"/>
-  <anchor x="1206.0" y="0.0" name="bottomright"/>
-  <anchor x="531.0" y="574.0" name="center"/>
-  <anchor x="650.0" y="1110.0" name="top"/>
+  <anchor x="1196" y="0" name="bottomright"/>
+  <anchor x="521" y="574" name="center"/>
+  <anchor x="640" y="1110" name="top"/>
   <outline>
     <component base="ka-cy"/>
-    <component base="righttooth_part." xOffset="863.0"/>
+    <component base="righttooth_part." xOffset="853"/>
   </outline>
   <lib>
     <dict>
@@ -15,12 +15,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>pe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udotbelow" format="2">
+  <advance width="1244.7272727272727"/>
+  <unicode hex="1EE5"/>
+  <anchor x="536.4545454545454" y="0.0" name="bottom"/>
+  <anchor x="1079.909090909091" y="0.0" name="bottomright"/>
+  <anchor x="977.181818181818" y="0.0" name="ogonek"/>
+  <anchor x="686.9090909090909" y="1110.0" name="top"/>
+  <anchor x="1054.0909090909092" y="1103.1818181818182" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="dotbelowcomb" xOffset="413.5454545454546"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

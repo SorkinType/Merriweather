@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scedilla" format="2">
+  <advance width="835.0998023715415"/>
+  <unicode hex="015F"/>
+  <anchor x="355.2608695652174" y="-166.0" name="_btm"/>
+  <anchor x="355.2608695652174" y="-166.0" name="btm"/>
+  <anchor x="537.7282608695652" y="1226.0" name="top"/>
+  <anchor x="342.3666007905138" y="0.0" name="bottom"/>
+  <outline>
+    <component base="s"/>
+    <component base="cedillacomb" xOffset="130.99308300395256"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

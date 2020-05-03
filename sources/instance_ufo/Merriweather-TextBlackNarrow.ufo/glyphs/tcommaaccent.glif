@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcommaaccent" format="2">
+  <advance width="674.0"/>
+  <unicode hex="021B"/>
+  <anchor x="346.72727272727275" y="-545.0" name="bottom"/>
+  <anchor x="277.0" y="572.3636363636364" name="center"/>
+  <anchor x="317.1818181818182" y="1373.6363636363637" name="top"/>
+  <anchor x="567.2727272727273" y="1111.0" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="commaaccentcomb" xOffset="182.27272727272728"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

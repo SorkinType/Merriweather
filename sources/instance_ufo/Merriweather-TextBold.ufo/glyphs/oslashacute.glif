@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslashacute" format="2">
+  <advance width="1161.4821697639375"/>
+  <unicode hex="01FF"/>
+  <anchor x="581.6805625313912" y="0.0" name="bottom"/>
+  <anchor x="581.1783023606229" y="548.677046710196" name="center"/>
+  <anchor x="697.9271722752386" y="42.02661978905073" name="ogonek"/>
+  <anchor x="588.4178804620794" y="1595.0924158714213" name="top"/>
+  <anchor x="946.0010045203416" y="1091.5012556504269" name="topright"/>
+  <outline>
+    <component base="oslash"/>
+    <component base="acutecomb" xOffset="398.6639879457559" yOffset="0.592164741336012"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

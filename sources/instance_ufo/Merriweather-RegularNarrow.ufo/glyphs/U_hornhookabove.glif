@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhornhookabove" format="2">
-  <advance width="1343.5365193370167"/>
+  <advance width="1314.4696132596684"/>
   <unicode hex="1EEC"/>
   <anchor x="774.0" y="0.0" name="bottom"/>
   <anchor x="1340.0" y="20.0" name="ogonek"/>
-  <anchor x="700.9534806629835" y="1486.0" name="top"/>
-  <anchor x="1142.2802762430938" y="1486.0" name="topright"/>
+  <anchor x="701.2651933701658" y="1486.0" name="top"/>
+  <anchor x="1235.2762430939226" y="1486.0" name="topright"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="hookabovecomb.case" xOffset="553.1830662983425"/>
+    <component base="hookabovecomb.case" xOffset="554.9502762430939"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

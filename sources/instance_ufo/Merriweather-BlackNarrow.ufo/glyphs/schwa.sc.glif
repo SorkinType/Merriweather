@@ -1,69 +1,54 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="schwa.sc" format="2">
-  <advance width="1159.0"/>
-  <anchor x="584.0" y="1282.0" name="top"/>
+  <advance width="1159"/>
+  <anchor x="584" y="1282" name="top"/>
   <outline>
     <contour>
-      <point x="529.0" y="-20.0" type="curve" smooth="yes"/>
-      <point x="862.0" y="-20.0"/>
-      <point x="1108.0" y="219.0"/>
-      <point x="1108.0" y="658.0" type="curve" smooth="yes"/>
-      <point x="1108.0" y="1085.0"/>
-      <point x="878.0" y="1306.0"/>
-      <point x="557.0" y="1306.0" type="curve" smooth="yes"/>
-      <point x="326.0" y="1306.0"/>
-      <point x="198.0" y="1244.0"/>
-      <point x="105.0" y="1238.0" type="curve"/>
-      <point x="105.0" y="944.0" type="line"/>
-      <point x="308.0" y="935.0" type="line"/>
-      <point x="337.0" y="1049.0" type="line"/>
-      <point x="370.0" y="1114.0"/>
-      <point x="396.0" y="1178.0"/>
-      <point x="531.0" y="1178.0" type="curve" smooth="yes"/>
-      <point x="697.0" y="1178.0"/>
-      <point x="787.0" y="988.0"/>
-      <point x="800.0" y="716.0" type="curve"/>
-      <point x="67.0" y="719.0" type="line"/>
-      <point x="57.0" y="672.0"/>
-      <point x="51.0" y="559.0"/>
-      <point x="51.0" y="485.0" type="curve"/>
-      <point x="61.0" y="124.0"/>
-      <point x="281.0" y="-20.0"/>
+      <point x="529" y="-20" type="curve" smooth="yes"/>
+      <point x="862" y="-20"/>
+      <point x="1108" y="219"/>
+      <point x="1108" y="658" type="curve" smooth="yes"/>
+      <point x="1108" y="1085"/>
+      <point x="878" y="1306"/>
+      <point x="557" y="1306" type="curve" smooth="yes"/>
+      <point x="326" y="1306"/>
+      <point x="198" y="1244"/>
+      <point x="105" y="1238" type="curve"/>
+      <point x="105" y="944" type="line"/>
+      <point x="308" y="935" type="line"/>
+      <point x="337" y="1049" type="line"/>
+      <point x="370" y="1114"/>
+      <point x="396" y="1178"/>
+      <point x="531" y="1178" type="curve" smooth="yes"/>
+      <point x="697" y="1178"/>
+      <point x="787" y="988"/>
+      <point x="800" y="716" type="curve"/>
+      <point x="67" y="719" type="line"/>
+      <point x="57" y="672"/>
+      <point x="51" y="559"/>
+      <point x="51" y="485" type="curve"/>
+      <point x="61" y="124"/>
+      <point x="281" y="-20"/>
     </contour>
     <contour>
-      <point x="568.0" y="137.0" type="curve" smooth="yes"/>
-      <point x="396.0" y="137.0"/>
-      <point x="348.0" y="330.0"/>
-      <point x="348.0" y="471.0" type="curve" smooth="yes"/>
-      <point x="348.0" y="506.0"/>
-      <point x="349.0" y="533.0"/>
-      <point x="352.0" y="563.0" type="curve"/>
-      <point x="803.0" y="561.0" type="line"/>
-      <point x="800.0" y="276.0"/>
-      <point x="721.0" y="137.0"/>
+      <point x="568" y="137" type="curve" smooth="yes"/>
+      <point x="396" y="137"/>
+      <point x="348" y="330"/>
+      <point x="348" y="471" type="curve" smooth="yes"/>
+      <point x="348" y="506"/>
+      <point x="349" y="533"/>
+      <point x="352" y="563" type="curve"/>
+      <point x="803" y="561" type="line"/>
+      <point x="800" y="276"/>
+      <point x="721" y="137"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>adjustSpace</key>
-        <integer>2</integer>
-        <key>height</key>
-        <integer>87</integer>
-        <key>weight</key>
-        <integer>2</integer>
-        <key>width</key>
-        <integer>96</integer>
-      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>o.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>o.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

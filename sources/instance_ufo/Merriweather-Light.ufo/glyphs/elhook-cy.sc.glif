@@ -1,58 +1,67 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="elhook-cy.sc" format="2">
-  <advance width="1398.0"/>
+  <advance width="1212"/>
   <outline>
     <contour>
-      <point x="1132.0" y="478.0" type="curve" smooth="yes"/>
-      <point x="1132.0" y="1192.0" type="line"/>
-      <point x="1312.0" y="1210.0" type="line"/>
-      <point x="1312.0" y="1292.0" type="line"/>
-      <point x="244.0" y="1292.0" type="line"/>
-      <point x="244.0" y="1210.0" type="line"/>
-      <point x="458.0" y="1192.0" type="line"/>
-      <point x="458.0" y="1044.0" type="line" smooth="yes"/>
-      <point x="458.0" y="588.0"/>
-      <point x="402.0" y="324.0"/>
-      <point x="304.0" y="196.0" type="curve"/>
-      <point x="274.0" y="150.0"/>
-      <point x="240.0" y="130.0"/>
-      <point x="192.0" y="130.0" type="curve" smooth="yes"/>
-      <point x="116.0" y="130.0"/>
-      <point x="72.0" y="134.0"/>
-      <point x="50.0" y="138.0" type="curve"/>
-      <point x="60.0" y="0.0" type="line"/>
-      <point x="84.0" y="-4.0"/>
-      <point x="132.0" y="-10.0"/>
-      <point x="192.0" y="-10.0" type="curve" smooth="yes"/>
-      <point x="282.0" y="-10.0"/>
-      <point x="348.0" y="28.0"/>
-      <point x="404.0" y="114.0" type="curve" smooth="yes"/>
-      <point x="508.0" y="272.0"/>
-      <point x="566.0" y="602.0"/>
-      <point x="566.0" y="1028.0" type="curve" smooth="yes"/>
-      <point x="566.0" y="1192.0" type="line"/>
-      <point x="970.0" y="1192.0" type="line"/>
-      <point x="966.0" y="424.0" type="line" smooth="yes"/>
-      <point x="964.0" y="176.0"/>
-      <point x="962.0" y="86.0"/>
-      <point x="926.0" y="-14.0" type="curve" smooth="yes"/>
-      <point x="884.0" y="-134.0"/>
-      <point x="784.0" y="-210.0"/>
-      <point x="672.0" y="-238.0" type="curve"/>
-      <point x="716.0" y="-306.0" type="line"/>
-      <point x="878.0" y="-278.0"/>
-      <point x="1064.0" y="-168.0"/>
-      <point x="1112.0" y="34.0" type="curve"/>
-      <point x="1128.0" y="124.0"/>
-      <point x="1132.0" y="286.0"/>
+      <point x="22" y="162" type="curve"/>
+      <point x="32" y="0" type="line"/>
+      <point x="48" y="-5"/>
+      <point x="80" y="-12"/>
+      <point x="122" y="-12" type="curve" smooth="yes"/>
+      <point x="248" y="-12"/>
+      <point x="301" y="52"/>
+      <point x="338" y="132" type="curve" smooth="yes"/>
+      <point x="386" y="236"/>
+      <point x="441" y="456"/>
+      <point x="441" y="906" type="curve" smooth="yes"/>
+      <point x="441" y="1193" type="line"/>
+      <point x="815" y="1193" type="line"/>
+      <point x="815" y="294" type="line" smooth="yes"/>
+      <point x="814" y="140"/>
+      <point x="807" y="66"/>
+      <point x="778" y="-14" type="curve" smooth="yes"/>
+      <point x="736" y="-134"/>
+      <point x="636" y="-210"/>
+      <point x="524" y="-238" type="curve"/>
+      <point x="568" y="-306" type="line"/>
+      <point x="730" y="-278"/>
+      <point x="916" y="-168"/>
+      <point x="964" y="34" type="curve"/>
+      <point x="980" y="124"/>
+      <point x="981" y="286"/>
+      <point x="981" y="478" type="curve" smooth="yes"/>
+      <point x="981" y="1189" type="line"/>
+      <point x="1132" y="1211" type="line"/>
+      <point x="1132" y="1292" type="line"/>
+      <point x="172" y="1292" type="line"/>
+      <point x="172" y="1206" type="line"/>
+      <point x="334" y="1184" type="line"/>
+      <point x="332" y="650"/>
+      <point x="274" y="152"/>
+      <point x="149" y="152" type="curve" smooth="yes"/>
+      <point x="92" y="152"/>
+      <point x="50" y="156"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>el-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>j.sc</string>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

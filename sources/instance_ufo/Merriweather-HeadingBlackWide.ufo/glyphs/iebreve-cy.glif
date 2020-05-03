@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iebreve-cy" format="2">
+  <advance width="1107.909090909091"/>
+  <unicode hex="04D7"/>
+  <anchor x="598.6363636363636" y="0.0" name="bottom"/>
+  <anchor x="698.7272727272727" y="20.0" name="ogonek"/>
+  <anchor x="613.3636363636363" y="1110.0" name="top"/>
+  <outline>
+    <component base="ie-cy"/>
+    <component base="brevecomb-cy" xOffset="193.81818181818184"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

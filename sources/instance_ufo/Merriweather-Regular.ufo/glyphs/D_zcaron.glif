@@ -2,22 +2,14 @@
 <glyph name="Dzcaron" format="2">
   <advance width="2574.232044198895"/>
   <unicode hex="01C5"/>
-  <anchor x="745.707182320442" y="0.0" name="bottom_1"/>
+  <anchor x="745.7071823204419" y="0.0" name="bottom_1"/>
   <anchor x="2034.4143646408838" y="0.0" name="bottom_2"/>
   <anchor x="751.1602209944751" y="764.0" name="center"/>
-  <anchor x="351.3149171270718" y="763.0" name="lstem"/>
-  <anchor x="745.707182320442" y="1486.0" name="top_1"/>
-  <anchor x="2043.867403314917" y="1560.6187845303868" name="top_2"/>
+  <anchor x="351.31491712707185" y="763.0" name="lstem"/>
+  <anchor x="745.7071823204419" y="1486.0" name="top_1"/>
+  <anchor x="2043.8674033149175" y="1560.6187845303868" name="top_2"/>
   <outline>
     <component base="D"/>
-    <component base="zcaron" xOffset="1486.2154696132598"/>
+    <component base="zcaron" xOffset="1486.2154696132595"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

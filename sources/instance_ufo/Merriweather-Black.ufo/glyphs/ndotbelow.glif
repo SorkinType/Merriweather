@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ndotbelow" format="2">
-  <advance width="1375.0"/>
+  <advance width="1375"/>
   <unicode hex="1E47"/>
-  <anchor x="701.0" y="-377.0" name="bottom"/>
-  <anchor x="676.0" y="1111.0" name="top"/>
+  <anchor x="701" y="-377" name="bottom"/>
+  <anchor x="676" y="1111" name="top"/>
   <outline>
     <component base="n"/>
-    <component base="dotbelowcomb" xOffset="499.0"/>
+    <component base="dotbelowcomb" xOffset="499"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

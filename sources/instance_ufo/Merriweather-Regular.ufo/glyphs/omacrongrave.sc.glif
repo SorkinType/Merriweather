@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omacrongrave.sc" format="2">
-  <advance width="1340.9060773480662"/>
-  <anchor x="670.4530386740331" y="0.0" name="bottom"/>
-  <anchor x="671.4530386740331" y="644.5635359116022" name="center"/>
-  <anchor x="755.0718232044198" y="18.0" name="ogonek"/>
+  <advance width="1340.9060773480664"/>
+  <anchor x="670.4530386740332" y="0.0" name="bottom"/>
+  <anchor x="671.4530386740332" y="644.5635359116022" name="center"/>
+  <anchor x="755.07182320442" y="18.0" name="ogonek"/>
   <anchor x="776.6795580110497" y="0.0" name="q"/>
   <anchor x="670.7348066298342" y="2256.038674033149" name="top"/>
-  <anchor x="13.635359116022087" y="1292.0" name="topleft"/>
+  <anchor x="13.635359116022101" y="1292.0" name="topleft"/>
   <anchor x="908.2707182320441" y="1293.0" name="topright"/>
   <outline>
     <component base="o.sc"/>
     <component base="macroncomb" xOffset="385.9281767955801" yOffset="161.71823204419888"/>
     <component base="gravecomb" xOffset="329.77348066298345" yOffset="488.48618784530385"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

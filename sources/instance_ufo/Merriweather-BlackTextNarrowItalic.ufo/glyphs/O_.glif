@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O" format="2">
+  <advance width="1261.4545454545453"/>
+  <unicode hex="004F"/>
+  <anchor x="572.0909090909091" y="0.0" name="bottom"/>
+  <anchor x="675.0" y="744.0" name="center"/>
+  <anchor x="686.0" y="0.0" name="ogonek"/>
+  <anchor x="773.5454545454546" y="1486.0" name="top"/>
+  <anchor x="183.0" y="1486.0" name="topleft"/>
+  <anchor x="918.1818181818182" y="1486.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="550.5454545454545" y="-20.727272727272727" type="curve" smooth="yes"/>
+      <point x="1013.5454545454545" y="-20.727272727272727"/>
+      <point x="1250.7272727272727" y="393.7272727272727"/>
+      <point x="1252.1818181818182" y="896.4545454545454" type="curve" smooth="yes"/>
+      <point x="1253.090909090909" y="1233.3636363636365"/>
+      <point x="1124.8181818181818" y="1505.8181818181818"/>
+      <point x="766.0" y="1505.8181818181818" type="curve" smooth="yes"/>
+      <point x="298.45454545454544" y="1505.8181818181818"/>
+      <point x="65.0909090909091" y="1091.3636363636363"/>
+      <point x="63.63636363636364" y="589.3636363636364" type="curve" smooth="yes"/>
+      <point x="62.727272727272734" y="252.27272727272728"/>
+      <point x="191.18181818181816" y="-20.727272727272727"/>
+    </contour>
+    <contour>
+      <point x="575.0" y="86.36363636363637" type="curve" smooth="yes"/>
+      <point x="434.18181818181813" y="86.36363636363637"/>
+      <point x="413.54545454545456" y="321.0"/>
+      <point x="414.09090909090907" y="537.0" type="curve" smooth="yes"/>
+      <point x="415.54545454545456" y="943.6363636363636"/>
+      <point x="510.45454545454544" y="1398.1818181818182"/>
+      <point x="740.4545454545455" y="1398.7272727272727" type="curve" smooth="yes"/>
+      <point x="883.4545454545455" y="1399.0909090909092"/>
+      <point x="902.0909090909091" y="1163.7272727272725"/>
+      <point x="901.7272727272727" y="949.1818181818181" type="curve" smooth="yes"/>
+      <point x="900.6363636363636" y="540.3636363636364"/>
+      <point x="805.4545454545455" y="86.36363636363637"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

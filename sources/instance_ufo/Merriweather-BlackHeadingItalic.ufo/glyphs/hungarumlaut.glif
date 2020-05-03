@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlaut" format="2">
+  <advance width="1101.0909090909088"/>
+  <unicode hex="02DD"/>
+  <anchor x="553.5454545454546" y="1110.0" name="_top"/>
+  <outline>
+    <contour>
+      <point x="249.54545454545453" y="1223.3636363636365" type="line"/>
+      <point x="310.0909090909091" y="1175.6363636363635" type="line"/>
+      <point x="425.27272727272725" y="1241.4545454545455"/>
+      <point x="623.909090909091" y="1433.7272727272727"/>
+      <point x="695.5454545454546" y="1566.909090909091" type="curve"/>
+      <point x="508.36363636363643" y="1689.2727272727273" type="line"/>
+    </contour>
+    <contour>
+      <point x="645.0909090909091" y="1223.3636363636365" type="line"/>
+      <point x="705.6363636363636" y="1175.6363636363635" type="line"/>
+      <point x="821.5454545454545" y="1241.4545454545455"/>
+      <point x="1017.2727272727271" y="1428.6363636363637"/>
+      <point x="1090.3636363636365" y="1562.5454545454545" type="curve"/>
+      <point x="903.1818181818181" y="1684.1818181818182" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+    </dict>
+  </lib>
+</glyph>

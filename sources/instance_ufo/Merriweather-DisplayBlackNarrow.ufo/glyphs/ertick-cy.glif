@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ertick-cy" format="2">
+  <advance width="1027"/>
+  <unicode hex="048F"/>
+  <anchor x="606" y="1112" name="top"/>
+  <outline>
+    <contour>
+      <point x="622" y="95" type="line"/>
+      <point x="678" y="140" type="line"/>
+      <point x="530" y="328" type="line"/>
+      <point x="471" y="280" type="line"/>
+    </contour>
+    <contour>
+      <point x="801" y="-125" type="line"/>
+      <point x="860" y="-77" type="line"/>
+      <point x="710" y="108" type="line"/>
+      <point x="654" y="63" type="line"/>
+    </contour>
+    <component base="p"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

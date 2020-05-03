@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghemiddlehook-cy" format="2">
-  <advance width="1355.0"/>
+  <advance width="1337"/>
   <unicode hex="0495"/>
-  <anchor x="553.0" y="0.0" name="bottomright"/>
-  <anchor x="534.0" y="556.0" name="center"/>
-  <anchor x="534.0" y="1111.0" name="top"/>
+  <anchor x="553" y="0" name="bottomright"/>
+  <anchor x="534" y="556" name="center"/>
+  <anchor x="534" y="1111" name="top"/>
   <outline>
     <contour>
-      <point x="771.0" y="-509.0" type="curve" smooth="yes"/>
-      <point x="1097.0" y="-509.0"/>
-      <point x="1303.0" y="-280.0"/>
-      <point x="1303.0" y="150.0" type="curve" smooth="yes"/>
-      <point x="1303.0" y="469.0"/>
-      <point x="1132.0" y="577.0"/>
-      <point x="809.0" y="577.0" type="curve" smooth="yes"/>
-      <point x="701.0" y="577.0"/>
-      <point x="567.0" y="541.0"/>
-      <point x="526.0" y="512.0" type="curve"/>
-      <point x="526.0" y="359.0" type="line"/>
-      <point x="560.0" y="391.0"/>
-      <point x="651.0" y="412.0"/>
-      <point x="735.0" y="412.0" type="curve" smooth="yes"/>
-      <point x="906.0" y="412.0"/>
-      <point x="968.0" y="333.0"/>
-      <point x="968.0" y="107.0" type="curve" smooth="yes"/>
-      <point x="968.0" y="-208.0"/>
-      <point x="890.0" y="-348.0"/>
-      <point x="719.0" y="-348.0" type="curve" smooth="yes"/>
-      <point x="640.0" y="-348.0"/>
-      <point x="596.0" y="-341.0"/>
-      <point x="575.0" y="-333.0" type="curve"/>
-      <point x="587.0" y="-477.0" type="line"/>
-      <point x="616.0" y="-488.0"/>
-      <point x="682.0" y="-509.0"/>
+      <point x="771" y="-509" type="curve" smooth="yes"/>
+      <point x="1097" y="-509"/>
+      <point x="1303" y="-280"/>
+      <point x="1303" y="150" type="curve" smooth="yes"/>
+      <point x="1303" y="469"/>
+      <point x="1132" y="577"/>
+      <point x="809" y="577" type="curve" smooth="yes"/>
+      <point x="701" y="577"/>
+      <point x="567" y="541"/>
+      <point x="526" y="512" type="curve"/>
+      <point x="526" y="359" type="line"/>
+      <point x="560" y="391"/>
+      <point x="651" y="412"/>
+      <point x="735" y="412" type="curve" smooth="yes"/>
+      <point x="906" y="412"/>
+      <point x="968" y="333"/>
+      <point x="968" y="107" type="curve" smooth="yes"/>
+      <point x="968" y="-208"/>
+      <point x="890" y="-348"/>
+      <point x="719" y="-348" type="curve" smooth="yes"/>
+      <point x="640" y="-348"/>
+      <point x="596" y="-341"/>
+      <point x="575" y="-333" type="curve"/>
+      <point x="587" y="-477" type="line"/>
+      <point x="616" y="-488"/>
+      <point x="682" y="-509"/>
     </contour>
     <component base="ge-cy"/>
   </outline>
@@ -42,12 +42,10 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>pe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,18 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scommaaccent.sc" format="2">
-  <advance width="986.0"/>
-  <anchor x="506.0" y="-545.0" name="bottom"/>
-  <anchor x="504.0" y="1272.0" name="top"/>
+  <advance width="986"/>
+  <anchor x="506" y="-545" name="bottom"/>
+  <anchor x="504" y="1272" name="top"/>
   <outline>
     <component base="s.sc"/>
-    <component base="commaaccentcomb" xOffset="339.0"/>
+    <component base="commaaccentcomb" xOffset="339"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

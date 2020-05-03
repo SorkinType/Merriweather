@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="icaron" format="2">
-  <advance width="647.1049723756906"/>
+  <advance width="647.1049723756905"/>
   <unicode hex="01D0"/>
-  <anchor x="319.4696132596685" y="0.0" name="bottom"/>
-  <anchor x="399.7513812154696" y="20.0" name="ogonek"/>
-  <anchor x="320.5966850828729" y="1562.3370165745857" name="top"/>
+  <anchor x="331.6795580110497" y="0.0" name="bottom"/>
+  <anchor x="367.4861878453039" y="20.0" name="ogonek"/>
+  <anchor x="320.59668508287297" y="1562.3370165745857" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="caroncomb" xOffset="-50.33701657458564" yOffset="-1.0994475138121538"/>
+    <component base="caroncomb" xOffset="-50.33701657458564" yOffset="-1.0994475138121547"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rcaron" format="2">
+  <advance width="786.909090909091"/>
+  <unicode hex="0159"/>
+  <anchor x="181.63636363636365" y="0.0" name="bottom"/>
+  <anchor x="538.8181818181819" y="1567.3636363636365" name="top"/>
+  <outline>
+    <component base="r"/>
+    <component base="caroncomb" xOffset="105.9090909090909" yOffset="-0.36363636363636365"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

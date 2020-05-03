@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij_acutecomb.sc" format="2">
+  <advance width="1605.2727272727273"/>
+  <anchor x="400.45454545454544" y="0.0" name="bottom"/>
+  <anchor x="477.2727272727273" y="18.0" name="ogonek"/>
+  <anchor x="403.1818181818182" y="1782.5454545454545" name="top_1"/>
+  <anchor x="1200.5454545454547" y="1782.909090909091" name="top_2"/>
+  <outline>
+    <component base="iacute.sc"/>
+    <component base="jacute.sc" xOffset="802.9090909090909"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ij.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ij.sc</string>
+    </dict>
+  </lib>
+</glyph>

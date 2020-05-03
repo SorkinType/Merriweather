@@ -2,14 +2,14 @@
 <glyph name="guarani" format="2">
   <advance width="1332.6132596685084"/>
   <unicode hex="20B2"/>
-  <anchor x="772.5690607734807" y="0.0" name="bottom"/>
-  <anchor x="1116.4615138121546" y="349.0" name="rstem"/>
-  <anchor x="832.5690607734807" y="1486.0" name="top"/>
+  <anchor x="765.3314917127071" y="0.0" name="bottom"/>
+  <anchor x="1109.5756906077347" y="349.0" name="rstem"/>
+  <anchor x="825.3314917127071" y="1486.0" name="top"/>
   <outline>
     <contour>
       <point x="829.6795580110497" y="1733.0276243093922" type="line"/>
-      <point x="661.5303867403314" y="1733.0276243093922" type="line"/>
-      <point x="661.5303867403314" y="1460.0" type="line"/>
+      <point x="661.5303867403316" y="1733.0276243093922" type="line"/>
+      <point x="661.5303867403316" y="1460.0" type="line"/>
       <point x="829.6795580110497" y="1460.0" type="line"/>
     </contour>
     <contour>
@@ -18,14 +18,6 @@
       <point x="648.8232044198895" y="-257.7900552486188" type="line"/>
       <point x="815.5911602209944" y="-257.7900552486188" type="line"/>
     </contour>
-    <component base="G" xOffset="44.8453038674033"/>
+    <component base="G" xOffset="44.84530386740332"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

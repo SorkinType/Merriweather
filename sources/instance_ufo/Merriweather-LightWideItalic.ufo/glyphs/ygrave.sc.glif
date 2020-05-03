@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ygrave.sc" format="2">
+  <advance width="1211"/>
+  <anchor x="552" y="0" name="bottom"/>
+  <anchor x="618" y="469" name="center"/>
+  <anchor x="785" y="1841" name="top"/>
+  <anchor x="140" y="1292" name="topleft"/>
+  <outline>
+    <component base="y.sc"/>
+    <component base="gravecomb" xOffset="309" yOffset="184"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

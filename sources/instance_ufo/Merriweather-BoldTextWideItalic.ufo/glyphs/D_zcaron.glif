@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dzcaron" format="2">
+  <advance width="2557.6324110671935"/>
+  <unicode hex="01C5"/>
+  <anchor x="378.81992885375496" y="748.0" name="bar"/>
+  <anchor x="588.0513833992096" y="0.0" name="bottom_1"/>
+  <anchor x="2016.6086956521738" y="0.0" name="bottom_2"/>
+  <anchor x="808.5494071146244" y="1485.391304347826" name="top_1"/>
+  <anchor x="2418.9723320158105" y="1595.0474308300395" name="top_2"/>
+  <outline>
+    <component base="D"/>
+    <component base="zcaron" xOffset="1545.0237154150195"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>D</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>zcaron</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

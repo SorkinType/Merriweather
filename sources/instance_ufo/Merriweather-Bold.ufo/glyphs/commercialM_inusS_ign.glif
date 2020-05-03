@@ -5,22 +5,23 @@
   <outline>
     <component base="fraction" xOffset="517.7624309392265"/>
     <component base="bullet" xOffset="-56.68508287292818" yOffset="436.8729281767956"/>
-    <component base="bullet" xOffset="579.756906077348" yOffset="-300.0165745856354"/>
+    <component base="bullet" xOffset="579.756906077348" yOffset="-300.01657458563534"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>fraction</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

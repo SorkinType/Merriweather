@@ -1,30 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn" format="2">
-  <advance width="1103.3427071823205"/>
+  <advance width="1068.486187845304"/>
   <unicode hex="01B0"/>
   <anchor x="610.0" y="0.0" name="bottom"/>
-  <anchor x="971.4993370165746" y="20.0" name="ogonek"/>
-  <anchor x="498.6445303867403" y="1110.8199447513812" name="top"/>
-  <anchor x="1052.5862430939226" y="1153.1148342541437" name="topright"/>
+  <anchor x="931.6906077348066" y="20.0" name="ogonek"/>
+  <anchor x="499.01657458563534" y="1110.5635359116022" name="top"/>
+  <anchor x="806.7016574585635" y="1110.5635359116022" name="topright"/>
   <outline>
-    <contour>
-      <point x="925.8077071823204" y="1476.6074309392266" type="line"/>
-      <point x="926.9358563535911" y="1468.1896132596685"/>
-      <point x="928.3976243093923" y="1450.181546961326"/>
-      <point x="928.3976243093923" y="1415.1041160220993" type="curve" smooth="yes"/>
-      <point x="928.3976243093923" y="1301.4382596685082"/>
-      <point x="905.669502762431" y="1193.361685082873"/>
-      <point x="823.1203038674033" y="1177.356685082873" type="curve"/>
-      <point x="777.0948895027624" y="1107.354723756906" type="line"/>
-      <point x="985.1024861878452" y="1110.232403314917" type="line"/>
-      <point x="1036.4672099447514" y="1140.8517127071823"/>
-      <point x="1114.3456906077347" y="1251.2846132596685"/>
-      <point x="1114.3456906077347" y="1387.6979558011049" type="curve" smooth="yes"/>
-      <point x="1114.3456906077347" y="1440.0739779005526"/>
-      <point x="1113.614723756906" y="1465.1388397790056"/>
-      <point x="1113.889723756906" y="1476.6074309392266" type="curve"/>
-    </contour>
     <component base="u"/>
+    <component base="horncomb" xOffset="715.4033149171271" yOffset="0.56353591160221"/>
   </outline>
   <lib>
     <dict>
@@ -34,12 +18,8 @@
       <string>u</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>u</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

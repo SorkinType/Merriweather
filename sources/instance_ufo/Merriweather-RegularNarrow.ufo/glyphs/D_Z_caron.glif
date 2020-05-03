@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="DZcaron" format="2">
-  <advance width="2438.777624309392"/>
+  <advance width="2402.011049723757"/>
   <unicode hex="01C4"/>
-  <anchor x="722.5883425414364" y="0.0" name="bottom_1"/>
-  <anchor x="1831.3539226519338" y="0.0" name="bottom_2"/>
-  <anchor x="627.5734530386741" y="764.0" name="center"/>
-  <anchor x="316.460635359116" y="763.0" name="lstem"/>
-  <anchor x="722.5883425414364" y="1486.0" name="top_1"/>
-  <anchor x="1832.3401104972374" y="1486.0" name="top_2"/>
+  <anchor x="722.4530386740331" y="0.0" name="bottom_1"/>
+  <anchor x="1814.4917127071824" y="0.0" name="bottom_2"/>
+  <anchor x="640.8342541436464" y="764.0" name="center"/>
+  <anchor x="300.37016574585635" y="763.0" name="lstem"/>
+  <anchor x="722.4530386740331" y="1486.0" name="top_1"/>
+  <anchor x="1825.2817679558011" y="1486.0" name="top_2"/>
   <outline>
     <component base="DZ"/>
-    <component base="caroncomb.case" xOffset="1480.5786187845304"/>
+    <component base="caroncomb.case" xOffset="1496.7127071823204"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

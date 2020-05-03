@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex" format="2">
+  <advance width="1033"/>
+  <unicode hex="02C6"/>
+  <anchor x="608" y="1110" name="_top"/>
+  <anchor x="675" y="1612" name="top"/>
+  <outline>
+    <contour>
+      <point x="360" y="1230" type="line"/>
+      <point x="458" y="1307"/>
+      <point x="556" y="1383"/>
+      <point x="654" y="1460" type="curve"/>
+      <point x="724" y="1385"/>
+      <point x="796" y="1311"/>
+      <point x="866" y="1236" type="curve"/>
+      <point x="970" y="1292" type="line"/>
+      <point x="744" y="1686" type="line"/>
+      <point x="609" y="1686" type="line"/>
+      <point x="266" y="1296" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar" format="2">
+  <advance width="989.3695652173914"/>
+  <unicode hex="0127"/>
+  <anchor x="448.6630434782609" y="0.0" name="bottom"/>
+  <anchor x="861.9021739130435" y="0.0" name="bottomright"/>
+  <anchor x="226.84782608695653" y="1814.0" name="cap"/>
+  <anchor x="306.4835760869565" y="1292.0" name="tbar"/>
+  <anchor x="352.19565217391306" y="1527.2717391304348" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="barlc" xOffset="50.56521739130435" yOffset="712.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

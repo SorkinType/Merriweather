@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
-  <advance width="801.0"/>
+  <advance width="801"/>
   <unicode hex="00B8"/>
   <outline>
-    <component base="cedillacomb" xOffset="170.0"/>
+    <component base="cedillacomb" xOffset="170"/>
   </outline>
   <lib>
     <dict>
@@ -11,10 +11,6 @@
       <string>hyphen</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hyphen</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

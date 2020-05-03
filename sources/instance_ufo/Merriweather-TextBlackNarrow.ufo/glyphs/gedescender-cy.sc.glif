@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gedescender-cy.sc" format="2">
+  <advance width="1031.2727272727273"/>
+  <anchor x="770.090909090909" y="0.0" name="bottomright"/>
+  <anchor x="550.3636363636364" y="1284.3636363636363" name="top"/>
+  <outline>
+    <contour>
+      <point x="493.27272727272725" y="139.0909090909091" type="line"/>
+      <point x="493.27272727272725" y="108.0909090909091" type="line"/>
+      <point x="679.1818181818181" y="108.0909090909091" type="line"/>
+      <point x="679.1818181818181" y="139.0909090909091" type="line"/>
+    </contour>
+    <component base="ge-cy.sc"/>
+    <component base="righttooth_part." xOffset="461.09090909090907"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ge-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

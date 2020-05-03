@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhornacute" format="2">
+  <advance width="1173.5731225296443"/>
+  <unicode hex="1EE9"/>
+  <anchor x="510.7667984189724" y="0.0" name="bottom"/>
+  <anchor x="1018.3122529644269" y="0.0" name="bottomright"/>
+  <anchor x="942.6482213438735" y="0.0" name="ogonek"/>
+  <anchor x="576.1976284584981" y="1533.4110671936758" name="top"/>
+  <anchor x="990.1739130434784" y="1048.304347826087" name="topright"/>
+  <outline>
+    <component base="uhorn"/>
+    <component base="acutecomb" xOffset="411.18972332015807"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

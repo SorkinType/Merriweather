@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tenge" format="2">
+  <advance width="1523.391304347826"/>
+  <unicode hex="20B8"/>
+  <outline>
+    <contour>
+      <point x="310.6086956521739" y="0.0" type="line"/>
+      <point x="1104.9565217391303" y="0.0" type="line"/>
+      <point x="1113.7391304347825" y="94.78260869565217" type="line"/>
+      <point x="847.5652173913044" y="119.73913043478261" type="line"/>
+      <point x="968.4347826086956" y="1013.0434782608695" type="line"/>
+      <point x="1225.8695652173915" y="990.0869565217391" type="line"/>
+      <point x="1265.4347826086957" y="660.7391304347826" type="line"/>
+      <point x="1413.2608695652175" y="661.3478260869565" type="line"/>
+      <point x="1484.913043478261" y="1141.391304347826" type="line"/>
+      <point x="217.2173913043478" y="1141.391304347826" type="line"/>
+      <point x="132.56521739130434" y="661.3478260869565" type="line"/>
+      <point x="285.7826086956522" y="661.9565217391305" type="line"/>
+      <point x="401.304347826087" y="990.0869565217391" type="line"/>
+      <point x="684.608695652174" y="1013.0434782608695" type="line"/>
+      <point x="564.6521739130434" y="119.73913043478261" type="line"/>
+      <point x="321.5652173913043" y="94.78260869565217" type="line"/>
+    </contour>
+    <contour>
+      <point x="246.60869565217394" y="1340.1304347826087" type="line"/>
+      <point x="1512.0" y="1340.1304347826087" type="line"/>
+      <point x="1532.9565217391305" y="1486.0" type="line"/>
+      <point x="271.2608695652174" y="1486.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>22</integer>
+            <integer>0</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

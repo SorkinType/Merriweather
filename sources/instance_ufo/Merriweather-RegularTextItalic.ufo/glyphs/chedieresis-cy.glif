@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedieresis-cy" format="2">
+  <advance width="1151.040513833992"/>
+  <unicode hex="04F5"/>
+  <anchor x="523.4377470355731" y="435.3359683794467" name="bar"/>
+  <anchor x="955.8310276679842" y="0.0" name="bottomright"/>
+  <anchor x="655.4960474308302" y="1418.083003952569" name="top"/>
+  <outline>
+    <component base="che-cy"/>
+    <component base="dieresiscomb" xOffset="220.248023715415" yOffset="-1.1205533596837944"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>che-cy</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

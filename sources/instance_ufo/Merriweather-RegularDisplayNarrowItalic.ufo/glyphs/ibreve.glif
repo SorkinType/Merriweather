@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve" format="2">
+  <advance width="464.09782608695656"/>
+  <unicode hex="012D"/>
+  <anchor x="167.48913043478262" y="0.0" name="bottom"/>
+  <anchor x="257.0108695652174" y="0.0" name="ogonek"/>
+  <anchor x="372.3913043478261" y="1549.25" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="brevecomb" xOffset="-63.27173913043478" yOffset="-0.6304347826086957"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

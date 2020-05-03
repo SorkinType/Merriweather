@@ -1,26 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omacron" format="2">
-  <advance width="1056.7695027624309"/>
+  <advance width="1009.4696132596686"/>
   <unicode hex="014D"/>
-  <anchor x="528.2213535911602" y="0.0" name="bottom"/>
-  <anchor x="528.2213535911602" y="580.0767955801105" name="center"/>
-  <anchor x="1093.9962430939227" y="10.0" name="ogonek"/>
-  <anchor x="528.4199447513812" y="1465.1847513812154" name="top"/>
-  <anchor x="820.1064364640883" y="1158.5949447513813" name="topright"/>
+  <anchor x="504.7348066298343" y="0.0" name="bottom"/>
+  <anchor x="504.7348066298343" y="557.0" name="center"/>
+  <anchor x="550.2983425414365" y="10.0" name="ogonek"/>
+  <anchor x="504.7348066298343" y="1437.6132596685084" name="top"/>
+  <anchor x="685.4972375690608" y="1110.5635359116022" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="macroncomb" xOffset="253.7075138121547" yOffset="0.819944751381215"/>
+    <component base="macroncomb" xOffset="246.33701657458565" yOffset="0.56353591160221"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

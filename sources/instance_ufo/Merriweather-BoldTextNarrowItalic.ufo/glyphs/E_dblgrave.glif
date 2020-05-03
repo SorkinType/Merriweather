@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edblgrave" format="2">
+  <advance width="1122.0355731225297"/>
+  <unicode hex="0204"/>
+  <anchor x="529.1699604743083" y="0.0" name="bottom"/>
+  <anchor x="793.6047430830039" y="0.0" name="ogonek"/>
+  <anchor x="686.4110671936759" y="1486.0" name="top"/>
+  <anchor x="171.1581027667984" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="dblgravecomb.case" xOffset="-9.383399209486168" yOffset="-0.6086956521739131"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

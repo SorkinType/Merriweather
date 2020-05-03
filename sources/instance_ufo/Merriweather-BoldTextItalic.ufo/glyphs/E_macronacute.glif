@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Emacronacute" format="2">
+  <advance width="1268.7667984189725"/>
+  <unicode hex="1E16"/>
+  <anchor x="577.193675889328" y="0.0" name="bottom"/>
+  <anchor x="914.3003952569169" y="0.0" name="ogonek"/>
+  <anchor x="827.9486166007905" y="2230.0474308300395" name="top"/>
+  <anchor x="146.99604743083003" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="macroncomb.case" xOffset="307.9802371541502"/>
+    <component base="acutecomb.case" xOffset="490.8814229249012" yOffset="328.6600790513834"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

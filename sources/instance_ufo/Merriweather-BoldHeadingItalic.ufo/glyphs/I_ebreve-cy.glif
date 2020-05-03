@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iebreve-cy" format="2">
+  <advance width="1225.683794466403"/>
+  <unicode hex="04D6"/>
+  <anchor x="563.0039525691699" y="0.0" name="bottom"/>
+  <anchor x="878.5296442687746" y="0.0" name="ogonek"/>
+  <anchor x="735.1304347826087" y="1486.0" name="top"/>
+  <anchor x="144.48616600790513" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Ie-cy"/>
+    <component base="brevecomb-cy.case" xOffset="211.67193675889328"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

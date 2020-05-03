@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhungarumlaut-cy" format="2">
+  <advance width="1222.4426877470357"/>
+  <unicode hex="04F2"/>
+  <anchor x="635.2173913043479" y="-166.0" name="btm"/>
+  <anchor x="626.6086956521739" y="1660.0" name="top"/>
+  <outline>
+    <component base="U-cy"/>
+    <component base="hungarumlautcomb.case" xOffset="252.38339920948616" yOffset="-0.6086956521739131"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

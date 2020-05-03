@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tdotbelow" format="2">
+  <advance width="1481.4545454545457"/>
+  <unicode hex="1E6C"/>
+  <anchor x="644.090909090909" y="0.0" name="bottom"/>
+  <anchor x="1150.1818181818182" y="0.0" name="bottomright"/>
+  <anchor x="780.8683636363637" y="743.0" name="center"/>
+  <anchor x="836.6363636363636" y="1486.0" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="dotbelowcomb.case" xOffset="528.6363636363637"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

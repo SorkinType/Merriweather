@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedieresis-cy" format="2">
+  <advance width="986.9090909090909"/>
+  <unicode hex="04F5"/>
+  <anchor x="964.0" y="0.0" name="bottomright"/>
+  <anchor x="605.5454545454545" y="556.0" name="center"/>
+  <anchor x="473.8181818181818" y="1409.2727272727273" name="top"/>
+  <outline>
+    <component base="che-cy"/>
+    <component base="dieresiscomb" xOffset="195.72727272727272"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

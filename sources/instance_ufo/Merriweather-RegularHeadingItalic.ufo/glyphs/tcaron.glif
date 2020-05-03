@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron" format="2">
+  <advance width="667.8142292490118"/>
+  <unicode hex="0165"/>
+  <anchor x="238.02766798418975" y="0.0" name="bottom"/>
+  <anchor x="650.6669960474309" y="1258.090909090909" name="car"/>
+  <anchor x="598.2885375494071" y="1617.135375494071" name="caron"/>
+  <anchor x="237.31575296442685" y="580.0" name="tbar"/>
+  <anchor x="425.6304347826087" y="1362.0" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="caroncomb.alt" xOffset="454.9604743083004" yOffset="-6.9090909090909065"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>caroncomb.alt</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

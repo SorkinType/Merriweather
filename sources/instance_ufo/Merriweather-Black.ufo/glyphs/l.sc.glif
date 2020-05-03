@@ -1,47 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.sc" format="2">
-  <advance width="1233.0"/>
-  <anchor x="656.0" y="0.0" name="bottom"/>
-  <anchor x="625.0" y="648.0" name="center"/>
-  <anchor x="406.0" y="1273.0" name="top"/>
-  <anchor x="966.0" y="967.0" name="topright"/>
+  <advance width="1233"/>
+  <anchor x="656" y="0" name="bottom"/>
+  <anchor x="625" y="648" name="center"/>
+  <anchor x="406" y="1273" name="top"/>
+  <anchor x="966" y="967" name="topright"/>
   <outline>
     <contour>
-      <point x="219.0" y="145.0" type="line"/>
-      <point x="75.0" y="126.0" type="line"/>
-      <point x="75.0" y="0.0" type="line"/>
-      <point x="1168.0" y="0.0" type="line"/>
-      <point x="1222.0" y="510.0" type="line"/>
-      <point x="1034.0" y="534.0" type="line"/>
-      <point x="907.0" y="168.0" type="line"/>
-      <point x="564.0" y="150.0" type="line"/>
-      <point x="564.0" y="1133.0" type="line"/>
-      <point x="744.0" y="1158.0" type="line"/>
-      <point x="744.0" y="1292.0" type="line"/>
-      <point x="77.0" y="1292.0" type="line"/>
-      <point x="77.0" y="1158.0" type="line"/>
-      <point x="219.0" y="1133.0" type="line"/>
+      <point x="219" y="145" type="line"/>
+      <point x="75" y="126" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="1168" y="0" type="line"/>
+      <point x="1222" y="510" type="line"/>
+      <point x="1034" y="534" type="line"/>
+      <point x="907" y="168" type="line"/>
+      <point x="564" y="150" type="line"/>
+      <point x="564" y="1133" type="line"/>
+      <point x="744" y="1158" type="line"/>
+      <point x="744" y="1292" type="line"/>
+      <point x="77" y="1292" type="line"/>
+      <point x="77" y="1158" type="line"/>
+      <point x="219" y="1133" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>adjustSpace</key>
-        <integer>2</integer>
-        <key>height</key>
-        <integer>87</integer>
-        <key>weight</key>
-        <integer>2</integer>
-        <key>width</key>
-        <integer>96</integer>
-      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>h.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

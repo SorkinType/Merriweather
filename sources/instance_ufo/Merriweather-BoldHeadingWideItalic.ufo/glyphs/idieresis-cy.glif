@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresis-cy" format="2">
+  <advance width="1182.4664031620553"/>
+  <unicode hex="04E5"/>
+  <anchor x="515.2134387351778" y="0.0" name="bottom"/>
+  <anchor x="1022.7588932806326" y="0.0" name="bottomright"/>
+  <anchor x="947.0948616600789" y="0.0" name="ogonek"/>
+  <anchor x="719.7193675889328" y="1474.4545454545453" name="top"/>
+  <anchor x="994.6205533596836" y="1048.304347826087" name="topright"/>
+  <outline>
+    <component base="ii-cy"/>
+    <component base="dieresiscomb" xOffset="239.703557312253"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sacutedotaccent" format="2">
-  <advance width="1195.0"/>
+  <advance width="1195"/>
   <unicode hex="1E64"/>
-  <anchor x="598.0" y="0.0" name="bottom"/>
-  <anchor x="668.0" y="2312.0" name="top"/>
+  <anchor x="598" y="0" name="bottom"/>
+  <anchor x="628" y="2312" name="top"/>
   <outline>
     <component base="S"/>
-    <component base="acutecomb.case" xOffset="510.0"/>
-    <component base="dotaccentcomb.case" xOffset="539.0" yOffset="474.0"/>
+    <component base="acutecomb.case" xOffset="470"/>
+    <component base="dotaccentcomb.case" xOffset="499" yOffset="474"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

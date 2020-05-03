@@ -1,57 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tbar.sc" format="2">
-  <advance width="1455.0"/>
-  <anchor x="730.0" y="0.0" name="bottom"/>
-  <anchor x="1229.0" y="0.0" name="bottomright"/>
-  <anchor x="730.0" y="648.0" name="center"/>
-  <anchor x="732.0" y="1272.0" name="top"/>
+  <advance width="1455"/>
+  <anchor x="730" y="0" name="bottom"/>
+  <anchor x="1229" y="0" name="bottomright"/>
+  <anchor x="730" y="648" name="center"/>
+  <anchor x="732" y="1272" name="top"/>
   <outline>
     <contour>
-      <point x="1203.0" y="614.0" type="line"/>
-      <point x="257.0" y="614.0" type="line"/>
-      <point x="257.0" y="471.0" type="line"/>
-      <point x="1203.0" y="471.0" type="line"/>
+      <point x="1203" y="614" type="line"/>
+      <point x="257" y="614" type="line"/>
+      <point x="257" y="471" type="line"/>
+      <point x="1203" y="471" type="line"/>
     </contour>
     <contour>
-      <point x="560.0" y="145.0" type="line"/>
-      <point x="279.0" y="126.0" type="line"/>
-      <point x="279.0" y="0.0" type="line"/>
-      <point x="1214.0" y="0.0" type="line"/>
-      <point x="1214.0" y="126.0" type="line"/>
-      <point x="907.0" y="145.0" type="line"/>
-      <point x="907.0" y="1150.0" type="line"/>
-      <point x="1129.0" y="1140.0" type="line"/>
-      <point x="1216.0" y="733.0" type="line"/>
-      <point x="1410.0" y="733.0" type="line"/>
-      <point x="1389.0" y="1292.0" type="line"/>
-      <point x="85.0" y="1292.0" type="line"/>
-      <point x="45.0" y="733.0" type="line"/>
-      <point x="242.0" y="733.0" type="line"/>
-      <point x="339.0" y="1140.0" type="line"/>
-      <point x="560.0" y="1150.0" type="line"/>
+      <point x="560" y="145" type="line"/>
+      <point x="279" y="126" type="line"/>
+      <point x="279" y="0" type="line"/>
+      <point x="1214" y="0" type="line"/>
+      <point x="1214" y="126" type="line"/>
+      <point x="907" y="145" type="line"/>
+      <point x="907" y="1150" type="line"/>
+      <point x="1129" y="1140" type="line"/>
+      <point x="1216" y="733" type="line"/>
+      <point x="1410" y="733" type="line"/>
+      <point x="1389" y="1292" type="line"/>
+      <point x="85" y="1292" type="line"/>
+      <point x="45" y="733" type="line"/>
+      <point x="242" y="733" type="line"/>
+      <point x="339" y="1140" type="line"/>
+      <point x="560" y="1150" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>adjustSpace</key>
-        <integer>2</integer>
-        <key>height</key>
-        <integer>87</integer>
-        <key>weight</key>
-        <integer>2</integer>
-        <key>width</key>
-        <integer>96</integer>
-      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>t.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>t.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 17:44:08</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

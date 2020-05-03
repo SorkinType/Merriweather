@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcaron" format="2">
-  <advance width="1362.0"/>
+  <advance width="1362"/>
   <unicode hex="0164"/>
-  <anchor x="688.0" y="0.0" name="bottom"/>
-  <anchor x="1049.0" y="0.0" name="bottomright"/>
-  <anchor x="682.0" y="684.0" name="center"/>
-  <anchor x="685.0" y="1824.0" name="top"/>
+  <anchor x="688" y="0" name="bottom"/>
+  <anchor x="1049" y="0" name="bottomright"/>
+  <anchor x="682" y="684" name="center"/>
+  <anchor x="685" y="1824" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="caroncomb.case" xOffset="347.0"/>
+    <component base="caroncomb.case" xOffset="347"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

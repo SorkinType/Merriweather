@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yerudieresis-cy" format="2">
+  <advance width="1987.347826086957"/>
+  <unicode hex="04F8"/>
+  <anchor x="1038.8695652173913" y="1660.0" name="top"/>
+  <anchor x="1567.2490118577073" y="0.0" name="bottom"/>
+  <anchor x="1750.1620553359685" y="-164.0" name="btm"/>
+  <anchor x="1577.1660079051383" y="0.0" name="ogonek"/>
+  <anchor x="1444.5612648221343" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Yeru-cy"/>
+    <component base="dieresiscomb.case" xOffset="637.9604743083004"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

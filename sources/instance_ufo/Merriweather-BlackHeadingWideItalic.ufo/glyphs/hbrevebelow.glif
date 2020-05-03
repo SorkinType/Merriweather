@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbrevebelow" format="2">
+  <advance width="1225.0909090909092"/>
+  <unicode hex="1E2B"/>
+  <anchor x="570.4545454545455" y="0.0" name="bottom"/>
+  <anchor x="1067.0909090909092" y="0.0" name="bottomright"/>
+  <anchor x="226.9090909090909" y="1814.0" name="cap"/>
+  <anchor x="379.0672727272727" y="1292.0" name="tbar"/>
+  <anchor x="434.8181818181818" y="1567.0" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="brevebelowcomb" xOffset="297.99999999999994"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

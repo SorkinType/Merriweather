@@ -1,28 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ustrait-cy" format="2">
-  <advance width="1216.5183425414364"/>
+  <advance width="1197.9060773480662"/>
   <unicode hex="04AE"/>
-  <anchor x="626.7955801104972" y="560.1988950276243" name="center"/>
-  <anchor x="608.9324033149171" y="0.0" name="bottom"/>
-  <anchor x="622.2294751381215" y="1486.0" name="top"/>
-  <anchor x="-13.388756906077354" y="1486.0" name="topleft"/>
+  <anchor x="613.7237569060774" y="560.1988950276243" name="center"/>
+  <anchor x="600.6795580110497" y="0.0" name="bottom"/>
+  <anchor x="615.7513812154696" y="1486.0" name="top"/>
+  <anchor x="-3.8287292817679557" y="1486.0" name="topleft"/>
   <outline>
     <component base="Y"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Y</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>Y</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Y</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

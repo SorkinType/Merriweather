@@ -1,21 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yerudieresis-cy" format="2">
-  <advance width="2304.0"/>
+  <advance width="2304"/>
   <unicode hex="04F8"/>
-  <anchor x="1839.0" y="0.0" name="bottom"/>
-  <anchor x="1911.0" y="20.0" name="ogonek"/>
-  <anchor x="1536.0" y="1858.0" name="top"/>
-  <anchor x="1460.0" y="1486.0" name="topleft"/>
+  <anchor x="1839" y="0" name="bottom"/>
+  <anchor x="1911" y="20" name="ogonek"/>
+  <anchor x="1536" y="1858" name="top"/>
+  <anchor x="1460" y="1486" name="topleft"/>
   <outline>
     <component base="Yeru-cy"/>
-    <component base="dieresiscomb.case" xOffset="1096.0"/>
+    <component base="dieresiscomb.case" xOffset="1096"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Yeru-cy</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresiscomb.case</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gcaron.sc" format="2">
+  <advance width="1170"/>
+  <anchor x="931" y="294" name="bar"/>
+  <anchor x="538" y="0" name="bottom"/>
+  <anchor x="815" y="1811" name="top"/>
+  <outline>
+    <component base="g.sc"/>
+    <component base="caroncomb" xOffset="308" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

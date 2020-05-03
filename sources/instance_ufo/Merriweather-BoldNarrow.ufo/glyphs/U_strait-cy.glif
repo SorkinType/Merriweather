@@ -5,24 +5,27 @@
   <anchor x="644.6629834254144" y="569.9226519337017" name="center"/>
   <anchor x="620.5690607734807" y="0.0" name="bottom"/>
   <anchor x="643.5966850828729" y="1486.0" name="top"/>
-  <anchor x="8.988950276243088" y="1486.0" name="topleft"/>
+  <anchor x="8.988950276243095" y="1486.0" name="topleft"/>
   <outline>
     <component base="Y"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Y</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>Y</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Y</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

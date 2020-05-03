@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacron.sc" format="2">
+  <advance width="1199.3241106719368"/>
+  <anchor x="546.4584980237155" y="0.0" name="bottom"/>
+  <anchor x="683.6996047430829" y="0.0" name="ogonek"/>
+  <anchor x="750.5691699604744" y="1614.4584980237153" name="top"/>
+  <anchor x="1122.9644268774705" y="1292.0" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="macroncomb" xOffset="352.63241106719374" yOffset="198.54545454545456"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

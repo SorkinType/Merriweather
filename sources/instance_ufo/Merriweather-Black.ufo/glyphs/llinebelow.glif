@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="llinebelow" format="2">
-  <advance width="668.0"/>
+  <advance width="668"/>
   <unicode hex="1E3B"/>
-  <anchor x="342.0" y="-346.0" name="bottom"/>
-  <anchor x="326.0" y="1634.0" name="top"/>
-  <anchor x="661.0" y="1111.0" name="topright"/>
+  <anchor x="342" y="-346" name="bottom"/>
+  <anchor x="326" y="1634" name="top"/>
+  <anchor x="661" y="1111" name="topright"/>
   <outline>
     <component base="l"/>
-    <component base="macronbelowcomb" xOffset="22.0"/>
+    <component base="macronbelowcomb" xOffset="22"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

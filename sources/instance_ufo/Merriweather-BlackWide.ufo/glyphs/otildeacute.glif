@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildeacute" format="2">
-  <advance width="1301.0"/>
+  <advance width="1301"/>
   <unicode hex="1E4D"/>
-  <anchor x="651.0" y="0.0" name="bottom"/>
-  <anchor x="651.0" y="556.0" name="center"/>
-  <anchor x="708.0" y="10.0" name="ogonek"/>
-  <anchor x="653.0" y="2064.0" name="top"/>
-  <anchor x="1068.0" y="1112.0" name="topright"/>
+  <anchor x="651" y="0" name="bottom"/>
+  <anchor x="651" y="556" name="center"/>
+  <anchor x="708" y="10" name="ogonek"/>
+  <anchor x="653" y="2064" name="top"/>
+  <anchor x="1068" y="1112" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="tildecomb" xOffset="207.0" yOffset="2.0"/>
-    <component base="acutecomb" xOffset="413.0" yOffset="454.0"/>
+    <component base="tildecomb" xOffset="207" yOffset="2"/>
+    <component base="acutecomb" xOffset="413" yOffset="454"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

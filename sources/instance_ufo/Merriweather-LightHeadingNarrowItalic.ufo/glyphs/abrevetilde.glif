@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevetilde" format="2">
+  <advance width="967.2282608695652"/>
+  <unicode hex="1EB5"/>
+  <anchor x="364.274209486166" y="0.0" name="bottom"/>
+  <anchor x="980.205533596838" y="1622.0" name="caron"/>
+  <anchor x="753.5266798418972" y="0.2766798418972332" name="ogonek"/>
+  <anchor x="634.7208498023715" y="1109.2243083003953" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb_tildecomb" xOffset="281.96788537549406" yOffset="-0.7756916996047432"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

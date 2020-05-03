@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacrondieresis.sc" format="2">
+  <advance width="1532"/>
+  <anchor x="746" y="0" name="bottom"/>
+  <anchor x="872" y="0" name="ogonek"/>
+  <anchor x="1016" y="1964" name="top"/>
+  <anchor x="1330" y="1292" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="macroncomb" xOffset="537" yOffset="182"/>
+    <component base="dieresiscomb" xOffset="483" yOffset="508"/>
+  </outline>
+</glyph>

@@ -1,42 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="De-cy.loclBGR" format="2">
-  <advance width="1492.0"/>
+  <advance width="1526"/>
   <outline>
     <contour>
-      <point x="590.0" y="1492.0" type="line"/>
-      <point x="139.0" y="126.0" type="line"/>
-      <point x="56.0" y="94.0" type="line"/>
-      <point x="230.0" y="0.0" type="line"/>
-      <point x="1208.0" y="0.0" type="line"/>
-      <point x="1440.0" y="85.0" type="line"/>
-      <point x="1333.0" y="155.0" type="line"/>
-      <point x="950.0" y="1492.0" type="line"/>
+      <point x="607" y="1492" type="line"/>
+      <point x="156" y="126" type="line"/>
+      <point x="73" y="94" type="line"/>
+      <point x="247" y="0" type="line"/>
+      <point x="1225" y="0" type="line"/>
+      <point x="1457" y="85" type="line"/>
+      <point x="1350" y="155" type="line"/>
+      <point x="967" y="1492" type="line"/>
     </contour>
     <contour>
-      <point x="410.0" y="155.0" type="line"/>
-      <point x="678.0" y="1142.0" type="line"/>
-      <point x="708.0" y="1284.0" type="line"/>
-      <point x="738.0" y="1144.0" type="line"/>
-      <point x="956.0" y="155.0" type="line"/>
+      <point x="427" y="155" type="line"/>
+      <point x="695" y="1142" type="line"/>
+      <point x="725" y="1284" type="line"/>
+      <point x="755" y="1144" type="line"/>
+      <point x="973" y="155" type="line"/>
     </contour>
-    <component base="lefttooth_part." xOffset="-18.0"/>
-    <component base="righttooth_part." xOffset="1081.0"/>
+    <component base="lefttooth_part." xOffset="-1"/>
+    <component base="righttooth_part." xOffset="1098"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>lefttooth_part.</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>=De-cy-5</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,8 +4,8 @@
   <anchor x="373.6243093922652" y="0.0" name="bottom"/>
   <anchor x="402.0220994475138" y="20.0" name="ogonek"/>
   <anchor x="373.6243093922652" y="1486.0" name="top_1"/>
-  <anchor x="1107.099447513812" y="1486.0" name="top_2"/>
-  <anchor x="9.707182320441985" y="1486.0" name="topleft"/>
+  <anchor x="1121.46408839779" y="1486.0" name="top_2"/>
+  <anchor x="9.707182320441989" y="1486.0" name="topleft"/>
   <outline>
     <component base="I"/>
     <component base="J" xOffset="745.0939226519337"/>
@@ -14,17 +14,25 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>acutecomb.case</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>acutecomb.case</string>
+        </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

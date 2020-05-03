@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotbelow" format="2">
+  <advance width="1038.3636363636363"/>
+  <unicode hex="1ECD"/>
+  <anchor x="519.1818181818181" y="-377.0" name="bottom"/>
+  <anchor x="519.1818181818181" y="547.9090909090909" name="center"/>
+  <anchor x="570.1818181818182" y="10.0" name="ogonek"/>
+  <anchor x="519.3636363636364" y="1111.6363636363637" name="top"/>
+  <anchor x="722.6363636363636" y="1092.5454545454547" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="dotbelowcomb" xOffset="319.90909090909093"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

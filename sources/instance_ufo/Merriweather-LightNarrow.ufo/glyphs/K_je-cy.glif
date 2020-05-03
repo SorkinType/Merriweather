@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kje-cy" format="2">
-  <advance width="1157.0"/>
+  <advance width="1157"/>
   <unicode hex="040C"/>
-  <anchor x="1154.0" y="0.0" name="bottomright"/>
-  <anchor x="602.0" y="1990.0" name="top"/>
+  <anchor x="1154" y="0" name="bottomright"/>
+  <anchor x="602" y="1990" name="top"/>
   <outline>
     <component base="Ka-cy"/>
-    <component base="acutecomb.case" xOffset="489.0" yOffset="30.0"/>
+    <component base="acutecomb.case" xOffset="489" yOffset="30"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

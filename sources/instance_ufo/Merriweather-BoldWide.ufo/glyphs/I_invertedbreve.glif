@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iinvertedbreve" format="2">
-  <advance width="816.7955801104972"/>
+  <advance width="818.414364640884"/>
   <unicode hex="020A"/>
-  <anchor x="404.50276243093924" y="0.0" name="bottom"/>
-  <anchor x="461.3093922651933" y="20.0" name="ogonek"/>
+  <anchor x="404.5027624309392" y="0.0" name="bottom"/>
+  <anchor x="461.3093922651934" y="20.0" name="ogonek"/>
   <anchor x="404.50276243093924" y="1955.2375690607735" name="top"/>
-  <anchor x="14.72928176795579" y="1486.0" name="topleft"/>
+  <anchor x="14.729281767955804" y="1486.0" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="breveinvertedcomb.case" xOffset="26.248618784530393"/>
+    <component base="breveinvertedcomb.case" xOffset="26.248618784530386"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

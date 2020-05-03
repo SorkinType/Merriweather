@@ -1,32 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.tf.zero" format="2">
-  <advance width="1240.0"/>
+  <advance width="1180"/>
   <outline>
     <contour>
-      <point x="856.0" y="1343.0" type="line"/>
-      <point x="270.0" y="174.0" type="line"/>
-      <point x="352.0" y="134.0" type="line"/>
-      <point x="940.0" y="1303.0" type="line"/>
+      <point x="561" y="-21" type="curve" smooth="yes"/>
+      <point x="928" y="-21"/>
+      <point x="1142" y="225"/>
+      <point x="1142" y="758" type="curve" smooth="yes"/>
+      <point x="1142" y="1249"/>
+      <point x="951" y="1505"/>
+      <point x="620" y="1505" type="curve" smooth="yes"/>
+      <point x="268" y="1505"/>
+      <point x="39" y="1263"/>
+      <point x="38" y="727" type="curve" smooth="yes"/>
+      <point x="37" y="240"/>
+      <point x="225" y="-21"/>
     </contour>
-    <component base="zero.tf"/>
+    <contour>
+      <point x="593" y="111" type="curve" smooth="yes"/>
+      <point x="455" y="111"/>
+      <point x="385" y="261"/>
+      <point x="385" y="746" type="curve" smooth="yes"/>
+      <point x="385" y="1260"/>
+      <point x="458" y="1375"/>
+      <point x="590" y="1375" type="curve" smooth="yes"/>
+      <point x="722" y="1375"/>
+      <point x="794" y="1262"/>
+      <point x="794" y="722" type="curve" smooth="yes"/>
+      <point x="794" y="253"/>
+      <point x="744" y="111"/>
+    </contour>
+    <contour>
+      <point x="834" y="1343" type="line"/>
+      <point x="248" y="174" type="line"/>
+      <point x="330" y="134" type="line"/>
+      <point x="918" y="1303" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>monoWidth</key>
-        <integer>620</integer>
-        <key>useSpacing</key>
-        <integer>38</integer>
-      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>zero.tf</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>zero.tf</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

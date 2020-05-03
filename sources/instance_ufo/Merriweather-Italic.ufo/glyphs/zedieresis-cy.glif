@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zedieresis-cy" format="2">
+  <advance width="930.5108695652174"/>
+  <unicode hex="04DF"/>
+  <anchor x="361.57608695652175" y="0.0" name="bottom"/>
+  <anchor x="381.20652173913044" y="0.0" name="bottomright"/>
+  <anchor x="572.4239130434783" y="1408.0652173913043" name="top"/>
+  <outline>
+    <component base="ze-cy"/>
+    <component base="dieresiscomb" xOffset="138.17391304347825"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yerudieresis-cy.sc" format="2">
-  <advance width="2032.0"/>
-  <anchor x="1629.0" y="0.0" name="bottom"/>
-  <anchor x="1537.0" y="18.0" name="ogonek"/>
-  <anchor x="1051.0" y="1685.0" name="top"/>
+  <advance width="2032"/>
+  <anchor x="1629" y="0" name="bottom"/>
+  <anchor x="1537" y="18" name="ogonek"/>
+  <anchor x="1051" y="1685" name="top"/>
   <outline>
     <component base="yeru-cy.sc"/>
-    <component base="dieresiscomb" xOffset="639.0" yOffset="181.0"/>
+    <component base="dieresiscomb" xOffset="639" yOffset="181"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

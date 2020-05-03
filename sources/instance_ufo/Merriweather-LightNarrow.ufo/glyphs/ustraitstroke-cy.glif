@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ustraitstroke-cy" format="2">
-  <advance width="1048.0"/>
+  <advance width="1048"/>
   <unicode hex="04B1"/>
-  <anchor x="528.0" y="0.0" name="center"/>
+  <anchor x="528" y="0" name="center"/>
   <outline>
     <contour>
-      <point x="144.0" y="0.0" type="line"/>
-      <point x="916.0" y="0.0" type="line"/>
-      <point x="916.0" y="92.0" type="line"/>
-      <point x="144.0" y="92.0" type="line"/>
+      <point x="174" y="0" type="line"/>
+      <point x="916" y="0" type="line"/>
+      <point x="916" y="92" type="line"/>
+      <point x="174" y="92" type="line"/>
     </contour>
     <component base="ustrait-cy"/>
   </outline>
@@ -16,12 +16,12 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>v</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otilde" format="2">
+  <advance width="1161.4821697639375"/>
+  <unicode hex="00F5"/>
+  <anchor x="581.6805625313912" y="0.0" name="bottom"/>
+  <anchor x="581.1783023606229" y="548.677046710196" name="center"/>
+  <anchor x="601.6870919136113" y="30.725765946760422" name="ogonek"/>
+  <anchor x="586.4178804620794" y="1533.7629331993971" name="top"/>
+  <anchor x="781.5710698141638" y="1091.5012556504269" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="tildecomb" xOffset="209.6579608237067"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

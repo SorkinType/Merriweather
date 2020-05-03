@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Imacron" format="2">
+  <advance width="601.4407114624506"/>
+  <unicode hex="012A"/>
+  <anchor x="228.36808300395256" y="0.0" name="bottom"/>
+  <anchor x="405.00395256917" y="-164.0" name="btm"/>
+  <anchor x="249.1057312252964" y="0.0" name="ogonek"/>
+  <anchor x="485.93083003952574" y="1801.7608695652175" name="top"/>
+  <anchor x="146.0335968379447" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="macroncomb.case" xOffset="38.17638339920947"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

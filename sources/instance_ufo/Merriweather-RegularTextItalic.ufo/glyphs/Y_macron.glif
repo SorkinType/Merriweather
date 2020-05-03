@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ymacron" format="2">
+  <advance width="1167.4031620553358"/>
+  <unicode hex="0232"/>
+  <anchor x="521.4871541501976" y="0.0" name="bottom"/>
+  <anchor x="587.4298418972332" y="469.0" name="center"/>
+  <anchor x="780.6136363636363" y="1807.304347826087" name="top"/>
+  <anchor x="145.48418972332016" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="macroncomb.case" xOffset="323.01976284584975"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

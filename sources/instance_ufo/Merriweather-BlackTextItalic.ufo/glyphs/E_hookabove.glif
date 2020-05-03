@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ehookabove" format="2">
+  <advance width="1305.4545454545455"/>
+  <unicode hex="1EBA"/>
+  <anchor x="593.5454545454545" y="0.0" name="bottom"/>
+  <anchor x="937.8181818181818" y="0.0" name="ogonek"/>
+  <anchor x="740.6363636363636" y="1486.0" name="top"/>
+  <anchor x="145.99999999999997" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="hookabovecomb.case" xOffset="408.90909090909093"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

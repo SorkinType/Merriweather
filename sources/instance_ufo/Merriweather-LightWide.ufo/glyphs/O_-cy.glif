@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="O-cy" format="2">
-  <advance width="1480.0"/>
+  <advance width="1480"/>
   <unicode hex="041E"/>
-  <anchor x="720.0" y="744.0" name="center"/>
-  <anchor x="720.0" y="1486.0" name="top"/>
-  <anchor x="740.0" y="0.0" name="bottom"/>
-  <anchor x="837.0" y="20.0" name="ogonek"/>
+  <anchor x="720" y="744" name="center"/>
+  <anchor x="720" y="1486" name="top"/>
+  <anchor x="740" y="0" name="bottom"/>
+  <anchor x="837" y="20" name="ogonek"/>
   <anchor x="893.629" y="0.0" name="qq"/>
-  <anchor x="-61.0" y="1486.0" name="topleft"/>
-  <anchor x="1146.0" y="1486.0" name="topright"/>
+  <anchor x="-61" y="1486" name="topleft"/>
+  <anchor x="1146" y="1486" name="topright"/>
   <outline>
     <component base="O"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

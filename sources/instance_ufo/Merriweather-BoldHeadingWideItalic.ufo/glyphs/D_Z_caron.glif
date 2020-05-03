@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="DZcaron" format="2">
+  <advance width="2819.474308300395"/>
+  <unicode hex="01C4"/>
+  <anchor x="367.1740988142293" y="748.0" name="bar"/>
+  <anchor x="598.0711462450595" y="0.0" name="bottom_1"/>
+  <anchor x="2044.3491541501978" y="0.0" name="bottom_2"/>
+  <anchor x="818.292490118577" y="1485.391304347826" name="top_1"/>
+  <anchor x="2251.6125849802365" y="1486.0" name="top_2"/>
+  <outline>
+    <component base="DZ"/>
+    <component base="caroncomb.case" xOffset="1994.0553359683795"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>DZ</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caroncomb.case</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

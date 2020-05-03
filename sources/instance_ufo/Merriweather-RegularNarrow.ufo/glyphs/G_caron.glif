@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcaron" format="2">
-  <advance width="1272.4526243093921"/>
+  <advance width="1233.8508287292818"/>
   <unicode hex="01E6"/>
-  <anchor x="739.6220718232045" y="0.0" name="bottom"/>
-  <anchor x="1069.9002982320442" y="349.0" name="rstem"/>
-  <anchor x="799.6220718232045" y="1819.9391160220994" name="top"/>
+  <anchor x="724.4640883977901" y="0.0" name="bottom"/>
+  <anchor x="1030.6990055248618" y="349.0" name="rstem"/>
+  <anchor x="784.4640883977901" y="1838.6519337016575" name="top"/>
   <outline>
     <component base="G"/>
-    <component base="caroncomb.case" xOffset="447.86058011049727"/>
+    <component base="caroncomb.case" xOffset="455.89502762430936"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

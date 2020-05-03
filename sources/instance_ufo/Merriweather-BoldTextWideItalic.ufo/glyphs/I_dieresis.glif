@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis" format="2">
+  <advance width="759.2252964426879"/>
+  <unicode hex="00CF"/>
+  <anchor x="299.45454545454544" y="0.0" name="bottom"/>
+  <anchor x="479.5415019762846" y="-164.0" name="btm"/>
+  <anchor x="325.5177865612648" y="0.0" name="ogonek"/>
+  <anchor x="552.0197628458498" y="1872.5217391304348" name="top"/>
+  <anchor x="156.88537549407116" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="dieresiscomb.case" xOffset="6.2252964426877515"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

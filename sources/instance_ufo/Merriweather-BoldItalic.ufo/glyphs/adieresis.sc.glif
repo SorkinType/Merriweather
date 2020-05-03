@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adieresis.sc" format="2">
+  <advance width="1273.2608695652173"/>
+  <anchor x="544.608695652174" y="-121.0" name="bottom"/>
+  <anchor x="1037.0" y="0.0" name="ogonek"/>
+  <anchor x="779.9130434782609" y="1616.695652173913" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="dieresiscomb" xOffset="301.9130434782609" yOffset="182.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.uc" format="2">
+  <advance width="542"/>
+  <anchor x="209" y="0" name="bottom"/>
+  <anchor x="406" y="-164" name="btm"/>
+  <anchor x="222" y="0" name="ogonek"/>
+  <anchor x="463" y="1763" name="top"/>
+  <anchor x="153" y="1486" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="dotaccentcomb.case" xOffset="160"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

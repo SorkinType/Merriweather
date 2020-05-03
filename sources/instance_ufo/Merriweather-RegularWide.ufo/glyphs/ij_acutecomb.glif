@@ -1,26 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij_acutecomb" format="2">
-  <advance width="1261.3922651933701"/>
-  <anchor x="319.4696132596685" y="0.0" name="bottom"/>
-  <anchor x="399.7513812154696" y="20.0" name="ogonek"/>
-  <anchor x="342.1878453038674" y="1112.0" name="top_1"/>
-  <anchor x="944.7403314917127" y="1110.2817679558011" name="top_2"/>
+  <advance width="1264.7734806629835"/>
+  <anchor x="336.4696132596685" y="0.0" name="bottom"/>
+  <anchor x="406.9337016574586" y="20.0" name="ogonek"/>
+  <anchor x="334.2872928176796" y="1112.0" name="top_1"/>
+  <anchor x="958.6022099447514" y="1110.2817679558011" name="top_2"/>
   <outline>
     <component base="idotless"/>
-    <component base="acutecomb" xOffset="161.646408839779" yOffset="2.0"/>
-    <component base="jdotless" xOffset="614.2872928176796"/>
-    <component base="acutecomb" xOffset="764.1988950276243" yOffset="0.28176795580110486"/>
+    <component base="acutecomb" xOffset="153.74585635359117" yOffset="2.0"/>
+    <component base="jdotless" xOffset="615.9779005524862"/>
+    <component base="acutecomb" xOffset="778.060773480663" yOffset="0.281767955801105"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 05:31:27</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

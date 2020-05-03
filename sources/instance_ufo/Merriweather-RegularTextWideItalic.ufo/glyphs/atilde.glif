@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="atilde" format="2">
+  <advance width="1168.9169960474308"/>
+  <unicode hex="00E3"/>
+  <anchor x="485.1116600790513" y="0.0" name="bottom"/>
+  <anchor x="1096.3013833992095" y="1622.0" name="caron"/>
+  <anchor x="927.5326086956522" y="0.0" name="ogonek"/>
+  <anchor x="777.8132411067195" y="1495.558300395257" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="tildecomb" xOffset="283.0622529644269" yOffset="-1.8656126482213438"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

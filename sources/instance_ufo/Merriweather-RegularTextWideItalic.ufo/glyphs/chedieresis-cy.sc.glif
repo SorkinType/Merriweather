@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedieresis-cy.sc" format="2">
+  <advance width="1200.7411067193677"/>
+  <anchor x="522.5389486166009" y="564.0" name="bar"/>
+  <anchor x="503.41699604743087" y="0.0" name="bottomleft"/>
+  <anchor x="1064.854743083004" y="0.0" name="bottomright"/>
+  <anchor x="675.8231225296443" y="1606.6679841897233" name="top"/>
+  <outline>
+    <component base="che-cy.sc"/>
+    <component base="dieresiscomb" xOffset="235.41699604743084" yOffset="187.5889328063241"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

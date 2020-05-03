@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcedilla" format="2">
+  <advance width="573.1739130434783"/>
+  <unicode hex="0163"/>
+  <anchor x="261.7391304347826" y="0.0" name="bottom"/>
+  <anchor x="648.0" y="1229.0" name="car"/>
+  <anchor x="623.1304347826086" y="1610.1739130434783" name="caron"/>
+  <anchor x="218.01686956521738" y="580.0" name="tbar"/>
+  <anchor x="442.6086956521739" y="1362.0" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="cedillacomb" xOffset="70.47826086956522"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

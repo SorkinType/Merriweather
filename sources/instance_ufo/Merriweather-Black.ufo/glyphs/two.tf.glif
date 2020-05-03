@@ -1,50 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.tf" format="2">
-  <advance width="1240.0"/>
+  <advance width="1180"/>
   <outline>
     <contour>
-      <point x="74.0" y="122.0" type="curve"/>
-      <point x="122.0" y="0.0" type="line"/>
-      <point x="1102.0" y="0.0" type="line"/>
-      <point x="1156.0" y="358.0" type="line"/>
-      <point x="1018.0" y="386.0" type="line"/>
-      <point x="940.0" y="228.0" type="line"/>
-      <point x="384.0" y="176.0" type="line"/>
-      <point x="742.0" y="384.0"/>
-      <point x="1074.0" y="782.0"/>
-      <point x="1074.0" y="1070.0" type="curve" smooth="yes"/>
-      <point x="1074.0" y="1330.0"/>
-      <point x="904.0" y="1504.0"/>
-      <point x="594.0" y="1504.0" type="curve" smooth="yes"/>
-      <point x="342.0" y="1504.0"/>
-      <point x="162.0" y="1372.0"/>
-      <point x="72.0" y="1248.0" type="curve"/>
-      <point x="176.0" y="1130.0" type="line"/>
-      <point x="242.0" y="1192.0"/>
-      <point x="320.0" y="1278.0"/>
-      <point x="472.0" y="1278.0" type="curve" smooth="yes"/>
-      <point x="608.0" y="1278.0"/>
-      <point x="726.0" y="1198.0"/>
-      <point x="726.0" y="1022.0" type="curve" smooth="yes"/>
-      <point x="726.0" y="710.0"/>
-      <point x="398.0" y="326.0"/>
+      <point x="50" y="122" type="curve"/>
+      <point x="98" y="0" type="line"/>
+      <point x="1078" y="0" type="line"/>
+      <point x="1132" y="358" type="line"/>
+      <point x="994" y="386" type="line"/>
+      <point x="916" y="228" type="line"/>
+      <point x="360" y="176" type="line"/>
+      <point x="718" y="384"/>
+      <point x="1050" y="782"/>
+      <point x="1050" y="1070" type="curve" smooth="yes"/>
+      <point x="1050" y="1330"/>
+      <point x="880" y="1504"/>
+      <point x="570" y="1504" type="curve" smooth="yes"/>
+      <point x="318" y="1504"/>
+      <point x="138" y="1372"/>
+      <point x="48" y="1248" type="curve"/>
+      <point x="152" y="1130" type="line"/>
+      <point x="218" y="1192"/>
+      <point x="296" y="1278"/>
+      <point x="448" y="1278" type="curve" smooth="yes"/>
+      <point x="584" y="1278"/>
+      <point x="702" y="1198"/>
+      <point x="702" y="1022" type="curve" smooth="yes"/>
+      <point x="702" y="710"/>
+      <point x="374" y="326"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>RMXScaler</key>
-      <dict>
-        <key>monoWidth</key>
-        <integer>620</integer>
-        <key>useSpacing</key>
-        <integer>38</integer>
-      </dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>zero.tf</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

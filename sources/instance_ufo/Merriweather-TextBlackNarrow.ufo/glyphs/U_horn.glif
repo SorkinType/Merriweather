@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="1340.4545454545455"/>
+  <unicode hex="01AF"/>
+  <anchor x="774.0" y="0.0" name="bottom"/>
+  <anchor x="1340.0" y="20.0" name="ogonek"/>
+  <anchor x="789.7272727272727" y="1486.0" name="top"/>
+  <anchor x="1443.909090909091" y="1486.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1207.0909090909092" y="1486.0" type="curve"/>
+      <point x="1209.909090909091" y="1335.9090909090908" type="line"/>
+      <point x="1411.3636363636363" y="1335.9090909090908"/>
+      <point x="1516.090909090909" y="1449.5454545454545"/>
+      <point x="1515.909090909091" y="1665.7272727272727" type="curve" smooth="yes"/>
+      <point x="1515.909090909091" y="1696.090909090909"/>
+      <point x="1507.3636363636363" y="1717.0"/>
+      <point x="1504.3636363636363" y="1730.0" type="curve"/>
+      <point x="1309.0909090909092" y="1730.0" type="line"/>
+      <point x="1312.909090909091" y="1718.0"/>
+      <point x="1320.0" y="1689.0909090909092"/>
+      <point x="1320.0" y="1664.090909090909" type="curve" smooth="yes"/>
+      <point x="1320.0" y="1579.090909090909"/>
+      <point x="1304.0909090909092" y="1499.090909090909"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>U</string>
+    </dict>
+  </lib>
+</glyph>

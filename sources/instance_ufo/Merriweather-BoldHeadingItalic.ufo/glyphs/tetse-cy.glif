@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tetse-cy" format="2">
+  <advance width="1126.9288537549407"/>
+  <unicode hex="04B5"/>
+  <anchor x="464.6640316205534" y="0.0" name="bottom"/>
+  <anchor x="975.0869565217392" y="0.0" name="bottomright"/>
+  <anchor x="902.205533596838" y="7.272727272727273" name="ogonek"/>
+  <anchor x="665.6126482213439" y="1415.9130434782608" name="top"/>
+  <anchor x="947.5256916996047" y="1048.304347826087" name="topright"/>
+  <outline>
+    <component base="tse-cy"/>
+    <component base="macroncomb" xOffset="262.8339920948617"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tse-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ii-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

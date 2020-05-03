@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gedescender-cy" format="2">
+  <advance width="1064.5936715218484"/>
+  <unicode hex="04F6"/>
+  <anchor x="769.0185836263184" y="0.0" name="bottomright"/>
+  <anchor x="544.5469613259669" y="744.0" name="center"/>
+  <anchor x="634.1381215469613" y="1486.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="381.4585635359116" y="126.94676042189855" type="line"/>
+      <point x="381.4585635359116" y="81.94676042189853" type="line"/>
+      <point x="745.377197388247" y="81.94676042189853" type="line"/>
+      <point x="745.377197388247" y="126.94676042189855" type="line"/>
+    </contour>
+    <component base="Ge-cy"/>
+    <component base="righttooth_part." xOffset="469.5866398794576"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Ge-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Ge-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Te-cy</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Chedieresis-cy" format="2">
-  <advance width="1308.0762430939226"/>
+  <advance width="1264.9392265193371"/>
   <unicode hex="04F4"/>
-  <anchor x="1247.2500552486188" y="0.0" name="bottomright"/>
-  <anchor x="623.8509944751381" y="757.0718232044198" name="center"/>
-  <anchor x="619.1507458563535" y="1820.6519337016575" name="top"/>
+  <anchor x="1212.6298342541436" y="0.0" name="bottomright"/>
+  <anchor x="624.1878453038674" y="744.0" name="center"/>
+  <anchor x="605.0055248618785" y="1820.6519337016575" name="top"/>
   <outline>
     <component base="Che-cy"/>
-    <component base="dieresiscomb.case" xOffset="239.20953038674034"/>
+    <component base="dieresiscomb.case" xOffset="251.69060773480663"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

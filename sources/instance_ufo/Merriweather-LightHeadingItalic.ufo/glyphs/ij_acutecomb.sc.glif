@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij_acutecomb.sc" format="2">
+  <advance width="1145.0716403162055"/>
+  <anchor x="215.05484189723316" y="0.0" name="bottom"/>
+  <anchor x="842.1867588932805" y="-133.72727272727272" name="btm"/>
+  <anchor x="251.5365612648221" y="0.0" name="ogonek"/>
+  <anchor x="345.5083992094861" y="1754.292490118577" name="top_1"/>
+  <anchor x="932.3221343873519" y="1761.292490118577" name="top_2"/>
+  <outline>
+    <component base="iacute.sc"/>
+    <component base="jacute.sc" xOffset="586.5597826086956"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>i.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>j.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

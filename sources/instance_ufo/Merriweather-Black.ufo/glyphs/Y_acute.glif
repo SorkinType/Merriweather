@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yacute" format="2">
-  <advance width="1305.0"/>
+  <advance width="1305"/>
   <unicode hex="00DD"/>
-  <anchor x="650.0" y="0.0" name="bottom"/>
+  <anchor x="650" y="0" name="bottom"/>
   <anchor x="654.539" y="547.0" name="center"/>
-  <anchor x="688.0" y="1964.0" name="top"/>
-  <anchor x="34.0" y="1486.0" name="topleft"/>
+  <anchor x="688" y="1964" name="top"/>
+  <anchor x="34" y="1486" name="topleft"/>
   <outline>
     <component base="Y"/>
-    <component base="acutecomb.case" xOffset="520.0"/>
+    <component base="acutecomb.case" xOffset="520"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

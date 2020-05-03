@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn.sc" format="2">
+  <advance width="1299.2029131089903"/>
+  <anchor x="747.9226519337017" y="0.0" name="bottom"/>
+  <anchor x="1289.5801104972375" y="18.0" name="ogonek"/>
+  <anchor x="679.902561526871" y="1288.0" name="top"/>
+  <anchor x="1138.2521346057258" y="1292.0" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="horncomb.case" xOffset="1106.5645404319434" yOffset="-67.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u.sc</string>
+    </dict>
+  </lib>
+</glyph>

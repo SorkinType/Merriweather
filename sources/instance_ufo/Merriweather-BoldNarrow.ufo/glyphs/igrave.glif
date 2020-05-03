@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="igrave" format="2">
-  <advance width="583.92817679558"/>
+  <advance width="583.9281767955802"/>
   <unicode hex="00EC"/>
-  <anchor x="353.2541436464088" y="0.0" name="bottom"/>
-  <anchor x="433.9779005524862" y="20.0" name="ogonek"/>
+  <anchor x="296.292817679558" y="0.0" name="bottom"/>
+  <anchor x="363.9779005524862" y="20.0" name="ogonek"/>
   <anchor x="294.35911602209944" y="1787.121546961326" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="gravecomb" xOffset="-21.668508287292823" yOffset="1.4475138121546958"/>
+    <component base="gravecomb" xOffset="-21.668508287292816" yOffset="1.4475138121546962"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

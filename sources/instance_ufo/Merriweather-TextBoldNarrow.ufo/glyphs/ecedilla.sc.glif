@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecedilla.sc" format="2">
+  <advance width="1127.9271722752385"/>
+  <anchor x="636.7790055248619" y="0.0" name="_bottom"/>
+  <anchor x="636.7790055248619" y="0.0" name="bottom"/>
+  <anchor x="1140.5690607734807" y="18.0" name="ogonek"/>
+  <anchor x="645.8839779005525" y="1292.0" name="top"/>
+  <anchor x="46.43646408839779" y="1292.0" name="topleft"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="cedillacomb" xOffset="393.99849321948767"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>e.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>e.sc</string>
+    </dict>
+  </lib>
+</glyph>

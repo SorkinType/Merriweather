@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aeacute" format="2">
+  <advance width="1400.0"/>
+  <unicode hex="01FD"/>
+  <anchor x="683.0" y="0.0" name="bottom"/>
+  <anchor x="721.3636363636364" y="1563.6363636363637" name="top"/>
+  <outline>
+    <component base="ae"/>
+    <component base="acutecomb" xOffset="606.3636363636364"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

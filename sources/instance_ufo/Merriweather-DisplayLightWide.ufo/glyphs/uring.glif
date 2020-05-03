@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uring" format="2">
+  <advance width="1087"/>
+  <unicode hex="016F"/>
+  <anchor x="579" y="0" name="bottom"/>
+  <anchor x="916" y="20" name="ogonek"/>
+  <anchor x="537" y="1666" name="top"/>
+  <anchor x="905" y="1010" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="ringcomb" xOffset="299"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

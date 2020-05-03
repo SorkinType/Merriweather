@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="southWestArrow" format="2">
+  <advance width="1127.0"/>
+  <unicode hex="2199"/>
+  <outline>
+    <contour>
+      <point x="983.2727272727273" y="409.0" type="line"/>
+      <point x="357.27272727272725" y="409.0" type="line"/>
+      <point x="492.27272727272725" y="521.0" type="line"/>
+      <point x="1108.2727272727273" y="1140.0" type="line"/>
+      <point x="1020.2727272727273" y="1230.0" type="line"/>
+      <point x="403.27272727272725" y="608.0" type="line"/>
+      <point x="291.27272727272725" y="473.0" type="line"/>
+      <point x="289.27272727272725" y="1099.0" type="line"/>
+      <point x="165.27272727272728" y="1097.0" type="line"/>
+      <point x="165.27272727272728" y="281.0" type="line"/>
+      <point x="981.2727272727273" y="285.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|northEastArrow</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|northEastArrow</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

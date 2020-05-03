@@ -1,26 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odotbelow" format="2">
-  <advance width="1207.0"/>
+  <advance width="1207"/>
   <unicode hex="1ECD"/>
-  <anchor x="604.0" y="-377.0" name="bottom"/>
-  <anchor x="604.0" y="558.0" name="center"/>
-  <anchor x="733.0" y="45.0" name="ogonek"/>
-  <anchor x="612.0" y="1111.0" name="top"/>
-  <anchor x="1034.0" y="1111.0" name="topright"/>
+  <anchor x="604" y="-377" name="bottom"/>
+  <anchor x="604" y="558" name="center"/>
+  <anchor x="597" y="45" name="ogonek"/>
+  <anchor x="612" y="1111" name="top"/>
+  <anchor x="814" y="1111" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="dotbelowcomb" xOffset="402.0"/>
+    <component base="dotbelowcomb" xOffset="402"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainvertedbreve" format="2">
+  <advance width="1026.7549407114625"/>
+  <unicode hex="0203"/>
+  <anchor x="477.4426877470356" y="0.0" name="bottom"/>
+  <anchor x="1085.901185770751" y="1622.0" name="caron"/>
+  <anchor x="816.0592885375494" y="5.059288537549406" name="ogonek"/>
+  <anchor x="841.395256916996" y="1615.612648221344" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="breveinvertedcomb" xOffset="400.4426877470356" yOffset="-47.351778656126484"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

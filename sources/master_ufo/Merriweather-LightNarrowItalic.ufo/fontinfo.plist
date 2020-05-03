@@ -58,7 +58,7 @@
     <key>italicAngle</key>
     <real>-7.8</real>
     <key>openTypeHeadCreated</key>
-    <string>2019/05/28 16:39:42</string>
+    <string>2020/05/02 15:27:31</string>
     <key>openTypeHheaAscender</key>
     <integer>1968</integer>
     <key>openTypeHheaDescender</key>
@@ -77,6 +77,10 @@
     <string>Eben Sorkin</string>
     <key>openTypeNameManufacturerURL</key>
     <string>http://sorkintype.com</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>596</integer>
     <key>openTypeOS2StrikeoutSize</key>
@@ -112,10 +116,18 @@
       <integer>1540</integer>
       <integer>1588</integer>
     </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>100</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>152</integer>
+    </array>
     <key>postscriptUnderlinePosition</key>
     <integer>-244</integer>
     <key>postscriptUnderlineThickness</key>
-    <integer>110</integer>
+    <integer>90</integer>
     <key>styleMapFamilyName</key>
     <string>Merriweather Light Narrow</string>
     <key>styleMapStyleName</key>
@@ -129,7 +141,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>6</integer>
+    <integer>9</integer>
     <key>xHeight</key>
     <integer>1110</integer>
   </dict>

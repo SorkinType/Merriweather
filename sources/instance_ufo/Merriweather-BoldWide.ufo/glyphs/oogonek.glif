@@ -2,25 +2,23 @@
 <glyph name="oogonek" format="2">
   <advance width="1281.110497237569"/>
   <unicode hex="01EB"/>
-  <anchor x="641.6077348066299" y="0.0" name="bottom"/>
+  <anchor x="641.6077348066298" y="0.0" name="bottom"/>
   <anchor x="641.0552486187845" y="556.2762430939226" name="center"/>
-  <anchor x="732.0331491712707" y="23.81215469613261" name="ogonek"/>
+  <anchor x="731.4806629834254" y="23.25966850828729" name="ogonek"/>
   <anchor x="641.3314917127071" y="1111.4475138121547" name="top"/>
-  <anchor x="1035.9558011049724" y="1111.4475138121547" name="topright"/>
+  <anchor x="1005.5690607734807" y="1111.4475138121547" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="ogonekcomb" xOffset="359.63535911602213" yOffset="20.154696132596698"/>
+    <component base="ogonekcomb" xOffset="359.08287292817676" yOffset="19.60220994475138"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
       <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

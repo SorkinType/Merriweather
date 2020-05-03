@@ -1,35 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iogonek" format="2">
-  <advance width="568.9338674033149"/>
+  <advance width="540.6132596685082"/>
   <unicode hex="012F"/>
-  <anchor x="386.3058011049724" y="0.0" name="bottom"/>
-  <anchor x="461.84400552486187" y="20.0" name="ogonek"/>
-  <anchor x="330.0535359116022" y="1449.3839226519337" name="top"/>
+  <anchor x="275.96132596685084" y="0.0" name="bottom"/>
+  <anchor x="338.3425414364641" y="20.0" name="ogonek"/>
+  <anchor x="270.9337016574586" y="1445.6685082872928" name="top"/>
   <outline>
-    <contour>
-      <point x="263.7207458563536" y="-485.1546961325967" type="curve" smooth="yes"/>
-      <point x="359.2749723756906" y="-485.1546961325967"/>
-      <point x="440.3521546961326" y="-433.9171270718232"/>
-      <point x="484.2982044198895" y="-395.0718232044199" type="curve"/>
-      <point x="484.5799723756906" y="-294.1381215469613" type="line"/>
-      <point x="453.54499999999996" y="-313.292817679558"/>
-      <point x="398.02914364640884" y="-342.05690607734806"/>
-      <point x="328.1689779005525" y="-342.05690607734806" type="curve" smooth="yes"/>
-      <point x="263.25516574585635" y="-342.05690607734806"/>
-      <point x="220.8185359116022" y="-300.05690607734806"/>
-      <point x="220.8185359116022" y="-221.69226519337016" type="curve" smooth="yes"/>
-      <point x="220.8185359116022" y="-144.71906077348066"/>
-      <point x="287.92812154696134" y="-52.346408839779"/>
-      <point x="385.9401104972376" y="0.0" type="curve"/>
-      <point x="294.7769060773481" y="55.76792817679558" type="line"/>
-      <point x="254.29301104972376" y="0.0" type="line"/>
-      <point x="134.43058011049726" y="-66.12707182320442"/>
-      <point x="48.76870165745857" y="-192.90055248618785"/>
-      <point x="48.76870165745857" y="-296.9281767955801" type="curve" smooth="yes"/>
-      <point x="48.76870165745857" y="-444.61878453038673"/>
-      <point x="174.10096685082874" y="-485.1546961325967"/>
-    </contour>
-    <component base="i" xOffset="47.05856353591161"/>
+    <component base="i"/>
+    <component base="ogonekcomb" xOffset="32.187845303867405" yOffset="13.69060773480663"/>
   </outline>
   <lib>
     <dict>
@@ -39,12 +17,8 @@
       <string>i</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>i</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

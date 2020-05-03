@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ymacron" format="2">
-  <advance width="1280.0"/>
+  <advance width="1280"/>
   <unicode hex="0232"/>
-  <anchor x="640.0" y="0.0" name="bottom"/>
-  <anchor x="642.0" y="547.0" name="center"/>
-  <anchor x="654.0" y="1840.0" name="top"/>
-  <anchor x="40.0" y="1486.0" name="topleft"/>
+  <anchor x="640" y="0" name="bottom"/>
+  <anchor x="642" y="547" name="center"/>
+  <anchor x="654" y="1840" name="top"/>
+  <anchor x="40" y="1486" name="topleft"/>
   <outline>
     <component base="Y"/>
-    <component base="macroncomb.case" xOffset="360.0"/>
+    <component base="macroncomb.case" xOffset="360"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

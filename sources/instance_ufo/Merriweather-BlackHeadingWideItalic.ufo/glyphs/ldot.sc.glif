@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldot.sc" format="2">
+  <advance width="1615.3636363636363"/>
+  <anchor x="598.8181818181819" y="0.0" name="bottom"/>
+  <anchor x="952.4545454545455" y="940.0" name="car"/>
+  <anchor x="355.1818181818182" y="543.0" name="center"/>
+  <anchor x="502.90909090909093" y="1349.909090909091" name="top"/>
+  <outline>
+    <component base="l.sc"/>
+    <component base="periodcentered" xOffset="1228.6363636363637"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>periodcentered</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

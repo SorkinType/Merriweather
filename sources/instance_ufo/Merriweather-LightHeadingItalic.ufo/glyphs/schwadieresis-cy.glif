@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="schwadieresis-cy" format="2">
+  <advance width="905.4258893280632"/>
+  <unicode hex="04DB"/>
+  <anchor x="322.9614624505928" y="-64.84584980237155" name="bottom"/>
+  <anchor x="591.5755928853755" y="1425.6689723320158" name="top"/>
+  <outline>
+    <component base="schwa-cy"/>
+    <component base="dieresiscomb" xOffset="180.94515810276684" yOffset="-1.2727272727272727"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pedescender-cy" format="2">
-  <advance width="1570.0"/>
+  <advance width="1570"/>
   <unicode hex="0524"/>
-  <anchor x="1480.0" y="0.0" name="bottomright"/>
+  <anchor x="1480" y="0" name="bottomright"/>
   <outline>
     <component base="Pe-cy"/>
-    <component base="righttooth_part." xOffset="1137.0"/>
+    <component base="righttooth_part." xOffset="1137"/>
   </outline>
   <lib>
     <dict>
@@ -13,10 +13,6 @@
       <string>Pe-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>De-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghestroke-cy.sc" format="2">
-  <advance width="1228.0"/>
-  <anchor x="916.0" y="0.0" name="bottomright"/>
-  <anchor x="639.0" y="1272.0" name="top"/>
+  <advance width="1228"/>
+  <anchor x="916" y="0" name="bottomright"/>
+  <anchor x="639" y="1272" name="top"/>
   <outline>
     <contour>
-      <point x="77.0" y="491.0" type="line"/>
-      <point x="854.0" y="491.0" type="line"/>
-      <point x="854.0" y="619.0" type="line"/>
-      <point x="77.0" y="619.0" type="line"/>
+      <point x="77" y="491" type="line"/>
+      <point x="854" y="491" type="line"/>
+      <point x="854" y="619" type="line"/>
+      <point x="77" y="619" type="line"/>
     </contour>
     <component base="ge-cy.sc"/>
   </outline>
@@ -18,10 +18,6 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>t.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kcommaaccent" format="2">
+  <advance width="1400.909090909091"/>
+  <unicode hex="0136"/>
+  <anchor x="685.5454545454545" y="0.0" name="bottom"/>
+  <anchor x="829.0" y="1486.0" name="top"/>
+  <outline>
+    <component base="K"/>
+    <component base="commaaccentcomb.case" xOffset="633.2727272727274"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

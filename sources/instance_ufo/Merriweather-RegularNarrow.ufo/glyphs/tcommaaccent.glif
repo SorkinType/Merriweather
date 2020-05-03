@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcommaaccent" format="2">
-  <advance width="699.2377348066298"/>
+  <advance width="654.6519337016574"/>
   <unicode hex="021B"/>
-  <anchor x="377.9337016574586" y="-544.2817679558011" name="bottom"/>
-  <anchor x="257.41466850828726" y="585.1" name="center"/>
-  <anchor x="278.0198895027624" y="1363.521546961326" name="top"/>
-  <anchor x="543.1277624309392" y="1110.2817679558011" name="topright"/>
+  <anchor x="356.1546961325967" y="-544.2817679558011" name="bottom"/>
+  <anchor x="252.4254143646409" y="576.0" name="center"/>
+  <anchor x="278.060773480663" y="1362.8176795580112" name="top"/>
+  <anchor x="526.1878453038674" y="1110.2817679558011" name="topright"/>
   <outline>
     <component base="t"/>
-    <component base="commaaccentcomb" xOffset="242.5007182320442"/>
+    <component base="commaaccentcomb" xOffset="225.78453038674033"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

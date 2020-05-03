@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zhedieresis-cy" format="2">
-  <advance width="1886.3812154696132"/>
+  <advance width="1886.3812154696134"/>
   <unicode hex="04DC"/>
-  <anchor x="1895.2375690607735" y="-1.1049723756906085" name="bottomright"/>
+  <anchor x="1895.2375690607735" y="-1.1049723756906076" name="bottomright"/>
   <anchor x="945.414364640884" y="1873.635359116022" name="top"/>
   <outline>
     <component base="Zhe-cy"/>
-    <component base="dieresiscomb.case" xOffset="563.3701657458563" yOffset="30.0"/>
+    <component base="dieresiscomb.case" xOffset="563.3701657458564" yOffset="30.0"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-    </dict>
-  </lib>
 </glyph>

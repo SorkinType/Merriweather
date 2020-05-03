@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="igrave.sc" format="2">
-  <advance width="806.0"/>
-  <anchor x="403.0" y="0.0" name="bottom"/>
-  <anchor x="311.0" y="18.0" name="ogonek"/>
-  <anchor x="403.0" y="1958.0" name="top"/>
+  <advance width="806"/>
+  <anchor x="403" y="0" name="bottom"/>
+  <anchor x="311" y="18" name="ogonek"/>
+  <anchor x="403" y="1958" name="top"/>
   <outline>
     <component base="i.sc"/>
-    <component base="gravecomb" xOffset="29.0" yOffset="161.0"/>
+    <component base="gravecomb" xOffset="29" yOffset="161"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

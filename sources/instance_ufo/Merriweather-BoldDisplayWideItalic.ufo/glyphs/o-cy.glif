@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="o-cy" format="2">
+  <advance width="1106.3478260869565"/>
+  <unicode hex="043E"/>
+  <anchor x="465.8695652173913" y="-19.391304347826086" name="bottom"/>
+  <anchor x="553.5217391304349" y="505.30434782608694" name="center"/>
+  <anchor x="641.6086956521739" y="6.086956521739131" name="ogonek"/>
+  <anchor x="653.4347826086956" y="1110.0" name="top"/>
+  <anchor x="811.6521739130434" y="1005.0" name="topright"/>
+  <outline>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

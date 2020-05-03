@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevehookabove" format="2">
+  <advance width="1226.0"/>
+  <unicode hex="1EB3"/>
+  <anchor x="531.5652173913044" y="0.0" name="bottom"/>
+  <anchor x="1153.8695652173913" y="1622.0" name="caron"/>
+  <anchor x="965.6086956521739" y="0.0" name="ogonek"/>
+  <anchor x="747.2608695652174" y="1108.0" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb_hookabovecomb" xOffset="309.1304347826087" yOffset="-2.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

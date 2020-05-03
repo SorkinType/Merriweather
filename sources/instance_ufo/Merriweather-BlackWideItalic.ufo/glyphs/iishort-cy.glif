@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iishort-cy" format="2">
+  <advance width="1272"/>
+  <unicode hex="0439"/>
+  <anchor x="548" y="0" name="bottom"/>
+  <anchor x="1102" y="0" name="bottomright"/>
+  <anchor x="992" y="0" name="ogonek"/>
+  <anchor x="699" y="1110" name="top"/>
+  <anchor x="1074" y="1125" name="topright"/>
+  <outline>
+    <component base="ii-cy"/>
+    <component base="brevecomb-cy" xOffset="174"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

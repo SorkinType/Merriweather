@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tdotaccent" format="2">
-  <advance width="808.1160220994475"/>
+  <advance width="786.7624309392264"/>
   <unicode hex="1E6B"/>
-  <anchor x="444.0" y="0.0" name="bottom"/>
-  <anchor x="310.6243093922652" y="570.3646408839779" name="center"/>
-  <anchor x="338.72375690607737" y="1697.9226519337017" name="top"/>
-  <anchor x="668.6629834254144" y="1110.2817679558011" name="topright"/>
+  <anchor x="429.77348066298345" y="0.0" name="bottom"/>
+  <anchor x="296.39779005524866" y="570.3646408839779" name="center"/>
+  <anchor x="324.49723756906076" y="1697.9226519337017" name="top"/>
+  <anchor x="654.4364640883979" y="1110.2817679558011" name="topright"/>
   <outline>
     <component base="t"/>
-    <component base="dotaccentcomb" xOffset="189.15469613259668" yOffset="252.81767955801104"/>
+    <component base="dotaccentcomb" xOffset="174.92817679558013" yOffset="252.81767955801104"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

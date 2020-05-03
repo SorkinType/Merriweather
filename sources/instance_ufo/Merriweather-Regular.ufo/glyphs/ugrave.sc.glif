@@ -1,20 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ugrave.sc" format="2">
-  <advance width="1436.1436464088397"/>
+  <advance width="1436.14364640884"/>
   <anchor x="715.3812154696133" y="0.0" name="bottom"/>
   <anchor x="806.5801104972376" y="18.0" name="ogonek"/>
   <anchor x="754.5248618784531" y="1929.2707182320441" name="top"/>
   <anchor x="1246.9447513812154" y="1292.0" name="topright"/>
   <outline>
     <component base="u.sc"/>
-    <component base="gravecomb" xOffset="413.56353591160223" yOffset="161.71823204419888"/>
+    <component base="gravecomb" xOffset="413.5635359116022" yOffset="161.71823204419888"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

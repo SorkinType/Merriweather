@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ntilde" format="2">
-  <advance width="1097.0"/>
+  <advance width="1093"/>
   <unicode hex="00F1"/>
-  <anchor x="551.0" y="0.0" name="bottom"/>
-  <anchor x="524.0" y="1470.0" name="top"/>
+  <anchor x="547" y="0" name="bottom"/>
+  <anchor x="520" y="1470" name="top"/>
   <outline>
     <component base="n"/>
-    <component base="tildecomb" xOffset="186.0"/>
+    <component base="tildecomb" xOffset="182"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

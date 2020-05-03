@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iigrave-cy" format="2">
+  <advance width="1112.2826086956522"/>
+  <unicode hex="045D"/>
+  <anchor x="467.8478260869565" y="0.0" name="bottom"/>
+  <anchor x="926.5434782608696" y="0.0" name="bottomright"/>
+  <anchor x="861.5652173913044" y="0.0" name="ogonek"/>
+  <anchor x="710.9891304347826" y="1672.2391304347825" name="top"/>
+  <anchor x="928.9782608695652" y="1122.945652173913" name="topright"/>
+  <outline>
+    <component base="ii-cy"/>
+    <component base="gravecomb" xOffset="186.76086956521738" yOffset="1.3695652173913042"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

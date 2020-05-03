@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dcaron" format="2">
-  <advance width="1288.524861878453"/>
+  <advance width="1292.1160220994475"/>
   <unicode hex="010F"/>
-  <anchor x="687.5635359116022" y="0.0" name="bottom"/>
-  <anchor x="507.81767955801104" y="576.0" name="center"/>
-  <anchor x="325.81767955801104" y="1158.0" name="top"/>
-  <anchor x="1247.585635359116" y="1110.2817679558011" name="topright"/>
+  <anchor x="691.1546961325967" y="0.0" name="bottom"/>
+  <anchor x="511.4088397790055" y="576.0" name="center"/>
+  <anchor x="329.4088397790055" y="1158.0" name="top"/>
+  <anchor x="1251.1767955801106" y="1110.2817679558011" name="topright"/>
   <outline>
     <component base="d"/>
-    <component base="caroncomb.alt" xOffset="1211.6961325966852" yOffset="0.28176795580110486"/>
+    <component base="caroncomb.alt" xOffset="1215.2872928176796" yOffset="0.281767955801105"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ycircumflex" format="2">
+  <advance width="1120.6363636363635"/>
+  <unicode hex="0176"/>
+  <anchor x="497.27272727272725" y="0.0" name="bottom"/>
+  <anchor x="563.2727272727273" y="469.0" name="center"/>
+  <anchor x="755.8181818181819" y="2073.0" name="top"/>
+  <anchor x="132.81818181818184" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="circumflexcomb.case" xOffset="196.9090909090909"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

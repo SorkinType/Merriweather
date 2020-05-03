@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ygrave" format="2">
+  <advance width="1223.8458498023713"/>
+  <unicode hex="1EF2"/>
+  <anchor x="550.7114624505929" y="0.0" name="bottom"/>
+  <anchor x="616.5849802371542" y="469.0" name="center"/>
+  <anchor x="779.5256916996046" y="1486.0" name="top"/>
+  <anchor x="160.7707509881423" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="gravecomb.case" xOffset="288.4150197628459"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

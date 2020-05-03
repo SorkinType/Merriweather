@@ -1,26 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otilde" format="2">
-  <advance width="1112.0"/>
+  <advance width="1112"/>
   <unicode hex="00F5"/>
-  <anchor x="558.0" y="0.0" name="bottom"/>
-  <anchor x="556.0" y="558.0" name="center"/>
-  <anchor x="706.0" y="60.0" name="ogonek"/>
-  <anchor x="558.0" y="1470.0" name="top"/>
-  <anchor x="895.0" y="1110.0" name="topright"/>
+  <anchor x="558" y="0" name="bottom"/>
+  <anchor x="556" y="558" name="center"/>
+  <anchor x="611" y="10" name="ogonek"/>
+  <anchor x="558" y="1470" name="top"/>
+  <anchor x="725" y="1110" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="tildecomb" xOffset="190.0"/>
+    <component base="tildecomb" xOffset="190"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

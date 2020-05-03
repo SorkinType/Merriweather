@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="1111"/>
+  <unicode hex="0141"/>
+  <anchor x="501" y="0" name="bottom"/>
+  <anchor x="829" y="1110" name="car"/>
+  <anchor x="942" y="1618" name="caron"/>
+  <anchor x="298" y="743" name="center"/>
+  <anchor x="395" y="1486" name="top"/>
+  <anchor x="1227.895" y="1486.0" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="slashshortcomb" xOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>L+20</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>L</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

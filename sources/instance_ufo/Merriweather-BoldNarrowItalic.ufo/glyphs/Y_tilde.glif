@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ytilde" format="2">
+  <advance width="1088.5652173913043"/>
+  <unicode hex="1EF8"/>
+  <anchor x="478.2173913043478" y="0.0" name="bottom"/>
+  <anchor x="542.1304347826087" y="469.0" name="center"/>
+  <anchor x="846.7826086956521" y="1883.0869565217392" name="top"/>
+  <anchor x="146.95652173913044" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="tildecomb.case" xOffset="259.7391304347826"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

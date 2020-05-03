@@ -1,46 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="de-cy" format="2">
-  <advance width="1295.0"/>
+  <advance width="1305"/>
   <unicode hex="0434"/>
+  <guideline x="543" y="138" angle="0"/>
   <outline>
     <contour>
-      <point x="94.0" y="0.0" type="line"/>
-      <point x="1092.0" y="0.0" type="line"/>
-      <point x="1092.0" y="960.0" type="line"/>
-      <point x="1212.0" y="984.0" type="line"/>
-      <point x="1212.0" y="1112.0" type="line"/>
-      <point x="178.0" y="1112.0" type="line"/>
-      <point x="178.0" y="984.0" type="line"/>
-      <point x="328.0" y="960.0" type="line"/>
-      <point x="328.0" y="524.0"/>
-      <point x="267.0" y="262.0"/>
-      <point x="148.0" y="136.0" type="curve"/>
-      <point x="94.0" y="136.0" type="line"/>
+      <point x="94" y="0" type="line"/>
+      <point x="1094" y="0" type="line"/>
+      <point x="1094" y="960" type="line"/>
+      <point x="1212" y="984" type="line"/>
+      <point x="1212" y="1112" type="line"/>
+      <point x="178" y="1112" type="line"/>
+      <point x="178" y="984" type="line"/>
+      <point x="328" y="960" type="line"/>
+      <point x="328" y="524"/>
+      <point x="267" y="262"/>
+      <point x="148" y="136" type="curve"/>
+      <point x="94" y="136" type="line"/>
     </contour>
     <contour>
-      <point x="345.0" y="145.0" type="line"/>
-      <point x="424.0" y="255.0"/>
-      <point x="482.0" y="520.0"/>
-      <point x="482.0" y="870.0" type="curve" smooth="yes"/>
-      <point x="482.0" y="972.0" type="line"/>
-      <point x="750.0" y="972.0" type="line"/>
-      <point x="750.0" y="145.0" type="line"/>
+      <point x="342" y="145" type="line"/>
+      <point x="421" y="255"/>
+      <point x="479" y="520"/>
+      <point x="479" y="870" type="curve" smooth="yes"/>
+      <point x="479" y="972" type="line"/>
+      <point x="750" y="972" type="line"/>
+      <point x="750" y="145" type="line"/>
     </contour>
-    <component base="lefttooth_part." xOffset="-13.0"/>
-    <component base="righttooth_part." xOffset="804.0"/>
+    <component base="lefttooth_part." xOffset="-13"/>
+    <component base="righttooth_part." xOffset="804"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>pe-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
+      <string>=pe-cy+10</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

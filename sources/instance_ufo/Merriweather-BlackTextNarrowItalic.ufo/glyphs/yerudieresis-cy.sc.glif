@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yerudieresis-cy.sc" format="2">
+  <advance width="1852.090909090909"/>
+  <anchor x="1398.2727272727273" y="0.0" name="bottom"/>
+  <anchor x="1432.5454545454545" y="0.0" name="ogonek"/>
+  <anchor x="1099.7272727272727" y="1666.1818181818182" name="top"/>
+  <outline>
+    <component base="yeru-cy.sc"/>
+    <component base="dieresiscomb" xOffset="580.9090909090909" yOffset="198.54545454545456"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

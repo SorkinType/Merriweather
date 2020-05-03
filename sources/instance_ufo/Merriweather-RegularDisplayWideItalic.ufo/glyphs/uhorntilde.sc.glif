@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorntilde.sc" format="2">
+  <advance width="1317.358695652174"/>
+  <anchor x="639.9239130434783" y="0.0" name="bottom"/>
+  <anchor x="784.0652173913043" y="0.0" name="ogonek"/>
+  <anchor x="865.7173913043479" y="1769.7934782608695" name="top"/>
+  <anchor x="1264.2391304347827" y="1292.0" name="topright"/>
+  <outline>
+    <component base="uhorn.sc"/>
+    <component base="tildecomb" xOffset="410.23913043478257" yOffset="272.3695652173913"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

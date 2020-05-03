@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Fita-cy" format="2">
+  <advance width="1473"/>
+  <unicode hex="0472"/>
+  <anchor x="738" y="0" name="bottom"/>
+  <anchor x="738" y="741" name="center"/>
+  <anchor x="852" y="20" name="ogonek"/>
+  <anchor x="889" y="0" name="qq"/>
+  <anchor x="744" y="1486" name="top"/>
+  <anchor x="-8" y="1486" name="topleft"/>
+  <anchor x="1673" y="1486" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="fita_part." xOffset="2" yOffset="-17"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

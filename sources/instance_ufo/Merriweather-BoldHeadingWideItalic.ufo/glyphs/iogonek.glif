@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek" format="2">
+  <advance width="559.2727272727273"/>
+  <unicode hex="012F"/>
+  <anchor x="228.2371541501976" y="-7.415019762845851" name="bottom"/>
+  <anchor x="313.296442687747" y="0.0" name="ogonek"/>
+  <anchor x="405.9486166007905" y="1484.2332015810277" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="107.7509881422925"/>
+    <component base="ogonekcomb" xOffset="88.9209486166008"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

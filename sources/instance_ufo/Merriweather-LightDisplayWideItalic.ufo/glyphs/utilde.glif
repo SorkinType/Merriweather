@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="utilde" format="2">
+  <advance width="1054"/>
+  <unicode hex="0169"/>
+  <anchor x="500" y="0" name="bottom"/>
+  <anchor x="941" y="0" name="bottomright"/>
+  <anchor x="882" y="0" name="ogonek"/>
+  <anchor x="652" y="1470" name="top"/>
+  <anchor x="878" y="1005" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="tildecomb" xOffset="223"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

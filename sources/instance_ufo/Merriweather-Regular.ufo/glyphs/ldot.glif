@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldot" format="2">
-  <advance width="843.7845303867402"/>
+  <advance width="843.7845303867404"/>
   <unicode hex="0140"/>
   <anchor x="303.9337016574585" y="0.0" name="bottom"/>
-  <anchor x="297.2707182320442" y="1634.0" name="top"/>
+  <anchor x="297.27071823204415" y="1634.0" name="top"/>
   <anchor x="576.2486187845304" y="1110.2817679558011" name="topright"/>
   <outline>
     <component base="l"/>
@@ -11,12 +11,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>periodcentered.loclCAT</string>
+        </dict>
       </array>
     </dict>
   </lib>

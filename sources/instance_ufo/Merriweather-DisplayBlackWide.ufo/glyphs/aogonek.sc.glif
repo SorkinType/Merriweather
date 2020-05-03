@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek.sc" format="2">
+  <advance width="1252"/>
+  <anchor x="611" y="0" name="bottom"/>
+  <anchor x="1162" y="17" name="ogonek"/>
+  <anchor x="619" y="1360" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="ogonekcomb" xOffset="792" yOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a.sc</string>
+    </dict>
+  </lib>
+</glyph>

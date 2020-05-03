@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rdblgrave" format="2">
-  <advance width="1551.0"/>
+  <advance width="1551"/>
   <unicode hex="0210"/>
-  <anchor x="825.0" y="0.0" name="bottom"/>
-  <anchor x="741.0" y="1965.0" name="top"/>
+  <anchor x="825" y="0" name="bottom"/>
+  <anchor x="741" y="1965" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="dblgravecomb.case" xOffset="161.0"/>
+    <component base="dblgravecomb.case" xOffset="161"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

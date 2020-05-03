@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a" format="2">
+  <advance width="1077.2737154150198"/>
+  <unicode hex="0061"/>
+  <anchor x="460.33547430830043" y="0.0" name="bottom"/>
+  <anchor x="1060.8577075098813" y="1622.0" name="caron"/>
+  <anchor x="872.0266798418972" y="0.0" name="ogonek"/>
+  <anchor x="673.5054347826086" y="1109.2243083003953" name="top"/>
+  <outline>
+    <contour>
+      <point x="858.655138339921" y="148.73073122529644" type="curve" smooth="yes"/>
+      <point x="1003.5642292490119" y="1060.306324110672" type="line"/>
+      <point x="902.2040513833994" y="1021.8043478260869" type="line"/>
+      <point x="851.4980237154149" y="1045.4382411067195"/>
+      <point x="769.2855731225297" y="1069.2544466403162"/>
+      <point x="668.5232213438735" y="1069.2544466403162" type="curve" smooth="yes"/>
+      <point x="301.020256916996" y="1069.2544466403162"/>
+      <point x="32.17490118577076" y="718.1175889328063"/>
+      <point x="32.17490118577076" y="344.2010869565218" type="curve" smooth="yes"/>
+      <point x="32.17490118577076" y="138.78804347826087"/>
+      <point x="153.93379446640316" y="-20.684782608695652"/>
+      <point x="362.2579051383399" y="-20.684782608695652" type="curve" smooth="yes"/>
+      <point x="500.5815217391304" y="-20.684782608695652"/>
+      <point x="646.4357707509881" y="86.36017786561264"/>
+      <point x="718.437747035573" y="227.177371541502" type="curve"/>
+      <point x="701.4476284584981" y="123.44071146245061" type="line"/>
+      <point x="688.786561264822" y="27.236660079051383"/>
+      <point x="733.5123517786561" y="-20.684782608695652"/>
+      <point x="814.7549407114625" y="-20.684782608695652" type="curve" smooth="yes"/>
+      <point x="913.064229249012" y="-20.684782608695652"/>
+      <point x="992.8507905138341" y="48.953557312252975"/>
+      <point x="1022.8670948616601" y="97.03853754940711" type="curve"/>
+      <point x="1000.6976284584979" y="132.34733201581028" type="line"/>
+      <point x="965.278656126482" y="91.53656126482213"/>
+      <point x="927.9836956521739" y="71.3334980237154"/>
+      <point x="897.9229249011859" y="71.3334980237154" type="curve" smooth="yes"/>
+      <point x="869.8414031620553" y="71.3334980237154"/>
+      <point x="849.143280632411" y="88.49209486166009"/>
+    </contour>
+    <contour>
+      <point x="826.6892292490119" y="942.2297430830039" type="curve"/>
+      <point x="734.413537549407" y="352.9337944664032" type="line"/>
+      <point x="683.1788537549407" y="193.73616600790513"/>
+      <point x="534.669466403162" y="64.56571146245058"/>
+      <point x="396.8083003952569" y="64.56571146245058" type="curve" smooth="yes"/>
+      <point x="277.48715415019757" y="64.56571146245058"/>
+      <point x="200.57114624505928" y="174.800395256917"/>
+      <point x="200.57114624505928" y="349.09683794466406" type="curve" smooth="yes"/>
+      <point x="200.5953557312253" y="682.1862648221344"/>
+      <point x="398.6837944664031" y="1006.4624505928854"/>
+      <point x="659.612648221344" y="1006.4624505928854" type="curve" smooth="yes"/>
+      <point x="731.1422924901185" y="1006.4624505928854"/>
+      <point x="798.3636363636364" y="985.8423913043479"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>29</integer>
+            <integer>0</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

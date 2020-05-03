@@ -1,17 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nj.sc" format="2">
-  <advance width="2176.0"/>
-  <anchor x="751.0" y="0.0" name="bottom"/>
-  <anchor x="748.0" y="1323.0" name="top_1"/>
-  <anchor x="1831.0" y="1272.0" name="top_2"/>
+  <advance width="2176"/>
+  <anchor x="751" y="0" name="bottom"/>
+  <anchor x="748" y="1323" name="top_1"/>
+  <anchor x="1831" y="1272" name="top_2"/>
   <outline>
     <component base="n.sc"/>
-    <component base="j.sc" xOffset="1452.0"/>
+    <component base="j.sc" xOffset="1452"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-    </dict>
-  </lib>
 </glyph>

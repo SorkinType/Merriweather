@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twofifths" format="2">
+  <advance width="1958.7391304347825"/>
+  <unicode hex="2156"/>
+  <outline>
+    <component base="two.numr"/>
+    <component base="fraction" xOffset="826.1521739130436"/>
+    <component base="five.dnom" xOffset="1192.1195652173915"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>two.numr</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>two.numr</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

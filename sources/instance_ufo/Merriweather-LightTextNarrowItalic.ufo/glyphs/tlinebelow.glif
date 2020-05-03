@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tlinebelow" format="2">
+  <advance width="626.5454545454545"/>
+  <unicode hex="1E6F"/>
+  <anchor x="249.54545454545453" y="0.0" name="bottom"/>
+  <anchor x="617.0909090909091" y="1294.4545454545455" name="car"/>
+  <anchor x="577.0909090909091" y="1618.7272727272727" name="caron"/>
+  <anchor x="238.31772727272727" y="580.0" name="tbar"/>
+  <anchor x="396.3636363636364" y="1362.0" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="macronbelowcomb" xOffset="52.09090909090909"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Entail-cy" format="2">
-  <advance width="1668.0"/>
+  <advance width="1668"/>
   <unicode hex="04C9"/>
-  <anchor x="863.0" y="0.0" name="bottom"/>
-  <anchor x="1601.0" y="0.0" name="bottomright"/>
-  <anchor x="864.0" y="743.0" name="center"/>
-  <anchor x="834.0" y="1486.0" name="top"/>
-  <anchor x="-70.0" y="1486.0" name="topleft"/>
+  <anchor x="863" y="0" name="bottom"/>
+  <anchor x="1601" y="0" name="bottomright"/>
+  <anchor x="864" y="743" name="center"/>
+  <anchor x="834" y="1486" name="top"/>
+  <anchor x="-70" y="1486" name="topleft"/>
   <outline>
     <component base="H"/>
-    <component base="rtail_part." xOffset="1322.0"/>
+    <component base="rtail_part." xOffset="1322"/>
   </outline>
   <lib>
     <dict>
@@ -17,10 +17,6 @@
       <string>Pe-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>De-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

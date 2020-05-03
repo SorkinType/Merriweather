@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreve-cy" format="2">
+  <advance width="1097.0355731225295"/>
+  <unicode hex="04D1"/>
+  <anchor x="492.37549407114625" y="0.0" name="bottom"/>
+  <anchor x="1094.6363636363635" y="1622.0" name="caron"/>
+  <anchor x="869.798418972332" y="7.272727272727273" name="ogonek"/>
+  <anchor x="679.106719367589" y="1108.387351778656" name="top"/>
+  <outline>
+    <component base="a-cy"/>
+    <component base="brevecomb-cy" xOffset="223.71541501976287" yOffset="-1.6126482213438735"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

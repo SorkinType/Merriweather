@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcommaaccent" format="2">
+  <advance width="1234.3320158102767"/>
+  <unicode hex="013B"/>
+  <anchor x="549.3241106719366" y="0.0" name="bottom"/>
+  <anchor x="869.0079051383399" y="1110.0" name="car"/>
+  <anchor x="970.1818181818181" y="1618.0" name="caron"/>
+  <anchor x="359.91304347826093" y="743.0" name="center"/>
+  <anchor x="465.89723320158106" y="1486.0" name="top"/>
+  <anchor x="1354.4187075098812" y="1486.0" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="commaaccentcomb.case" xOffset="463.0711462450593"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

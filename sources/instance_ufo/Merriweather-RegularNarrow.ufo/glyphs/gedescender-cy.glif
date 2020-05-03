@@ -1,33 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gedescender-cy" format="2">
-  <advance width="975.7390607734807"/>
+  <advance width="900.232044198895"/>
   <unicode hex="04F7"/>
-  <anchor x="150.18911602209948" y="0.0" name="bottomright"/>
-  <anchor x="445.15389502762434" y="556.0" name="center"/>
-  <anchor x="514.0499447513812" y="1110.2817679558011" name="top"/>
+  <anchor x="204.9060773480663" y="0.0" name="bottomright"/>
+  <anchor x="467.75690607734805" y="556.0" name="center"/>
+  <anchor x="467.75690607734805" y="1110.2817679558011" name="top"/>
   <outline>
     <component base="ge-cy"/>
-    <component base="righttooth_part." xOffset="314.56016574585635"/>
+    <component base="righttooth_part." xOffset="305.51381215469615"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>righttooth_part.</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>pe-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ge-cy</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

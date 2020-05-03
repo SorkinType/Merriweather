@@ -1,25 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ubreve" format="2">
-  <advance width="1243.0"/>
+  <advance width="1243"/>
   <unicode hex="016D"/>
-  <anchor x="610.0" y="0.0" name="bottom"/>
-  <anchor x="982.0" y="20.0" name="ogonek"/>
-  <anchor x="594.0" y="1756.0" name="top"/>
-  <anchor x="1090.0" y="1110.0" name="topright"/>
+  <anchor x="610" y="0" name="bottom"/>
+  <anchor x="982" y="20" name="ogonek"/>
+  <anchor x="594" y="1756" name="top"/>
+  <anchor x="896" y="1108" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="brevecomb" xOffset="267.0"/>
+    <component base="brevecomb" xOffset="267"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

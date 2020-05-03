@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omacronacute" format="2">
-  <advance width="1112.0"/>
+  <advance width="1112"/>
   <unicode hex="1E53"/>
-  <anchor x="558.0" y="0.0" name="bottom"/>
-  <anchor x="556.0" y="558.0" name="center"/>
-  <anchor x="706.0" y="60.0" name="ogonek"/>
-  <anchor x="560.0" y="1870.0" name="top"/>
-  <anchor x="895.0" y="1110.0" name="topright"/>
+  <anchor x="558" y="0" name="bottom"/>
+  <anchor x="556" y="558" name="center"/>
+  <anchor x="611" y="10" name="ogonek"/>
+  <anchor x="560" y="1870" name="top"/>
+  <anchor x="725" y="1110" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="macroncomb" xOffset="287.0"/>
-    <component base="acutecomb" xOffset="420.0" yOffset="300.0"/>
+    <component base="macroncomb" xOffset="287"/>
+    <component base="acutecomb" xOffset="420" yOffset="300"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

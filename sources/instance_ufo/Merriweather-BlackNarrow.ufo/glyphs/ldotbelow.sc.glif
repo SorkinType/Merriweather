@@ -1,18 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldotbelow.sc" format="2">
-  <advance width="1090.0"/>
-  <anchor x="623.0" y="-377.0" name="bottom"/>
-  <anchor x="592.0" y="648.0" name="center"/>
-  <anchor x="378.0" y="1273.0" name="top"/>
-  <anchor x="927.0" y="967.0" name="topright"/>
+  <advance width="1090"/>
+  <anchor x="623" y="-377" name="bottom"/>
+  <anchor x="592" y="648" name="center"/>
+  <anchor x="378" y="1273" name="top"/>
+  <anchor x="927" y="967" name="topright"/>
   <outline>
     <component base="l.sc"/>
-    <component base="dotbelowcomb" xOffset="421.0"/>
+    <component base="dotbelowcomb" xOffset="421"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-    </dict>
-  </lib>
 </glyph>

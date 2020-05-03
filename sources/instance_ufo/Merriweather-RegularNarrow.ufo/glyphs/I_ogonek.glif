@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iogonek" format="2">
-  <advance width="703.3486187845303"/>
+  <advance width="647.9944751381215"/>
   <unicode hex="012E"/>
-  <anchor x="355.4289502762431" y="-125.88712707182313" name="bottom"/>
-  <anchor x="353.53704419889505" y="20.0" name="ogonek"/>
-  <anchor x="353.7890607734806" y="1486.0" name="top"/>
-  <anchor x="-0.3983425414364685" y="1486.0" name="topleft"/>
+  <anchor x="326.7513812154696" y="-88.54696132596685" name="bottom"/>
+  <anchor x="339.3314917127072" y="20.0" name="ogonek"/>
+  <anchor x="325.6243093922652" y="1486.0" name="top"/>
+  <anchor x="9.707182320441989" y="1486.0" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="ogonekcomb.case" xOffset="59.89107734806629" yOffset="13.69060773480663"/>
+    <component base="ogonekcomb.case" xOffset="58.31491712707182" yOffset="13.69060773480663"/>
   </outline>
   <lib>
     <dict>
@@ -16,10 +16,6 @@
       <string>I</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>I</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/19 04:06:44</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acircumflexgrave" format="2">
+  <advance width="1034.4743083003953"/>
+  <unicode hex="1EA7"/>
+  <anchor x="432.0079051383399" y="0.0" name="bottom"/>
+  <anchor x="1034.8290513833992" y="1622.0" name="caron"/>
+  <anchor x="809.7104743083004" y="5.15810276679842" name="ogonek"/>
+  <anchor x="666.7371541501976" y="1108.2490118577075" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="circumflexcomb_gravecomb" xOffset="382.92984189723325" yOffset="-1.75098814229249"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

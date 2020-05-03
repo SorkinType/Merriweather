@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edieresis" format="2">
+  <advance width="1305.4545454545455"/>
+  <unicode hex="00CB"/>
+  <anchor x="593.5454545454545" y="0.0" name="bottom"/>
+  <anchor x="937.8181818181818" y="0.0" name="ogonek"/>
+  <anchor x="794.6363636363637" y="1892.0" name="top"/>
+  <anchor x="145.99999999999997" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="dieresiscomb.case" xOffset="225.63636363636363"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

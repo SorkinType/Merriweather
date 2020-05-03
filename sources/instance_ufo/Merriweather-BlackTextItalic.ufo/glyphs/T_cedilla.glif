@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcedilla" format="2">
+  <advance width="1392.7272727272727"/>
+  <unicode hex="0162"/>
+  <anchor x="643.1818181818182" y="0.0" name="bottom"/>
+  <anchor x="1071.6363636363637" y="0.0" name="bottomright"/>
+  <anchor x="734.4364545454546" y="743.0" name="center"/>
+  <anchor x="833.1818181818181" y="1486.0" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="cedillacomb.case" xOffset="425.9090909090909"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

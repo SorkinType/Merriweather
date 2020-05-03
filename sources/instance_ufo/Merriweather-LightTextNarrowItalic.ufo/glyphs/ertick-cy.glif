@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ertick-cy" format="2">
+  <advance width="1036.5454545454545"/>
+  <unicode hex="048F"/>
+  <anchor x="609.3636363636364" y="89.54545454545455" name="tick"/>
+  <anchor x="659.7272727272727" y="1110.0" name="top"/>
+  <outline>
+    <component base="p"/>
+    <component base="ptick_part." xOffset="-169.9090909090909" yOffset="-484.8181818181818"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

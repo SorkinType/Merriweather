@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotaccent" format="2">
+  <advance width="553.7272727272727"/>
+  <anchor x="286.0909090909091" y="0.0" name="bottom"/>
+  <anchor x="367.9090909090909" y="20.0" name="ogonek"/>
+  <anchor x="287.3636363636364" y="1520.0" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="94.9090909090909" yOffset="0.7272727272727273"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

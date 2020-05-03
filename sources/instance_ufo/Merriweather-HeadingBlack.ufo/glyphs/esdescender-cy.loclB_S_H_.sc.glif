@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescender-cy.loclBSH.sc" format="2">
+  <advance width="1234.6363636363637"/>
+  <anchor x="678.1818181818182" y="0.0" name="bottom"/>
+  <anchor x="703.1818181818181" y="1315.2727272727273" name="top"/>
+  <outline>
+    <contour>
+      <point x="780.1818181818182" y="-17.0" type="curve"/>
+      <point x="618.1818181818182" y="-17.0" type="line"/>
+      <point x="656.1818181818182" y="-61.0"/>
+      <point x="679.1818181818182" y="-123.0"/>
+      <point x="679.1818181818182" y="-180.0" type="curve"/>
+      <point x="561.1818181818182" y="-341.0" type="line"/>
+      <point x="570.1818181818182" y="-415.0"/>
+      <point x="627.1818181818182" y="-475.0"/>
+      <point x="727.1818181818182" y="-475.0" type="curve" smooth="yes"/>
+      <point x="823.1818181818182" y="-475.0"/>
+      <point x="906.1818181818182" y="-412.0"/>
+      <point x="906.1818181818182" y="-297.0" type="curve" smooth="yes"/>
+      <point x="906.1818181818182" y="-190.0"/>
+      <point x="845.1818181818182" y="-88.0"/>
+    </contour>
+    <component base="c.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>c.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>c.sc</string>
+    </dict>
+  </lib>
+</glyph>
