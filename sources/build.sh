@@ -2,7 +2,7 @@
 #source venv/bin/activate
 set -e
 
-#cd sources
+cd sources
 
 echo "Generating Static fonts"
 mkdir -p ../fonts/ttfs
