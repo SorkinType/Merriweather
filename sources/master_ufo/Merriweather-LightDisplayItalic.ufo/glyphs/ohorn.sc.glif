@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohorn.sc" format="2">
-  <advance width="1233"/>
+  <advance width="1208"/>
   <anchor x="535" y="0" name="bottom"/>
   <anchor x="622" y="643" name="center"/>
   <anchor x="701" y="10" name="ogonek"/>
@@ -28,12 +28,14 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>o.sc</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Smallcaps</string>
       <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

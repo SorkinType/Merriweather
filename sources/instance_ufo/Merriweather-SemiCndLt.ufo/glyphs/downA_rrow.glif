@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downArrow" format="2">
+  <advance width="1272"/>
+  <unicode hex="2193"/>
+  <outline>
+    <contour>
+      <point x="1120" y="784" type="line"/>
+      <point x="692" y="354" type="line"/>
+      <point x="702" y="454" type="line"/>
+      <point x="702" y="1392" type="line"/>
+      <point x="570" y="1392" type="line"/>
+      <point x="570" y="454" type="line"/>
+      <point x="582" y="354" type="line"/>
+      <point x="152" y="784" type="line"/>
+      <point x="60" y="696" type="line"/>
+      <point x="636" y="118" type="line"/>
+      <point x="1212" y="696" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=upArrow</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=upArrow</string>
+    </dict>
+  </lib>
+</glyph>

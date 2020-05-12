@@ -1,15 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohornacute.sc" format="2">
-  <advance width="1363.8292315419385"/>
-  <anchor x="686.3324962330487" y="0.0" name="bottom"/>
-  <anchor x="682.7579105976896" y="645.9116022099448" name="center"/>
-  <anchor x="762.2611752887997" y="17.86137619286791" name="ogonek"/>
-  <anchor x="795.0592667001507" y="0.0" name="q"/>
-  <anchor x="684.5318935208438" y="1772.5002511300854" name="top"/>
-  <anchor x="25.01356102461075" y="1292.1818181818182" name="topleft"/>
-  <anchor x="928.5821195379206" y="1293.0" name="topright"/>
+  <advance width="1364.1048513933135"/>
+  <anchor x="686.1317094809857" y="0.0" name="bottom"/>
+  <anchor x="682.9077307738839" y="645.876033391136" name="center"/>
+  <anchor x="762.3199177319838" y="17.872000645239343" name="ogonek"/>
+  <anchor x="795.174980844457" y="0.0" name="q"/>
+  <anchor x="684.6778642577731" y="1771.6150340767028" name="top"/>
+  <anchor x="24.81901036415696" y="1292.1678832116788" name="topleft"/>
+  <anchor x="928.3804089204339" y="1293.0" name="topright"/>
   <outline>
     <component base="ohorn.sc"/>
-    <component base="acutecomb" xOffset="494.7780010045203" yOffset="178.0"/>
+    <component base="acutecomb" xOffset="494.2995926926645" yOffset="176.77372262773721"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

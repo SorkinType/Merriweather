@@ -3,6 +3,11 @@
   <anchor x="792" y="-166" name="btm"/>
   <anchor x="650" y="1660" name="top"/>
   <outline>
-    <component base="vertbarlc_part." xOffset="403" yOffset="-20"/>
+    <contour>
+      <point x="538" y="294" type="line"/>
+      <point x="662" y="294" type="line"/>
+      <point x="739" y="859" type="line"/>
+      <point x="615" y="859" type="line"/>
+    </contour>
   </outline>
 </glyph>

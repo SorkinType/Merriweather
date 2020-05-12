@@ -2,14 +2,14 @@
 <glyph name="dzhe-cy" format="2">
   <advance width="1154"/>
   <unicode hex="045F"/>
-  <anchor x="480" y="0" name="bottom"/>
+  <anchor x="510" y="0" name="bottom"/>
   <anchor x="944" y="0" name="bottomright"/>
   <anchor x="916" y="20" name="ogonek"/>
   <anchor x="625" y="1110" name="top"/>
   <anchor x="929" y="1122" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="dzhe_desc.part"/>
+    <component base="dzhe_desc.part" xOffset="30"/>
   </outline>
   <lib>
     <dict>
@@ -17,8 +17,6 @@
       <string>ii-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ii-cy</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

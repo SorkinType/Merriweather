@@ -1,24 +1,65 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn.sc" format="2">
   <advance width="1179"/>
+  <anchor x="1089.832" y="1292" name="_topright"/>
   <anchor x="446" y="0" name="bottom"/>
   <anchor x="652" y="0" name="ogonek"/>
-  <anchor x="608" y="1292" name="top"/>
+  <anchor x="728" y="1292" name="top"/>
   <anchor x="1110" y="1292" name="topright"/>
   <outline>
-    <component base="u.sc"/>
-    <component base="horncomb" xOffset="1171" yOffset="1292"/>
+    <contour>
+      <point x="139" y="1292" type="line"/>
+      <point x="129" y="1228" type="line"/>
+      <point x="244" y="1210" type="line"/>
+      <point x="151" y="518" type="line" smooth="yes"/>
+      <point x="107" y="191"/>
+      <point x="238" y="-18"/>
+      <point x="527" y="-18" type="curve" smooth="yes"/>
+      <point x="812" y="-18"/>
+      <point x="970" y="134"/>
+      <point x="1022" y="532" type="curve" smooth="yes"/>
+      <point x="1110" y="1210" type="line"/>
+      <point x="1139" y="1228" type="line"/>
+      <point x="1200" y="1292" type="line"/>
+      <point x="885" y="1292" type="line"/>
+      <point x="878" y="1228" type="line"/>
+      <point x="995" y="1210" type="line"/>
+      <point x="904" y="532" type="line" smooth="yes"/>
+      <point x="865" y="244"/>
+      <point x="769" y="62"/>
+      <point x="552" y="62" type="curve" smooth="yes"/>
+      <point x="330" y="62"/>
+      <point x="268" y="242"/>
+      <point x="305" y="517" type="curve" smooth="yes"/>
+      <point x="398" y="1210" type="line"/>
+      <point x="536" y="1228" type="line"/>
+      <point x="544" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="1220" y="1506" type="line"/>
+      <point x="1205" y="1385"/>
+      <point x="1187" y="1289"/>
+      <point x="1049" y="1292" type="curve"/>
+      <point x="1110" y="1210" type="line"/>
+      <point x="1202" y="1210"/>
+      <point x="1340" y="1282"/>
+      <point x="1361" y="1506" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>u.sc</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Smallcaps</string>
       <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

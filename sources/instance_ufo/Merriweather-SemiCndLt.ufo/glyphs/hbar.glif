@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar" format="2">
+  <advance width="1120"/>
+  <unicode hex="0127"/>
+  <anchor x="586" y="0" name="bottom"/>
+  <anchor x="561" y="576" name="center"/>
+  <anchor x="224" y="1602" name="top"/>
+  <outline>
+    <contour>
+      <point x="41" y="1360" type="line"/>
+      <point x="41" y="1264" type="line"/>
+      <point x="630" y="1264" type="line"/>
+      <point x="630" y="1360" type="line"/>
+    </contour>
+    <component base="h"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

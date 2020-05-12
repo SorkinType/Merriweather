@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy.loclBGR.sc" format="2">
+  <advance width="1232"/>
+  <outline>
+    <contour>
+      <point x="206" y="104" type="line"/>
+      <point x="206" y="0" type="line"/>
+      <point x="1024" y="0" type="line"/>
+      <point x="1022" y="104" type="line"/>
+    </contour>
+    <contour>
+      <point x="651" y="1023" type="line"/>
+      <point x="926" y="98" type="line"/>
+      <point x="774" y="80" type="line"/>
+      <point x="774" y="0" type="line"/>
+      <point x="1217" y="0" type="line"/>
+      <point x="1217" y="80" type="line"/>
+      <point x="1103" y="98" type="line"/>
+      <point x="708" y="1304" type="line"/>
+      <point x="547" y="1304" type="line"/>
+      <point x="140" y="98" type="line"/>
+      <point x="50" y="80" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="426" y="0" type="line"/>
+      <point x="426" y="80" type="line"/>
+      <point x="278" y="98" type="line"/>
+      <point x="558" y="1019" type="line"/>
+      <point x="607" y="1183" type="line"/>
+    </contour>
+    <component base="righttooth_part." xOffset="887"/>
+    <component base="lefttooth_part." xOffset="-13"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=de-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>

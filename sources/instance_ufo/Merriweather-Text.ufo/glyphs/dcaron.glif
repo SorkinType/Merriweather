@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcaron" format="2">
+  <advance width="1170.7769891519138"/>
+  <unicode hex="010F"/>
+  <anchor x="586.0366576602008" y="0.0" name="bottom"/>
+  <anchor x="582.7420655724484" y="559.3576642335767" name="center"/>
+  <anchor x="332.51768359075686" y="1158.0" name="top"/>
+  <anchor x="1138.244102109126" y="1110.2817679558011" name="topright"/>
+  <outline>
+    <component base="d"/>
+    <component base="caroncomb.alt" xOffset="1102.8962777755373" yOffset="-0.18715973706496752"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

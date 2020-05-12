@@ -4,16 +4,10 @@
   <anchor x="418" y="0" name="bottom"/>
   <anchor x="817" y="0" name="bottomright"/>
   <anchor x="745" y="0" name="ogonek"/>
-  <anchor x="631" y="1659" name="top"/>
+  <anchor x="636" y="1659" name="top"/>
   <anchor x="793" y="1005" name="topright"/>
   <outline>
     <component base="ii-cy.loclBGR"/>
-    <component base="gravecomb" xOffset="156" yOffset="2"/>
+    <component base="gravecomb" xOffset="161" yOffset="2"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

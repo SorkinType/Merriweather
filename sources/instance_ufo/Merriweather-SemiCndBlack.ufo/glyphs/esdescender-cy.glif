@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescender-cy" format="2">
+  <advance width="879"/>
+  <unicode hex="04AB"/>
+  <anchor x="489" y="0" name="bottom"/>
+  <anchor x="502" y="1111" name="top"/>
+  <outline>
+    <contour>
+      <point x="392" y="-388" type="curve"/>
+      <point x="568" y="-388" type="line"/>
+      <point x="570" y="-257"/>
+      <point x="594" y="-46"/>
+      <point x="605" y="6" type="curve"/>
+      <point x="342" y="2" type="line"/>
+      <point x="355" y="-56"/>
+      <point x="388" y="-260"/>
+    </contour>
+    <component base="c"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>es-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>c</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

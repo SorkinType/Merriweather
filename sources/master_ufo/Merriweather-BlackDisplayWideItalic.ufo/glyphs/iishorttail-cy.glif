@@ -2,7 +2,7 @@
 <glyph name="iishorttail-cy" format="2">
   <advance width="1167"/>
   <unicode hex="048B"/>
-  <anchor x="507" y="0" name="bottom"/>
+  <anchor x="527" y="0" name="bottom"/>
   <anchor x="1003" y="0" name="bottomright"/>
   <anchor x="933" y="0" name="ogonek"/>
   <anchor x="685" y="1110" name="top"/>
@@ -11,10 +11,4 @@
     <component base="tse-cy"/>
     <component base="brevecomb-cy" xOffset="222"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

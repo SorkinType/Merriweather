@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="strokelongcomb" format="2">
   <outline>
-    <component base="strokeshortcomb"/>
+    <contour>
+      <point x="-1" y="488" type="line"/>
+      <point x="751" y="488" type="line"/>
+      <point x="771" y="632" type="line"/>
+      <point x="21" y="632" type="line"/>
+    </contour>
   </outline>
 </glyph>

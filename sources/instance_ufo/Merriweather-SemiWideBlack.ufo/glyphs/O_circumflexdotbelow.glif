@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ocircumflexdotbelow" format="2">
+  <advance width="1555"/>
+  <unicode hex="1ED8"/>
+  <anchor x="778" y="-377" name="bottom"/>
+  <anchor x="783" y="741" name="center"/>
+  <anchor x="858" y="20" name="ogonek"/>
+  <anchor x="938.914" y="0.0" name="qq"/>
+  <anchor x="788" y="1960" name="top"/>
+  <anchor x="86" y="1486" name="topleft"/>
+  <anchor x="1186" y="1486" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="dotbelowcomb" xOffset="576"/>
+    <component base="circumflexcomb.case" xOffset="357"/>
+  </outline>
+</glyph>

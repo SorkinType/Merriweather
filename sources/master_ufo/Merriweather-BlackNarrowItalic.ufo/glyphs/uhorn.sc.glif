@@ -1,24 +1,65 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn.sc" format="2">
   <advance width="1231"/>
+  <anchor x="1137.899" y="1292" name="_topright"/>
   <anchor x="589" y="0" name="bottom"/>
   <anchor x="702" y="0" name="ogonek"/>
-  <anchor x="754" y="1292" name="top"/>
+  <anchor x="794" y="1292" name="top"/>
   <anchor x="1150" y="1292" name="topright"/>
   <outline>
-    <component base="u.sc"/>
-    <component base="horncomb" xOffset="1211" yOffset="1292"/>
+    <contour>
+      <point x="125" y="1292" type="line"/>
+      <point x="111" y="1196" type="line"/>
+      <point x="226" y="1176" type="line"/>
+      <point x="137" y="520" type="line" smooth="yes"/>
+      <point x="89" y="166"/>
+      <point x="237" y="-18"/>
+      <point x="595" y="-18" type="curve" smooth="yes"/>
+      <point x="913" y="-18"/>
+      <point x="1052" y="175"/>
+      <point x="1099" y="532" type="curve" smooth="yes"/>
+      <point x="1183" y="1176" type="line"/>
+      <point x="1203" y="1196" type="line"/>
+      <point x="1248" y="1292" type="line"/>
+      <point x="919" y="1292" type="line"/>
+      <point x="907" y="1196" type="line"/>
+      <point x="1026" y="1176" type="line"/>
+      <point x="936" y="532" type="line" smooth="yes"/>
+      <point x="901" y="281"/>
+      <point x="837" y="95"/>
+      <point x="633" y="95" type="curve" smooth="yes"/>
+      <point x="441" y="95"/>
+      <point x="417" y="288"/>
+      <point x="452" y="544" type="curve" smooth="yes"/>
+      <point x="538" y="1176" type="line"/>
+      <point x="703" y="1198" type="line"/>
+      <point x="714" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="1262" y="1541" type="line"/>
+      <point x="1252" y="1410"/>
+      <point x="1196" y="1292"/>
+      <point x="1095" y="1292" type="curve"/>
+      <point x="1183" y="1176" type="line"/>
+      <point x="1362" y="1176"/>
+      <point x="1498" y="1303"/>
+      <point x="1498" y="1541" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>u.sc</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Smallcaps</string>
       <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,13 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhornacute.sc" format="2">
   <advance width="1231"/>
-  <anchor x="589" y="0" name="bottom"/>
-  <anchor x="702" y="0" name="ogonek"/>
-  <anchor x="700" y="1763" name="top"/>
-  <anchor x="1150" y="1292" name="topright"/>
   <outline>
-    <component base="uhorn.sc"/>
     <component base="acutecomb" xOffset="512" yOffset="182"/>
+    <component base="uhorn.sc"/>
   </outline>
   <lib>
     <dict>
@@ -17,6 +13,8 @@
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Smallcaps</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

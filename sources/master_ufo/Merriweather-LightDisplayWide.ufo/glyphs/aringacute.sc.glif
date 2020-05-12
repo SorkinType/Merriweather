@@ -3,11 +3,11 @@
   <advance width="1270"/>
   <anchor x="1190" y="18" name="ogonek"/>
   <anchor x="640" y="0" name="bottom"/>
-  <anchor x="650" y="2366" name="top"/>
+  <anchor x="878" y="2163" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="ringcomb" xOffset="410" yOffset="250"/>
-    <component base="acutecomb" xOffset="495" yOffset="806"/>
+    <component base="ringcomb.case" xOffset="412" yOffset="-126"/>
+    <component base="acutecomb.case" xOffset="729" yOffset="203"/>
   </outline>
   <lib>
     <dict>

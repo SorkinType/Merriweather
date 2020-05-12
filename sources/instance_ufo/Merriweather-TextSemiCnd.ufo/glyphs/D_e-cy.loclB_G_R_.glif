@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="De-cy.loclBGR" format="2">
+  <advance width="1328.5780134693714"/>
+  <outline>
+    <contour>
+      <point x="590.7838851473969" y="1498.1695366374963" type="line"/>
+      <point x="147.2019195870468" y="102.35052627333953" type="line"/>
+      <point x="40.28011452998347" y="66.6170101221922" type="line"/>
+      <point x="157.95467193612131" y="0.0" type="line"/>
+      <point x="1179.7940476670565" y="0.0" type="line"/>
+      <point x="1285.4251320724281" y="48.314715489776994" type="line"/>
+      <point x="1207.3625841835706" y="109.85143364116627" type="line"/>
+      <point x="805.659878211074" y="1498.1695366374963" type="line"/>
+    </contour>
+    <contour>
+      <point x="303.9109166431423" y="110.3509295479292" type="line"/>
+      <point x="611.5972093398395" y="1180.8413517764243" type="line"/>
+      <point x="656.6643545590192" y="1341.5346614509822" type="line"/>
+      <point x="690.967254103319" y="1184.6617332741864" type="line"/>
+      <point x="978.5280880751704" y="111.18304633625036" type="line"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="-1.0993668588942214"/>
+    <component base="righttooth_part." xOffset="994.0951324757026"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>lefttooth_part.</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=De-cy-5</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>

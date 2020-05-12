@@ -5,7 +5,6 @@
   <anchor x="613" y="1292" name="top"/>
   <outline>
     <contour>
-      <point x="1013" y="1292" type="line"/>
       <point x="189" y="1292" type="line"/>
       <point x="181" y="1220" type="line"/>
       <point x="311" y="1202" type="line"/>
@@ -19,6 +18,7 @@
       <point x="881" y="1191" type="line"/>
       <point x="884" y="888" type="line"/>
       <point x="972" y="888" type="line"/>
+      <point x="1013" y="1292" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -27,8 +27,6 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>t.sc</string>
-      <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
     </dict>
   </lib>
 </glyph>

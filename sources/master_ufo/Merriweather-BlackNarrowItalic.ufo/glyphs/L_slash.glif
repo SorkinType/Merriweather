@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lslash" format="2">
-  <advance width="1126"/>
+  <advance width="1073"/>
   <unicode hex="0141"/>
-  <anchor x="583" y="0" name="bottom"/>
-  <anchor x="851" y="1110" name="car"/>
-  <anchor x="892" y="1618" name="caron"/>
-  <anchor x="388" y="743" name="center"/>
-  <anchor x="511" y="1486" name="top"/>
-  <anchor x="1244.474" y="1486.0" name="topright"/>
+  <anchor x="530" y="0" name="bottom"/>
+  <anchor x="798" y="1110" name="car"/>
+  <anchor x="839" y="1618" name="caron"/>
+  <anchor x="365" y="743" name="center"/>
+  <anchor x="458" y="1486" name="top"/>
+  <anchor x="1191.474" y="1486.0" name="topright"/>
   <outline>
-    <component base="L"/>
-    <component base="slashshortcomb" xOffset="-5"/>
+    <component base="L" xOffset="-53"/>
+    <component base="slashshortcomb" xOffset="-28"/>
   </outline>
   <lib>
     <dict>
@@ -28,7 +28,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>L+20</string>
+      <string>l</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>L</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
@@ -36,7 +36,7 @@
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Uppercase</string>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

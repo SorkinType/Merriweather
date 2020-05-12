@@ -8,17 +8,35 @@
   <anchor x="168" y="1292" name="topleft"/>
   <anchor x="946" y="1234" name="topright"/>
   <outline>
-    <component base="ohorn.sc"/>
     <component base="acutecomb" xOffset="483" yOffset="182"/>
+    <component base="o.sc"/>
+    <component base="horncomb" xOffset="1007" yOffset="1234"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o.sc</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>o.sc</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Smallcaps</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tse-cy.loclBGR" format="2">
+  <advance width="1111.6880671048916"/>
+  <anchor x="532.1944590071379" y="0.0" name="bottom"/>
+  <anchor x="917.0022180102432" y="20.0" name="ogonek"/>
+  <anchor x="499.1538492559584" y="1110.4689276928661" name="top"/>
+  <anchor x="809.6493527442836" y="1094.8632092591847" name="topright"/>
+  <outline>
+    <component base="ii-cy.loclBGR"/>
+    <component base="righttooth_part." xOffset="762.2884219865307"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ii-cy.loclBGR</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ii-cy.loclBGR</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pedescender-cy</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

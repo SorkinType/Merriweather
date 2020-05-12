@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn.sc" format="2">
-  <advance width="1425.2968357609238"/>
-  <anchor x="745.7388247112004" y="0.0" name="bottom"/>
-  <anchor x="1287.396283274736" y="18.0" name="ogonek"/>
-  <anchor x="761.639879457559" y="1288.0" name="top"/>
-  <anchor x="1238.5610246107483" y="1292.1315921647413" name="topright"/>
+  <advance width="1427.3476630237526"/>
+  <anchor x="745.9061983304433" y="0.0" name="bottom"/>
+  <anchor x="1287.563656893979" y="18.0" name="ogonek"/>
+  <anchor x="762.720571036819" y="1286.7737226277372" name="top"/>
+  <anchor x="1239.6778239303142" y="1292.121506633867" name="topright"/>
   <outline>
     <component base="u.sc"/>
-    <component base="horncomb.case" xOffset="1206.873430436966" yOffset="-66.86840783525867"/>
+    <component base="horncomb.case" xOffset="1208.3312900754122" yOffset="-66.878493366133"/>
   </outline>
   <lib>
     <dict>
@@ -24,6 +24,8 @@
       </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>u.sc</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

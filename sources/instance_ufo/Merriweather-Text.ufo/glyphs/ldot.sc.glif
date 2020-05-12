@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldot.sc" format="2">
+  <advance width="1354.5182078477235"/>
+  <anchor x="604.6533048352624" y="0.0" name="bottom"/>
+  <anchor x="595.6773400008067" y="647.8321167883212" name="center"/>
+  <anchor x="345.5952332943501" y="1285.1002540629916" name="top"/>
+  <anchor x="884.3669798765982" y="966.2817679558011" name="topright"/>
+  <outline>
+    <component base="l.sc"/>
+    <component base="periodcentered" xOffset="1124.6511674799374"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>periodcentered</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>
