@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macron" format="2">
+  <advance width="822"/>
+  <unicode hex="00AF"/>
+  <anchor x="486" y="1110" name="_top"/>
+  <anchor x="524" y="1370" name="top"/>
+  <outline>
+    <contour>
+      <point x="288" y="1415" type="line"/>
+      <point x="272" y="1294" type="line"/>
+      <point x="753" y="1294" type="line"/>
+      <point x="768" y="1415" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+    </dict>
+  </lib>
+</glyph>

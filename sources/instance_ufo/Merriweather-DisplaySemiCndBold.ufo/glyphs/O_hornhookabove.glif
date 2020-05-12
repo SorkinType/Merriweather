@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohornhookabove" format="2">
+  <advance width="1233.9579787877567"/>
+  <unicode hex="1EDE"/>
+  <anchor x="624.2300278259466" y="-1.5243779489454354" name="bottom"/>
+  <anchor x="617.4004113400815" y="741.0" name="center"/>
+  <anchor x="1309.1988950276243" y="20.0" name="ogonek"/>
+  <anchor x="744.4206274952614" y="0.0" name="qq"/>
+  <anchor x="624.6491511069887" y="1486.0" name="top"/>
+  <anchor x="34.93140299229746" y="1486.0" name="topleft"/>
+  <anchor x="1031.756664112594" y="1486.0" name="topright"/>
+  <outline>
+    <component base="Ohorn"/>
+    <component base="hookabovecomb.case" xOffset="459.13187079082144"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

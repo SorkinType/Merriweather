@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chekhakassian-cy" format="2">
+  <advance width="1167.8087115201522"/>
+  <unicode hex="04CC"/>
+  <anchor x="560.4240717232625" y="436.07664233576645" name="bar"/>
+  <anchor x="1015.2656299587431" y="0.0" name="bottomright"/>
+  <anchor x="642.0439543002223" y="1110.0" name="top"/>
+  <outline>
+    <component base="che-cy"/>
+    <component base="dzhe_desc.part" xOffset="-14.25182481751825"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dzhe_desc.part</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>che-cy</string>
+    </dict>
+  </lib>
+</glyph>

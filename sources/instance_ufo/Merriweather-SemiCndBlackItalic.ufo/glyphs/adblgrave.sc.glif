@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adblgrave.sc" format="2">
+  <advance width="1110"/>
+  <anchor x="469" y="-121" name="bottom"/>
+  <anchor x="887" y="0" name="ogonek"/>
+  <anchor x="652" y="1292" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="dblgravecomb" xOffset="21" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

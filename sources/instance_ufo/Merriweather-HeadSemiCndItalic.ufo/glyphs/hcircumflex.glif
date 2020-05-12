@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hcircumflex" format="2">
+  <advance width="1060.733576642336"/>
+  <unicode hex="0125"/>
+  <anchor x="488.1105204696922" y="0.0" name="bottom"/>
+  <anchor x="886.4243424309743" y="0.0" name="bottomright"/>
+  <anchor x="220.71643922564266" y="1814.0" name="cap"/>
+  <anchor x="327.4153710726753" y="1292.0" name="tbar"/>
+  <anchor x="447.1117899079657" y="2123.9353379879403" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="circumflexcomb.case" xOffset="-107.25222151697875" yOffset="50.935337987940336"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

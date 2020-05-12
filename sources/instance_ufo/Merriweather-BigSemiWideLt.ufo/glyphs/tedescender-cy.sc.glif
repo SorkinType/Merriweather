@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tedescender-cy.sc" format="2">
+  <advance width="1343"/>
+  <anchor x="672" y="0" name="bottom"/>
+  <anchor x="1039" y="0" name="bottomright"/>
+  <anchor x="672" y="648" name="center"/>
+  <anchor x="671" y="1360" name="top"/>
+  <outline>
+    <contour>
+      <point x="740" y="72" type="line"/>
+      <point x="740" y="31" type="line"/>
+      <point x="870" y="31" type="line"/>
+      <point x="870" y="72" type="line"/>
+    </contour>
+    <component base="t.sc"/>
+    <component base="righttooth_part." xOffset="819"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t.sc</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>838</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>669</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yacute.sc" format="2">
+  <advance width="1012"/>
+  <anchor x="459" y="0" name="bottom"/>
+  <anchor x="522" y="469" name="center"/>
+  <anchor x="572" y="1709" name="top"/>
+  <anchor x="151" y="1292" name="topleft"/>
+  <outline>
+    <component base="y.sc"/>
+    <component base="acutecomb" xOffset="418" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

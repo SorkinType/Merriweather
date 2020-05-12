@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorndotbelow" format="2">
+  <advance width="1467.2700729927008"/>
+  <unicode hex="1EF0"/>
+  <anchor x="600.3941605839417" y="0.0" name="bottom"/>
+  <anchor x="831.2992700729927" y="20.0" name="ogonek"/>
+  <anchor x="870.6277372262774" y="1486.0" name="top"/>
+  <anchor x="1401.3795620437957" y="1486.0" name="topright"/>
+  <outline>
+    <component base="Uhorn"/>
+    <component base="dotbelowcomb.case" xOffset="565.2189781021898"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

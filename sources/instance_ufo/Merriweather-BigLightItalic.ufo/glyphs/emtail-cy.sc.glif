@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emtail-cy.sc" format="2">
+  <advance width="1651"/>
+  <guideline x="817" y="1227" angle="0"/>
+  <anchor x="716" y="0" name="bottom"/>
+  <anchor x="1562" y="0" name="bottomright"/>
+  <anchor x="917" y="1383" name="top"/>
+  <outline>
+    <component base="m.sc"/>
+    <component base="rtail_part." xOffset="1074"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>m.sc</string>
+    </dict>
+  </lib>
+</glyph>

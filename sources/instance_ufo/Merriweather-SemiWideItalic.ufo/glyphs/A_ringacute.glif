@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aringacute" format="2">
+  <advance width="1439.5434782608695"/>
+  <unicode hex="01FA"/>
+  <anchor x="624.2065217391305" y="0.0" name="bottom"/>
+  <anchor x="1163.695652173913" y="0.0" name="ogonek"/>
+  <anchor x="1158.978260869565" y="2233.304347826087" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb.case" xOffset="415.70652173913044"/>
+    <component base="acutecomb.case" xOffset="835.304347826087" yOffset="348.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

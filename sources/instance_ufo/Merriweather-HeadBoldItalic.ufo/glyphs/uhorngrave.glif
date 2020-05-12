@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorngrave" format="2">
+  <advance width="1194.4830212630911"/>
+  <unicode hex="1EEB"/>
+  <anchor x="515.8997143763885" y="0.0" name="bottom"/>
+  <anchor x="984.9911139320851" y="0.0" name="bottomright"/>
+  <anchor x="925.6153602031101" y="12.262773722627736" name="ogonek"/>
+  <anchor x="724.5376071088543" y="1688.2173913043478" name="top"/>
+  <anchor x="956.6271025071405" y="1078.0168200571247" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="horncomb" xOffset="1014.8701999365279" yOffset="1078.0168200571247"/>
+    <component base="gravecomb" xOffset="150.46239289114567" yOffset="0.6086956521739131"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>horncomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uhorn</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

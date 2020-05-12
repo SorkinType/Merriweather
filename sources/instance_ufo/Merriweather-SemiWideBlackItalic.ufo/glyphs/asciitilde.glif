@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde" format="2">
+  <advance width="1306"/>
+  <unicode hex="007E"/>
+  <outline>
+    <contour>
+      <point x="174" y="630" type="curve"/>
+      <point x="256" y="516" type="line"/>
+      <point x="303" y="582"/>
+      <point x="386" y="611"/>
+      <point x="449" y="611" type="curve" smooth="yes"/>
+      <point x="596" y="611"/>
+      <point x="646" y="452"/>
+      <point x="833" y="452" type="curve" smooth="yes"/>
+      <point x="991" y="452"/>
+      <point x="1129" y="567"/>
+      <point x="1158" y="675" type="curve"/>
+      <point x="1061" y="790" type="line"/>
+      <point x="1024" y="732"/>
+      <point x="957" y="685"/>
+      <point x="872" y="685" type="curve" smooth="yes"/>
+      <point x="722" y="685"/>
+      <point x="674" y="834"/>
+      <point x="491" y="834" type="curve" smooth="yes"/>
+      <point x="334" y="834"/>
+      <point x="204" y="724"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+    </dict>
+  </lib>
+</glyph>

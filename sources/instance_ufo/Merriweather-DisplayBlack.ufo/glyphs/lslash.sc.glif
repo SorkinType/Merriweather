@@ -1,40 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lslash.sc" format="2">
-  <advance width="1151"/>
-  <anchor x="658" y="0" name="bottom"/>
-  <anchor x="627" y="647" name="center"/>
-  <anchor x="417" y="1363" name="top"/>
-  <anchor x="968" y="967" name="topright"/>
+  <advance width="1183.5839416058395"/>
+  <anchor x="668.5109489051094" y="0.0" name="bottom"/>
+  <anchor x="637.5109489051094" y="647.2627737226277" name="center"/>
+  <anchor x="425.1459854014598" y="1339.3503649635036" name="top"/>
+  <anchor x="978.5109489051097" y="967.0" name="topright"/>
   <outline>
     <contour>
-      <point x="813" y="1032" type="line"/>
-      <point x="255" y="768" type="line"/>
-      <point x="223" y="754" type="line"/>
-      <point x="30" y="666" type="line"/>
-      <point x="30" y="589" type="line"/>
-      <point x="223" y="675" type="line"/>
-      <point x="253" y="689" type="line"/>
-      <point x="813" y="953" type="line"/>
+      <point x="840.3284671532847" y="1014.1313868613139" type="line"/>
+      <point x="310.1824817518248" y="774.8321167883213" type="line"/>
+      <point x="246.38686131386856" y="751.6350364963504" type="line"/>
+      <point x="44.45255474452555" y="665.4744525547445" type="line"/>
+      <point x="44.45255474452555" y="572.4452554744526" type="line"/>
+      <point x="251.90510948905109" y="658.4452554744526" type="line"/>
+      <point x="309.49635036496346" y="679.5401459854014" type="line"/>
+      <point x="840.3284671532847" y="917.0" type="line"/>
     </contour>
     <contour>
-      <point x="158" y="71" type="line"/>
-      <point x="30" y="32" type="line"/>
-      <point x="30" y="0" type="line"/>
-      <point x="1095" y="0" type="line"/>
-      <point x="1141" y="386" type="line"/>
-      <point x="1005" y="412" type="line"/>
-      <point x="879" y="112" type="line"/>
-      <point x="540" y="54" type="line"/>
-      <point x="540" y="1225" type="line"/>
-      <point x="698" y="1261" type="line"/>
-      <point x="698" y="1292" type="line"/>
-      <point x="31" y="1292" type="line"/>
-      <point x="31" y="1261" type="line"/>
-      <point x="158" y="1225" type="line"/>
+      <point x="185.06569343065692" y="90.44525547445255" type="line"/>
+      <point x="52.86131386861315" y="56.7007299270073" type="line"/>
+      <point x="52.86131386861315" y="0.0" type="line"/>
+      <point x="1125.2189781021898" y="0.0" type="line"/>
+      <point x="1173.3211678832117" y="418.58394160583936" type="line"/>
+      <point x="1023.6569343065693" y="444.058394160584" type="line"/>
+      <point x="897.3941605839415" y="126.71532846715328" type="line"/>
+      <point x="557.3430656934306" y="79.22627737226279" type="line"/>
+      <point x="557.3430656934306" y="1200.8248175182482" type="line"/>
+      <point x="721.1240875912409" y="1233.934306569343" type="line"/>
+      <point x="721.1240875912409" y="1292.0" type="line"/>
+      <point x="54.12408759124088" y="1292.0" type="line"/>
+      <point x="54.12408759124088" y="1233.934306569343" type="line"/>
+      <point x="185.06569343065692" y="1200.8248175182482" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>=l.sc+10</string>
     </dict>

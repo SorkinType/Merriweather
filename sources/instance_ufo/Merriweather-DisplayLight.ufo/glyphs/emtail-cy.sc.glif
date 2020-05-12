@@ -1,95 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emtail-cy.sc" format="2">
-  <advance width="1744"/>
-  <anchor x="847" y="0" name="bottom"/>
-  <anchor x="1733" y="0" name="bottomright"/>
-  <anchor x="872" y="1343" name="top"/>
+  <advance width="1773.4306569343066"/>
+  <anchor x="865.1313868613139" y="0.0" name="bottom"/>
+  <anchor x="1759.802919708029" y="0.0" name="bottomright"/>
+  <anchor x="887.2408759124088" y="1324.3430656934306" name="top"/>
   <outline>
     <component base="m.sc"/>
-    <component base="rtail_part." xOffset="1454"/>
+    <component base="rtail_part." xOffset="1480.802919708029"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>1679</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>128</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>20</integer>
-            <integer>35</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>483</integer>
-            <integer>35</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>424</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>1352</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>1333</integer>
-            <integer>35</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udieresis.sc" format="2">
+  <advance width="1165.935179308156"/>
+  <anchor x="506.40756902570615" y="0.0" name="bottom"/>
+  <anchor x="662.672802284989" y="0.0" name="ogonek"/>
+  <anchor x="787.8594097112028" y="1648.9690574420817" name="top"/>
+  <anchor x="1099.8175182481752" y="1292.0" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="dieresiscomb" xOffset="349.55315772770547" yOffset="217.2043795620438"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

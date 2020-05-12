@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Schwa" format="2">
+  <advance width="1393"/>
+  <unicode hex="018F"/>
+  <outline>
+    <contour>
+      <point x="190" y="1090" type="line"/>
+      <point x="388" y="1090" type="line"/>
+      <point x="485" y="1291" type="line" smooth="yes"/>
+      <point x="518" y="1359"/>
+      <point x="631" y="1448"/>
+      <point x="760" y="1448" type="curve" smooth="yes"/>
+      <point x="991" y="1448"/>
+      <point x="992" y="1131"/>
+      <point x="992" y="869" type="curve" smooth="yes"/>
+      <point x="992" y="830"/>
+      <point x="988" y="780"/>
+      <point x="987" y="760" type="curve"/>
+      <point x="79" y="760" type="line"/>
+      <point x="58" y="707"/>
+      <point x="32" y="586"/>
+      <point x="32" y="474" type="curve" smooth="yes"/>
+      <point x="32" y="151"/>
+      <point x="261" y="-22"/>
+      <point x="586" y="-22" type="curve" smooth="yes"/>
+      <point x="1109" y="-22"/>
+      <point x="1407" y="368"/>
+      <point x="1407" y="904" type="curve" smooth="yes"/>
+      <point x="1407" y="1188"/>
+      <point x="1259" y="1505"/>
+      <point x="786" y="1505" type="curve" smooth="yes"/>
+      <point x="494" y="1505"/>
+      <point x="345" y="1414"/>
+      <point x="234" y="1414" type="curve"/>
+    </contour>
+    <contour>
+      <point x="976" y="694" type="line"/>
+      <point x="957" y="302"/>
+      <point x="762" y="34"/>
+      <point x="582" y="34" type="curve" smooth="yes"/>
+      <point x="416" y="34"/>
+      <point x="408" y="235"/>
+      <point x="408" y="434" type="curve" smooth="yes"/>
+      <point x="408" y="503"/>
+      <point x="425" y="622"/>
+      <point x="442" y="694" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

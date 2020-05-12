@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorndotbelow" format="2">
+  <advance width="1093.8839779005527"/>
+  <unicode hex="1EE3"/>
+  <anchor x="555.3425414364642" y="-354.7348066298343" name="bottom"/>
+  <anchor x="546.7237569060775" y="505.8729281767956" name="center"/>
+  <anchor x="614.5580110497236" y="10.0" name="ogonek"/>
+  <anchor x="547.4419889502764" y="1110.0" name="top"/>
+  <anchor x="824.4972375690609" y="1005.0" name="topright"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="dotbelowcomb" xOffset="417.8287292817679"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

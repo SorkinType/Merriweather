@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iogonek" format="2">
+  <advance width="654.1897810218978"/>
+  <unicode hex="012E"/>
+  <anchor x="329.4160583941606" y="0.0" name="bottom"/>
+  <anchor x="350.67153284671537" y="20.0" name="ogonek"/>
+  <anchor x="326.7080291970803" y="1484.8394160583941" name="top"/>
+  <anchor x="-18.562043795620436" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="ogonekcomb.case" xOffset="70.85401459854015" yOffset="12.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>I</string>
+    </dict>
+  </lib>
+</glyph>

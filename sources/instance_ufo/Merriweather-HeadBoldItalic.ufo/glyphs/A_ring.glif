@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aring" format="2">
+  <advance width="1277.3643287845127"/>
+  <unicode hex="00C5"/>
+  <anchor x="565.8695652173913" y="-166.0" name="mark0"/>
+  <anchor x="864.0" y="2131.5652173913045" name="top"/>
+  <anchor x="520.9854014598542" y="0.0" name="bottom"/>
+  <anchor x="1025.595049190733" y="0.0" name="ogonek"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb.case" xOffset="320.79942875277686"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

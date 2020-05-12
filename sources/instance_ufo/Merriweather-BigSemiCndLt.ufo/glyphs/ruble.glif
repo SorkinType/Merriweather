@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ruble" format="2">
+  <advance width="1205"/>
+  <unicode hex="20BD"/>
+  <outline>
+    <contour>
+      <point x="185" y="0" type="line"/>
+      <point x="690" y="0" type="line"/>
+      <point x="690" y="36" type="line"/>
+      <point x="480" y="64" type="line"/>
+      <point x="480" y="358" type="line"/>
+      <point x="817" y="358" type="line"/>
+      <point x="817" y="412" type="line"/>
+      <point x="480" y="412" type="line"/>
+      <point x="480" y="637" type="line"/>
+      <point x="498" y="635"/>
+      <point x="611" y="633"/>
+      <point x="644" y="633" type="curve" smooth="yes"/>
+      <point x="944" y="633"/>
+      <point x="1154" y="787"/>
+      <point x="1154" y="1117" type="curve" smooth="yes"/>
+      <point x="1154" y="1342"/>
+      <point x="1054" y="1500"/>
+      <point x="688" y="1500" type="curve" smooth="yes"/>
+      <point x="583" y="1500"/>
+      <point x="518" y="1486"/>
+      <point x="423" y="1486" type="curve" smooth="yes"/>
+      <point x="195" y="1486" type="line"/>
+      <point x="195" y="1450" type="line"/>
+      <point x="328" y="1420" type="line"/>
+      <point x="328" y="690" type="line"/>
+      <point x="140" y="690" type="line"/>
+      <point x="140" y="637" type="line"/>
+      <point x="328" y="637" type="line"/>
+      <point x="328" y="412" type="line"/>
+      <point x="140" y="412" type="line"/>
+      <point x="140" y="358" type="line"/>
+      <point x="328" y="358" type="line"/>
+      <point x="328" y="62" type="line"/>
+      <point x="185" y="36" type="line"/>
+    </contour>
+    <contour>
+      <point x="663" y="690" type="curve" smooth="yes"/>
+      <point x="575" y="690"/>
+      <point x="515" y="690"/>
+      <point x="480" y="694" type="curve"/>
+      <point x="480" y="1432" type="line"/>
+      <point x="524" y="1432"/>
+      <point x="589" y="1444"/>
+      <point x="661" y="1444" type="curve" smooth="yes"/>
+      <point x="899" y="1444"/>
+      <point x="993" y="1325"/>
+      <point x="993" y="1093" type="curve" smooth="yes"/>
+      <point x="993" y="836"/>
+      <point x="877" y="690"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=P+20</string>
+    </dict>
+  </lib>
+</glyph>

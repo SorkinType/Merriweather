@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevedotbelow" format="2">
+  <advance width="1158.5912408759125"/>
+  <unicode hex="1EB7"/>
+  <anchor x="535.3138686131388" y="0.0" name="bottom"/>
+  <anchor x="1140.3138686131385" y="1622.0" name="caron"/>
+  <anchor x="914.934306569343" y="16.642335766423358" name="ogonek"/>
+  <anchor x="779.6277372262773" y="1576.6496350364962" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="dotbelowcomb" xOffset="424.1386861313869"/>
+    <component base="brevecomb" xOffset="282.8467153284671" yOffset="-2.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

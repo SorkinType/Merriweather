@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="1329"/>
+  <unicode hex="01AF"/>
+  <anchor x="665" y="0" name="bottom"/>
+  <anchor x="831" y="20" name="ogonek"/>
+  <anchor x="866" y="1486" name="top"/>
+  <anchor x="1244" y="1483" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1447" y="1735" type="line"/>
+      <point x="1434" y="1591"/>
+      <point x="1374" y="1501"/>
+      <point x="1257" y="1486" type="curve"/>
+      <point x="1302" y="1413" type="line"/>
+      <point x="1483" y="1413"/>
+      <point x="1713" y="1474"/>
+      <point x="1713" y="1735" type="curve"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

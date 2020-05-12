@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shha-cy" format="2">
+  <advance width="968"/>
+  <unicode hex="04BB"/>
+  <anchor x="439" y="0" name="bottom"/>
+  <anchor x="839" y="0" name="bottomright"/>
+  <anchor x="232" y="1814" name="cap"/>
+  <anchor x="301" y="1292" name="tbar"/>
+  <anchor x="346" y="1532" name="top"/>
+  <outline>
+    <component base="h" xOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>h</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=h+2</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy</string>
+    </dict>
+  </lib>
+</glyph>

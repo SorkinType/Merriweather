@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorntilde.sc" format="2">
+  <advance width="1106"/>
+  <anchor x="485" y="0" name="bottom"/>
+  <anchor x="571" y="646" name="center"/>
+  <anchor x="638" y="10" name="ogonek"/>
+  <anchor x="726" y="1743" name="top"/>
+  <anchor x="120" y="1165" name="topleft"/>
+  <anchor x="886" y="1234" name="topright"/>
+  <outline>
+    <component base="tildecomb" xOffset="314" yOffset="273"/>
+    <component base="o.sc"/>
+    <component base="horncomb" xOffset="940" yOffset="1234"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -18,6 +18,8 @@ do
 	gftools fix-dsig -f $vf;
 	gftools fix-nonhinting $vf "$vf.fix";
 	mv "$vf.fix" $vf;
+	rm ${vf/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
+
 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
 	rtrip=$(basename -s .ttf $vf)
 	new_file=../fonts/variable/$rtrip.ttx;
@@ -29,7 +31,6 @@ do
 
 	# TODO: add instance name abbreviator python script
 done
-rm ../fonts/variable/*backup*.ttf
 
 cd ..
 

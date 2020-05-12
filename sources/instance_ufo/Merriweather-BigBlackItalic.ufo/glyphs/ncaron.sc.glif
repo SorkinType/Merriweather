@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ncaron.sc" format="2">
+  <advance width="1262"/>
+  <anchor x="580" y="0" name="bottom"/>
+  <anchor x="860" y="1862" name="top"/>
+  <outline>
+    <component base="n.sc"/>
+    <component base="caroncomb" xOffset="368" yOffset="273"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,85 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="komide-cy.sc" format="2">
-  <advance width="1369"/>
+  <advance width="1358.2262773722628"/>
   <outline>
     <contour>
-      <point x="947" y="0" type="curve"/>
-      <point x="1300" y="0" type="line"/>
-      <point x="1300" y="37" type="line"/>
-      <point x="1159" y="66" type="line"/>
-      <point x="1159" y="1220" type="line"/>
-      <point x="1298" y="1255" type="line"/>
-      <point x="1298" y="1292" type="line"/>
-      <point x="553" y="1292" type="line"/>
-      <point x="553" y="1255" type="line"/>
-      <point x="777" y="1220" type="line"/>
-      <point x="777" y="768" type="line"/>
-      <point x="737" y="774"/>
-      <point x="668" y="784"/>
-      <point x="577" y="784" type="curve" smooth="yes"/>
-      <point x="276" y="784"/>
-      <point x="45" y="660"/>
-      <point x="45" y="366" type="curve" smooth="yes"/>
-      <point x="45" y="132"/>
-      <point x="246" y="-12"/>
-      <point x="533" y="-12" type="curve" smooth="yes"/>
-      <point x="688" y="-12"/>
-      <point x="793" y="-8"/>
+      <point x="936.2262773722626" y="0.0" type="curve"/>
+      <point x="1289.4890510948903" y="0.0" type="line"/>
+      <point x="1289.4890510948903" y="60.3868613138686" type="line"/>
+      <point x="1147.4379562043796" y="86.75912408759126" type="line"/>
+      <point x="1147.4379562043798" y="1196.6131386861314" type="line"/>
+      <point x="1287.4890510948903" y="1229.2481751824819" type="line"/>
+      <point x="1287.4890510948903" y="1292.0" type="line"/>
+      <point x="553.2627737226278" y="1292.0" type="line"/>
+      <point x="553.2627737226277" y="1229.2481751824816" type="line"/>
+      <point x="775.948905109489" y="1196.087591240876" type="line"/>
+      <point x="775.9489051094891" y="769.3138686131387" type="line"/>
+      <point x="734.8978102189781" y="775.3138686131387"/>
+      <point x="662.4817518248176" y="785.3138686131387"/>
+      <point x="572.2700729927006" y="785.3138686131387" type="curve" smooth="yes"/>
+      <point x="263.3868613138686" y="785.3138686131387"/>
+      <point x="43.68613138686133" y="646.0729927007299"/>
+      <point x="43.68613138686133" y="367.57664233576645" type="curve" smooth="yes"/>
+      <point x="43.68613138686133" y="129.1094890510949"/>
+      <point x="243.37226277372267" y="-13.576642335766422"/>
+      <point x="531.4233576642337" y="-13.576642335766422" type="curve" smooth="yes"/>
+      <point x="682.7445255474453" y="-13.576642335766422"/>
+      <point x="786.4306569343066" y="-6.423357664233576"/>
     </contour>
     <contour>
-      <point x="777" y="703" type="curve"/>
-      <point x="777" y="77" type="line"/>
-      <point x="747" y="65"/>
-      <point x="709" y="63"/>
-      <point x="667" y="63" type="curve" smooth="yes"/>
-      <point x="500" y="63"/>
-      <point x="450" y="152"/>
-      <point x="450" y="378" type="curve" smooth="yes"/>
-      <point x="450" y="617"/>
-      <point x="510" y="721"/>
-      <point x="645" y="721" type="curve" smooth="yes"/>
-      <point x="709" y="721"/>
-      <point x="737" y="711"/>
+      <point x="775.9489051094891" y="688.5474452554744" type="curve"/>
+      <point x="775.9489051094891" y="91.7153284671533" type="line"/>
+      <point x="744.8978102189781" y="80.76642335766424"/>
+      <point x="704.5328467153284" y="77.7153284671533"/>
+      <point x="661.2189781021898" y="77.7153284671533" type="curve" smooth="yes"/>
+      <point x="491.5912408759124" y="77.7153284671533"/>
+      <point x="437.64963503649636" y="175.3868613138686"/>
+      <point x="437.64963503649636" y="376.6861313868613" type="curve" smooth="yes"/>
+      <point x="437.64963503649636" y="599.6569343065694"/>
+      <point x="501.065693430657" y="703.6569343065694"/>
+      <point x="640.2700729927008" y="703.6569343065694" type="curve" smooth="yes"/>
+      <point x="706.1094890510948" y="703.6569343065694"/>
+      <point x="735.1605839416059" y="696.2846715328467"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>1300</integer>
-            <integer>37</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>1298</integer>
-            <integer>1255</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>553</integer>
-            <integer>1255</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

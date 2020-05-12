@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adieresis-cy" format="2">
+  <advance width="894.0980763802073"/>
+  <unicode hex="04D3"/>
+  <anchor x="421.8130419002299" y="-73.6814130741622" name="bottom"/>
+  <anchor x="731.0180667016172" y="20.0" name="ogonek"/>
+  <anchor x="431.8223575432512" y="1442.9278541759084" name="top"/>
+  <outline>
+    <component base="a-cy"/>
+    <component base="dieresiscomb" xOffset="103.40319393475016" yOffset="0.23446384643303625"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

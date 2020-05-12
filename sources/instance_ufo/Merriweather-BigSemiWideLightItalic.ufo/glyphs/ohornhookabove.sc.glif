@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohornhookabove.sc" format="2">
+  <advance width="1343"/>
+  <anchor x="603" y="0" name="bottom"/>
+  <anchor x="689" y="644" name="center"/>
+  <anchor x="802" y="10" name="ogonek"/>
+  <anchor x="936" y="1997" name="top"/>
+  <anchor x="102" y="1165" name="topleft"/>
+  <anchor x="1066" y="1234" name="topright"/>
+  <outline>
+    <component base="hookabovecomb" xOffset="509" yOffset="273"/>
+    <component base="o.sc"/>
+    <component base="horncomb" xOffset="1121" yOffset="1234"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

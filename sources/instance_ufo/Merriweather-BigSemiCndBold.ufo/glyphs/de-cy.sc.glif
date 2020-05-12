@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy.sc" format="2">
+  <advance width="1174.1546961325969"/>
+  <outline>
+    <contour>
+      <point x="1059.1933701657458" y="23.104972375690608" type="line"/>
+      <point x="989.878453038674" y="67.58011049723757" type="line"/>
+      <point x="989.878453038674" y="1223.6574585635358" type="line"/>
+      <point x="1139.0497237569061" y="1255.2762430939226" type="line"/>
+      <point x="1139.0497237569061" y="1292.0" type="line"/>
+      <point x="142.87845303867402" y="1292.0" type="line"/>
+      <point x="142.87845303867402" y="1255.2762430939226" type="line"/>
+      <point x="342.96132596685084" y="1223.6574585635358" type="line"/>
+      <point x="342.96132596685084" y="1078.0" type="line" smooth="yes"/>
+      <point x="342.96132596685084" y="450.1657458563535"/>
+      <point x="216.72375690607737" y="194.27624309392266"/>
+      <point x="126.19889502762432" y="67.58011049723757" type="curve"/>
+      <point x="80.12154696132596" y="20.34254143646409" type="line"/>
+      <point x="247.40331491712706" y="0.0" type="line"/>
+      <point x="895.2651933701658" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="412.0276243093923" y="1068.0" type="curve"/>
+      <point x="412.0276243093923" y="1226.4198895027623" type="line"/>
+      <point x="694.403314917127" y="1226.4198895027623" type="line"/>
+      <point x="695.2983425414365" y="72.0" type="line"/>
+      <point x="217.98895027624312" y="72.0" type="line"/>
+      <point x="298.0662983425415" y="198.34254143646407"/>
+      <point x="412.02762430939225" y="485.53038674033144"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="-8.0"/>
+    <component base="righttooth_part." xOffset="825.46408839779"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

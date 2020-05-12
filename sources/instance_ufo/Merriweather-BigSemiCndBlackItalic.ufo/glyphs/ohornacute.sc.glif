@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohornacute.sc" format="2">
+  <advance width="1200"/>
+  <anchor x="544" y="0" name="bottom"/>
+  <anchor x="621" y="646" name="center"/>
+  <anchor x="719" y="24" name="ogonek"/>
+  <anchor x="630" y="1783" name="top"/>
+  <anchor x="160" y="1165" name="topleft"/>
+  <anchor x="966" y="1234" name="topright"/>
+  <outline>
+    <component base="acutecomb" xOffset="457" yOffset="266"/>
+    <component base="o.sc"/>
+    <component base="horncomb" xOffset="1021" yOffset="1234"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

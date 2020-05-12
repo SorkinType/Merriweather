@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otilde.sc" format="2">
+  <advance width="1477.2481751824814"/>
+  <anchor x="652.3649635036496" y="0.0" name="bottom"/>
+  <anchor x="752.912408759124" y="645.8394160583941" name="center"/>
+  <anchor x="902.4817518248176" y="20.32116788321168" name="ogonek"/>
+  <anchor x="894.4233576642335" y="1773.4306569343066" name="top"/>
+  <anchor x="147.89051094890513" y="1292.0" name="topleft"/>
+  <anchor x="1139.9124087591242" y="1234.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="tildecomb" xOffset="351.99270072992704" yOffset="216.4306569343066"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

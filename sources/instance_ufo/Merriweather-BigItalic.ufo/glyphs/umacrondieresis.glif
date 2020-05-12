@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacrondieresis" format="2">
+  <advance width="1033.3478260869565"/>
+  <unicode hex="1E7B"/>
+  <anchor x="463.6413043478261" y="0.0" name="bottom"/>
+  <anchor x="912.7173913043479" y="0.0" name="bottomright"/>
+  <anchor x="840.6956521739131" y="0.0" name="ogonek"/>
+  <anchor x="677.2065217391304" y="1750.1304347826087" name="top"/>
+  <anchor x="887.0869565217391" y="1005.0" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="macroncomb" xOffset="231.33695652173915"/>
+    <component base="dieresiscomb" xOffset="237.46739130434784" yOffset="280.80434782608694"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

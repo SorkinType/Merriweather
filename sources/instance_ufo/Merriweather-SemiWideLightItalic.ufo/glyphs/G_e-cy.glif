@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ge-cy" format="2">
+  <advance width="1178"/>
+  <unicode hex="0413"/>
+  <anchor x="590" y="0" name="bottomright"/>
+  <anchor x="761" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="36" y="0" type="line"/>
+      <point x="593" y="0" type="line"/>
+      <point x="599" y="70" type="line"/>
+      <point x="341" y="94" type="line"/>
+      <point x="521" y="1400" type="line"/>
+      <point x="1101" y="1384" type="line"/>
+      <point x="1105" y="1040" type="line"/>
+      <point x="1195" y="1042" type="line"/>
+      <point x="1235" y="1486" type="line"/>
+      <point x="208" y="1486" type="line"/>
+      <point x="198" y="1408" type="line"/>
+      <point x="358" y="1384" type="line"/>
+      <point x="180" y="94" type="line"/>
+      <point x="44" y="70" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Te-cy</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>44.89409</real>
+          <key>position</key>
+          <array>
+            <integer>497</integer>
+            <integer>125</integer>
+          </array>
+          <key>type</key>
+          <string>Arrow</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

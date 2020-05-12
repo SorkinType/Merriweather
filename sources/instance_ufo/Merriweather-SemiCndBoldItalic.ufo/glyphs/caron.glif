@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="1029.6521739130435"/>
+  <unicode hex="02C7"/>
+  <anchor x="575.0434782608695" y="1110.0" name="_top"/>
+  <anchor x="646.6086956521739" y="1615.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="322.4782608695652" y="1669.7391304347825" type="line"/>
+      <point x="529.9565217391304" y="1275.4347826086957" type="line"/>
+      <point x="687.5652173913044" y="1275.4347826086957" type="line"/>
+      <point x="1011.8260869565217" y="1666.695652173913" type="line"/>
+      <point x="916.8695652173913" y="1719.6521739130435" type="line"/>
+      <point x="813.695652173913" y="1636.9130434782608"/>
+      <point x="728.695652173913" y="1548.2173913043478"/>
+      <point x="630.695652173913" y="1464.086956521739" type="curve"/>
+      <point x="559.2173913043479" y="1548.9130434782608"/>
+      <point x="490.82608695652175" y="1636.9130434782608"/>
+      <point x="424.52173913043475" y="1719.6521739130435" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+    </dict>
+  </lib>
+</glyph>

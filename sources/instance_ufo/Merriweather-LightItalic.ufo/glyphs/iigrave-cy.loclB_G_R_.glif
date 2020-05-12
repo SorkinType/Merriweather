@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iigrave-cy.loclBGR" format="2">
   <advance width="1154"/>
-  <anchor x="480" y="0" name="bottom"/>
+  <anchor x="510" y="0" name="bottom"/>
   <anchor x="944" y="0" name="bottomright"/>
   <anchor x="916" y="20" name="ogonek"/>
   <anchor x="702" y="1659" name="top"/>
@@ -10,10 +10,4 @@
     <component base="ii-cy.loclBGR"/>
     <component base="gravecomb" xOffset="226" yOffset="2"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

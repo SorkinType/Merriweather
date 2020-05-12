@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yerudieresis-cy" format="2">
+  <advance width="1537.5930656934308"/>
+  <unicode hex="04F9"/>
+  <anchor x="1233.328705172961" y="-38.177880038083146" name="bottom"/>
+  <anchor x="605.0537924468423" y="-166.0" name="btm"/>
+  <anchor x="1392.6124246271024" y="0.0" name="ogonek"/>
+  <anchor x="885.7937956204379" y="1418.2349254205012" name="top"/>
+  <outline>
+    <component base="yeru-cy"/>
+    <component base="dieresiscomb" xOffset="445.37630910821963"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>yeru-cy</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

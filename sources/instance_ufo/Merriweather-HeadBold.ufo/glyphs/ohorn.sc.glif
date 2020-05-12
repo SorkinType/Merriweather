@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn.sc" format="2">
+  <advance width="1359.7736823002783"/>
+  <anchor x="689.2869298705488" y="0.0" name="bottom"/>
+  <anchor x="680.5534137194016" y="646.4349719724161" name="center"/>
+  <anchor x="761.3968221962335" y="17.70504496511675" name="ogonek"/>
+  <anchor x="793.3566157196435" y="0.0" name="q"/>
+  <anchor x="680.384038391741" y="1306.043795620438" name="top"/>
+  <anchor x="27.876235028430862" y="1292.3868613138686" name="topleft"/>
+  <anchor x="931.5501471952252" y="1293.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="horncomb.case" xOffset="894.8440940436342" yOffset="-66.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

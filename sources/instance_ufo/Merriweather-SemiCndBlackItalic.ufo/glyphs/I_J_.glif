@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJ" format="2">
+  <advance width="1421"/>
+  <unicode hex="0132"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="447" y="-164" name="btm_1"/>
+  <anchor x="917" y="-164" name="btm_2"/>
+  <anchor x="305" y="0" name="ogonek"/>
+  <anchor x="492" y="1486" name="top_1"/>
+  <anchor x="1146" y="1486" name="top_2"/>
+  <anchor x="202" y="1486" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="J" xOffset="719"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>I</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>J</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bdotbelow.sc" format="2">
+  <advance width="1200"/>
+  <anchor x="527" y="0" name="bottom"/>
+  <anchor x="714" y="1383" name="top"/>
+  <outline>
+    <component base="b.sc"/>
+    <component base="dotbelowcomb" xOffset="484"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

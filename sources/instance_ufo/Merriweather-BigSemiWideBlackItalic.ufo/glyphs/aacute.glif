@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aacute" format="2">
+  <advance width="1175"/>
+  <unicode hex="00E1"/>
+  <anchor x="538" y="0" name="bottom"/>
+  <anchor x="1143" y="1622" name="caron"/>
+  <anchor x="938" y="0" name="ogonek"/>
+  <anchor x="564" y="1513" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="acutecomb" xOffset="414" yOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

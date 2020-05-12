@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJ_acutecomb" format="2">
+  <advance width="1584.6423357664232"/>
+  <anchor x="390.62773722627736" y="-55.32116788321166" name="bottom"/>
+  <anchor x="485.8394160583942" y="20.0" name="ogonek"/>
+  <anchor x="391.4014598540146" y="1486.0" name="top_1"/>
+  <anchor x="1187.4087591240877" y="1486.0" name="top_2"/>
+  <anchor x="18.5912408759124" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="J" xOffset="792.3211678832117"/>
+    <component base="acutecomb.case" xOffset="411.0364963503649"/>
+    <component base="acutecomb.case" xOffset="1199.3503649635036" yOffset="3.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>acutecomb.case</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>acutecomb.case</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

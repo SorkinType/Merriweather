@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semisoftsign-cy.sc" format="2">
+  <advance width="1155"/>
+  <outline>
+    <contour>
+      <point x="158" y="929" type="line"/>
+      <point x="747" y="929" type="line"/>
+      <point x="758" y="1015" type="line"/>
+      <point x="168" y="1015" type="line"/>
+    </contour>
+    <component base="softsign-cy.sc" xOffset="58"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

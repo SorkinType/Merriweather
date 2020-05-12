@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aringacute.sc" format="2">
+  <advance width="1349.7080291970804"/>
+  <anchor x="1190.0" y="18.0" name="ogonek"/>
+  <anchor x="679.8540145985401" y="0.0" name="bottom"/>
+  <anchor x="938.087591240876" y="2114.5620437956204" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="ringcomb.case" xOffset="407.09489051094886" yOffset="-179.95620437956205"/>
+    <component base="acutecomb.case" xOffset="783.5693430656934" yOffset="154.56204379562044"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a.sc</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idotaccent" format="2">
+  <advance width="626.5491907331005"/>
+  <unicode hex="0130"/>
+  <anchor x="244.1028245001587" y="0.0" name="bottom"/>
+  <anchor x="380.2747540463345" y="-164.0" name="btm"/>
+  <anchor x="260.01618533798796" y="0.0" name="ogonek"/>
+  <anchor x="493.8176769279594" y="1797.358695652174" name="top"/>
+  <anchor x="184.03133925737862" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="dotaccentcomb.case" xOffset="181.7032688035544"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

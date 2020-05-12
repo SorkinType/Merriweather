@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ihookabove" format="2">
+  <advance width="763.3868613138686"/>
+  <unicode hex="1EC8"/>
+  <anchor x="306.29197080291965" y="0.0" name="bottom"/>
+  <anchor x="491.3284671532847" y="-164.0" name="btm"/>
+  <anchor x="319.1240875912408" y="0.0" name="ogonek"/>
+  <anchor x="505.97080291970804" y="1486.0" name="top"/>
+  <anchor x="182.3284671532847" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="hookabovecomb.case" xOffset="173.992700729927"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

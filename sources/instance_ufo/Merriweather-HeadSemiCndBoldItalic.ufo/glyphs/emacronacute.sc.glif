@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emacronacute.sc" format="2">
+  <advance width="1079.5956839098699"/>
+  <anchor x="496.491907331006" y="0.0" name="bottom"/>
+  <anchor x="769.8337035861631" y="0.0" name="ogonek"/>
+  <anchor x="632.4014598540147" y="2069.2814979371624" name="top"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="macroncomb" xOffset="296.50238019676294" yOffset="217.2043795620438"/>
+    <component base="acutecomb" xOffset="457.2554744525547" yOffset="523.1174230403046"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

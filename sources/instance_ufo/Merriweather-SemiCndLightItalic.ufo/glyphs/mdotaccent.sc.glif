@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mdotaccent.sc" format="2">
+  <advance width="1562"/>
+  <anchor x="670" y="0" name="bottom"/>
+  <anchor x="1489" y="0" name="bottomright"/>
+  <anchor x="904" y="1689" name="top"/>
+  <outline>
+    <component base="m.sc"/>
+    <component base="dotaccentcomb" xOffset="666" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

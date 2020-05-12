@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tse-cy" format="2">
+  <advance width="1142"/>
+  <unicode hex="0446"/>
+  <anchor x="634" y="1110" name="top"/>
+  <anchor x="519" y="0" name="bottom"/>
+  <anchor x="964" y="0" name="bottomright"/>
+  <anchor x="873" y="0" name="ogonek"/>
+  <anchor x="950" y="1125" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="desccy_part." xOffset="650"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ii-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ii-cy</string>
+    </dict>
+  </lib>
+</glyph>

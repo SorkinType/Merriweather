@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cheverticalstroke-cy" format="2">
+  <advance width="976"/>
+  <unicode hex="04B9"/>
+  <anchor x="467" y="395" name="bar"/>
+  <anchor x="852" y="0" name="bottomright"/>
+  <anchor x="570" y="1110" name="top"/>
+  <outline>
+    <component base="che-cy"/>
+    <component base="vertbarlc_part." xOffset="278" yOffset="-203"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>che-cy</string>
+    </dict>
+  </lib>
+</glyph>

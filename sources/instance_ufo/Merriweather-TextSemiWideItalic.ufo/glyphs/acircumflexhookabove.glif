@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acircumflexhookabove" format="2">
+  <advance width="1170.609489051095"/>
+  <unicode hex="1EA9"/>
+  <anchor x="485.0856077435734" y="0.0" name="bottom"/>
+  <anchor x="1096.4857188194223" y="1622.0" name="caron"/>
+  <anchor x="928.4973024436688" y="0.0" name="ogonek"/>
+  <anchor x="715.1179784195492" y="1108.2299270072992" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="circumflexcomb_hookabovecomb" xOffset="300.984528721041" yOffset="-1.77007299270073"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

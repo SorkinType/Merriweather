@@ -1611,7 +1611,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1330</string>
+    <string>1312</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Narrow</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
@@ -1891,6 +1891,7 @@ AZA/space BZB/space CZC/space DZD/space EZE/space FZF/space GZG/space HZH/space 
       <string>/A-cy</string>
       <string>/brevecomb-cy/a.sc/a-cy.sc/abreve-cy.sc</string>
       <string>f</string>
+      <string>æ</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
     <integer>1</integer>
@@ -1902,27 +1903,6 @@ AZA/space BZB/space CZC/space DZD/space EZE/space FZF/space GZG/space HZH/space 
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>1</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.Axis Location</key>
-    <array>
-      <dict>
-        <key>Axis</key>
-        <string>Weight</string>
-        <key>Location</key>
-        <integer>300</integer>
-      </dict>
-      <dict>
-        <key>Axis</key>
-        <string>Width</string>
-        <key>Location</key>
-        <integer>87</integer>
-      </dict>
-      <dict>
-        <key>Axis</key>
-        <string>Optical size</string>
-        <key>Location</key>
-        <integer>7</integer>
-      </dict>
-    </array>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>7</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>

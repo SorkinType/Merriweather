@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obarred-cy" format="2">
+  <advance width="969.2531354599347"/>
+  <unicode hex="04E9"/>
+  <anchor x="484.765495826108" y="0.0" name="bottom"/>
+  <anchor x="484.765495826108" y="537.3790781142881" name="center"/>
+  <anchor x="543.0078235270395" y="10.0" name="ogonek"/>
+  <anchor x="484.596644755414" y="1110.3455256684276" name="top"/>
+  <anchor x="682.1351776424568" y="1069.7250877122233" name="topright"/>
+  <outline>
+    <contour>
+      <point x="184.1669960075816" y="513.351211840142" type="line"/>
+      <point x="774.1879259587853" y="513.351211840142" type="line"/>
+      <point x="774.1879259587853" y="591.3611323950478" type="line"/>
+      <point x="184.1669960075816" y="591.3611323950478" type="line"/>
+    </contour>
+    <component base="o-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

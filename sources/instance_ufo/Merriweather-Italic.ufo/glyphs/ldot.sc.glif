@@ -1,29 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldot.sc" format="2">
-  <advance width="1465.2065217391305"/>
+  <advance width="1430.7282608695652"/>
   <anchor x="527.3478260869566" y="0.0" name="bottom"/>
   <anchor x="867.9782608695652" y="940.0" name="car"/>
   <anchor x="332.2173913043478" y="543.0" name="center"/>
   <anchor x="431.7608695652174" y="1292.0" name="top"/>
   <outline>
     <component base="l.sc"/>
-    <component base="periodcentered" xOffset="1140.2608695652175"/>
+    <component base="period" xOffset="1124.0434782608697" yOffset="633.9782608695652"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>periodcentered</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>periodcentered</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="o.sc" format="2">
+  <advance width="1354"/>
+  <anchor x="710" y="0" name="bottom"/>
+  <anchor x="677" y="648" name="center"/>
+  <anchor x="745" y="20" name="ogonek"/>
+  <anchor x="796" y="0" name="q"/>
+  <anchor x="677" y="1360" name="top"/>
+  <anchor x="45" y="1293" name="topleft"/>
+  <anchor x="957" y="1293" name="topright"/>
+  <outline>
+    <contour>
+      <point x="667" y="-21" type="curve" smooth="yes"/>
+      <point x="1102" y="-21"/>
+      <point x="1319" y="289"/>
+      <point x="1319" y="677" type="curve" smooth="yes"/>
+      <point x="1319" y="1063"/>
+      <point x="1116" y="1315"/>
+      <point x="693" y="1315" type="curve" smooth="yes"/>
+      <point x="254" y="1315"/>
+      <point x="35" y="999"/>
+      <point x="35" y="619" type="curve" smooth="yes"/>
+      <point x="35" y="222"/>
+      <point x="240" y="-21"/>
+    </contour>
+    <contour>
+      <point x="680" y="1258" type="curve" smooth="yes"/>
+      <point x="837" y="1258"/>
+      <point x="909" y="1054"/>
+      <point x="909" y="677" type="curve" smooth="yes"/>
+      <point x="909" y="237"/>
+      <point x="825" y="31"/>
+      <point x="678" y="31" type="curve" smooth="yes"/>
+      <point x="515" y="31"/>
+      <point x="445" y="255"/>
+      <point x="445" y="619" type="curve" smooth="yes"/>
+      <point x="445" y="1056"/>
+      <point x="526" y="1258"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>

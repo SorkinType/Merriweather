@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emtail-cy" format="2">
+  <advance width="1218"/>
+  <unicode hex="04CE"/>
+  <outline>
+    <contour>
+      <point x="1025" y="-370" type="curve"/>
+      <point x="1073" y="-370" type="line"/>
+      <point x="1120" y="-254"/>
+      <point x="1171" y="-120"/>
+      <point x="1215" y="0" type="curve"/>
+      <point x="1215" y="68" type="line"/>
+      <point x="1087" y="68" type="line"/>
+      <point x="1087" y="0" type="line"/>
+      <point x="1072" y="-113"/>
+      <point x="1052" y="-237"/>
+    </contour>
+    <component base="em-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>em-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>em-cy</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

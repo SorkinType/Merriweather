@@ -2,7 +2,7 @@
 <glyph name="iigrave-cy" format="2">
   <advance width="1177.3260869565217"/>
   <unicode hex="045D"/>
-  <anchor x="492.6086956521739" y="0.0" name="bottom"/>
+  <anchor x="519.4565217391304" y="0.0" name="bottom"/>
   <anchor x="969.5326086956522" y="0.0" name="bottomright"/>
   <anchor x="936.804347826087" y="20.0" name="ogonek"/>
   <anchor x="717.7608695652174" y="1672.2391304347825" name="top"/>
@@ -11,10 +11,4 @@
     <component base="ii-cy"/>
     <component base="gravecomb" xOffset="193.53260869565216" yOffset="1.3695652173913042"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

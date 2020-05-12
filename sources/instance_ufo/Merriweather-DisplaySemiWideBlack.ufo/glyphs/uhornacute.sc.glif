@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhornacute.sc" format="2">
+  <advance width="1397.2189781021898"/>
+  <anchor x="754.0" y="0.0" name="bottom"/>
+  <anchor x="1294.0" y="18.0" name="ogonek"/>
+  <anchor x="748.9781021897809" y="1814.7591240875913" name="top"/>
+  <anchor x="1215.7153284671533" y="1292.0" name="topright"/>
+  <outline>
+    <component base="uhorn.sc"/>
+    <component base="acutecomb" xOffset="521.5109489051094" yOffset="226.87591240875912"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

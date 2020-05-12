@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yeru-cy.sc" format="2">
+  <advance width="1798.043795620438"/>
+  <anchor x="947.7883211678833" y="1292.0" name="top"/>
+  <anchor x="1482.9270072992701" y="0.0" name="bottom"/>
+  <anchor x="1510.3430656934308" y="18.0" name="ogonek"/>
+  <outline>
+    <component base="softsign-cy.sc"/>
+    <component base="i-cy.sc" xOffset="1167.2627737226278"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>i-cy.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

@@ -2,29 +2,29 @@
 source venv/bin/activate
 set -e
 
-cd sources
+# cd sources
 
-echo "Generating Static fonts"
-mkdir -p ../fonts/ttfs
-fontmake -g Merriweather-Roman.glyphs -i -o ttf --output-dir ../fonts/ttfs/
-fontmake -g Merriweather-Italic.glyphs -i -o ttf --output-dir ../fonts/ttfs/
+# echo "Generating Static fonts"
+# mkdir -p ../fonts/ttfs
+# fontmake -g Merriweather-Roman.glyphs -i -o ttf --output-dir ../fonts/ttfs/
+# fontmake -g Merriweather-Italic.glyphs -i -o ttf --output-dir ../fonts/ttfs/
 
-echo "Post processing"
+# echo "Post processing"
 
-ttfs=$(ls ../fonts/ttfs/*.ttf)
-echo $ttfs
-for ttf in $ttfs
-do
-	gftools fix-dsig -f $ttf;
-	gftools fix-nonhinting $ttf "$ttf.fix";
-	mv "$ttf.fix" $ttf;
+# ttfs=$(ls ../fonts/ttfs/*.ttf)
+# echo $ttfs
+# for ttf in $ttfs
+# do
+# 	gftools fix-dsig -f $ttf;
+# 	gftools fix-nonhinting $ttf "$ttf.fix";
+# 	mv "$ttf.fix" $ttf;
 
-    # TODO: add instance name abbreviator python script
-done
+#     rm ${ttf/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
 
-rm ../fonts/ttfs/*backup*.ttf
+#     # TODO: add instance name abbreviator python script
+# done
 
-cd ..
+# cd ..
 
 # ============================================================================
 # Autohinting ================================================================

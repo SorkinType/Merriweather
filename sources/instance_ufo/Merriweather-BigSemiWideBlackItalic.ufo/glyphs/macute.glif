@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macute" format="2">
+  <advance width="1867"/>
+  <unicode hex="1E3F"/>
+  <anchor x="854" y="0" name="bottom"/>
+  <anchor x="1708" y="0" name="bottomright"/>
+  <anchor x="967" y="1515" name="top"/>
+  <outline>
+    <component base="m"/>
+    <component base="acutecomb" xOffset="817"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

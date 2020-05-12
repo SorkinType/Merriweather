@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tedescender-cy" format="2">
+  <advance width="1261.39500746058"/>
+  <unicode hex="04AC"/>
+  <anchor x="652.0946485461951" y="0.0" name="bottom"/>
+  <anchor x="1009.6054954631608" y="0.0" name="bottomright"/>
+  <anchor x="630.8887768681695" y="669.4554986490302" name="center"/>
+  <anchor x="648.5759164415051" y="1486.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="698.4172278904706" y="113.27426704843327" type="line"/>
+      <point x="698.4172278904706" y="57.27426704843327" type="line"/>
+      <point x="994.3067709803605" y="57.27426704843327" type="line"/>
+      <point x="994.3067709803605" y="113.27426704843327" type="line"/>
+    </contour>
+    <component base="T"/>
+    <component base="righttooth_part." xOffset="760.2006694358188"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>righttooth_part.</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Te-cy</string>
+    </dict>
+  </lib>
+</glyph>

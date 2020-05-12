@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gestrokehook-cy" format="2">
+  <advance width="1178"/>
+  <unicode hex="04FA"/>
+  <anchor x="590" y="0" name="bottomright"/>
+  <anchor x="761" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="442" y="-456" type="curve" smooth="yes"/>
+      <point x="566" y="-467"/>
+      <point x="689" y="-387"/>
+      <point x="707" y="-235" type="curve" smooth="yes"/>
+      <point x="719" y="-135"/>
+      <point x="675" y="-14"/>
+      <point x="647" y="70" type="curve"/>
+      <point x="328" y="94" type="line"/>
+      <point x="223" y="0" type="line"/>
+      <point x="573" y="0" type="line"/>
+      <point x="587" y="-67"/>
+      <point x="592" y="-132"/>
+      <point x="586" y="-176" type="curve" smooth="yes"/>
+      <point x="569" y="-298"/>
+      <point x="510" y="-340"/>
+      <point x="411" y="-340" type="curve" smooth="yes"/>
+      <point x="391" y="-340"/>
+      <point x="348" y="-334"/>
+      <point x="322" y="-324" type="curve"/>
+      <point x="304" y="-426" type="line"/>
+      <point x="337" y="-440"/>
+      <point x="396" y="-452"/>
+    </contour>
+    <contour>
+      <point x="108" y="688" type="line"/>
+      <point x="804" y="688" type="line"/>
+      <point x="817" y="788" type="line"/>
+      <point x="121" y="788" type="line"/>
+    </contour>
+    <component base="Ge-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Ge-cy</string>
+    </dict>
+  </lib>
+</glyph>

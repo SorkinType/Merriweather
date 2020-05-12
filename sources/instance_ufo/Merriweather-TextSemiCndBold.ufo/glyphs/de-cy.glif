@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy" format="2">
+  <advance width="1108.0704117433559"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="72.54550953744403" y="0.0" type="line"/>
+      <point x="941.9523329435013" y="0.0" type="line"/>
+      <point x="941.9523329435013" y="964.3577852159535" type="line"/>
+      <point x="1036.7628745412753" y="988.8565149009961" type="line"/>
+      <point x="1036.7628745412753" y="1092.974513045933" type="line"/>
+      <point x="163.80888817195628" y="1092.974513045933" type="line"/>
+      <point x="163.80888817195628" y="988.8565149009961" type="line"/>
+      <point x="304.83118925676496" y="964.3577852159535" type="line"/>
+      <point x="304.83118925676496" y="507.3279025688591"/>
+      <point x="245.7913457273057" y="244.95934992136145"/>
+      <point x="128.77311771585275" y="116.57373875872082" type="curve"/>
+      <point x="72.54550953744403" y="115.49715691414285" type="line"/>
+    </contour>
+    <contour>
+      <point x="277.7251683671412" y="123.80074202524497" type="line"/>
+      <point x="362.3308464733637" y="231.443521393717"/>
+      <point x="427.40827519457997" y="503.42122030890835"/>
+      <point x="427.40827519457997" y="879.878453038674" type="curve" smooth="yes"/>
+      <point x="427.40827519457997" y="975.1910715005848" type="line"/>
+      <point x="670.7640037101262" y="975.1910715005848" type="line"/>
+      <point x="670.7640037101262" y="123.80074202524497" type="line"/>
+    </contour>
+    <component base="lefttooth_part." xScale="0.9518199782231721" xOffset="-8.88518772432149"/>
+    <component base="righttooth_part." xScale="0.9518199782231721" xOffset="741.8786950034279"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=pe-cy+10</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

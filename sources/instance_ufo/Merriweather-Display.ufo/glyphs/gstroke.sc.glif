@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gstroke.sc" format="2">
+  <advance width="1334.2960438762752"/>
+  <anchor x="685.1371536879462" y="-6.883493971044884" name="bottom"/>
+  <anchor x="1127.6818566762108" y="349.0" name="rstem"/>
+  <anchor x="728.8038875670444" y="1336.8759124087592" name="top"/>
+  <outline>
+    <contour>
+      <point x="1308.7573900068555" y="379.4761059805621" type="line"/>
+      <point x="771.4017824736864" y="379.4761059805621" type="line"/>
+      <point x="771.4017824736864" y="300.5257894100092" type="line"/>
+      <point x="1308.7573900068555" y="300.5257894100092" type="line"/>
+    </contour>
+    <component base="g.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>g.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>g.sc</string>
+    </dict>
+  </lib>
+</glyph>

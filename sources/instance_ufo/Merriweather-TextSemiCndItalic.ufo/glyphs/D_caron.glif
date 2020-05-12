@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dcaron" format="2">
+  <advance width="1268.629086004443"/>
+  <unicode hex="010E"/>
+  <anchor x="325.01663091082196" y="748.0" name="bar"/>
+  <anchor x="563.8310060298318" y="0.0" name="bottom"/>
+  <anchor x="844.0919549349413" y="1877.6879562043796" name="top"/>
+  <outline>
+    <component base="D"/>
+    <component base="caroncomb.case" xOffset="352.14907965725166" yOffset="-0.05291970802919708"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

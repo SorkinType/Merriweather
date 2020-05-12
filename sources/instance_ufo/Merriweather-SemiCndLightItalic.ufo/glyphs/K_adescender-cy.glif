@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kadescender-cy" format="2">
+  <advance width="1184"/>
+  <unicode hex="049A"/>
+  <anchor x="1101" y="0" name="bottomright"/>
+  <anchor x="359" y="1205" name="tbar"/>
+  <anchor x="770" y="1486" name="top"/>
+  <outline>
+    <component base="Ka-cy"/>
+    <component base="righttooth_part." xOffset="860"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+    </dict>
+  </lib>
+</glyph>

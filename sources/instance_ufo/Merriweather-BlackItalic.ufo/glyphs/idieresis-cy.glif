@@ -2,7 +2,7 @@
 <glyph name="idieresis-cy" format="2">
   <advance width="1228"/>
   <unicode hex="04E5"/>
-  <anchor x="520" y="0" name="bottom"/>
+  <anchor x="540" y="0" name="bottom"/>
   <anchor x="1025" y="0" name="bottomright"/>
   <anchor x="982" y="20" name="ogonek"/>
   <anchor x="721" y="1456" name="top"/>
@@ -11,10 +11,4 @@
     <component base="ii-cy"/>
     <component base="dieresiscomb" xOffset="208"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

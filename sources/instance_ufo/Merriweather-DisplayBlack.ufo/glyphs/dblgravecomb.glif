@@ -1,33 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dblgravecomb" format="2">
   <unicode hex="030F"/>
-  <guideline x="817" y="1631" angle="90"/>
-  <anchor x="495" y="1110" name="_top"/>
-  <anchor x="495" y="1619" name="top"/>
+  <anchor x="524.4306569343065" y="1110.2627737226278" name="_top"/>
+  <anchor x="524.1678832116788" y="1651.3211678832117" name="top"/>
   <outline>
     <contour>
-      <point x="746" y="1120" type="curve"/>
-      <point x="748" y="1120" type="line"/>
-      <point x="787" y="1153" type="line"/>
-      <point x="587" y="1601" type="line"/>
-      <point x="382" y="1469" type="line"/>
-      <point x="458" y="1342"/>
-      <point x="620" y="1182"/>
+      <point x="775.1678832116788" y="1159.941605839416" type="curve"/>
+      <point x="776.905109489051" y="1159.941605839416" type="line"/>
+      <point x="835.3503649635036" y="1207.6569343065694" type="line"/>
+      <point x="601.7153284671533" y="1649.087591240876" type="line"/>
+      <point x="404.3357664233577" y="1514.4598540145987" type="line"/>
+      <point x="477.7080291970803" y="1393.5036496350365"/>
+      <point x="659.1532846715328" y="1219.5766423357663"/>
     </contour>
     <contour>
-      <point x="374" y="1120" type="curve"/>
-      <point x="376" y="1120" type="line"/>
-      <point x="415" y="1153" type="line"/>
-      <point x="215" y="1601" type="line"/>
-      <point x="10" y="1469" type="line"/>
-      <point x="86" y="1342"/>
-      <point x="248" y="1182"/>
+      <point x="382.6715328467153" y="1159.941605839416" type="curve"/>
+      <point x="384.6715328467153" y="1159.941605839416" type="line"/>
+      <point x="442.3284671532847" y="1207.9197080291972" type="line"/>
+      <point x="204.75182481751824" y="1649.087591240876" type="line"/>
+      <point x="10.0" y="1515.2481751824819" type="line"/>
+      <point x="79.95620437956205" y="1396.6569343065694"/>
+      <point x="265.60583941605836" y="1219.5766423357663"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>797</integer>
+      <integer>761</integer>
     </dict>
   </lib>
 </glyph>

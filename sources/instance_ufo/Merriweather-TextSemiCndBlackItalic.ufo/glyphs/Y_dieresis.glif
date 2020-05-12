@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ydieresis" format="2">
+  <advance width="1115.2554744525548"/>
+  <unicode hex="0178"/>
+  <anchor x="496.6569343065694" y="0.0" name="bottom"/>
+  <anchor x="559.8248175182482" y="469.0" name="center"/>
+  <anchor x="862.4452554744526" y="1892.0" name="top"/>
+  <anchor x="153.52554744525548" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="dieresiscomb.case" xOffset="295.82481751824815"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

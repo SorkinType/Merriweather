@@ -1,54 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shhadescender-cy.sc" format="2">
-  <advance width="1447"/>
-  <anchor x="703" y="-646" name="bottom"/>
-  <anchor x="1413" y="0" name="bottomright"/>
-  <anchor x="-21" y="646" name="topleft"/>
-  <anchor x="654.19" y="646.0" name="topright"/>
+  <advance width="1445.4233576642334"/>
+  <anchor x="714.8248175182481" y="-644.6861313868613" name="bottom"/>
+  <anchor x="1414.8394160583944" y="0.0" name="bottomright"/>
+  <anchor x="-5.2335766423357635" y="646.0" name="topleft"/>
+  <anchor x="653.4770948905109" y="646.0" name="topright"/>
   <outline>
     <component base="shha-cy.sc"/>
-    <component base="righttooth_part." xOffset="1119"/>
+    <component base="righttooth_part." xOffset="1091.4087591240875"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>tse-cy.sc</string>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>817</integer>
-            <integer>37</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>767</integer>
-            <integer>1255</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>36</integer>
-            <integer>1255</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="688"/>
+  <unicode hex="0049"/>
+  <anchor x="252" y="0" name="bottom"/>
+  <anchor x="392" y="-164" name="btm"/>
+  <anchor x="288" y="0" name="ogonek"/>
+  <anchor x="469" y="1486" name="top"/>
+  <anchor x="130" y="1486" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="16" y="0" type="line"/>
+      <point x="527" y="0" type="line"/>
+      <point x="537" y="80" type="line"/>
+      <point x="362" y="104" type="line"/>
+      <point x="535" y="1386" type="line"/>
+      <point x="707" y="1406" type="line"/>
+      <point x="717" y="1486" type="line"/>
+      <point x="213" y="1486" type="line"/>
+      <point x="203" y="1406" type="line"/>
+      <point x="374" y="1386" type="line"/>
+      <point x="201" y="104" type="line"/>
+      <point x="26" y="80" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

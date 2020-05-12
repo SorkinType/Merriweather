@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yi-cy" format="2">
+  <advance width="617.2189781021898"/>
+  <unicode hex="0457"/>
+  <anchor x="246.6204379562044" y="0.0" name="bottom"/>
+  <anchor x="340.0729927007299" y="0.0" name="ogonek"/>
+  <anchor x="420.71532846715326" y="1539.2262773722628" name="top"/>
+  <outline>
+    <component base="idotless" xOffset="-3.552713678800501e-15"/>
+    <component base="dieresis-cy" xOffset="287.71532846715326" yOffset="-0.7737226277372263"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>idotless</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>i</string>
+    </dict>
+  </lib>
+</glyph>

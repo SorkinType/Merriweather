@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obarred-cy.sc" format="2">
+  <advance width="1208"/>
+  <anchor x="535" y="0" name="bottom"/>
+  <anchor x="622" y="643" name="center"/>
+  <anchor x="701" y="10" name="ogonek"/>
+  <anchor x="725" y="1383" name="top"/>
+  <anchor x="113" y="1165" name="topleft"/>
+  <anchor x="956" y="1234" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="longbar_part." xOffset="76" yOffset="-104"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>longbar_part.</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o.sc</string>
+    </dict>
+  </lib>
+</glyph>

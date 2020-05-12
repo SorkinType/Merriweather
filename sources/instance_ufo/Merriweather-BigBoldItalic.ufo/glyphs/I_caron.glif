@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Icaron" format="2">
+  <advance width="637.9130434782608"/>
+  <unicode hex="01CF"/>
+  <anchor x="255.47826086956525" y="0.0" name="bottom"/>
+  <anchor x="456.95652173913044" y="-164.0" name="btm"/>
+  <anchor x="265.3478260869565" y="0.0" name="ogonek"/>
+  <anchor x="520.304347826087" y="1886.0434782608695" name="top"/>
+  <anchor x="174.1304347826087" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="caroncomb.case" xOffset="8.086956521739129" yOffset="-0.6956521739130435"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

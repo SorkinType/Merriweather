@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="1241.95461758172"/>
+  <unicode hex="01AF"/>
+  <anchor x="634.470009520787" y="0.0" name="bottom"/>
+  <anchor x="726.8159314503332" y="20.0" name="ogonek"/>
+  <anchor x="772.9441447159633" y="1486.0" name="top"/>
+  <anchor x="1208.6296413836876" y="1486.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1316.07299270073" y="1735.0" type="line"/>
+      <point x="1307.6931132973657" y="1594.0133291018724"/>
+      <point x="1262.4566804189146" y="1488.1605839416059"/>
+      <point x="1138.6908917803871" y="1486.0" type="curve"/>
+      <point x="1180.5785464931766" y="1374.4078070453825" type="line"/>
+      <point x="1443.8844811171057" y="1373.0793398920978"/>
+      <point x="1524.5652173913043" y="1521.3484608060935"/>
+      <point x="1525.8936845445887" y="1735.0" type="curve"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

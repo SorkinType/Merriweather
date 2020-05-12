@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ii-cy" format="2">
+  <advance width="1272"/>
+  <unicode hex="0438"/>
+  <anchor x="548" y="0" name="bottom"/>
+  <anchor x="1102" y="0" name="bottomright"/>
+  <anchor x="992" y="0" name="ogonek"/>
+  <anchor x="699" y="1110" name="top"/>
+  <anchor x="1074" y="1125" name="topright"/>
+  <outline>
+    <component base="u" xOffset="5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=u+5</string>
+    </dict>
+  </lib>
+</glyph>

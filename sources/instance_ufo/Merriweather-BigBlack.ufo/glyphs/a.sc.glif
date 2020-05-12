@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a.sc" format="2">
+  <advance width="1225"/>
+  <anchor x="589" y="0" name="bottom"/>
+  <anchor x="1129" y="17" name="ogonek"/>
+  <anchor x="602" y="1360" name="top"/>
+  <outline>
+    <contour>
+      <point x="39" y="71" type="line"/>
+      <point x="-90" y="34" type="line"/>
+      <point x="-90" y="0" type="line"/>
+      <point x="287" y="0" type="line"/>
+      <point x="287" y="34" type="line"/>
+      <point x="131" y="66" type="line"/>
+      <point x="230" y="370" type="line"/>
+      <point x="673" y="370" type="line"/>
+      <point x="778" y="66" type="line"/>
+      <point x="622" y="34" type="line"/>
+      <point x="622" y="0" type="line"/>
+      <point x="1295" y="0" type="line"/>
+      <point x="1295" y="34" type="line"/>
+      <point x="1187" y="62" type="line"/>
+      <point x="742" y="1292" type="line"/>
+      <point x="480" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="651" y="427" type="line"/>
+      <point x="252" y="427" type="line"/>
+      <point x="416" y="935" type="line"/>
+      <point x="448" y="1037" type="line"/>
+      <point x="481" y="935" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>3</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>112.6137</real>
+          <key>position</key>
+          <array>
+            <integer>2881</integer>
+            <integer>-2146</integer>
+          </array>
+          <key>type</key>
+          <string>Arrow</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

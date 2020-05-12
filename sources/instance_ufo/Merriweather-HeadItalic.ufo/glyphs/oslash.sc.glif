@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash.sc" format="2">
+  <advance width="1299.1063947953028"/>
+  <anchor x="728.1345604569977" y="1327.2043795620439" name="top"/>
+  <anchor x="576.1227388130753" y="0.0" name="bottom"/>
+  <anchor x="656.7382576959694" y="646.1669311329737" name="center"/>
+  <anchor x="760.4750079339892" y="16.61234528721041" name="ogonek"/>
+  <anchor x="138.33005395112662" y="1242.8686131386862" name="topleft"/>
+  <anchor x="1003.5989368454458" y="1234.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="slashocomb.sc" xOffset="2.0587115201523307" yOffset="-1.8330688670263409"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

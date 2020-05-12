@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevegrave" format="2">
+  <advance width="940.7299270072992"/>
+  <unicode hex="1EB1"/>
+  <anchor x="415.8978102189781" y="-200.4963503649635" name="bottom"/>
+  <anchor x="762.2992700729927" y="20.0" name="ogonek"/>
+  <anchor x="461.7445255474452" y="1715.6131386861314" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb_gravecomb" xOffset="162.0" yOffset="0.6131386861313868"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Esdescender-cy" format="2">
+  <advance width="1334"/>
+  <unicode hex="04AA"/>
+  <anchor x="747" y="0" name="bottom"/>
+  <anchor x="747" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="949" y="10" type="curve"/>
+      <point x="607" y="10" type="line"/>
+      <point x="638" y="-63"/>
+      <point x="665" y="-300"/>
+      <point x="665" y="-410" type="curve"/>
+      <point x="895" y="-410" type="line"/>
+      <point x="897" y="-269"/>
+      <point x="919" y="-68"/>
+    </contour>
+    <component base="C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Es-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Es-cy</string>
+    </dict>
+  </lib>
+</glyph>

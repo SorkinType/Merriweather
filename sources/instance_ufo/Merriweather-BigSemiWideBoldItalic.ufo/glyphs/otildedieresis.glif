@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otildedieresis" format="2">
+  <advance width="1106.3478260869565"/>
+  <unicode hex="1E4F"/>
+  <anchor x="465.8695652173913" y="-19.391304347826086" name="bottom"/>
+  <anchor x="553.5217391304349" y="505.30434782608694" name="center"/>
+  <anchor x="641.6086956521739" y="6.086956521739131" name="ogonek"/>
+  <anchor x="763.7826086956521" y="1916.304347826087" name="top"/>
+  <anchor x="811.6521739130434" y="1005.0" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="tildecomb" xOffset="220.39130434782606" yOffset="-1.391304347826087"/>
+    <component base="dieresiscomb" xOffset="290.5652173913044" yOffset="419.1304347826087"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

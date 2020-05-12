@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Acircumflexgrave" format="2">
+  <advance width="1306"/>
+  <unicode hex="1EA6"/>
+  <anchor x="563" y="0" name="bottom"/>
+  <anchor x="1090" y="0" name="ogonek"/>
+  <anchor x="783" y="1486" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="circumflexcomb_gravecomb.case" xOffset="324"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

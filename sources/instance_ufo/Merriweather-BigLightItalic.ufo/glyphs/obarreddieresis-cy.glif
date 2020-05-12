@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obarreddieresis-cy" format="2">
+  <advance width="968"/>
+  <unicode hex="04EB"/>
+  <anchor x="400" y="-2" name="bottom"/>
+  <anchor x="479" y="506" name="center"/>
+  <anchor x="517" y="20" name="ogonek"/>
+  <anchor x="617" y="1446" name="top"/>
+  <anchor x="700" y="1005" name="topright"/>
+  <outline>
+    <component base="obarred-cy"/>
+    <component base="dieresiscomb" xOffset="205"/>
+  </outline>
+</glyph>
