@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aring.sc" format="2">
+  <advance width="1099.560188732508"/>
+  <anchor x="1206.0331491712707" y="18.0" name="ogonek"/>
+  <anchor x="556.4180344396499" y="0.0" name="bottom"/>
+  <anchor x="765.193289510828" y="1693.4864298100576" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="ringcomb" xOffset="318.5094567891277" yOffset="226.87591240875912"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a.sc</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="agrave" format="2">
+  <advance width="1065.5912408759125"/>
+  <unicode hex="00E0"/>
+  <anchor x="416.32846715328463" y="0.0" name="bottom"/>
+  <anchor x="1012.3284671532847" y="1622.0" name="caron"/>
+  <anchor x="854.8686131386861" y="12.262773722627736" name="ogonek"/>
+  <anchor x="728.8905109489051" y="1657.7737226277372" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="gravecomb" xOffset="243.2189781021898" yOffset="0.7737226277372263"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

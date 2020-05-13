@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ubreve.sc" format="2">
+  <advance width="1342.9476356712155"/>
+  <anchor x="634.390352269121" y="0.0" name="bottom"/>
+  <anchor x="756.5509362107268" y="0.0" name="ogonek"/>
+  <anchor x="908.933354490638" y="1762.2402411932721" name="top"/>
+  <anchor x="1234.4176451920025" y="1292.0" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="brevecomb" xOffset="433.2900666455094" yOffset="197.27737226277372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

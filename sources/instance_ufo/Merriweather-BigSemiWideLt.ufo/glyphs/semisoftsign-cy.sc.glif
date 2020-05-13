@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semisoftsign-cy.sc" format="2">
+  <advance width="1183"/>
+  <outline>
+    <contour>
+      <point x="42" y="965" type="line"/>
+      <point x="729" y="965" type="line"/>
+      <point x="729" y="1025" type="line"/>
+      <point x="42" y="1025" type="line"/>
+    </contour>
+    <component base="softsign-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>softsign-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy.sc</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>666</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>133</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>128</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

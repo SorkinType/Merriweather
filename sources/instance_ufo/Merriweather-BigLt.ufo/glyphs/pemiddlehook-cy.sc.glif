@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pemiddlehook-cy.sc" format="2">
+  <advance width="1874"/>
+  <anchor x="1300" y="0" name="bottomright"/>
+  <outline>
+    <contour>
+      <point x="1118" y="667" type="curve"/>
+      <point x="1118" y="620" type="line"/>
+      <point x="1211" y="661"/>
+      <point x="1292" y="671"/>
+      <point x="1389" y="671" type="curve" smooth="yes"/>
+      <point x="1580" y="671"/>
+      <point x="1658" y="516"/>
+      <point x="1658" y="261" type="curve" smooth="yes"/>
+      <point x="1658" y="-72"/>
+      <point x="1588" y="-286"/>
+      <point x="1388" y="-286" type="curve" smooth="yes"/>
+      <point x="1357" y="-286"/>
+      <point x="1329" y="-286"/>
+      <point x="1309" y="-284" type="curve"/>
+      <point x="1311" y="-331" type="line"/>
+      <point x="1337" y="-334"/>
+      <point x="1370" y="-337"/>
+      <point x="1405" y="-337" type="curve" smooth="yes"/>
+      <point x="1676" y="-337"/>
+      <point x="1824" y="-46"/>
+      <point x="1824" y="260" type="curve" smooth="yes"/>
+      <point x="1824" y="579"/>
+      <point x="1682" y="737"/>
+      <point x="1426" y="737" type="curve" smooth="yes"/>
+      <point x="1313" y="737"/>
+      <point x="1200" y="707"/>
+    </contour>
+    <component base="pe-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1362</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>107</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>117</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>598</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>890</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1377</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

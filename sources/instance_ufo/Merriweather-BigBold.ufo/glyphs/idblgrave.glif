@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idblgrave" format="2">
+  <advance width="547.9558011049725"/>
+  <unicode hex="0209"/>
+  <anchor x="287.49171270718233" y="0.0" name="bottom"/>
+  <anchor x="389.58563535911605" y="20.0" name="ogonek"/>
+  <anchor x="288.1104972375691" y="1615.4088397790053" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dblgravecomb" xOffset="-192.2486187845304"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

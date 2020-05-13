@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash.sc" format="2">
+  <advance width="1445.912408759124"/>
+  <anchor x="706.978102189781" y="0.0" name="bottom"/>
+  <anchor x="706.3138686131387" y="646.3357664233577" name="center"/>
+  <anchor x="786.4598540145986" y="11.343065693430656" name="ogonek"/>
+  <anchor x="827.1240875912409" y="0.0" name="q"/>
+  <anchor x="707.8102189781021" y="1286.7737226277372" name="top"/>
+  <anchor x="15.671532846715326" y="754.4525547445255" name="topleft"/>
+  <anchor x="989.4306569343065" y="1293.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="slashocomb.sc" xOffset="41.313868613138695" yOffset="5.335766423357664"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o.sc</string>
+    </dict>
+  </lib>
+</glyph>

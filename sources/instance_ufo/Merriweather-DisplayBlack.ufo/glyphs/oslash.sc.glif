@@ -1,19 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslash.sc" format="2">
-  <advance width="1354"/>
-  <anchor x="710" y="0" name="bottom"/>
-  <anchor x="677" y="648" name="center"/>
-  <anchor x="745" y="20" name="ogonek"/>
-  <anchor x="796" y="0" name="q"/>
-  <anchor x="677" y="1360" name="top"/>
-  <anchor x="45" y="1293" name="topleft"/>
-  <anchor x="957" y="1293" name="topright"/>
+  <advance width="1361.8832116788321"/>
+  <anchor x="705.2700729927008" y="0.0" name="bottom"/>
+  <anchor x="681.2043795620438" y="647.4744525547445" name="center"/>
+  <anchor x="751.0437956204379" y="19.474452554744527" name="ogonek"/>
+  <anchor x="799.4160583941605" y="0.0" name="q"/>
+  <anchor x="681.2043795620439" y="1336.8759124087592" name="top"/>
+  <anchor x="40.532846715328475" y="1292.7372262773722" name="topleft"/>
+  <anchor x="951.7445255474452" y="1293.0" name="topright"/>
   <outline>
     <component base="o.sc"/>
-    <component base="slashocomb.sc" xOffset="12" yOffset="7"/>
+    <component base="slashocomb.sc" xOffset="16.204379562043794" yOffset="6.474452554744525"/>
   </outline>
   <lib>
     <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>o.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>

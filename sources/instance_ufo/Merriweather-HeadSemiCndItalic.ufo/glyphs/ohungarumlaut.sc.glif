@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohungarumlaut.sc" format="2">
+  <advance width="1167.4003490955251"/>
+  <anchor x="517.2268327515075" y="0.0" name="bottom"/>
+  <anchor x="599.2902253252935" y="646.9996826404316" name="center"/>
+  <anchor x="682.0667248492542" y="16.61234528721041" name="ogonek"/>
+  <anchor x="695.5764043160901" y="1326.3507616629643" name="top"/>
+  <anchor x="147.17073944779435" y="1242.8686131386862" name="topleft"/>
+  <anchor x="911.5506188511583" y="1234.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="hungarumlautcomb" xOffset="339.08394160583936" yOffset="216.35076166296415"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

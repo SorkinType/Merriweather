@@ -1,15 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohorntilde.sc" format="2">
-  <advance width="1347.6464088397788"/>
-  <anchor x="698.1215469613259" y="0.0" name="bottom"/>
-  <anchor x="673.961325966851" y="648.0" name="center"/>
-  <anchor x="758.8121546961327" y="17.23756906077348" name="ogonek"/>
-  <anchor x="788.2651933701658" y="0.0" name="q"/>
-  <anchor x="673.9613259668508" y="1771.0607734806629" name="top"/>
-  <anchor x="36.4364640883978" y="1293.0" name="topleft"/>
-  <anchor x="940.4254143646409" y="1293.0" name="topright"/>
+  <advance width="1352.8438117514215"/>
+  <anchor x="694.3352824938501" y="0.0" name="bottom"/>
+  <anchor x="676.7865064322298" y="647.329273702464" name="center"/>
+  <anchor x="759.9198693390329" y="17.437915876920595" name="ogonek"/>
+  <anchor x="790.447231519942" y="0.0" name="q"/>
+  <anchor x="676.7139170060896" y="1751.8260273420171" name="top"/>
+  <anchor x="32.76779449126912" y="1292.7372262773722" name="topleft"/>
+  <anchor x="936.6217284348913" y="1293.0" name="topright"/>
   <outline>
     <component base="ohorn.sc"/>
-    <component base="tildecomb" xOffset="352.23204419889504" yOffset="250.0"/>
+    <component base="tildecomb" xOffset="337.3105617615034" yOffset="226.68572811227165"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

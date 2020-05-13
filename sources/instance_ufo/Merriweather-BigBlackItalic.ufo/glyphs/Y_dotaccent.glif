@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ydotaccent" format="2">
+  <advance width="1188"/>
+  <unicode hex="1E8E"/>
+  <anchor x="525" y="0" name="bottom"/>
+  <anchor x="590" y="469" name="center"/>
+  <anchor x="775" y="1872" name="top"/>
+  <anchor x="155" y="1486" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="dotaccentcomb.case" xOffset="405"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

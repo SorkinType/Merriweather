@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ugrave" format="2">
+  <advance width="1455.8832116788321"/>
+  <unicode hex="00D9"/>
+  <anchor x="611.3430656934306" y="0.0" name="bottom"/>
+  <anchor x="825.1678832116788" y="20.0" name="ogonek"/>
+  <anchor x="863.6204379562043" y="1486.0" name="top"/>
+  <anchor x="1379.7007299270074" y="1486.0" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="gravecomb.case" xOffset="395.62043795620434"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

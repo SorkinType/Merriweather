@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorngrave" format="2">
+  <advance width="1282.8686131386864"/>
+  <unicode hex="1EDD"/>
+  <anchor x="641.9343065693432" y="0.0" name="bottom"/>
+  <anchor x="641.9343065693432" y="547.1021897810219" name="center"/>
+  <anchor x="705.8175182481752" y="10.0" name="ogonek"/>
+  <anchor x="641.9343065693432" y="1798.6642335766423" name="top"/>
+  <anchor x="1033.7518248175181" y="1094.036496350365" name="topright"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="gravecomb" xOffset="278.9562043795621" yOffset="1.6642335766423357"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

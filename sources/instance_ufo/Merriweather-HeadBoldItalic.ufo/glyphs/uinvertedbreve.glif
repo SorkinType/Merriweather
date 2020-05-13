@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uinvertedbreve" format="2">
+  <advance width="1155.4890510948906"/>
+  <unicode hex="0217"/>
+  <anchor x="515.8997143763885" y="0.0" name="bottom"/>
+  <anchor x="984.9911139320851" y="0.0" name="bottomright"/>
+  <anchor x="925.6153602031101" y="12.262773722627736" name="ogonek"/>
+  <anchor x="744.1920025388765" y="1622.3052999047925" name="top"/>
+  <anchor x="956.6271025071405" y="1078.0168200571247" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="breveinvertedcomb" xOffset="271.8590923516344" yOffset="-29.28911456680419"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

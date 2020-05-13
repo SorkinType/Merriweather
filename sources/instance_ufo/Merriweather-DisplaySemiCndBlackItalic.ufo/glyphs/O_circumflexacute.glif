@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ocircumflexacute" format="2">
+  <advance width="1259.7883211678834"/>
+  <unicode hex="1ED0"/>
+  <anchor x="575.4233576642335" y="0.0" name="bottom"/>
+  <anchor x="675.0" y="744.0" name="center"/>
+  <anchor x="686.0" y="0.0" name="ogonek"/>
+  <anchor x="769.1021897810218" y="1486.0" name="top"/>
+  <anchor x="146.34306569343067" y="1486.0" name="topleft"/>
+  <anchor x="918.7372262773722" y="1486.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="circumflexcomb_acutecomb.case" xOffset="313.6058394160584"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

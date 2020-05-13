@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ucaron" format="2">
+  <advance width="1094.2043795620436"/>
+  <unicode hex="01D4"/>
+  <anchor x="498.6569343065693" y="0.0" name="bottom"/>
+  <anchor x="965.7007299270073" y="0.0" name="bottomright"/>
+  <anchor x="909.3284671532847" y="0.0" name="ogonek"/>
+  <anchor x="679.0656934306569" y="1521.0729927007299" name="top"/>
+  <anchor x="915.051094890511" y="1035.7445255474452" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="caroncomb" xOffset="255.33576642335765"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

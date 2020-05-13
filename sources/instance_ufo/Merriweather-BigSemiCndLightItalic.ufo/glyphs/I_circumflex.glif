@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Icircumflex" format="2">
+  <advance width="538"/>
+  <unicode hex="00CE"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="382" y="-164" name="btm"/>
+  <anchor x="215" y="0" name="ogonek"/>
+  <anchor x="487" y="2073" name="top"/>
+  <anchor x="199" y="1486" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="circumflexcomb.case" xOffset="-19"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

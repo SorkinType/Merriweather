@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Scarondotaccent" format="2">
+  <advance width="1110.197080291971"/>
+  <unicode hex="1E66"/>
+  <anchor x="470.29197080291965" y="0.0" name="bottom"/>
+  <anchor x="798.0" y="2268.029197080292" name="top"/>
+  <outline>
+    <component base="S"/>
+    <component base="caroncomb.case" xOffset="226.38686131386862" yOffset="-0.38686131386861317"/>
+    <component base="dotaccentcomb.case" xOffset="432.2919708029197" yOffset="396.02919708029196"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

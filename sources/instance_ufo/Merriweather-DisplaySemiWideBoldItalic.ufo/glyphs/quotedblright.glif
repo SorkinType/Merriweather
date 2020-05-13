@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblright" format="2">
+  <advance width="935.0019041574103"/>
+  <unicode hex="201D"/>
+  <outline>
+    <component base="quoteleft" xScale="-0.9555452173913044" yScale="-1.0138647826086955" xOffset="1144.3719454141542" yOffset="2640.7740399873055"/>
+    <component base="quoteleft" xScale="-0.9555452173913044" yScale="-1.0138647826086955" xOffset="732.4684227229452" yOffset="2640.7740399873055"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>quoteleft</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>quoteleft</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|quoteleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|quoteleft</string>
+    </dict>
+  </lib>
+</glyph>

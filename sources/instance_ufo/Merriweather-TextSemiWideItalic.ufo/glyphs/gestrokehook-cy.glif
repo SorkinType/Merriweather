@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gestrokehook-cy" format="2">
+  <advance width="905.3709139955571"/>
+  <unicode hex="04FB"/>
+  <anchor x="380.4467629324024" y="0.0" name="bottom"/>
+  <anchor x="451.3928471913678" y="549.2080291970804" name="center"/>
+  <anchor x="349.4658045065059" y="0.0" name="hook"/>
+  <anchor x="540.0538486194858" y="1110.0" name="top"/>
+  <outline>
+    <component base="ge-cy"/>
+    <component base="hook_cy.part" xOffset="55.409869882576956" yOffset="1.0054744525547445"/>
+    <component base="strokeshortcomb" xOffset="64.57989527134244" yOffset="-9.071247223103777"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ge-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ge-cy</string>
+    </dict>
+  </lib>
+</glyph>

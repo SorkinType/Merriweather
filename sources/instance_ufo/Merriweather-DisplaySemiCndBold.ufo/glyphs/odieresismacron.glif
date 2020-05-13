@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odieresismacron" format="2">
+  <advance width="968.3801266282211"/>
+  <unicode hex="022B"/>
+  <anchor x="484.29189014800176" y="0.0" name="bottom"/>
+  <anchor x="484.29189014800176" y="519.9350324636044" name="center"/>
+  <anchor x="550.0131870790822" y="10.0" name="ogonek"/>
+  <anchor x="484.62180908980923" y="1783.0421421946203" name="top"/>
+  <anchor x="701.444610235109" y="1032.9716094688874" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="dieresiscomb" xOffset="147.54393676654433" yOffset="0.38036859297495673"/>
+    <component base="macroncomb" xOffset="221.48030003629472" yOffset="367.6553615356696"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

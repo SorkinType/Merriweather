@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Utildeacute" format="2">
+  <advance width="1239.0031735956838"/>
+  <unicode hex="1E78"/>
+  <anchor x="627.7673754363693" y="0.0" name="bottom"/>
+  <anchor x="722.3792446842273" y="20.0" name="ogonek"/>
+  <anchor x="891.9660425261822" y="2307.4928594097114" name="top"/>
+  <anchor x="1186.3129165344335" y="1486.0" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="tildecomb.case" xOffset="296.27102507140586"/>
+    <component base="acutecomb.case" xOffset="552.0923516344018" yOffset="396.548714693748"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

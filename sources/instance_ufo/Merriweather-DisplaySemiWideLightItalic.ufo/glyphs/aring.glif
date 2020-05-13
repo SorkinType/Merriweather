@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aring" format="2">
+  <advance width="1058.051094890511"/>
+  <unicode hex="00E5"/>
+  <anchor x="458.53284671532845" y="0.0" name="bottom"/>
+  <anchor x="1057.4233576642334" y="1622.0" name="caron"/>
+  <anchor x="860.7591240875913" y="0.0" name="ogonek"/>
+  <anchor x="974.1970802919708" y="1423.4744525547446" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="ringcomb" xOffset="318.6642335766423" yOffset="-0.5255474452554745"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

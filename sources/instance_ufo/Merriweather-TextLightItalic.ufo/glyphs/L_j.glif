@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lj" format="2">
+  <advance width="1676.6715328467153"/>
+  <unicode hex="01C8"/>
+  <anchor x="521.8029197080292" y="0.0" name="bottom"/>
+  <anchor x="824.8394160583942" y="1110.0" name="car"/>
+  <anchor x="892.07299270073" y="1618.0" name="caron"/>
+  <anchor x="341.021897810219" y="743.0" name="center"/>
+  <anchor x="419.963503649635" y="1486.0" name="top_1"/>
+  <anchor x="1509.7372262773722" y="1490.5474452554745" name="top_2"/>
+  <anchor x="1247.2084306569343" y="1486.0" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="j" xOffset="1121.7737226277372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>L</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>j</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yeru-cy" format="2">
+  <advance width="2037.3122818152967"/>
+  <unicode hex="042B"/>
+  <anchor x="1145.4763567121547" y="1486.0" name="top"/>
+  <anchor x="1569.7543636940654" y="0.0" name="bottom"/>
+  <anchor x="1749.754681053634" y="-164.0" name="btm"/>
+  <anchor x="1596.312599174865" y="0.0" name="ogonek"/>
+  <anchor x="1426.575690257061" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="Softsign-cy"/>
+    <component base="I-cy" xOffset="1270.0980641066328"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Softsign-cy</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>I-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Pe-cy</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorntilde" format="2">
+  <advance width="1150.5804506505872"/>
+  <unicode hex="1EEF"/>
+  <anchor x="496.023484608061" y="0.0" name="bottom"/>
+  <anchor x="936.4477943509997" y="0.0" name="bottomright"/>
+  <anchor x="855.4582672167566" y="0.0" name="ogonek"/>
+  <anchor x="683.7073944779435" y="1530.5217391304348" name="top"/>
+  <anchor x="929.2995874325611" y="1104.0942557918122" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="tildecomb" xOffset="204.33640114249445"/>
+    <component base="horncomb" xOffset="989.2411932719771" yOffset="1104.0942557918122"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uhorn</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aringacute" format="2">
+  <advance width="1047.3812154696134"/>
+  <unicode hex="01FB"/>
+  <anchor x="497.13812154696126" y="0.0" name="bottom"/>
+  <anchor x="849.8232044198894" y="20.0" name="ogonek"/>
+  <anchor x="850.9889502762431" y="1958.1381215469612" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="ringcomb" xOffset="248.1878453038674"/>
+    <component base="acutecomb" xOffset="646.7734806629835" yOffset="383.6629834254144"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

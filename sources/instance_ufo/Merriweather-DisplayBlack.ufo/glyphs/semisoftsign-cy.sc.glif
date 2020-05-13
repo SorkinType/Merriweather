@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semisoftsign-cy.sc" format="2">
-  <advance width="1315"/>
+  <advance width="1318.941605839416"/>
   <outline>
     <contour>
-      <point x="41" y="910" type="line"/>
-      <point x="794" y="910" type="line"/>
-      <point x="794" y="987" type="line"/>
-      <point x="41" y="987" type="line"/>
+      <point x="49.93430656934307" y="909.2116788321168" type="line"/>
+      <point x="771.6642335766423" y="909.2116788321168" type="line"/>
+      <point x="771.6642335766423" y="997.5109489051096" type="line"/>
+      <point x="49.93430656934307" y="997.5109489051096" type="line"/>
     </contour>
-    <component base="softsign-cy.sc"/>
+    <component base="softsign-cy.sc" xOffset="-8.881784197001252e-16"/>
   </outline>
   <lib>
     <dict>
@@ -16,42 +16,6 @@
       <string>softsign-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>softsign-cy.sc</string>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>803</integer>
-            <integer>1255</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>73</integer>
-            <integer>1255</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>71</integer>
-            <integer>37</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat" format="2">
+  <advance width="1166.4386702634085"/>
+  <unicode hex="0111"/>
+  <anchor x="496.6352745160267" y="0.0" name="bottom"/>
+  <anchor x="1254.651856553475" y="1622.0" name="caron"/>
+  <anchor x="393.52570612503973" y="1110.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="605.7520628371944" y="1258.5345921929545" type="line"/>
+      <point x="1245.5181688352905" y="1258.5345921929545" type="line"/>
+      <point x="1258.5298317994288" y="1352.9826245636307" type="line"/>
+      <point x="619.1502697556332" y="1352.9826245636307" type="line"/>
+    </contour>
+    <component base="d"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>d</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>d</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

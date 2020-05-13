@@ -1,13 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhornhookabove" format="2">
-  <advance width="1461.2581617277751"/>
+  <advance width="1463.1091261039642"/>
   <unicode hex="1EEC"/>
   <anchor x="774.0" y="0.0" name="bottom"/>
   <anchor x="1340.0" y="20.0" name="ogonek"/>
-  <anchor x="792.2817679558011" y="1486.0" name="top"/>
-  <anchor x="1443.8016072325465" y="1486.0" name="topright"/>
+  <anchor x="792.9592692664435" y="1486.0" name="top"/>
+  <anchor x="1443.9247892890269" y="1486.0" name="topright"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="hookabovecomb.case" xOffset="591.5128076343547"/>
+    <component base="hookabovecomb.case" xOffset="591.862644674759"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

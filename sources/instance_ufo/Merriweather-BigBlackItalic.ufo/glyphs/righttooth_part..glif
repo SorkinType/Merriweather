@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="righttooth_part." format="2">
+  <advance width="328"/>
+  <anchor x="283" y="0" name="_bottomright"/>
+  <outline>
+    <contour>
+      <point x="-2" y="-406" type="curve"/>
+      <point x="166" y="-406" type="line"/>
+      <point x="200" y="-311"/>
+      <point x="263" y="-162"/>
+      <point x="300" y="73" type="curve"/>
+      <point x="-33" y="73" type="line"/>
+      <point x="11" y="0" type="line"/>
+      <point x="24" y="-87"/>
+      <point x="12" y="-317"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>de-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy</string>
+    </dict>
+  </lib>
+</glyph>

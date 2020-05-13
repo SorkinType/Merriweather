@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oogonek" format="2">
+  <advance width="985.5985401459855"/>
+  <unicode hex="01EB"/>
+  <anchor x="428.77372262773724" y="-1.6642335766423357" name="bottom"/>
+  <anchor x="493.46715328467155" y="549.9343065693431" name="center"/>
+  <anchor x="517.1386861313869" y="20.0" name="ogonek"/>
+  <anchor x="584.3284671532847" y="1110.0" name="top"/>
+  <anchor x="700.2992700729927" y="1092.3722627737227" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="ogonekcomb" xOffset="371.4379562043796" yOffset="20.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

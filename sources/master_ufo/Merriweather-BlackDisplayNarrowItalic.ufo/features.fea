@@ -14,6 +14,7 @@
 # automatic
 languagesystem DFLT dflt;
 
+
 languagesystem latn dflt;
 languagesystem latn AZE;
 languagesystem latn CRT;
@@ -24,6 +25,7 @@ languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn CAT;
 languagesystem latn NLD;
+
 
 languagesystem cyrl dflt;
 languagesystem cyrl BGR;
@@ -69,10 +71,12 @@ lookup ccmp_Other_1 {
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
 
+
 lookup ccmp_Other_2 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
+
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -94,6 +98,7 @@ lookup ccmp_latn_1 {
 	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
 } ccmp_latn_1;
 
+
 script latn;
 lookup ccmp_latn_1;
 
@@ -111,6 +116,7 @@ lookup locl_latn_0 {
 	sub i by idotaccent;
 } locl_latn_0;
 
+
 lookup locl_latn_1 {
 	script latn;
 	language ROM;
@@ -121,6 +127,7 @@ lookup locl_latn_1 {
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
 
+
 lookup locl_latn_2 {
 	script latn;
 	language CAT;
@@ -128,12 +135,14 @@ lookup locl_latn_2 {
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
 
+
 lookup locl_latn_3 {
 	script latn;
 	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
+
 
 lookup locl_cyrl_0 {
 	script cyrl;
@@ -166,6 +175,7 @@ lookup locl_cyrl_0 {
 	sub iu-cy by iu-cy.loclBGR;
 } locl_cyrl_0;
 
+
 lookup locl_cyrl_1 {
 	script cyrl;
 	language BSH;
@@ -177,6 +187,7 @@ lookup locl_cyrl_1 {
 	sub esdescender-cy by esdescender-cy.loclBSH;
 } locl_cyrl_1;
 
+
 lookup locl_cyrl_2 {
 	script cyrl;
 	language CHU;
@@ -184,11 +195,13 @@ lookup locl_cyrl_2 {
 	sub esdescender-cy by esdescender-cy.loclCHU;
 } locl_cyrl_2;
 
+
 lookup locl_cyrl_3 {
 	script cyrl;
 	language MKD;
 	sub gje-cy by gje-cy.loclMKD;
 } locl_cyrl_3;
+
 
 lookup locl_cyrl_4 {
 	script cyrl;
@@ -432,10 +445,12 @@ feature frac {
         sub @figures slash' @figures by fraction;
    } FractionBar;
 
+
    lookup Numerator1 {
         sub @figures'
         fraction by @numerators;
    } Numerator1;
+
 
    lookup Numerator2 {
         sub @figures'
@@ -443,12 +458,14 @@ feature frac {
         fraction by @numerators;
    } Numerator2;
 
+
    lookup Numerator3 {
         sub @figures'
         @numerators
         @numerators
         fraction by @numerators;
    } Numerator3;
+
 
    lookup Numerator4 {
         sub @figures'
@@ -458,6 +475,7 @@ feature frac {
         fraction by @numerators;
    } Numerator4;
 
+
    lookup Numerator5 {
         sub @figures'
         @numerators
@@ -466,6 +484,7 @@ feature frac {
         @numerators
         fraction by @numerators;
    } Numerator5;
+
 
    lookup Numerator6 {
         sub @figures'
@@ -477,6 +496,7 @@ feature frac {
         fraction by @numerators;
    } Numerator6;
 
+
    lookup Numerator7 {
         sub @figures'
         @numerators
@@ -487,6 +507,7 @@ feature frac {
         @numerators
         fraction by @numerators;
    } Numerator7;
+
 
    lookup Numerator8 {
         sub @figures'
@@ -500,6 +521,7 @@ feature frac {
         fraction by @numerators;
    } Numerator8;
 
+
    lookup Numerator9 {
         sub @figures'
         @numerators
@@ -512,6 +534,7 @@ feature frac {
         @numerators
         fraction by @numerators;
    } Numerator9;
+
 
    lookup Numerator10 {
         sub @figures'
@@ -527,10 +550,12 @@ feature frac {
         fraction by @numerators;
    } Numerator10;
 
+
    lookup Denominator {
         sub [fraction @denominators]
         @figures' by @denominators;
    } Denominator;
+
 
    sub @figures space' @numerators by thinspace;
 
@@ -1632,7 +1657,7 @@ lookup capSharpS {
 table GDEF {
   # automatic
   GlyphClassDef
-    [A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B Bdotaccent Bdotbelow C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZ DZcaron Eth Dcaron Dcroat Ddotaccent Ddotbelow Dlinebelow Dz Dzcaron E Eacute Ebreve Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Ezh Ezhcaron F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbrevebelow Hcircumflex Hdotbelow I IJ IJ_acutecomb Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Macute Mdotaccent Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron P Pdotaccent Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow I.uc a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adotbelow agrave ahookabove ainvertedbreve amacron aogonek aring aringacute atilde ae aeacute b bdotaccent bdotbelow c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d dcaron dcroat ddotaccent ddotbelow dlinebelow dz dzcaron e eacute ebreve ecaron ecedilla ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa ezh ezhcaron f fdotaccent g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron gstroke h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve ij ij_acutecomb imacron iogonek itilde j jdotless jacute jcircumflex k kcaron kcommaaccent l lacute lcaron lcommaaccent ldot ldotbelow lj llinebelow lslash m macute mdotaccent mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow nj nlinebelow ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron p pdotaccent q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent t tbar tcaron tcedilla tcommaaccent tdieresis tdotaccent tdotbelow tlinebelow u uacute ubreve ucaron ucircumflex udblgrave udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent zdotbelow i.dot a.sc aacute.sc abreve.sc abreveacute.sc abrevedotbelow.sc abrevegrave.sc abrevehookabove.sc abrevetilde.sc acaron.sc acircumflex.sc acircumflexacute.sc acircumflexdotbelow.sc acircumflexgrave.sc acircumflexhookabove.sc acircumflextilde.sc adblgrave.sc adieresis.sc adotbelow.sc agrave.sc ahookabove.sc ainvertedbreve.sc amacron.sc aogonek.sc aring.sc aringacute.sc atilde.sc ae.sc aeacute.sc b.sc bdotaccent.sc bdotbelow.sc c.sc cacute.sc ccaron.sc ccedilla.sc ccedillaacute.sc ccircumflex.sc cdotaccent.sc d.sc eth.sc dcaron.sc dcroat.sc ddotaccent.sc ddotbelow.sc dlinebelow.sc i.dot.sc e.sc eacute.sc ebreve.sc ecaron.sc ecedilla.sc ecedillabreve.sc ecircumflex.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc ecircumflextilde.sc edblgrave.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc einvertedbreve.sc emacron.sc emacronacute.sc emacrongrave.sc eogonek.sc etilde.sc schwa.sc f.sc fdotaccent.sc g.sc gacute.sc gbreve.sc gcaron.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc gmacron.sc gstroke.sc h.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc i.sc iacute.sc ibreve.sc icaron.sc icircumflex.sc idblgrave.sc idieresis.sc idieresisacute.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc iinvertedbreve.sc ij.sc ij_acutecomb.sc imacron.sc iogonek.sc itilde.sc j.sc jdotless.sc jacute.sc jcircumflex.sc k.sc kcaron.sc kcommaaccent.sc kgreenlandic.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc llinebelow.sc lslash.sc m.sc macute.sc mdotaccent.sc mdotbelow.sc n.sc nacute.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc nj.sc nlinebelow.sc ntilde.sc o.sc oacute.sc obreve.sc ocaron.sc ocircumflex.sc ocircumflexacute.sc ocircumflexdotbelow.sc ocircumflexgrave.sc ocircumflexhookabove.sc ocircumflextilde.sc odblgrave.sc odieresis.sc odieresismacron.sc odotaccentmacron.sc odotbelow.sc ograve.sc ohookabove.sc ohorn.sc ohornacute.sc ohorndotbelow.sc ohorngrave.sc ohornhookabove.sc ohorntilde.sc ohungarumlaut.sc oinvertedbreve.sc omacron.sc omacronacute.sc omacrongrave.sc oogonek.sc oslash.sc oslashacute.sc otilde.sc otildeacute.sc otildedieresis.sc otildemacron.sc p.sc pdotaccent.sc q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdblgrave.sc rdotbelow.sc rinvertedbreve.sc rlinebelow.sc s.sc sacute.sc sacutedotaccent.sc scaron.sc scarondotaccent.sc scedilla.sc scircumflex.sc scommaaccent.sc sdotaccent.sc sdotbelow.sc sdotbelowdotaccent.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotaccent.sc tdotbelow.sc tlinebelow.sc u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udblgrave.sc udieresis.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc uhungarumlaut.sc uinvertedbreve.sc umacron.sc umacrondieresis.sc uogonek.sc uring.sc utilde.sc utildeacute.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc x.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc ytilde.sc z.sc zacute.sc zcaron.sc zdotaccent.sc zdotbelow.sc A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Yeru-cy Dze-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Izhitsa-cy Ghestroke-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kastroke-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hastroke-cy Komitje-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy Eldescender-cy Ii-cy.loclBGR Iishort-cy.loclBGR Iigrave-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH a-cy ge-cy gje-cy gheupturn-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy dje-cy fita-cy izhitsa-cy zhedescender-cy zedescender-cy kadescender-cy kastroke-cy endescender-cy pedescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy tetse-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy aie-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hastroke-cy komide-cy komidje-cy kominje-cy komisje-cy qa-cy we-cy ertick-cy eldescender-cy de-cy.loclBGR ii-cy.loclBGR iishort-cy.loclBGR iigrave-cy.loclBGR ka-cy.loclBGR en-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR che-cy.loclBGR tse-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR softsign-cy.loclBGR zedescender-cy.loclBSH esdescender-cy.loclBSH gje-cy.loclMKD ge-cy.loclSRB de-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB a-cy.sc ve-cy.sc ge-cy.sc gje-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc zhe-cy.sc ze-cy.sc ii-cy.sc iishort-cy.sc iishorttail-cy.sc iigrave-cy.sc ka-cy.sc kje-cy.sc el-cy.sc em-cy.sc en-cy.sc o-cy.sc pe-cy.sc er-cy.sc es-cy.sc te-cy.sc u-cy.sc ushort-cy.sc ha-cy.sc che-cy.sc sha-cy.sc shcha-cy.sc yeru-cy.sc dze-cy.sc ereversed-cy.sc i-cy.sc yi-cy.sc je-cy.sc iu-cy.sc ia-cy.sc fita-cy.sc ghestroke-cy.sc ghemiddlehook-cy.sc zhedescender-cy.sc zedescender-cy.sc kadescender-cy.sc kastroke-cy.sc endescender-cy.sc pemiddlehook-cy.sc pedescender-cy.sc esdescender-cy.sc tedescender-cy.sc hadescender-cy.sc chedescender-cy.sc cheverticalstroke-cy.sc shha-cy.sc shhadescender-cy.sc eldescender-cy.sc cheabkhasian-cy.sc chedescenderabkhasian-cy.sc palochka-cy.sc zhebreve-cy.sc eltail-cy.sc entail-cy.sc chekhakassian-cy.sc emtail-cy.sc abreve-cy.sc adieresis-cy.sc aie-cy.sc iebreve-cy.sc schwa-cy.sc schwadieresis-cy.sc zhedieresis-cy.sc zedieresis-cy.sc imacron-cy.sc idieresis-cy.sc odieresis-cy.sc obarred-cy.sc obarreddieresis-cy.sc edieresis-cy.sc umacron-cy.sc udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy.sc gedescender-cy.sc yerudieresis-cy.sc gestrokehook-cy.sc hastroke-cy.sc qa-cy.sc we-cy.sc ertick-cy.sc ve-cy.loclBGR.sc iishort-cy.loclBGR.sc iigrave-cy.loclBGR.sc en-cy.loclBGR.sc te-cy.loclBGR.sc ghestroke-cy.loclBSH.sc zedescender-cy.loclBSH.sc esdescender-cy.loclBSH.sc esdescender-cy.loclCHU.sc mu.sc one one.lf one.sc bitcoin rupeeIndian tugrik won ringhalfleft ringhalfright verticallinelowmod verticallinemod dieresis dotaccent grave acute circumflex caron breve ring tilde macron ustrait-cy.sc ustraitstroke-cy.sc dieresis-cy dieresiscomb-cy.case], # Base
+    [A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B Bdotaccent Bdotbelow C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZ DZcaron Eth Dcaron Dcroat Ddotaccent Ddotbelow Dlinebelow Dz Dzcaron E Eacute Ebreve Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Ezh Ezhcaron F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbrevebelow Hcircumflex Hdotbelow I IJ IJ_acutecomb Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Macute Mdotaccent Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron P Pdotaccent Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow I.uc a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adblgrave adieresis adotbelow agrave ahookabove ainvertedbreve amacron aogonek aring aringacute atilde ae aeacute b bdotaccent bdotbelow c cacute ccaron ccedilla ccedillaacute ccircumflex cdotaccent d dcaron dcroat ddotaccent ddotbelow dlinebelow dz dzcaron e eacute ebreve ecaron ecedilla ecedillabreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edblgrave edieresis edotaccent edotbelow egrave ehookabove einvertedbreve emacron emacronacute emacrongrave eogonek etilde schwa ezh ezhcaron f fdotaccent g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron gstroke h hbar hbrevebelow hcircumflex hdotbelow i idotless iacute ibreve icaron icircumflex idblgrave idieresis idieresisacute idotaccent idotbelow igrave ihookabove iinvertedbreve ij ij_acutecomb imacron iogonek itilde j jdotless jacute jcircumflex k kcaron kcommaaccent l lacute lcaron lcommaaccent ldot ldotbelow lj llinebelow lslash m macute mdotaccent mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow nj nlinebelow ntilde o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odblgrave odieresis odieresismacron odotaccentmacron odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut oinvertedbreve omacron omacronacute omacrongrave oogonek oslash oslashacute otilde otildeacute otildedieresis otildemacron p pdotaccent q r racute rcaron rcommaaccent rdblgrave rdotbelow rinvertedbreve rlinebelow s sacute sacutedotaccent scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent t tbar tcaron tcedilla tcommaaccent tdieresis tdotaccent tdotbelow tlinebelow u uacute ubreve ucaron ucircumflex udblgrave udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut uinvertedbreve umacron umacrondieresis uogonek uring utilde utildeacute v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent zdotbelow i.dot a.sc aacute.sc abreve.sc abreveacute.sc abrevedotbelow.sc abrevegrave.sc abrevehookabove.sc abrevetilde.sc acaron.sc acircumflex.sc acircumflexacute.sc acircumflexdotbelow.sc acircumflexgrave.sc acircumflexhookabove.sc acircumflextilde.sc adblgrave.sc adieresis.sc adotbelow.sc agrave.sc ahookabove.sc ainvertedbreve.sc amacron.sc aogonek.sc aring.sc aringacute.sc atilde.sc ae.sc aeacute.sc b.sc bdotaccent.sc bdotbelow.sc c.sc cacute.sc ccaron.sc ccedilla.sc ccedillaacute.sc ccircumflex.sc cdotaccent.sc d.sc eth.sc dcaron.sc dcroat.sc ddotaccent.sc ddotbelow.sc dlinebelow.sc i.dot.sc e.sc eacute.sc ebreve.sc ecaron.sc ecedilla.sc ecedillabreve.sc ecircumflex.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc ecircumflextilde.sc edblgrave.sc edieresis.sc edotaccent.sc edotbelow.sc egrave.sc ehookabove.sc einvertedbreve.sc emacron.sc emacronacute.sc emacrongrave.sc eogonek.sc etilde.sc schwa.sc f.sc fdotaccent.sc g.sc gacute.sc gbreve.sc gcaron.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc gmacron.sc gstroke.sc h.sc hbrevebelow.sc hcircumflex.sc hdotbelow.sc i.sc iacute.sc ibreve.sc icaron.sc icircumflex.sc idblgrave.sc idieresis.sc idieresisacute.sc idotaccent.sc idotbelow.sc igrave.sc ihookabove.sc iinvertedbreve.sc ij.sc ij_acutecomb.sc imacron.sc iogonek.sc itilde.sc j.sc jdotless.sc jacute.sc jcircumflex.sc k.sc kcaron.sc kcommaaccent.sc kgreenlandic.sc l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc ldotbelow.sc llinebelow.sc lslash.sc m.sc macute.sc mdotaccent.sc mdotbelow.sc n.sc nacute.sc ncaron.sc ncommaaccent.sc ndotaccent.sc ndotbelow.sc nj.sc nlinebelow.sc ntilde.sc o.sc oacute.sc obreve.sc ocaron.sc ocircumflex.sc ocircumflexacute.sc ocircumflexdotbelow.sc ocircumflexgrave.sc ocircumflexhookabove.sc ocircumflextilde.sc odblgrave.sc odieresis.sc odieresismacron.sc odotaccentmacron.sc odotbelow.sc ograve.sc ohookabove.sc ohorn.sc ohornacute.sc ohorndotbelow.sc ohorngrave.sc ohornhookabove.sc ohorntilde.sc ohungarumlaut.sc oinvertedbreve.sc omacron.sc omacronacute.sc omacrongrave.sc oogonek.sc oslash.sc oslashacute.sc otilde.sc otildeacute.sc otildedieresis.sc otildemacron.sc p.sc pdotaccent.sc q.sc r.sc racute.sc rcaron.sc rcommaaccent.sc rdblgrave.sc rdotbelow.sc rinvertedbreve.sc rlinebelow.sc s.sc sacute.sc sacutedotaccent.sc scaron.sc scarondotaccent.sc scedilla.sc scircumflex.sc scommaaccent.sc sdotaccent.sc sdotbelow.sc sdotbelowdotaccent.sc t.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdieresis.sc tdotaccent.sc tdotbelow.sc tlinebelow.sc u.sc uacute.sc ubreve.sc ucaron.sc ucircumflex.sc udblgrave.sc udieresis.sc udotbelow.sc ugrave.sc uhookabove.sc uhorn.sc uhungarumlaut.sc uinvertedbreve.sc umacron.sc umacrondieresis.sc uogonek.sc uring.sc utilde.sc utildeacute.sc v.sc w.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc x.sc y.sc yacute.sc ycircumflex.sc ydieresis.sc ydotaccent.sc ydotbelow.sc ygrave.sc yhookabove.sc ymacron.sc ytilde.sc z.sc zacute.sc zcaron.sc zdotaccent.sc zdotbelow.sc A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Yeru-cy Dze-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Izhitsa-cy Ghestroke-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kastroke-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hastroke-cy Komitje-cy Qa-cy We-cy Semisoftsign-cy Ertick-cy Eldescender-cy Ii-cy.loclBGR Iishort-cy.loclBGR Iigrave-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH a-cy ge-cy gje-cy gheupturn-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy dje-cy fita-cy izhitsa-cy zhedescender-cy zedescender-cy kadescender-cy kastroke-cy endescender-cy pedescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy tetse-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy aie-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hastroke-cy komide-cy komidje-cy kominje-cy komisje-cy qa-cy we-cy ertick-cy eldescender-cy de-cy.loclBGR ii-cy.loclBGR iishort-cy.loclBGR iigrave-cy.loclBGR ka-cy.loclBGR en-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR che-cy.loclBGR tse-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR softsign-cy.loclBGR zedescender-cy.loclBSH esdescender-cy.loclBSH gje-cy.loclMKD ge-cy.loclSRB de-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB a-cy.sc ve-cy.sc ge-cy.sc gje-cy.sc ie-cy.sc iegrave-cy.sc io-cy.sc zhe-cy.sc ze-cy.sc ii-cy.sc iishort-cy.sc iishorttail-cy.sc iigrave-cy.sc ka-cy.sc kje-cy.sc el-cy.sc em-cy.sc en-cy.sc o-cy.sc pe-cy.sc er-cy.sc es-cy.sc te-cy.sc u-cy.sc ushort-cy.sc ha-cy.sc che-cy.sc sha-cy.sc shcha-cy.sc yeru-cy.sc dze-cy.sc ereversed-cy.sc i-cy.sc yi-cy.sc je-cy.sc iu-cy.sc ia-cy.sc fita-cy.sc ghestroke-cy.sc ghemiddlehook-cy.sc zhedescender-cy.sc zedescender-cy.sc kadescender-cy.sc kastroke-cy.sc endescender-cy.sc pemiddlehook-cy.sc pedescender-cy.sc esdescender-cy.sc tedescender-cy.sc hadescender-cy.sc chedescender-cy.sc cheverticalstroke-cy.sc shha-cy.sc shhadescender-cy.sc eldescender-cy.sc cheabkhasian-cy.sc chedescenderabkhasian-cy.sc palochka-cy.sc zhebreve-cy.sc eltail-cy.sc entail-cy.sc chekhakassian-cy.sc emtail-cy.sc abreve-cy.sc adieresis-cy.sc aie-cy.sc iebreve-cy.sc schwa-cy.sc schwadieresis-cy.sc zhedieresis-cy.sc zedieresis-cy.sc imacron-cy.sc idieresis-cy.sc odieresis-cy.sc obarred-cy.sc obarreddieresis-cy.sc edieresis-cy.sc umacron-cy.sc udieresis-cy.sc uhungarumlaut-cy.sc chedieresis-cy.sc gedescender-cy.sc yerudieresis-cy.sc gestrokehook-cy.sc hastroke-cy.sc qa-cy.sc we-cy.sc ertick-cy.sc ve-cy.loclBGR.sc iishort-cy.loclBGR.sc iigrave-cy.loclBGR.sc en-cy.loclBGR.sc te-cy.loclBGR.sc ghestroke-cy.loclBSH.sc zedescender-cy.loclBSH.sc esdescender-cy.loclBSH.sc esdescender-cy.loclCHU.sc mu.sc one one.lf one.sc bitcoin rupeeIndian tugrik won ringhalfleft ringhalfright verticallinelowmod verticallinemod dieresis dotaccent grave acute circumflex caron breve ring tilde macron ustrait-cy.sc ustraitstroke-cy.sc dieresis-cy dieresiscomb-cy.case], # Base
     [fi fl], # Liga
     [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb strokeshortcomb strokelongcomb slashshortcomb slashlongcomb dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case brevecomb-cy brevecomb-cy.case brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case], # Mark
     ;

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shhadescender-cy.sc" format="2">
+  <advance width="1086"/>
+  <anchor x="547" y="0" name="bottom"/>
+  <anchor x="1057" y="0" name="bottomright"/>
+  <anchor x="29" y="1292" name="topleft"/>
+  <anchor x="490.982" y="1292.0" name="topright"/>
+  <outline>
+    <component base="shha-cy.sc"/>
+    <component base="righttooth_part." xOffset="722"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tse-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

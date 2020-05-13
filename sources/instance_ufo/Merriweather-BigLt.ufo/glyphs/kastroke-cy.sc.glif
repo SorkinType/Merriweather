@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kastroke-cy.sc" format="2">
+  <advance width="1205"/>
+  <anchor x="1175" y="0" name="bottomright"/>
+  <anchor x="649" y="1340" name="top"/>
+  <outline>
+    <contour>
+      <point x="47" y="910" type="line"/>
+      <point x="525" y="910" type="line"/>
+      <point x="525" y="976" type="line"/>
+      <point x="47" y="976" type="line"/>
+    </contour>
+    <component base="ka-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pe-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ka-cy.sc</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1237</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>808</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>564</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>107</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>569</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1259</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

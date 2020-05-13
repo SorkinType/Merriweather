@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhornacute" format="2">
+  <advance width="1240.7810218978102"/>
+  <unicode hex="1EE8"/>
+  <anchor x="644.8832116788321" y="0.0" name="bottom"/>
+  <anchor x="720.8832116788321" y="20.0" name="ogonek"/>
+  <anchor x="848.8029197080292" y="1946.9197080291972" name="top"/>
+  <anchor x="1161.058394160584" y="1486.0" name="topright"/>
+  <outline>
+    <component base="Uhorn"/>
+    <component base="acutecomb.case" xOffset="493.6350364963504" yOffset="-1.4744525547445255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

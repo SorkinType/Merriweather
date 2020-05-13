@@ -1,5 +1,5 @@
 """
-	Script to use statmake to add STAT table to Merriweather Roman and Italic
+    Script to use statmake to add STAT table to Merriweather Roman and Italic
 """
 
 import sys
@@ -11,9 +11,9 @@ font_path = sys.argv[1]
 
 STAT = {
     "axes": [
-                {
-            "name": "Optical Size",
-            "tag": "optz",
+        {
+            "name": "Optical size",
+            "tag": "opsz",
             "locations": [
                 {
                     "name": "Small",
@@ -21,7 +21,7 @@ STAT = {
                 },
                 {
                     "name": "Text",
-                    "value": 30,
+                    "value": 30
                 },
                 {
                     "name": "Head",
@@ -77,7 +77,7 @@ STAT = {
                 {
                     "name": "Black",
                     "value": 900
-                    }
+                }
             ]
         },
         {
@@ -99,6 +99,7 @@ STAT = {
     ]
 }
 
+
 def makeStylespace(font_path):
 
     stylespace = statmake.classes.Stylespace.from_dict(STAT)
@@ -116,5 +117,6 @@ def makeStylespace(font_path):
         additional_locations=addedLocs
     )
     font.save(font_path)
+
 
 makeStylespace(font_path)

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emacrongrave.sc" format="2">
+  <advance width="1193"/>
+  <anchor x="545" y="0" name="bottom"/>
+  <anchor x="926" y="0" name="ogonek"/>
+  <anchor x="860" y="2300" name="top"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="macroncomb" xOffset="352" yOffset="273"/>
+    <component base="gravecomb" xOffset="238" yOffset="599"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

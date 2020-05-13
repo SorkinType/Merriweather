@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emacron" format="2">
+  <advance width="1008.8495715645824"/>
+  <unicode hex="0113"/>
+  <anchor x="472.06125039669945" y="0.0" name="bottom"/>
+  <anchor x="580.1294827039035" y="0.0" name="ogonek"/>
+  <anchor x="674.6321802602349" y="1414.2786417010475" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="macroncomb" xOffset="270.77911774039984" yOffset="-1.634401777213583"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

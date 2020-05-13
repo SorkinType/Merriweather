@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy" format="2">
+  <advance width="982.3977900552485"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="90.44751381215468" y="0.0" type="line"/>
+      <point x="838.1767955801106" y="0.0" type="line"/>
+      <point x="838.1767955801106" y="935.1049723756906" type="line"/>
+      <point x="926.8453038674035" y="967.5524861878453" type="line"/>
+      <point x="926.8453038674035" y="1005.0" type="line"/>
+      <point x="150.8674033149171" y="1005.0" type="line"/>
+      <point x="150.8674033149171" y="967.5524861878453" type="line"/>
+      <point x="274.3922651933702" y="935.1049723756906" type="line"/>
+      <point x="274.3922651933702" y="453.8563535911602"/>
+      <point x="219.59116022099445" y="182.51381215469613"/>
+      <point x="109.00000000000001" y="71.27624309392266" type="curve"/>
+      <point x="90.44751381215468" y="61.27624309392266" type="line"/>
+    </contour>
+    <contour>
+      <point x="205.0" y="71.27624309392263" type="line"/>
+      <point x="288.82872928176795" y="167.61878453038673"/>
+      <point x="350.18232044198896" y="443.2375690607735"/>
+      <point x="350.18232044198896" y="869.171270718232" type="curve" smooth="yes"/>
+      <point x="350.18232044198896" y="940.867403314917" type="line"/>
+      <point x="569.1767955801105" y="940.867403314917" type="line"/>
+      <point x="569.1767955801105" y="71.27624309392263" type="line"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="7.922651933701658"/>
+    <component base="righttooth_part." xOffset="678.4309392265193"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=pe-cy+10</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

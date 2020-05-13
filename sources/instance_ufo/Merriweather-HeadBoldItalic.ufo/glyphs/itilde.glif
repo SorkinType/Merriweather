@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="itilde" format="2">
+  <advance width="592.4623928911457"/>
+  <unicode hex="0129"/>
+  <anchor x="229.1370993335449" y="0.0" name="bottom"/>
+  <anchor x="318.2976832751508" y="0.0" name="ogonek"/>
+  <anchor x="410.17010472865763" y="1529.4452554744523" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="tildecomb" xOffset="-76.10250714059029" yOffset="-1.076483655982228"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

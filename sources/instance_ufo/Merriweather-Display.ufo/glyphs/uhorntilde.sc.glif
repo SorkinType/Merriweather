@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorntilde.sc" format="2">
+  <advance width="1328.6226559664478"/>
+  <anchor x="719.8945033673428" y="0.0" name="bottom"/>
+  <anchor x="1264.2038956325362" y="18.0" name="ogonek"/>
+  <anchor x="696.6994394483204" y="1704.7622696293906" name="top"/>
+  <anchor x="1182.97306125741" y="1292.207726741138" name="topright"/>
+  <outline>
+    <component base="uhorn.sc"/>
+    <component base="tildecomb" xOffset="385.7543654474331" yOffset="226.80187119409604"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

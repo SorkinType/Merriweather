@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iacute" format="2">
+  <advance width="635.391304347826"/>
+  <unicode hex="00CD"/>
+  <anchor x="253.3913043478261" y="0.0" name="bottom"/>
+  <anchor x="464.7826086956522" y="-164.0" name="btm"/>
+  <anchor x="256.73913043478257" y="0.0" name="ogonek"/>
+  <anchor x="511.0434782608696" y="1938.1304347826085" name="top"/>
+  <anchor x="194.1304347826087" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="acutecomb.case" xOffset="156.34782608695653" yOffset="-1.391304347826087"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

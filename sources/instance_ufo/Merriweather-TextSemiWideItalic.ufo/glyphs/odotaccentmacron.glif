@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotaccentmacron" format="2">
+  <advance width="1174.8471120279276"/>
+  <unicode hex="0231"/>
+  <anchor x="508.29617581720095" y="-9.880434782608697" name="bottom"/>
+  <anchor x="586.1792288162488" y="549.0000793398922" name="center"/>
+  <anchor x="636.1733576642335" y="18.94160583941606" name="ogonek"/>
+  <anchor x="753.5049190733101" y="1774.8765471278957" name="top"/>
+  <anchor x="838.1790701364647" y="1092.3722627737227" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="dotaccentcomb" xOffset="464.3646461440813"/>
+    <component base="macroncomb" xOffset="372.45017454776263" yOffset="384.072199301809"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

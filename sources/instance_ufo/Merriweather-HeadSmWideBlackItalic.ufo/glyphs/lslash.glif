@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="618.094890510949"/>
+  <unicode hex="0142"/>
+  <anchor x="250.18978102189786" y="0.0" name="bottom"/>
+  <anchor x="715.6423357664233" y="1612.8759124087592" name="caron"/>
+  <anchor x="443.57664233576645" y="1599.109489051095" name="top"/>
+  <outline>
+    <contour>
+      <point x="48.42335766423358" y="712.956204379562" type="line"/>
+      <point x="292.8394160583942" y="813.5693430656934" type="line"/>
+      <point x="417.8394160583942" y="850.8248175182482" type="line"/>
+      <point x="675.5766423357663" y="966.8248175182482" type="line"/>
+      <point x="674.963503649635" y="1082.3138686131388" type="line"/>
+      <point x="423.22627737226287" y="967.3138686131388" type="line"/>
+      <point x="302.22627737226276" y="933.0583941605839" type="line"/>
+      <point x="47.810218978102185" y="825.2189781021898" type="line"/>
+    </contour>
+    <component base="l" xOffset="18.510948905109487"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=l+10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=l+5</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

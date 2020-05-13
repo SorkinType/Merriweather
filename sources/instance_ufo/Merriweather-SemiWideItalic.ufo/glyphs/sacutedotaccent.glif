@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sacutedotaccent" format="2">
+  <advance width="898.8260869565217"/>
+  <unicode hex="1E65"/>
+  <anchor x="359.42391304347825" y="0.0" name="bottom"/>
+  <anchor x="541.25" y="1939.1304347826087" name="top"/>
+  <outline>
+    <component base="s"/>
+    <component base="acutecomb" xOffset="320.5869565217391"/>
+    <component base="dotaccentcomb" xOffset="295.35869565217394" yOffset="434.0217391304348"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

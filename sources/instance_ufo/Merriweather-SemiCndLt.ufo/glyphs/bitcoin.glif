@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bitcoin" format="2">
+  <advance width="1205"/>
+  <unicode hex="20BF"/>
+  <anchor x="566" y="0" name="bottom"/>
+  <anchor x="566" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="442" y="1738" type="line"/>
+      <point x="332" y="1738" type="line"/>
+      <point x="332" y="1440" type="line"/>
+      <point x="442" y="1440" type="line"/>
+    </contour>
+    <contour>
+      <point x="756" y="1738" type="line"/>
+      <point x="646" y="1738" type="line"/>
+      <point x="646" y="1440" type="line"/>
+      <point x="756" y="1440" type="line"/>
+    </contour>
+    <contour>
+      <point x="442" y="38" type="line"/>
+      <point x="332" y="38" type="line"/>
+      <point x="332" y="-260" type="line"/>
+      <point x="442" y="-260" type="line"/>
+    </contour>
+    <contour>
+      <point x="756" y="38" type="line"/>
+      <point x="646" y="38" type="line"/>
+      <point x="646" y="-260" type="line"/>
+      <point x="756" y="-260" type="line"/>
+    </contour>
+    <component base="B" xOffset="8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>euro</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>euro</string>
+    </dict>
+  </lib>
+</glyph>

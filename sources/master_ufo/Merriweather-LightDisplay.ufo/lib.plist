@@ -1611,7 +1611,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1322</string>
+    <string>1312</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Display</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
@@ -1882,6 +1882,16 @@ AZA/space BZB/space CZC/space DZD/space EZE/space FZF/space GZG/space HZH/space 
       <string>/ge-cy.loclSRB</string>
       <string>/pe-cy.loclSRB</string>
       <string>H/En-cy</string>
+      <string>/Aringacute</string>
+      <string>/aringacute</string>
+      <string>/Aringacute/aringacute/ringcomb.case/aringacute.sc</string>
+      <string>/Aringacute/ringcomb/aringacute/aringacute.sc</string>
+      <string>/Aringacute/aringacute/aringacute.sc</string>
+      <string>AÄ</string>
+      <string>/A-cy</string>
+      <string>/brevecomb-cy/a.sc/a-cy.sc/abreve-cy.sc</string>
+      <string>f</string>
+      <string>æ</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
     <integer>1</integer>
@@ -1893,27 +1903,6 @@ AZA/space BZB/space CZC/space DZD/space EZE/space FZF/space GZG/space HZH/space 
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>1</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.Axis Location</key>
-    <array>
-      <dict>
-        <key>Axis</key>
-        <string>Weight</string>
-        <key>Location</key>
-        <string>300</string>
-      </dict>
-      <dict>
-        <key>Axis</key>
-        <string>Width</string>
-        <key>Location</key>
-        <string>100</string>
-      </dict>
-      <dict>
-        <key>Axis</key>
-        <string>Optical size</string>
-        <key>Location</key>
-        <integer>144</integer>
-      </dict>
-    </array>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>144</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>

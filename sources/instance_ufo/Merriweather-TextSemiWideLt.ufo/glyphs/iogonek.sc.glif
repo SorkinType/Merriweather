@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek.sc" format="2">
+  <advance width="667.1313868613139"/>
+  <anchor x="333.4014598540146" y="0.0" name="bottom"/>
+  <anchor x="357.75182481751824" y="18.0" name="ogonek"/>
+  <anchor x="333.8978102189781" y="1286.7737226277372" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="ogonekcomb" xOffset="20.956204379562045" yOffset="10.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

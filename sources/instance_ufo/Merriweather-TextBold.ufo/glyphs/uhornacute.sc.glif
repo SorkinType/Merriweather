@@ -1,12 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhornacute.sc" format="2">
-  <advance width="1425.2968357609238"/>
-  <anchor x="745.7388247112004" y="0.0" name="bottom"/>
-  <anchor x="1287.396283274736" y="18.0" name="ogonek"/>
-  <anchor x="763.639879457559" y="1772.5002511300854" name="top"/>
-  <anchor x="1238.5610246107483" y="1292.1315921647413" name="topright"/>
+  <advance width="1427.3476630237526"/>
+  <anchor x="745.9061983304433" y="0.0" name="bottom"/>
+  <anchor x="1287.563656893979" y="18.0" name="ogonek"/>
+  <anchor x="764.720571036819" y="1771.6150340767028" name="top"/>
+  <anchor x="1239.6778239303142" y="1292.121506633867" name="topright"/>
   <outline>
     <component base="uhorn.sc"/>
-    <component base="acutecomb" xOffset="573.8859869412355" yOffset="178.0"/>
+    <component base="acutecomb" xOffset="574.3422994717104" yOffset="176.77372262773721"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

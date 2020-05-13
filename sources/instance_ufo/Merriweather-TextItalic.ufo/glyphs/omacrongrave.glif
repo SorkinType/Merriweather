@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omacrongrave" format="2">
+  <advance width="1107.2083465566488"/>
+  <unicode hex="1E51"/>
+  <anchor x="474.03038717867344" y="-9.880434782608697" name="bottom"/>
+  <anchor x="553.6662170739447" y="549.2094573151381" name="center"/>
+  <anchor x="591.4088384639797" y="18.94160583941606" name="ogonek"/>
+  <anchor x="753.2441288479848" y="1953.0434782608695" name="top"/>
+  <anchor x="786.4849254205016" y="1092.3722627737227" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="macroncomb" xOffset="293.35139638210103"/>
+    <component base="gravecomb" xOffset="228.36440812440492" yOffset="282.17391304347825"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

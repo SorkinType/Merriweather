@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldot" format="2">
+  <advance width="1681.036496350365"/>
+  <unicode hex="013F"/>
+  <anchor x="568.4963503649634" y="0.0" name="bottom"/>
+  <anchor x="865.8978102189782" y="1110.0" name="car"/>
+  <anchor x="986.5255474452555" y="1618.0" name="caron"/>
+  <anchor x="399.7591240875912" y="743.0" name="center"/>
+  <anchor x="499.978102189781" y="1486.0" name="top"/>
+  <anchor x="1412.2889489051095" y="1486.0" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="periodcentered" xOffset="1285.5766423357663"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>periodcentered</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>L</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>periodcentered.loclCAT.case</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="1534"/>
+  <unicode hex="0051"/>
+  <anchor x="764" y="0" name="bottom"/>
+  <anchor x="767" y="741" name="center"/>
+  <anchor x="818" y="20" name="ogonek"/>
+  <anchor x="925" y="0" name="qq"/>
+  <anchor x="770" y="1486" name="top"/>
+  <anchor x="54" y="1486" name="topleft"/>
+  <anchor x="1237" y="1486" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="qtail.case" xOffset="4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>O</string>
+    </dict>
+  </lib>
+</glyph>

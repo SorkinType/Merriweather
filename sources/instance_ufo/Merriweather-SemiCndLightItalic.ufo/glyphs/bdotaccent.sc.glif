@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bdotaccent.sc" format="2">
+  <advance width="1110"/>
+  <anchor x="484" y="0" name="bottom"/>
+  <anchor x="674" y="1689" name="top"/>
+  <outline>
+    <component base="b.sc"/>
+    <component base="dotaccentcomb" xOffset="436" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

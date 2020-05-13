@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedescenderabkhasian-cy" format="2">
+  <advance width="1138.5297415009882"/>
+  <unicode hex="04BF"/>
+  <anchor x="693.3198370770658" y="-506.1801830866637" name="bottom"/>
+  <anchor x="808.2318828890592" y="20.0" name="ogonek"/>
+  <anchor x="725.3738355446224" y="1110.0" name="top"/>
+  <outline>
+    <component base="cheabkhasian-cy"/>
+    <component base="cedillacomb" xOffset="496.63160866233824" yOffset="-5.058636125337744"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

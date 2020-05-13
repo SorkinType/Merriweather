@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u" format="2">
+  <advance width="1188"/>
+  <unicode hex="0075"/>
+  <anchor x="610" y="0" name="bottom"/>
+  <anchor x="1012" y="20" name="ogonek"/>
+  <anchor x="602" y="1110" name="top"/>
+  <anchor x="1013" y="1035" name="topright"/>
+  <outline>
+    <contour>
+      <point x="896" y="-19" type="curve" smooth="yes"/>
+      <point x="1014" y="-19"/>
+      <point x="1101" y="0"/>
+      <point x="1153" y="10" type="curve"/>
+      <point x="1153" y="50" type="line"/>
+      <point x="1077" y="68" type="line"/>
+      <point x="1077" y="992" type="line"/>
+      <point x="1015" y="1035" type="line"/>
+      <point x="975" y="1035" type="line"/>
+      <point x="613" y="921" type="line"/>
+      <point x="613" y="880" type="line"/>
+      <point x="734" y="833" type="line"/>
+      <point x="734" y="204" type="line"/>
+      <point x="696" y="183"/>
+      <point x="654" y="153"/>
+      <point x="568" y="153" type="curve" smooth="yes"/>
+      <point x="479" y="153"/>
+      <point x="446" y="202"/>
+      <point x="446" y="314" type="curve" smooth="yes"/>
+      <point x="446" y="992" type="line"/>
+      <point x="391" y="1035" type="line"/>
+      <point x="354" y="1035" type="line"/>
+      <point x="0" y="921" type="line"/>
+      <point x="0" y="880" type="line"/>
+      <point x="103" y="833" type="line"/>
+      <point x="103" y="327" type="line" smooth="yes"/>
+      <point x="103" y="96"/>
+      <point x="200" y="-20"/>
+      <point x="393" y="-20" type="curve" smooth="yes"/>
+      <point x="551" y="-20"/>
+      <point x="696" y="72"/>
+      <point x="747" y="167" type="curve"/>
+      <point x="747" y="71" type="line" smooth="yes"/>
+      <point x="747" y="-12"/>
+      <point x="809" y="-19"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1603</integer>
+            <integer>-442</integer>
+          </array>
+          <key>type</key>
+          <string>Text</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

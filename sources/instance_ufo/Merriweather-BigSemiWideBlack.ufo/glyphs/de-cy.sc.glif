@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy.sc" format="2">
+  <advance width="1370"/>
+  <outline>
+    <contour>
+      <point x="1238" y="26" type="line"/>
+      <point x="1214" y="65" type="line"/>
+      <point x="1214" y="1221" type="line"/>
+      <point x="1354" y="1255" type="line"/>
+      <point x="1354" y="1292" type="line"/>
+      <point x="179" y="1292" type="line"/>
+      <point x="179" y="1255" type="line"/>
+      <point x="384" y="1221" type="line"/>
+      <point x="384" y="1078" type="line" smooth="yes"/>
+      <point x="384" y="432"/>
+      <point x="245" y="223"/>
+      <point x="141" y="74" type="curve"/>
+      <point x="51" y="14" type="line"/>
+      <point x="180" y="0" type="line"/>
+      <point x="1084" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="455" y="1068" type="curve" smooth="yes"/>
+      <point x="455" y="1221" type="line"/>
+      <point x="811" y="1221" type="line"/>
+      <point x="813" y="72" type="line"/>
+      <point x="234" y="72" type="line"/>
+      <point x="324" y="221"/>
+      <point x="455" y="431"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="2"/>
+    <component base="righttooth_part." xOffset="1030"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

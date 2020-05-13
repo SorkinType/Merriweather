@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescender-cy.sc" format="2">
+  <advance width="1211"/>
+  <anchor x="658" y="0" name="bottom"/>
+  <anchor x="716" y="1360" name="top"/>
+  <outline>
+    <contour>
+      <point x="729" y="-11" type="curve"/>
+      <point x="573" y="-11" type="line"/>
+      <point x="579" y="-73"/>
+      <point x="596" y="-268"/>
+      <point x="601" y="-360" type="curve"/>
+      <point x="703" y="-360" type="line"/>
+      <point x="710" y="-261"/>
+      <point x="719" y="-97"/>
+    </contour>
+    <component base="es-cy.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1115</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

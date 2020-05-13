@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gje-cy" format="2">
+  <advance width="868.0364963503649"/>
+  <unicode hex="0453"/>
+  <anchor x="365.956204379562" y="0.0" name="bottom"/>
+  <anchor x="449.5985401459854" y="550.2773722627737" name="center"/>
+  <anchor x="314.46715328467155" y="0.0" name="hook"/>
+  <anchor x="476.3795620437957" y="1570.2554744525548" name="top"/>
+  <outline>
+    <component base="ge-cy" xOffset="-0.1678832116788321"/>
+    <component base="acutecomb" xOffset="290.89781021897807"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ge-cy</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

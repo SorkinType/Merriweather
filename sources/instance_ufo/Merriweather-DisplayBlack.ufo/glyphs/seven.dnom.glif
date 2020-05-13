@@ -1,21 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.dnom" format="2">
-  <advance width="743"/>
+  <advance width="759.5547445255474"/>
   <outline>
     <contour>
-      <point x="437" y="1" type="line"/>
-      <point x="484" y="180"/>
-      <point x="602" y="570"/>
-      <point x="741" y="892" type="curve"/>
-      <point x="693" y="944" type="line"/>
-      <point x="56" y="944" type="line"/>
-      <point x="18" y="598" type="line"/>
-      <point x="67" y="587" type="line"/>
-      <point x="124" y="696" type="line"/>
-      <point x="600" y="696" type="line"/>
-      <point x="469" y="542"/>
-      <point x="207" y="208"/>
-      <point x="159" y="0" type="curve"/>
+      <point x="454.3430656934307" y="0.7372262773722628" type="line"/>
+      <point x="500.02919708029196" y="183.4160583941606"/>
+      <point x="619.3430656934307" y="572.6277372262774"/>
+      <point x="753.3503649635036" y="883.5912408759124" type="curve"/>
+      <point x="702.9854014598541" y="944.0" type="line"/>
+      <point x="63.88321167883212" y="944.0" type="line"/>
+      <point x="25.094890510948908" y="598.5255474452555" type="line"/>
+      <point x="101.16058394160582" y="582.5328467153284" type="line"/>
+      <point x="162.1021897810219" y="712.8175182481752" type="line"/>
+      <point x="595.007299270073" y="720.4379562043796" type="line"/>
+      <point x="473.20437956204375" y="565.1240875912408"/>
+      <point x="225.39416058394158" y="204.05839416058393"/>
+      <point x="170.82481751824815" y="0.0" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>64</integer>
+        <key>weight</key>
+        <integer>10</integer>
+        <key>width</key>
+        <integer>70</integer>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

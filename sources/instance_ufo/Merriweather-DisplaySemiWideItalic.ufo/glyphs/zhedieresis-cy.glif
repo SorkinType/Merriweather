@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zhedieresis-cy" format="2">
+  <advance width="1864.0088067280226"/>
+  <unicode hex="04DD"/>
+  <anchor x="1653.3278324341477" y="0.0" name="bottomright"/>
+  <anchor x="1060.3604411298004" y="1452.7235004760394" name="top"/>
+  <outline>
+    <component base="zhe-cy"/>
+    <component base="dieresiscomb" xOffset="620.4070929863535"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>zhe-cy</string>
+    </dict>
+  </lib>
+</glyph>

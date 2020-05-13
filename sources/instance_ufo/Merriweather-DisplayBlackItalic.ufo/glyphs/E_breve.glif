@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ebreve" format="2">
+  <advance width="1236.5839416058393"/>
+  <unicode hex="0114"/>
+  <anchor x="576.8832116788323" y="0.0" name="bottom"/>
+  <anchor x="882.2773722627737" y="0.0" name="ogonek"/>
+  <anchor x="721.1970802919708" y="1486.0" name="top"/>
+  <anchor x="139.8905109489051" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="brevecomb.case" xOffset="275.0583941605839"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

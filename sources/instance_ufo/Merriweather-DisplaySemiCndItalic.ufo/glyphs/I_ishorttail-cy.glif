@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iishorttail-cy" format="2">
+  <advance width="1373.709377975246"/>
+  <unicode hex="048A"/>
+  <anchor x="1262.7080291970804" y="0.0" name="bottomright"/>
+  <anchor x="807.0377657886386" y="1486.0" name="top"/>
+  <outline>
+    <component base="Iishort-cy"/>
+    <component base="righttooth_part." xOffset="1022.2894319263726"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Iishort-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Pe-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>De-cy</string>
+    </dict>
+  </lib>
+</glyph>

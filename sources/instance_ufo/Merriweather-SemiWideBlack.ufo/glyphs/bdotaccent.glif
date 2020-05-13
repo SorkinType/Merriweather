@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bdotaccent" format="2">
+  <advance width="1302"/>
+  <unicode hex="1E03"/>
+  <anchor x="601" y="-3" name="bottom"/>
+  <anchor x="851" y="1503" name="top"/>
+  <outline>
+    <component base="b"/>
+    <component base="dotaccentcomb.case" xOffset="649" yOffset="-375"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

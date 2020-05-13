@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gedescender-cy.sc" format="2">
-  <advance width="957"/>
-  <anchor x="580" y="0" name="bottomright"/>
-  <anchor x="526" y="1340" name="top"/>
+  <advance width="1001.934306569343"/>
+  <anchor x="637.2846715328467" y="0.0" name="bottomright"/>
+  <anchor x="547.8102189781022" y="1322.1313868613138" name="top"/>
   <outline>
     <contour>
-      <point x="312" y="72" type="line"/>
-      <point x="312" y="41" type="line"/>
-      <point x="507" y="41" type="line"/>
-      <point x="507" y="72" type="line"/>
+      <point x="327.24087591240874" y="80.93430656934306" type="line"/>
+      <point x="327.24087591240874" y="49.934306569343065" type="line"/>
+      <point x="522.2408759124088" y="49.934306569343065" type="line"/>
+      <point x="522.2408759124088" y="80.93430656934306" type="line"/>
     </contour>
     <component base="ge-cy.sc"/>
-    <component base="righttooth_part." xOffset="375"/>
+    <component base="righttooth_part." xOffset="393.3941605839416"/>
   </outline>
   <lib>
     <dict>
@@ -19,42 +19,6 @@
       <string>ge-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ge-cy.sc</string>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>427</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>73</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>65</integer>
-            <integer>35</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

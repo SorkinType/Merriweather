@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecircumflextilde" format="2">
+  <advance width="1060.6861313868612"/>
+  <unicode hex="1EC4"/>
+  <anchor x="475.992700729927" y="0.0" name="bottom"/>
+  <anchor x="751.2554744525547" y="0.0" name="ogonek"/>
+  <anchor x="640.7372262773723" y="1486.0" name="top"/>
+  <anchor x="167.83941605839416" y="1486.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="circumflexcomb_tildecomb.case" xOffset="184.8905109489051"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

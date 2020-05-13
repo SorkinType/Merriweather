@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
+  <advance width="646"/>
+  <unicode hex="00B4"/>
+  <anchor x="366" y="1110" name="_top"/>
+  <anchor x="305" y="1517" name="top"/>
+  <outline>
+    <contour>
+      <point x="239" y="1167" type="line"/>
+      <point x="259" y="1149" type="line"/>
+      <point x="411" y="1256"/>
+      <point x="549" y="1368"/>
+      <point x="631" y="1472" type="curve"/>
+      <point x="513" y="1566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hyphen</string>
+    </dict>
+  </lib>
+</glyph>

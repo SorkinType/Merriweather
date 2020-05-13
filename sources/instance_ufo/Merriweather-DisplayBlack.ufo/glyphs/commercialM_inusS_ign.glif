@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commercialMinusSign" format="2">
-  <advance width="1523"/>
+  <advance width="1521.9489051094893"/>
   <unicode hex="2052"/>
   <outline>
-    <component base="fraction" xOffset="565"/>
-    <component base="bullet" xOffset="-10" yOffset="589"/>
-    <component base="bullet" xOffset="658" yOffset="-248"/>
+    <component base="fraction" xOffset="565.0"/>
+    <component base="bullet" xOffset="-23.13868613138686" yOffset="540.3868613138686"/>
+    <component base="bullet" xOffset="657.4744525547445" yOffset="-251.94160583941604"/>
   </outline>
   <lib>
     <dict>
@@ -18,22 +18,6 @@
           <integer>0</integer>
           <key>name</key>
           <string>fraction</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>bullet</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>bullet</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ytilde.sc" format="2">
+  <advance width="1020"/>
+  <anchor x="468" y="0" name="bottom"/>
+  <anchor x="524" y="469" name="center"/>
+  <anchor x="711" y="1743" name="top"/>
+  <anchor x="147" y="1292" name="topleft"/>
+  <outline>
+    <component base="y.sc"/>
+    <component base="tildecomb" xOffset="300" yOffset="273"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

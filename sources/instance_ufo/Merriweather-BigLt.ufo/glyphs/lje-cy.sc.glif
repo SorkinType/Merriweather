@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lje-cy.sc" format="2">
+  <advance width="1713"/>
+  <outline>
+    <contour>
+      <point x="12" y="148" type="curve"/>
+      <point x="26" y="-4" type="line"/>
+      <point x="46" y="-11"/>
+      <point x="73" y="-16"/>
+      <point x="100" y="-16" type="curve" smooth="yes"/>
+      <point x="187" y="-16"/>
+      <point x="247" y="35"/>
+      <point x="286" y="112" type="curve" smooth="yes"/>
+      <point x="332" y="203"/>
+      <point x="404" y="517"/>
+      <point x="404" y="993" type="curve" smooth="yes"/>
+      <point x="404" y="1234" type="line"/>
+      <point x="808" y="1234" type="line"/>
+      <point x="808" y="67" type="line"/>
+      <point x="691" y="36" type="line"/>
+      <point x="691" y="0" type="line"/>
+      <point x="885" y="0" type="line" smooth="yes"/>
+      <point x="962" y="0"/>
+      <point x="1126" y="-14"/>
+      <point x="1173" y="-14" type="curve" smooth="yes"/>
+      <point x="1468" y="-14"/>
+      <point x="1669" y="122"/>
+      <point x="1669" y="408" type="curve" smooth="yes"/>
+      <point x="1669" y="651"/>
+      <point x="1506" y="781"/>
+      <point x="1198" y="781" type="curve" smooth="yes"/>
+      <point x="1122" y="781"/>
+      <point x="1044" y="777"/>
+      <point x="969" y="768" type="curve"/>
+      <point x="969" y="1225" type="line"/>
+      <point x="1097" y="1256" type="line"/>
+      <point x="1097" y="1292" type="line"/>
+      <point x="157" y="1292" type="line"/>
+      <point x="157" y="1256" type="line"/>
+      <point x="330" y="1225" type="line"/>
+      <point x="330" y="645"/>
+      <point x="263" y="136"/>
+      <point x="113" y="136" type="curve" smooth="yes"/>
+      <point x="86" y="136"/>
+      <point x="38" y="141"/>
+    </contour>
+    <contour>
+      <point x="969" y="53" type="curve"/>
+      <point x="969" y="706" type="line"/>
+      <point x="1030" y="713"/>
+      <point x="1100" y="716"/>
+      <point x="1169" y="716" type="curve" smooth="yes"/>
+      <point x="1371" y="716"/>
+      <point x="1497" y="614"/>
+      <point x="1497" y="402" type="curve" smooth="yes"/>
+      <point x="1497" y="148"/>
+      <point x="1378" y="40"/>
+      <point x="1155" y="40" type="curve" smooth="yes"/>
+      <point x="1062" y="40"/>
+      <point x="1016" y="46"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy.sc</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>1255</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>275</integer>
+            <integer>1257</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>744</integer>
+            <integer>35</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <integer>30</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

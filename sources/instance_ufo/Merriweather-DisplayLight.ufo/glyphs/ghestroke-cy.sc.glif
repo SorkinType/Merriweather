@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghestroke-cy.sc" format="2">
-  <advance width="957"/>
-  <anchor x="580" y="0" name="bottomright"/>
-  <anchor x="526" y="1340" name="top"/>
+  <advance width="1001.934306569343"/>
+  <anchor x="637.2846715328467" y="0.0" name="bottomright"/>
+  <anchor x="547.8102189781022" y="1322.1313868613138" name="top"/>
   <outline>
     <contour>
-      <point x="58" y="577" type="line"/>
-      <point x="676" y="577" type="line"/>
-      <point x="676" y="643" type="line"/>
-      <point x="58" y="643" type="line"/>
+      <point x="67.45985401459855" y="564.6496350364963" type="line"/>
+      <point x="692.2919708029198" y="564.6496350364963" type="line"/>
+      <point x="692.2919708029198" y="643.0" type="line"/>
+      <point x="67.45985401459855" y="643.0" type="line"/>
     </contour>
     <component base="ge-cy.sc"/>
   </outline>
@@ -18,53 +18,6 @@
       <string>pe-cy.sc</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>t.sc</string>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>73</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>65</integer>
-            <integer>35</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>754</integer>
-            <integer>35</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>427</integer>
-            <integer>1257</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <integer>30</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

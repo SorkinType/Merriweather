@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ydieresis.sc" format="2">
+  <advance width="1363"/>
+  <anchor x="620" y="0" name="bottom"/>
+  <anchor x="684" y="469" name="center"/>
+  <anchor x="885" y="1638" name="top"/>
+  <anchor x="138" y="1292" name="topleft"/>
+  <outline>
+    <component base="y.sc"/>
+    <component base="dieresiscomb" xOffset="352" yOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

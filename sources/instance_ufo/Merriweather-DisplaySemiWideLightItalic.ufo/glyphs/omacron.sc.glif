@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omacron.sc" format="2">
+  <advance width="1347.7299270072992"/>
+  <anchor x="600.3722627737227" y="0.0" name="bottom"/>
+  <anchor x="689.7883211678832" y="645.0510948905109" name="center"/>
+  <anchor x="797.7956204379561" y="12.102189781021899" name="ogonek"/>
+  <anchor x="818.3722627737226" y="1619.087591240876" name="top"/>
+  <anchor x="103.83941605839416" y="1198.3722627737227" name="topleft"/>
+  <anchor x="1058.1167883211679" y="1234.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="macroncomb" xOffset="440.3649635036496" yOffset="249.0875912408759"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

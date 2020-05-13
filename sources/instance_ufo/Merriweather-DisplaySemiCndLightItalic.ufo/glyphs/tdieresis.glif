@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tdieresis" format="2">
+  <advance width="554.8978102189781"/>
+  <unicode hex="1E97"/>
+  <anchor x="251.21167883211677" y="0.0" name="bottom"/>
+  <anchor x="583.7664233576643" y="1250.021897810219" name="car"/>
+  <anchor x="568.2043795620438" y="1620.948905109489" name="caron"/>
+  <anchor x="211.06551824817518" y="580.0" name="tbar"/>
+  <anchor x="431.8905109489051" y="1682.2335766423357" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="dieresiscomb" xOffset="23.56934306569343" yOffset="252.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

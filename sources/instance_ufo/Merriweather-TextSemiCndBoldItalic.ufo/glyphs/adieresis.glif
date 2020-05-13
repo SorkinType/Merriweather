@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adieresis" format="2">
+  <advance width="1063.8152967311964"/>
+  <unicode hex="00E4"/>
+  <anchor x="490.78419549349417" y="0.0" name="bottom"/>
+  <anchor x="1094.6801015550618" y="1622.0" name="caron"/>
+  <anchor x="866.9403364011425" y="11.577277054903206" name="ogonek"/>
+  <anchor x="955.1383687718185" y="1443.3379879403362" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="dieresiscomb" xOffset="472.152649952396" yOffset="-1.897810218978102"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

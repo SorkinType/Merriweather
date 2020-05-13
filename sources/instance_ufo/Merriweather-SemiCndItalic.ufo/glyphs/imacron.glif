@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="imacron" format="2">
+  <advance width="532.7934782608696"/>
+  <unicode hex="012B"/>
+  <anchor x="208.55434782608697" y="0.0" name="bottom"/>
+  <anchor x="295.29347826086956" y="0.0" name="ogonek"/>
+  <anchor x="375.35869565217394" y="1390.804347826087" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="macroncomb" xOffset="-3.141304347826088"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

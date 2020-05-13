@@ -14,6 +14,7 @@
 # automatic
 languagesystem DFLT dflt;
 
+
 languagesystem latn dflt;
 languagesystem latn AZE;
 languagesystem latn CRT;
@@ -24,6 +25,7 @@ languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn CAT;
 languagesystem latn NLD;
+
 
 languagesystem cyrl dflt;
 languagesystem cyrl BGR;
@@ -69,10 +71,12 @@ lookup ccmp_Other_1 {
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
 
+
 lookup ccmp_Other_2 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
+
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -94,6 +98,7 @@ lookup ccmp_latn_1 {
 	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
 } ccmp_latn_1;
 
+
 script latn;
 lookup ccmp_latn_1;
 
@@ -111,6 +116,7 @@ lookup locl_latn_0 {
 	sub i by idotaccent;
 } locl_latn_0;
 
+
 lookup locl_latn_1 {
 	script latn;
 	language ROM;
@@ -121,6 +127,7 @@ lookup locl_latn_1 {
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
 
+
 lookup locl_latn_2 {
 	script latn;
 	language CAT;
@@ -128,12 +135,14 @@ lookup locl_latn_2 {
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
 
+
 lookup locl_latn_3 {
 	script latn;
 	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
+
 
 lookup locl_cyrl_0 {
 	script cyrl;
@@ -166,6 +175,7 @@ lookup locl_cyrl_0 {
 	sub iu-cy by iu-cy.loclBGR;
 } locl_cyrl_0;
 
+
 lookup locl_cyrl_1 {
 	script cyrl;
 	language BSH;
@@ -177,6 +187,7 @@ lookup locl_cyrl_1 {
 	sub esdescender-cy by esdescender-cy.loclBSH;
 } locl_cyrl_1;
 
+
 lookup locl_cyrl_2 {
 	script cyrl;
 	language CHU;
@@ -184,11 +195,13 @@ lookup locl_cyrl_2 {
 	sub esdescender-cy by esdescender-cy.loclCHU;
 } locl_cyrl_2;
 
+
 lookup locl_cyrl_3 {
 	script cyrl;
 	language MKD;
 	sub gje-cy by gje-cy.loclMKD;
 } locl_cyrl_3;
+
 
 lookup locl_cyrl_4 {
 	script cyrl;
@@ -431,10 +444,14 @@ feature frac {
    } FractionBar;
 
 
+
+
    lookup Numerator1 {
         sub @figures'
         fraction by @numerators;
    } Numerator1;
+
+
 
 
    lookup Numerator2 {
@@ -444,12 +461,16 @@ feature frac {
    } Numerator2;
 
 
+
+
    lookup Numerator3 {
         sub @figures'
         @numerators
         @numerators
         fraction by @numerators;
    } Numerator3;
+
+
 
 
    lookup Numerator4 {
@@ -461,6 +482,8 @@ feature frac {
    } Numerator4;
 
 
+
+
    lookup Numerator5 {
         sub @figures'
         @numerators
@@ -469,6 +492,8 @@ feature frac {
         @numerators
         fraction by @numerators;
    } Numerator5;
+
+
 
 
    lookup Numerator6 {
@@ -482,6 +507,8 @@ feature frac {
    } Numerator6;
 
 
+
+
    lookup Numerator7 {
         sub @figures'
         @numerators
@@ -492,6 +519,8 @@ feature frac {
         @numerators
         fraction by @numerators;
    } Numerator7;
+
+
 
 
    lookup Numerator8 {
@@ -507,6 +536,8 @@ feature frac {
    } Numerator8;
 
 
+
+
    lookup Numerator9 {
         sub @figures'
         @numerators
@@ -519,6 +550,8 @@ feature frac {
         @numerators
         fraction by @numerators;
    } Numerator9;
+
+
 
 
    lookup Numerator10 {
@@ -536,10 +569,14 @@ feature frac {
    } Numerator10;
 
 
+
+
    lookup Denominator {
         sub [fraction @denominators]
         @figures' by @denominators;
    } Denominator;
+
+
 
 
    sub @figures space' @numerators by thinspace;

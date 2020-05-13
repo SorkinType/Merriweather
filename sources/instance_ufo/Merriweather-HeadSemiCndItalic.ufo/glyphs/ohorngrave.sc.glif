@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorngrave.sc" format="2">
+  <advance width="1167.4003490955251"/>
+  <anchor x="517.2268327515075" y="0.0" name="bottom"/>
+  <anchor x="599.2902253252935" y="646.9996826404316" name="center"/>
+  <anchor x="682.0667248492542" y="16.61234528721041" name="ogonek"/>
+  <anchor x="775.5783084735004" y="1888.5898920977468" name="top"/>
+  <anchor x="147.17073944779435" y="1242.8686131386862" name="topleft"/>
+  <anchor x="911.5506188511583" y="1234.0" name="topright"/>
+  <outline>
+    <component base="gravecomb" xOffset="255.51721675658519" yOffset="217.72032688035546"/>
+    <component base="o.sc"/>
+    <component base="horncomb" xOffset="969.9645350682323" yOffset="1234.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

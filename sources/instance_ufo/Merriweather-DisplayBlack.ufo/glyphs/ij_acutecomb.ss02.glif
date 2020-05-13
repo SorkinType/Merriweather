@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij_acutecomb.ss02" format="2">
-  <advance width="1210"/>
-  <anchor x="306" y="0" name="bottom"/>
-  <anchor x="415" y="20" name="ogonek"/>
-  <anchor x="308" y="1110" name="top_1"/>
-  <anchor x="911" y="1110" name="top_2"/>
+  <advance width="1252.5693430656934"/>
+  <anchor x="321.24087591240874" y="0.0" name="bottom"/>
+  <anchor x="386.0948905109489" y="20.0" name="ogonek"/>
+  <anchor x="323.7664233576642" y="1110.5255474452554" name="top_1"/>
+  <anchor x="944.6350364963504" y="1110.2627737226278" name="top_2"/>
   <outline>
     <component base="idotless"/>
-    <component base="acutecomb" xOffset="150"/>
-    <component base="jdotless" xOffset="630"/>
-    <component base="acutecomb" xOffset="753"/>
+    <component base="acutecomb" xOffset="150.0" yOffset="0.5255474452554745"/>
+    <component base="jdotless" xOffset="639.4598540145985"/>
+    <component base="acutecomb" xOffset="770.8686131386861" yOffset="0.26277372262773724"/>
   </outline>
   <lib>
     <dict>

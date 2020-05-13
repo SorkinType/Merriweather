@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omacronacute.sc" format="2">
+  <advance width="1378"/>
+  <anchor x="694" y="0" name="bottom"/>
+  <anchor x="689" y="644" name="center"/>
+  <anchor x="779" y="18" name="ogonek"/>
+  <anchor x="804" y="0" name="q"/>
+  <anchor x="699" y="2032" name="top"/>
+  <anchor x="9" y="1292" name="topleft"/>
+  <anchor x="927" y="1293" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="macroncomb" xOffset="406" yOffset="162"/>
+    <component base="acutecomb" xOffset="539" yOffset="462"/>
+  </outline>
+</glyph>

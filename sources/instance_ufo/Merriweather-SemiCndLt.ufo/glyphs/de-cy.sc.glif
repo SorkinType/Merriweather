@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="de-cy.sc" format="2">
+  <advance width="1213"/>
+  <outline>
+    <contour>
+      <point x="1116" y="52" type="line"/>
+      <point x="1016" y="102" type="line"/>
+      <point x="1016" y="1192" type="line"/>
+      <point x="1168" y="1210" type="line"/>
+      <point x="1168" y="1292" type="line"/>
+      <point x="215" y="1292" type="line"/>
+      <point x="215" y="1210" type="line"/>
+      <point x="411" y="1192" type="line"/>
+      <point x="411" y="1078" type="line" smooth="yes"/>
+      <point x="411" y="466"/>
+      <point x="221" y="172"/>
+      <point x="161" y="102" type="curve"/>
+      <point x="82" y="39" type="line"/>
+      <point x="169" y="0" type="line"/>
+      <point x="1010" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="519" y="1068" type="curve"/>
+      <point x="519" y="1196" type="line"/>
+      <point x="861" y="1196" type="line"/>
+      <point x="859" y="102" type="line"/>
+      <point x="311" y="102" type="line"/>
+      <point x="369" y="184"/>
+      <point x="521" y="522"/>
+    </contour>
+    <component base="lefttooth_part." xOffset="-13"/>
+    <component base="righttooth_part." xOffset="816"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>2</integer>
+        <key>height</key>
+        <integer>87</integer>
+        <key>weight</key>
+        <integer>2</integer>
+        <key>width</key>
+        <integer>96</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>pe-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Cheverticalstroke-cy" format="2">
+  <advance width="1534"/>
+  <unicode hex="04B8"/>
+  <anchor x="1469" y="0" name="bottomright"/>
+  <anchor x="797" y="744" name="center"/>
+  <anchor x="735" y="1486" name="top"/>
+  <outline>
+    <contour>
+      <point x="700" y="342" type="line"/>
+      <point x="804" y="342" type="line"/>
+      <point x="804" y="1062" type="line"/>
+      <point x="700" y="1062" type="line"/>
+    </contour>
+    <component base="Che-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Che-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Pe-cy</string>
+    </dict>
+  </lib>
+</glyph>

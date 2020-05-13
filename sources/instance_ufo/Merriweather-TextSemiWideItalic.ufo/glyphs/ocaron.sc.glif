@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocaron.sc" format="2">
+  <advance width="1402.1315455410981"/>
+  <anchor x="615.8306093303714" y="0.0" name="bottom"/>
+  <anchor x="713.5477626150429" y="647.0661694700096" name="center"/>
+  <anchor x="823.9352586480481" y="17.3978102189781" name="ogonek"/>
+  <anchor x="862.2845128530624" y="1783.0036496350365" name="top"/>
+  <anchor x="116.72683275150744" y="1277.3996350364962" name="topleft"/>
+  <anchor x="1074.895906061568" y="1234.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="caroncomb" xOffset="406.0824341478895" yOffset="197.27737226277372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

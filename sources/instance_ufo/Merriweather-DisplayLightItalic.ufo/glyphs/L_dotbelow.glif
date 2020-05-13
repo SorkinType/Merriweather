@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldotbelow" format="2">
+  <advance width="1116.5182481751824"/>
+  <unicode hex="1E36"/>
+  <anchor x="507.56934306569343" y="0.0" name="bottom"/>
+  <anchor x="827.6861313868612" y="1110.0" name="car"/>
+  <anchor x="926.2335766423357" y="1618.0" name="caron"/>
+  <anchor x="351.2700729927007" y="743.0" name="center"/>
+  <anchor x="402.88321167883214" y="1486.0" name="top"/>
+  <anchor x="1233.9939781021897" y="1486.0" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="dotbelowcomb.case" xOffset="468.4087591240876"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hardsign-cy" format="2">
+  <advance width="1329"/>
+  <unicode hex="044A"/>
+  <outline>
+    <contour>
+      <point x="850" y="-6" type="curve" smooth="yes"/>
+      <point x="1110" y="-6"/>
+      <point x="1285" y="131"/>
+      <point x="1285" y="365" type="curve" smooth="yes"/>
+      <point x="1285" y="589"/>
+      <point x="1123" y="697"/>
+      <point x="882" y="697" type="curve" smooth="yes"/>
+      <point x="813" y="697"/>
+      <point x="750" y="688"/>
+      <point x="715" y="679" type="curve"/>
+      <point x="715" y="956" type="line"/>
+      <point x="859" y="980" type="line"/>
+      <point x="859" y="1112" type="line"/>
+      <point x="47" y="1112" type="line"/>
+      <point x="39" y="660" type="line"/>
+      <point x="215" y="660" type="line"/>
+      <point x="273" y="966" type="line"/>
+      <point x="413" y="982" type="line"/>
+      <point x="413" y="150" type="line"/>
+      <point x="223" y="132" type="line"/>
+      <point x="223" y="0" type="line"/>
+      <point x="553" y="0" type="line" smooth="yes"/>
+      <point x="614" y="0"/>
+      <point x="787" y="-6"/>
+    </contour>
+    <contour>
+      <point x="786" y="122" type="curve" smooth="yes"/>
+      <point x="762" y="122"/>
+      <point x="731" y="126"/>
+      <point x="715" y="132" type="curve"/>
+      <point x="715" y="559" type="line"/>
+      <point x="737" y="566"/>
+      <point x="772" y="571"/>
+      <point x="800" y="571" type="curve" smooth="yes"/>
+      <point x="905" y="571"/>
+      <point x="961" y="492"/>
+      <point x="961" y="357" type="curve" smooth="yes"/>
+      <point x="961" y="212"/>
+      <point x="900" y="122"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>
