@@ -241,6 +241,30 @@ and separated by commas:
 
 </details>
 <details>
+<summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
+
+* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
+<pre>--- Rationale ---
+
+Traditionally version 0 &#x27;gasp&#x27; tables were set so that font sizes below 8 ppem
+had no grid fitting but did have antialiasing. From 9-16 ppem, just grid
+fitting. And fonts above 17ppem had both antialiasing and grid fitting toggled
+on. The use of accelerated graphics cards and higher resolution screens make
+this approach obsolete. Microsoft&#x27;s DirectWrite pushed this even further with
+much improved rendering built into the OS and apps.
+
+In this scenario it makes sense to simply toggle all 4 flags ON for all font
+sizes.
+
+
+</pre>
+
+* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
+GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
+
+</details>
+<details>
 <summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
@@ -285,7 +309,45 @@ checks that nameID 1 is the family name + the style name.
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Light Narrow Italic" is incorrect. It must be "Light Italic". [code: bad-typo-win]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Light Narrow Italic" is incorrect. It must be "SemiCondensed Light Italic". [code: bad-typo-win]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
+<pre>--- Rationale ---
+
+This setup is meant to ensure consistent rendering quality for fonts across all
+devices (with different rendering/hinting capabilities).
+
+Below is the snippet of instructions we expect to see in the fonts:
+B8 01 FF    PUSHW 0x01FF
+85          SCANCTRL (unconditinally turn on
+                      dropout control mode)
+B0 04       PUSHB 0x04
+8D          SCANTYPE (enable smart dropout control)
+
+&quot;Smart dropout control&quot; means activating rules 1, 2 and 5:
+Rule 1: If a pixel&#x27;s center falls within the glyph outline,
+        that pixel is turned on.
+Rule 2: If a contour falls exactly on a pixel&#x27;s center,
+        that pixel is turned on.
+Rule 5: If a scan line between two adjacent pixel centers
+        (either vertical or horizontal) is intersected
+        by both an on-Transition contour and an off-Transition
+        contour and neither of the pixels was already turned on
+        by rules 1 and 2, turn on the pixel which is closer to
+        the midpoint between the on-Transition contour and
+        off-Transition contour. This is &quot;Smart&quot; dropout control.
+
+For more detailed info (such as other rules not enabled in this snippet),
+please refer to the TrueType Instruction Set documentation.
+
+
+</pre>
+
+* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 
 </details>
 <details>
@@ -319,6 +381,12 @@ that are multiples of 100 on the design space.
 * 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
 * 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
 * 🔥 **FAIL** Found a variable font instance with 'wght'=322.8260803222656. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
 * 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
 * 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
 * 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
@@ -377,32 +445,219 @@ variable fonts in their web browsers.
 
 * 🔥 **FAIL** Instance "Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
 * 🔥 **FAIL** Instance "Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Narrow Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Narrow Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Wide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Wide Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
 * 🔥 **FAIL** Instance "Text Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
 * 🔥 **FAIL** Instance "Text Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text Narrow Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Text Narrow Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text Wide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Text Wide Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Light Heading Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Heading Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Heading Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Light Heading Narrow Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Heading Narrow Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Heading Narrow Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Light Heading Wide Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Heading Wide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Heading Wide Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Text SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head Light Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiCnd Light Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiWide Light Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Head SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
 * 🔥 **FAIL** Instance "Display Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Display Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display Narrow Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Display Narrow Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display Wide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Display Wide Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Display SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Instance "Big SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
 * 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check variable font instances have correct names</summary>
+
+* [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
+
+* 🔥 **FAIL** Instance name "SemiCnd Light Italic" is incorrect. It should be "SemiCondensed Light Italic" [code: bad-name]
+* 🔥 **FAIL** Instance name "SemiCnd Italic" is incorrect. It should be "SemiCondensed Italic" [code: bad-name]
+* 🔥 **FAIL** Instance name "SemiCnd Bold Italic" is incorrect. It should be "SemiCondensed Bold Italic" [code: bad-name]
+* 🔥 **FAIL** Instance name "SemiCnd Black Italic" is incorrect. It should be "SemiCondensed Black Italic" [code: bad-name]
+* 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb [code: bad-instance-names]
+* ⚠ **WARN** Instance "SemiWide Light Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "SemiWide Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "SemiWide Bold Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "SemiWide Black Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Light Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Bold Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Black Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Light Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Bold Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Black Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Light Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Bold Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Black Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Light Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Bold Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Black Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Light Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Bold Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Black Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiWide Light Italic": contains the following unparsable tokens "['Head', 'SemiWide']"
+* ⚠ **WARN** Instance "Head SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiWide Italic": contains the following unparsable tokens "['Head', 'SemiWide']"
+* ⚠ **WARN** Instance "Head SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiWide Bold Italic": contains the following unparsable tokens "['Head', 'SemiWide']"
+* ⚠ **WARN** Instance "Head SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SmWide Black Italic": contains the following unparsable tokens "['Head', 'SmWide']"
+* ⚠ **WARN** Instance "Head SmWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Light Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Bold Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Black Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Light Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Bold Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Black Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Light Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Bold Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Black Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Light Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Bold Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Black Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Light Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Bold Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Black Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Light Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Bold Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Black Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Black Italic": cannot determine instance name due to unparsable tokens
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Are there unwanted tables?</summary>
+
+* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
+<pre>--- Rationale ---
+
+Some font editors store source data in their own SFNT tables, and these can
+sometimes sneak into final release files, which should only have OpenType spec
+tables.
+
+
+</pre>
+
+* 🔥 **FAIL** The following unwanted font tables were found:
+Table: MVAR
+Reason: Produces a bug in DirectWrite which causes https://bugzilla.mozilla.org/show_bug.cgi?id=1492477, https://github.com/google/fonts/issues/2085
+
+They can be removed with the gftools fix-unwanted-tables script.
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Does the font have a DSIG table?</summary>
+
+* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
+<pre>--- Rationale ---
+
+Microsoft Office 2013 and below products expect fonts to have a digital
+signature declared in a DSIG table in order to implement OpenType features. The
+EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
+impact Microsoft Office 2016 and above products. 
+
+This checks verifies that this signature is available in the font.
+
+A fake signature is enough to address this issue. If needed, a dummy table can
+be added to the font with the `gftools fix-dsig` script available at
+https://github.com/googlefonts/gftools
+
+Reference: https://github.com/googlefonts/fontbakery/issues/1845
+
+
+</pre>
+
+* 🔥 **FAIL** This font lacks a digital signature (DSIG table). Some applications may require one (even if only a dummy placeholder) in order to work properly. You can add a DSIG table by running the `gftools fix-dsig` script. [code: lacks-signature]
 
 </details>
 <details>
@@ -483,7 +738,7 @@ When in doubt, please choose OFL for new font projects.
 
 * [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
 
-* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version: [wcircumflex, uni04FF, uni04BC, idieresis, eth, brokenbar, uni0162, uni2199, seveneighths, uni0336, uni20BA, eng, uni1E3F, bracketleft, uni1ED4, uni1E24, uni04C7, uni0422, uni1EEE, arrowup, uni0449.loclBGR, uni0259, ordmasculine, uni04F0, uni03060303, uni04D6, V, uni1E36, uni0415, Uacute, seven.numr, summation, uni1E0A, G, quotedblright.ss01, zcaron, one.lf, uni0498.loclBSH, uni20B1, uni1EBF, uni00AD, adieresis, ordfeminine, tildecomb.case, q, uni2197, uni2116, uni0525, uni01CC, uni050D, uni044B, uni04AA.loclBSH, uni1EF0, cedilla, uni04AA.loclCHU, Tcaron, comma, uni030C.case, uni04F6, hbar, Lcaron, atilde, ecircumflex, uni1E61, uni031B, Ldot, hookabovecomb, uni0408, M, wacute, ebreve, uni042C, uni0447.loclBGR, uhorn, lozenge, s, scedilla, uni03020309.case, uni040E, uni01C7, Eacute, Itilde, uni0436.loclBGR, quotedblbase, uni2198, k, itilde, cent, uni04C2, b, Cacute, uni01D0, Uring, ij, utilde, uni0402, uni0473, uni041B, uni20B9, uni04F9, uni01C6, otilde, period, uni20B8, w, uni04BB, uni1E44, backslash, section, breve, J, slash, uni0405, uni0304, uni0513, uni01F2, uni0228, uni04D9, uni1EB2, uni04AB, uni0450, uni00B9, uni0302.case, uni0438.loclBGR, Gdotaccent, IJ, fl, Igrave, uni04EC, onehalf, ecaron, uni1E21, five.numr, Odieresis, eight.lf, uni04F3, braceright, uni0492, sacute, Ccedilla, uni0414.loclBGR, uni0452, uni0425, ugrave, uni0163, uni1EF6, oslashacute, uni0424.loclBGR, uni01CF, Utilde, nine.lf, uni0338, uni03020301, uni1ED8, uni0472, periodcentered, uni00B3, uni20B4, x, aring, Aringacute, ycircumflex, uni045C, yen, uni04F5, uni0457, uni1EB6, uni0394, uni1EBB, uni04F1, imacron, uni0306.case, uni0453, uni0497, uni1E63, Idotaccent, uni0403, uni0507, uni0401, registered, uni049D, uni01C9, aacute, uni042A, uni1EB1, uni0406, uni04C5, uni1E45, uni1EA2, uni1EF1, uni1EDA, uni0475, dotlessi, p, Ccaron, eight.dnom, uni045B, uni0307.case, uni1E05, uni04E2, uni04CB, eight, udieresis, thorn, uni1EAB, uni0448.loclBGR, guillemotleft, uni050F, uni04A5, uni2126, uni045D, uni1ED3, uni04BD, Wcircumflex, uni1E57, uni1E92, notequal, uni021B, uni049E, product, uni01D1, uni0447, uni04FB, quoteright, uni01D2, uni0498, uni0328, F, uni041A, uni04D8, circumflex, aeacute, gdotaccent, uni050E, uni0337, Adieresis, uni04B2, uni048C, uni2120, uni0326, uni1ECE, quotedblright, uni1EB7, uni1EE3, uni1E60, Ebreve, Iogonek, cacute, uni0508, uni2113, uni20A9, uni0504, uni1ED9, uni2105, uni0503, uni04BA, Abreve, c, Ycircumflex, divide, uni0439, uni03020300.case, colon, a, quotereversed.ss01, oneeighth, Rcaron, uni0429, four.dnom, Yacute, e, uni1E1F, equal, uni04FD, franc, uni03020301.case, nacute, semicolon, uni0433, Acircumflex, degree, dong, uni04A2, uni0437, ccircumflex, amacron, uni1EC8, uni0407, Atilde, uni04ED, Euro, brevecombcy.case, uni0432, Wdieresis, uni04D3, bar, uni1EAE, uni0492.loclBSH, uni0308.case, uni0506, odieresis, emdash, h, caron, uni021A, uni1ED2, uni0526, Iacute, uni1E6C, zacute, uni0432.loclBGR, Ocircumflex, Nacute, exclamdbl, Scircumflex, uni1E56, dagger, Y, uni1E62, uni0436, uni1EDD, Hbar, Edieresis, uni0499, Jcircumflex, dollar, ogonek, uni04CA, uni04D2, exclam, ring, Emacron, Ugrave, uni0237, uni01CE, uni0490, ubreve, uni04DC, ohungarumlaut, quotesinglbase.ss01, two.lf, lessequal, I, gbreve, u, Oslashacute, abreve, igrave, percent, Udieresis, three.dnom, uni0409, uni1EC6, uni048B, uni02C9, P, Q, scircumflex, uni044E, A, uni0443, z, uni030A, uni0418, uni1EE4, uni043A.loclBGR, uni1EB4, uni1EA9, uni0499.loclBSH, uni1ED1, uni0434, acircumflex, uni1ECD, uni1E02, uni043B, uni20B2, uni1EF9, uni1E0D, ellipsis, uni0308, Lslash, uni041F, uni1EB3, uni1E8F, gravecomb, uni0451, multiply, Ibreve, uni04A7, Eng, uni01F1, t, uni04E0, integral, uni1EC2, ydieresis, uni1EA3, uni01C8, wgrave, uni04F4, uni1ED0, uni0431, uni04FE, uni0446.loclBGR, Ydieresis, sterling, two, Dcaron, zdotaccent, uni1E46, uni1EE5, uni0442, five.lf, underscore, uni1ED6, uni1E0C, ibreve, uni1EF7, g, Icircumflex, uni0434.loclBGR, uacute, uni1EEA, uni0445, uni04A0, Wacute, uni0416, uni1EC0, uni04B5, uni04EE, uni0304.case, kgreenlandic, uni0431.loclSRB, y, D, uni1EDF, four, iogonek, Ograve, uni0458, Wgrave, uni04DE, uni042D, uni0417, uni0512, arrowdown, Edotaccent, ocircumflex, currency, uni04CD, dotbelowcomb, uni051A, uni04B6, uni0446, uni04CE, uni04A8, o, uni04E3, uni1E6D, uni0493, uni1EBA, uni04C3, dieresis, uni0419, uni1E25, uni1EB0, icircumflex, uni04A6, uni01CD, six.lf, exclamdown, uni1EE9, uni20AE, omacron, seven.lf, uni1EF8, uni048D, uni0456, edotaccent, uni1EBE, agrave, uni041D, uni04C8, uni050B, uni04BF, eacute, uni03020309, uni0448, uni1EF4, uni1EBD, uni0424, uni04E5, quotedblleft, uni1E6A, W, uni1EA8, Gcircumflex, arrowright, at, uni01CB, uni03020303, Zdotaccent, threeeighths, uni0312, uni043F, uni044D, uni058F, paragraph, Eogonek, uni03060303.case, uni1EEB, n, uni04E6, uni2154, H, j, tbar, acutecomb, uni0462, uni040C, uni1EBC, uni1EDB, uni04DF, plusminus, florin, jcircumflex, uni1EE8, uni20B5, logicalnot, C, hcircumflex, uni2153, tcaron, uni0426, oacute, six, uni03060301.case, uni1EAF, Oacute, uni1EA4, uni043D.loclBGR, grave, uni1E0B, uni0430, uni043E, m, uni1E8E, Ubreve, uni0441, Hcircumflex, E, umacron, uni2219, uni044A.loclBGR, uni1E40, uni04DA, uni0335, Scedilla, uni1EDC, uni0433.loclBGR, uni1E47, uni040F, Racute, uni04F2, uni041E, ccedilla, uni04D1, uni0509, uni052F, uni04C9, four.lf, Umacron, dcaron, parenright, Amacron, uni0438, uni01CA, uni043B.loclBGR, two.numr, quoteleft, uni049C, tilde, bracketright, uni04B9, Cdotaccent, ampersand, uni0306, Gcaron, uni0493.loclBSH, uni0528, less, uni0404, uni046A, uni048A, Aacute, uni1EA7, fi, uni043F.loclBGR, uni1EA5, partialdiff, uni2196, Ntilde, uni1EC1, uni04AB.loclCHU, uni044C.loclBGR, uni1EC9, uni20A6, aogonek, uni1EF5, uni0444, uni044F, uni0494, uni041C, greaterequal, uhungarumlaut, uni0474, uni1EEF, uni048F, uni1EA0, Z, pi, uni0412, uni030C, uni1EC3, uni0427, uni2074, uni03A9, egrave, uni049F, Lacute, copyright, obreve, ae, uni0505, K, uni0500, question.ss01, v, uni040B, uni042F, uni20BD, B, onequarter, uni0496, racute, uni00B5, uni0327, uni20AA, uni0463, yacute, l, ccaron, AE, quotesingle, numbersign, uni04A9, uni04B4, uni1ECF, arrowboth, approxequal, lcaron, uni1ECA, ncaron, minus, Ccircumflex, uni04BE, uni25FC, uni1E04, dcroat, Scaron, uni04FA, uni01F4, uni04D0, one.numr, plus, Ncaron, uni1E6B, uni1EB8, quotedblbase.ss01, ygrave, Omacron, uni0414, uni049B, uni0511, uni0423, uni03BC, parenleft, arrowleft, uni04E1, Eth, uni1EB9, uni0491, uni1EE6, uni04FC, uni0428, bullet, three.lf, uni04B7, uni1E9E, Gbreve, R, U, Uogonek, uni1EA1, cdotaccent, Ohungarumlaut, fiveeighths, question, emptyset, quoteleft.ss01, uni04AC, uni03020303.case, scaron, uni030A.case, uni0454, three, uni045A, uni02BC, uni03060300, guillemotright, uni1EE7, d, uni04CC, O, L, uni1ECB, hungarumlaut, four.numr, uni0411, uni0529, uni01F3, uni0435, uni04DB, uni0501, uni03060309, uni0527, Ygrave, uni0439.loclBGR, uni0307, uni0413, uni049A, uni04C1, uni018F, uni051B, uni045D.loclBGR, uni0442.loclBGR, three.numr, braceleft, uni051C, uni04A3, Sacute, ldot, edieresis, uni1E41, quotedblleft.ss01, ntilde, uni0420, zero.lf, ohorn, uni0410, Ucircumflex, uni03020300, uni01D4, ograve, uni043C, uogonek, asterisk, uni0459, Aring, uni0437.loclBGR, arrowupdn, uni1EC7, hyphen, uni04E4, uni04E7, uni01D3, lira, uni1E1E, Ohorn, uni1EC4, uni040A, uni04CF, questiondown.ss01, uni04F8, uring, uni040D, uni04B3, uni04E9, uni1EC5, uni1E37, uni04EA, AEacute, Zacute, uni0229, uni1ED5, uni1ECC, uni1E3E, uni04C6, guilsinglright, uni045F, uni045E, lacute, quotedbl, seven, radical, uni0495, uni1EEC, uni1EAA, uni04AA, T, uni01C4, uni044E.loclBGR, germandbls, uni052E, uni1EDE, uni04D4, Otilde, OE, Zcaron, uni04D5, uni1EE1, uni030B, lslash, uni0510, nine, uni00B2, asciicircum, acute, uni1EA6, uni042B, Tbar, uni1EAC, uni04B8, zero.lf.zero, questiondown, Dcroat, wdieresis, uni051D, ucircumflex, uni043D, colonmonetary, macron, uni04D7, quoteright.ss01, daggerdbl, uni03060301, uni0455, uni048E, uni0400, uni04DD, uni04AD, Thorn, dollar.ss01, uni0440, uni01C5, i, uni04C0, uni04AB.loclBSH, quotesinglbase, Idieresis, uni1EB5, uni04EB, greater, f, oe, trademark, gcircumflex, guilsinglleft, asciitilde, uni046B, uni043A, Agrave, uni044C, uni04F7, uni04E8, uni1EE0, uni1EED, uni1ED7, uni04C4, emacron, gcaron, five, r, uni041B.loclBGR, Imacron, infinity, uni2206, quotereversed, two.dnom, threequarters, Ecircumflex, uni04A4, Ecaron, uni050C, uni1EAD, uni1EE2, eogonek, perthousand, N, uni042E, S, peseta, Egrave, uni044A, uni2117, X, uni0524, Aogonek, uni1E20, rcaron, Uhungarumlaut, uni1E03, uni050A, brevecombcy, iacute, uni0449, uni04A1, i.loclTRK, Uhorn, Oslash, aringacute, Obreve, oslash, uni0421, uni04EF, uni1E93, tildecomb]
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version: [uni048C, itilde, i, uni0506, Abreve, uni04FC, uni030C.case, uni1EB2, uni043F.loclBGR, l, uni0499, uni0304, uni044A.loclBGR, ocircumflex, uni0500, y, uni1EF8, yacute, uni1EE1, uni04FD, Zdotaccent, Ocircumflex, Tcaron, uni1E6C, uni1E21, hcircumflex, lslash, u, uni04A8, uni04D6, uni0458, uni20A6, infinity, uni04E6, uni03020309.case, quotedblbase, uni2196, uni04D4, Dcaron, uni0335, Ntilde, ebreve, uni0407, uni1ED1, uni1EDE, uni050A, uni0228, i.loclTRK, uni01F1, jcircumflex, Ldot, uni0306, dollar.ss01, uni0459, three, uni042C, uni052E, Agrave, three.numr, minus, eng, uni031B, uni04C5, G, Iacute, uni04BB, uni2197, uni048A, Emacron, lozenge, semicolon, uni04D3, uni20BD, uni1ED6, Oslash, Jcircumflex, uni0451, uni01F3, uni051C, uni050C, uni0430, uni04F3, hyphen, ampersand, Ccedilla, Wcircumflex, uni03060309, quotedblright, uni1ED2, uni1EBC, Z, uni1EA7, uni1EA1, uni0501, quoteright, caron, periodcentered, uni1E57, s, nine.lf, Utilde, uni043F, guilsinglright, seven, uni1E8E, uni1EC0, uni0312, Euro, uni1EA3, uni0406, uni20B5, Aogonek, lcaron, uni043B.loclBGR, uni00B3, tildecomb.case, M, breve, Thorn, tildecomb, uni051B, uni1E92, Cdotaccent, Q, uni01D1, quoteright.ss01, uni030B, uni1EE3, uni1E62, uni0450, braceleft, uni04A4, uni0433, Scaron, ntilde, Odieresis, questiondown.ss01, uni0413, uhorn, uni04FE, Lcaron, uni1ECB, uni1EE7, uni2074, multiply, greaterequal, edotaccent, h, uni1EAE, Ebreve, uni01CB, P, uni1E04, nacute, gdotaccent, Gcircumflex, uni045B, uni0328, uni1EAD, uni1EED, uni0456, ograve, cedilla, uni2206, uni20B4, uni0237, N, uni0404, Eacute, uni03060303, Ucircumflex, uni0492.loclBSH, uni04CB, uni20B8, four.numr, fiveeighths, uni1E02, ucircumflex, udieresis, uni0442, aacute, notequal, ohungarumlaut, uni040D, uni01D4, uni1EE2, uni1E45, partialdiff, uni0306.case, uni04C3, uni04AD, Ograve, uni04C8, uni040E, rcaron, uni1ECD, uni1EDC, uni1E0B, idieresis, four.dnom, ellipsis, uni045F, uni25FC, uni03020301, uni03060301, uni0510, uni0304.case, uni1ED3, uni04C4, threequarters, sterling, uni050B, uni04DB, uni0473, plusminus, uni0526, gbreve, Aringacute, Zacute, colonmonetary, uni04D1, OE, Otilde, uni1EAB, uni1EEA, Acircumflex, Racute, lacute, comma, uni04EE, uni0435, uni0414.loclBGR, two.numr, uni04B7, questiondown, uni046B, six.lf, uni0416, emptyset, uni04D8, uni0529, uni0512, uni0448.loclBGR, uni1E44, uni0403, m, uni043A, guilsinglleft, iogonek, uni01D3, parenleft, uni1EDD, uni045C, uni04DA, Scircumflex, Idotaccent, uni1ED0, radical, uni04CC, uni04D5, dieresis, asciitilde, uni0504, colon, uni049E, uni040A, divide, uni0308, uni0503, uni04E7, uni0475, uni1EB1, guillemotleft, uni04A5, amacron, uni043A.loclBGR, Egrave, exclam, uni1EE8, abreve, uni0431, macron, k, ydieresis, uni01C8, uni048D, Iogonek, uni1E9E, z, egrave, aeacute, v, uni03060303.case, uni0308.case, uni0438.loclBGR, uni1E24, uni1EC3, uni0163, fl, currency, uni2198, wacute, uni044A, uni0401, uni04E1, three.dnom, uni04AB.loclBSH, greater, uni1E46, hbar, t, uni0417, uni03A9, uni0449, uni1E41, wdieresis, ccircumflex, uni0400, uni1E1F, uni04F2, four.lf, uni04A1, uni1E37, uni04EF, uni01CD, uni04B3, Eth, uni1EAA, uni01CF, uni0527, six, uni044E.loclBGR, period, Ydieresis, uni043E, c, daggerdbl, uni03020301.case, uni01C9, uni20AA, at, E, icircumflex, uni045A, uni1E36, uni20A9, d, uni04C1, uni04EC, uni1EB8, uni20B1, p, uni2126, circumflex, uni1E6D, uni1EE6, uni04AC, eight, hungarumlaut, uni1E3F, uni040F, uni1EF9, eth, uni0436.loclBGR, ohorn, uni042E, o, ncaron, Eogonek, uni03020300.case, uni04B2, uni2113, uni1ED7, uni04E3, uni1EE4, S, Ugrave, uni04A2, uni0498.loclBSH, uni0462, uni0490, uni2199, uni00B2, lessequal, uni04D9, Uhorn, Ohorn, F, uni0443, tbar, uni04F5, scircumflex, uni042B, summation, uni01CC, product, peseta, wcircumflex, uni048E, uni046A, uni0457, guillemotright, less, uni1EC4, threeeighths, x, uni051A, uni20BA, uni03020309, quotereversed, uni1EBB, numbersign, uni0528, uni04F6, ccaron, uni04E4, seveneighths, uni20B2, Oslashacute, uni04CE, one.lf, bar, Ccaron, uni048F, Tbar, Uhungarumlaut, uni04F9, otilde, ecaron, uni1EF7, uni0402, uni0424.loclBGR, uni1EF4, four, uni1ECA, uni01F4, uni01CE, uni04E0, zero.lf, perthousand, zdotaccent, uni1EBD, plus, uni050D, uni0405, uni1E47, uni040C, tcaron, uhungarumlaut, ibreve, percent, pi, aogonek, Wdieresis, uni030C, uni0429, uni04DF, wgrave, B, uni1EA2, eacute, uni04A6, uni04B6, sacute, Edieresis, agrave, uni1EB4, Gcaron, three.lf, ordmasculine, quotedblbase.ss01, uni1EA9, imacron, uni0448, uni0453, uni0434.loclBGR, two, franc, Gdotaccent, uni04D2, uni030A.case, uni02BC, uni045E, uni20B9, edieresis, uacute, Lacute, yen, uni1ECE, Adieresis, uni041A, uni1E56, scaron, uni1E0D, uni04BC, cdotaccent, uni0412, uni1ECF, ldot, seven.lf, quotereversed.ss01, uni0439, section, uni2117, Omacron, uni0394, uni03020303.case, Lslash, uni1E6A, uni0438, uni01C5, uni00B5, uni043C, uni1EF6, Itilde, uni1EBA, uni1E8F, brokenbar, uni0409, oneeighth, cent, Atilde, dong, nine, uni2219, uni1EF1, ycircumflex, trademark, backslash, uni04AA, uni1EEE, uni042F, uni0440, uni051D, uni050E, ugrave, Ccircumflex, uni1ED4, uni041F, brevecombcy.case, Udieresis, uni1EF0, oslash, uni04DE, AEacute, uni0229, uni044E, uni04F8, two.dnom, florin, C, adieresis, grave, uni03060300, aringacute, one.numr, uni04B5, uni0432, uni048B, dotlessi, acutecomb, uni1EAC, uni0327, igrave, Ycircumflex, gravecomb, uni0496, uni043D.loclBGR, Wacute, uni044C, A, uni044B, uni052F, parenright, Idieresis, quotedblleft.ss01, thorn, arrowboth, dotbelowcomb, IJ, uni04C6, aring, Rcaron, quotedblright.ss01, uni1E05, uni030A, uni0492, uni0505, f, uni1ECC, uni04AA.loclCHU, Amacron, dcroat, ogonek, utilde, Umacron, uni01C6, uni0422, Wgrave, uni041D, germandbls, uni2116, uni044C.loclBGR, Oacute, ij, eight.lf, uni1E0A, uni04E9, paragraph, exclamdbl, uni04D7, uni04F4, Aring, uni01F2, uni0472, uni03BC, uni04C2, fi, registered, T, uni058F, uni0447.loclBGR, uni0498, zacute, tilde, uni0474, Yacute, asterisk, uni1EA6, logicalnot, Ubreve, uni1EC7, emacron, uni043D, equal, Ecaron, ubreve, uni0497, uni0441, uni00AD, uni0511, Edotaccent, ygrave, uni0307.case, uni0507, uni04F0, uni0433.loclBGR, oacute, uni1EA4, uni1EB3, ae, exclamdown, underscore, copyright, uni03020303, uni01D2, Ibreve, uni04F7, five.lf, g, omacron, uni0432.loclBGR, uni049C, uni0434, Cacute, V, uni049D, slash, uni2105, uni04A9, uni03060301.case, uni04CA, uni1EB6, uogonek, uni0419, uni04FA, uni1EB0, Hcircumflex, uni1EC9, onequarter, uni0338, arrowdown, quotedblleft, quotesingle, uni0410, uni04EA, uni0445, uni0302.case, racute, uni1E63, uni0427, uni0423, uni021A, uni0437.loclBGR, uni01CA, Nacute, question.ss01, uni0463, cacute, dcaron, uni041E, K, uni0421, Ecircumflex, acircumflex, uni0499.loclBSH, uni0447, Sacute, Uring, uni04D0, five, uni0431.loclSRB, uni0455, lira, degree, uni01D0, uni021B, O, q, uni0513, uni0408, uni040B, uni04AB.loclCHU, uni1EEC, uni04DD, Gbreve, quoteleft.ss01, uni04A7, uni1EC2, uni1EBF, uni04BA, ordfeminine, uni04FF, b, uni1E20, uni0509, uni0426, Uogonek, uni0428, uni0415, uni1E40, quoteleft, uni1EC8, uni1EC6, gcircumflex, uni04EB, umacron, uni1ED8, Hbar, j, Igrave, uni04C0, uni1E61, uni0444, R, uni04BD, uni0326, uni1EDF, uni0449.loclBGR, approxequal, uni04A3, uni01C4, uni04B4, iacute, uni1ED5, arrowright, uni1EBE, ccedilla, uni1EF5, uni0414, uni1EB7, arrowupdn, ring, uni0495, brevecombcy, uni0336, uni04E5, w, uni1EE9, quotedbl, bracketright, uni0420, uni04A0, acute, uni1EDB, uni04BE, uni1EA5, arrowleft, uni041B, a, uni049A, n, uni0491, uni0437, uni045D, uni0424, uni1EC1, uni1E0C, uni0508, uni049B, uring, r, uni04CD, uni1EA0, Ohungarumlaut, uni0446.loclBGR, AE, uni04B9, uni2154, hookabovecomb, uni0337, uni0452, uni041B.loclBGR, uni042A, uni00B9, uni0307, uni20AE, uni018F, uni1E1E, uni1EE5, atilde, zero.lf.zero, uni0439.loclBGR, uni0162, uni0418, uni1E93, uni0411, Ncaron, zcaron, uni0454, uni04AB, Scedilla, obreve, L, kgreenlandic, uni0446, uni0442.loclBGR, uni0493.loclBSH, uni042D, Aacute, uni1E03, quotesinglbase, uni03020300, arrowup, braceright, uni0493, five.numr, dagger, eogonek, seven.numr, Uacute, uni04E2, asciicircum, Imacron, uni04CF, uni04FB, uni02C9, question, uni1EDA, U, oe, integral, uni04ED, bullet, H, uni044D, uni0436, uni1E60, uni1EA8, Zcaron, uni1EE0, uni1EB9, uni04C7, uni044F, Obreve, uni04BF, uni1EEB, oslashacute, uni0524, uni0494, uni04AA.loclBSH, uni04C9, uni1EAF, uni1E3E, J, I, Ygrave, uni041C, uni0425, Dcroat, uni1EC5, onehalf, uni045D.loclBGR, uni04E8, uni01C7, uni049F, gcaron, uni2120, X, uni0259, two.lf, uni1EB5, quotesinglbase.ss01, uni043B, uni1E6B, uni1E25, bracketleft, uni04DC, Eng, Icircumflex, uni050F, uni2153, D, W, e, uni0525, Y, emdash, uni1ED9, dollar, uni04F1, scedilla, uni1EEF, odieresis, uni04B8, ecircumflex, eight.dnom]
 
 </details>
 <details>
@@ -548,102 +803,6 @@ https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
  FONT_FAMILY_NAME = 'Merriweather Light Narrow' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check variable font instances have correct names</summary>
-
-* [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
-
-* ⚠ **WARN** Instance "Light Narrow Italic": contains the following unparsable tokens "['Narrow']"
-* ⚠ **WARN** Instance "Light Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Narrow Italic": contains the following unparsable tokens "['Narrow']"
-* ⚠ **WARN** Instance "Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Narrow Italic": contains the following unparsable tokens "['Narrow']"
-* ⚠ **WARN** Instance "Bold Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Narrow Italic": contains the following unparsable tokens "['Narrow']"
-* ⚠ **WARN** Instance "Black Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Wide Italic": contains the following unparsable tokens "['Wide']"
-* ⚠ **WARN** Instance "Light Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Wide Italic": contains the following unparsable tokens "['Wide']"
-* ⚠ **WARN** Instance "Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Wide Italic": contains the following unparsable tokens "['Wide']"
-* ⚠ **WARN** Instance "Bold Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Wide Italic": contains the following unparsable tokens "['Wide']"
-* ⚠ **WARN** Instance "Black Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Text Italic": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Light Text Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Italic": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Bold Italic": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Black Italic": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Light Narrow Italic": contains the following unparsable tokens "['Text', 'Narrow']"
-* ⚠ **WARN** Instance "Text Light Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Narrow Italic": contains the following unparsable tokens "['Text', 'Narrow']"
-* ⚠ **WARN** Instance "Text Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Text Narrow Italic": contains the following unparsable tokens "['Text', 'Narrow']"
-* ⚠ **WARN** Instance "Bold Text Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Text Narrow Italic": contains the following unparsable tokens "['Text', 'Narrow']"
-* ⚠ **WARN** Instance "Black Text Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Text Wide Italic": contains the following unparsable tokens "['Text', 'Wide']"
-* ⚠ **WARN** Instance "Light Text Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Wide Italic": contains the following unparsable tokens "['Text', 'Wide']"
-* ⚠ **WARN** Instance "Text Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Text Wide Italic": contains the following unparsable tokens "['Text', 'Wide']"
-* ⚠ **WARN** Instance "Bold Text Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Text Wide Italic": contains the following unparsable tokens "['Text', 'Wide']"
-* ⚠ **WARN** Instance "Black Text Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Heading Italic": contains the following unparsable tokens "['Heading']"
-* ⚠ **WARN** Instance "Light Heading Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Heading Italic": contains the following unparsable tokens "['Heading']"
-* ⚠ **WARN** Instance "Heading Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Heading Italic": contains the following unparsable tokens "['Heading']"
-* ⚠ **WARN** Instance "Bold Heading Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Heading Italic": contains the following unparsable tokens "['Heading']"
-* ⚠ **WARN** Instance "Black Heading Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Heading Narrow Italic": contains the following unparsable tokens "['Heading', 'Narrow']"
-* ⚠ **WARN** Instance "Light Heading Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Heading Narrow Italic": contains the following unparsable tokens "['Heading', 'Narrow']"
-* ⚠ **WARN** Instance "Heading Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Heading Narrow Italic": contains the following unparsable tokens "['Heading', 'Narrow']"
-* ⚠ **WARN** Instance "Bold Heading Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Heading Narrow Italic": contains the following unparsable tokens "['Heading', 'Narrow']"
-* ⚠ **WARN** Instance "Black Heading Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Heading Wide Italic": contains the following unparsable tokens "['Heading', 'Wide']"
-* ⚠ **WARN** Instance "Light Heading Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Heading Wide Italic": contains the following unparsable tokens "['Heading', 'Wide']"
-* ⚠ **WARN** Instance "Heading Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Heading Wide Italic": contains the following unparsable tokens "['Heading', 'Wide']"
-* ⚠ **WARN** Instance "Bold Heading Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Heading Wide Italic": contains the following unparsable tokens "['Heading', 'Wide']"
-* ⚠ **WARN** Instance "Black Heading Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Display Italic": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Light Display Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Italic": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Display Italic": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Bold Display Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Display Italic": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Black Display Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Display Narrow Italic": contains the following unparsable tokens "['Display', 'Narrow']"
-* ⚠ **WARN** Instance "Light Display Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Narrow Italic": contains the following unparsable tokens "['Display', 'Narrow']"
-* ⚠ **WARN** Instance "Display Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Display Narrow Italic": contains the following unparsable tokens "['Display', 'Narrow']"
-* ⚠ **WARN** Instance "Bold Display Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Display Narrow Italic": contains the following unparsable tokens "['Display', 'Narrow']"
-* ⚠ **WARN** Instance "Black Display Narrow Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Light Display Wide Italic": contains the following unparsable tokens "['Display', 'Wide']"
-* ⚠ **WARN** Instance "Light Display Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Wide Italic": contains the following unparsable tokens "['Display', 'Wide']"
-* ⚠ **WARN** Instance "Display Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Bold Display Wide Italic": contains the following unparsable tokens "['Display', 'Wide']"
-* ⚠ **WARN** Instance "Bold Display Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Black Display Wide Italic": contains the following unparsable tokens "['Display', 'Wide']"
-* ⚠ **WARN** Instance "Black Display Wide Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
 
 </details>
 <details>
@@ -1434,7 +1593,7 @@ of hinted versus unhinted font files.
 	|:--- | ---:|
 	| Dehinted Size | 1.4Mb |
 	| Hinted Size | 1.4Mb |
-	| Increase | -988 bytes |
+	| Increase | -992 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1473,37 +1632,6 @@ https://davelab6.github.io/epar/
 </pre>
 
 * ℹ **INFO** EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]
-
-</details>
-<details>
-<summary>ℹ <b>INFO:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
-
-* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
-<pre>--- Rationale ---
-
-Traditionally version 0 &#x27;gasp&#x27; tables were set so that font sizes below 8 ppem
-had no grid fitting but did have antialiasing. From 9-16 ppem, just grid
-fitting. And fonts above 17ppem had both antialiasing and grid fitting toggled
-on. The use of accelerated graphics cards and higher resolution screens make
-this approach obsolete. Microsoft&#x27;s DirectWrite pushed this even further with
-much improved rendering built into the OS and apps.
-
-In this scenario it makes sense to simply toggle all 4 flags ON for all font
-sizes.
-
-
-</pre>
-
-* ℹ **INFO** These are the ppm ranges declared on the gasp table:
-
-PPM <= 65535:
-	flag = 0x0F
-	- Use grid-fitting
-	- Use grayscale rendering
-	- Use gridfitting with ClearType symmetric smoothing
-	- Use smoothing along multiple axes with ClearType®
- [code: ranges]
-* 🍞 **PASS** The 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
 
 </details>
 <details>
@@ -1559,7 +1687,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [DSIG, prep, gasp, GSUB, loca, GPOS]
+* ℹ **INFO** This font contains the following optional tables [loca, GPOS, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1893,44 +2021,6 @@ https://docs.microsoft.com/en-us/typography/opentype/spec
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
-
-* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
-<pre>--- Rationale ---
-
-This setup is meant to ensure consistent rendering quality for fonts across all
-devices (with different rendering/hinting capabilities).
-
-Below is the snippet of instructions we expect to see in the fonts:
-B8 01 FF    PUSHW 0x01FF
-85          SCANCTRL (unconditinally turn on
-                      dropout control mode)
-B0 04       PUSHB 0x04
-8D          SCANTYPE (enable smart dropout control)
-
-&quot;Smart dropout control&quot; means activating rules 1, 2 and 5:
-Rule 1: If a pixel&#x27;s center falls within the glyph outline,
-        that pixel is turned on.
-Rule 2: If a contour falls exactly on a pixel&#x27;s center,
-        that pixel is turned on.
-Rule 5: If a scan line between two adjacent pixel centers
-        (either vertical or horizontal) is intersected
-        by both an on-Transition contour and an off-Transition
-        contour and neither of the pixels was already turned on
-        by rules 1 and 2, turn on the pixel which is closer to
-        the midpoint between the on-Transition contour and
-        off-Transition contour. This is &quot;Smart&quot; dropout control.
-
-For more detailed info (such as other rules not enabled in this snippet),
-please refer to the TrueType Instruction Set documentation.
-
-
-</pre>
-
-* 🍞 **PASS** 'prep' table contains instructions enabling smart dropout control.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> There must not be VTT Talk sources in the font.</summary>
 
 * [com.google.fonts/check/vttclean](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vttclean)
@@ -2160,22 +2250,6 @@ space glyph. This might have been relevant for applications on MacOS 9.
 * [com.google.fonts/check/whitespace_ink](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink)
 
 * 🍞 **PASS** There is no whitespace glyph with ink.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Are there unwanted tables?</summary>
-
-* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
-<pre>--- Rationale ---
-
-Some font editors store source data in their own SFNT tables, and these can
-sometimes sneak into final release files, which should only have OpenType spec
-tables.
-
-
-</pre>
-
-* 🍞 **PASS** There are no unwanted tables.
 
 </details>
 <details>
@@ -2472,31 +2546,6 @@ This is the TTF/CFF2 equivalent of the CFF &#x27;postscript_name_cff_vs_name&#x2
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Does the font have a DSIG table?</summary>
-
-* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
-<pre>--- Rationale ---
-
-Microsoft Office 2013 and below products expect fonts to have a digital
-signature declared in a DSIG table in order to implement OpenType features. The
-EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
-impact Microsoft Office 2016 and above products. 
-
-This checks verifies that this signature is available in the font.
-
-A fake signature is enough to address this issue. If needed, a dummy table can
-be added to the font with the `gftools fix-dsig` script available at
-https://github.com/googlefonts/gftools
-
-Reference: https://github.com/googlefonts/fontbakery/issues/1845
-
-
-</pre>
-
-* 🍞 **PASS** Digital Signature (DSIG) exists.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width?</summary>
 
 * [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
@@ -2620,5 +2669,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 8 | 64 | 9 | 76 | 0 |
-| 0% | 6% | 5% | 38% | 5% | 46% | 0% |
+| 0 | 15 | 7 | 64 | 8 | 73 | 0 |
+| 0% | 9% | 4% | 38% | 5% | 44% | 0% |
