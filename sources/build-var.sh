@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 source venv/bin/activate
 set -e
 
