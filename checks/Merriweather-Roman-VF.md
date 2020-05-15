@@ -241,117 +241,11 @@ and separated by commas:
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
-
-* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
-<pre>--- Rationale ---
-
-Traditionally version 0 &#x27;gasp&#x27; tables were set so that font sizes below 8 ppem
-had no grid fitting but did have antialiasing. From 9-16 ppem, just grid
-fitting. And fonts above 17ppem had both antialiasing and grid fitting toggled
-on. The use of accelerated graphics cards and higher resolution screens make
-this approach obsolete. Microsoft&#x27;s DirectWrite pushed this even further with
-much improved rendering built into the OS and apps.
-
-In this scenario it makes sense to simply toggle all 4 flags ON for all font
-sizes.
-
-
-</pre>
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Light Narrow" is incorrect. It must be "SemiCondensed Light". [code: bad-typo-win]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
-
-* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
-<pre>--- Rationale ---
-
-This setup is meant to ensure consistent rendering quality for fonts across all
-devices (with different rendering/hinting capabilities).
-
-Below is the snippet of instructions we expect to see in the fonts:
-B8 01 FF    PUSHW 0x01FF
-85          SCANCTRL (unconditinally turn on
-                      dropout control mode)
-B0 04       PUSHB 0x04
-8D          SCANTYPE (enable smart dropout control)
-
-&quot;Smart dropout control&quot; means activating rules 1, 2 and 5:
-Rule 1: If a pixel&#x27;s center falls within the glyph outline,
-        that pixel is turned on.
-Rule 2: If a contour falls exactly on a pixel&#x27;s center,
-        that pixel is turned on.
-Rule 5: If a scan line between two adjacent pixel centers
-        (either vertical or horizontal) is intersected
-        by both an on-Transition contour and an off-Transition
-        contour and neither of the pixels was already turned on
-        by rules 1 and 2, turn on the pixel which is closer to
-        the midpoint between the on-Transition contour and
-        off-Transition contour. This is &quot;Smart&quot; dropout control.
-
-For more detailed info (such as other rules not enabled in this snippet),
-please refer to the TrueType Instruction Set documentation.
-
-
-</pre>
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
-<pre>--- Rationale ---
-
-The named instances on the weight axis of a variable font must have coordinates
-that are multiples of 100 on the design space.
-
-
-</pre>
-
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=734.254150390625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=701.1049652099609. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=701.1049652099609. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=469.06077575683594. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=701.1049652099609. This should instead be a multiple of 100. [code: bad-coordinate]
 
 </details>
 <details>
@@ -396,63 +290,6 @@ variable fonts in their web browsers.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check variable font instances have correct coordinate values</summary>
-
-* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
-
-* 🔥 **FAIL** Instance "Regular" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Lt" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Bold" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Black" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiWide" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiWide Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Lt" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Bold" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiWide" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiWide Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Lt" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Bold" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Black" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiWide" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiWide Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Lt" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Bold" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Black" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiWide" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiWide Bold" wght value is "734.254150390625". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big Bold" wght value is "701.1049652099609". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Lt" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Bold" wght value is "701.1049652099609". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Bold" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Black" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiWide" wght value is "469.06077575683594". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiWide Bold" wght value is "701.1049652099609". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Check variable font instances have correct names</summary>
 
 * [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
@@ -484,8 +321,8 @@ variable fonts in their web browsers.
 * ⚠ **WARN** Instance "SemiWide Bold": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "SemiWide Black": contains the following unparsable tokens "['SemiWide']"
 * ⚠ **WARN** Instance "SemiWide Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Lt": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text Lt": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Light": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Light": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text": contains the following unparsable tokens "['Text']"
 * ⚠ **WARN** Instance "Text": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text Bold": contains the following unparsable tokens "['Text']"
@@ -498,8 +335,8 @@ variable fonts in their web browsers.
 * ⚠ **WARN** Instance "Text SemiCnd": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text SemiCnd Bold": contains the following unparsable tokens "['Text']"
 * ⚠ **WARN** Instance "Text SemiCnd Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Black Narrow": contains the following unparsable tokens "['Text', 'Narrow']"
-* ⚠ **WARN** Instance "Text Black Narrow": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Black": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Black": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text SemiWide Lt": contains the following unparsable tokens "['Text', 'SemiWide']"
 * ⚠ **WARN** Instance "Text SemiWide Lt": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text SemiWide": contains the following unparsable tokens "['Text', 'SemiWide']"
@@ -508,8 +345,8 @@ variable fonts in their web browsers.
 * ⚠ **WARN** Instance "Text SemiWide Bold": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text SemiWide Black": contains the following unparsable tokens "['Text', 'SemiWide']"
 * ⚠ **WARN** Instance "Text SemiWide Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Lt": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head Lt": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Light": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Light": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Head": contains the following unparsable tokens "['Head']"
 * ⚠ **WARN** Instance "Head": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Head Bold": contains the following unparsable tokens "['Head']"
@@ -556,8 +393,8 @@ variable fonts in their web browsers.
 * ⚠ **WARN** Instance "Display SemiWide Bold": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Display SemiWide Black": contains the following unparsable tokens "['Display', 'SemiWide']"
 * ⚠ **WARN** Instance "Display SemiWide Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Lt": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big Lt": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Light": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Light": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Big": contains the following unparsable tokens "['Big']"
 * ⚠ **WARN** Instance "Big": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Big Bold": contains the following unparsable tokens "['Big']"
@@ -608,89 +445,6 @@ yMax and abs(yMin).
 </pre>
 
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 606, but got 604 instead [code: descent]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Are there unwanted tables?</summary>
-
-* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
-<pre>--- Rationale ---
-
-Some font editors store source data in their own SFNT tables, and these can
-sometimes sneak into final release files, which should only have OpenType spec
-tables.
-
-
-</pre>
-
-* 🔥 **FAIL** The following unwanted font tables were found:
-Table: MVAR
-Reason: Produces a bug in DirectWrite which causes https://bugzilla.mozilla.org/show_bug.cgi?id=1492477, https://github.com/google/fonts/issues/2085
-
-They can be removed with the gftools fix-unwanted-tables script.
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Does the font have a DSIG table?</summary>
-
-* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
-<pre>--- Rationale ---
-
-Microsoft Office 2013 and below products expect fonts to have a digital
-signature declared in a DSIG table in order to implement OpenType features. The
-EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
-impact Microsoft Office 2016 and above products. 
-
-This checks verifies that this signature is available in the font.
-
-A fake signature is enough to address this issue. If needed, a dummy table can
-be added to the font with the `gftools fix-dsig` script available at
-https://github.com/googlefonts/gftools
-
-Reference: https://github.com/googlefonts/fontbakery/issues/1845
-
-
-</pre>
-
-* 🔥 **FAIL** This font lacks a digital signature (DSIG table). Some applications may require one (even if only a dummy placeholder) in order to work properly. You can add a DSIG table by running the `gftools fix-dsig` script. [code: lacks-signature]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/varfont/regular_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord)
-<pre>--- Rationale ---
-
-According to the Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27;
-available at
-https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght
-
-If a variable font has a &#x27;wght&#x27; (Weight) axis, then the coordinate of its
-&#x27;Regular&#x27; instance is required to be 400.
-
-
-</pre>
-
-* 🔥 **FAIL** The "wght" axis coordinate of the "Regular" instance must be 400. Got 469.06077575683594 instead. [code: not-400]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
-
-* [com.google.fonts/check/varfont/bold_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/bold_wght_coord)
-<pre>--- Rationale ---
-
-The Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27; available at
-https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght does
-not specify a required value for the &#x27;Bold&#x27; instance of a variable font.
-
-But Dave Crossland suggested that we should enforce a required value of 700 in
-this case.
-
-
-</pre>
-
-* 🔥 **FAIL** The "wght" axis coordinate of the "Bold" instance must be 700. Got 734.254150390625 instead. [code: not-700]
 
 </details>
 <details>
@@ -1643,7 +1397,7 @@ of hinted versus unhinted font files.
 	|:--- | ---:|
 	| Dehinted Size | 1.4Mb |
 	| Hinted Size | 1.4Mb |
-	| Increase | -1132 bytes |
+	| Increase | -1160 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1682,6 +1436,37 @@ https://davelab6.github.io/epar/
 </pre>
 
 * ℹ **INFO** EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]
+
+</details>
+<details>
+<summary>ℹ <b>INFO:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
+
+* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
+<pre>--- Rationale ---
+
+Traditionally version 0 &#x27;gasp&#x27; tables were set so that font sizes below 8 ppem
+had no grid fitting but did have antialiasing. From 9-16 ppem, just grid
+fitting. And fonts above 17ppem had both antialiasing and grid fitting toggled
+on. The use of accelerated graphics cards and higher resolution screens make
+this approach obsolete. Microsoft&#x27;s DirectWrite pushed this even further with
+much improved rendering built into the OS and apps.
+
+In this scenario it makes sense to simply toggle all 4 flags ON for all font
+sizes.
+
+
+</pre>
+
+* ℹ **INFO** These are the ppm ranges declared on the gasp table:
+
+PPM <= 65535:
+	flag = 0x0F
+	- Use grid-fitting
+	- Use grayscale rendering
+	- Use gridfitting with ClearType symmetric smoothing
+	- Use smoothing along multiple axes with ClearType®
+ [code: ranges]
+* 🍞 **PASS** The 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
 
 </details>
 <details>
@@ -1737,7 +1522,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GPOS, GSUB, loca]
+* ℹ **INFO** This font contains the following optional tables [DSIG, prep, gasp, GPOS, GSUB, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -2018,6 +1803,44 @@ https://docs.microsoft.com/en-us/typography/opentype/spec
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
+<pre>--- Rationale ---
+
+This setup is meant to ensure consistent rendering quality for fonts across all
+devices (with different rendering/hinting capabilities).
+
+Below is the snippet of instructions we expect to see in the fonts:
+B8 01 FF    PUSHW 0x01FF
+85          SCANCTRL (unconditinally turn on
+                      dropout control mode)
+B0 04       PUSHB 0x04
+8D          SCANTYPE (enable smart dropout control)
+
+&quot;Smart dropout control&quot; means activating rules 1, 2 and 5:
+Rule 1: If a pixel&#x27;s center falls within the glyph outline,
+        that pixel is turned on.
+Rule 2: If a contour falls exactly on a pixel&#x27;s center,
+        that pixel is turned on.
+Rule 5: If a scan line between two adjacent pixel centers
+        (either vertical or horizontal) is intersected
+        by both an on-Transition contour and an off-Transition
+        contour and neither of the pixels was already turned on
+        by rules 1 and 2, turn on the pixel which is closer to
+        the midpoint between the on-Transition contour and
+        off-Transition contour. This is &quot;Smart&quot; dropout control.
+
+For more detailed info (such as other rules not enabled in this snippet),
+please refer to the TrueType Instruction Set documentation.
+
+
+</pre>
+
+* 🍞 **PASS** 'prep' table contains instructions enabling smart dropout control.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> There must not be VTT Talk sources in the font.</summary>
 
 * [com.google.fonts/check/vttclean](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vttclean)
@@ -2078,6 +1901,21 @@ variable font instances do exist in the name table.
 
 Named instances must be present in all variable fonts in order not to frustrate
 the users&#x27; typical expectations of a traditional static font workflow.
+
+
+</pre>
+
+* 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
+<pre>--- Rationale ---
+
+The named instances on the weight axis of a variable font must have coordinates
+that are multiples of 100 on the design space.
 
 
 </pre>
@@ -2149,6 +1987,14 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 </pre>
 
 * 🍞 **PASS** Vertical metrics have not regressed.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check variable font instances have correct coordinate values</summary>
+
+* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
+
+* 🍞 **PASS** Instance coordinates are correct
 
 </details>
 <details>
@@ -2235,6 +2081,22 @@ space glyph. This might have been relevant for applications on MacOS 9.
 * [com.google.fonts/check/whitespace_ink](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink)
 
 * 🍞 **PASS** There is no whitespace glyph with ink.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Are there unwanted tables?</summary>
+
+* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
+<pre>--- Rationale ---
+
+Some font editors store source data in their own SFNT tables, and these can
+sometimes sneak into final release files, which should only have OpenType spec
+tables.
+
+
+</pre>
+
+* 🍞 **PASS** There are no unwanted tables.
 
 </details>
 <details>
@@ -2531,6 +2393,31 @@ This is the TTF/CFF2 equivalent of the CFF &#x27;postscript_name_cff_vs_name&#x2
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Does the font have a DSIG table?</summary>
+
+* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
+<pre>--- Rationale ---
+
+Microsoft Office 2013 and below products expect fonts to have a digital
+signature declared in a DSIG table in order to implement OpenType features. The
+EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
+impact Microsoft Office 2016 and above products. 
+
+This checks verifies that this signature is available in the font.
+
+A fake signature is enough to address this issue. If needed, a dummy table can
+be added to the font with the `gftools fix-dsig` script available at
+https://github.com/googlefonts/gftools
+
+Reference: https://github.com/googlefonts/fontbakery/issues/1845
+
+
+</pre>
+
+* 🍞 **PASS** Digital Signature (DSIG) exists.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width?</summary>
 
 * [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
@@ -2612,6 +2499,25 @@ the same x,y coordinates.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/varfont/regular_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord)
+<pre>--- Rationale ---
+
+According to the Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27;
+available at
+https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght
+
+If a variable font has a &#x27;wght&#x27; (Weight) axis, then the coordinate of its
+&#x27;Regular&#x27; instance is required to be 400.
+
+
+</pre>
+
+* 🍞 **PASS** Regular:wght is 400.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
 
 * [com.google.fonts/check/varfont/regular_wdth_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wdth_coord)
@@ -2628,6 +2534,25 @@ If a variable font has a &#x27;wdth&#x27; (Width) axis, then the coordinate of i
 </pre>
 
 * 🍞 **PASS** Regular:wdth is 100.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
+
+* [com.google.fonts/check/varfont/bold_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/bold_wght_coord)
+<pre>--- Rationale ---
+
+The Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27; available at
+https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght does
+not specify a required value for the &#x27;Bold&#x27; instance of a variable font.
+
+But Dave Crossland suggested that we should enforce a required value of 700 in
+this case.
+
+
+</pre>
+
+* 🍞 **PASS** Bold:wght is 700.
 
 </details>
 <details>
@@ -2673,5 +2598,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 14 | 6 | 71 | 8 | 68 | 0 |
-| 0% | 8% | 4% | 43% | 5% | 41% | 0% |
+| 0 | 6 | 6 | 71 | 9 | 75 | 0 |
+| 0% | 4% | 4% | 43% | 5% | 45% | 0% |

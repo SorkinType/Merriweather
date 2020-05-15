@@ -241,30 +241,6 @@ and separated by commas:
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
-
-* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
-<pre>--- Rationale ---
-
-Traditionally version 0 &#x27;gasp&#x27; tables were set so that font sizes below 8 ppem
-had no grid fitting but did have antialiasing. From 9-16 ppem, just grid
-fitting. And fonts above 17ppem had both antialiasing and grid fitting toggled
-on. The use of accelerated graphics cards and higher resolution screens make
-this approach obsolete. Microsoft&#x27;s DirectWrite pushed this even further with
-much improved rendering built into the OS and apps.
-
-In this scenario it makes sense to simply toggle all 4 flags ON for all font
-sizes.
-
-
-</pre>
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
@@ -313,91 +289,6 @@ checks that nameID 1 is the family name + the style name.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
-
-* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
-<pre>--- Rationale ---
-
-This setup is meant to ensure consistent rendering quality for fonts across all
-devices (with different rendering/hinting capabilities).
-
-Below is the snippet of instructions we expect to see in the fonts:
-B8 01 FF    PUSHW 0x01FF
-85          SCANCTRL (unconditinally turn on
-                      dropout control mode)
-B0 04       PUSHB 0x04
-8D          SCANTYPE (enable smart dropout control)
-
-&quot;Smart dropout control&quot; means activating rules 1, 2 and 5:
-Rule 1: If a pixel&#x27;s center falls within the glyph outline,
-        that pixel is turned on.
-Rule 2: If a contour falls exactly on a pixel&#x27;s center,
-        that pixel is turned on.
-Rule 5: If a scan line between two adjacent pixel centers
-        (either vertical or horizontal) is intersected
-        by both an on-Transition contour and an off-Transition
-        contour and neither of the pixels was already turned on
-        by rules 1 and 2, turn on the pixel which is closer to
-        the midpoint between the on-Transition contour and
-        off-Transition contour. This is &quot;Smart&quot; dropout control.
-
-For more detailed info (such as other rules not enabled in this snippet),
-please refer to the TrueType Instruction Set documentation.
-
-
-</pre>
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
-<pre>--- Rationale ---
-
-The named instances on the weight axis of a variable font must have coordinates
-that are multiples of 100 on the design space.
-
-
-</pre>
-
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=322.8260803222656. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=322.8260803222656. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=322.8260803222656. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=489.13043212890625. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=717.3913116455078. This should instead be a multiple of 100. [code: bad-coordinate]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
 
 * [com.google.fonts/check/name/rfn](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/rfn)
@@ -436,67 +327,6 @@ variable fonts in their web browsers.
 </pre>
 
 * 🔥 **FAIL** Please create a subdirectory called "static/" and include in it static font files. [code: missing]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check variable font instances have correct coordinate values</summary>
-
-* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
-
-* 🔥 **FAIL** Instance "Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Text SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head Light Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Light Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiWide Light Italic" wght value is "322.8260803222656". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Head SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Display SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Light Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Bold Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiCnd Black Italic" wdth value is "87.0". It should be "87.5" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiWide Italic" wght value is "489.13043212890625". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "Big SemiWide Bold Italic" wght value is "717.3913116455078". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
 
 </details>
 <details>
@@ -616,51 +446,6 @@ variable fonts in their web browsers.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Are there unwanted tables?</summary>
-
-* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
-<pre>--- Rationale ---
-
-Some font editors store source data in their own SFNT tables, and these can
-sometimes sneak into final release files, which should only have OpenType spec
-tables.
-
-
-</pre>
-
-* 🔥 **FAIL** The following unwanted font tables were found:
-Table: MVAR
-Reason: Produces a bug in DirectWrite which causes https://bugzilla.mozilla.org/show_bug.cgi?id=1492477, https://github.com/google/fonts/issues/2085
-
-They can be removed with the gftools fix-unwanted-tables script.
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Does the font have a DSIG table?</summary>
-
-* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
-<pre>--- Rationale ---
-
-Microsoft Office 2013 and below products expect fonts to have a digital
-signature declared in a DSIG table in order to implement OpenType features. The
-EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
-impact Microsoft Office 2016 and above products. 
-
-This checks verifies that this signature is available in the font.
-
-A fake signature is enough to address this issue. If needed, a dummy table can
-be added to the font with the `gftools fix-dsig` script available at
-https://github.com/googlefonts/gftools
-
-Reference: https://github.com/googlefonts/fontbakery/issues/1845
-
-
-</pre>
-
-* 🔥 **FAIL** This font lacks a digital signature (DSIG table). Some applications may require one (even if only a dummy placeholder) in order to work properly. You can add a DSIG table by running the `gftools fix-dsig` script. [code: lacks-signature]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Check copyright namerecords match license file.</summary>
 
 * [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
@@ -738,7 +523,7 @@ When in doubt, please choose OFL for new font projects.
 
 * [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
 
-* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version: [uni048C, itilde, i, uni0506, Abreve, uni04FC, uni030C.case, uni1EB2, uni043F.loclBGR, l, uni0499, uni0304, uni044A.loclBGR, ocircumflex, uni0500, y, uni1EF8, yacute, uni1EE1, uni04FD, Zdotaccent, Ocircumflex, Tcaron, uni1E6C, uni1E21, hcircumflex, lslash, u, uni04A8, uni04D6, uni0458, uni20A6, infinity, uni04E6, uni03020309.case, quotedblbase, uni2196, uni04D4, Dcaron, uni0335, Ntilde, ebreve, uni0407, uni1ED1, uni1EDE, uni050A, uni0228, i.loclTRK, uni01F1, jcircumflex, Ldot, uni0306, dollar.ss01, uni0459, three, uni042C, uni052E, Agrave, three.numr, minus, eng, uni031B, uni04C5, G, Iacute, uni04BB, uni2197, uni048A, Emacron, lozenge, semicolon, uni04D3, uni20BD, uni1ED6, Oslash, Jcircumflex, uni0451, uni01F3, uni051C, uni050C, uni0430, uni04F3, hyphen, ampersand, Ccedilla, Wcircumflex, uni03060309, quotedblright, uni1ED2, uni1EBC, Z, uni1EA7, uni1EA1, uni0501, quoteright, caron, periodcentered, uni1E57, s, nine.lf, Utilde, uni043F, guilsinglright, seven, uni1E8E, uni1EC0, uni0312, Euro, uni1EA3, uni0406, uni20B5, Aogonek, lcaron, uni043B.loclBGR, uni00B3, tildecomb.case, M, breve, Thorn, tildecomb, uni051B, uni1E92, Cdotaccent, Q, uni01D1, quoteright.ss01, uni030B, uni1EE3, uni1E62, uni0450, braceleft, uni04A4, uni0433, Scaron, ntilde, Odieresis, questiondown.ss01, uni0413, uhorn, uni04FE, Lcaron, uni1ECB, uni1EE7, uni2074, multiply, greaterequal, edotaccent, h, uni1EAE, Ebreve, uni01CB, P, uni1E04, nacute, gdotaccent, Gcircumflex, uni045B, uni0328, uni1EAD, uni1EED, uni0456, ograve, cedilla, uni2206, uni20B4, uni0237, N, uni0404, Eacute, uni03060303, Ucircumflex, uni0492.loclBSH, uni04CB, uni20B8, four.numr, fiveeighths, uni1E02, ucircumflex, udieresis, uni0442, aacute, notequal, ohungarumlaut, uni040D, uni01D4, uni1EE2, uni1E45, partialdiff, uni0306.case, uni04C3, uni04AD, Ograve, uni04C8, uni040E, rcaron, uni1ECD, uni1EDC, uni1E0B, idieresis, four.dnom, ellipsis, uni045F, uni25FC, uni03020301, uni03060301, uni0510, uni0304.case, uni1ED3, uni04C4, threequarters, sterling, uni050B, uni04DB, uni0473, plusminus, uni0526, gbreve, Aringacute, Zacute, colonmonetary, uni04D1, OE, Otilde, uni1EAB, uni1EEA, Acircumflex, Racute, lacute, comma, uni04EE, uni0435, uni0414.loclBGR, two.numr, uni04B7, questiondown, uni046B, six.lf, uni0416, emptyset, uni04D8, uni0529, uni0512, uni0448.loclBGR, uni1E44, uni0403, m, uni043A, guilsinglleft, iogonek, uni01D3, parenleft, uni1EDD, uni045C, uni04DA, Scircumflex, Idotaccent, uni1ED0, radical, uni04CC, uni04D5, dieresis, asciitilde, uni0504, colon, uni049E, uni040A, divide, uni0308, uni0503, uni04E7, uni0475, uni1EB1, guillemotleft, uni04A5, amacron, uni043A.loclBGR, Egrave, exclam, uni1EE8, abreve, uni0431, macron, k, ydieresis, uni01C8, uni048D, Iogonek, uni1E9E, z, egrave, aeacute, v, uni03060303.case, uni0308.case, uni0438.loclBGR, uni1E24, uni1EC3, uni0163, fl, currency, uni2198, wacute, uni044A, uni0401, uni04E1, three.dnom, uni04AB.loclBSH, greater, uni1E46, hbar, t, uni0417, uni03A9, uni0449, uni1E41, wdieresis, ccircumflex, uni0400, uni1E1F, uni04F2, four.lf, uni04A1, uni1E37, uni04EF, uni01CD, uni04B3, Eth, uni1EAA, uni01CF, uni0527, six, uni044E.loclBGR, period, Ydieresis, uni043E, c, daggerdbl, uni03020301.case, uni01C9, uni20AA, at, E, icircumflex, uni045A, uni1E36, uni20A9, d, uni04C1, uni04EC, uni1EB8, uni20B1, p, uni2126, circumflex, uni1E6D, uni1EE6, uni04AC, eight, hungarumlaut, uni1E3F, uni040F, uni1EF9, eth, uni0436.loclBGR, ohorn, uni042E, o, ncaron, Eogonek, uni03020300.case, uni04B2, uni2113, uni1ED7, uni04E3, uni1EE4, S, Ugrave, uni04A2, uni0498.loclBSH, uni0462, uni0490, uni2199, uni00B2, lessequal, uni04D9, Uhorn, Ohorn, F, uni0443, tbar, uni04F5, scircumflex, uni042B, summation, uni01CC, product, peseta, wcircumflex, uni048E, uni046A, uni0457, guillemotright, less, uni1EC4, threeeighths, x, uni051A, uni20BA, uni03020309, quotereversed, uni1EBB, numbersign, uni0528, uni04F6, ccaron, uni04E4, seveneighths, uni20B2, Oslashacute, uni04CE, one.lf, bar, Ccaron, uni048F, Tbar, Uhungarumlaut, uni04F9, otilde, ecaron, uni1EF7, uni0402, uni0424.loclBGR, uni1EF4, four, uni1ECA, uni01F4, uni01CE, uni04E0, zero.lf, perthousand, zdotaccent, uni1EBD, plus, uni050D, uni0405, uni1E47, uni040C, tcaron, uhungarumlaut, ibreve, percent, pi, aogonek, Wdieresis, uni030C, uni0429, uni04DF, wgrave, B, uni1EA2, eacute, uni04A6, uni04B6, sacute, Edieresis, agrave, uni1EB4, Gcaron, three.lf, ordmasculine, quotedblbase.ss01, uni1EA9, imacron, uni0448, uni0453, uni0434.loclBGR, two, franc, Gdotaccent, uni04D2, uni030A.case, uni02BC, uni045E, uni20B9, edieresis, uacute, Lacute, yen, uni1ECE, Adieresis, uni041A, uni1E56, scaron, uni1E0D, uni04BC, cdotaccent, uni0412, uni1ECF, ldot, seven.lf, quotereversed.ss01, uni0439, section, uni2117, Omacron, uni0394, uni03020303.case, Lslash, uni1E6A, uni0438, uni01C5, uni00B5, uni043C, uni1EF6, Itilde, uni1EBA, uni1E8F, brokenbar, uni0409, oneeighth, cent, Atilde, dong, nine, uni2219, uni1EF1, ycircumflex, trademark, backslash, uni04AA, uni1EEE, uni042F, uni0440, uni051D, uni050E, ugrave, Ccircumflex, uni1ED4, uni041F, brevecombcy.case, Udieresis, uni1EF0, oslash, uni04DE, AEacute, uni0229, uni044E, uni04F8, two.dnom, florin, C, adieresis, grave, uni03060300, aringacute, one.numr, uni04B5, uni0432, uni048B, dotlessi, acutecomb, uni1EAC, uni0327, igrave, Ycircumflex, gravecomb, uni0496, uni043D.loclBGR, Wacute, uni044C, A, uni044B, uni052F, parenright, Idieresis, quotedblleft.ss01, thorn, arrowboth, dotbelowcomb, IJ, uni04C6, aring, Rcaron, quotedblright.ss01, uni1E05, uni030A, uni0492, uni0505, f, uni1ECC, uni04AA.loclCHU, Amacron, dcroat, ogonek, utilde, Umacron, uni01C6, uni0422, Wgrave, uni041D, germandbls, uni2116, uni044C.loclBGR, Oacute, ij, eight.lf, uni1E0A, uni04E9, paragraph, exclamdbl, uni04D7, uni04F4, Aring, uni01F2, uni0472, uni03BC, uni04C2, fi, registered, T, uni058F, uni0447.loclBGR, uni0498, zacute, tilde, uni0474, Yacute, asterisk, uni1EA6, logicalnot, Ubreve, uni1EC7, emacron, uni043D, equal, Ecaron, ubreve, uni0497, uni0441, uni00AD, uni0511, Edotaccent, ygrave, uni0307.case, uni0507, uni04F0, uni0433.loclBGR, oacute, uni1EA4, uni1EB3, ae, exclamdown, underscore, copyright, uni03020303, uni01D2, Ibreve, uni04F7, five.lf, g, omacron, uni0432.loclBGR, uni049C, uni0434, Cacute, V, uni049D, slash, uni2105, uni04A9, uni03060301.case, uni04CA, uni1EB6, uogonek, uni0419, uni04FA, uni1EB0, Hcircumflex, uni1EC9, onequarter, uni0338, arrowdown, quotedblleft, quotesingle, uni0410, uni04EA, uni0445, uni0302.case, racute, uni1E63, uni0427, uni0423, uni021A, uni0437.loclBGR, uni01CA, Nacute, question.ss01, uni0463, cacute, dcaron, uni041E, K, uni0421, Ecircumflex, acircumflex, uni0499.loclBSH, uni0447, Sacute, Uring, uni04D0, five, uni0431.loclSRB, uni0455, lira, degree, uni01D0, uni021B, O, q, uni0513, uni0408, uni040B, uni04AB.loclCHU, uni1EEC, uni04DD, Gbreve, quoteleft.ss01, uni04A7, uni1EC2, uni1EBF, uni04BA, ordfeminine, uni04FF, b, uni1E20, uni0509, uni0426, Uogonek, uni0428, uni0415, uni1E40, quoteleft, uni1EC8, uni1EC6, gcircumflex, uni04EB, umacron, uni1ED8, Hbar, j, Igrave, uni04C0, uni1E61, uni0444, R, uni04BD, uni0326, uni1EDF, uni0449.loclBGR, approxequal, uni04A3, uni01C4, uni04B4, iacute, uni1ED5, arrowright, uni1EBE, ccedilla, uni1EF5, uni0414, uni1EB7, arrowupdn, ring, uni0495, brevecombcy, uni0336, uni04E5, w, uni1EE9, quotedbl, bracketright, uni0420, uni04A0, acute, uni1EDB, uni04BE, uni1EA5, arrowleft, uni041B, a, uni049A, n, uni0491, uni0437, uni045D, uni0424, uni1EC1, uni1E0C, uni0508, uni049B, uring, r, uni04CD, uni1EA0, Ohungarumlaut, uni0446.loclBGR, AE, uni04B9, uni2154, hookabovecomb, uni0337, uni0452, uni041B.loclBGR, uni042A, uni00B9, uni0307, uni20AE, uni018F, uni1E1E, uni1EE5, atilde, zero.lf.zero, uni0439.loclBGR, uni0162, uni0418, uni1E93, uni0411, Ncaron, zcaron, uni0454, uni04AB, Scedilla, obreve, L, kgreenlandic, uni0446, uni0442.loclBGR, uni0493.loclBSH, uni042D, Aacute, uni1E03, quotesinglbase, uni03020300, arrowup, braceright, uni0493, five.numr, dagger, eogonek, seven.numr, Uacute, uni04E2, asciicircum, Imacron, uni04CF, uni04FB, uni02C9, question, uni1EDA, U, oe, integral, uni04ED, bullet, H, uni044D, uni0436, uni1E60, uni1EA8, Zcaron, uni1EE0, uni1EB9, uni04C7, uni044F, Obreve, uni04BF, uni1EEB, oslashacute, uni0524, uni0494, uni04AA.loclBSH, uni04C9, uni1EAF, uni1E3E, J, I, Ygrave, uni041C, uni0425, Dcroat, uni1EC5, onehalf, uni045D.loclBGR, uni04E8, uni01C7, uni049F, gcaron, uni2120, X, uni0259, two.lf, uni1EB5, quotesinglbase.ss01, uni043B, uni1E6B, uni1E25, bracketleft, uni04DC, Eng, Icircumflex, uni050F, uni2153, D, W, e, uni0525, Y, emdash, uni1ED9, dollar, uni04F1, scedilla, uni1EEF, odieresis, uni04B8, ecircumflex, eight.dnom]
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version: [Ecaron, numbersign, uni040C, arrowright, quotereversed, ccircumflex, uni0409, uni04D5, zero.lf.zero, exclam, question, Nacute, iogonek, uacute, uni0459, uni048B, Igrave, Omacron, uni043B.loclBGR, uni0453, uni0446, uni0452, uni1ED1, uni01F1, uni042C, icircumflex, fi, uni20BA, uni050B, Udieresis, uni1EE0, uni0441, uni04B5, quoteleft, dieresis, lira, uni2074, uni1E60, uni0472, uni0335, OE, uni04FE, uni0443, bracketleft, uni0498, uni2198, uni04B9, cedilla, uni0496, abreve, uni2206, uni1EC8, uni03020309.case, uni2219, Cdotaccent, comma, uni1EC2, Amacron, AEacute, uni050A, uni1ECA, Lcaron, uni051B, i, uni044A, uni043F.loclBGR, ohorn, uni0413, quotedblright, uni1EB8, edotaccent, uni01C9, uni04F1, wacute, uni1EAA, parenright, uni0433, divide, uni0524, Ldot, perthousand, uni0228, Emacron, breve, Oacute, aring, uni20B9, Tbar, uni04F6, uni03060303, uni04EB, udieresis, uni0421, ccaron, uni04BF, eight, uni0462, a, yacute, uni050C, uni01C5, uni01C7, uni0415, uni0499.loclBSH, uni20BD, uni043D, zero.lf, seveneighths, quotedblbase.ss01, uni1EAF, emacron, uni1ED9, uni051D, uni048A, uni04BE, uni1E21, sacute, uni1ED6, acircumflex, uni04B2, uni0497, uni04D1, uni1E92, four.numr, uni044C, uni04E3, Ccaron, summation, uni04DA, l, uni00B3, uni0336, daggerdbl, uni1EE8, oe, dollar, pi, jcircumflex, uni03A9, ordmasculine, uni01CB, uni1E20, uni0508, question.ss01, uni0494, three.dnom, Odieresis, uni0446.loclBGR, uni04B8, uni0237, guilsinglleft, acutecomb, cacute, W, uni1E6D, q, uni04FC, uni04D0, uni1EEB, uni045B, parenleft, uni0448.loclBGR, uni0528, tilde, uni03060309, uni1EE3, uni1EE1, uni04C1, zacute, uni0439.loclBGR, uni1EA6, uni1EB4, uni041D, uni04BC, questiondown, p, five.numr, uni048D, Ohorn, Ycircumflex, uni0442, guilsinglright, uni04DC, Scedilla, uni04E2, uni0442.loclBGR, uni0435, ncaron, uni02C9, o, uni0401, h, Ugrave, uni00B9, uni1EA0, asciicircum, uni1E04, aogonek, uni043E, uni0414, sterling, uni049F, uni0511, ubreve, uni04D2, uni0436, uni0492.loclBSH, uni2196, logicalnot, uni0529, uni048E, semicolon, lacute, uni04AC, tbar, uni1EA1, onehalf, uni03020303.case, uni1EBC, gcaron, slash, uni1ECB, uni0433.loclBGR, uni040D, acute, uni04DE, uni04CE, uni0456, b, uni04ED, IJ, uni030A, uni04AB, scircumflex, uni04FB, L, uni018F, Uogonek, Acircumflex, uni0438.loclBGR, two.numr, brevecombcy, oslash, uni04EE, uni042B, Gdotaccent, Umacron, uni02BC, uni0449.loclBGR, j, uni040F, Euro, uni04AD, N, uni03020300, Ibreve, uni0499, uni04DB, Ydieresis, uni0500, H, uni0229, uni045D, x, e, obreve, uni2105, braceleft, uni1EDA, otilde, uni1EF1, plus, uni0327, uni01C8, m, uni1E61, nine, uni0512, emdash, uni0457, uni01D1, minus, uni2153, gbreve, Zcaron, uni04F2, D, uni0513, backslash, dollar.ss01, uni1ED5, Eth, hungarumlaut, uni20B2, uni0403, uni0475, uni04FF, uni052E, gcircumflex, dcaron, hcircumflex, radical, four.lf, uni0429, Icircumflex, uni1E05, four.dnom, Cacute, uni0407, uni1E8F, quoteleft.ss01, copyright, uni0427, uni0337, uni1E1E, Ucircumflex, uni04E6, uni0505, uni04BA, uni0400, quotesinglbase.ss01, uni25FC, edieresis, g, Y, uni1EF7, uni04C6, uni01F3, ograve, uni1EBE, Wgrave, uni1E37, uni0526, uni04EA, aringacute, eacute, imacron, uni04C4, uhorn, Itilde, uni0507, greater, uni04AA.loclBSH, three.numr, uni2120, d, wdieresis, ampersand, uni1EC5, Ccedilla, uni043A, Ygrave, uni04A4, circumflex, uni1EDC, uni0431, A, uni01D2, ohungarumlaut, uni1E0A, uni04D8, colon, ellipsis, quotedbl, uni1E03, uni0510, uni1EB1, uni1EBB, uni0451, uni0408, uni1ECD, Obreve, Oslashacute, uni04CC, bar, uni1EF0, gdotaccent, uni0428, uni0444, uni044B, uni0447, uni0424, cent, uni044E.loclBGR, uni0406, uring, uni041E, uni01C6, v, degree, uni03020303, uni043F, uni0259, onequarter, uni045C, thorn, uni050D, uogonek, uni03060301, lslash, uni04E4, bracketright, uni1E56, aeacute, uni0416, uni03020301, uni0419, uni2199, Abreve, Hbar, uni20B1, uni1ED8, uni1E47, uni1EB9, uni04C2, uni1EDB, c, iacute, uni0449, hyphen, uni1E46, uni1E36, uni1ED7, uni2116, G, underscore, seven.numr, uni1E25, uni04F4, dcroat, five, six, uni01F2, eight.dnom, uni20B4, emptyset, six.lf, uni043C, trademark, uni048C, Lslash, uni1EB7, greaterequal, scaron, Z, ycircumflex, threequarters, Scaron, uni1ECF, uni1EF8, ecircumflex, tcaron, fiveeighths, uni1EA4, uni04C5, uni044E, uni01D0, uni030C, ogonek, uni0405, yen, fl, quoteright, uni00B2, ccedilla, amacron, uni021B, notequal, uni0312, kgreenlandic, uni2117, uni01D3, uni04CA, uni1EA5, P, M, cdotaccent, uhungarumlaut, Ubreve, uni0306, Utilde, C, uni1EB3, ae, paragraph, S, agrave, asterisk, uni04AB.loclCHU, omacron, Eacute, exclamdbl, Aogonek, uni042A, uni0162, scedilla, uni04F7, eight.lf, uni0437, J, zdotaccent, ebreve, uni04EC, B, uni1ED2, hbar, uni04A1, two.dnom, uni0490, macron, uni04D4, uni1EB5, i.loclTRK, uni2126, uni03060303.case, uni049B, ldot, uni050E, uni03020309, uni1ED4, Gcaron, Edotaccent, uni20AE, Wacute, Wdieresis, infinity, uni1EB2, uni04C0, uni0307.case, n, uni01CE, uni04C8, bullet, quotedblleft, uni01CF, uni1EC7, uni0503, T, threeeighths, uni20A9, arrowleft, uni1E3E, uni1EBA, uni1EA7, atilde, one.lf, uni1EE4, tildecomb, uni03020300.case, uni0493, uni1EEC, section, Hcircumflex, uni1EB6, uni04E9, uni1E9E, uni0404, uni04DF, uni045A, uni050F, uni0463, uni1E8E, Aacute, uni0308, uni0307, uni0425, nine.lf, uni04F5, uni1EAB, uni030B, uni0306.case, uni04B3, Ntilde, uni0504, U, uni1EEE, uni20AA, uni0438, uni1EC6, uni1E02, uni0525, eng, one.numr, uni030C.case, uni1EEF, uni0410, uni04F3, uni030A.case, uni1EC0, uni1EF5, uni0338, E, Tcaron, Gbreve, tildecomb.case, uni0434, franc, caron, uni1ED3, AE, uni0418, uni04EF, uni058F, ring, uni0411, uni01CA, uni051C, Edieresis, O, uni04B4, product, three, uni04BD, lcaron, uni20B5, umacron, uni0509, uni0426, uni0454, uni1EBD, peseta, uni1E62, rcaron, uni1E44, uni0501, uni045D.loclBGR, uni03BC, uni0308.case, uni1ED0, uni03020301.case, y, uni04E0, uni04D7, adieresis, exclamdown, uni042F, ucircumflex, Iogonek, Ecircumflex, Zacute, uni021A, uni1EA9, uni1EA3, uni046B, Ocircumflex, dotbelowcomb, idieresis, uni1EC4, uni0302.case, approxequal, uni04C3, uni1E6B, w, zcaron, uni0422, uni0417, uni044D, uni0458, uni04F9, uni043A.loclBGR, uni04FD, uni0431.loclSRB, uni04A2, Agrave, four, uni049C, uni1EAC, uni0493.loclBSH, arrowboth, V, eogonek, uni04B7, uni1EA8, Oslash, Ncaron, Atilde, uni04C7, uni046A, uni041B, uni1E0D, uni04AA, uni04D3, uni041A, uni0474, uni01CC, period, ugrave, uni0326, uni043D.loclBGR, uni04A6, arrowdown, uni04A3, uni2154, uni1EE6, Eng, wgrave, quoteright.ss01, colonmonetary, uni04F8, uni0439, uni20B8, seven, ocircumflex, uni1EED, guillemotleft, Ebreve, uni0423, uni1EE5, r, uni0434.loclBGR, uni03060301.case, uni044A.loclBGR, uni040B, X, uni1E40, uni0402, oneeighth, quotedblleft.ss01, uni2197, uni1EAE, two, florin, brokenbar, uni04B6, uni1E6A, uni043B, uni051A, seven.lf, uni04A0, Adieresis, uni04AB.loclBSH, quotesinglbase, braceright, guillemotright, uni0455, u, uni1E63, uni041B.loclBGR, uni04E7, dagger, uni048F, uni1EBF, periodcentered, uni040A, uni04C9, z, Uacute, uni04DD, uni03060300, uni01CD, odieresis, currency, uni0495, three.lf, registered, arrowup, lozenge, uni1EE2, Dcaron, eth, uni044C.loclBGR, uni04D6, Iacute, uni0412, uni0430, uni0448, uni1EDE, t, uni1EC3, Scircumflex, two.lf, at, uni20A6, uni044F, hookabovecomb, Ograve, I, uni040E, Gcircumflex, Otilde, arrowupdn, quotedblbase, uni1ECC, nacute, uni042D, uni042E, uni049E, uni1EB0, uni04F0, uni1EDF, dotlessi, equal, uni04A7, integral, Imacron, Eogonek, itilde, s, Lacute, multiply, dong, Ohungarumlaut, uni0394, Jcircumflex, uni04AA.loclCHU, Yacute, uni0328, Uhorn, uni1EE9, plusminus, quotesingle, uni0445, ydieresis, quotedblright.ss01, wcircumflex, Q, ygrave, ibreve, ntilde, uni0498.loclBSH, uni0432, uni045F, uni04E1, gravecomb, uni0424.loclBGR, k, uni0437.loclBGR, uni04CF, uni1EA2, Idieresis, uni04E8, K, uni1ECE, Sacute, Rcaron, uni0491, uni0450, Uring, brevecombcy.case, uni1E41, uni1EAD, igrave, uni041F, uni04A9, five.lf, uni1E24, Aringacute, uni0447.loclBGR, uni1E0C, utilde, uni049A, quotereversed.ss01, uni1E6C, uni1EC1, uni2113, F, egrave, uni0436.loclBGR, uni04A8, uni04E5, Wcircumflex, Zdotaccent, ordfeminine, Thorn, uni0304.case, uni1E45, uni0473, uni0492, Uhungarumlaut, Racute, uni04FA, uni0527, uni0432.loclBGR, partialdiff, uni01F4, uni0420, percent, uni1E1F, uni031B, uni04A5, Idotaccent, uni041C, uni1EF6, questiondown.ss01, uni0414.loclBGR, uni1E93, uni01D4, asciitilde, uni049D, uni00AD, ij, oacute, uni045E, less, uni1E57, Aring, lessequal, uni0304, aacute, Dcroat, R, uni1EE7, uni04CB, uni052F, grave, ecaron, uni0440, uni1EF4, uni1E0B, oslashacute, uni04CD, uni1EF9, uni04D9, racute, uni04BB, uni1EDD, uni1EEA, uni1E3F, uni00B5, germandbls, Egrave, Ccircumflex, uni0506, uni01C4, uni0163, f, uni1EC9]
 
 </details>
 <details>
@@ -1593,7 +1378,7 @@ of hinted versus unhinted font files.
 	|:--- | ---:|
 	| Dehinted Size | 1.4Mb |
 	| Hinted Size | 1.4Mb |
-	| Increase | -992 bytes |
+	| Increase | -968 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1632,6 +1417,37 @@ https://davelab6.github.io/epar/
 </pre>
 
 * ℹ **INFO** EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]
+
+</details>
+<details>
+<summary>ℹ <b>INFO:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
+
+* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
+<pre>--- Rationale ---
+
+Traditionally version 0 &#x27;gasp&#x27; tables were set so that font sizes below 8 ppem
+had no grid fitting but did have antialiasing. From 9-16 ppem, just grid
+fitting. And fonts above 17ppem had both antialiasing and grid fitting toggled
+on. The use of accelerated graphics cards and higher resolution screens make
+this approach obsolete. Microsoft&#x27;s DirectWrite pushed this even further with
+much improved rendering built into the OS and apps.
+
+In this scenario it makes sense to simply toggle all 4 flags ON for all font
+sizes.
+
+
+</pre>
+
+* ℹ **INFO** These are the ppm ranges declared on the gasp table:
+
+PPM <= 65535:
+	flag = 0x0F
+	- Use grid-fitting
+	- Use grayscale rendering
+	- Use gridfitting with ClearType symmetric smoothing
+	- Use smoothing along multiple axes with ClearType®
+ [code: ranges]
+* 🍞 **PASS** The 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
 
 </details>
 <details>
@@ -1687,7 +1503,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [loca, GPOS, GSUB]
+* ℹ **INFO** This font contains the following optional tables [prep, GPOS, GSUB, loca, DSIG, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -2021,6 +1837,44 @@ https://docs.microsoft.com/en-us/typography/opentype/spec
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
+<pre>--- Rationale ---
+
+This setup is meant to ensure consistent rendering quality for fonts across all
+devices (with different rendering/hinting capabilities).
+
+Below is the snippet of instructions we expect to see in the fonts:
+B8 01 FF    PUSHW 0x01FF
+85          SCANCTRL (unconditinally turn on
+                      dropout control mode)
+B0 04       PUSHB 0x04
+8D          SCANTYPE (enable smart dropout control)
+
+&quot;Smart dropout control&quot; means activating rules 1, 2 and 5:
+Rule 1: If a pixel&#x27;s center falls within the glyph outline,
+        that pixel is turned on.
+Rule 2: If a contour falls exactly on a pixel&#x27;s center,
+        that pixel is turned on.
+Rule 5: If a scan line between two adjacent pixel centers
+        (either vertical or horizontal) is intersected
+        by both an on-Transition contour and an off-Transition
+        contour and neither of the pixels was already turned on
+        by rules 1 and 2, turn on the pixel which is closer to
+        the midpoint between the on-Transition contour and
+        off-Transition contour. This is &quot;Smart&quot; dropout control.
+
+For more detailed info (such as other rules not enabled in this snippet),
+please refer to the TrueType Instruction Set documentation.
+
+
+</pre>
+
+* 🍞 **PASS** 'prep' table contains instructions enabling smart dropout control.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> There must not be VTT Talk sources in the font.</summary>
 
 * [com.google.fonts/check/vttclean](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vttclean)
@@ -2089,6 +1943,21 @@ the users&#x27; typical expectations of a traditional static font workflow.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
+<pre>--- Rationale ---
+
+The named instances on the weight axis of a variable font must have coordinates
+that are multiples of 100 on the design space.
+
+
+</pre>
+
+* 🍞 **PASS** OK
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
 
 * [com.google.fonts/check/name/line_breaks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks)
@@ -2136,6 +2005,14 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 </pre>
 
 * 🍞 **PASS** Vertical metrics have not regressed.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check variable font instances have correct coordinate values</summary>
+
+* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
+
+* 🍞 **PASS** Instance coordinates are correct
 
 </details>
 <details>
@@ -2250,6 +2127,22 @@ space glyph. This might have been relevant for applications on MacOS 9.
 * [com.google.fonts/check/whitespace_ink](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink)
 
 * 🍞 **PASS** There is no whitespace glyph with ink.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Are there unwanted tables?</summary>
+
+* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
+<pre>--- Rationale ---
+
+Some font editors store source data in their own SFNT tables, and these can
+sometimes sneak into final release files, which should only have OpenType spec
+tables.
+
+
+</pre>
+
+* 🍞 **PASS** There are no unwanted tables.
 
 </details>
 <details>
@@ -2546,6 +2439,31 @@ This is the TTF/CFF2 equivalent of the CFF &#x27;postscript_name_cff_vs_name&#x2
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Does the font have a DSIG table?</summary>
+
+* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
+<pre>--- Rationale ---
+
+Microsoft Office 2013 and below products expect fonts to have a digital
+signature declared in a DSIG table in order to implement OpenType features. The
+EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
+impact Microsoft Office 2016 and above products. 
+
+This checks verifies that this signature is available in the font.
+
+A fake signature is enough to address this issue. If needed, a dummy table can
+be added to the font with the `gftools fix-dsig` script available at
+https://github.com/googlefonts/gftools
+
+Reference: https://github.com/googlefonts/fontbakery/issues/1845
+
+
+</pre>
+
+* 🍞 **PASS** Digital Signature (DSIG) exists.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width?</summary>
 
 * [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
@@ -2669,5 +2587,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 15 | 7 | 64 | 8 | 73 | 0 |
-| 0% | 9% | 4% | 38% | 5% | 44% | 0% |
+| 0 | 9 | 7 | 64 | 9 | 78 | 0 |
+| 0% | 5% | 4% | 38% | 5% | 47% | 0% |
