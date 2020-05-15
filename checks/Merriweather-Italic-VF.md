@@ -253,7 +253,7 @@ checks that nameID 1 is the family name + the style name.
 
 </pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Merriweather" but got "Merriweather Light Narrow". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Merriweather" but got "Merriweather Light". [code: mismatch]
 
 </details>
 <details>
@@ -261,7 +261,7 @@ checks that nameID 1 is the family name + the style name.
 
 * [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
 
-* 🔥 **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the "name" table: Expected "Merriweather Italic"  but got "Merriweather Light Narrow Italic". [code: bad-entry]
+* 🔥 **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the "name" table: Expected "Merriweather Italic"  but got "Merriweather Light Italic". [code: bad-entry]
 
 </details>
 <details>
@@ -269,7 +269,7 @@ checks that nameID 1 is the family name + the style name.
 
 * [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
 
-* 🔥 **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the "name" table: Expected "Merriweather-Italic" but got "Merriweather-LightNarrowItalic". [code: bad-entry]
+* 🔥 **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the "name" table: Expected "Merriweather-Italic" but got "Merriweather-LightItalic". [code: bad-entry]
 
 </details>
 <details>
@@ -278,14 +278,6 @@ checks that nameID 1 is the family name + the style name.
 * [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
 
 * 🔥 **FAIL** Font style is "Italic" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
-
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Light Narrow Italic" is incorrect. It must be "SemiCondensed Light Italic". [code: bad-typo-win]
 
 </details>
 <details>
@@ -523,7 +515,7 @@ When in doubt, please choose OFL for new font projects.
 
 * [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
 
-* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version: [Ecaron, numbersign, uni040C, arrowright, quotereversed, ccircumflex, uni0409, uni04D5, zero.lf.zero, exclam, question, Nacute, iogonek, uacute, uni0459, uni048B, Igrave, Omacron, uni043B.loclBGR, uni0453, uni0446, uni0452, uni1ED1, uni01F1, uni042C, icircumflex, fi, uni20BA, uni050B, Udieresis, uni1EE0, uni0441, uni04B5, quoteleft, dieresis, lira, uni2074, uni1E60, uni0472, uni0335, OE, uni04FE, uni0443, bracketleft, uni0498, uni2198, uni04B9, cedilla, uni0496, abreve, uni2206, uni1EC8, uni03020309.case, uni2219, Cdotaccent, comma, uni1EC2, Amacron, AEacute, uni050A, uni1ECA, Lcaron, uni051B, i, uni044A, uni043F.loclBGR, ohorn, uni0413, quotedblright, uni1EB8, edotaccent, uni01C9, uni04F1, wacute, uni1EAA, parenright, uni0433, divide, uni0524, Ldot, perthousand, uni0228, Emacron, breve, Oacute, aring, uni20B9, Tbar, uni04F6, uni03060303, uni04EB, udieresis, uni0421, ccaron, uni04BF, eight, uni0462, a, yacute, uni050C, uni01C5, uni01C7, uni0415, uni0499.loclBSH, uni20BD, uni043D, zero.lf, seveneighths, quotedblbase.ss01, uni1EAF, emacron, uni1ED9, uni051D, uni048A, uni04BE, uni1E21, sacute, uni1ED6, acircumflex, uni04B2, uni0497, uni04D1, uni1E92, four.numr, uni044C, uni04E3, Ccaron, summation, uni04DA, l, uni00B3, uni0336, daggerdbl, uni1EE8, oe, dollar, pi, jcircumflex, uni03A9, ordmasculine, uni01CB, uni1E20, uni0508, question.ss01, uni0494, three.dnom, Odieresis, uni0446.loclBGR, uni04B8, uni0237, guilsinglleft, acutecomb, cacute, W, uni1E6D, q, uni04FC, uni04D0, uni1EEB, uni045B, parenleft, uni0448.loclBGR, uni0528, tilde, uni03060309, uni1EE3, uni1EE1, uni04C1, zacute, uni0439.loclBGR, uni1EA6, uni1EB4, uni041D, uni04BC, questiondown, p, five.numr, uni048D, Ohorn, Ycircumflex, uni0442, guilsinglright, uni04DC, Scedilla, uni04E2, uni0442.loclBGR, uni0435, ncaron, uni02C9, o, uni0401, h, Ugrave, uni00B9, uni1EA0, asciicircum, uni1E04, aogonek, uni043E, uni0414, sterling, uni049F, uni0511, ubreve, uni04D2, uni0436, uni0492.loclBSH, uni2196, logicalnot, uni0529, uni048E, semicolon, lacute, uni04AC, tbar, uni1EA1, onehalf, uni03020303.case, uni1EBC, gcaron, slash, uni1ECB, uni0433.loclBGR, uni040D, acute, uni04DE, uni04CE, uni0456, b, uni04ED, IJ, uni030A, uni04AB, scircumflex, uni04FB, L, uni018F, Uogonek, Acircumflex, uni0438.loclBGR, two.numr, brevecombcy, oslash, uni04EE, uni042B, Gdotaccent, Umacron, uni02BC, uni0449.loclBGR, j, uni040F, Euro, uni04AD, N, uni03020300, Ibreve, uni0499, uni04DB, Ydieresis, uni0500, H, uni0229, uni045D, x, e, obreve, uni2105, braceleft, uni1EDA, otilde, uni1EF1, plus, uni0327, uni01C8, m, uni1E61, nine, uni0512, emdash, uni0457, uni01D1, minus, uni2153, gbreve, Zcaron, uni04F2, D, uni0513, backslash, dollar.ss01, uni1ED5, Eth, hungarumlaut, uni20B2, uni0403, uni0475, uni04FF, uni052E, gcircumflex, dcaron, hcircumflex, radical, four.lf, uni0429, Icircumflex, uni1E05, four.dnom, Cacute, uni0407, uni1E8F, quoteleft.ss01, copyright, uni0427, uni0337, uni1E1E, Ucircumflex, uni04E6, uni0505, uni04BA, uni0400, quotesinglbase.ss01, uni25FC, edieresis, g, Y, uni1EF7, uni04C6, uni01F3, ograve, uni1EBE, Wgrave, uni1E37, uni0526, uni04EA, aringacute, eacute, imacron, uni04C4, uhorn, Itilde, uni0507, greater, uni04AA.loclBSH, three.numr, uni2120, d, wdieresis, ampersand, uni1EC5, Ccedilla, uni043A, Ygrave, uni04A4, circumflex, uni1EDC, uni0431, A, uni01D2, ohungarumlaut, uni1E0A, uni04D8, colon, ellipsis, quotedbl, uni1E03, uni0510, uni1EB1, uni1EBB, uni0451, uni0408, uni1ECD, Obreve, Oslashacute, uni04CC, bar, uni1EF0, gdotaccent, uni0428, uni0444, uni044B, uni0447, uni0424, cent, uni044E.loclBGR, uni0406, uring, uni041E, uni01C6, v, degree, uni03020303, uni043F, uni0259, onequarter, uni045C, thorn, uni050D, uogonek, uni03060301, lslash, uni04E4, bracketright, uni1E56, aeacute, uni0416, uni03020301, uni0419, uni2199, Abreve, Hbar, uni20B1, uni1ED8, uni1E47, uni1EB9, uni04C2, uni1EDB, c, iacute, uni0449, hyphen, uni1E46, uni1E36, uni1ED7, uni2116, G, underscore, seven.numr, uni1E25, uni04F4, dcroat, five, six, uni01F2, eight.dnom, uni20B4, emptyset, six.lf, uni043C, trademark, uni048C, Lslash, uni1EB7, greaterequal, scaron, Z, ycircumflex, threequarters, Scaron, uni1ECF, uni1EF8, ecircumflex, tcaron, fiveeighths, uni1EA4, uni04C5, uni044E, uni01D0, uni030C, ogonek, uni0405, yen, fl, quoteright, uni00B2, ccedilla, amacron, uni021B, notequal, uni0312, kgreenlandic, uni2117, uni01D3, uni04CA, uni1EA5, P, M, cdotaccent, uhungarumlaut, Ubreve, uni0306, Utilde, C, uni1EB3, ae, paragraph, S, agrave, asterisk, uni04AB.loclCHU, omacron, Eacute, exclamdbl, Aogonek, uni042A, uni0162, scedilla, uni04F7, eight.lf, uni0437, J, zdotaccent, ebreve, uni04EC, B, uni1ED2, hbar, uni04A1, two.dnom, uni0490, macron, uni04D4, uni1EB5, i.loclTRK, uni2126, uni03060303.case, uni049B, ldot, uni050E, uni03020309, uni1ED4, Gcaron, Edotaccent, uni20AE, Wacute, Wdieresis, infinity, uni1EB2, uni04C0, uni0307.case, n, uni01CE, uni04C8, bullet, quotedblleft, uni01CF, uni1EC7, uni0503, T, threeeighths, uni20A9, arrowleft, uni1E3E, uni1EBA, uni1EA7, atilde, one.lf, uni1EE4, tildecomb, uni03020300.case, uni0493, uni1EEC, section, Hcircumflex, uni1EB6, uni04E9, uni1E9E, uni0404, uni04DF, uni045A, uni050F, uni0463, uni1E8E, Aacute, uni0308, uni0307, uni0425, nine.lf, uni04F5, uni1EAB, uni030B, uni0306.case, uni04B3, Ntilde, uni0504, U, uni1EEE, uni20AA, uni0438, uni1EC6, uni1E02, uni0525, eng, one.numr, uni030C.case, uni1EEF, uni0410, uni04F3, uni030A.case, uni1EC0, uni1EF5, uni0338, E, Tcaron, Gbreve, tildecomb.case, uni0434, franc, caron, uni1ED3, AE, uni0418, uni04EF, uni058F, ring, uni0411, uni01CA, uni051C, Edieresis, O, uni04B4, product, three, uni04BD, lcaron, uni20B5, umacron, uni0509, uni0426, uni0454, uni1EBD, peseta, uni1E62, rcaron, uni1E44, uni0501, uni045D.loclBGR, uni03BC, uni0308.case, uni1ED0, uni03020301.case, y, uni04E0, uni04D7, adieresis, exclamdown, uni042F, ucircumflex, Iogonek, Ecircumflex, Zacute, uni021A, uni1EA9, uni1EA3, uni046B, Ocircumflex, dotbelowcomb, idieresis, uni1EC4, uni0302.case, approxequal, uni04C3, uni1E6B, w, zcaron, uni0422, uni0417, uni044D, uni0458, uni04F9, uni043A.loclBGR, uni04FD, uni0431.loclSRB, uni04A2, Agrave, four, uni049C, uni1EAC, uni0493.loclBSH, arrowboth, V, eogonek, uni04B7, uni1EA8, Oslash, Ncaron, Atilde, uni04C7, uni046A, uni041B, uni1E0D, uni04AA, uni04D3, uni041A, uni0474, uni01CC, period, ugrave, uni0326, uni043D.loclBGR, uni04A6, arrowdown, uni04A3, uni2154, uni1EE6, Eng, wgrave, quoteright.ss01, colonmonetary, uni04F8, uni0439, uni20B8, seven, ocircumflex, uni1EED, guillemotleft, Ebreve, uni0423, uni1EE5, r, uni0434.loclBGR, uni03060301.case, uni044A.loclBGR, uni040B, X, uni1E40, uni0402, oneeighth, quotedblleft.ss01, uni2197, uni1EAE, two, florin, brokenbar, uni04B6, uni1E6A, uni043B, uni051A, seven.lf, uni04A0, Adieresis, uni04AB.loclBSH, quotesinglbase, braceright, guillemotright, uni0455, u, uni1E63, uni041B.loclBGR, uni04E7, dagger, uni048F, uni1EBF, periodcentered, uni040A, uni04C9, z, Uacute, uni04DD, uni03060300, uni01CD, odieresis, currency, uni0495, three.lf, registered, arrowup, lozenge, uni1EE2, Dcaron, eth, uni044C.loclBGR, uni04D6, Iacute, uni0412, uni0430, uni0448, uni1EDE, t, uni1EC3, Scircumflex, two.lf, at, uni20A6, uni044F, hookabovecomb, Ograve, I, uni040E, Gcircumflex, Otilde, arrowupdn, quotedblbase, uni1ECC, nacute, uni042D, uni042E, uni049E, uni1EB0, uni04F0, uni1EDF, dotlessi, equal, uni04A7, integral, Imacron, Eogonek, itilde, s, Lacute, multiply, dong, Ohungarumlaut, uni0394, Jcircumflex, uni04AA.loclCHU, Yacute, uni0328, Uhorn, uni1EE9, plusminus, quotesingle, uni0445, ydieresis, quotedblright.ss01, wcircumflex, Q, ygrave, ibreve, ntilde, uni0498.loclBSH, uni0432, uni045F, uni04E1, gravecomb, uni0424.loclBGR, k, uni0437.loclBGR, uni04CF, uni1EA2, Idieresis, uni04E8, K, uni1ECE, Sacute, Rcaron, uni0491, uni0450, Uring, brevecombcy.case, uni1E41, uni1EAD, igrave, uni041F, uni04A9, five.lf, uni1E24, Aringacute, uni0447.loclBGR, uni1E0C, utilde, uni049A, quotereversed.ss01, uni1E6C, uni1EC1, uni2113, F, egrave, uni0436.loclBGR, uni04A8, uni04E5, Wcircumflex, Zdotaccent, ordfeminine, Thorn, uni0304.case, uni1E45, uni0473, uni0492, Uhungarumlaut, Racute, uni04FA, uni0527, uni0432.loclBGR, partialdiff, uni01F4, uni0420, percent, uni1E1F, uni031B, uni04A5, Idotaccent, uni041C, uni1EF6, questiondown.ss01, uni0414.loclBGR, uni1E93, uni01D4, asciitilde, uni049D, uni00AD, ij, oacute, uni045E, less, uni1E57, Aring, lessequal, uni0304, aacute, Dcroat, R, uni1EE7, uni04CB, uni052F, grave, ecaron, uni0440, uni1EF4, uni1E0B, oslashacute, uni04CD, uni1EF9, uni04D9, racute, uni04BB, uni1EDD, uni1EEA, uni1E3F, uni00B5, germandbls, Egrave, Ccircumflex, uni0506, uni01C4, uni0163, f, uni1EC9]
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version: [uni01CD, uni0416, uni050A, uni04DC, umacron, uni0449.loclBGR, Igrave, Eogonek, uni0448.loclBGR, Uring, uni0430, aacute, uni0500, uni04FA, two.dnom, six, threequarters, A, uni1ECE, uni04FC, uni0308, uni0445, Aacute, r, uni2126, uni03020309, Cacute, uni1E40, Imacron, uni01F3, Nacute, uni0510, uni0448, uni0505, braceright, uni25FC, E, uni01D3, uni04D6, uni0307, uni042A, uni1ED2, a, uni1EB2, uni04CE, uni1EDA, four.numr, uni0447, uni00B2, five.numr, uni1EAA, Jcircumflex, uni040C, Lacute, iacute, adieresis, uni04C7, infinity, uni1E04, uni04D2, uni058F, uni1EBF, s, uni03020300, uni048F, dcroat, grave, Idotaccent, uni048D, uni0306.case, bracketleft, Aring, f, Ubreve, uni1EC5, uni1EE3, uhorn, uni0450, multiply, uni04EC, uni04AC, uni0432, uni04D7, uni0415, uni043A.loclBGR, uni0490, Edotaccent, three.numr, uni1EB3, agrave, uni04C2, uni04E3, circumflex, uni0528, uni0499.loclBSH, dcaron, amacron, Agrave, uni1EA2, seven, uni04AB.loclBSH, uni04F6, uni01C5, uring, sacute, uni045E, Zdotaccent, uni04F2, uni1EE1, omacron, uni04A5, backslash, colonmonetary, uni030A, uni0419, uni0326, uni0513, uni050C, uni2199, ampersand, uni0304, uni0328, Ccedilla, uni1EE5, uni2113, Scedilla, ygrave, minus, underscore, atilde, uni1E3F, macron, i, quoteleft, uni04B7, plus, ibreve, Ntilde, uni0434.loclBGR, uni1EF0, uni0431.loclSRB, uni1E37, hyphen, uni0449, Iacute, x, ogonek, ocircumflex, braceleft, uni0435, uni042C, gbreve, uni01C7, uni04BE, Odieresis, gcaron, acircumflex, uni0508, oacute, Lslash, uni0440, uni2153, lslash, uni04B9, uni1E45, uni0437, uni04A1, uni03060303.case, uni03060303, uni1E24, uni040E, uni0420, uni0443, uni043D.loclBGR, ordmasculine, one.numr, lessequal, ograve, uni1ECA, summation, trademark, uni0498, bar, two, uni040D, uni0441, quoteright, uni1EB0, uni0304.case, uni1EE7, arrowboth, Oacute, divide, arrowright, tilde, Ycircumflex, p, uni20B2, uni021B, percent, uni0524, Egrave, J, edotaccent, wacute, Atilde, parenleft, uni1E63, uni04D0, uni051C, dollar, uni1ECF, ubreve, Scircumflex, uni1EC0, uni1E56, uni1EDB, uni0511, Aogonek, uni041B.loclBGR, uni1EA1, three.lf, arrowup, uni1EE9, nine, uni1EA3, integral, uni048A, uni04D8, ebreve, uni1ECB, uni04B2, zcaron, uni1E57, uni1EC7, uni0410, uni04E4, gcircumflex, uni04E2, uni021A, uni043F, uni0327, uni1EC4, uni04B5, uni04E7, Gbreve, lacute, uni04C5, dollar.ss01, S, uni044D, seven.numr, uni1E0C, q, wgrave, uacute, hungarumlaut, eacute, uni04DD, K, uni03020301.case, Hbar, questiondown, uni0472, uni04DF, uni045D, z, Rcaron, uni1EBE, emptyset, uni0457, emacron, otilde, cent, quotesinglbase.ss01, uni1ED1, Oslashacute, V, uni1EAB, Zcaron, ycircumflex, uni041E, uni050F, uni04F8, uni1EEA, uni1EED, zacute, uni1E0A, e, ydieresis, uni04DE, uni041A, uni044A.loclBGR, Edieresis, dong, uni04CB, brevecombcy.case, H, two.numr, uni042D, approxequal, eth, Otilde, uni2196, breve, Zacute, uni0446, Ograve, uni044E.loclBGR, Euro, uni04D3, Acircumflex, uni1EA4, ncaron, uni0335, uni03020301, uni1EAC, racute, uni043C, uni1EA0, uni1EAE, section, uni1ED4, uni01D0, daggerdbl, uni041B, Uhorn, Ccaron, uni04FE, uni1ED0, uni1E9E, ccedilla, kgreenlandic, uni1E47, uni00B3, uni042B, uni04EE, Ecaron, Iogonek, Dcroat, uni1EC2, uni050B, uni1EB9, uni04C0, icircumflex, uni1EB8, ring, uni04A6, uni04FF, g, uni04CA, uni04EB, uni040A, uni050E, uni04F0, uni03060300, semicolon, uni0411, Wgrave, uni1E44, uni0229, uni044E, oneeighth, uni030A.case, uni044F, Eacute, germandbls, arrowupdn, uni04A4, uni04FB, w, uni0492.loclBSH, uni20B4, uni049E, uni2105, tildecomb, guillemotright, uni018F, pi, uni03060301, eogonek, arrowleft, uni20B9, ecaron, uni04F1, copyright, Ugrave, uni0474, Ncaron, uni0492, aringacute, uni1ED5, uni043A, wdieresis, Racute, uni1EBB, uni04E9, oslashacute, uni04B4, six.lf, uni0421, uni0431, uni0434, i.loclTRK, uni1E6A, rcaron, uni1EBD, Emacron, uni049C, uni0455, P, uni04C6, at, uni0496, uni0424, uni1E02, uni04A3, uni03A9, obreve, h, five, uni20BD, uni1EE6, uni04A7, Y, IJ, uni0400, questiondown.ss01, quoteright.ss01, Udieresis, uni050D, Wdieresis, uni0436, franc, plusminus, j, n, uni0338, uni00B5, Omacron, cacute, uni1EDD, uni04E0, igrave, uni048E, uni20AE, uni1EA8, c, uni01CC, onehalf, dagger, uni045A, currency, AEacute, uni2120, uni01C8, t, uni1EDE, uni04FD, Utilde, Ecircumflex, uni02BC, uni1EE4, exclamdown, uni0426, emdash, uni04CC, odieresis, uni1E3E, uni041C, guilsinglright, uni04B8, uni046B, quotereversed.ss01, uni20A6, uni1EE0, uni1EC3, uni048B, two.lf, uni1EB7, dotbelowcomb, uni0497, uni04CF, uni20AA, product, T, ecircumflex, guilsinglleft, F, uni1EEB, uni04F4, o, caron, tcaron, uni1EEE, Ydieresis, uni1E25, utilde, uni04D1, uni044C, quotedblbase, uni043F.loclBGR, uni2198, uni1EDC, brevecombcy, uni03020300.case, uni043D, uni0526, eight.dnom, aeacute, threeeighths, y, Ibreve, dotlessi, uni1ED8, uni0456, equal, uni1E0B, uni1EC6, Lcaron, uni1ED3, D, yacute, uni0422, three.dnom, question, uni030B, Ohungarumlaut, uni0237, uni0427, uni04B6, uni04DA, uni0458, uni041D, uni03020309.case, uni1E6D, uni1E6B, gravecomb.case, ccaron, uni043E, ntilde, Ucircumflex, quotereversed, uni2197, uni1EA7, udieresis, uni043B, uni043B.loclBGR, uni1E60, degree, uni1EA9, O, Dcaron, uni042F, uni1EAF, uni0308.case, uni0444, aogonek, uni0462, uni04BF, uni0302.case, uni04BD, uni0432.loclBGR, zero.lf.zero, uni0259, Ohorn, uni1EE8, uni01C9, seveneighths, uni0436.loclBGR, tildecomb.case, uni1EF5, uni1E05, uni01CF, uni1EF9, uni01D1, uni0162, imacron, scircumflex, uni0438.loclBGR, uni04EA, lcaron, lira, numbersign, Uacute, uni01CB, edieresis, ordfeminine, uni048C, uni1EA6, greaterequal, guillemotleft, uni049A, AE, Obreve, uni0463, Ebreve, Ldot, quotedblbase.ss01, florin, uni0412, uni2206, uni046A, N, uni041F, uni0407, L, uogonek, idieresis, ugrave, abreve, peseta, cdotaccent, fi, uni0413, uni04E5, acutecomb, uni0499, X, Abreve, uni04AD, comma, five.lf, uni04EF, uni1EBC, uni1E92, b, ohungarumlaut, uni0425, uni052F, uni2074, uni04AA, uni0507, partialdiff, uni1ED7, uni044B, three, quotedblleft, uni0408, uni03BC, uni1ECD, uni1EF4, uni1ECC, ccircumflex, uni1E1F, uni1E1E, uni1EBA, oe, uni20A9, uhungarumlaut, Wcircumflex, uni0163, Z, k, bullet, lozenge, notequal, eng, dieresis, uni04BB, uni04A2, uni04BC, uni044A, uni0336, Idieresis, Uogonek, uni051D, uni0424.loclBGR, uni04F5, uni04AB.loclCHU, uni00AD, Sacute, hcircumflex, uni049F, asciicircum, uni04C8, uni04C1, uni0454, d, m, uni0504, paragraph, egrave, quoteleft.ss01, greater, Eth, uni1EB6, uni20B5, uni0429, uni044C.loclBGR, quotedblright.ss01, uni0306, arrowdown, Scaron, uni0453, uni0406, uni1E61, perthousand, uni045F, uni0447.loclBGR, uni051A, uni1EDF, uni04ED, quotesinglbase, uni1EF6, uni0475, uni0403, M, uni1E8F, uni0503, eight.lf, Yacute, colon, tbar, four, Eng, ucircumflex, uni1EB1, uni0506, uni0401, uni04AA.loclBSH, uni0394, G, uni04F3, parenright, uni0337, uni0493, uni1E03, uni1E8E, fiveeighths, uni0473, quotedblleft.ss01, uni051B, uni2117, eight, uni1EA5, uni0409, uni0452, uni0405, uni042E, quotedbl, uni040B, uni0495, uni1E41, uni049D, uni052E, uni04D5, four.lf, cedilla, acute, uni0428, uni040F, aring, uni0529, uni1EF8, uni03020303, hbar, onequarter, uni01F1, uni00B9, Itilde, uni1E93, Ocircumflex, fl, one.lf, asciitilde, Oslash, uni0414.loclBGR, uni0527, uni01D2, uni0437.loclBGR, uni045D.loclBGR, uni045B, uni20B8, Icircumflex, uni04A9, exclamdbl, uni03060309, uni04E6, uni20B1, Aringacute, nacute, uni04BA, uni0512, ohorn, uni04E1, uni1EE2, itilde, exclam, uni0459, uni20BA, uni04C3, uni0498.loclBSH, uni1EC9, Gcircumflex, uni04A0, uni04A8, uni1E21, asterisk, Amacron, uni0423, less, uni04D9, uni1E20, four.dnom, uni0402, yen, uni0418, uni04F7, uni1ED6, hookabovecomb, sterling, B, brokenbar, uni0404, uni04CD, uni1EEC, uni04AB, uni0451, Thorn, uni01D4, uni01F2, uni0494, ae, uni0414, uni02C9, uni0439, Cdotaccent, registered, W, uni0442.loclBGR, I, gdotaccent, Adieresis, uni01C6, Gcaron, iogonek, ldot, slash, uni1E62, uni1E6C, oslash, uni049B, uni04F9, uni04DB, uni0433.loclBGR, uni0417, bracketright, U, OE, uni1EB5, uni04D4, u, uni01CA, jcircumflex, uni04E8, uni04AA.loclCHU, uni0509, uni1ED9, uni0228, uni0525, zero.lf, seven.lf, radical, uni03020303.case, quotesingle, uni0433, uni1E36, Gdotaccent, zdotaccent, Q, uni0501, uni0312, R, uni0438, l, Ygrave, scedilla, question.ss01, scaron, Hcircumflex, C, uni1EAD, uni1EC1, uni1EF1, uni01C4, thorn, uni2154, uni0446.loclBGR, uni1EB4, Ccircumflex, Umacron, uni01CE, nine.lf, ij, uni0439.loclBGR, uni1EF7, uni031B, uni1E0D, uni0442, wcircumflex, uni04C4, v, uni04C9, uni1E46, Tbar, Tcaron, Uhungarumlaut, uni0493.loclBSH, uni045C, uni030C, uni030C.case, gravecomb, uni1EC8, uni2116, uni0491, uni1EEF, Wacute, uni01F4, quotedblright, uni04B3, ellipsis]
 
 </details>
 <details>
@@ -560,34 +552,6 @@ https://github.com/impallari/Raleway/issues/14).
 	- i + l
 
    [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
-<pre>--- Rationale ---
-
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-
-[1]
-https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179
-
-
-</pre>
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Merriweather Light Narrow' / SUBFAMILY_NAME = 'Italic'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
 </details>
 <details>
@@ -1376,9 +1340,9 @@ of hinted versus unhinted font files.
 
 	|  | fonts/variable/Merriweather-Italic-VF.ttf |
 	|:--- | ---:|
-	| Dehinted Size | 1.4Mb |
-	| Hinted Size | 1.4Mb |
-	| Increase | -968 bytes |
+	| Dehinted Size | 1.2Mb |
+	| Hinted Size | 1.2Mb |
+	| Increase | -984 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1503,7 +1467,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [prep, GPOS, GSUB, loca, DSIG, gasp]
+* ℹ **INFO** This font contains the following optional tables [DSIG, gasp, loca, prep, GPOS, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1770,6 +1734,14 @@ style of the font as inferred by its filename.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
+
+* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters.</summary>
 
 * [com.google.fonts/check/name/copyright_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length)
@@ -1955,6 +1927,31 @@ that are multiples of 100 on the design space.
 </pre>
 
 * 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
+
+* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
+<pre>--- Rationale ---
+
+According to a GlyphsApp tutorial [1], in order to make sure all versions of
+Windows recognize it as a valid font file, we must make sure that the
+concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
+(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
+characters.
+
+After discussing the problem in more detail at `FontBakery issue #2179 [2] we
+decided that allowing up to 27 chars would still be on the safe side, though.
+
+[1]
+https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
+[2] https://github.com/googlefonts/fontbakery/issues/2179
+
+
+</pre>
+
+* 🍞 **PASS** All name entries are good.
 
 </details>
 <details>
@@ -2587,5 +2584,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 7 | 64 | 9 | 78 | 0 |
-| 0% | 5% | 4% | 38% | 5% | 47% | 0% |
+| 0 | 8 | 6 | 64 | 9 | 80 | 0 |
+| 0% | 5% | 4% | 38% | 5% | 48% | 0% |

@@ -215,7 +215,7 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 <br>
 </details>
 <details>
-<summary><b>[153] Merriweather-Roman-VF.ttf</b></summary>
+<summary><b>[153] Merriweather-Italic[wght,wdth,opsz].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -237,7 +237,15 @@ and separated by commas:
 
 </pre>
 
-* 🔥 **FAIL** The file 'Merriweather-Roman-VF.ttf' must be renamed to 'Merriweather[opsz,wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
+* 🔥 **FAIL** The file 'Merriweather-Italic[wght,wdth,opsz].ttf' must be renamed to 'Merriweather-Italic[opsz,wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
+
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "Light Italic". [code: missing-typo-win]
 
 </details>
 <details>
@@ -261,7 +269,7 @@ This check ensures &quot;Reserved Font Name&quot; is not mentioned in the name t
 
 </pre>
 
-* 🔥 **FAIL** Name table entry ("Copyright 2020 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases. [code: rfn]
+* 🔥 **FAIL** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases. [code: rfn]
 
 </details>
 <details>
@@ -286,157 +294,115 @@ variable fonts in their web browsers.
 
 * [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
 
-* 🔥 **FAIL** Instance name "SemiCnd Lt" is incorrect. It should be "SemiCondensed Light" [code: bad-name]
-* 🔥 **FAIL** Instance "SemiCnd": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance name "SemiCnd" is incorrect. It should be "SemiCondensed Regular" [code: bad-name]
-* 🔥 **FAIL** Instance name "SemiCnd Bold" is incorrect. It should be "SemiCondensed Bold" [code: bad-name]
-* 🔥 **FAIL** Instance name "SemiCnd Black" is incorrect. It should be "SemiCondensed Black" [code: bad-name]
-* 🔥 **FAIL** Instance "SemiWide": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Text": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Text SemiCnd": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Text SemiWide": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Head": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Head SemiCnd": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Head SemiWide": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Display": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Display SemiCnd": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Display SemiWide": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Big": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Big SemiCnd": is missing the following name tokens [wght]
-* 🔥 **FAIL** Instance "Big SemiWide": is missing the following name tokens [wght]
+* 🔥 **FAIL** Instance name "SemiCnd Light Italic" is incorrect. It should be "SemiCondensed Light Italic" [code: bad-name]
+* 🔥 **FAIL** Instance name "SemiCnd Italic" is incorrect. It should be "SemiCondensed Italic" [code: bad-name]
+* 🔥 **FAIL** Instance name "SemiCnd Bold Italic" is incorrect. It should be "SemiCondensed Bold Italic" [code: bad-name]
+* 🔥 **FAIL** Instance name "SemiCnd Black Italic" is incorrect. It should be "SemiCondensed Black Italic" [code: bad-name]
 * 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb [code: bad-instance-names]
-* ⚠ **WARN** Instance "SemiWide Lt": contains the following unparsable tokens "['SemiWide']"
-* ⚠ **WARN** Instance "SemiWide Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "SemiWide": contains the following unparsable tokens "['SemiWide']"
-* ⚠ **WARN** Instance "SemiWide": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "SemiWide Bold": contains the following unparsable tokens "['SemiWide']"
-* ⚠ **WARN** Instance "SemiWide Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "SemiWide Black": contains the following unparsable tokens "['SemiWide']"
-* ⚠ **WARN** Instance "SemiWide Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Light": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Bold": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Black": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiCnd Lt": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text SemiCnd Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiCnd": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text SemiCnd": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiCnd Bold": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text SemiCnd Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiCnd Black": contains the following unparsable tokens "['Text']"
-* ⚠ **WARN** Instance "Text SemiCnd Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiWide Lt": contains the following unparsable tokens "['Text', 'SemiWide']"
-* ⚠ **WARN** Instance "Text SemiWide Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiWide": contains the following unparsable tokens "['Text', 'SemiWide']"
-* ⚠ **WARN** Instance "Text SemiWide": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiWide Bold": contains the following unparsable tokens "['Text', 'SemiWide']"
-* ⚠ **WARN** Instance "Text SemiWide Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text SemiWide Black": contains the following unparsable tokens "['Text', 'SemiWide']"
-* ⚠ **WARN** Instance "Text SemiWide Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Light": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Bold": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Black": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiCnd Lt": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head SemiCnd Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiCnd": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head SemiCnd": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiCnd Bold": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head SemiCnd Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiCnd Black": contains the following unparsable tokens "['Head']"
-* ⚠ **WARN** Instance "Head SemiCnd Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiWide Lt": contains the following unparsable tokens "['Head', 'SemiWide']"
-* ⚠ **WARN** Instance "Head SemiWide Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiWide": contains the following unparsable tokens "['Head', 'SemiWide']"
-* ⚠ **WARN** Instance "Head SemiWide": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiWide Bold": contains the following unparsable tokens "['Head', 'SemiWide']"
-* ⚠ **WARN** Instance "Head SemiWide Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head SemiWide Black": contains the following unparsable tokens "['Head', 'SemiWide']"
-* ⚠ **WARN** Instance "Head SemiWide Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Light": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Bold": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Black": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiCnd Lt": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display SemiCnd Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiCnd": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display SemiCnd": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiCnd Bold": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display SemiCnd Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiCnd Black": contains the following unparsable tokens "['Display']"
-* ⚠ **WARN** Instance "Display SemiCnd Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiWide Lt": contains the following unparsable tokens "['Display', 'SemiWide']"
-* ⚠ **WARN** Instance "Display SemiWide Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiWide": contains the following unparsable tokens "['Display', 'SemiWide']"
-* ⚠ **WARN** Instance "Display SemiWide": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiWide Bold": contains the following unparsable tokens "['Display', 'SemiWide']"
-* ⚠ **WARN** Instance "Display SemiWide Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display SemiWide Black": contains the following unparsable tokens "['Display', 'SemiWide']"
-* ⚠ **WARN** Instance "Display SemiWide Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Light": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Bold": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Black": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiCnd Lt": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big SemiCnd Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiCnd": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big SemiCnd": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiCnd Bold": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big SemiCnd Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiCnd Black": contains the following unparsable tokens "['Big']"
-* ⚠ **WARN** Instance "Big SemiCnd Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiWide Lt": contains the following unparsable tokens "['Big', 'SemiWide']"
-* ⚠ **WARN** Instance "Big SemiWide Lt": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiWide": contains the following unparsable tokens "['Big', 'SemiWide']"
-* ⚠ **WARN** Instance "Big SemiWide": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiWide Bold": contains the following unparsable tokens "['Big', 'SemiWide']"
-* ⚠ **WARN** Instance "Big SemiWide Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big SemiWide Black": contains the following unparsable tokens "['Big', 'SemiWide']"
-* ⚠ **WARN** Instance "Big SemiWide Black": cannot determine instance name due to unparsable tokens
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-
-A font&#x27;s winAscent and winDescent values should be greater than the head
-table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
-can occur on Windows platforms
-(https://github.com/RedHatBrand/Overpass/issues/33).
-
-If the font includes tall/deep writing systems such as Arabic or Devanagari,
-the winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-
-When the win Metrics are significantly greater than the upm, the linespacing
-can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
-This means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).
-
-
-</pre>
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 606, but got 604 instead [code: descent]
+* ⚠ **WARN** Instance "SemiWide Light Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "SemiWide Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "SemiWide Bold Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "SemiWide Black Italic": contains the following unparsable tokens "['SemiWide']"
+* ⚠ **WARN** Instance "SemiWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Light Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Bold Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text Black Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Light Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Bold Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiCnd Black Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Light Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Bold Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiWide Black Italic": contains the following unparsable tokens "['Text', 'SemiWide']"
+* ⚠ **WARN** Instance "Text SemiWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Light Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Bold Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head Black Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Light Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Bold Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiCnd Black Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiWide Light Italic": contains the following unparsable tokens "['Head', 'SemiWide']"
+* ⚠ **WARN** Instance "Head SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiWide Italic": contains the following unparsable tokens "['Head', 'SemiWide']"
+* ⚠ **WARN** Instance "Head SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiWide Bold Italic": contains the following unparsable tokens "['Head', 'SemiWide']"
+* ⚠ **WARN** Instance "Head SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SmWide Black Italic": contains the following unparsable tokens "['Head', 'SmWide']"
+* ⚠ **WARN** Instance "Head SmWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Light Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Bold Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display Black Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Light Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Bold Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiCnd Black Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Light Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Bold Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiWide Black Italic": contains the following unparsable tokens "['Display', 'SemiWide']"
+* ⚠ **WARN** Instance "Display SemiWide Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Light Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Bold Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big Black Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Light Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Bold Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiCnd Black Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiCnd Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Light Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Bold Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiWide Black Italic": contains the following unparsable tokens "['Big', 'SemiWide']"
+* ⚠ **WARN** Instance "Big SemiWide Black Italic": cannot determine instance name due to unparsable tokens
 
 </details>
 <details>
@@ -513,6 +479,22 @@ When in doubt, please choose OFL for new font projects.
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
+<pre>--- Rationale ---
+
+All ligatures in a font must have corresponding caret (text cursor) positions
+defined in the GDEF table, otherwhise, users may experience issues with caret
+rendering.
+
+
+</pre>
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
 
 * [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
@@ -530,25 +512,6 @@ https://github.com/impallari/Raleway/issues/14).
 	- i + l
 
    [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> The variable font 'opsz' (Optical Size) axis coordinate should be between 9 and 13 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/varfont/regular_opsz_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_opsz_coord)
-<pre>--- Rationale ---
-
-According to the Open-Type spec&#x27;s registered design-variation tag &#x27;opsz&#x27;
-available at
-https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_opsz
-
-If a variable font has a &#x27;opsz&#x27; (Optical Size) axis, then the coordinate of its
-&#x27;Regular&#x27; instance is recommended to be a value in the range 9 to 13.
-
-
-</pre>
-
-* ⚠ **WARN** The "opsz" (Optical Size) coordinate on the "Regular" instance is recommended to be a value in the range 9 to 13. Got 7.0 instead. [code: out-of-range]
 
 </details>
 <details>
@@ -1285,6 +1248,44 @@ guarantee which table an app will get the data from.
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/varfont/regular_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord)
+<pre>--- Rationale ---
+
+According to the Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27;
+available at
+https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght
+
+If a variable font has a &#x27;wght&#x27; (Weight) axis, then the coordinate of its
+&#x27;Regular&#x27; instance is required to be 400.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: regular_wght_coord
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/varfont/regular_wdth_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wdth_coord)
+<pre>--- Rationale ---
+
+According to the Open-Type spec&#x27;s registered design-variation tag &#x27;wdth&#x27;
+available at
+https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wdth
+
+If a variable font has a &#x27;wdth&#x27; (Width) axis, then the coordinate of its
+&#x27;Regular&#x27; instance is required to be 100.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: regular_wdth_coord
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> The variable font 'slnt' (Slant) axis coordinate must be zero on the 'Regular' instance.</summary>
 
 * [com.google.fonts/check/varfont/regular_slnt_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_slnt_coord)
@@ -1323,6 +1324,44 @@ If a variable font has a &#x27;ital&#x27; (Italic) axis, then the coordinate of 
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> The variable font 'opsz' (Optical Size) axis coordinate should be between 9 and 13 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/varfont/regular_opsz_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_opsz_coord)
+<pre>--- Rationale ---
+
+According to the Open-Type spec&#x27;s registered design-variation tag &#x27;opsz&#x27;
+available at
+https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_opsz
+
+If a variable font has a &#x27;opsz&#x27; (Optical Size) axis, then the coordinate of its
+&#x27;Regular&#x27; instance is recommended to be a value in the range 9 to 13.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: regular_opsz_coord
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
+
+* [com.google.fonts/check/varfont/bold_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/bold_wght_coord)
+<pre>--- Rationale ---
+
+The Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27; available at
+https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght does
+not specify a required value for the &#x27;Bold&#x27; instance of a variable font.
+
+But Dave Crossland suggested that we should enforce a required value of 700 in
+this case.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: bold_wght_coord
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> The variable font 'slnt' (Slant) axis coordinate specifies positive values in its range? </summary>
 
 * [com.google.fonts/check/varfont/slnt_range](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/slnt_range)
@@ -1357,11 +1396,11 @@ of hinted versus unhinted font files.
 
 * ℹ **INFO** Hinting filesize impact:
 
-	|  | fonts/variable/Merriweather-Roman-VF.ttf |
+	|  | fonts/variable/Merriweather-Italic[wght,wdth,opsz].ttf |
 	|:--- | ---:|
 	| Dehinted Size | 1.2Mb |
 	| Hinted Size | 1.2Mb |
-	| Increase | -1104 bytes |
+	| Increase | -960 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1486,7 +1525,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [loca, DSIG, GSUB, GPOS, gasp, prep]
+* ℹ **INFO** This font contains the following optional tables [GSUB, GPOS, DSIG, prep, loca, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1654,7 +1693,7 @@ Arabic / etc.
 
 * [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
 
-* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2020 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name "Merriweather".' matches canonical pattern.
+* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name "Merriweather".' matches canonical pattern.
 * 🍞 **PASS** Name table copyright entries are good
 
 </details>
@@ -1697,14 +1736,6 @@ much added benefit.
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -1896,22 +1927,6 @@ that are multiples of 100 on the design space.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
-<pre>--- Rationale ---
-
-All ligatures in a font must have corresponding caret (text cursor) positions
-defined in the GDEF table, otherwhise, users may experience issues with caret
-rendering.
-
-
-</pre>
-
-* 🍞 **PASS** Looks good!
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
 
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
@@ -2000,6 +2015,34 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 * [com.google.fonts/check/name/trailing_spaces](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces)
 
 * 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
+<pre>--- Rationale ---
+
+A font&#x27;s winAscent and winDescent values should be greater than the head
+table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
+can occur on Windows platforms
+(https://github.com/RedHatBrand/Overpass/issues/33).
+
+If the font includes tall/deep writing systems such as Arabic or Devanagari,
+the winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+
+When the win Metrics are significantly greater than the upm, the linespacing
+can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
+This means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).
+
+
+</pre>
+
+* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 
 </details>
 <details>
@@ -2496,63 +2539,6 @@ the same x,y coordinates.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/varfont/regular_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord)
-<pre>--- Rationale ---
-
-According to the Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27;
-available at
-https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght
-
-If a variable font has a &#x27;wght&#x27; (Weight) axis, then the coordinate of its
-&#x27;Regular&#x27; instance is required to be 400.
-
-
-</pre>
-
-* 🍞 **PASS** Regular:wght is 400.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/varfont/regular_wdth_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wdth_coord)
-<pre>--- Rationale ---
-
-According to the Open-Type spec&#x27;s registered design-variation tag &#x27;wdth&#x27;
-available at
-https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wdth
-
-If a variable font has a &#x27;wdth&#x27; (Width) axis, then the coordinate of its
-&#x27;Regular&#x27; instance is required to be 100.
-
-
-</pre>
-
-* 🍞 **PASS** Regular:wdth is 100.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
-
-* [com.google.fonts/check/varfont/bold_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/bold_wght_coord)
-<pre>--- Rationale ---
-
-The Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27; available at
-https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght does
-not specify a required value for the &#x27;Bold&#x27; instance of a variable font.
-
-But Dave Crossland suggested that we should enforce a required value of 700 in
-this case.
-
-
-</pre>
-
-* 🍞 **PASS** Bold:wght is 700.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be within spec range of 1 to 1000 on all instances.</summary>
 
 * [com.google.fonts/check/varfont/wght_valid_range](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/wght_valid_range)
@@ -2595,5 +2581,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 5 | 71 | 9 | 77 | 0 |
-| 0% | 3% | 3% | 43% | 5% | 46% | 0% |
+| 0 | 5 | 5 | 75 | 9 | 73 | 0 |
+| 0% | 3% | 3% | 45% | 5% | 44% | 0% |

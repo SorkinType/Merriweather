@@ -215,7 +215,7 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 <br>
 </details>
 <details>
-<summary><b>[153] Merriweather-Roman-VF.ttf</b></summary>
+<summary><b>[153] Merriweather-Roman[wght,wdth,opsz].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -237,7 +237,15 @@ and separated by commas:
 
 </pre>
 
-* 🔥 **FAIL** The file 'Merriweather-Roman-VF.ttf' must be renamed to 'Merriweather[opsz,wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
+* 🔥 **FAIL** The file 'Merriweather-Roman[wght,wdth,opsz].ttf' must be renamed to 'Merriweather[opsz,wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
+
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "Light". [code: missing-typo-win]
 
 </details>
 <details>
@@ -1357,11 +1365,11 @@ of hinted versus unhinted font files.
 
 * ℹ **INFO** Hinting filesize impact:
 
-	|  | fonts/variable/Merriweather-Roman-VF.ttf |
+	|  | fonts/variable/Merriweather-Roman[wght,wdth,opsz].ttf |
 	|:--- | ---:|
 	| Dehinted Size | 1.2Mb |
 	| Hinted Size | 1.2Mb |
-	| Increase | -1104 bytes |
+	| Increase | -1056 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1486,7 +1494,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [loca, DSIG, GSUB, GPOS, gasp, prep]
+* ℹ **INFO** This font contains the following optional tables [GSUB, loca, prep, DSIG, gasp, GPOS]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1697,14 +1705,6 @@ much added benefit.
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
-
-* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -2595,5 +2595,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 5 | 71 | 9 | 77 | 0 |
-| 0% | 3% | 3% | 43% | 5% | 46% | 0% |
+| 0 | 6 | 5 | 71 | 9 | 76 | 0 |
+| 0% | 4% | 3% | 43% | 5% | 46% | 0% |
