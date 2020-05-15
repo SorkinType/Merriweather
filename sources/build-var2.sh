@@ -40,15 +40,15 @@ cd ..
 
 # requires https://github.com/bramstein/homebrew-webfonttools
 
-rm -rf fonts/woff2
+#rm -rf fonts/woff2
 
-ttfs=$(ls fonts/*/*.ttf)
-for ttf in $ttfs; do
-    woff2_compress $ttf
-done
+#ttfs=$(ls fonts/*/*.ttf)
+#for ttf in $ttfs; do
+#    woff2_compress $ttf
+#done
 
-mkdir -p fonts/woff2
-woff2s=$(ls fonts/*/*.woff2)
-for woff2 in $woff2s; do
-    mv $woff2 fonts/woff2/$(basename $woff2)
-done
+#mkdir -p fonts/woff2
+#woff2s=$(ls fonts/*/*.woff2)
+#for woff2 in $woff2s; do
+#    mv $woff2 fonts/woff2/$(basename $woff2)
+#done
