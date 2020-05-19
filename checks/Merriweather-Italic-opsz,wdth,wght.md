@@ -218,14 +218,6 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 <details>
 <summary><b>[153] Merriweather-Italic[opsz,wdth,wght].ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
-
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "Light Italic". [code: missing-typo-win]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
 
 * [com.google.fonts/check/name/rfn](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/rfn)
@@ -246,7 +238,7 @@ This check ensures &quot;Reserved Font Name&quot; is not mentioned in the name t
 
 </pre>
 
-* 🔥 **FAIL** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases. [code: rfn]
+* 🔥 **FAIL** Name table entry ("Copyright 2016 The Merriweather Project Authors (https://github.com/SorkinType/Merriweather/) with Reserved Font Name "Merriweather".") contains "Reserved Font Name". This is an error except in a few specific rare cases. [code: rfn]
 
 </details>
 <details>
@@ -380,14 +372,6 @@ https://github.com/impallari/Raleway/issues/14).
 
 * [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
 
-* ⚠ **WARN** Instance "Semi Expanded Light Italic": contains the following unparsable tokens "['Semi']"
-* ⚠ **WARN** Instance "Semi Expanded Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Semi Expanded Italic": contains the following unparsable tokens "['Semi']"
-* ⚠ **WARN** Instance "Semi Expanded Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Semi Expanded Bold Italic": contains the following unparsable tokens "['Semi']"
-* ⚠ **WARN** Instance "Semi Expanded Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Semi Expanded Black Italic": contains the following unparsable tokens "['Semi']"
-* ⚠ **WARN** Instance "Semi Expanded Black Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text Light Italic": contains the following unparsable tokens "['Text']"
 * ⚠ **WARN** Instance "Text Light Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text Italic": contains the following unparsable tokens "['Text']"
@@ -404,14 +388,14 @@ https://github.com/impallari/Raleway/issues/14).
 * ⚠ **WARN** Instance "Text SemiCondensed Bold Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Text SemiCondensed Black Italic": contains the following unparsable tokens "['Text']"
 * ⚠ **WARN** Instance "Text SemiCondensed Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Semi Expanded Light Italic": contains the following unparsable tokens "['Text', 'Semi']"
-* ⚠ **WARN** Instance "Text Semi Expanded Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Semi Expanded Italic": contains the following unparsable tokens "['Text', 'Semi']"
-* ⚠ **WARN** Instance "Text Semi Expanded Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Semi Expanded Bold Italic": contains the following unparsable tokens "['Text', 'Semi']"
-* ⚠ **WARN** Instance "Text Semi Expanded Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Text Semi Expanded Black Italic": contains the following unparsable tokens "['Text', 'Semi']"
-* ⚠ **WARN** Instance "Text Semi Expanded Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiExpanded Light Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiExpanded Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiExpanded Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiExpanded Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiExpanded Bold Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiExpanded Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Text SemiExpanded Black Italic": contains the following unparsable tokens "['Text']"
+* ⚠ **WARN** Instance "Text SemiExpanded Black Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Head Light Italic": contains the following unparsable tokens "['Head']"
 * ⚠ **WARN** Instance "Head Light Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Head Italic": contains the following unparsable tokens "['Head']"
@@ -428,14 +412,14 @@ https://github.com/impallari/Raleway/issues/14).
 * ⚠ **WARN** Instance "Head SemiCondensed Bold Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Head SemiCondensed Black Italic": contains the following unparsable tokens "['Head']"
 * ⚠ **WARN** Instance "Head SemiCondensed Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Semi Expanded Light Italic": contains the following unparsable tokens "['Head', 'Semi']"
-* ⚠ **WARN** Instance "Head Semi Expanded Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Semi Expanded Italic": contains the following unparsable tokens "['Head', 'Semi']"
-* ⚠ **WARN** Instance "Head Semi Expanded Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Semi Expanded Bold Italic": contains the following unparsable tokens "['Head', 'Semi']"
-* ⚠ **WARN** Instance "Head Semi Expanded Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Head Semi Expanded Black Italic": contains the following unparsable tokens "['Head', 'Semi']"
-* ⚠ **WARN** Instance "Head Semi Expanded Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiExpanded Light Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiExpanded Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiExpanded Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiExpanded Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiExpanded Bold Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiExpanded Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Head SemiExpanded Black Italic": contains the following unparsable tokens "['Head']"
+* ⚠ **WARN** Instance "Head SemiExpanded Black Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Display Light Italic": contains the following unparsable tokens "['Display']"
 * ⚠ **WARN** Instance "Display Light Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Display Italic": contains the following unparsable tokens "['Display']"
@@ -452,14 +436,14 @@ https://github.com/impallari/Raleway/issues/14).
 * ⚠ **WARN** Instance "Display SemiCondensed Bold Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Display SemiCondensed Black Italic": contains the following unparsable tokens "['Display']"
 * ⚠ **WARN** Instance "Display SemiCondensed Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Semi Expanded Light Italic": contains the following unparsable tokens "['Display', 'Semi']"
-* ⚠ **WARN** Instance "Display Semi Expanded Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Semi Expanded Italic": contains the following unparsable tokens "['Display', 'Semi']"
-* ⚠ **WARN** Instance "Display Semi Expanded Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiExpanded Light Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiExpanded Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiExpanded Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiExpanded Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Display Semi Expanded Bold Italic": contains the following unparsable tokens "['Display', 'Semi']"
 * ⚠ **WARN** Instance "Display Semi Expanded Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Display Semi Expanded Black Italic": contains the following unparsable tokens "['Display', 'Semi']"
-* ⚠ **WARN** Instance "Display Semi Expanded Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Display SemiExpanded Black Italic": contains the following unparsable tokens "['Display']"
+* ⚠ **WARN** Instance "Display SemiExpanded Black Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Big Light Italic": contains the following unparsable tokens "['Big']"
 * ⚠ **WARN** Instance "Big Light Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Big Italic": contains the following unparsable tokens "['Big']"
@@ -476,14 +460,14 @@ https://github.com/impallari/Raleway/issues/14).
 * ⚠ **WARN** Instance "Big SemiCondensed Bold Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Instance "Big SemiCondensed Black Italic": contains the following unparsable tokens "['Big']"
 * ⚠ **WARN** Instance "Big SemiCondensed Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Semi Expanded Light Italic": contains the following unparsable tokens "['Big', 'Semi']"
-* ⚠ **WARN** Instance "Big Semi Expanded Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Semi Expanded Italic": contains the following unparsable tokens "['Big', 'Semi']"
-* ⚠ **WARN** Instance "Big Semi Expanded Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Semi Expanded Bold Italic": contains the following unparsable tokens "['Big', 'Semi']"
-* ⚠ **WARN** Instance "Big Semi Expanded Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "Big Semi Expanded Black Italic": contains the following unparsable tokens "['Big', 'Semi']"
-* ⚠ **WARN** Instance "Big Semi Expanded Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiExpanded Light Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiExpanded Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiExpanded Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiExpanded Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiExpanded Bold Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiExpanded Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "Big SemiExpanded Black Italic": contains the following unparsable tokens "['Big']"
+* ⚠ **WARN** Instance "Big SemiExpanded Black Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
 
 </details>
@@ -1373,7 +1357,7 @@ of hinted versus unhinted font files.
 	|:--- | ---:|
 	| Dehinted Size | 1.2Mb |
 	| Hinted Size | 1.2Mb |
-	| Increase | -960 bytes |
+	| Increase | -984 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1498,7 +1482,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [gasp, GSUB, loca, DSIG, prep, GPOS]
+* ℹ **INFO** This font contains the following optional tables [prep, loca, GPOS, gasp, GSUB, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1690,7 +1674,7 @@ Arabic / etc.
 
 * [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
 
-* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather) with Reserved Font Name "Merriweather".' matches canonical pattern.
+* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2016 The Merriweather Project Authors (https://github.com/SorkinType/Merriweather/) with Reserved Font Name "Merriweather".' matches canonical pattern.
 * 🍞 **PASS** Name table copyright entries are good
 
 </details>
@@ -1733,6 +1717,14 @@ much added benefit.
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
+
+* 🍞 **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -2578,5 +2570,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 6 | 75 | 9 | 74 | 0 |
-| 0% | 2% | 4% | 45% | 5% | 44% | 0% |
+| 0 | 2 | 6 | 75 | 9 | 75 | 0 |
+| 0% | 1% | 4% | 45% | 5% | 45% | 0% |
