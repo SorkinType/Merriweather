@@ -23,7 +23,79 @@ Merriweather is actively developed and is improved upon periodically.
 
 Merriweather is a Unicode typeface family that supports languages that use the Latin and Cyrillic scripts and its variants, and could be expanded to support other scripts e.g. Greek, Devanagari, Ethiopic, Arabic and so on.
 
-This release supports the following Character sets: MacOS Roman (Standard Latin), MacOS Central European Latin, MacOS Croatian, MacOS Cyrillic, MacOS Iceland, MacOS Romanian, MacOS Turkish
+## Complete Language Coverage
+
+Latin language support includes: 
+Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
+
+Cyrillic language support includes:
+Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chukchi, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Enets, Erzya, Eskimo, Even, Evenki, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Itelmen, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khanty, Khinalugh, Kildin Sami, Komi, Koryak, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mansi, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nenets, Nganasan, Nogai, Oroch, Orok, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tati, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Ulch, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern), Yukaghir, Yupik.
+
+The following data provided from https://www.alphabet-type.com/tools/charset-checker/ 
+
+This release fully supports the following Character sets: 
+
+MacOS Roman (Standard Latin)
+MacOS Central European Latin
+MacOS Croatian 
+MacOS Cyrillic 
+MacOS Iceland 
+MacOS Romanian
+MacOS Turkish
+
+Partial support of the following character sets is provided:
+
+Unicode 
+0000-007F: Basic Latin 74.2%
+0080-00FF: Latin-1 Supplement 75.0%
+0100-017F: Latin Extended-A 98.4%
+0180-024F: Latin Extended-B 39.9%
+02B0-02FF: Spacing Modifier Letters 23.8%
+0300-036F: Combining Diacritical Marks 24.1%
+0400-04FF: Cyrillic 86.7%
+0500-052F: Cyrillic Supplement 66.7%
+1E00-1EFF: Latin Extended Additional 70.3%
+20A0-20CF: Currency Symbols 64.5%
+2150-218F: Number Forms 23.3%
+2190-21FF: Arrows 8.9%
+
+ISO 8859
+8859-1 Latin-1 Western European 74.6%
+8859-2 Latin-2 Central European 74.6%
+8859-3 Latin-3 South European 73.9%
+8859-4 Latin-4 North European 74.6%
+8859-5 Latin/Cyrillic 74.6%
+8859-7 Latin/Greek 47.0%
+8859-9 Latin-5 Turkish 74.6%
+8859-10 Latin-6 Nordic 74.6%
+8859-13 Latin-7 Baltic Rim 74.6%
+8859-15 Latin-9 74.6%
+8859-16 Latin-10 South-Eastern European 74.6%
+
+MS DOS
+MS DOS 437 Latin US 61.7%
+MS DOS 737 Greek (437G) 43.0%
+MS DOS 775 Baltic 75.0%
+MS DOS 850 Latin 1 75.4%
+MS DOS 852 Latin 2 75.8%
+MS DOS 855 Cyrillic 75.8%
+MS DOS 857 Turkish 75.5%
+MS DOS 860 Portuguese 62.1%
+MS DOS 861 Icelandic 61.7%
+MS DOS 862 Hebrew 51.2%
+MS DOS 863 Canadian-French 61.3%
+MS DOS 865 Nordic 61.7%
+MS DOS 866 Cyrillic 68.0%
+MS DOS 869 Greek-Modern 47.8%
+
+MS Windows
+MS Windows 1250 Central European Latin 86.9%
+MS Windows 1251 Cyrillic 87.1%
+MS Windows 1252 Western (Standard Latin) 86.9%
+MS Windows 1253 Greek 58.2%
+MS Windows 1254 Turkish Latin 86.7%
+MS Windows 1257 Baltic Latin 86.5%
+MS Windows 1258 Vietnamese 86.6%
 
 ## Contributing
 
@@ -155,10 +227,7 @@ If you've set up your dependencies correctly, it should build and place fonts in
 * Improved verical placement of inferior and superior small numbers.
 * 4 kinds of small numbers for fractions, superiors for foot notes and inferiors for scientific notation to Italic.
 * Corrected design mistake in Cyrillic glyph "Komizje-cy" ( Unicode 0504 )
-* Created initial version of small caps for Roman and Italic in the sources. However they don't currently export because they are a) not done and b) have no kerning. Small caps are made for Latin, Cyrillic, Greek Symbols and Figures. Small caps are using comb diacritics. Small cap punctuation and currency could be added - I am not sure if I think this make sense or not yet.
-        Notes:
-        - I also don't yet understand what the best design approach to small caps for digraphs including DZ, DZcaron, Dz, Dzcaron, NJ, Nj, is.
-        - The final remix RMX Scaller settings used to make the small caps were Width 96, Height 87 Weight 2 and 1 and adjust spacing 2.
+* Created initial version of small caps for Roman and Italic in the sources. However they don't currently export because they are a) not done and b) have no kerning. Small caps are made for Latin, Cyrillic, Greek Symbols and Figures. Small caps are using comb diacritics. Small cap punctuation and currency could be added - I am not sure if I think this make sense or not yet.       Notes:       - I also don't yet understand what the best design approach to small caps for digraphs including DZ, DZcaron, Dz, Dzcaron, NJ, Nj, is.       - The final remix RMX Scaller settings used to make the small caps were Width 96, Height 87 Weight 2 and 1 and adjust spacing 2.
 * Improved number or figure design for both Roman and Italic
 * Made many under the hood changes in Glyphs to make the files more effcient to work in in glyphs by linking sidebearings, widths and updating kern groups. This was especially touchy for cyrillic because many of the italic forms can't be linked in a parallel to their roman or upright opposites.
 * Improved Ldot but I don't feel this solution is final.
@@ -166,12 +235,7 @@ If you've set up your dependencies correctly, it should build and place fonts in
 * Support for Serbian added ( be-cy.loclSRB ) but not yet Serbian Italic.
 * Full pinyin support still requires 8 more glyphs.
 * Discovered that changing the name NULL to uni0000 permits Glyphs to export a Variable Font from sources
-* Support for the following Google glyph sets is complete
-     - Core
-     - Plus Optional
-     - Plus Unique
-     - Pro Unique
-     - Pro Optional
+* Support for the following Google glyph sets is complete    - Core    - Plus Optional    - Plus Unique    - Pro Unique    - Pro Optional
 * Support for Google glyph sets "expert_unique-glyphs" which contains small caps is next 
  
 ### 18 April 2018 (Eben Sorkin) Merriweather v2.003
@@ -184,8 +248,7 @@ If you've set up your dependencies correctly, it should build and place fonts in
  	- Improvements for consistency in approach between roman and Italic. 
  	- Especially improved capital diacritics which are larger and clearer now. 
  	- Vietnamese diacritics also especially improved
- 	- Many minor improvements to placement
-    - Ring and ring acute are new.
+ 	- Many minor improvements to placement   - Ring and ring acute are new.
 * Added support for Hungarian (leftanglebracket-math uni27E8, rightanglebracket-math uni27E9) and Uzbek and Hawaiian (uni02bb)
 * Improved symbols: radical, infinity, Ohm, literSign
 * Improved currency symbols
@@ -321,8 +384,7 @@ Italic specific fixes
 ### 29 July 2011 (Eben Sorkin) Merriweather v1.3
 
 - Altered and improved 90% of the glyphs. 
-- Added glyphs to support texts originating from Windows
-  ANSI and Mac Roman encodings. 
+- Added glyphs to support texts originating from Windows ANSI and Mac Roman encodings. 
 - Adjusted diacritics further
 - This may be the last update to shapes before work begins on the Sans. This means that VTT hinting should be next.
 
@@ -335,32 +397,10 @@ Italic specific fixes
 
 If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D).
 This list is in first name alphabetical order.
-
-    N: Alexei Vanyashin 
-    E: a@cyreal.org
-    D: Design support (Cyrillic)
-    
-    N: CrystalType 
-    E: stellarmaris.novachrystalia@gmail.com
-    D: Design support (Vietnamese)
-    
-    N: Eben Sorkin
-    E: sorkineben@gmail.com
-    W: www.sorkintype.com
-    D: Designer and Mastering
-
-    N: Marc Foley
-    E: m.foley.88@gmail.com
-    D: Engineer
-    
-    N: Mirko Iverson 
-    E: bghryct@gmail.com
-	D: Engineer
-    
-	N: Stephen Nixon
-    E: stephen@thundernixon.com
-    D: Engineer
-    
+   N: Alexei Vanyashin    E: a@cyreal.org   D: Design support (Cyrillic)      N: CrystalType    E: stellarmaris.novachrystalia@gmail.com   D: Design support (Vietnamese)      N: Eben Sorkin   E: sorkineben@gmail.com   W: www.sorkintype.com   D: Designer and Mastering
+   N: Marc Foley   E: m.foley.88@gmail.com   D: Engineer      N: Mirko Iverson    E: bghryct@gmail.com
+	D: Engineer   
+	N: Stephen Nixon   E: stephen@thundernixon.com   D: Engineer   
 
 	
 ## License
@@ -368,15 +408,8 @@ This list is in first name alphabetical order.
 Merriweather is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
 To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/EbenSorkin/Merriweather/blob/master/OFL.txt)
 
-## Language Coverage
 
-Latin language support includes: 
-Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
-
-Cyrillic language support includes:
-Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chukchi, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Enets, Erzya, Eskimo, Even, Evenki, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Itelmen, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khanty, Khinalugh, Kildin Sami, Komi, Koryak, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mansi, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nenets, Nganasan, Nogai, Oroch, Orok, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tati, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Ulch, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern), Yukaghir, Yupik.
-
-## As of now there are 120 styles: 
+## 120 static styles: 
 
 Merriweather-Light 
 Merriweather-Light Italic
