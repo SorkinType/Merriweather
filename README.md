@@ -4,7 +4,7 @@ This repo is where updates to this project will be found
 
 The previous repo here https://github.com/EbenSorkin/Merriweather will be left intact but is now inactive.
 
-The Variable Font release now has Optical Size (opsz); Widths (wdth) added to Weight (wght) axis.  
+The Variable Font release now has Optical Size (opsz); Widths (wdth) added to Weight (wght) axis.
 
 It is also available in 120 static styles.
 
@@ -15,37 +15,35 @@ This information should be distributed along with the Merriweather fonts and any
 
 ## Basic Font Information
 
-Merriweather offers a Renaissance warmth while using proportions which are space-saving. 
+Merriweather offers a Renaissance warmth while using proportions which are space-saving.
 It is suitable for editorial design, news and other kinds of space sensitive typography.
 Merriweather is an evolving project and will be updated.
 
-Merriweather is actively developed and is improved upon periodically. 
+Merriweather is actively developed and is improved upon periodically.
 
 Merriweather is a Unicode typeface family that supports languages that use the Latin and Cyrillic scripts and its variants, and could be expanded to support other scripts e.g. Greek, Devanagari, Ethiopic, Arabic and so on.
 
 ## Complete Language Coverage
 
-Latin language support includes: 
+###Latin language support includes:
 Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
 
-Cyrillic language support includes:
+###Cyrillic language support includes:
 Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chukchi, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Enets, Erzya, Eskimo, Even, Evenki, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Itelmen, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khanty, Khinalugh, Kildin Sami, Komi, Koryak, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mansi, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nenets, Nganasan, Nogai, Oroch, Orok, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tati, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Ulch, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern), Yukaghir, Yupik.
 
-The following data provided from https://www.alphabet-type.com/tools/charset-checker/ 
+##The following data provided from https://www.alphabet-type.com/tools/charset-checker/
 
-This release fully supports the following Character sets: 
-
+###This release fully supports the following Character sets:
 MacOS Roman (Standard Latin)
 MacOS Central European Latin
-MacOS Croatian 
-MacOS Cyrillic 
-MacOS Iceland 
+MacOS Croatian
+MacOS Cyrillic
+MacOS Iceland
 MacOS Romanian
 MacOS Turkish
 
-Partial support of the following character sets is provided:
-
-Unicode 
+###Partial support of the following character sets is provided:
+Unicode
 0000-007F: Basic Latin 74.2%
 0080-00FF: Latin-1 Supplement 75.0%
 0100-017F: Latin Extended-A 98.4%
@@ -99,7 +97,7 @@ MS Windows 1258 Vietnamese 86.6%
 
 ## Contributing
 
-There are 2 source files, one for Romans and one of Italics, in the [GlyphsApp](https://www.glyphsapp.com) format. 
+There are 2 source files, one for Romans and one of Italics, in the [GlyphsApp](https://www.glyphsapp.com) format.
 
 To contribute to the project, file issues at <https://github.com/EbenSorkin/Merriweather> or contact Eben Sorkin directly at <sorkineben@gmail.com>
 
@@ -126,7 +124,7 @@ You can set up a Python 3 virtual environment with:
 python3 -m venv ./venv
 ```
 
-Here, `python3 -m venv` calls the virtual-environment-making module, then the `./venv` gives it a path to setup a virtual environment in (you could give a different path, but this is a conventional name). 
+Here, `python3 -m venv` calls the virtual-environment-making module, then the `./venv` gives it a path to setup a virtual environment in (you could give a different path, but this is a conventional name).
 
 Before you install dependencies or run the build, you need to activate the virtual environment with:
 
@@ -153,7 +151,7 @@ brew install woff2
 brew install sfnt2woff-zopfli
 ```
 
-**Installing TTFautohint (for static builds only)** 
+**Installing TTFautohint (for static builds only)**
 
 Download the latest version of TTFautohint from https://sourceforge.net/projects/freetype/files/ttfautohint/, unzip the file (e.g. `ttfautohint-1.8.3-tty-osx.tar.gz`), and place the unix executable file directly into the new `venv/bin` within this project.
 
@@ -191,7 +189,7 @@ If you've set up your dependencies correctly, it should build and place fonts in
 * Small caps are added to new masters
 * Kerning is added added to new masters and added to generally
 * Further rationalizing of the kern groups
-* Minor shape corrections for color and consistency 
+* Minor shape corrections for color and consistency
 * New CASE OT support
 * Improved Cyrillic localization support
 
@@ -202,7 +200,7 @@ If you've set up your dependencies correctly, it should build and place fonts in
 * Kerning is added for both Latin and Cyrillic
 * Some respacing (losening ) of the Cyrillic, especially the italic.
 * Further rationalizing of the kern groups
-* Minor shape corrections for color and consistency 
+* Minor shape corrections for color and consistency
 * Added cursor Carat data diacritics in the italic
 * Added family alignment zones to font level settings
 * Added upper blue zone for small caps
@@ -236,17 +234,17 @@ If you've set up your dependencies correctly, it should build and place fonts in
 * Full pinyin support still requires 8 more glyphs.
 * Discovered that changing the name NULL to uni0000 permits Glyphs to export a Variable Font from sources
 * Support for the following Google glyph sets is complete    - Core    - Plus Optional    - Plus Unique    - Pro Unique    - Pro Optional
-* Support for Google glyph sets "expert_unique-glyphs" which contains small caps is next 
- 
+* Support for Google glyph sets "expert_unique-glyphs" which contains small caps is next
+
 ### 18 April 2018 (Eben Sorkin) Merriweather v2.003
 
 * Tabular Lining figures and Tabular Old Style figures added
 * 4 kinds of small numbers for fractions, superiors for foot notes and inferiors for scientific notation.
 * Quotes ‘“”’ scaled to work better with high rez screens.
 * Tal Lemming OT code for fractions
-* Many adjustment to diacritics. 
- 	- Improvements for consistency in approach between roman and Italic. 
- 	- Especially improved capital diacritics which are larger and clearer now. 
+* Many adjustment to diacritics.
+ 	- Improvements for consistency in approach between roman and Italic.
+ 	- Especially improved capital diacritics which are larger and clearer now.
  	- Vietnamese diacritics also especially improved
  	- Many minor improvements to placement   - Ring and ring acute are new.
 * Added support for Hungarian (leftanglebracket-math uni27E8, rightanglebracket-math uni27E9) and Uzbek and Hawaiian (uni02bb)
@@ -266,16 +264,16 @@ If you've set up your dependencies correctly, it should build and place fonts in
 * Made first Variable font version with the Roman. Italic is not generating yet.
 
 General
-* Fixed interpolation issues in Both Roman and italic. 
-* Quotes ‘“”’ made clearer. 
+* Fixed interpolation issues in Both Roman and italic.
+* Quotes ‘“”’ made clearer.
 * ‹›«» made less wide and more typical
 * All dashes and math symbols: heights corrected.
-* ¿ ? adjusted to be somewhat less distinctive 
-* all 10 arrows → now included 
+* ¿ ? adjusted to be somewhat less distinctive
+* all 10 arrows → now included
 * Diacritic anchor positions made common across family
 * Combining Diacritics centered on zero widths
 * Diacritic design generally improved and Vietnamese diacritics made so they are not made from composites (properly designed) and so they won’t be clipped.
-* File efficiency gained from forcing all glyphs that should made only from composites to do so. 
+* File efficiency gained from forcing all glyphs that should made only from composites to do so.
 * Clunky spacing and design for in some Currency glyphs corrected
 * Lining Figures Added
 * Zero slash added
@@ -288,7 +286,7 @@ General
 * Fractions: Improved and added limited support for inferior or subscript numbers
 * Weight Scale: Altered instance weights across roman and italic so nominal weights appear more even; italics are still slightly lighter, but less contrast with roman
 * Symbols: Made all styles share reference glyphs for copyright, registered and published symbols
-* Added Gawker/Elizabeth Style curling quotes, dollar and question mark and mediumBlackSquare (uni25FC) to a Stylistic set (ss01) 
+* Added Gawker/Elizabeth Style curling quotes, dollar and question mark and mediumBlackSquare (uni25FC) to a Stylistic set (ss01)
 
 Language
 * Latin: Found and upgraded all non-combining diacritics to combining, and all combining now have zero width
@@ -328,7 +326,7 @@ Italic specific fixes
 - Corrected NAME table
 - Further OpenType code corrections
 
-### 12 Jan 2016 (Eben Sorkin) Merriweather v1.058 
+### 12 Jan 2016 (Eben Sorkin) Merriweather v1.058
 
 - Version numbering is unified to 1.058 across the roman and italic
 - The whole family is now hinted with TTFA 1.4.1
@@ -341,7 +339,7 @@ Italic specific fixes
 - Refined the weights - the new roman weights are changed slightly
 - Improved the upright or roman design with special attention to punctuation
 - Improved the shapes and spacing of the Cyrillic with the kind support of users and other font designers
-- Future work: The italic will need to be updated to match the weight of the roman and re-hinted next. 
+- Future work: The italic will need to be updated to match the weight of the roman and re-hinted next.
 - Future work: Some effort to begin supporting Vietnamese and other users not covered yet has started.
 
 ### 6 Jan 2014 (Eben Sorkin) Merriweather v1.52
@@ -383,8 +381,8 @@ Italic specific fixes
 
 ### 29 July 2011 (Eben Sorkin) Merriweather v1.3
 
-- Altered and improved 90% of the glyphs. 
-- Added glyphs to support texts originating from Windows ANSI and Mac Roman encodings. 
+- Altered and improved 90% of the glyphs.
+- Added glyphs to support texts originating from Windows ANSI and Mac Roman encodings.
 - Adjusted diacritics further
 - This may be the last update to shapes before work begins on the Sans. This means that VTT hinting should be next.
 
@@ -397,10 +395,31 @@ Italic specific fixes
 
 If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D).
 This list is in first name alphabetical order.
-   N: Alexei Vanyashin    E: a@cyreal.org   D: Design support (Cyrillic)      N: CrystalType    E: stellarmaris.novachrystalia@gmail.com   D: Design support (Vietnamese)      N: Eben Sorkin   E: sorkineben@gmail.com   W: www.sorkintype.com   D: Designer and Mastering
-   N: Marc Foley   E: m.foley.88@gmail.com   D: Engineer      N: Mirko Iverson    E: bghryct@gmail.com
-	D: Engineer   
-	N: Stephen Nixon   E: stephen@thundernixon.com   D: Engineer   
+
+ 	- N: Alexei Vanyashin
+ 	- E: a@cyreal.org
+ 	- D: Design support (Cyrillic)
+
+ 	- N: CrystalType    
+ 	- E: stellarmaris.novachrystalia@gmail.com   
+ 	- D: Design support (Vietnamese)      
+ 	
+ 	- N: Eben Sorkin   
+ 	- E: sorkineben@gmail.com   
+ 	- W: www.sorkintype.com   
+ 	- D: Designer and Mastering
+ 	
+ 	N: Marc Foley   
+ 	E: m.foley.88@gmail.com   
+ 	D: Engineer      
+ 	
+ 	N: Mirko Iverson    
+ 	E: bghryct@gmail.com
+	D: Engineer  
+	
+	N: Stephen Nixon   
+	E: stephen@thundernixon.com   
+	D: Engineer  
 
 	
 ## License
@@ -409,139 +428,138 @@ Merriweather is licensed under the SIL Open Font License v1.1 (<http://scripts.s
 To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/EbenSorkin/Merriweather/blob/master/OFL.txt)
 
 
-## 120 static styles: 
+## 120 static styles:
 
-Merriweather-Light 
-Merriweather-Light Italic
-Merriweather-Regular
-Merriweather-Italic
-Merriweather-Bold 
-Merriweather-Bold Italic
-Merriweather-Black 
-Merriweather-Black Italic
+ 	- Merriweather-Light
+ 	- Merriweather-Light Italic
+ 	- Merriweather-Regular
+ 	- Merriweather-Italic
+ 	- Merriweather-Bold
+ 	- Merriweather-Bold Italic
+ 	- Merriweather-Black
+ 	- Merriweather-Black Italic
 
-Merriweather-SemiCondensed Light 
-Merriweather-SemiCondensed Light Italic
-Merriweather-SemiCondensed Regular
-Merriweather-SemiCondensed Italic
-Merriweather-SemiCondensed Bold 
-Merriweather-SemiCondensed Bold Italic
-Merriweather-SemiCondensed Black 
-Merriweather-SemiCondensed Black Italic
+ 	- Merriweather-SemiCondensed Light
+ 	- Merriweather-SemiCondensed Light Italic
+ 	- Merriweather-SemiCondensed Regular
+ 	- Merriweather-SemiCondensed Italic
+ 	- Merriweather-SemiCondensed Bold
+ 	- Merriweather-SemiCondensed Bold Italic
+ 	- Merriweather-SemiCondensed Black
+ 	- Merriweather-SemiCondensed Black Italic
 
-Merriweather-SemiExpanded Light 
-Merriweather-SemiExpanded Light Italic
-Merriweather-SemiExpanded Regular
-Merriweather-SemiExpanded Italic
-Merriweather-SemiExpanded Bold 
-Merriweather-SemiExpanded Bold Italic
-Merriweather-SemiExpanded Black 
-Merriweather-SemiExpanded Black Italic
+ 	- Merriweather-SemiExpanded Light
+ 	- Merriweather-SemiExpanded Light Italic
+ 	- Merriweather-SemiExpanded Regular
+ 	- Merriweather-SemiExpanded Italic
+ 	- Merriweather-SemiExpanded Bold
+ 	- Merriweather-SemiExpanded Bold Italic
+ 	- Merriweather-SemiExpanded Black
+ 	- Merriweather-SemiExpanded Black Italic
 
-Merriweather-Text Light 
-Merriweather-Text Light Italic
-Merriweather-Text Regular
-Merriweather-Text Italic
-Merriweather-Text Bold 
-Merriweather-Text Bold Italic
-Merriweather-Text Black 
-Merriweather-Text Black Italic
+ 	- Merriweather-Text Light
+ 	- Merriweather-Text Light Italic
+ 	- Merriweather-Text Regular
+ 	- Merriweather-Text Italic
+ 	- Merriweather-Text Bold
+ 	- Merriweather-Text Bold Italic
+ 	- Merriweather-Text Black
+ 	- Merriweather-Text Black Italic
 
-Merriweather-Text SemiCondensed Light 
-Merriweather-Text SemiCondensed Light Italic
-Merriweather-Text SemiCondensed Regular
-Merriweather-Text SemiCondensed Italic
-Merriweather-Text SemiCondensed Bold 
-Merriweather-Text SemiCondensed Bold Italic
-Merriweather-Text SemiCondensed Black 
-Merriweather-Text SemiCondensed Black Italic
+ 	- Merriweather-Text SemiCondensed Light
+ 	- Merriweather-Text SemiCondensed Light Italic
+ 	- Merriweather-Text SemiCondensed Regular
+ 	- Merriweather-Text SemiCondensed Italic
+ 	- Merriweather-Text SemiCondensed Bold
+ 	- Merriweather-Text SemiCondensed Bold Italic
+ 	- Merriweather-Text SemiCondensed Black
+ 	- Merriweather-Text SemiCondensed Black Italic
 
-Merriweather-Text SemiExpanded Light 
-Merriweather-Text SemiExpanded Light Italic
-Merriweather-Text SemiExpanded Regular
-Merriweather-Text SemiExpanded Italic
-Merriweather-Text SemiExpanded Bold 
-Merriweather-Text SemiExpanded Bold Italic
-Merriweather-Text SemiExpanded Black 
-Merriweather-Text SemiExpanded Black Italic
+ 	- Merriweather-Text SemiExpanded Light
+ 	- Merriweather-Text SemiExpanded Light Italic
+ 	- Merriweather-Text SemiExpanded Regular
+ 	- Merriweather-Text SemiExpanded Italic
+ 	- Merriweather-Text SemiExpanded Bold
+ 	- Merriweather-Text SemiExpanded Bold Italic
+ 	- Merriweather-Text SemiExpanded Black
+ 	- Merriweather-Text SemiExpanded Black Italic
 
-Merriweather-Head Light 
-Merriweather-Head Light Italic
-Merriweather-Head Regular
-Merriweather-Head Italic
-Merriweather-Head Bold 
-Merriweather-Head Bold Italic
-Merriweather-Head Black 
-Merriweather-Head Black Italic
+ 	- Merriweather-Head Light
+ 	- Merriweather-Head Light Italic
+ 	- Merriweather-Head Regular
+ 	- Merriweather-Head Italic
+ 	- Merriweather-Head Bold
+ 	- Merriweather-Head Bold Italic
+ 	- Merriweather-Head Black
+ 	- Merriweather-Head Black Italic
 
-Merriweather-Head SemiCondensed Light 
-Merriweather-Head SemiCondensed Light Italic
-Merriweather-Head SemiCondensed Regular
-Merriweather-Head SemiCondensed Italic
-Merriweather-Head SemiCondensed Bold 
-Merriweather-Head SemiCondensed Bold Italic
-Merriweather-Head SemiCondensed Black 
-Merriweather-Head SemiCondensed Black Italic
+ 	- Merriweather-Head SemiCondensed Light
+ 	- Merriweather-Head SemiCondensed Light Italic
+ 	- Merriweather-Head SemiCondensed Regular
+ 	- Merriweather-Head SemiCondensed Italic
+ 	- Merriweather-Head SemiCondensed Bold
+ 	- Merriweather-Head SemiCondensed Bold Italic
+ 	- Merriweather-Head SemiCondensed Black
+ 	- Merriweather-Head SemiCondensed Black Italic
 
-Merriweather-Head SemiExpanded Light 
-Merriweather-Head SemiExpanded Light Italic
-Merriweather-Head SemiExpanded Regular
-Merriweather-Head SemiExpanded Italic
-Merriweather-Head SemiExpanded Bold 
-Merriweather-Head SemiExpanded Bold Italic
-Merriweather-Head SemiExpanded Black 
-Merriweather-Head SemiExpanded Black Italic
+ 	- Merriweather-Head SemiExpanded Light
+ 	- Merriweather-Head SemiExpanded Light Italic
+ 	- Merriweather-Head SemiExpanded Regular
+ 	- Merriweather-Head SemiExpanded Italic
+ 	- Merriweather-Head SemiExpanded Bold
+ 	- Merriweather-Head SemiExpanded Bold Italic
+ 	- Merriweather-Head SemiExpanded Black
+ 	- Merriweather-Head SemiExpanded Black Italic
 
-Merriweather-Display Black 
-Merriweather-Display Black Italic
-Merriweather-Display Bold 
-Merriweather-Display Bold Italic
-Merriweather-Display Regular
-Merriweather-Display Italic
-Merriweather-Display Light 
-Merriweather-Display Light Italic
+ 	- Merriweather-Display Black
+ 	- Merriweather-Display Black Italic
+ 	- Merriweather-Display Bold
+ 	- Merriweather-Display Bold Italic
+ 	- Merriweather-Display Regular
+ 	- Merriweather-Display Italic
+ 	- Merriweather-Display Light
+ 	- Merriweather-Display Light Italic
 
-Merriweather-Display SemiCondensed Light 
-Merriweather-Display SemiCondensed Light Italic
-Merriweather-Display SemiCondensed Regular
-Merriweather-Display SemiCondensed Italic
-Merriweather-Display SemiCondensed Bold 
-Merriweather-Display SemiCondensed Bold Italic
-Merriweather-Display SemiCondensed Black 
-Merriweather-Display SemiCondensed Black Italic
+ 	- Merriweather-Display SemiCondensed Light
+ 	- Merriweather-Display SemiCondensed Light Italic
+ 	- Merriweather-Display SemiCondensed Regular
+ 	- Merriweather-Display SemiCondensed Italic
+ 	- Merriweather-Display SemiCondensed Bold
+ 	- Merriweather-Display SemiCondensed Bold Italic
+ 	- Merriweather-Display SemiCondensed Black
+ 	- Merriweather-Display SemiCondensed Black Italic
 
-Merriweather-Display SemiExpanded Light 
-Merriweather-Display SemiExpanded Light Italic
-Merriweather-Display SemiExpanded Regular
-Merriweather-Display SemiExpanded Italic
-Merriweather-Display SemiExpanded Bold 
-Merriweather-Display SemiExpanded Bold Italic
-Merriweather-Display SemiExpanded Black 
-Merriweather-Display SemiExpanded Black Italic
+ 	- Merriweather-Display SemiExpanded Light
+ 	- Merriweather-Display SemiExpanded Light Italic
+ 	- Merriweather-Display SemiExpanded Regular
+ 	- Merriweather-Display SemiExpanded Italic
+ 	- Merriweather-Display SemiExpanded Bold
+ 	- Merriweather-Display SemiExpanded Bold Italic
+ 	- Merriweather-Display SemiExpanded Black
+ 	- Merriweather-Display SemiExpanded Black Italic
 
-Merriweather-Big Light 
-Merriweather-Big Light Italic
-Merriweather-Big Regular
-Merriweather-Big Italic
-Merriweather-Big Bold 
-Merriweather-Big Bold Italic
-Merriweather-Big Black 
-Merriweather-Big Black Italic
+ 	- Merriweather-Big Light
+ 	- Merriweather-Big Light Italic
+ 	- Merriweather-Big Regular
+ 	- Merriweather-Big Italic
+ 	- Merriweather-Big Bold
+ 	- Merriweather-Big Bold Italic
+ 	- Merriweather-Big Black
+ 	- Merriweather-Big Black Italic
 
-Merriweather-Big SemiCondensed Light 
-Merriweather-Big SemiCondensed Light Italic
-Merriweather-Big SemiCondensed Regular
-Merriweather-Big SemiCondensed Italic
-Merriweather-Big SemiCondensed Bold 
-Merriweather-Big SemiCondensed Bold Italic
-Merriweather-Big SemiCondensed Black 
-Merriweather-Big SemiCondensed Black Italic
+ 	- Merriweather-Big SemiCondensed Light
+ 	- Merriweather-Big SemiCondensed Light Italic
+ 	- Merriweather-Big SemiCondensed Regular
+ 	- Merriweather-Big SemiCondensed Italic
+ 	- Merriweather-Big SemiCondensed Bold
+ 	- Merriweather-Big SemiCondensed Bold Italic
+ 	- Merriweather-Big SemiCondensed Black
+ 	- Merriweather-Big SemiCondensed Black Italic
 
-Merriweather-Big SemiExpanded Light 
-Merriweather-Big SemiExpanded Light Italic
-Merriweather-Big SemiExpanded Regular
-Merriweather-Big SemiExpanded Italic
-Merriweather-Big SemiExpanded Bold 
-Merriweather-Big SemiExpanded Bold Italic
-Merriweather-Big SemiExpanded Black 
-Merriweather-Big SemiExpanded Black Italic
+ 	- Merriweather-Big SemiExpanded Light Italic
+ 	- Merriweather-Big SemiExpanded Regular
+ 	- Merriweather-Big SemiExpanded Italic
+ 	- Merriweather-Big SemiExpanded Bold
+ 	- Merriweather-Big SemiExpanded Bold Italic
+ 	- Merriweather-Big SemiExpanded Black
+ 	- Merriweather-Big SemiExpanded Black Italic
