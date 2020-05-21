@@ -25,15 +25,15 @@ Merriweather is a Unicode typeface family that supports languages that use the L
 
 ## Complete Language Coverage
 
-###Latin language support includes:
+### Latin language support includes:
 Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (Latin), Bemba, Bikol, Bislama, Bosnian, Breton, Cape Verdean Creole, Catalan, Cebuano, Chamorro, Chavacano, Chichewa, Chickasaw, Cimbrian, Cofán, Cornish, Corsican, Creek, Crimean Tatar (Latin), Croatian, Czech, Danish, Dawan, Delaware, Dholuo, Drehu, Dutch, English, Esperanto, Estonian, Faroese, Fijian, Filipino, Finnish, Folkspraak, French, Frisian, Friulian, Gagauz (Latin), Galician, Ganda, Genoese, German, Gikuyu, Gooniyandi, Greenlandic (Kalaallisut), Guadeloupean Creole, Gwich’in, Haitian Creole, Hän, Hawaiian, Hiligaynon, Hopi, Hotcąk (Latin), Hungarian, Icelandic, Ido, Igbo, Ilocano, Indonesian, Interglossa, Interlingua, Irish, Istro-Romanian, Italian, Jamaican, Javanese (Latin), Jèrriais, Kaingang, Kala Lagaw Ya, Kapampangan (Latin), Kaqchikel, Karakalpak (Latin), Karelian (Latin), Kashubian, Kikongo, Kinyarwanda, Kiribati, Kirundi, Klingon, Kurdish (Latin), Ladin, Latin, Latino sine Flexione, Latvian, Lithuanian, Lojban, Lombard, Low Saxon, Luxembourgish, Maasai, Makhuwa, Malay, Maltese, Manx, Māori, Marquesan, Megleno-Romanian, Meriam Mir, Mirandese, Mohawk, Moldovan, Montagnais, Montenegrin, Murrinh-Patha, Nagamese Creole, Nahuatl, Ndebele, Neapolitan, Ngiyambaa, Niuean, Noongar, Norwegian, Novial, Occidental, Occitan, Old Icelandic, Old Norse, Onĕipŏt, Oshiwambo, Ossetian (Latin), Palauan, Papiamento, Piedmontese, Polish, Portuguese, Potawatomi, Q’eqchi’, Quechua, Rarotongan, Romanian, Romansh, Rotokas, Sami (Inari Sami), Sami (Lule Sami), Sami (Northern Sami), Sami (Southern Sami), Samoan, Sango, Saramaccan, Sardinian, Scottish Gaelic, Serbian (Latin), Seri, Seychellois Creole, Shawnee, Shona, Sicilian, Silesian, Slovak, Slovenian, Slovio (Latin), Somali, Sorbian (Lower Sorbian), Sorbian (Upper Sorbian), Sotho (Northern), Sotho (Southern), Spanish, Sranan, Sundanese (Latin), Swahili, Swazi, Swedish, Tagalog, Tahitian, Tetum, Tok Pisin, Tokelauan, Tongan, Tshiluba, Tsonga, Tswana, Tumbuka, Turkish, Turkmen (Latin), Tuvaluan, Tzotzil, Uzbek (Latin), Venetian, Vepsian, Volapük, Võro, Wallisian, Walloon, Waray-Waray, Warlpiri, Wayuu, Welsh, Wik-Mungkan, Wiradjuri, Wolof, Xavante, Xhosa, Yapese, Yindjibarndi, Zapotec, Zarma, Zazaki, Zulu, Zuni
 
-###Cyrillic language support includes:
+### Cyrillic language support includes:
 Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chukchi, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Enets, Erzya, Eskimo, Even, Evenki, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Itelmen, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khanty, Khinalugh, Kildin Sami, Komi, Koryak, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mansi, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nenets, Nganasan, Nogai, Oroch, Orok, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tati, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Ulch, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern), Yukaghir, Yupik.
 
-##The following data provided from https://www.alphabet-type.com/tools/charset-checker/
+## The following data provided from https://www.alphabet-type.com/tools/charset-checker/
 
-###This release fully supports the following Character sets:
+	### This release fully supports the following Character sets:
 	####MacOS
 	MacOS Roman (Standard Latin)
 	MacOS Central European Latin
@@ -43,7 +43,7 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	MacOS Romanian
 	MacOS Turkish
 
-###Partial support of the following character sets is provided:
+	### Partial support of the following character sets is provided:
 	####Unicode
 	0000-007F: Basic Latin 74.2%
 	0080-00FF: Latin-1 Supplement 75.0%
@@ -58,7 +58,7 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	2150-218F: Number Forms 23.3%
 	2190-21FF: Arrows 8.9%
 	
-	####ISO 8859
+	#### ISO 8859
 	8859-1 Latin-1 Western European 74.6%
 	8859-2 Latin-2 Central European 74.6%
 	8859-3 Latin-3 South European 73.9%
@@ -71,7 +71,7 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	8859-15 Latin-9 74.6%
 	8859-16 Latin-10 South-Eastern European 74.6%
 	
-	####MS DOS
+	#### MS DOS
 	MS DOS 437 Latin US 61.7%
 	MS DOS 737 Greek (437G) 43.0%
 	MS DOS 775 Baltic 75.0%
@@ -87,7 +87,7 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	MS DOS 866 Cyrillic 68.0%
 	MS DOS 869 Greek-Modern 47.8%
 	
-	MS Windows
+	#### MS Windows
 	MS Windows 1250 Central European Latin 86.9%
 	MS Windows 1251 Cyrillic 87.1%
 	MS Windows 1252 Western (Standard Latin) 86.9%
