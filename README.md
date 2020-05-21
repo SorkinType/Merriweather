@@ -31,10 +31,10 @@ Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragones
 ### Cyrillic language support includes:
 Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyrillic), Bagvalal Balkar, Bashkir, Belarusian (Cyrillic), Bosnian (Cyrillic), Botlikh, Budukh, Bulgarian, Buryat, Chamalal, Chechen, Chukchi, Chuvash, Crimean Tatar (Cyrillic), Croatian (Cyrillic), Dargwa/Dargin, Dungan, Enets, Erzya, Eskimo, Even, Evenki, Gagauz (Cyrillic), Godoberi, Hinukh, Hunzib, Ingush, Itelmen, Juhuri/çuhuri (Cyrillic), Kabardian, Kalmyk, Karachay, Karaim (Cyrillic), Karakalpak (Cyrillic), Karata, Kazakh, Ket (Cyrillic), Khakas (Cyrillic), Khanty, Khinalugh, Kildin Sami, Komi, Koryak, Krymchak, Kryts, Kubachi, Kumyk, Kurdish (Cyrillic), Kurdish (Cyrillic), Kyrgyz (Cyrillic), Lak, Lezgian, Lingua Franca Nova (Cyrillic), Macedonian, Mansi, Mari (Hill and Meadow), Moksha, Moldovan (Cyrillic), Mongolian (Cyrillic), Montenigrin (Cyrillic), Nanai, Nenets, Nganasan, Nogai, Oroch, Orok, Ossetian, Russian, Rusyn, Rutul, Sakha/Yakut, Serbian (Cyrillic), Shor, Slovio, Tabassaran, Tajik, Talysh (Cyrillic), Tat, Tatar, Tati, Tindi, Tofa, Tsakhur (Cyrillic), Tsez, Turkmen, Tuvan/Tuvinian, Udi, Udmurt, Ukrainian, Ulch, Urum, Uyghur (Cyrillic), Uzbek (Cyrillic), Votik (Cyrillic), Wakhi (Cyrillic), West Polesian, Yaghnobi (Cyrillic), Yukaghir (Northern and Southern), Yukaghir, Yupik.
 
-## The following data provided from https://www.alphabet-type.com/tools/charset-checker/
+### The following data provided from https://www.alphabet-type.com/tools/charset-checker/
 
-	### This release fully supports the following Character sets:
-	####MacOS
+#### This release fully supports the following Character sets:
+##### MacOS
 	MacOS Roman (Standard Latin)
 	MacOS Central European Latin
 	MacOS Croatian
@@ -43,8 +43,8 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	MacOS Romanian
 	MacOS Turkish
 
-	### Partial support of the following character sets is provided:
-	####Unicode
+#### Partial support of the following character sets is provided:
+##### Unicode
 	0000-007F: Basic Latin 74.2%
 	0080-00FF: Latin-1 Supplement 75.0%
 	0100-017F: Latin Extended-A 98.4%
@@ -58,7 +58,7 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	2150-218F: Number Forms 23.3%
 	2190-21FF: Arrows 8.9%
 	
-	#### ISO 8859
+##### ISO 8859
 	8859-1 Latin-1 Western European 74.6%
 	8859-2 Latin-2 Central European 74.6%
 	8859-3 Latin-3 South European 73.9%
@@ -71,7 +71,7 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	8859-15 Latin-9 74.6%
 	8859-16 Latin-10 South-Eastern European 74.6%
 	
-	#### MS DOS
+##### MS DOS
 	MS DOS 437 Latin US 61.7%
 	MS DOS 737 Greek (437G) 43.0%
 	MS DOS 775 Baltic 75.0%
@@ -87,7 +87,7 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 	MS DOS 866 Cyrillic 68.0%
 	MS DOS 869 Greek-Modern 47.8%
 	
-	#### MS Windows
+##### MS Windows
 	MS Windows 1250 Central European Latin 86.9%
 	MS Windows 1251 Cyrillic 87.1%
 	MS Windows 1252 Western (Standard Latin) 86.9%
