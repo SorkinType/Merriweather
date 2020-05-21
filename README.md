@@ -34,66 +34,67 @@ Abaza, Abkhaz, Adyghe, Agul, Akhvakh, Altay, Andi, Archi, Avar, Azerbaijani (Cyr
 ##The following data provided from https://www.alphabet-type.com/tools/charset-checker/
 
 ###This release fully supports the following Character sets:
-MacOS Roman (Standard Latin)
-MacOS Central European Latin
-MacOS Croatian
-MacOS Cyrillic
-MacOS Iceland
-MacOS Romanian
-MacOS Turkish
+	####MacOS
+	MacOS Roman (Standard Latin)
+	MacOS Central European Latin
+	MacOS Croatian
+	MacOS Cyrillic
+	MacOS Iceland
+	MacOS Romanian
+	MacOS Turkish
 
 ###Partial support of the following character sets is provided:
-Unicode
-0000-007F: Basic Latin 74.2%
-0080-00FF: Latin-1 Supplement 75.0%
-0100-017F: Latin Extended-A 98.4%
-0180-024F: Latin Extended-B 39.9%
-02B0-02FF: Spacing Modifier Letters 23.8%
-0300-036F: Combining Diacritical Marks 24.1%
-0400-04FF: Cyrillic 86.7%
-0500-052F: Cyrillic Supplement 66.7%
-1E00-1EFF: Latin Extended Additional 70.3%
-20A0-20CF: Currency Symbols 64.5%
-2150-218F: Number Forms 23.3%
-2190-21FF: Arrows 8.9%
-
-ISO 8859
-8859-1 Latin-1 Western European 74.6%
-8859-2 Latin-2 Central European 74.6%
-8859-3 Latin-3 South European 73.9%
-8859-4 Latin-4 North European 74.6%
-8859-5 Latin/Cyrillic 74.6%
-8859-7 Latin/Greek 47.0%
-8859-9 Latin-5 Turkish 74.6%
-8859-10 Latin-6 Nordic 74.6%
-8859-13 Latin-7 Baltic Rim 74.6%
-8859-15 Latin-9 74.6%
-8859-16 Latin-10 South-Eastern European 74.6%
-
-MS DOS
-MS DOS 437 Latin US 61.7%
-MS DOS 737 Greek (437G) 43.0%
-MS DOS 775 Baltic 75.0%
-MS DOS 850 Latin 1 75.4%
-MS DOS 852 Latin 2 75.8%
-MS DOS 855 Cyrillic 75.8%
-MS DOS 857 Turkish 75.5%
-MS DOS 860 Portuguese 62.1%
-MS DOS 861 Icelandic 61.7%
-MS DOS 862 Hebrew 51.2%
-MS DOS 863 Canadian-French 61.3%
-MS DOS 865 Nordic 61.7%
-MS DOS 866 Cyrillic 68.0%
-MS DOS 869 Greek-Modern 47.8%
-
-MS Windows
-MS Windows 1250 Central European Latin 86.9%
-MS Windows 1251 Cyrillic 87.1%
-MS Windows 1252 Western (Standard Latin) 86.9%
-MS Windows 1253 Greek 58.2%
-MS Windows 1254 Turkish Latin 86.7%
-MS Windows 1257 Baltic Latin 86.5%
-MS Windows 1258 Vietnamese 86.6%
+	####Unicode
+	0000-007F: Basic Latin 74.2%
+	0080-00FF: Latin-1 Supplement 75.0%
+	0100-017F: Latin Extended-A 98.4%
+	0180-024F: Latin Extended-B 39.9%
+	02B0-02FF: Spacing Modifier Letters 23.8%
+	0300-036F: Combining Diacritical Marks 24.1%
+	0400-04FF: Cyrillic 86.7%
+	0500-052F: Cyrillic Supplement 66.7%
+	1E00-1EFF: Latin Extended Additional 70.3%
+	20A0-20CF: Currency Symbols 64.5%
+	2150-218F: Number Forms 23.3%
+	2190-21FF: Arrows 8.9%
+	
+	####ISO 8859
+	8859-1 Latin-1 Western European 74.6%
+	8859-2 Latin-2 Central European 74.6%
+	8859-3 Latin-3 South European 73.9%
+	8859-4 Latin-4 North European 74.6%
+	8859-5 Latin/Cyrillic 74.6%
+	8859-7 Latin/Greek 47.0%
+	8859-9 Latin-5 Turkish 74.6%
+	8859-10 Latin-6 Nordic 74.6%
+	8859-13 Latin-7 Baltic Rim 74.6%
+	8859-15 Latin-9 74.6%
+	8859-16 Latin-10 South-Eastern European 74.6%
+	
+	####MS DOS
+	MS DOS 437 Latin US 61.7%
+	MS DOS 737 Greek (437G) 43.0%
+	MS DOS 775 Baltic 75.0%
+	MS DOS 850 Latin 1 75.4%
+	MS DOS 852 Latin 2 75.8%
+	MS DOS 855 Cyrillic 75.8%
+	MS DOS 857 Turkish 75.5%
+	MS DOS 860 Portuguese 62.1%
+	MS DOS 861 Icelandic 61.7%
+	MS DOS 862 Hebrew 51.2%
+	MS DOS 863 Canadian-French 61.3%
+	MS DOS 865 Nordic 61.7%
+	MS DOS 866 Cyrillic 68.0%
+	MS DOS 869 Greek-Modern 47.8%
+	
+	MS Windows
+	MS Windows 1250 Central European Latin 86.9%
+	MS Windows 1251 Cyrillic 87.1%
+	MS Windows 1252 Western (Standard Latin) 86.9%
+	MS Windows 1253 Greek 58.2%
+	MS Windows 1254 Turkish Latin 86.7%
+	MS Windows 1257 Baltic Latin 86.5%
+	MS Windows 1258 Vietnamese 86.6%
 
 ## Contributing
 
@@ -243,10 +244,11 @@ If you've set up your dependencies correctly, it should build and place fonts in
 * Quotes ‘“”’ scaled to work better with high rez screens.
 * Tal Lemming OT code for fractions
 * Many adjustment to diacritics.
- 	- Improvements for consistency in approach between roman and Italic.
- 	- Especially improved capital diacritics which are larger and clearer now.
- 	- Vietnamese diacritics also especially improved
- 	- Many minor improvements to placement   - Ring and ring acute are new.
+	- Improvements for consistency in approach between roman and Italic.
+	- Especially improved capital diacritics which are larger and clearer now.
+	- Vietnamese diacritics also especially improved
+	- Many minor improvements to placement   
+	- Ring and ring acute are new.
 * Added support for Hungarian (leftanglebracket-math uni27E8, rightanglebracket-math uni27E9) and Uzbek and Hawaiian (uni02bb)
 * Improved symbols: radical, infinity, Ohm, literSign
 * Improved currency symbols
@@ -396,25 +398,25 @@ Italic specific fixes
 If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D).
 This list is in first name alphabetical order.
 
- 	- N: Alexei Vanyashin
- 	- E: a@cyreal.org
- 	- D: Design support (Cyrillic)
+	- N: Alexei Vanyashin
+	E: a@cyreal.org
+	D: Design support (Cyrillic)
 
- 	- N: CrystalType    
- 	- E: stellarmaris.novachrystalia@gmail.com   
- 	- D: Design support (Vietnamese)      
- 	
- 	- N: Eben Sorkin   
- 	- E: sorkineben@gmail.com   
- 	- W: www.sorkintype.com   
- 	- D: Designer and Mastering
- 	
- 	N: Marc Foley   
- 	E: m.foley.88@gmail.com   
- 	D: Engineer      
- 	
- 	N: Mirko Iverson    
- 	E: bghryct@gmail.com
+	N: CrystalType    
+	E: stellarmaris.novachrystalia@gmail.com   
+	D: Design support (Vietnamese)      
+	
+	N: Eben Sorkin   
+	E: sorkineben@gmail.com   
+	W: www.sorkintype.com   
+	D: Designer and Mastering
+	
+	N: Marc Foley   
+	E: m.foley.88@gmail.com   
+	D: Engineer      
+	
+	N: Mirko Iverson    
+	E: bghryct@gmail.com
 	D: Engineer  
 	
 	N: Stephen Nixon   
@@ -430,136 +432,136 @@ To view the copyright and specific terms and conditions please refer to [OFL.txt
 
 ## 120 static styles:
 
- 	- Merriweather-Light
- 	- Merriweather-Light Italic
- 	- Merriweather-Regular
- 	- Merriweather-Italic
- 	- Merriweather-Bold
- 	- Merriweather-Bold Italic
- 	- Merriweather-Black
- 	- Merriweather-Black Italic
+	Merriweather-Light
+	Merriweather-Light Italic
+	Merriweather-Regular
+	Merriweather-Italic
+	Merriweather-Bold
+	Merriweather-Bold Italic
+	Merriweather-Black
+	Merriweather-Black Italic
 
- 	- Merriweather-SemiCondensed Light
- 	- Merriweather-SemiCondensed Light Italic
- 	- Merriweather-SemiCondensed Regular
- 	- Merriweather-SemiCondensed Italic
- 	- Merriweather-SemiCondensed Bold
- 	- Merriweather-SemiCondensed Bold Italic
- 	- Merriweather-SemiCondensed Black
- 	- Merriweather-SemiCondensed Black Italic
+	Merriweather-SemiCondensed Light
+	Merriweather-SemiCondensed Light Italic
+	Merriweather-SemiCondensed Regular
+	Merriweather-SemiCondensed Italic
+	Merriweather-SemiCondensed Bold
+	Merriweather-SemiCondensed Bold Italic
+	Merriweather-SemiCondensed Black
+	Merriweather-SemiCondensed Black Italic
 
- 	- Merriweather-SemiExpanded Light
- 	- Merriweather-SemiExpanded Light Italic
- 	- Merriweather-SemiExpanded Regular
- 	- Merriweather-SemiExpanded Italic
- 	- Merriweather-SemiExpanded Bold
- 	- Merriweather-SemiExpanded Bold Italic
- 	- Merriweather-SemiExpanded Black
- 	- Merriweather-SemiExpanded Black Italic
+	Merriweather-SemiExpanded Light
+	Merriweather-SemiExpanded Light Italic
+	Merriweather-SemiExpanded Regular
+	Merriweather-SemiExpanded Italic
+	Merriweather-SemiExpanded Bold
+	Merriweather-SemiExpanded Bold Italic
+	Merriweather-SemiExpanded Black
+	Merriweather-SemiExpanded Black Italic
 
- 	- Merriweather-Text Light
- 	- Merriweather-Text Light Italic
- 	- Merriweather-Text Regular
- 	- Merriweather-Text Italic
- 	- Merriweather-Text Bold
- 	- Merriweather-Text Bold Italic
- 	- Merriweather-Text Black
- 	- Merriweather-Text Black Italic
+	Merriweather-Text Light
+	Merriweather-Text Light Italic
+	Merriweather-Text Regular
+	Merriweather-Text Italic
+	Merriweather-Text Bold
+	Merriweather-Text Bold Italic
+	Merriweather-Text Black
+	Merriweather-Text Black Italic
 
- 	- Merriweather-Text SemiCondensed Light
- 	- Merriweather-Text SemiCondensed Light Italic
- 	- Merriweather-Text SemiCondensed Regular
- 	- Merriweather-Text SemiCondensed Italic
- 	- Merriweather-Text SemiCondensed Bold
- 	- Merriweather-Text SemiCondensed Bold Italic
- 	- Merriweather-Text SemiCondensed Black
- 	- Merriweather-Text SemiCondensed Black Italic
+	Merriweather-Text SemiCondensed Light
+	Merriweather-Text SemiCondensed Light Italic
+	Merriweather-Text SemiCondensed Regular
+	Merriweather-Text SemiCondensed Italic
+	Merriweather-Text SemiCondensed Bold
+	Merriweather-Text SemiCondensed Bold Italic
+	Merriweather-Text SemiCondensed Black
+	Merriweather-Text SemiCondensed Black Italic
 
- 	- Merriweather-Text SemiExpanded Light
- 	- Merriweather-Text SemiExpanded Light Italic
- 	- Merriweather-Text SemiExpanded Regular
- 	- Merriweather-Text SemiExpanded Italic
- 	- Merriweather-Text SemiExpanded Bold
- 	- Merriweather-Text SemiExpanded Bold Italic
- 	- Merriweather-Text SemiExpanded Black
- 	- Merriweather-Text SemiExpanded Black Italic
+	Merriweather-Text SemiExpanded Light
+	Merriweather-Text SemiExpanded Light Italic
+	Merriweather-Text SemiExpanded Regular
+	Merriweather-Text SemiExpanded Italic
+	Merriweather-Text SemiExpanded Bold
+	Merriweather-Text SemiExpanded Bold Italic
+	Merriweather-Text SemiExpanded Black
+	Merriweather-Text SemiExpanded Black Italic
 
- 	- Merriweather-Head Light
- 	- Merriweather-Head Light Italic
- 	- Merriweather-Head Regular
- 	- Merriweather-Head Italic
- 	- Merriweather-Head Bold
- 	- Merriweather-Head Bold Italic
- 	- Merriweather-Head Black
- 	- Merriweather-Head Black Italic
+	Merriweather-Head Light
+	Merriweather-Head Light Italic
+	Merriweather-Head Regular
+	Merriweather-Head Italic
+	Merriweather-Head Bold
+	Merriweather-Head Bold Italic
+	Merriweather-Head Black
+	Merriweather-Head Black Italic
 
- 	- Merriweather-Head SemiCondensed Light
- 	- Merriweather-Head SemiCondensed Light Italic
- 	- Merriweather-Head SemiCondensed Regular
- 	- Merriweather-Head SemiCondensed Italic
- 	- Merriweather-Head SemiCondensed Bold
- 	- Merriweather-Head SemiCondensed Bold Italic
- 	- Merriweather-Head SemiCondensed Black
- 	- Merriweather-Head SemiCondensed Black Italic
+	Merriweather-Head SemiCondensed Light
+	Merriweather-Head SemiCondensed Light Italic
+	Merriweather-Head SemiCondensed Regular
+	Merriweather-Head SemiCondensed Italic
+	Merriweather-Head SemiCondensed Bold
+	Merriweather-Head SemiCondensed Bold Italic
+	Merriweather-Head SemiCondensed Black
+	Merriweather-Head SemiCondensed Black Italic
 
- 	- Merriweather-Head SemiExpanded Light
- 	- Merriweather-Head SemiExpanded Light Italic
- 	- Merriweather-Head SemiExpanded Regular
- 	- Merriweather-Head SemiExpanded Italic
- 	- Merriweather-Head SemiExpanded Bold
- 	- Merriweather-Head SemiExpanded Bold Italic
- 	- Merriweather-Head SemiExpanded Black
- 	- Merriweather-Head SemiExpanded Black Italic
+	Merriweather-Head SemiExpanded Light
+	Merriweather-Head SemiExpanded Light Italic
+	Merriweather-Head SemiExpanded Regular
+	Merriweather-Head SemiExpanded Italic
+	Merriweather-Head SemiExpanded Bold
+	Merriweather-Head SemiExpanded Bold Italic
+	Merriweather-Head SemiExpanded Black
+	Merriweather-Head SemiExpanded Black Italic
 
- 	- Merriweather-Display Black
- 	- Merriweather-Display Black Italic
- 	- Merriweather-Display Bold
- 	- Merriweather-Display Bold Italic
- 	- Merriweather-Display Regular
- 	- Merriweather-Display Italic
- 	- Merriweather-Display Light
- 	- Merriweather-Display Light Italic
+	Merriweather-Display Black
+	Merriweather-Display Black Italic
+	Merriweather-Display Bold
+	Merriweather-Display Bold Italic
+	Merriweather-Display Regular
+	Merriweather-Display Italic
+	Merriweather-Display Light
+	Merriweather-Display Light Italic
 
- 	- Merriweather-Display SemiCondensed Light
- 	- Merriweather-Display SemiCondensed Light Italic
- 	- Merriweather-Display SemiCondensed Regular
- 	- Merriweather-Display SemiCondensed Italic
- 	- Merriweather-Display SemiCondensed Bold
- 	- Merriweather-Display SemiCondensed Bold Italic
- 	- Merriweather-Display SemiCondensed Black
- 	- Merriweather-Display SemiCondensed Black Italic
+	Merriweather-Display SemiCondensed Light
+	Merriweather-Display SemiCondensed Light Italic
+	Merriweather-Display SemiCondensed Regular
+	Merriweather-Display SemiCondensed Italic
+	Merriweather-Display SemiCondensed Bold
+	Merriweather-Display SemiCondensed Bold Italic
+	Merriweather-Display SemiCondensed Black
+	Merriweather-Display SemiCondensed Black Italic
 
- 	- Merriweather-Display SemiExpanded Light
- 	- Merriweather-Display SemiExpanded Light Italic
- 	- Merriweather-Display SemiExpanded Regular
- 	- Merriweather-Display SemiExpanded Italic
- 	- Merriweather-Display SemiExpanded Bold
- 	- Merriweather-Display SemiExpanded Bold Italic
- 	- Merriweather-Display SemiExpanded Black
- 	- Merriweather-Display SemiExpanded Black Italic
+	Merriweather-Display SemiExpanded Light
+	Merriweather-Display SemiExpanded Light Italic
+	Merriweather-Display SemiExpanded Regular
+	Merriweather-Display SemiExpanded Italic
+	Merriweather-Display SemiExpanded Bold
+	Merriweather-Display SemiExpanded Bold Italic
+	Merriweather-Display SemiExpanded Black
+	Merriweather-Display SemiExpanded Black Italic
 
- 	- Merriweather-Big Light
- 	- Merriweather-Big Light Italic
- 	- Merriweather-Big Regular
- 	- Merriweather-Big Italic
- 	- Merriweather-Big Bold
- 	- Merriweather-Big Bold Italic
- 	- Merriweather-Big Black
- 	- Merriweather-Big Black Italic
+	Merriweather-Big Light
+	Merriweather-Big Light Italic
+	Merriweather-Big Regular
+	Merriweather-Big Italic
+	Merriweather-Big Bold
+	Merriweather-Big Bold Italic
+	Merriweather-Big Black
+	Merriweather-Big Black Italic
 
- 	- Merriweather-Big SemiCondensed Light
- 	- Merriweather-Big SemiCondensed Light Italic
- 	- Merriweather-Big SemiCondensed Regular
- 	- Merriweather-Big SemiCondensed Italic
- 	- Merriweather-Big SemiCondensed Bold
- 	- Merriweather-Big SemiCondensed Bold Italic
- 	- Merriweather-Big SemiCondensed Black
- 	- Merriweather-Big SemiCondensed Black Italic
+	Merriweather-Big SemiCondensed Light
+	Merriweather-Big SemiCondensed Light Italic
+	Merriweather-Big SemiCondensed Regular
+	Merriweather-Big SemiCondensed Italic
+	Merriweather-Big SemiCondensed Bold
+	Merriweather-Big SemiCondensed Bold Italic
+	Merriweather-Big SemiCondensed Black
+	Merriweather-Big SemiCondensed Black Italic
 
- 	- Merriweather-Big SemiExpanded Light Italic
- 	- Merriweather-Big SemiExpanded Regular
- 	- Merriweather-Big SemiExpanded Italic
- 	- Merriweather-Big SemiExpanded Bold
- 	- Merriweather-Big SemiExpanded Bold Italic
- 	- Merriweather-Big SemiExpanded Black
- 	- Merriweather-Big SemiExpanded Black Italic
+	Merriweather-Big SemiExpanded Light Italic
+	Merriweather-Big SemiExpanded Regular
+	Merriweather-Big SemiExpanded Italic
+	Merriweather-Big SemiExpanded Bold
+	Merriweather-Big SemiExpanded Bold Italic
+	Merriweather-Big SemiExpanded Black
+	Merriweather-Big SemiExpanded Black Italic
