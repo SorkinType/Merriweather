@@ -25,7 +25,7 @@ STAT = {
                 },
                 {
                     "name": "Head",
-                    "value": 60
+                    "value": 70
                 },
                 {
                     "name": "Display",
