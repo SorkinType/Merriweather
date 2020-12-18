@@ -28,20 +28,20 @@ cd ..
 
 # ============================================================================
 # Autohinting ================================================================
-
-statics=$(ls fonts/ttfs/*.ttf)
-echo hello
-for file in $statics; do 
-    echo "fix DSIG in " ${file}
-    gftools fix-dsig --autofix ${file}
-
-    echo "TTFautohint " ${file}
-    # autohint with detailed info
-    hintedFile=${file/".ttf"/"-hinted.ttf"}
-    ttfautohint -I ${file} ${hintedFile} 
-    cp ${hintedFile} ${file}
-    rm -rf ${hintedFile}
-done
+# 
+# statics=$(ls fonts/ttfs/*.ttf)
+# echo hello
+# for file in $statics; do 
+#     echo "fix DSIG in " ${file}
+#     gftools fix-dsig --autofix ${file}
+# 
+#     echo "TTFautohint " ${file}
+#     # autohint with detailed info
+#     hintedFile=${file/".ttf"/"-hinted.ttf"}
+#     ttfautohint -I ${file} ${hintedFile} 
+#     cp ${hintedFile} ${file}
+#     rm -rf ${hintedFile}
+# done
 
 
 # ============================================================================
