@@ -160,7 +160,7 @@ Download the latest version of TTFautohint from https://sourceforge.net/projects
 
 The first time you run the build, you will need to give run permissions to the build scripts.
 
-On the command line, navigate to the project folder (`cd Encode-Sans`), and then give permissions to the shell scripts with:
+On the command line, navigate to the project folder (`cd Merriweather`), and then give permissions to the shell scripts with:
 
 ```bash
 chmod +x sources/*.sh
