@@ -138,7 +138,7 @@ If you wish exit out of the virtual environment, you can use the command `deacti
 Once you've activated the venv, install requirements by pointing pip to the `requirements.txt` file:
 
 ```bash
-brewinstall zlib jpeg
+brew install zlib jpeg
 pip install -r requirements.txt
 ```
 
